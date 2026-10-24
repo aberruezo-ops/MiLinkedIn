@@ -17,6 +17,19 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | B8 | Narrativa | T3 | El cliente que llegó con la solución decidida: preventa real de Alejandro (caso a aportar, anonimizado). | Confesión con fecha. | idea, falta caso real |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
+## Calendario previsto (se ajusta según aprobaciones y respuestas de Alejandro)
+
+| Semana | Martes (Autoridad) | Miércoles (Comunidad) | Jueves (Narrativa) |
+|---|---|---|---|
+| 27-29 oct | B0 Presentación de Synergós (programado) | B6 Pregunta: quién sabe lo que no está escrito | N1 Enzyme: el líder que no se ve en la entrevista (ya redactado antes, se reescribe en español de España) |
+| 3-5 nov | B1 La gestión del cambio llega tarde (caso compuesto) | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? | N2 Getronics a Minsait: cambiar el reloj, no el criterio |
+| 10-12 nov | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA | C3 Reconocimiento a alguien que enseñó algo no escrito (pendiente nombre real de Alejandro) | N3 Corregir demasiado rápido: el error de mentoría |
+| 17-19 nov | B3 Zuboff: automatizar o informar, la pregunta de puerta de Synergós | C4 Pregunta: la última vez que una herramienta te quitó criterio en vez de dártelo | N4 Del story bank, si hay respuestas; si no, Getronics: 3.800 oportunidades y el 19% |
+| 24-26 nov | B4 Polanyi: lo que el experto sabe y no puede explicar | C5 Encuesta: ¿en qué fase entran las personas en tu organización? | N5 Del story bank |
+| 1-3 dic | B5 Brynjolfsson: la trampa de Turing | C6 por definir | N6 Del story bank |
+
+Los posts N1, N2 y N3 ya existen en borrador (en voseo, de la etapa anterior); se reescriben en español de España antes de presentarlos. B9 (qué es nuevo en la IA generativa) entra cuando se cierre P1, probablemente en diciembre.
+
 ## Reglas
 
 - Un post por tesis y ángulo. No repetir fórmula de gancho dentro de la misma semana.

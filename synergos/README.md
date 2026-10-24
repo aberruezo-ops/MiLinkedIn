@@ -21,6 +21,7 @@ Este cuaderno es la memoria viva del pensamiento. No es el método terminado: es
 - **A3. Synergós habla a quien dirige la transformación dentro de la organización**, no a quien la vende.
 - **A4. Nada inventado presentado como real.** Los casos compuestos se etiquetan como tales. Las cifras solo si están verificadas en `02-fuentes.md`.
 - **A5. En público, siempre Synergós.** Nunca el nombre de trabajo interno.
+- **A6. Hashtags.** Al final del post, nunca dentro de las frases. Cinco como máximo: `#Synergos` (sin tilde, para que coincida con cómo lo escribirá la gente) más tres o cuatro de tema. En el texto, la grafía sigue siendo Synergós con tilde.
 
 ## Reglas del cuaderno
 
