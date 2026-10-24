@@ -1,6 +1,15 @@
 # Comentarios en posts ajenos
 
-Protocolo acordado el 24 oct 2026. Modo: Alejandro descubre y pasa las URLs; Claude lee, redacta, y publica por Publora tras aprobación explícita. Tope: 3 comentarios al día (el plan Starter de Publora permite 5 intentos de comentario y 5 reacciones al día; se deja margen).
+Protocolo acordado el 24 oct 2026, actualizado el mismo día. Modo objetivo: Claude descubre cada día laborable tres posts candidatos (por temas y autores definidos abajo), los muestra con el comentario propuesto, Alejandro revisa, y Claude publica por Publora tras aprobación explícita. Tope: 3 comentarios al día (el plan Starter de Publora permite 5 intentos de comentario y 5 reacciones al día; se deja margen).
+
+**Estado:** el descubrimiento automático necesita Apify (probado el 24 oct 2026: la búsqueda web no devuelve publicaciones de LinkedIn de forma fiable). Hasta que Alejandro cargue `APIFY_TOKEN` como secreto de red (host `api.apify.com`), el modo es manual: Alejandro pasa URLs y el resto del flujo es igual.
+
+## Dónde buscar (cuando haya Apify)
+
+- **Temas:** transformación digital en el sector público, adopción de IA en organizaciones, gobierno de programas, pilotos de IA que no escalan, conocimiento y personas en la transformación.
+- **Perfil de autores:** directores de transformación y de innovación, responsables de sector público en consultoras, academia aplicada, CIO y responsables de digitalización de administraciones. Lista de nombres concretos: pendiente de que Alejandro la aporte; mientras tanto, por temas.
+- **Idioma:** español primero; inglés solo si el post es muy relevante.
+- **Frescura:** posts de las últimas 48 horas, para entrar cuando la conversación está viva.
 
 ## Flujo
 
