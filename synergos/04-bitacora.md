@@ -30,3 +30,10 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - **Axioma nuevo (A1): español de España.** Los primeros borradores iban en voseo; corregido. Queda en README y en la rutina.
 - **Primer post cambia:** el martes 27 oct no sale B1 sino B0, una presentación de Synergós como espacio divulgativo y de intercambio de ideas. B1 pasa al martes siguiente.
 - **B0 aprobado y programado** en Publora para el 27 oct 2026 a las 8:30 (Madrid). Es la primera publicación real de toda la serie: hasta hoy no se había publicado nada en LinkedIn. El post compromete públicamente la cadencia "cada martes, una idea".
+
+## 24 oct 2026 (cierre del día)
+
+- Publora conectado como conector nativo; B0 programado para el 27 oct a las 8:30 con hashtags (#Synergos sin tilde).
+- Rutina de contenido movida a lunes, martes y miércoles a las 8:47: redacta el post del día siguiente, avisa, y programa en Publora para las 8:30 solo tras aprobación.
+- Apify verificado; rutina de comentarios creada (lunes a viernes, 10:17): descubre 3 posts por temas, redacta, espera aprobación, publica comentario y reacción por Publora. Competidores a evitar: Accenture, NTT Data, Deloitte, Inetum.
+- Alejandro aparca por ahora la entrevista para el story bank (P3) y el post de reconocimiento del 11 nov. Consecuencias: los jueves de Narrativa usan el material ya conocido (Enzyme, Getronics a Minsait, corregir demasiado rápido, Getronics 3.800 oportunidades); el 11 nov se hace como pregunta a la red. `05-story-bank.md` no se crea hasta que haya material real.
