@@ -14,6 +14,14 @@ Este cuaderno es la memoria viva del pensamiento. No es el método terminado: es
 | `03-backlog-posts.md` | Ideas de publicación derivadas de las tesis, con pilar, ángulo y estado. | Al cerrar un hilo de pensamiento. La rutina de contenido lo lee antes de redactar. |
 | `04-bitacora.md` | Registro cronológico de cómo evoluciona la idea: qué se discutió, qué cambió y por qué. | Al final de cada sesión de trabajo. |
 
+## Axiomas (no se discuten en cada post; se cumplen)
+
+- **A1. Español de España.** Todos los posts y todo el trabajo del cuaderno se escriben en español peninsular: tú y vosotros, nunca voseo ("tú imaginas", no "vos imaginá"; "pensad", no "piensen"). Léxico de España ("ordenador", "móvil", "vale"). Fijado por Alejandro el 24 oct 2026.
+- **A2. Lo humano es la base de la transformación.** Cualquier tesis, post o frase de Synergós tiene que ser coherente con esto.
+- **A3. Synergós habla a quien dirige la transformación dentro de la organización**, no a quien la vende.
+- **A4. Nada inventado presentado como real.** Los casos compuestos se etiquetan como tales. Las cifras solo si están verificadas en `02-fuentes.md`.
+- **A5. En público, siempre Synergós.** Nunca el nombre de trabajo interno.
+
 ## Reglas del cuaderno
 
 1. Ninguna cifra ni cita entra sin estar verificada en `02-fuentes.md`. Si no se pudo verificar, se marca así.

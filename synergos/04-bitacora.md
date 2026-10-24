@@ -21,3 +21,11 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 **Nivel de investigación acordado:** intermedio. Conocimiento propio más búsquedas web puntuales para verificar o contrastar. Nada de informes largos salvo que un hilo lo merezca.
 
 **Nota de honestidad.** Las tres cifras de mercado (MIT NANDA, Whitelane) vienen del documento base vía resúmenes de prensa. No se han verificado contra fuente primaria todavía. Marcadas así en fuentes.
+
+## 24 oct 2026 (segunda sesión). Decisiones de Alejandro y axiomas
+
+- **P4 cerrada:** Synergós es de Alejandro y habla a quien dirige la transformación dentro de la organización.
+- **P5 abierta a propósito:** la frase de una línea se irá perfilando. Idea de fondo fijada: lo humano es la base.
+- **P3:** Alejandro pidió un caso inventado presentado como propio; se descartó por riesgo (no se sostiene en entrevista ni ante ex colegas). Acordado: casos compuestos etiquetados ahora, y entrevista breve para fragmentos reales. Preguntas enviadas (piloto que no escaló, la persona que sabía lo no escrito, la puerta aprobada por calendario). Respuestas pendientes; irán a `05-story-bank.md`.
+- **Axioma nuevo (A1): español de España.** Los primeros borradores iban en voseo; corregido. Queda en README y en la rutina.
+- **Primer post cambia:** el martes 27 oct no sale B1 sino B0, una presentación de Synergós como espacio divulgativo y de intercambio de ideas. B1 pasa al martes siguiente.
