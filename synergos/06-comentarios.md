@@ -2,7 +2,7 @@
 
 Protocolo acordado el 24 oct 2026, actualizado el mismo día. Modo objetivo: Claude descubre cada día laborable tres posts candidatos (por temas y autores definidos abajo), los muestra con el comentario propuesto, Alejandro revisa, y Claude publica por Publora tras aprobación explícita. Tope: 3 comentarios al día (el plan Starter de Publora permite 5 intentos de comentario y 5 reacciones al día; se deja margen).
 
-**Estado:** el descubrimiento automático necesita Apify (probado el 24 oct 2026: la búsqueda web no devuelve publicaciones de LinkedIn de forma fiable). Hasta que Alejandro cargue `APIFY_TOKEN` como secreto de red (host `api.apify.com`), el modo es manual: Alejandro pasa URLs y el resto del flujo es igual.
+**Estado (24 oct 2026, tarde):** Apify verificado y funcionando con el secreto de red `APIFY_TOKEN`. Actor elegido: `harvestapi/linkedin-post-search` (el más usado de la tienda, sin cookies de LinkedIn; devuelve URL, activity id, fecha, autor y texto). Prueba de 5 posts: coste inferior a un céntimo. Rutina creada: lunes a viernes a las 10:17 (Madrid) descubre, elige 3, redacta y espera aprobación; publica por Publora solo tras el visto bueno. Observación de la prueba: los resultados por palabra clave traen mucho contenido de Latinoamérica y promocional; el filtro de calidad lo hace Claude al elegir, y mejorará cuando haya lista de autores objetivo. Las URLs que Alejandro pase a mano siguen valiendo y tienen prioridad.
 
 ## Dónde buscar (cuando haya Apify)
 
