@@ -21,13 +21,14 @@ Lo que todavía no sabemos o no hemos decidido. Cada pregunta indica a qué tesi
 **Afecta a:** T1 (objeción 3).
 **Por qué importa:** el documento base solo tiene un caso ilustrativo inventado. Para LinkedIn hace falta uno real, aunque sea anonimizado.
 **Qué haría falta:** que Alejandro lo aporte. No se inventa.
+**Estado (24 oct 2026):** Alejandro pidió un caso inventado presentado como propio. Se descarta por riesgo real (no se sostiene en una entrevista ni ante ex colegas) y por la regla 4 del cuaderno. Alternativa acordada en propuesta: (a) casos ilustrativos compuestos, etiquetados como tales, diseñados para cada tesis; (b) entrevista breve a Alejandro para extraer fragmentos reales anonimizados que los vayan sustituyendo. Pendiente de confirmación.
 
 ## P4. ¿Synergós es un método para consultoras o para la organización que se transforma?
 
 **Afecta a:** a todo. Cambia el lenguaje, los ejemplos y a quién se le habla en LinkedIn.
 **Por qué importa:** el documento base nace aplicado a servicios gestionados de una consultora. Alejandro lo quiere como framework propio de cara a una futura etapa. Son públicos distintos.
 **Hipótesis de partida:** el framework es de la organización; la consultora es una de las formas de aplicarlo. En LinkedIn se habla a quien dirige la transformación, no a quien la vende.
-**Decisión pendiente de Alejandro.**
+**CERRADA (24 oct 2026).** Decisión de Alejandro: el framework es suyo y le habla a quien dirige la transformación dentro de la organización. Consecuencia: ejemplos, lenguaje y preguntas de los posts se escriben desde el lado de quien decide y sufre la transformación, no desde el proveedor. "Cliente" deja de ser la palabra por defecto; se habla de "la organización", "el equipo", "quien hace el trabajo".
 
 ## P5. ¿Cuál es la frase de una línea que resume Synergós?
 
@@ -37,3 +38,4 @@ Lo que todavía no sabemos o no hemos decidido. Cada pregunta indica a qué tesi
 - "Transformación donde la tecnología amplía a las personas en vez de sustituirlas."
 - "Diagnóstico antes que solución, personas antes que herramienta."
 - "El método que pregunta primero qué saben las personas que la IA no sabe."
+**Estado (24 oct 2026):** Alejandro prefiere no fijarla todavía; se irá perfilando con los posts. Lo que sí deja fijado como idea de fondo: lo humano es la base de la transformación. Cualquier frase final tiene que decir eso.
