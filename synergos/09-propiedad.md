@@ -25,8 +25,15 @@ Nota del 26 oct 2026. Alejandro trabaja en Minsait (grupo Indra) en un puesto ce
 - **Lo que se publica y lo que se guarda:** en LinkedIn se publica el porqué y el qué (tesis, ideas, preguntas); el cómo detallado (lienzos, diagnósticos, listas de comprobación, el método operativo) se guarda para el libro, el curso o la consultoría futura. El carrusel descargable previsto será una muestra, no el método entero.
 - **Firma y licencia:** cada tarjeta lleva el nombre de Alejandro. Opcionalmente, una licencia Creative Commons BY-NC-ND en las piezas públicas: permite compartir citando, prohíbe uso comercial y derivados.
 
-## Pendiente de Alejandro
+## Confirmado por Alejandro (26 oct 2026)
 
-- Confirmar que Synergós se trabaja fuera del horario laboral y con medios propios (el mensaje del 26 oct decía "en horario"; entendemos que fuera de él).
-- Confirmar el origen del documento de método interno.
-- Leer las tres cláusulas del contrato.
+Todo Synergós, incluido el documento de método de partida, está hecho en su tiempo libre y con medios propios. Es suyo. La cautela 3 se mantiene como buena práctica (no copiar ni citar el documento en público; desarrollar desde el cuaderno), pero no por duda de titularidad.
+
+## Precauciones en marcha (orden recomendado)
+
+1. Leer las tres cláusulas del contrato (propiedad intelectual, exclusividad, no competencia). Pendiente de Alejandro.
+2. Búsqueda de anterioridades de la marca "Synergós" en OEPM y TMview; si está libre, solicitud en clase 35 (y 41). Pendiente de Alejandro; Claude prepara la búsqueda cuando lo pida.
+3. Dominio. Pendiente de Alejandro.
+4. Mantener el repositorio como prueba de autoría fechada (automático con cada commit).
+5. Frase "Opiniones propias" en el perfil y ninguna mención a la empresa ni a clientes en los posts (ya en vigor).
+6. Nada de Synergós en dispositivos, correo o herramientas de la empresa (ya en vigor).
