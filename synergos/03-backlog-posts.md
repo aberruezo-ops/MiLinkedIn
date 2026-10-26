@@ -17,18 +17,24 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | B8 | Narrativa | T3 | El cliente que llegó con la solución decidida: preventa real de Alejandro (caso a aportar, anonimizado). | Confesión con fecha. | idea, falta caso real |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
-## Calendario previsto (se ajusta según aprobaciones y respuestas de Alejandro)
+## Calendario previsto (martes y jueves Synergós, miércoles Comunidad; se ajusta según aprobaciones)
 
-| Semana | Martes (Autoridad) | Miércoles (Comunidad) | Jueves (Narrativa) SUSPENDIDO desde el 26 oct 2026 |
-|---|---|---|---|
-| 27-29 oct | B0 Presentación de Synergós (programado) | B6 Pregunta: quién sabe lo que no está escrito | N1 Enzyme: el líder que no se ve en la entrevista (ya redactado antes, se reescribe en español de España) |
-| 3-5 nov | B1 La gestión del cambio llega tarde (caso compuesto) | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? | N2 Getronics a Minsait: cambiar el reloj, no el criterio |
-| 10-12 nov | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA | C3 Reconocimiento a alguien que enseñó algo no escrito (pendiente nombre real de Alejandro) | N3 Corregir demasiado rápido: el error de mentoría |
-| 17-19 nov | B3 Zuboff: automatizar o informar, la pregunta de puerta de Synergós | C4 Pregunta: la última vez que una herramienta te quitó criterio en vez de dártelo | N4 Del story bank, si hay respuestas; si no, Getronics: 3.800 oportunidades y el 19% |
-| 24-26 nov | B4 Polanyi: lo que el experto sabe y no puede explicar | C5 Encuesta: ¿en qué fase entran las personas en tu organización? | N5 Del story bank |
-| 1-3 dic | B5 Brynjolfsson: la trampa de Turing | C6 por definir | N6 Del story bank |
+| Fecha | Pilar | Ítem |
+|---|---|---|
+| Mar 27 oct | Autoridad | B0 Presentación de Synergós (pendiente de reprogramar en Publora tras cancelación por malentendido) |
+| Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito |
+| Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto) |
+| Mar 3 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA |
+| Mié 4 nov | Comunidad | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? |
+| Jue 5 nov | Autoridad | B3 Zuboff: automatizar o informar, la pregunta de puerta |
+| Mar 10 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar |
+| Mié 11 nov | Comunidad | C3 Pregunta: ¿quién te enseñó algo que no estaba en ningún manual? (en vez de reconocimiento con nombre) |
+| Jue 12 nov | Autoridad | B5 Brynjolfsson: la trampa de Turing |
+| Mar 17 nov | Autoridad | Por desarrollar: T2 (la IA cambia también a quien transforma) o B9 si se cierra P1 |
+| Mié 18 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
+| Jue 19 nov | Autoridad | Por desarrollar: T3 (diagnóstico antes que solución, por qué nadie lo hace) |
 
-Los jueves de Narrativa quedan suspendidos por decisión de Alejandro (26 oct 2026); la columna se conserva como reserva de ideas. Los posts N1, N2 y N3 existen en borrador (en voseo, de la etapa anterior) y se reescribirían en español de España si se reactivan. B9 (qué es nuevo en la IA generativa) entra cuando se cierre P1, probablemente en diciembre.
+**Aviso:** con dos posts de Autoridad por semana, el backlog actual (B1 a B5) se agota el 12 de noviembre. Hace falta una sesión de pensamiento para desarrollar T2 y T3 (y cerrar P1) antes de esa fecha. Los jueves de Narrativa están suspendidos desde el 26 oct 2026; N1 a N3 quedan en reserva (en voseo, de la etapa anterior; se reescribirían en español de España si se reactivan).
 
 ## Reglas
 
