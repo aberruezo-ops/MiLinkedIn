@@ -45,6 +45,8 @@ Fuera de la consultoría soy ingeniero, emprendedor (Hestía, alojamiento con al
 
 Busco colaborar en retos donde la transformación sea estructural y sostenible, no un eslogan ni un proyecto aislado. Si quieres discutir una idea de Synergós o contarme dónde falla, escríbeme.
 
+Opiniones propias.
+
 ---
 
 ## Después de publicar el post del 27 oct
