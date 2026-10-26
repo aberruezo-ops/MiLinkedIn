@@ -45,3 +45,9 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - Cambio de cadencia (26 oct): Synergós martes y jueves, Comunidad miércoles. La rutina redacta lunes, martes y miércoles. El backlog de Autoridad se agota el 12 nov: toca desarrollar T2 y T3.
 - B0 reprogramado con confirmación explícita de Alejandro (26 oct): sale el 27 oct a las 8:30.
 - 26 oct: P5 cerrada. Eslogan: "La transformación es humana. La tecnología solo la acelera." Subtítulo: "Synergós: personas, conocimiento y tecnología trabajando juntos." El post B0 se actualizó con esa idea y con "cada martes y jueves".
+
+## 26 oct 2026 (tarde). Logo y ángulo áureo
+
+- Logo: descartadas las rondas de flecha en la ó. Alejandro elige explorar tipografía con "gó" en otro color (se lee "go"), y después pide magenta en vez de azul y que se parta de Fraunces quitándole trazos para que la pieza sea suya. Resultado en `imagenes/logo-fraunces.png`: Fraunces (licencia OFL) instanciada a peso 700 y tamaño óptico 144, convertida a vectores propios con fontTools (`imagenes/logo-build.py`) y con cuatro cortes en S, n, g y s, todos paralelos al acento de la ó. El ángulo entre cada corte y la línea base es 137,5 grados, el ángulo áureo que Alejandro propone como símil. Magenta #C2185B.
+- Derechos: la OFL permite usar y modificar los glifos para un logotipo sin restricción; lo que no se puede es redistribuir la fuente modificada con el nombre Fraunces. El logo no es una fuente, así que no afecta. Vectores generados aquí, sin imágenes de terceros.
+- Alejandro propone el ángulo áureo (dice 138,5; el valor es 137,5) como metáfora de Synergós: orden humano y digital. Opciones enviadas; pendiente de que elija.
