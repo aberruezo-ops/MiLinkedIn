@@ -8,7 +8,7 @@ from fontTools.pens.boundsPen import BoundsPen
 
 f = instantiateVariableFont(TTFont("fonts/Fraunces.ttf"), {"opsz":144,"wght":700,"SOFT":0,"WONK":1})
 gs = f.getGlyphSet(); cmap = f.getBestCmap()
-INK="#15191E"; MAG="#C2185B"
+INK="#122B4A"; MAG="#5F6B23"; MAG_DARK="#A6B35A"
 A = 137.5                      # ángulo áureo entre el acento y la línea base (lado izquierdo)
 a = math.radians(180-A)        # 42,5 grados: inclinación del acento respecto a la horizontal
 D = (math.cos(a), math.sin(a)) # dirección del acento (y hacia arriba, unidades de fuente)
@@ -89,10 +89,11 @@ def digits(txt, x0, y0, sc):
         x+=gs[g].width
     return "".join(out)
 
-def build(chips, depth, label=False, ink=INK, name="x"):
+def build(chips, depth, label=False, ink=INK, name="x", mag=None):
+    mag = mag or (MAG_DARK if ink!=INK else MAG)
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -{ASC} {TOTAL+160} {ASC+DESC}">']
     for i,gl in enumerate(glyphs):
-        col = MAG if gl['ch'] in "gó" else ink
+        col = mag if gl['ch'] in "gó" else ink
         x0,y0,x1,y1=gl['b']; m=f"m{name}{i}"
         out.append(f'<mask id="{m}"><rect x="{gl["x"]+x0-5:.0f}" y="{-y1-5:.0f}" width="{x1-x0+10:.0f}" height="{y1-y0+10:.0f}" fill="white"/>')
         if gl['ch'] in chips: out.append(chip(gl, chips[gl['ch']], depth))
@@ -100,7 +101,7 @@ def build(chips, depth, label=False, ink=INK, name="x"):
         out.append(f'<g mask="url(#{m})"><path transform="translate({gl["x"]},0) scale(1,-1)" d="{gl["d"]}" fill="{col}"/></g>')
     o=[g for g in glyphs if g['ch']=='ó'][0]; x0,y0,x1,y1=o['b']
     p,v=accent(o['x'], y1, (x0+x1)/2)
-    out.append(f'<path d="{p}" fill="{MAG}"/>')
+    out.append(f'<path d="{p}" fill="{mag}"/>')
     out.append(arc(v, label=label).replace(INK, ink))
     out.append('</svg>')
     return "\n".join(out)
@@ -112,6 +113,7 @@ open("logo-synergos-sin-muescas.svg","w").write(build({},0,name="d"))
 print("ok")
 
 def icon(ink=INK, name="i"):
+    mag = MAG_DARK if ink!=INK else MAG
     sel=[g for g in glyphs if g['ch'] in "gó"]; x0=sel[0]['x']+sel[0]['b'][0]-60; x1=sel[1]['x']+sel[1]['b'][2]+520
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} -1700 {x1-x0:.0f} 2300">']
     for i,gl in enumerate(sel):
@@ -119,9 +121,9 @@ def icon(ink=INK, name="i"):
         out.append(f'<mask id="{m}"><rect x="{gl["x"]+bx0-5:.0f}" y="{-by1-5:.0f}" width="{bx1-bx0+10:.0f}" height="{by1-by0+10:.0f}" fill="white"/>')
         if gl['ch'] in CH: out.append(chip(gl, CH[gl['ch']], 130))
         out.append('</mask>')
-        out.append(f'<g mask="url(#{m})"><path transform="translate({gl["x"]},0) scale(1,-1)" d="{gl["d"]}" fill="{MAG}"/></g>')
+        out.append(f'<g mask="url(#{m})"><path transform="translate({gl["x"]},0) scale(1,-1)" d="{gl["d"]}" fill="{mag}"/></g>')
     o=sel[1]; bx0,by0,bx1,by1=o['b']; pth,v=accent(o['x'],by1,(bx0+bx1)/2)
-    out.append(f'<path d="{pth}" fill="{MAG}"/>'); out.append(arc(v).replace(INK,ink)); out.append('</svg>')
+    out.append(f'<path d="{pth}" fill="{mag}"/>'); out.append(arc(v).replace(INK,ink)); out.append('</svg>')
     return "\n".join(out)
 open("icono-go.svg","w").write(icon())
 open("icono-go-dark.svg","w").write(icon(ink="#F4F6F6",name="d"))
