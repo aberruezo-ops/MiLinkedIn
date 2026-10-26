@@ -37,3 +37,8 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - Rutina de contenido movida a lunes, martes y miércoles a las 8:47: redacta el post del día siguiente, avisa, y programa en Publora para las 8:30 solo tras aprobación.
 - Apify verificado; rutina de comentarios creada (lunes a viernes, 10:17): descubre 3 posts por temas, redacta, espera aprobación, publica comentario y reacción por Publora. Competidores a evitar: Accenture, NTT Data, Deloitte, Inetum.
 - Alejandro aparca por ahora la entrevista para el story bank (P3) y el post de reconocimiento del 11 nov. Consecuencias: los jueves de Narrativa usan el material ya conocido (Enzyme, Getronics a Minsait, corregir demasiado rápido, Getronics 3.800 oportunidades); el 11 nov se hace como pregunta a la red. `05-story-bank.md` no se crea hasta que haya material real.
+
+## 26 oct 2026. Suspensión de los jueves
+
+- Alejandro decide que, de momento, no quiere posts de Narrativa (historias personales de carrera). Martes (Synergós) y miércoles (Comunidad) siguen.
+- Por un malentendido se canceló el post B0 del 27 oct y se pausó la rutina; la rutina se reactivó el mismo día solo con lunes y martes. La reprogramación de B0 queda pendiente de confirmación explícita de Alejandro (bloqueo de permisos al recrear un post cancelado).

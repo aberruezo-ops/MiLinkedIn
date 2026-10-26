@@ -19,7 +19,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 ## Calendario previsto (se ajusta según aprobaciones y respuestas de Alejandro)
 
-| Semana | Martes (Autoridad) | Miércoles (Comunidad) | Jueves (Narrativa) |
+| Semana | Martes (Autoridad) | Miércoles (Comunidad) | Jueves (Narrativa) SUSPENDIDO desde el 26 oct 2026 |
 |---|---|---|---|
 | 27-29 oct | B0 Presentación de Synergós (programado) | B6 Pregunta: quién sabe lo que no está escrito | N1 Enzyme: el líder que no se ve en la entrevista (ya redactado antes, se reescribe en español de España) |
 | 3-5 nov | B1 La gestión del cambio llega tarde (caso compuesto) | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? | N2 Getronics a Minsait: cambiar el reloj, no el criterio |
@@ -28,7 +28,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | 24-26 nov | B4 Polanyi: lo que el experto sabe y no puede explicar | C5 Encuesta: ¿en qué fase entran las personas en tu organización? | N5 Del story bank |
 | 1-3 dic | B5 Brynjolfsson: la trampa de Turing | C6 por definir | N6 Del story bank |
 
-Los posts N1, N2 y N3 ya existen en borrador (en voseo, de la etapa anterior); se reescriben en español de España antes de presentarlos. B9 (qué es nuevo en la IA generativa) entra cuando se cierre P1, probablemente en diciembre.
+Los jueves de Narrativa quedan suspendidos por decisión de Alejandro (26 oct 2026); la columna se conserva como reserva de ideas. Los posts N1, N2 y N3 existen en borrador (en voseo, de la etapa anterior) y se reescribirían en español de España si se reactivan. B9 (qué es nuevo en la IA generativa) entra cuando se cierre P1, probablemente en diciembre.
 
 ## Reglas
 
