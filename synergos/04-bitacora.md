@@ -64,3 +64,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 26 oct, tarde: eslogan definitivo "Crecer a la vez." (subtítulo: "Synergós: personas, conocimiento y tecnología avanzando en el mismo orden"). "Nada tapa a nada" descartado por críptico; lo que Alejandro quiere explotar es la sincronía y armonía del girasol. Tarjeta, cabecera, A7, P5 y perfil actualizados; tarjeta del post B0 sustituida en Publora.
 - 26 oct: Alejandro objeta que personas y conocimiento son uno; se le justifica la triada (el conocimiento vive en personas, organización y tecnología, y la transformación decide a dónde va). Convencido: queda como axioma A11 y P7 cerrada.
 - 26 oct: la objeción de P7 entra en el backlog como post B11, previsto para el jueves 19 nov.
+- 26 oct: Alejandro decide no avisar por privado a contactos de momento (punto 2 del consejo de lanzamiento). Queda descartado hasta que él diga lo contrario; no se vuelve a proponer.
