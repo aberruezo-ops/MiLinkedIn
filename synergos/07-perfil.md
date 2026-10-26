@@ -54,3 +54,9 @@ Opiniones propias.
 - Subir la cabecera `imagenes/cabecera.png` (1584x396).
 - Fijar el post B0 en Destacados, por encima de los de Hestía (que se quedan).
 - Revisar que en "Principales aptitudes" aparezcan Transformación digital, Inteligencia artificial y Gestión del cambio junto a las actuales.
+
+## Titular publicado por Alejandro (26 oct 2026)
+
+Líder en Transformación e Innovación | Experto en Preventa, Estrategia y Gobierno | Multisectorial | Creador de Synergós: crecer a la vez | Emprendedor | Mentor | Aprendiz
+
+Versión propia de Alejandro, que conserva "Multisectorial" y "Aprendiz". Sugerencia pendiente: mover "Creador de Synergós: crecer a la vez" al segundo puesto para que se vea en el feed y en los comentarios. Cabecera pendiente de subir.
