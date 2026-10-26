@@ -75,7 +75,6 @@ def arc(v, r=290, sw=22, label=False):
     vx,vy=v
     p1=(vx-r, vy); p2=(vx+D[0]*r, vy+D[1]*r)   # desde la horizontal izquierda hasta el acento (137,5 grados)
     s=f'<path d="M{p1[0]:.1f},{-p1[1]:.1f} A{r},{r} 0 0 1 {p2[0]:.1f},{-p2[1]:.1f}" fill="none" stroke="{INK}" stroke-width="{sw}" stroke-linecap="round"/>'
-    s+=f'<path d="M{vx-r-50:.0f},{-vy:.0f} L{vx+50:.0f},{-vy:.0f}" stroke="{INK}" stroke-width="{sw*0.6:.0f}" stroke-dasharray="34 34"/>'
     if label:
         s+=digits("137,5°", vx-r-20, vy+110, 0.10)
     return s
