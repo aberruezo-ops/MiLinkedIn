@@ -43,6 +43,7 @@ Lo que todavía no sabemos o no hemos decidido. Cada pregunta indica a qué tesi
 - Titular: **"La transformación es humana. La tecnología solo la acelera."**
 - Subtítulo: **"Synergós: personas, conocimiento y tecnología trabajando juntos."**
 Consecuencia: Synergós deja de presentarse como "transformación digital" y pasa a "transformación humana". El hashtag de tema principal es #TransformaciónHumana. Va al README como axioma A7.
+**REABIERTA Y CERRADA DE NUEVO (26 oct 2026, tarde).** Alejandro considera que "la transformación es de personas" está muy manido y quiere un eslogan diferencial. Elige la opción que sale de lo que solo tiene él (el ángulo áureo y el logo): **"Nada tapa a nada."** con subtítulo **"Synergós: transformar sin hacer sombra a lo que ya funciona."** La frase anterior queda como idea de fondo. A7 actualizado.
 
 ## P6. El ángulo áureo como símil de Synergós
 
