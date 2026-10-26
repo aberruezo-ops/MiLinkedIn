@@ -15,6 +15,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | B6 | Comunidad | T1 / P2 | Pregunta abierta: "¿En tu organización alguien sabe algo imprescindible que no está escrito en ningún sitio? ¿Quién es?" | Pregunta directa, sin autoridad. | idea |
 | B7 | Comunidad | P4 | Encuesta: ¿la transformación la debería liderar quien conoce el trabajo o quien conoce la tecnología? | Encuesta de LinkedIn. | idea |
 | B8 | Narrativa | T3 | El cliente que llegó con la solución decidida: preventa real de Alejandro (caso a aportar, anonimizado). | Confesión con fecha. | idea, falta caso real |
+| B10 | Autoridad | T1 / P6 | El ángulo áureo: en el girasol cada semilla nace girada 137,5 grados y ninguna tapa a otra. En una transformación, cada iniciativa nueva debería colocarse donde no haga sombra a las personas y a lo que ya funciona. Explica el acento del logo. | Imagen mental + dato verificable (Vogel 1979). Lleva tarjeta propia con el patrón de girasol generado por nosotros. | idea, fuentes por fichar |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
 ## Calendario previsto (martes y jueves Synergós, miércoles Comunidad; se ajusta según aprobaciones)
@@ -30,7 +31,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | Mar 10 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar |
 | Mié 11 nov | Comunidad | C3 Pregunta: ¿quién te enseñó algo que no estaba en ningún manual? (en vez de reconocimiento con nombre) |
 | Jue 12 nov | Autoridad | B5 Brynjolfsson: la trampa de Turing |
-| Mar 17 nov | Autoridad | Por desarrollar: T2 (la IA cambia también a quien transforma) o B9 si se cierra P1 |
+| Mar 17 nov | Autoridad | B10 El ángulo áureo: nada tapa a nada (o T2 si se prefiere) |
 | Mié 18 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
 | Jue 19 nov | Autoridad | Por desarrollar: T3 (diagnóstico antes que solución, por qué nadie lo hace) |
 

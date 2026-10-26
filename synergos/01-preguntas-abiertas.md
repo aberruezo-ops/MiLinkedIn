@@ -43,3 +43,9 @@ Lo que todavía no sabemos o no hemos decidido. Cada pregunta indica a qué tesi
 - Titular: **"La transformación es humana. La tecnología solo la acelera."**
 - Subtítulo: **"Synergós: personas, conocimiento y tecnología trabajando juntos."**
 Consecuencia: Synergós deja de presentarse como "transformación digital" y pasa a "transformación humana". El hashtag de tema principal es #TransformaciónHumana. Va al README como axioma A7.
+
+## P6. El ángulo áureo como símil de Synergós
+
+**Afecta a:** identidad visual, un post y posiblemente una tesis.
+**Hecho verificable:** el ángulo áureo es 137,5 grados (360 por 1 menos 1/φ). En la filotaxis del girasol cada primordio nace girado ese ángulo respecto al anterior, de modo que ninguno tapa a otro y la cabeza se llena sin huecos (modelo de Vogel, 1979; Douady y Couder, 1992, mostraron que el patrón emerge de una regla local simple). Pendiente de fichar ambas en `02-fuentes.md` antes de citarlas en un post.
+**Decisión (26 oct 2026):** Alejandro elige la lectura 2, "nada tapa a nada": cada iniciativa nueva se coloca donde no hace sombra a las personas ni a los proyectos que ya están. El logo ya lo lleva (acento a 137,5 grados y arco). Queda en el backlog como post B10. Las demás lecturas (regla simple y orden complejo; crecer desde el centro; el ángulo que no se repite) quedan en reserva.

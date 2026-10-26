@@ -22,6 +22,7 @@ Este cuaderno es la memoria viva del pensamiento. No es el método terminado: es
 - **A4. Nada inventado presentado como real.** Los casos compuestos se etiquetan como tales. Las cifras solo si están verificadas en `02-fuentes.md`.
 - **A5. En público, siempre Synergós.** Nunca el nombre de trabajo interno.
 - **A7. La frase de Synergós.** Titular: "La transformación es humana. La tecnología solo la acelera." Subtítulo: "Synergós: personas, conocimiento y tecnología trabajando juntos." Fijadas el 26 oct 2026. Synergós habla de transformación humana, no digital: el hashtag de tema principal es #TransformaciónHumana.
+- **A8. Imagen por defecto.** Los posts de Synergós (martes y jueves) llevan la tarjeta `imagenes/tarjeta-eslogan.png` (o una tarjeta derivada del logo aprobado); los de Comunidad no llevan imagen. Enlaces, si los hay, van en el primer comentario. Fijado por Alejandro el 26 oct 2026.
 - **A6. Hashtags.** Al final del post, nunca dentro de las frases. Cinco como máximo: `#Synergos` (sin tilde, para que coincida con cómo lo escribirá la gente) más tres o cuatro de tema. En el texto, la grafía sigue siendo Synergós con tilde.
 
 ## Reglas del cuaderno
