@@ -8,7 +8,7 @@ from fontTools.pens.boundsPen import BoundsPen
 
 f = instantiateVariableFont(TTFont("fonts/Fraunces.ttf"), {"opsz":144,"wght":700,"SOFT":0,"WONK":1})
 gs = f.getGlyphSet(); cmap = f.getBestCmap()
-INK="#4B2142"; MAG="#5F6B23"; MAG_DARK="#A6B35A"
+INK="#3E2B15"; MAG="#5F6B23"; MAG_DARK="#A6B35A"
 A = 137.5                      # ángulo áureo entre el acento y la línea base (lado izquierdo)
 a = math.radians(180-A)        # 42,5 grados: inclinación del acento respecto a la horizontal
 D = (math.cos(a), math.sin(a)) # dirección del acento (y hacia arriba, unidades de fuente)
