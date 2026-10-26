@@ -52,3 +52,7 @@ Consecuencia: Synergós deja de presentarse como "transformación digital" y pas
 **Decisión (26 oct 2026):** Alejandro elige la lectura 2, "nada tapa a nada": cada iniciativa nueva se coloca donde no hace sombra a las personas ni a los proyectos que ya están. El logo ya lo lleva (acento a 137,5 grados y arco). Queda en el backlog como post B10. Las demás lecturas (regla simple y orden complejo; crecer desde el centro; el ángulo que no se repite) quedan en reserva.
 
 **P5, tercera vuelta (26 oct 2026, tarde).** "Nada tapa a nada" resulta críptico y poco atractivo para Alejandro; lo que quiere explotar es la sincronía y la armonía (todo crece a la vez, cada cosa en su sitio). Elige **"Crecer a la vez."** con subtítulo **"Synergós: personas, conocimiento y tecnología avanzando en el mismo orden."** P5 cerrada definitivamente; A7 actualizado.
+
+## P7. ¿Personas y conocimiento son uno? (CERRADA, 26 oct 2026)
+
+Objeción de Alejandro al subtítulo "personas, conocimiento y tecnología". Respuesta que le convence: el conocimiento vive en tres sitios (personas, organización, tecnología) y la decisión central de una transformación es qué pasa con él; fundirlo con las personas borra esa decisión y devuelve al discurso manido de "personas y tecnología". Queda como axioma A11. Fuentes por fichar cuando las use un post: Nelson y Winter (1982), rutinas como memoria de la organización; Nonaka y Takeuchi (1995), conversión entre conocimiento tácito y explícito.
