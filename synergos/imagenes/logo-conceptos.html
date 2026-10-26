@@ -1,0 +1,71 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8">
+<style>
+body{margin:0;width:1200px;height:1200px;background:#FFFFFF;font-family:"DejaVu Sans","Liberation Sans",sans-serif;color:#15191E}
+.grid{display:grid;grid-template-columns:600px 600px;grid-template-rows:600px 600px}
+.cell{box-sizing:border-box;padding:48px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #E3E7E9}
+.lbl{font-size:22px;color:#56606A}
+.lbl b{color:#15191E;font-weight:normal;display:block;font-size:26px;margin-bottom:4px}
+.serif{font-family:"DejaVu Serif",Georgia,serif;font-weight:bold}
+.wm{font-size:64px;letter-spacing:.02em;color:#15191E}
+.wm .t{color:#0E5E6F}
+.row{display:flex;align-items:center;gap:28px}
+</style></head><body><div class="grid">
+
+<!-- 1. Wordmark con el acento como marca -->
+<div class="cell">
+  <div class="lbl"><b>1. Palabra con acento-marca</b>El acento de la ó se convierte en el símbolo: lo que acelera. Sobrio, tipográfico.</div>
+  <div>
+    <svg width="500" height="150" viewBox="0 0 500 150">
+      <text x="0" y="110" font-family="DejaVu Serif" font-weight="bold" font-size="92" fill="#15191E" letter-spacing="1">Synerg</text>
+      <text x="356" y="110" font-family="DejaVu Serif" font-weight="bold" font-size="92" fill="#15191E">os</text>
+      <path d="M385 22 L421 4 L428 16 L392 34 Z" fill="#0E5E6F"/>
+    </svg>
+  </div>
+  <div class="lbl">Variante: el acento como pequeña flecha ascendente en teal.</div>
+</div>
+
+<!-- 2. Tres círculos -->
+<div class="cell">
+  <div class="lbl"><b>2. Tres círculos</b>Personas, conocimiento y tecnología. La intersección es Synergós.</div>
+  <div class="row">
+    <svg width="190" height="170" viewBox="0 0 190 170">
+      <circle cx="70" cy="60" r="52" fill="#0E5E6F" fill-opacity=".28"/>
+      <circle cx="120" cy="60" r="52" fill="#0E5E6F" fill-opacity=".28"/>
+      <circle cx="95" cy="104" r="52" fill="#0E5E6F" fill-opacity=".28"/>
+      <circle cx="95" cy="74" r="14" fill="#0E5E6F"/>
+    </svg>
+    <div class="serif wm">Synerg<span class="t">ó</span>s</div>
+  </div>
+  <div class="lbl">Dice exactamente lo que es el marco. Funciona también sin palabra, como icono.</div>
+</div>
+
+<!-- 3. Dos arcos que se encuentran -->
+<div class="cell">
+  <div class="lbl"><b>3. Dos trazos que se unen</b>Dos arcos que forman una S al encontrarse: trabajar junto a otro.</div>
+  <div class="row">
+    <svg width="170" height="170" viewBox="0 0 170 170">
+      <path d="M40 40 C40 10, 130 10, 130 50 C130 85, 40 85, 40 120 C40 160, 130 160, 130 130" fill="none" stroke="#0E5E6F" stroke-width="22" stroke-linecap="round"/>
+      <circle cx="40" cy="40" r="14" fill="#15191E"/>
+      <circle cx="130" cy="130" r="14" fill="#15191E"/>
+    </svg>
+    <div class="serif wm">Synerg<span class="t">ó</span>s</div>
+  </div>
+  <div class="lbl">Más dinámico. Los dos puntos son las dos partes (persona y tecnología) que el trazo une.</div>
+</div>
+
+<!-- 4. Monograma geométrico -->
+<div class="cell">
+  <div class="lbl"><b>4. Monograma en bloque</b>Una S construida con dos piezas que encajan. Más corporativo, sirve de avatar.</div>
+  <div class="row">
+    <svg width="170" height="170" viewBox="0 0 170 170">
+      <rect x="0" y="0" width="170" height="170" rx="30" fill="#0E5E6F"/>
+      <path d="M50 58 h70 a18 18 0 0 1 0 36 h-34 a18 18 0 0 0 0 36 h70" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="50" cy="58" r="9" fill="#F4F6F6"/>
+      <circle cx="156" cy="130" r="9" fill="#F4F6F6"/>
+    </svg>
+    <div class="serif wm">Synerg<span class="t">ó</span>s</div>
+  </div>
+  <div class="lbl">Aguanta bien en pequeño (foto de perfil, favicon). Menos narrativo que el 2 y el 3.</div>
+</div>
+
+</div></body></html>
