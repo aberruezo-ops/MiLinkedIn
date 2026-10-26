@@ -1,6 +1,6 @@
 # Perfil de LinkedIn: titular y Acerca de con Synergós
 
-**Actualizado (26 oct, tarde)** con el eslogan definitivo: "Nada tapa a nada." Listo para pegar.
+**Actualizado (26 oct, tarde)** con el eslogan definitivo: "Crecer a la vez." Listo para pegar.
 
 Propuesta del 26 oct 2026 para alinear el perfil con el lanzamiento de Synergós (post B0, 27 oct). Criterio: no quitar nada de lo que Alejandro es; cambiar el orden para que Synergós aparezca en las dos primeras líneas, que es lo que se ve sin pulsar "ver más". Alejandro lo pega a mano en LinkedIn (Publora no edita perfiles).
 
@@ -8,11 +8,11 @@ Propuesta del 26 oct 2026 para alinear el perfil con el lanzamiento de Synergós
 
 **Opción A (recomendada, 207 caracteres):**
 
-Líder en Transformación e Innovación | Construyo Synergós: transformar sin hacer sombra a lo que ya funciona | 30 años en programas complejos y sector público | Ingeniero · Emprendedor · Mentor
+Líder en Transformación e Innovación | Construyo Synergós: personas, conocimiento y tecnología creciendo a la vez | 30 años en programas complejos y sector público | Ingeniero · Emprendedor · Mentor
 
 **Opción B (201 caracteres):**
 
-Transformación, innovación e IA | Synergós: nada tapa a nada | 30 años liderando programas complejos en sector público y grandes organizaciones | Preventa y gobierno | Ingeniero · Emprendedor · Mentor
+Transformación, innovación e IA | Synergós: crecer a la vez | 30 años liderando programas complejos en sector público y grandes organizaciones | Preventa y gobierno | Ingeniero · Emprendedor · Mentor
 
 Qué cambia respecto al actual: Synergós y la frase entran en la primera línea; "Trader" y "Aprendiz" salen del titular por espacio (pueden quedarse en el Acerca de si Alejandro quiere); "Preventa, Estrategia y Gobierno" se condensa.
 
@@ -22,9 +22,9 @@ Las tres primeras líneas son las que se ven antes de "ver más"; por eso empiez
 
 ---
 
-Nada tapa a nada. En un girasol, cada semilla nace girada 137,5 grados respecto a la anterior y por eso ninguna hace sombra a otra. Llevo 30 años viendo transformaciones que fracasan por lo contrario: lo nuevo se pone encima de las personas y de lo que ya funcionaba.
+Crecer a la vez. En un girasol nadie coloca las semillas: cada una nace girada 137,5 grados respecto a la anterior, encuentra su sitio y todas crecen a la vez. Llevo 30 años viendo transformaciones que fracasan por lo contrario: la tecnología corre, las personas se quedan atrás y el conocimiento que sostenía el trabajo se pierde por el camino.
 
-Sobre esa idea estoy construyendo Synergós (del griego "el que trabaja junto a otro"): un marco para dirigir transformaciones en las que la tecnología, la IA y la innovación se colocan donde amplían a las personas en lugar de taparlas. Aquí publico cada martes y jueves una idea, con sus fuentes, y discuto las objeciones. Si diriges una transformación y te haces las mismas preguntas, este es el sitio.
+Sobre esa idea estoy construyendo Synergós (del griego "el que trabaja junto a otro"): un marco para dirigir transformaciones en las que personas, conocimiento y tecnología avanzan en el mismo orden, y la IA y la innovación amplían a quien hace el trabajo en lugar de sustituirlo. Aquí publico cada martes y jueves una idea, con sus fuentes, y discuto las objeciones. Si diriges una transformación y te haces las mismas preguntas, este es el sitio.
 
 Lo que hay detrás:
 
