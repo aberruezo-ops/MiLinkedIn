@@ -6,7 +6,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 | # | Pilar | Tesis | Ángulo | Gancho sugerido | Estado |
 |---|---|---|---|---|---|
-| B0 | Autoridad | (todas) | Presentación de Synergós como espacio divulgativo y de intercambio de ideas sobre tecnología, transformación, IA, innovación y personas. Qué es, qué no es, qué va a tratar, invitación a objetar. Primer post de la serie, martes 27 oct 2026. | Pregunta que casi nunca se hace a tiempo. | aprobado y programado en Publora (27 oct 2026, 8:30 Madrid; postGroupId 6adcdf17ed849b64de303d3f) |
+| B0 | Autoridad | (todas) | Presentación de Synergós como espacio divulgativo y de intercambio de ideas sobre tecnología, transformación, IA, innovación y personas. Qué es, qué no es, qué va a tratar, invitación a objetar. Primer post de la serie, martes 27 oct 2026. | Pregunta que casi nunca se hace a tiempo. | aprobado y programado en Publora (27 oct 2026, 8:30 Madrid; reprogramado el 26 oct, postGroupId 6adf0006ed849b64de4091be) |
 | B1 | Autoridad | T1 | Las personas como criterio de diseño desde el diagnóstico, no como "gestión del cambio" al final. Presentación de Synergós en una línea. | Contrarian: "La gestión del cambio llega tarde por definición." | idea |
 | B2 | Autoridad | T1 | Trist y Bamforth 1951: un estudio de minas de carbón de hace 75 años que describe exactamente lo que pasa hoy con los pilotos de IA. | Histórico: dato con fecha precisa. | idea |
 | B3 | Autoridad | T1 | Zuboff: la misma tecnología puede automatizar o informar. No es la herramienta, es la decisión. Pregunta de puerta de Synergós. | Falsa dicotomía rota: "No es si usar IA. Es qué le hace a quien trabaja." | idea |
@@ -21,7 +21,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
-| Mar 27 oct | Autoridad | B0 Presentación de Synergós (pendiente de reprogramar en Publora tras cancelación por malentendido) |
+| Mar 27 oct | Autoridad | B0 Presentación de Synergós (programado en Publora, 8:30 Madrid; postGroupId 6adf0006ed849b64de4091be) |
 | Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito |
 | Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto) |
 | Mar 3 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA |
