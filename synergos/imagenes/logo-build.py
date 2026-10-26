@@ -110,3 +110,18 @@ open("logo-synergos.svg","w").write(build(CH,130,name="a"))
 open("logo-synergos-dark.svg","w").write(build(CH,130,ink="#F4F6F6",name="ad"))
 open("logo-synergos-sin-muescas.svg","w").write(build({},0,name="d"))
 print("ok")
+
+def icon(ink=INK, name="i"):
+    sel=[g for g in glyphs if g['ch'] in "gó"]; x0=sel[0]['x']+sel[0]['b'][0]-60; x1=sel[1]['x']+sel[1]['b'][2]+520
+    out=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} -1700 {x1-x0:.0f} 2300">']
+    for i,gl in enumerate(sel):
+        bx0,by0,bx1,by1=gl['b']; m=f"mi{name}{i}"
+        out.append(f'<mask id="{m}"><rect x="{gl["x"]+bx0-5:.0f}" y="{-by1-5:.0f}" width="{bx1-bx0+10:.0f}" height="{by1-by0+10:.0f}" fill="white"/>')
+        if gl['ch'] in CH: out.append(chip(gl, CH[gl['ch']], 130))
+        out.append('</mask>')
+        out.append(f'<g mask="url(#{m})"><path transform="translate({gl["x"]},0) scale(1,-1)" d="{gl["d"]}" fill="{MAG}"/></g>')
+    o=sel[1]; bx0,by0,bx1,by1=o['b']; pth,v=accent(o['x'],by1,(bx0+bx1)/2)
+    out.append(f'<path d="{pth}" fill="{MAG}"/>'); out.append(arc(v).replace(INK,ink)); out.append('</svg>')
+    return "\n".join(out)
+open("icono-go.svg","w").write(icon())
+open("icono-go-dark.svg","w").write(icon(ink="#F4F6F6",name="d"))
