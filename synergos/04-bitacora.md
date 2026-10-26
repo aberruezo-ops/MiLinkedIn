@@ -44,3 +44,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - Por un malentendido se canceló el post B0 del 27 oct y se pausó la rutina; la rutina se reactivó el mismo día solo con lunes y martes. La reprogramación de B0 queda pendiente de confirmación explícita de Alejandro (bloqueo de permisos al recrear un post cancelado).
 - Cambio de cadencia (26 oct): Synergós martes y jueves, Comunidad miércoles. La rutina redacta lunes, martes y miércoles. El backlog de Autoridad se agota el 12 nov: toca desarrollar T2 y T3.
 - B0 reprogramado con confirmación explícita de Alejandro (26 oct): sale el 27 oct a las 8:30.
+- 26 oct: P5 cerrada. Eslogan: "La transformación es humana. La tecnología solo la acelera." Subtítulo: "Synergós: personas, conocimiento y tecnología trabajando juntos." El post B0 se actualizó con esa idea y con "cada martes y jueves".

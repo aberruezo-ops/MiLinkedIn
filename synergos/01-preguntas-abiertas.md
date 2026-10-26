@@ -39,3 +39,7 @@ Lo que todavía no sabemos o no hemos decidido. Cada pregunta indica a qué tesi
 - "Diagnóstico antes que solución, personas antes que herramienta."
 - "El método que pregunta primero qué saben las personas que la IA no sabe."
 **Estado (24 oct 2026):** Alejandro prefiere no fijarla todavía; se irá perfilando con los posts. Lo que sí deja fijado como idea de fondo: lo humano es la base de la transformación. Cualquier frase final tiene que decir eso.
+**CERRADA (26 oct 2026).** Alejandro elige:
+- Titular: **"La transformación es humana. La tecnología solo la acelera."**
+- Subtítulo: **"Synergós: personas, conocimiento y tecnología trabajando juntos."**
+Consecuencia: Synergós deja de presentarse como "transformación digital" y pasa a "transformación humana". El hashtag de tema principal es #TransformaciónHumana. Va al README como axioma A7.
