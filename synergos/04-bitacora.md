@@ -67,3 +67,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 26 oct: Alejandro decide no avisar por privado a contactos de momento (punto 2 del consejo de lanzamiento). Queda descartado hasta que él diga lo contrario; no se vuelve a proponer.
 - 26 oct: Alejandro ha pegado en LinkedIn el titular y el Acerca de nuevos (con "Opiniones propias" al final). Pendientes de perfil: subir la cabecera, fijar B0 en Destacados tras publicarse, revisar aptitudes principales.
 - 26 oct: cabecera de Synergós subida al perfil (sustituye a la de Hestía, que sigue en Destacados). Perfil listo para el primer post. Pendiente: fijar B0 en Destacados tras publicarse.
+- 27 oct, 8:30: publicado B0, el primer post de Synergós, con la tarjeta (urn:li:share:7520748674851917824). 8:48: rutina de contenido redacta B6 (Comunidad, miércoles 28) y espera aprobación.
