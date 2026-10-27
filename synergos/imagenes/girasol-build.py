@@ -84,3 +84,31 @@ def svg_trozo(size=1200, N=900, R=600):
     return "\n".join(o)
 
 open("girasol-trozo.svg","w").write(svg_trozo())
+
+def svg_porcion(size=1200, N=900, tenue=0.16):
+    """El girasol entero (igual que la primera imagen) con las semillas fuera de 137,5 grados muy tenues y el trozo destacado."""
+    c=size*0.46/math.sqrt(N); cx=cy=size/2
+    half=math.radians(137.5)/2
+    up=-math.pi/2+math.radians(0)   # la bisectriz del trozo apunta hacia arriba
+    R=c*math.sqrt(N)
+    a1=up-half; a2=up+half
+    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}"><rect width="{size}" height="{size}" fill="{BG}"/>']
+    for n in range(1,N+1):
+        r=c*math.sqrt(n); th=n*GA
+        d=(th-up+math.pi)%(2*math.pi)-math.pi
+        dentro=abs(d)<=half
+        x=cx+r*math.cos(th); y=cy+r*math.sin(th)
+        rad=c*(0.40+0.10*math.sqrt(n/N))
+        col=mix(INK,GREEN,min(1,n/N*1.6)) if n<N*0.62 else mix(GREEN,LIGHT,(n/N-0.62)/0.38)
+        o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{rad:.1f}" fill="{col}" opacity="{1 if dentro else tenue}"/>')
+    for a in (a1,a2):
+        o.append(f'<line x1="{cx}" y1="{cy}" x2="{cx+(R*1.03)*math.cos(a):.1f}" y2="{cy+(R*1.03)*math.sin(a):.1f}" stroke="{INK}" stroke-width="3" opacity="0.6"/>')
+    ra=R*0.17
+    p1=(cx+ra*math.cos(a1), cy+ra*math.sin(a1)); p2=(cx+ra*math.cos(a2), cy+ra*math.sin(a2))
+    arc=f'M{p1[0]:.1f},{p1[1]:.1f} A{ra:.1f},{ra:.1f} 0 0 1 {p2[0]:.1f},{p2[1]:.1f}'
+    o.append(f'<path d="{arc}" fill="none" stroke="{BG}" stroke-width="26" stroke-linecap="round"/>')
+    o.append(f'<path d="{arc}" fill="none" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>')
+    o.append('</svg>')
+    return "\n".join(o)
+
+open("girasol-porcion.svg","w").write(svg_porcion())
