@@ -38,3 +38,15 @@ Nada entra aquí sin verificación. Cada entrada dice qué afirma la fuente, qu�
 ## Mencionadas en el documento base, pendientes de ficha propia
 
 Rumelt (2011), Kotter (1995), Goldratt (1984), Cooper (1990), Argyris y Schön (1978), Forsgren, Humble y Kim (2018), Edmondson (2018), Heifetz y Linsky (2002), Brynjolfsson, Rock y Syverson (2021, curva J), Dell'Acqua y otros (2023), Von Hippel (2005), Nonaka y Takeuchi (1995), Autor (2014). Se van fichando a medida que una tesis las necesite.
+
+## Vogel, H. (1979). "A better way to construct the sunflower head". Mathematical Biosciences, 44(3-4), 179-189. DOI 10.1016/0025-5564(79)90080-4
+**Verificada el 27 oct 2026** (referencia bibliográfica confirmada por varias fuentes secundarias; no se ha leído el texto completo).
+**Qué dice:** modelo matemático de la cabeza del girasol: la semilla n se coloca en coordenadas polares con radio proporcional a la raíz de n y ángulo n por 137,5 grados (el ángulo áureo). Con esa única regla la cabeza se llena de forma uniforme y sin huecos.
+**Qué aporta a Synergós:** la base del símil "crecer a la vez": una regla local sencilla, repetida, produce un orden global sin planificador.
+**Qué NO dice:** nada sobre organizaciones, personas ni tecnología. Es un modelo geométrico; no se cita como evidencia de nada fuera de la botánica.
+
+## Douady, S. y Couder, Y. (1992). "Phyllotaxis as a physical self-organized growth process". Physical Review Letters, 68, 2098. DOI 10.1103/PhysRevLett.68.2098
+**Verificada el 27 oct 2026** (cita y contenido confirmados por fuentes secundarias; texto completo no consultado).
+**Qué dice:** con un experimento físico (gotas magnéticas que se repelen, soltadas una a una en el centro de un plato) y una simulación numérica, muestran que basta una regla de inhibición entre elementos sucesivos para que aparezcan solas las espirales de Fibonacci y el ángulo áureo. El patrón emerge de la dinámica, no de un plano genético.
+**Qué aporta a Synergós:** refuerza la lectura del símil: el orden no lo pone nadie desde arriba; sale de cómo se coloca cada elemento nuevo respecto a los anteriores.
+**Qué NO dice:** nada sobre sistemas sociales. Usarla solo como ilustración del principio, nunca como prueba de que las organizaciones funcionan así.

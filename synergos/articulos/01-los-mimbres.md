@@ -1,6 +1,6 @@
 # Crecer a la vez: los mimbres de Synergós
 
-*Borrador 1, 26 oct 2026. Artículo de LinkedIn (se pega en el editor de artículos; Publora no publica artículos). Fuentes verificadas en `02-fuentes.md`, salvo Vogel y Douady y Couder, que se fichan antes de publicar.*
+*Versión final, 27 oct 2026. Artículo de LinkedIn (se pega en el editor de artículos; Publora no publica artículos). Todas las fuentes verificadas y fichadas en `02-fuentes.md`. Portada: `imagenes/tarjeta-eslogan.png`.*
 
 ---
 

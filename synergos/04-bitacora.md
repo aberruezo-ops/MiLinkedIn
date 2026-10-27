@@ -70,3 +70,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 27 oct, 8:30: publicado B0, el primer post de Synergós, con la tarjeta (urn:li:share:7520748674851917824). 8:48: rutina de contenido redacta B6 (Comunidad, miércoles 28) y espera aprobación.
 - 27 oct: B6 aprobado y programado en Publora para el 28 oct a las 8:30 (postGroupId 6ae05c0ded849b64de4e687a). Sin imagen (Comunidad, A8).
 - 27 oct, mediodía: B0 lleva 8 comentarios, casi todos de fondo (Inma Hidalgo, Mario Bermúdez, Santiago Rubio, Laura Rollano, Alberto Sánchez, Maria Jose De Vega, Jose Manuel Sabarís). Alejandro responde a mano con borradores de Claude. Tres preguntas de la red entran al backlog (C7, C8, C9). Lectura de comentarios propios resuelta con Apify.
+- 27 oct: fichadas Vogel 1979 y Douady y Couder 1992 en fuentes; artículo 1 (los mimbres) cerrado como versión final para que Alejandro lo publique en LinkedIn.
