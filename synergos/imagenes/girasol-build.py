@@ -196,3 +196,55 @@ def svg_zoom_fiel(size=1200, N=900, s=2.0):
     return "\n".join(o)
 
 open("girasol-zoom.svg","w").write(svg_zoom_fiel())
+
+def svg_zoom_cabecera(W=1584, H=396, cx=1235, cy=198, R0=182, N=900, s=2.0):
+    """Zoom fiel para la cabecera de LinkedIn: flor entera y lente interior, sobre fondo transparente. Incluye comprobaciones de simetría."""
+    k=R0/552.0                              # factor de escala respecto a la versión cuadrada
+    c0=R0/math.sqrt(N)
+    RL=215*k; lx=cx+235*k; ly=cy-235*k
+    rs=RL/s
+    # comprobaciones geométricas
+    assert math.hypot(lx-cx,ly-cy)+RL <= R0, "la lente sobresale del girasol"
+    assert math.hypot(lx-cx,ly-cy) > RL+rs, "la lente tapa el círculo que amplía"
+    n_ok=0
+    for n in range(1,N+1):
+        r=c0*math.sqrt(n)
+        if r<=rs:
+            px,py=r*math.cos(n*GA), r*math.sin(n*GA)               # posición real respecto al centro de la flor
+            qx,qy=c0*s*math.sqrt(n)*math.cos(n*GA), c0*s*math.sqrt(n)*math.sin(n*GA)  # posición en la lente respecto a su centro
+            assert abs(qx-s*px)<1e-9 and abs(qy-s*py)<1e-9, "la lente no es una ampliación exacta"
+            n_ok+=1
+    print(f"comprobado: {n_ok} semillas del círculo aparecen en la lente exactamente x{s}; la lente queda dentro de la flor")
+    def color(n):
+        if n<=2: return GREEN
+        return mix(INK,GREEN,min(1,n/N*1.6)) if n<N*0.62 else mix(GREEN,LIGHT,(n/N-0.62)/0.38)
+    lw=lambda v: max(1.4, v*k*1.0)
+    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}"><defs><clipPath id="lente"><circle cx="{lx:.1f}" cy="{ly:.1f}" r="{RL-2:.1f}"/></clipPath></defs>']
+    for n in range(1,N+1):
+        r=c0*math.sqrt(n); th=n*GA
+        rad=c0*(0.40+0.10*math.sqrt(n/N))
+        o.append(f'<circle cx="{cx+r*math.cos(th):.1f}" cy="{cy+r*math.sin(th):.1f}" r="{rad:.2f}" fill="{color(n)}"/>')
+    dx,dy=lx-cx,ly-cy; L=math.hypot(dx,dy); ux,uy=dx/L,dy/L; nx,ny=-uy,ux
+    for sg in (1,-1):
+        o.append(f'<line x1="{cx+sg*nx*rs:.1f}" y1="{cy+sg*ny*rs:.1f}" x2="{lx+sg*nx*RL:.1f}" y2="{ly+sg*ny*RL:.1f}" stroke="{INK}" stroke-width="{lw(3):.1f}" opacity="0.55"/>')
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="{rs:.1f}" fill="none" stroke="{INK}" stroke-width="{lw(5):.1f}"/>')
+    o.append(f'<circle cx="{lx:.1f}" cy="{ly:.1f}" r="{RL:.1f}" fill="#FFFFFF" stroke="{INK}" stroke-width="{lw(8):.1f}"/>')
+    o.append('<g clip-path="url(#lente)">')
+    a1=GA; a2=2*GA
+    for a in (a1,a2):
+        o.append(f'<line x1="{lx:.1f}" y1="{ly:.1f}" x2="{lx+RL*math.cos(a):.1f}" y2="{ly+RL*math.sin(a):.1f}" stroke="{INK}" stroke-width="{lw(3):.1f}" opacity="0.6"/>')
+    for n in range(1,N+1):
+        r=c0*math.sqrt(n)*s
+        if r>RL*1.05: break
+        th=n*GA
+        rad=c0*(0.40+0.10*math.sqrt(n/N))*s
+        o.append(f'<circle cx="{lx+r*math.cos(th):.1f}" cy="{ly+r*math.sin(th):.1f}" r="{rad:.2f}" fill="{color(n)}"/>')
+    ra=c0*s*2.4
+    p1=(lx+ra*math.cos(a1), ly+ra*math.sin(a1)); p2=(lx+ra*math.cos(a2), ly+ra*math.sin(a2))
+    arc=f'M{p1[0]:.1f},{p1[1]:.1f} A{ra:.1f},{ra:.1f} 0 0 1 {p2[0]:.1f},{p2[1]:.1f}'
+    o.append(f'<path d="{arc}" fill="none" stroke="#FFFFFF" stroke-width="{lw(16):.1f}" stroke-linecap="round"/>')
+    o.append(f'<path d="{arc}" fill="none" stroke="{INK}" stroke-width="{lw(7):.1f}" stroke-linecap="round"/>')
+    o.append('</g></svg>')
+    return "\n".join(o)
+
+open("girasol-cabecera.svg","w").write(svg_zoom_cabecera())
