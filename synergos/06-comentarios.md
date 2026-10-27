@@ -62,3 +62,9 @@ De una URL del tipo `linkedin.com/posts/...-activity-7XXXXXXXXXXXXXXXXXX-...` se
 ## Respuestas a comentarios en los posts propios
 
 Regla fijada por Alejandro el 27 oct 2026: las respuestas a los comentarios de sus propios posts las publica él a mano desde LinkedIn, para no gastar el cupo diario de Publora (5 comentarios), que se reserva para comentar en posts ajenos. Claude redacta borradores de respuesta si Alejandro le pasa los comentarios (texto o captura), y lleva el registro de quién comenta en cada post cuando Alejandro le pasa la URL.
+
+### Registro de comentarios recibidos en posts propios
+
+| Fecha | Post | Autor | Qué plantea | Respuesta |
+|---|---|---|---|---|
+| 27 oct 2026 | B0 Presentación de Synergós | Inma Hidalgo Berni (Head of Business Development, Minsait Xtudio; profesora de UX en IED; contacto de 1er grado) | Comparte la mirada y lanza un reto: cuando escuchar a las personas lleva a cuestionar la solución, los plazos o los objetivos, ¿qué estamos dispuestos a cambiar? ¿Cómo hacemos que la escucha tenga poder real sobre las decisiones? | Borrador enviado a Alejandro (dos variantes; tesis: la escucha solo tiene poder si llega antes de la decisión; se cambia herramienta, calendario y objetivo, no las personas). La publica él. Idea de post futuro: "cómo dar poder real a la escucha". |
