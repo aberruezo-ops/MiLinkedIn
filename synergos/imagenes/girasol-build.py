@@ -247,17 +247,16 @@ def svg_zoom_cabecera(W=1584, H=396, cx=1235, cy=198, R0=182, N=900, s=2.0):
     o.append('</g></svg>')
     return "\n".join(o)
 
-open("girasol-cabecera.svg","w").write(svg_zoom_cabecera())
 
-def svg_sesgo_cabecera(W=1584, H=396, cx=1235, cy=198, R0=182, N=900, h=0.90):
-    """Girasol entero sin zoom y con dos cortes en diagonal, opuestos y paralelos a la tilde del logo (137,5 grados), como las muescas de las letras."""
+def svg_sesgo_cabecera(W=1584, H=396, cx=1235, cy=198, R0=182, N=900, h=0.64):
+    """Girasol entero sin zoom y con un único corte en diagonal en el lado superior, paralelo a la tilde del logo (137,5 grados)."""
     c0=R0/math.sqrt(N)
     a=math.radians(180-137.5)              # 42,5 grados: inclinación del corte respecto a la horizontal
     D=(math.cos(a), -math.sin(a))          # dirección del corte en pantalla (sube hacia la derecha)
-    Nn=(-math.sin(a), -math.cos(a))        # normal hacia arriba-izquierda
-    Lg=R0*1.4; hh=R0*h
-    pts=[(cx+Lg*D[0]+hh*Nn[0], cy+Lg*D[1]+hh*Nn[1]), (cx-Lg*D[0]+hh*Nn[0], cy-Lg*D[1]+hh*Nn[1]),
-         (cx-Lg*D[0]-hh*Nn[0], cy-Lg*D[1]-hh*Nn[1]), (cx+Lg*D[0]-hh*Nn[0], cy+Lg*D[1]-hh*Nn[1])]
+    Nn=(-math.sin(a), -math.cos(a))        # normal hacia arriba-izquierda (lado que se corta)
+    Lg=R0*1.6; hh=R0*h
+    pts=[(cx+hh*Nn[0]+Lg*D[0], cy+hh*Nn[1]+Lg*D[1]), (cx+hh*Nn[0]-Lg*D[0], cy+hh*Nn[1]-Lg*D[1]),
+         (cx-2*R0*Nn[0]-Lg*D[0], cy-2*R0*Nn[1]-Lg*D[1]), (cx-2*R0*Nn[0]+Lg*D[0], cy-2*R0*Nn[1]+Lg*D[1])]
     poly=" ".join(f"{x:.1f},{y:.1f}" for x,y in pts)
     def color(n):
         return mix(INK,GREEN,min(1,n/N*1.6)) if n<N*0.62 else mix(GREEN,LIGHT,(n/N-0.62)/0.38)
@@ -267,9 +266,7 @@ def svg_sesgo_cabecera(W=1584, H=396, cx=1235, cy=198, R0=182, N=900, h=0.90):
         rad=c0*(0.40+0.10*math.sqrt(n/N))
         o.append(f'<circle cx="{cx+r*math.cos(th):.1f}" cy="{cy+r*math.sin(th):.1f}" r="{rad:.2f}" fill="{color(n)}"/>')
     o.append('</g></svg>')
-    # comprobación: los dos cortes son paralelos entre sí y simétricos respecto al centro de la flor
-    assert abs((pts[0][0]-pts[3][0])*Nn[0]+(pts[0][1]-pts[3][1])*Nn[1]-2*hh)<1e-6
-    print("comprobado: dos cortes paralelos a la tilde (42,5 grados sobre la horizontal), a igual distancia del centro a ambos lados")
+    print(f"comprobado: un único corte en el lado superior, paralelo a la tilde (42,5 grados sobre la horizontal), a {h:.2f} del radio del centro")
     return "\n".join(o)
 
 open("girasol-cabecera.svg","w").write(svg_sesgo_cabecera())
