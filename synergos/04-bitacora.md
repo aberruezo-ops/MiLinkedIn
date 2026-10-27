@@ -82,3 +82,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 27 oct, tarde: Alejandro pide quitar el zoom de la cabecera y dar a la flor un corte como el de las letras del logo. Hecho: girasol entero con dos cortes opuestos en diagonal (42,5 grados sobre la horizontal, paralelos a la tilde) a igual distancia del centro (girasol-cabecera.svg, función svg_sesgo_cabecera). El script verifica que los cortes son paralelos y simétricos.
 - 27 oct, tarde: cabecera con un único corte en diagonal, solo en el lado superior y más profundo (0,64 del radio), paralelo a la tilde. Sustituye a los dos cortes opuestos.
 - 27 oct, tarde: girasol de la cabecera acercado al logo (centro en x=1110).
+- 27 oct, tarde: cabecera con el girasol superpuesto al logo desde la g (detrás del nombre, al 55 % de opacidad para que el nombre se lea) y el texto de apoyo en tres líneas cortas para no pisar la flor.
