@@ -273,3 +273,6 @@ open("girasol-cabecera.svg","w").write(svg_sesgo_cabecera())
 
 # girasol con el corte superior para la tarjeta cuadrada (mismas proporciones que en la cabecera)
 open("girasol-tarjeta.svg","w").write(svg_sesgo_cabecera(W=1200,H=1200,cx=852,cy=782,R0=266))
+
+# girasol con el corte superior para la portada apaisada del artículo (1920x1080)
+open("girasol-portada.svg","w").write(svg_sesgo_cabecera(W=1920,H=1080,cx=1222,cy=720,R0=287))
