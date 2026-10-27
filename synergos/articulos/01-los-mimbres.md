@@ -1,6 +1,6 @@
 # Crecer a la vez: los mimbres de Synergós
 
-*Versión final (con explicación del ángulo y del logo, añadida a petición de Alejandro), 27 oct 2026. Artículo de LinkedIn (se pega en el editor de artículos; Publora no publica artículos). Todas las fuentes verificadas y fichadas en `02-fuentes.md`. Portada: `imagenes/tarjeta-eslogan.png`.*
+*PUBLICADO el 27 oct 2026: https://www.linkedin.com/pulse/crecer-la-vez-los-mimbres-de-synerg%C3%B3s-alejandro-berruezo-m%C3%A1rquez-tl1ie/ . Versión final (con explicación del ángulo y del logo, añadida a petición de Alejandro), 27 oct 2026. Artículo de LinkedIn (se pega en el editor de artículos; Publora no publica artículos). Todas las fuentes verificadas y fichadas en `02-fuentes.md`. Portada: `imagenes/tarjeta-eslogan.png`.*
 
 ---
 
