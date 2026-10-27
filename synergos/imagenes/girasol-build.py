@@ -116,11 +116,11 @@ open("girasol-porcion.svg","w").write(svg_porcion())
 def svg_zoom(size=1200, N=900):
     """El girasol entero a la izquierda y, en una lente, el zoom de su centro con el ángulo entre las dos primeras semillas."""
     # girasol principal
-    cx, cy, R0 = 410, 760, 380
+    cx, cy, R0 = 600, 600, 552
     c0 = R0/math.sqrt(N)
     # lente
-    lx, ly, RL = 850, 330, 300
-    NL = 27
+    lx, ly, RL = cx+225, cy-225, 215   # la lente queda dentro del contorno del girasol
+    NL = 13
     cl = RL*0.92/math.sqrt(NL)
     s = cl/c0                     # factor de ampliación
     rs = RL/s                     # radio del círculo pequeño que se amplía
