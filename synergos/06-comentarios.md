@@ -79,3 +79,5 @@ Regla fijada por Alejandro el 27 oct 2026: las respuestas a los comentarios de s
 | 27 oct 2026 | B0 | Maria Jose De Vega Lizcano (gerente en Indra) | Los miedos e incertidumbres; sensación de ir a rebufo; las personas deben sentirse parte y ver su papel. "El miedo puede ser pensar que esta transformación se está haciendo sin mí o para prescindir de mí." | Borrador enviado (los dos miedos tienen la misma cura: decidir distinto, quien conoce el trabajo en la mesa cuando se decide). Frase candidata para un post (C9). |
 
 Nota técnica (27 oct): los comentarios de un post propio se pueden leer con el actor de Apify `harvestapi/linkedin-post-comments` (campo `posts` con la URL del post, `maxItems`, `scrapeReplies`); coste de céntimos. URN de actividad de B0: 7520748676206481408.
+
+Revisión de las 17:55 (27 oct 2026, por Apify): el artículo (publicado como post con activity 7520812601295949826) no tiene comentarios todavía. El post B0 (activity 7520748676206481408) tiene 9 comentarios: los 8 ya registrados más uno de Alejandro con el enlace al artículo. Sin comentarios nuevos de terceros.
