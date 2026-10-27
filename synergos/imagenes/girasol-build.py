@@ -55,3 +55,32 @@ open("girasol-gradiente.svg","w").write(svg("gradiente"))
 open("girasol-espirales.svg","w").write(svg("espirales"))
 open("girasol-angulo.svg","w").write(svg_angulo())
 print("ok")
+
+def svg_trozo(size=1200, N=900, R=600):
+    """Trozo de la primera imagen: el abanico de 137,5 grados del girasol, con el arco del ángulo en el vértice."""
+    c=R/math.sqrt(N)
+    half=math.radians(137.5)/2
+    ax=size/2; ay=size/2+R/2          # vértice del abanico, para centrar el trozo en el lienzo
+    up=-math.pi/2
+    a1=up-half; a2=up+half
+    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}"><rect width="{size}" height="{size}" fill="{BG}"/>']
+    for n in range(1,N+1):
+        r=c*math.sqrt(n); th=n*GA
+        # ángulo de la semilla medido respecto a la vertical hacia arriba, normalizado a [-pi, pi]
+        d=(th-up+math.pi)%(2*math.pi)-math.pi
+        if abs(d)>half-0.012: continue   # fuera del abanico (con un pequeño margen para no pisar los bordes)
+        x=ax+r*math.cos(th); y=ay+r*math.sin(th)
+        rad=c*(0.40+0.10*math.sqrt(n/N))
+        col=mix(INK,GREEN,min(1,n/N*1.6)) if n<N*0.62 else mix(GREEN,LIGHT,(n/N-0.62)/0.38)
+        o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{rad:.1f}" fill="{col}"/>')
+    for a in (a1,a2):
+        o.append(f'<line x1="{ax}" y1="{ay}" x2="{ax+(R*1.02)*math.cos(a):.1f}" y2="{ay+(R*1.02)*math.sin(a):.1f}" stroke="{INK}" stroke-width="3" opacity="0.55"/>')
+    ra=R*0.20
+    p1=(ax+ra*math.cos(a1), ay+ra*math.sin(a1)); p2=(ax+ra*math.cos(a2), ay+ra*math.sin(a2))
+    arc=f'M{p1[0]:.1f},{p1[1]:.1f} A{ra:.1f},{ra:.1f} 0 0 1 {p2[0]:.1f},{p2[1]:.1f}'
+    o.append(f'<path d="{arc}" fill="none" stroke="{BG}" stroke-width="26" stroke-linecap="round"/>')
+    o.append(f'<path d="{arc}" fill="none" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>')
+    o.append('</svg>')
+    return "\n".join(o)
+
+open("girasol-trozo.svg","w").write(svg_trozo())
