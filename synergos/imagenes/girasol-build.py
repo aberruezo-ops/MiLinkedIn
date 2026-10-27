@@ -112,3 +112,48 @@ def svg_porcion(size=1200, N=900, tenue=0.16):
     return "\n".join(o)
 
 open("girasol-porcion.svg","w").write(svg_porcion())
+
+def svg_zoom(size=1200, N=900):
+    """El girasol entero a la izquierda y, en una lente, el zoom de su centro con el ángulo entre las dos primeras semillas."""
+    # girasol principal
+    cx, cy, R0 = 410, 760, 380
+    c0 = R0/math.sqrt(N)
+    # lente
+    lx, ly, RL = 850, 330, 300
+    NL = 27
+    cl = RL*0.92/math.sqrt(NL)
+    s = cl/c0                     # factor de ampliación
+    rs = RL/s                     # radio del círculo pequeño que se amplía
+    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}"><defs><clipPath id="lente"><circle cx="{lx}" cy="{ly}" r="{RL-4}"/></clipPath></defs><rect width="{size}" height="{size}" fill="{BG}"/>']
+    # girasol entero
+    for n in range(1,N+1):
+        r=c0*math.sqrt(n); th=n*GA
+        col=mix(INK,GREEN,min(1,n/N*1.6)) if n<N*0.62 else mix(GREEN,LIGHT,(n/N-0.62)/0.38)
+        rad=c0*(0.40+0.10*math.sqrt(n/N))
+        o.append(f'<circle cx="{cx+r*math.cos(th):.1f}" cy="{cy+r*math.sin(th):.1f}" r="{rad:.1f}" fill="{col}"/>')
+    # conos de zoom
+    dx, dy = lx-cx, ly-cy; L=math.hypot(dx,dy); ux, uy = dx/L, dy/L; nx, ny = -uy, ux
+    for sg in (1,-1):
+        o.append(f'<line x1="{cx+sg*nx*rs:.1f}" y1="{cy+sg*ny*rs:.1f}" x2="{lx+sg*nx*RL:.1f}" y2="{ly+sg*ny*RL:.1f}" stroke="{INK}" stroke-width="3" opacity="0.55"/>')
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="{rs:.1f}" fill="none" stroke="{INK}" stroke-width="5"/>')
+    # lente
+    o.append(f'<circle cx="{lx}" cy="{ly}" r="{RL}" fill="#FFFFFF" stroke="{INK}" stroke-width="8"/>')
+    off=math.radians(-150)-GA        # coloca el rayo de la semilla 1 a -150 grados
+    o.append('<g clip-path="url(#lente)">')
+    a1=math.radians(-150); a2=a1+GA
+    for a in (a1,a2):
+        o.append(f'<line x1="{lx}" y1="{ly}" x2="{lx+RL*math.cos(a):.1f}" y2="{ly+RL*math.sin(a):.1f}" stroke="{INK}" stroke-width="4" opacity="0.7"/>')
+    for n in range(1,NL+1):
+        r=cl*math.sqrt(n); th=n*GA+off
+        col=mix(INK,GREEN,(n-1)/(NL-1)*0.9)
+        rad=cl*(0.34+0.04*math.sqrt(n/NL))
+        o.append(f'<circle cx="{lx+r*math.cos(th):.1f}" cy="{ly+r*math.sin(th):.1f}" r="{rad:.1f}" fill="{col}"/>')
+    ra=cl*0.58
+    p1=(lx+ra*math.cos(a1), ly+ra*math.sin(a1)); p2=(lx+ra*math.cos(a2), ly+ra*math.sin(a2))
+    arc=f'M{p1[0]:.1f},{p1[1]:.1f} A{ra:.1f},{ra:.1f} 0 0 1 {p2[0]:.1f},{p2[1]:.1f}'
+    o.append(f'<path d="{arc}" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>')
+    o.append(f'<path d="{arc}" fill="none" stroke="{INK}" stroke-width="8" stroke-linecap="round"/>')
+    o.append('</g></svg>')
+    return "\n".join(o)
+
+open("girasol-zoom.svg","w").write(svg_zoom())
