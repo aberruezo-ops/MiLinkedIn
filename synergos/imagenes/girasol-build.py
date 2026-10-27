@@ -157,3 +157,42 @@ def svg_zoom(size=1200, N=900):
     return "\n".join(o)
 
 open("girasol-zoom.svg","w").write(svg_zoom())
+
+def svg_zoom_fiel(size=1200, N=900, s=2.0):
+    """Zoom fiel: la lente muestra exactamente las semillas del círculo marcado, sin girar, ampliadas s veces."""
+    cx, cy, R0 = 600, 600, 552
+    c0 = R0/math.sqrt(N)
+    lx, ly, RL = cx+235, cy-235, 215
+    rs = RL/s                              # radio de la zona ampliada
+    o=[f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {size} {size}" width="{size}" height="{size}"><defs><clipPath id="lente"><circle cx="{lx}" cy="{ly}" r="{RL-4}"/></clipPath></defs><rect width="{size}" height="{size}" fill="{BG}"/>']
+    def color(n):
+        if n<=2: return GREEN            # las dos primeras semillas, en el verde del logo
+        return mix(INK,GREEN,min(1,n/N*1.6)) if n<N*0.62 else mix(GREEN,LIGHT,(n/N-0.62)/0.38)
+    for n in range(1,N+1):
+        r=c0*math.sqrt(n); th=n*GA
+        rad=c0*(0.40+0.10*math.sqrt(n/N))
+        o.append(f'<circle cx="{cx+r*math.cos(th):.1f}" cy="{cy+r*math.sin(th):.1f}" r="{rad:.1f}" fill="{color(n)}"/>')
+    dx, dy = lx-cx, ly-cy; L=math.hypot(dx,dy); ux, uy = dx/L, dy/L; nx, ny = -uy, ux
+    for sg in (1,-1):
+        o.append(f'<line x1="{cx+sg*nx*rs:.1f}" y1="{cy+sg*ny*rs:.1f}" x2="{lx+sg*nx*RL:.1f}" y2="{ly+sg*ny*RL:.1f}" stroke="{INK}" stroke-width="3" opacity="0.55"/>')
+    o.append(f'<circle cx="{cx}" cy="{cy}" r="{rs:.1f}" fill="none" stroke="{INK}" stroke-width="5"/>')
+    o.append(f'<circle cx="{lx}" cy="{ly}" r="{RL}" fill="#FFFFFF" stroke="{INK}" stroke-width="8"/>')
+    o.append('<g clip-path="url(#lente)">')
+    a1=GA; a2=2*GA                          # direcciones reales de las semillas 1 y 2
+    for a in (a1,a2):
+        o.append(f'<line x1="{lx}" y1="{ly}" x2="{lx+RL*math.cos(a):.1f}" y2="{ly+RL*math.sin(a):.1f}" stroke="{INK}" stroke-width="3" opacity="0.6"/>')
+    for n in range(1,N+1):
+        r=c0*math.sqrt(n)*s
+        if r>RL*1.05: break
+        th=n*GA
+        rad=c0*(0.40+0.10*math.sqrt(n/N))*s
+        o.append(f'<circle cx="{lx+r*math.cos(th):.1f}" cy="{ly+r*math.sin(th):.1f}" r="{rad:.1f}" fill="{color(n)}"/>')
+    ra=c0*s*2.4
+    p1=(lx+ra*math.cos(a1), ly+ra*math.sin(a1)); p2=(lx+ra*math.cos(a2), ly+ra*math.sin(a2))
+    arc=f'M{p1[0]:.1f},{p1[1]:.1f} A{ra:.1f},{ra:.1f} 0 0 1 {p2[0]:.1f},{p2[1]:.1f}'
+    o.append(f'<path d="{arc}" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>')
+    o.append(f'<path d="{arc}" fill="none" stroke="{INK}" stroke-width="7" stroke-linecap="round"/>')
+    o.append('</g></svg>')
+    return "\n".join(o)
+
+open("girasol-zoom.svg","w").write(svg_zoom_fiel())
