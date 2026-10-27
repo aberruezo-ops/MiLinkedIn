@@ -68,3 +68,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 26 oct: Alejandro ha pegado en LinkedIn el titular y el Acerca de nuevos (con "Opiniones propias" al final). Pendientes de perfil: subir la cabecera, fijar B0 en Destacados tras publicarse, revisar aptitudes principales.
 - 26 oct: cabecera de Synergós subida al perfil (sustituye a la de Hestía, que sigue en Destacados). Perfil listo para el primer post. Pendiente: fijar B0 en Destacados tras publicarse.
 - 27 oct, 8:30: publicado B0, el primer post de Synergós, con la tarjeta (urn:li:share:7520748674851917824). 8:48: rutina de contenido redacta B6 (Comunidad, miércoles 28) y espera aprobación.
+- 27 oct: B6 aprobado y programado en Publora para el 28 oct a las 8:30 (postGroupId 6ae05c0ded849b64de4e687a). Sin imagen (Comunidad, A8).

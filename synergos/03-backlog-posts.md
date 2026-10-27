@@ -12,7 +12,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | B3 | Autoridad | T1 | Zuboff: la misma tecnología puede automatizar o informar. No es la herramienta, es la decisión. Pregunta de puerta de Synergós. | Falsa dicotomía rota: "No es si usar IA. Es qué le hace a quien trabaja." | idea |
 | B4 | Autoridad | T1 | Polanyi: lo que una persona experta sabe y no puede explicar es lo que la IA no tiene. El mapa del conocimiento tácito. | Curiosidad: "Hay una pregunta que ningún pliego de transformación hace." | idea |
 | B5 | Autoridad | T1 | Brynjolfsson y la trampa de Turing: por qué la balanza está inclinada hacia sustituir en vez de ampliar, y qué hace Synergós con eso. | Dato + autor citado con precisión. | idea |
-| B6 | Comunidad | T1 / P2 | Pregunta abierta: "¿En tu organización alguien sabe algo imprescindible que no está escrito en ningún sitio? ¿Quién es?" | Pregunta directa, sin autoridad. | redactado (27 oct, posts/2026-10-28-B6.md), pendiente de aprobación |
+| B6 | Comunidad | T1 / P2 | Pregunta abierta: "¿En tu organización alguien sabe algo imprescindible que no está escrito en ningún sitio? ¿Quién es?" | Pregunta directa, sin autoridad. | aprobado y programado en Publora (28 oct 2026, 8:30 Madrid; postGroupId 6ae05c0ded849b64de4e687a) |
 | B7 | Comunidad | P4 | Encuesta: ¿la transformación la debería liderar quien conoce el trabajo o quien conoce la tecnología? | Encuesta de LinkedIn. | idea |
 | B8 | Narrativa | T3 | El cliente que llegó con la solución decidida: preventa real de Alejandro (caso a aportar, anonimizado). | Confesión con fecha. | idea, falta caso real |
 | B10 | Autoridad | T1 / P6 | El ángulo áureo: en el girasol cada semilla nace girada 137,5 grados y ninguna tapa a otra. En una transformación, cada iniciativa nueva debería colocarse donde no haga sombra a las personas y a lo que ya funciona. Explica el acento del logo. | Imagen mental + dato verificable (Vogel 1979). Lleva tarjeta propia con el patrón de girasol generado por nosotros. | idea, fuentes por fichar |
@@ -24,7 +24,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | Fecha | Pilar | Ítem |
 |---|---|---|
 | Mar 27 oct | Autoridad | B0 Presentación de Synergós (programado en Publora, 8:30 Madrid; postGroupId 6adf0006ed849b64de4091be) |
-| Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito |
+| Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito (programado, postGroupId 6ae05c0ded849b64de4e687a) |
 | Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto) |
 | Mar 3 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA |
 | Mié 4 nov | Comunidad | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? |
