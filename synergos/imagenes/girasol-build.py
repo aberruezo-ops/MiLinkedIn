@@ -270,3 +270,6 @@ def svg_sesgo_cabecera(W=1584, H=396, cx=995, cy=198, R0=182, N=900, h=0.64):
     return "\n".join(o)
 
 open("girasol-cabecera.svg","w").write(svg_sesgo_cabecera())
+
+# girasol con el corte superior para la tarjeta cuadrada (mismas proporciones que en la cabecera)
+open("girasol-tarjeta.svg","w").write(svg_sesgo_cabecera(W=1200,H=1200,cx=852,cy=782,R0=266))
