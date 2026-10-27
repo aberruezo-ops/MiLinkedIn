@@ -248,7 +248,7 @@ def svg_zoom_cabecera(W=1584, H=396, cx=1235, cy=198, R0=182, N=900, s=2.0):
     return "\n".join(o)
 
 
-def svg_sesgo_cabecera(W=1584, H=396, cx=885, cy=198, R0=182, N=900, h=0.64):
+def svg_sesgo_cabecera(W=1584, H=396, cx=995, cy=198, R0=182, N=900, h=0.64):
     """Girasol entero sin zoom y con un único corte en diagonal en el lado superior, paralelo a la tilde del logo (137,5 grados)."""
     c0=R0/math.sqrt(N)
     a=math.radians(180-137.5)              # 42,5 grados: inclinación del corte respecto a la horizontal
