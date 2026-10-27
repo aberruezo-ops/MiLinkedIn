@@ -1,6 +1,6 @@
 # Crecer a la vez: los mimbres de Synergós
 
-*Versión final, 27 oct 2026. Artículo de LinkedIn (se pega en el editor de artículos; Publora no publica artículos). Todas las fuentes verificadas y fichadas en `02-fuentes.md`. Portada: `imagenes/tarjeta-eslogan.png`.*
+*Versión final (con explicación del ángulo y del logo, añadida a petición de Alejandro), 27 oct 2026. Artículo de LinkedIn (se pega en el editor de artículos; Publora no publica artículos). Todas las fuentes verificadas y fichadas en `02-fuentes.md`. Portada: `imagenes/tarjeta-eslogan.png`.*
 
 ---
 
@@ -8,7 +8,7 @@ En un girasol nadie coloca las semillas. Cada una nace girada 137,5 grados respe
 
 Llevo treinta años trabajando en lo que todos llamamos transformación digital, casi siempre en organizaciones grandes y complejas, con mucho de regulación y muchos actores. Y cada vez estoy más convencido de que la mayoría de las transformaciones que fracasan lo hacen por lo contrario de lo que hace el girasol: alguien dibuja el plano, la tecnología corre, las personas se quedan atrás y el conocimiento que sostenía el trabajo se pierde por el camino.
 
-Synergós es el nombre que le he puesto a una forma de hacerlo de otra manera. Viene del griego: el que trabaja junto a otro. Este artículo cuenta de qué está hecho, de dónde sale y por qué creo que ahora importa más que nunca.
+Synergós es el nombre que le he puesto a una forma de hacerlo de otra manera. Viene del griego: el que trabaja junto a otro. Este artículo cuenta de qué está hecho, de dónde sale y por qué creo que ahora importa más que nunca. Hasta el logo sale de ahí: la tilde de la ó y las muescas de las letras están trazadas exactamente a 137,5 grados, el ángulo del girasol. Más abajo explico por qué.
 
 ## Por qué un girasol
 
@@ -21,6 +21,8 @@ La segunda: cada cosa encuentra su sitio sin pisar a las demás. Lo nuevo no se 
 La tercera, y la que más me importa: todo crece a la vez. Las semillas del centro y las del borde no compiten; avanzan sincronizadas. Una transformación en la que la tecnología va dos años por delante de las personas no es una transformación rápida. Es una transformación rota que todavía no lo sabe.
 
 El dato, por si alguien quiere comprobarlo: el ángulo es el ángulo áureo, 137,5 grados, y la descripción matemática del girasol la publicó Helmut Vogel en 1979. En 1992, Stéphane Douady e Yves Couder demostraron en el laboratorio que ese patrón surge solo, por física, cuando elementos nuevos aparecen uno tras otro en un espacio limitado. No hace falta ningún gen que sepa de geometría. Basta la regla.
+
+¿Y por qué precisamente 137,5 grados? Porque es el ángulo que sale de dividir la vuelta completa según la proporción áurea, y tiene una propiedad única: es el reparto más alejado posible de cualquier fracción sencilla. Si las semillas nacieran cada media vuelta, o cada tercio, acabarían alineadas en unos pocos radios, unas encima de otras, dejando huecos entre medias. Con el ángulo áureo nunca se repite la misma dirección, así que cada semilla nueva cae donde más espacio y más luz le quedan. Por eso aparece el mismo ángulo en las piñas, en las alcachofas y en la forma en que muchas plantas colocan sus hojas alrededor del tallo: no es una casualidad estética, es la solución más eficiente para crecer todos a la vez sin estorbarse. Así hay que leer el logo de Synergós: cada corte en las letras es una semilla colocada en su ángulo, y la tilde de la ó, el arco que la señala, es la regla que lo ordena todo.
 
 ## Tres elementos, no dos
 
