@@ -28,7 +28,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 |---|---|---|
 | Mar 27 oct | Autoridad | B0 Presentación de Synergós (programado en Publora, 8:30 Madrid; postGroupId 6adf0006ed849b64de4091be) |
 | Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito (programado, postGroupId 6ae05c0ded849b64de4e687a) |
-| Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto; borrador en posts/2026-10-29-B1.md, pendiente de aprobación). Lleva la tarjeta completa (`imagenes/tarjeta-completa.png`), por decisión de Alejandro del 27 oct. |
+| Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto; aprobado y programado en Publora el 29 oct a las 8:30, postGroupId 6ae1c7b98b8961708683daeb; imagen tarjeta-B1.png, enlace al artículo en el primer comentario). |
 | Mar 3 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA |
 | Mié 4 nov | Comunidad | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? |
 | Jue 5 nov | Autoridad | B3 Zuboff: automatizar o informar, la pregunta de puerta |
