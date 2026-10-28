@@ -20,6 +20,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | C7 | Comunidad o Autoridad | T1 | Cómo hacer partícipes del cambio a quienes sostienen el día a día (pregunta de Santiago Rubio en B0). La pregunta a tiempo: qué sabes tú que no está escrito. | Responde a una pregunta real de la red. | idea |
 | C8 | Autoridad | T2 por desarrollar | Cómo identificar a los líderes capaces de sostener una transformación (pregunta de Laura Rollano en B0): conocen el trabajo y saben decir que no a un plazo. | Respuesta poco popular a una pregunta real. | idea |
 | C9 | Autoridad | T1 | "El miedo no es al cambio: es a que se haga sin mí o para prescindir de mí" (frase de Maria Jose De Vega en B0, citar con permiso). Los dos miedos tienen la misma cura: decidir distinto. | Cita de la red + tesis. | idea; pedir permiso para citar |
+| C10 | Autoridad | T1 / T3 | Los hábitos que hacen que la IA no se quede en piloto (petición de Faustino Hermo): decidir por escrito si automatiza o informa, mapa de lo no escrito, quién enseña lo que la tarea enseñaba. Posible ejemplo de jidoka (Toyota) solo si se verifica con fuente. | Cultura = lo que se hace cada día. | idea; verificar Toyota antes de citarlo |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
 ## Calendario previsto (martes y jueves Synergós, miércoles Comunidad; se ajusta según aprobaciones)
