@@ -3,7 +3,7 @@ const { chromium } = require('playwright'); const { execSync } = require('child_
 (async () => {
   const [,, inp, out] = process.argv; const dir = out + '.frames'; fs.mkdirSync(dir, {recursive:true});
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium' }).catch(async()=>chromium.launch());
-  const p = await b.newPage({ viewport: { width: 1080, height: 1080 } });
+  const H = process.argv[4] ? +process.argv[4] : 1080; const p = await b.newPage({ viewport: { width: 1080, height: H } });
   await p.goto('file://' + inp); await p.waitForTimeout(400);
   const total = await p.evaluate(() => window.TOTAL), fps = await p.evaluate(() => window.FPS);
   const frames = Math.round(total*fps);
