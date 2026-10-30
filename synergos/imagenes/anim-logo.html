@@ -16,7 +16,7 @@ const ctx=document.getElementById('c').getContext('2d');
 // corte superior paralelo a la tilde (42,5 grados), como en las tarjetas
 const a=(180-137.5)*Math.PI/180, D=[Math.cos(a),-Math.sin(a)], Nn=[-Math.sin(a),-Math.cos(a)], hh=R*0.64;
 function dentro(x,y){return ((x-cx)*Nn[0]+(y-cy)*Nn[1]) <= hh}
-const FPS=30, T_SEEDS=2.6, T_HOLD=0.3, T_LOGO=0.8, T_END=0.9;
+const FPS=30, T_SEEDS=2.2, T_HOLD=0.0, T_LOGO=0.7, T_END=1.1;
 const TOTAL=T_SEEDS+T_HOLD+T_LOGO+T_END;
 window.renderFrame = function(t){
   ctx.clearRect(0,0,1080,1080);
@@ -27,11 +27,11 @@ window.renderFrame = function(t){
     if(!dentro(x,y)) continue;
     const age = (shown-n)/40, pop = Math.min(1, age+0.35);
     const rad=c*(0.40+0.10*Math.sqrt(n/N))*pop;
-    ctx.fillStyle=color(n); ctx.globalAlpha = t < T_SEEDS+T_HOLD ? 1 : Math.max(0.42, 1-(t-T_SEEDS-T_HOLD)/T_LOGO*0.58);
+    ctx.fillStyle=color(n); ctx.globalAlpha = Math.max(0.42, 1-Math.max(0,(t-T_SEEDS*0.66))/T_LOGO*0.58);
     ctx.beginPath(); ctx.arc(x,y,rad,0,Math.PI*2); ctx.fill();
   }
   ctx.globalAlpha=1;
-  const lt = Math.max(0, Math.min(1, (t-T_SEEDS-T_HOLD)/T_LOGO));
+  const lt = Math.max(0, Math.min(1, (t-T_SEEDS*0.66)/T_LOGO));
   const lg=document.getElementById('logo'); lg.style.opacity = lt; lg.style.transform = `translateY(${(1-lt)*14}px)`;
 };
 window.TOTAL = TOTAL; window.FPS = FPS;
