@@ -23,9 +23,9 @@ h1 b{font-weight:normal;color:#2C6D3F}
 <canvas id="c" width="1080" height="1350"></canvas><div class="bar"></div>
 <div class="scene" id="intro"><img src="logo-synergos.svg"></div>
 <div class="scene" id="s1"><div class="kicker">Tres hechos verificados</div><h1>Sustituyeron personas por IA.<br><b>Luego dieron marcha atrás.</b></h1><div class="bigsub" style="top:620px">Klarna. Commonwealth Bank. Y un dato de Stanford sobre quién paga la factura.</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
-<div class="scene" id="s2"><div class="kicker">Hecho 1 · Klarna, 2024 a 2025</div><h1>Su IA hacía el trabajo de <b>700 agentes</b>. Un año después volvieron a contratar personas.</h1><div class="big" data-n="700">0</div><div class="bigsub">agentes sustituidos, según la propia empresa en 2024. En mayo de 2025 su consejero delegado reconoció que habían dado demasiado peso al coste y la calidad bajó.</div><div class="nota">Fuente: entrevista de Sebastian Siemiatkowski a Bloomberg, 8 de mayo de 2025. Klarna mantiene la IA en un modelo híbrido.</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
+<div class="scene" id="s2"><div class="kicker">Hecho 1 · Klarna, 2024 a 2025</div><h1>Su IA hacía el trabajo de <b>700 agentes</b>. Un año después volvieron a contratar personas.</h1><div class="big" data-n="700">0</div><div class="bigsub">agentes sustituidos, según la propia empresa. En 2025 su consejero delegado lo reconoció: demasiado peso al coste, y la calidad bajó.</div><div class="nota">Fuente: Bloomberg, 8 de mayo de 2025. Klarna mantiene la IA en un modelo híbrido.</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
 <div class="scene" id="s3"><div class="kicker">Hecho 2 · Commonwealth Bank, 2025</div><h1>Un bot de voz iba a reducir las llamadas. <b>Las llamadas subieron.</b></h1><div class="big" data-n="45">0</div><div class="bigsub">puestos declarados prescindibles. En agosto de 2025 el banco llamó «error» a la decisión, pidió disculpas y les ofreció quedarse.</div><div class="nota">Fuente: ABC News Australia, 21 de agosto de 2025; Information Age (ACS).</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
-<div class="scene" id="s4"><div class="kicker">Hecho 3 · Stanford, 2025 y 2026</div><h1>Quién paga la factura: <b>los que están aprendiendo el oficio.</b></h1><div class="big" data-n="19" data-suf=" %">0</div><div class="bigsub">menos empleo entre los jóvenes de 22 a 25 años en las ocupaciones más expuestas a la IA, frente a sus iguales en ocupaciones menos expuestas. Donde la IA automatiza, no donde amplía.</div><div class="nota">Fuente: Brynjolfsson, Chandar y Chen, «Canaries in the Coal Mine?», Stanford Digital Economy Lab, revisión de agosto de 2026. Datos de EE. UU.; los autores no ven desplazamiento generalizado.</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
+<div class="scene" id="s4"><div class="kicker">Hecho 3 · Stanford, 2025 y 2026</div><h1>Quién paga la factura: <b>los que están aprendiendo el oficio.</b></h1><div class="big" data-n="19" data-suf=" %">0</div><div class="bigsub">menos empleo entre los jóvenes de 22 a 25 años en las ocupaciones más expuestas a la IA. Donde la IA automatiza, no donde amplía.</div><div class="nota">Fuente: Brynjolfsson, Chandar y Chen, Stanford Digital Economy Lab, agosto de 2026. Datos de EE. UU.</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
 <div class="scene" id="s5"><div class="kicker">La pregunta de puerta de Synergós</div><h1>Antes de aprobar el proyecto, una sola pregunta por escrito:</h1><div class="col l"><h2>¿Automatiza?</h2>Sustituye el criterio de quien hace el trabajo. Ahorra hoy. Lo que esa persona sabía y no estaba escrito se descubre cuando ya no está.</div><div class="col r"><h2>¿Informa?</h2>Da a quien hace el trabajo más comprensión y más criterio. Tarda más en arrancar. Lo que sabe se queda, y crece.</div><div class="q">Las tres organizaciones respondieron sin saber que estaban respondiendo.</div><img class="logo" src="logo-synergos.svg"><div class="firma">Alejandro Berruezo</div></div>
 <div class="scene" id="cierre"><img src="logo-synergos.svg"><div class="es">Crecer a la vez.</div></div>
 <script>
@@ -36,16 +36,16 @@ function color(n){return n<N*0.62?mix(INK,GREEN,Math.min(1,n/N*1.6)):mix(GREEN,L
 const a=(180-137.5)*Math.PI/180, Nn=[-Math.sin(a),-Math.cos(a)], hh=R*0.64;
 const ctx=document.getElementById('c').getContext('2d');
 // escenas: [id, inicio, duración]; fundidos de 0,5 s
-const S=[['intro',0,3.2],['s1',3.2,6],['s2',9.2,7],['s3',16.2,7],['s4',23.2,7.5],['s5',30.7,8.5],['cierre',39.2,3.3]];
-const F=0.5; window.TOTAL=42.5; window.FPS=30;
+const S=[['intro',0,1.8],['s1',1.8,3.6],['s2',5.4,4.2],['s3',9.6,4.2],['s4',13.8,4.6],['s5',18.4,4.8],['cierre',23.2,1.8]];
+const F=0.3; window.TOTAL=25; window.FPS=30;
 function ease(x){return x<0?0:x>1?1:1-Math.pow(1-x,3)}
 window.renderFrame=function(t){
   // fondo de semillas: crecen en la intro y se quedan tenues detrás
   ctx.clearRect(0,0,1080,1350);
-  const intro = t<3.2;
-  const k = intro ? Math.min(1,t/2.2) : 1;
+  const intro = t<1.8;
+  const k = intro ? Math.min(1,t/1.3) : 1;
   const shown=Math.floor(N*(1-Math.pow(1-k,2)));
-  const bgA = intro ? 1 : (t>39.2 ? 0.9 : 0.16);
+  const bgA = intro ? 1 : (t>23.2 ? 0.9 : 0.16);
   for(let n=1;n<=shown;n++){const r=c*Math.sqrt(n),th=n*GA,x=cx+r*Math.cos(th),y=cy+r*Math.sin(th);
     if(((x-cx)*Nn[0]+(y-cy)*Nn[1])>hh) continue;
     ctx.globalAlpha=bgA; ctx.fillStyle=color(n); ctx.beginPath(); ctx.arc(x,y,c*(0.40+0.10*Math.sqrt(n/N)),0,Math.PI*2); ctx.fill();}
@@ -53,10 +53,10 @@ window.renderFrame=function(t){
   for(const [id,st,du] of S){
     const el=document.getElementById(id); const lt=t-st;
     let op=0; if(lt>=0&&lt<=du){op=Math.min(1, lt/F, (du-lt)/F);} el.style.opacity=op;
-    if(id==='intro'){ el.querySelector('img').style.opacity = ease((t-1.4)/0.7); }
-    const big=el.querySelector('.big'); if(big&&lt>=0){const target=+big.dataset.n; const v=Math.round(target*ease((lt-0.4)/1.2)); big.textContent=v+(big.dataset.suf||'');}
+    if(id==='intro'){ el.querySelector('img').style.opacity = ease((t-0.7)/0.5); }
+    const big=el.querySelector('.big'); if(big&&lt>=0){const target=+big.dataset.n; const v=Math.round(target*ease((lt-0.2)/0.9)); big.textContent=v+(big.dataset.suf||'');}
     // entrada suave de los bloques de texto
-    el.querySelectorAll('h1,.bigsub,.nota,.col,.q').forEach((b,i)=>{const d=0.2+i*0.25; const e=ease((lt-d)/0.6); b.style.opacity=lt>=0?e:0; b.style.transform=`translateY(${(1-e)*16}px)`;});
+    el.querySelectorAll('h1,.bigsub,.nota,.col,.q').forEach((b,i)=>{const d=0.1+i*0.15; const e=ease((lt-d)/0.4); b.style.opacity=lt>=0?e:0; b.style.transform=`translateY(${(1-e)*16}px)`;});
   }
 };
 </script></body></html>
