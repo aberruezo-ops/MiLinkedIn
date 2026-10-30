@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;width:1080px;height:1080px;background:transparent;overflow:hidden;font-family:'DejaVu Serif',serif;color:#F4F6F6}
+#veil{position:absolute;left:0;top:0;width:1080px;height:1080px;background:linear-gradient(180deg,rgba(31,29,26,0.15) 0%,rgba(31,29,26,0.55) 45%,rgba(31,29,26,0.88) 100%);opacity:0}
+#logo{position:absolute;left:140px;top:110px;width:800px;opacity:0}
+.kicker{position:absolute;left:90px;top:430px;font-family:'DejaVu Sans',sans-serif;font-size:26px;letter-spacing:2px;color:#7CC090;text-transform:uppercase;opacity:0}
+h1{position:absolute;left:90px;top:490px;width:900px;font-size:80px;line-height:1.1;margin:0;font-weight:normal;opacity:0;text-shadow:0 2px 18px rgba(0,0,0,.5)}
+h1 b{font-weight:normal;color:#7CC090}
+.sub{position:absolute;left:90px;top:860px;width:900px;font-family:'DejaVu Sans',sans-serif;font-size:31px;line-height:1.4;color:#E6EFE9;opacity:0;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+.firma{position:absolute;left:90px;bottom:60px;font-family:'DejaVu Sans',sans-serif;font-size:24px;color:#E6EFE9;opacity:0}
+</style></head><body>
+<div id="veil"></div>
+<img id="logo" src="logo-synergos-dark.svg">
+<div class="kicker">Comunidad Synergós · pregunta abierta</div>
+<h1>¿Quién te hizo crecer de verdad, <b>y qué hacía distinto</b>?</h1>
+<div class="sub">Casi seguro que no era quien más hablaba en las reuniones. Cuéntalo en comentarios, sin nombres si no quieres.</div>
+<div class="firma">Alejandro Berruezo</div>
+<script>
+window.TOTAL=8; window.FPS=24;
+function ease(x){return x<0?0:x>1?1:1-Math.pow(1-x,3)}
+window.renderFrame=function(t){
+  document.getElementById('veil').style.opacity=ease((t-1.2)/1.2);
+  document.getElementById('logo').style.opacity=ease((t-1.6)/0.7);
+  document.querySelector('.kicker').style.opacity=ease((t-2.6)/0.5);
+  const h=document.querySelector('h1'); const e=ease((t-2.9)/0.7); h.style.opacity=e; h.style.transform=`translateY(${(1-e)*16}px)`;
+  const s=document.querySelector('.sub'); const e2=ease((t-3.8)/0.7); s.style.opacity=e2; s.style.transform=`translateY(${(1-e2)*16}px)`;
+  document.querySelector('.firma').style.opacity=ease((t-4.2)/0.6);
+};
+</script></body></html>
