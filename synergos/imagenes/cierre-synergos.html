@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;width:1080px;background:#F4F6F6;overflow:hidden;font-family:'DejaVu Serif',serif;color:#1F1D1A}
+canvas{position:absolute;left:0;top:0}
+#logo{position:absolute;left:160px;width:760px;opacity:0}
+#es{position:absolute;left:90px;width:900px;text-align:center;font-size:46px;color:#2C6D3F;opacity:0}
+</style></head><body>
+<canvas id="c" width="1080" height="1080"></canvas>
+<img id="logo" src="logo-synergos.svg">
+<div id="es">Crecer a la vez.</div>
+<script>
+// Cierre común de todos los vídeos Synergós: semillas (modelo de Vogel, 137,5°), logo y eslogan.
+// Alto configurable: cierre-synergos.html#1350 para formato vertical.
+const H=+(location.hash.slice(1))||1080; document.body.style.height=H+'px'; document.getElementById('c').height=H;
+const GA=137.50776405*Math.PI/180, N=700, cx=870, cy=H-220, R=330, c=R/Math.sqrt(N);
+const INK='#1F1D1A', GREEN='#2C6D3F', LIGHT='#7CC090';
+function mix(a,b,t){const p=h=>[1,3,5].map(i=>parseInt(h.substr(i,2),16));const A=p(a),B=p(b);return '#'+A.map((v,i)=>Math.round(v+(B[i]-v)*t).toString(16).padStart(2,'0')).join('')}
+function color(n){return n<N*0.62?mix(INK,GREEN,Math.min(1,n/N*1.6)):mix(GREEN,LIGHT,(n/N-0.62)/0.38)}
+const a=(180-137.5)*Math.PI/180, Nn=[-Math.sin(a),-Math.cos(a)], hh=R*0.64;
+const ctx=document.getElementById('c').getContext('2d');
+const logo=document.getElementById('logo'), es=document.getElementById('es');
+logo.style.top=(H/2-250)+'px'; es.style.top=(H/2-30)+'px';
+window.TOTAL=2.8; window.FPS=24;
+function ease(x){return x<0?0:x>1?1:1-Math.pow(1-x,3)}
+window.renderFrame=function(t){
+  ctx.clearRect(0,0,1080,H);
+  const k=Math.min(1,t/1.3), shown=Math.floor(N*(1-Math.pow(1-k,2)));
+  for(let n=1;n<=shown;n++){const r=c*Math.sqrt(n),th=n*GA,x=cx+r*Math.cos(th),y=cy+r*Math.sin(th);
+    if(((x-cx)*Nn[0]+(y-cy)*Nn[1])>hh) continue;
+    ctx.globalAlpha=0.9; ctx.fillStyle=color(n); ctx.beginPath(); ctx.arc(x,y,c*(0.40+0.10*Math.sqrt(n/N)),0,Math.PI*2); ctx.fill();}
+  ctx.globalAlpha=1;
+  logo.style.opacity=ease((t-0.5)/0.6);
+  const e=ease((t-1.0)/0.6); es.style.opacity=e; es.style.transform=`translateY(${(1-e)*14}px)`;
+};
+</script></body></html>
