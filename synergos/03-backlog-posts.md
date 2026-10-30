@@ -22,6 +22,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | C9 | Autoridad | T1 | "El miedo no es al cambio: es a que se haga sin mí o para prescindir de mí" (frase de Maria Jose De Vega en B0, citar con permiso). Los dos miedos tienen la misma cura: decidir distinto. | Cita de la red + tesis. | idea; pedir permiso para citar |
 | C10 | Autoridad | T1 / T3 | Los hábitos que hacen que la IA no se quede en piloto (petición de Faustino Hermo): decidir por escrito si automatiza o informa, mapa de lo no escrito, quién enseña lo que la tarea enseñaba. Posible ejemplo de jidoka (Toyota) solo si se verifica con fuente. | Cultura = lo que se hace cada día. | idea; verificar Toyota antes de citarlo |
 | B12 | Autoridad | T1 (Zuboff, Brynjolfsson) | Tres hechos verificados: Klarna y Commonwealth Bank sustituyeron personas por IA y dieron marcha atrás; Stanford (Canaries) mide quién paga la factura. Ninguno midió antes lo que sabían esas personas. Pregunta de puerta. Fuentes en 02-fuentes.md. | Hechos reales con fecha + carrusel de 5 tarjetas. | aprobado por Alejandro el 30 oct; texto en posts/2026-11-03-B12-propuesta.md; carrusel en imagenes/carrusel-synergos-B12.pdf; lo publica Alejandro a mano el 3 nov a las 8:30 (Publora no sube PDF) |
+| C11 | Comunidad | C8 | El liderazgo empieza donde termina el ego (a partir de un artículo de Antonio Núñez que aporta Alejandro): quién te hizo crecer y qué hacía distinto; cuánto de eso haces tú. Enlaza con la pregunta de Laura Rollano (C8). | Pregunta doble, la segunda incómoda. | redactado el 30 oct (posts/2026-11-04-C11.md), pendiente de aprobación; B7 (encuesta) se pospone |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
 ## Calendario previsto (martes y jueves Synergós, miércoles Comunidad; se ajusta según aprobaciones)
@@ -32,7 +33,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito (programado, postGroupId 6ae05c0ded849b64de4e687a) |
 | Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto; aprobado y programado en Publora el 29 oct a las 8:30, postGroupId 6ae1c7b98b8961708683daeb; imagen tarjeta-B1.png, enlace al artículo en el primer comentario). |
 | Mar 3 nov | Autoridad | B12 Sustituyeron personas por IA y dieron marcha atrás (carrusel; publicación manual por Alejandro) |
-| Mié 4 nov | Comunidad | B7 Encuesta: ¿lidera quien conoce el trabajo o quien conoce la tecnología? |
+| Mié 4 nov | Comunidad | C11 El liderazgo empieza donde termina el ego (tema pedido por Alejandro; borrador listo). B7 se pospone. |
 | Jue 5 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA (B3 Zuboff pasa al 10 nov; B4 Polanyi al 12; B5 Brynjolfsson al 17; B10 ángulo áureo al 19; B11 al 24) |
 | Mar 10 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar |
 | Mié 11 nov | Comunidad | C3 Pregunta: ¿quién te enseñó algo que no estaba en ningún manual? (en vez de reconocimiento con nombre) |
