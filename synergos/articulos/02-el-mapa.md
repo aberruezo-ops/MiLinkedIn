@@ -1,6 +1,6 @@
 # El mapa de lo que nadie escribió
 
-*Borrador v1 (31 oct 2026) para publicar el lunes 9 de noviembre de 2026 como artículo de LinkedIn (lo pega Alejandro en el editor de artículos; Publora no publica artículos). Segundo artículo quincenal de Synergós (AR2). Fuentes: Polanyi 1966, Trist y Bamforth 1951, Zuboff 1988, y los casos de Klarna y Commonwealth Bank fichados en `02-fuentes.md`. El caso del apartado "Cómo se hace" es compuesto e ilustrativo, y así se dice en el texto. Portada: pendiente (misma familia que `portada-articulo.png`). Estado: pendiente de revisión de Alejandro.*
+*Borrador v1 (31 oct 2026) para publicar el lunes 9 de noviembre de 2026 como artículo de LinkedIn (lo pega Alejandro en el editor de artículos; Publora no publica artículos). Segundo artículo quincenal de Synergós (AR2). Fuentes: Polanyi 1966, Trist y Bamforth 1951, Zuboff 1988, y los casos de Klarna y Commonwealth Bank fichados en `02-fuentes.md`. El caso del apartado "Cómo se hace" es compuesto e ilustrativo, y así se dice en el texto. Portada: `imagenes/portada-articulo-02.png`. Vídeo para el cuerpo y el post de anuncio: `imagenes/anim-articulo-02.mp4` (13 s: título, tabla del caso compuesto fila a fila con las filas de una persona marcadas, conclusión, cierre con semillas, logo y eslogan). Estado: pendiente de revisión de Alejandro.*
 
 ---
 
