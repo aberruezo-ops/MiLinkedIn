@@ -25,24 +25,53 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | C11 | Comunidad | C8 | El liderazgo empieza donde termina el ego (a partir de un artículo de Antonio Núñez que aporta Alejandro): quién te hizo crecer y qué hacía distinto; cuánto de eso haces tú. Enlaza con la pregunta de Laura Rollano (C8). | Pregunta doble, la segunda incómoda. | aprobado por Alejandro el 30 oct; programado en Publora para el 4 nov a las 8:30 con el vídeo de girasol real (Higgsfield + capa de texto propia; el verde anim-comunidad-C11.mp4 queda como alternativa) y primer comentario (artículo de Núñez sin enlace + enlace a los mimbres) (postGroupId 6ae5120c33575169fb368226); B7 (encuesta) se pospone |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
-## Calendario previsto (martes y jueves Synergós, miércoles Comunidad; se ajusta según aprobaciones)
+## Calendario previsto (desde el 31 oct: semana = artículo madre el lunes + hijos martes y jueves + comunidad miércoles; ver A12)
+
+**Semana del 2 nov** (sin artículo nuevo; el madre es "Los mimbres", 27 oct)
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
-| Mar 27 oct | Autoridad | B0 Presentación de Synergós (programado en Publora, 8:30 Madrid; postGroupId 6adf0006ed849b64de4091be) |
-| Mié 28 oct | Comunidad | B6 Pregunta: quién sabe lo que no está escrito (programado, postGroupId 6ae05c0ded849b64de4e687a) |
-| Jue 29 oct | Autoridad | B1 La gestión del cambio llega tarde (caso compuesto; aprobado y programado en Publora el 29 oct a las 8:30, postGroupId 6ae1c7b98b8961708683daeb; imagen tarjeta-B1.png, enlace al artículo en el primer comentario). |
 | Mar 3 nov | Autoridad | B12 Sustituyeron personas por IA y dieron marcha atrás (vídeo 25 s; programado en Publora) |
-| Mié 4 nov | Comunidad | C11 El liderazgo empieza donde termina el ego (vídeo 8,5 s; programado en Publora). B7 se pospone. |
-| Jue 5 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA (B3 Zuboff pasa al 10 nov; B4 Polanyi al 12; B5 Brynjolfsson al 17; B10 ángulo áureo al 19; B11 al 24) |
-| Mar 10 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar |
-| Mié 11 nov | Comunidad | C3 Pregunta: ¿quién te enseñó algo que no estaba en ningún manual? (en vez de reconocimiento con nombre) |
-| Jue 12 nov | Autoridad | B5 Brynjolfsson: la trampa de Turing |
-| Mar 17 nov | Autoridad | B10 El ángulo áureo: nada tapa a nada (o T2 si se prefiere) |
-| Mié 18 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
-| Jue 19 nov | Autoridad | B11 ¿Personas y conocimiento no son lo mismo? (o T3 si se prefiere) |
+| Mié 4 nov | Comunidad | C11 El liderazgo empieza donde termina el ego (vídeo girasol; programado en Publora) |
+| Jue 5 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA (lo redacta la rutina el miércoles 4; vídeo según A8) |
 
-**Aviso:** con dos posts de Autoridad por semana, el backlog actual (B1 a B5) se agota el 12 de noviembre. Hace falta una sesión de pensamiento para desarrollar T2 y T3 (y cerrar P1) antes de esa fecha. Los jueves de Narrativa están suspendidos desde el 26 oct 2026; N1 a N3 quedan en reserva (en voseo, de la etapa anterior; se reescribirían en español de España si se reactivan).
+**Semana del 9 nov. Artículo AR2: El mapa de lo que nadie escribió** (borrador, portada y vídeo listos)
+
+| Fecha | Pilar | Ítem |
+|---|---|---|
+| Lun 9 nov | Artículo | AR2 El mapa de lo que nadie escribió (lo publica Alejandro; portada-articulo-02.png; anim-articulo-02.mp4 en el cuerpo) |
+| Mar 10 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar, y las cinco preguntas que lo destapan (hijo 1 del AR2) |
+| Mié 11 nov | Comunidad | C12 Pregunta: ¿qué pasaría mañana en tu equipo si tú no vinieras? (hijo 2 del AR2; sustituye a C3) |
+| Jue 12 nov | Autoridad | B13 La columna que asusta: misma tecnología, mismo presupuesto, resultado opuesto. El caso compuesto del artículo, opción A frente a opción B (hijo 3 del AR2) |
+
+**Semana del 16 nov. Artículo AR3: Automatiza o informa**
+
+| Fecha | Pilar | Ítem |
+|---|---|---|
+| Lun 16 nov | Artículo | AR3 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto (redactar el jueves 12) |
+| Mar 17 nov | Autoridad | B3 Zuboff: no es la herramienta, es la decisión |
+| Mié 18 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
+| Jue 19 nov | Autoridad | B5 Brynjolfsson y la trampa de Turing: por qué la balanza está inclinada |
+
+**Semana del 23 nov. Artículo AR6: Lo que preguntasteis** (artículo de comunidad: las preguntas de Santiago Rubio, Laura Rollano, Maria Jose De Vega y Faustino Hermo, respondidas con el método; pedir permiso a De Vega antes de citar)
+
+| Fecha | Pilar | Ítem |
+|---|---|---|
+| Lun 23 nov | Artículo | AR6 Lo que preguntasteis: participar, liderar, el miedo y los hábitos (redactar el jueves 19) |
+| Mar 24 nov | Autoridad | C7 Hacer partícipes a quienes sostienen el día a día: la pregunta a tiempo |
+| Mié 25 nov | Comunidad | C13 Pregunta: ¿quién en tu organización sabe decir que no a un plazo? (de C8) |
+| Jue 26 nov | Autoridad | C10 Los hábitos que hacen que la IA no se quede en piloto (verificar jidoka antes de usarlo) |
+
+**Semana del 30 nov. Artículo AR4: Qué tiene de nuevo la IA generativa y qué no** (requiere sesión de investigación la semana del 23; si no está cerrada, se adelanta AR5 El orden importa: 137,5 grados, con B10 y B11 como hijos)
+
+| Fecha | Pilar | Ítem |
+|---|---|---|
+| Lun 30 nov | Artículo | AR4 (o AR5) |
+| Mar 1 dic | Autoridad | B9 Qué es nuevo de verdad y qué es la misma historia (o B10 ángulo áureo) |
+| Mié 2 dic | Comunidad | C14 Pregunta: ¿qué hace tu equipo hoy que hace cinco años no existía? |
+| Jue 3 dic | Autoridad | B11 ¿Personas y conocimiento no son lo mismo? |
+
+B7 (encuesta) y B8 (narrativa, falta caso real) siguen en espera.
 
 ## Reglas
 
