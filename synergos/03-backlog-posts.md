@@ -79,9 +79,9 @@ B7 (encuesta) y B8 (narrativa, falta caso real) siguen en espera.
 - Antes de usar una cifra, mirar `02-fuentes.md`. Si está "pendiente de verificación", no darla como exacta.
 - Los posts de Autoridad nombran Synergós al menos una vez, con naturalidad, no como marca pegada al final.
 
-## Artículos quincenales (decisión de Alejandro, 31 oct 2026)
+## Artículos semanales (decisión de Alejandro, 31 oct 2026; antes quincenales)
 
-Cada dos semanas, un artículo que desarrolle en detalle una pieza concreta de Synergós. El primero fue "Crecer a la vez: los mimbres de Synergós" (27 oct). Siguiente: lunes 9 de noviembre (Alejandro lo adelanta un día para no coincidir con el post del martes).
+Cada semana, un artículo madre el lunes que desarrolle una pieza concreta de Synergós, con tres posts hijos (ver A12 y el calendario por semanas). El primero fue "Crecer a la vez: los mimbres de Synergós" (27 oct). Siguiente: lunes 9 de noviembre (Alejandro lo adelanta un día para no coincidir con el post del martes).
 
 | Nº | Tema | Por qué es distinto | Base | Estado |
 |---|---|---|---|---|
