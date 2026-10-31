@@ -52,11 +52,11 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 ## Artículos quincenales (decisión de Alejandro, 31 oct 2026)
 
-Cada dos semanas, un artículo que desarrolle en detalle una pieza concreta de Synergós. El primero fue "Crecer a la vez: los mimbres de Synergós" (27 oct). Siguiente: hacia el lunes 10 de noviembre.
+Cada dos semanas, un artículo que desarrolle en detalle una pieza concreta de Synergós. El primero fue "Crecer a la vez: los mimbres de Synergós" (27 oct). Siguiente: lunes 9 de noviembre (Alejandro lo adelanta un día para no coincidir con el post del martes).
 
 | Nº | Tema | Por qué es distinto | Base | Estado |
 |---|---|---|---|---|
-| AR2 | El mapa de lo que nadie escribió: el entregable de conocimiento tácito en el diagnóstico (dónde está, en quién, qué le pasa con cada opción; cómo se levanta y cómo se usa para decidir) | Convierte en entregable con fecha lo que todos dan por supuesto; propone no aprobar sin él. Enlaza con B12 y con los comentarios de Elena García y Jorge García | Polanyi 1966, Trist y Bamforth 1951, T1 | propuesto como siguiente (recomendado) |
+| AR2 | El mapa de lo que nadie escribió: el entregable de conocimiento tácito en el diagnóstico (dónde está, en quién, qué le pasa con cada opción; cómo se levanta y cómo se usa para decidir) | Convierte en entregable con fecha lo que todos dan por supuesto; propone no aprobar sin él. Enlaza con B12 y con los comentarios de Elena García y Jorge García | Polanyi 1966, Trist y Bamforth 1951, T1 | elegido por Alejandro el 31 oct; borrador v1 en articulos/02-el-mapa.md, pendiente de su revisión; publicar el lunes 9 nov; portada pendiente |
 | AR3 | Automatiza o informa: la pregunta de puerta desarrollada con ejemplos de la misma tecnología usada de las dos maneras y una regla para decidir antes de aprobar | Sólido, pero ya presente en los posts | Zuboff 1988, Brynjolfsson 2022 | propuesto |
 | AR4 | Qué tiene de nuevo la IA generativa y qué no (respuesta a la objeción 4 de T1): cambia escala y velocidad, no la estructura; dos cosas sí nuevas | El más interesante intelectualmente; pide más investigación | T1 objeción 4; fuentes por verificar | propuesto |
 | AR5 | El orden importa: por qué 137,5 grados. El ángulo áureo como regla de diseño del método | Muy de marca, más poético que útil; candidato a cierre de año | Vogel 1979, Douady y Couder 1992 | propuesto |
