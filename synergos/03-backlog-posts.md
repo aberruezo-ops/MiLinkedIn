@@ -25,52 +25,29 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | C11 | Comunidad | C8 | El liderazgo empieza donde termina el ego (a partir de un artículo de Antonio Núñez que aporta Alejandro): quién te hizo crecer y qué hacía distinto; cuánto de eso haces tú. Enlaza con la pregunta de Laura Rollano (C8). | Pregunta doble, la segunda incómoda. | aprobado por Alejandro el 30 oct; programado en Publora para el 4 nov a las 8:30 con el vídeo de girasol real (Higgsfield + capa de texto propia; el verde anim-comunidad-C11.mp4 queda como alternativa) y primer comentario (artículo de Núñez sin enlace + enlace a los mimbres) (postGroupId 6ae5120c33575169fb368226); B7 (encuesta) se pospone |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
-## Calendario previsto (desde el 31 oct: semana = artículo madre el lunes + hijos martes y jueves + comunidad miércoles; ver A12)
+## Calendario previsto (desde el 31 oct: semana = artículo madre el lunes + hijos martes y jueves + comunidad miércoles; ver A12 y A14)
 
-**Semana del 2 nov. Artículo AR2: El mapa de lo que nadie escribió** (texto, portada y vídeo listos; lo publica Alejandro el lunes 2)
+La serie recorre el método por vueltas: cada semana un elemento distinto (conocimiento, personas, tecnología, crecer a la vez) y cada vuelta baja un nivel. Las vueltas 3 y 4 se cierran en la sesión del índice del método con Alejandro.
 
-| Fecha | Pilar | Ítem |
-|---|---|---|
-| Lun 2 nov | Artículo | AR2 El mapa de lo que nadie escribió (portada-articulo-02.png; anim-articulo-02.mp4 en el cuerpo tras "Hasta que Marta se va") |
-| Mar 3 nov | Autoridad | B12 Sustituyeron personas por IA y dieron marcha atrás (programado; hijo 1: los tres casos que el artículo adelanta; añadir el enlace al artículo en el primer comentario cuando exista la URL) |
-| Mié 4 nov | Comunidad | C11 El liderazgo empieza donde termina el ego (programado; aprobado antes del cambio de estructura, se mantiene) |
-| Jue 5 nov | Autoridad | B13 La columna que asusta: misma tecnología, mismo presupuesto, resultado opuesto. El caso compuesto del artículo, opción A frente a B (hijo 2; lo redacta la rutina el miércoles 4). B2 Trist y Bamforth pasa a hijo de otra semana |
+**Vuelta 1**
 
-**Semana del 9 nov. Artículo AR3: Automatiza o informa** (redactar el jueves 5)
+| Semana | Elemento | Artículo del lunes | Hijos (mar / mié / jue) |
+|---|---|---|---|
+| 2 nov | Conocimiento | AR2 El mapa de lo que nadie escribió (listo; portada-articulo-02.png, anim-articulo-02.mp4) | B12 marchas atrás (programado, hijo 1) / C11 ego (programado, aprobado antes del cambio) / B13 la columna que asusta: opción A frente a B |
+| 9 nov | Personas | AR3 Las personas no son la fase final: criterio de diseño desde el diagnóstico (desarrolla B1; redactar el jueves 5) | B4 Polanyi y las cinco preguntas que destapan lo que sabe la gente / C12 ¿qué pasaría mañana en tu equipo si tú no vinieras? / C7 hacer partícipes a quienes sostienen el día a día (sin nombres) |
+| 16 nov | Tecnología | AR4 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto (redactar el jueves 12) | B3 Zuboff: no es la herramienta, es la decisión / C4 la última vez que una herramienta te quitó criterio / B5 Brynjolfsson y la trampa de Turing |
+| 23 nov | Crecer a la vez | AR5 Diagnóstico antes que solución: la puerta por la que pasa todo (redactar el jueves 19) | B14 el proyecto que llegó con la solución decidida (caso compuesto) / C13 ¿quién en tu organización sabe decir que no a un plazo? / B15 las tres preguntas de la puerta, por escrito |
 
-| Fecha | Pilar | Ítem |
-|---|---|---|
-| Lun 9 nov | Artículo | AR3 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto |
-| Mar 10 nov | Autoridad | B3 Zuboff: no es la herramienta, es la decisión |
-| Mié 11 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
-| Jue 12 nov | Autoridad | B5 Brynjolfsson y la trampa de Turing: por qué la balanza está inclinada |
+**Vuelta 2**
 
-**Semana del 16 nov. Artículo AR6: Lo que preguntasteis** (las preguntas que han llegado en los comentarios, recogidas sin nombrar a nadie ni citar literalmente, respondidas con el método; redactar el jueves 12)
+| Semana | Elemento | Artículo del lunes | Hijos |
+|---|---|---|---|
+| 30 nov | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando | B2 minas de carbón y pilotos de IA / C14 ¿qué sabe hacer tu equipo junto que nadie sabe por separado? / B11 personas y conocimiento no son lo mismo |
+| 7 dic | Personas | AR7 Lo que preguntasteis: participar, liderar, el miedo (sin nombres) | C9 el miedo a que se haga sin mí / C15 pregunta sobre liderar sin protagonismo / C8 quién sostiene una transformación |
+| 14 dic | Tecnología | AR8 De la demo al uso: por qué el piloto funciona y el despliegue no | C10 hábitos para que la IA no se quede en piloto (verificar jidoka) / C16 ¿cuántos pilotos has visto escalar? / B16 cuánta IA necesita cada caso |
+| 21 dic | Crecer a la vez | AR9 El orden importa: 137,5 grados, nada nuevo encima de lo no mirado | B10 ángulo áureo / C17 pregunta de cierre de año / B17 el método en una página (adelanto) |
 
-| Fecha | Pilar | Ítem |
-|---|---|---|
-| Lun 16 nov | Artículo | AR6 Lo que preguntasteis: participar, liderar, el miedo y los hábitos |
-| Mar 17 nov | Autoridad | C7 Hacer partícipes a quienes sostienen el día a día: la pregunta a tiempo (sin nombrar a quien lo preguntó) |
-| Mié 18 nov | Comunidad | C13 Pregunta: ¿quién en tu organización sabe decir que no a un plazo? |
-| Jue 19 nov | Autoridad | C10 Los hábitos que hacen que la IA no se quede en piloto (verificar jidoka antes de usarlo; sin nombrar a quien lo pidió) |
-
-**Semana del 23 nov. Artículo AR7: Setenta y cinco años avisando** (Trist y Bamforth 1951 y lo que la historia de la mecanización enseña a los pilotos de IA; redactar el jueves 19)
-
-| Fecha | Pilar | Ítem |
-|---|---|---|
-| Lun 23 nov | Artículo | AR7 Setenta y cinco años avisando |
-| Mar 24 nov | Autoridad | B2 Trist y Bamforth: las minas de carbón y los pilotos de IA |
-| Mié 25 nov | Comunidad | C12 Pregunta: ¿qué pasaría mañana en tu equipo si tú no vinieras? |
-| Jue 26 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar, y las cinco preguntas |
-
-**Semana del 30 nov. Artículo AR4: Qué tiene de nuevo la IA generativa y qué no** (requiere sesión de investigación la semana del 23; si no está cerrada, AR5 El orden importa: 137,5 grados, con B10 y B11 como hijos)
-
-| Fecha | Pilar | Ítem |
-|---|---|---|
-| Lun 30 nov | Artículo | AR4 (o AR5) |
-| Mar 1 dic | Autoridad | B9 Qué es nuevo de verdad y qué es la misma historia (o B10 ángulo áureo) |
-| Mié 2 dic | Comunidad | C14 Pregunta: ¿qué hace tu equipo hoy que hace cinco años no existía? |
-| Jue 3 dic | Autoridad | B11 ¿Personas y conocimiento no son lo mismo? |
+**Vuelta 3 (enero, por cerrar en la sesión del índice):** Conocimiento en la tecnología (qué tiene de nuevo la IA generativa, B9); Personas: quién enseña lo que la tarea enseñaba (Stanford); Tecnología: lo que la tecnología aprende de nosotros; Crecer a la vez: gobierno y medida.
 
 B7 (encuesta) y B8 (narrativa, falta caso real) siguen en espera.
 

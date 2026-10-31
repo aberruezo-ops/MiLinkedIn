@@ -12,7 +12,7 @@ Mañana contaré aquí con detalle tres casos verificados, pero los adelanto: Kl
 
 Este artículo es sobre cómo evitar eso. No con un principio, que ya los tenemos de sobra, sino con un entregable concreto, con fecha y con responsable, que en Synergós se llama el mapa de lo que nadie escribió.
 
-Y es también el primero de una serie. En el artículo anterior conté que Synergós se apoya en tres elementos, personas, conocimiento y tecnología, y que la transformación sale bien cuando los tres crecen a la vez. A partir de hoy voy a recorrer el método entero, un artículo cada lunes, elemento a elemento. Empiezo por el conocimiento, y dentro de él por la parte que menos se mira: la que no está escrita.
+Y es también el primero de una serie. En el artículo anterior conté que Synergós se apoya en tres elementos, personas, conocimiento y tecnología, y que la transformación sale bien cuando los tres crecen a la vez. A partir de hoy voy a recorrer el método entero, un artículo cada lunes y cada semana un elemento distinto, dando vueltas como las hojas alrededor del tallo y bajando un poco más en cada vuelta. Empiezo por el conocimiento, y dentro de él por la parte que menos se mira: la que no está escrita.
 
 ## Qué es el conocimiento que no está escrito
 
