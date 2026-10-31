@@ -37,7 +37,14 @@ Nada entra aquí sin verificación. Cada entrada dice qué afirma la fuente, qu�
 
 ## Mencionadas en el documento base, pendientes de ficha propia
 
-Rumelt (2011), Kotter (1995), Goldratt (1984), Cooper (1990), Argyris y Schön (1978), Forsgren, Humble y Kim (2018), Edmondson (2018), Heifetz y Linsky (2002), Brynjolfsson, Rock y Syverson (2021, curva J), Dell'Acqua y otros (2023), Von Hippel (2005), Nonaka y Takeuchi (1995), Autor (2014). Se van fichando a medida que una tesis las necesite.
+Lista completa de la bibliografía teórica del documento base (31 oct 2026), para fichar una a una antes de citarla en público:
+
+- Por qué fracasan: Hughes, M. (2011) "Do 70 per cent of all organizational change initiatives really fail?", Journal of Change Management; Kotter, J. P. (1995) "Leading Change: Why Transformation Efforts Fail", HBR.
+- Tronco y dirección: Rumelt (2011) Good Strategy / Bad Strategy; Lafley y Martin (2013) Playing to Win; Goldratt (1984) La meta; Deming (1986) Out of the Crisis; Cooper (1990) "Stage-Gate Systems", Business Horizons; Ries (2011) El método Lean Startup; Weill y Ross (2004) IT Governance; Heifetz y Linsky (2002) Leadership on the Line; Edmondson (2018) The Fearless Organization; Westerman, Bonnet y McAfee (2014) Leading Digital; Brynjolfsson, Rock y Syverson (2021) "The Productivity J-Curve", AEJ: Macroeconomics.
+- Aceleradores: Brynjolfsson, Li y Raymond (2023) "Generative AI at Work", NBER; Dell'Acqua y otros (2023) "Navigating the Jagged Technological Frontier", HBS WP 24-013; Forsgren, Humble y Kim (2018) Accelerate; Ross, Beath y Mocker (2019) Designed for Digital; Nonaka y Takeuchi (1995) The Knowledge-Creating Company; Hubbard (2007) How to Measure Anything; Argyris y Schön (1978) Organizational Learning; Von Hippel (2005) Democratizing Innovation; Christensen y otros (2016) Competing Against Luck.
+- Mercado (solo por fuente secundaria; no citar cifras hasta verificar en primaria): Whitelane y Eraneos (2026) Spain IT Sourcing Study; Whitelane (2025) UK & Ireland IT Sourcing Study; MIT NANDA (2025) The GenAI Divide; Gartner (2026) Top 12 Emerging Technology Disruptors (resumen público). También Autor (2014) sobre la paradoja de Polanyi.
+
+Regla: una obra de esta lista puede nombrarse como referencia general (autor y año) en el método; para atribuirle una cifra o una cita textual en un post hace falta ficha propia con "qué dice" y "qué NO dice".
 
 ## Vogel, H. (1979). "A better way to construct the sunflower head". Mathematical Biosciences, 44(3-4), 179-189. DOI 10.1016/0025-5564(79)90080-4
 **Verificada el 27 oct 2026** (referencia bibliográfica confirmada por varias fuentes secundarias; no se ha leído el texto completo).
