@@ -12,6 +12,8 @@ Mañana contaré aquí con detalle tres casos verificados, pero los adelanto: Kl
 
 Este artículo es sobre cómo evitar eso. No con un principio, que ya los tenemos de sobra, sino con un entregable concreto, con fecha y con responsable, que en Synergós se llama el mapa de lo que nadie escribió.
 
+Y es también el primero de una serie. En el artículo anterior conté que Synergós se apoya en tres elementos, personas, conocimiento y tecnología, y que la transformación sale bien cuando los tres crecen a la vez. A partir de hoy voy a recorrer el método entero, un artículo cada lunes, elemento a elemento. Empiezo por el conocimiento, y dentro de él por la parte que menos se mira: la que no está escrita.
+
 ## Qué es el conocimiento que no está escrito
 
 Michael Polanyi lo resumió en 1966 en una frase que llevo años citando: sabemos más de lo que podemos decir. Un médico que reconoce una enfermedad antes de que salgan los análisis, un gestor que sabe que ese expediente va a volver aunque esté perfecto sobre el papel, una administrativa que sabe a quién llamar en otra unidad para que algo salga en un día en lugar de en tres semanas. Nada de eso está en el procedimiento. Está en la persona, y la persona a menudo no sabe que lo sabe hasta que se lo preguntas bien.
