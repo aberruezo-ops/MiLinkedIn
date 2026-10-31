@@ -1,6 +1,6 @@
 # Synergós: estructura del método
 
-**Versión 0.2 (31 oct 2026).** Alejandro compartió en la conversación el documento base (su método de transformación acelerada por IA, escrito en su tiempo y con medios propios, ver `09-propiedad.md`). Esta versión reorganiza esa arquitectura en clave Synergós. El documento base no se copia en el repositorio ni se cita en público; aquí queda su estructura traducida, sin referencias a ningún empleador, estudio interno ni cliente. Lo que Synergós cambia respecto al documento base está marcado así: **[cambio]**.
+**Versión 0.2 (31 oct 2026), validada por Alejandro el mismo día.** Alejandro compartió en la conversación el documento base (su método de transformación acelerada por IA, escrito en su tiempo y con medios propios, ver `09-propiedad.md`). Esta versión reorganiza esa arquitectura en clave Synergós. El documento base no se copia en el repositorio ni se cita en público; aquí queda su estructura traducida, sin referencias a ningún empleador, estudio interno ni cliente. Lo que Synergós cambia respecto al documento base está marcado así: **[cambio]**.
 
 ---
 
@@ -147,8 +147,10 @@ Con cuatro vueltas queda descrito el método entero en público, al nivel de ín
 - La sección de la IA del documento base entra como núcleo del elemento tecnología (dos papeles, frontera, autonomía, entorno, radar).
 - El delta se adopta como unidad de medida, con la regla nueva de un indicador por elemento como mínimo.
 
-**Pendientes de Alejandro:**
-1. Validar la tabla de la sección 3 (qué va a cada elemento), en especial que la supervisión viva en conocimiento y la medición en el orden.
-2. Si la escala de autonomía de la IA y la clasificación de la frontera se publican con sus nombres (delegar, centauro, cíborg, reservar) o se describen sin nomenclatura.
-3. Las cifras de mercado (MIT NANDA, Whitelane) solo se usan en público cuando estén verificadas en fuente primaria; hasta entonces, no.
-4. Las fuentes nuevas del documento base se han fichado en `02-fuentes.md` como pendientes de verificación individual antes de citarlas en un post.
+**Cerradas por Alejandro (31 oct 2026):**
+1. La tabla de la sección 3 vale: la supervisión vive en conocimiento y la medición en el orden.
+2. La escala de autonomía de la IA y la clasificación de la frontera se publican con sus nombres (delegar, centauro, cíborg, reservar), citando a Dell'Acqua y otros 2023 cuando se nombre la frontera.
+3. Las cifras de mercado (MIT NANDA, Whitelane) no se usan en público hasta verificarlas en fuente primaria.
+4. Las fuentes del documento base se fichan una a una en `02-fuentes.md` antes de citarlas en un post.
+
+Con esto la versión 0.2 queda validada como índice del método y de la serie.
