@@ -45,14 +45,14 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | Mié 11 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
 | Jue 12 nov | Autoridad | B5 Brynjolfsson y la trampa de Turing: por qué la balanza está inclinada |
 
-**Semana del 16 nov. Artículo AR6: Lo que preguntasteis** (las preguntas de Santiago Rubio, Laura Rollano, Maria Jose De Vega y Faustino Hermo respondidas con el método; pedir permiso a De Vega antes de citar; redactar el jueves 12)
+**Semana del 16 nov. Artículo AR6: Lo que preguntasteis** (las preguntas que han llegado en los comentarios, recogidas sin nombrar a nadie ni citar literalmente, respondidas con el método; redactar el jueves 12)
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
 | Lun 16 nov | Artículo | AR6 Lo que preguntasteis: participar, liderar, el miedo y los hábitos |
-| Mar 17 nov | Autoridad | C7 Hacer partícipes a quienes sostienen el día a día: la pregunta a tiempo |
-| Mié 18 nov | Comunidad | C13 Pregunta: ¿quién en tu organización sabe decir que no a un plazo? (de C8) |
-| Jue 19 nov | Autoridad | C10 Los hábitos que hacen que la IA no se quede en piloto (verificar jidoka antes de usarlo) |
+| Mar 17 nov | Autoridad | C7 Hacer partícipes a quienes sostienen el día a día: la pregunta a tiempo (sin nombrar a quien lo preguntó) |
+| Mié 18 nov | Comunidad | C13 Pregunta: ¿quién en tu organización sabe decir que no a un plazo? |
+| Jue 19 nov | Autoridad | C10 Los hábitos que hacen que la IA no se quede en piloto (verificar jidoka antes de usarlo; sin nombrar a quien lo pidió) |
 
 **Semana del 23 nov. Artículo AR7: Setenta y cinco años avisando** (Trist y Bamforth 1951 y lo que la historia de la mecanización enseña a los pilotos de IA; redactar el jueves 19)
 
