@@ -1,0 +1,67 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;width:1080px;height:1080px;background:#F4F6F6;overflow:hidden;font-family:'DejaVu Serif',serif;color:#F4F6F6}
+canvas{position:absolute;left:0;top:0}
+#veil{position:absolute;left:0;top:0;width:1080px;height:1080px;background:linear-gradient(180deg,rgba(31,29,26,0.15) 0%,rgba(31,29,26,0.55) 45%,rgba(31,29,26,0.88) 100%);opacity:0}
+.logo{position:absolute;left:140px;top:110px;width:800px;opacity:0}
+.kicker{position:absolute;left:90px;top:430px;font-family:'DejaVu Sans',sans-serif;font-size:26px;letter-spacing:2px;color:#7CC090;text-transform:uppercase;opacity:0}
+h1{position:absolute;left:90px;top:490px;width:900px;font-size:80px;line-height:1.1;margin:0;font-weight:normal;opacity:0;text-shadow:0 2px 18px rgba(0,0,0,.5)}
+h1 b{font-weight:normal;color:#7CC090}
+.sub{position:absolute;left:90px;top:850px;width:950px;font-family:'DejaVu Sans',sans-serif;font-size:28px;line-height:1.4;color:#E6EFE9;opacity:0;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+.firma{position:absolute;left:90px;bottom:44px;font-family:'DejaVu Sans',sans-serif;font-size:24px;color:#E6EFE9;opacity:0}
+#es{position:absolute;left:90px;top:510px;width:900px;text-align:center;font-size:46px;color:#2C6D3F;opacity:0}
+</style></head><body>
+<canvas id="c" width="1080" height="1080"></canvas>
+<div id="veil"></div>
+<img class="logo" id="logoD" src="logo-synergos-dark.svg">
+<img class="logo" id="logoL" src="logo-synergos.svg">
+<div class="kicker">Comunidad Synergós · pregunta abierta</div>
+<h1>¿Quién te hizo crecer de verdad, <b>y qué hacía distinto</b>?</h1>
+<div class="sub">Casi seguro que no era quien más hablaba en las reuniones. Cuéntalo en comentarios, sin nombres si no quieres.</div>
+<div class="firma">Alejandro Berruezo</div>
+<div id="es">Crecer a la vez.</div>
+<script>
+// Vídeo de comunidad: girasol real (fotogramas en gframes/g%04d.png, 24 fps, 1080x1080) que se desplaza a la
+// esquina y cuyas semillas se convierten en las semillas dibujadas del logo; el nombre baja a su sitio y entra el eslogan.
+const FPS=24, LAST=192, SEEDC=[540,520]; // centro aproximado de la cabeza del girasol en el clip
+window.TOTAL=10.8; window.FPS=FPS;
+const GA=137.50776405*Math.PI/180, N=700, cx=870, cy=860, R=330, c=R/Math.sqrt(N);
+const INK='#1F1D1A', GREEN='#2C6D3F', LIGHT='#7CC090', BG='#F4F6F6';
+function mix(a,b,t){const p=h=>[1,3,5].map(i=>parseInt(h.substr(i,2),16));const A=p(a),B=p(b);return '#'+A.map((v,i)=>Math.round(v+(B[i]-v)*t).toString(16).padStart(2,'0')).join('')}
+function color(n){return n<N*0.62?mix(INK,GREEN,Math.min(1,n/N*1.6)):mix(GREEN,LIGHT,(n/N-0.62)/0.38)}
+const a=(180-137.5)*Math.PI/180, Nn=[-Math.sin(a),-Math.cos(a)], hh=R*0.64;
+const ctx=document.getElementById('c').getContext('2d');
+const cache={};
+function frame(i){return new Promise(res=>{if(cache[i])return res(cache[i]);const im=new Image();im.onload=()=>{cache[i]=im;res(im)};im.onerror=()=>res(null);im.src='gframes/g'+String(i).padStart(4,'0')+'.png';});}
+function ease(x){return x<0?0:x>1?1:1-Math.pow(1-x,3)}
+const $=s=>document.querySelector(s);
+window.renderFrame=async function(t){
+  ctx.fillStyle=BG; ctx.fillRect(0,0,1080,1080);
+  const im=await frame(Math.min(LAST,Math.floor(t*FPS)));
+  // 1) girasol: hasta 7,0 s a pantalla completa; de 7,0 a 8,3 s se desplaza a la esquina y se recorta en círculo
+  const u=ease((t-7.0)/1.3);
+  const sx=1-0.06*u, px=SEEDC[0]+(cx-SEEDC[0])*u, py=SEEDC[1]+(cy-SEEDC[1])*u;
+  if(im){ctx.save();ctx.translate(px,py);ctx.scale(sx,sx);ctx.translate(-SEEDC[0],-SEEDC[1]);ctx.drawImage(im,0,0,1080,1080);ctx.restore();}
+  if(u>0){const r=900-(900-R)*u;const g=ctx.createRadialGradient(px,py,Math.max(1,r-110),px,py,r);g.addColorStop(0,'rgba(244,246,246,0)');g.addColorStop(1,'rgba(244,246,246,1)');ctx.fillStyle=g;ctx.fillRect(0,0,1080,1080);}
+  // 2) las semillas reales se desvanecen mientras crecen las dibujadas (8,2 a 9,4 s)
+  const v=ease((t-8.4)/1.0); if(v>0){ctx.globalAlpha=v;ctx.fillStyle=BG;ctx.fillRect(0,0,1080,1080);ctx.globalAlpha=1;}
+  const k=ease((t-8.1)/1.3); if(k>0){const shown=Math.floor(N*k);
+    for(let n=1;n<=shown;n++){const r=c*Math.sqrt(n),th=n*GA,x=cx+r*Math.cos(th),y=cy+r*Math.sin(th);
+      if(((x-cx)*Nn[0]+(y-cy)*Nn[1])>hh) continue;
+      ctx.globalAlpha=0.9;ctx.fillStyle=color(n);ctx.beginPath();ctx.arc(x,y,c*(0.40+0.10*Math.sqrt(n/N)),0,Math.PI*2);ctx.fill();}
+    ctx.globalAlpha=1;}
+  // 3) capa de texto: entra como antes, sale entre 6,9 y 7,4 s
+  const out=1-ease((t-6.9)/0.5);
+  $('#veil').style.opacity=ease((t-1.2)/1.2)*out;
+  $('.kicker').style.opacity=ease((t-2.6)/0.5)*out;
+  const h=$('h1'),e=ease((t-2.9)/0.7);h.style.opacity=e*out;h.style.transform=`translateY(${(1-e)*16}px)`;
+  const s=$('.sub'),e2=ease((t-3.8)/0.7);s.style.opacity=e2*out;s.style.transform=`translateY(${(1-e2)*16}px)`;
+  $('.firma').style.opacity=ease((t-4.2)/0.6)*out;
+  // 4) el nombre: aparece arriba en claro, cambia a oscuro y baja a su sitio final (7,3 a 8,5 s)
+  const vis=ease((t-1.6)/0.7), m=ease((t-7.3)/1.2), cf=ease((t-7.2)/0.6);
+  const L=140+(160-140)*m, T=110+(290-110)*m, W=800+(760-800)*m;
+  for(const id of ['logoD','logoL']){const el=document.getElementById(id);el.style.left=L+'px';el.style.top=T+'px';el.style.width=W+'px';}
+  document.getElementById('logoD').style.opacity=vis*(1-cf);
+  document.getElementById('logoL').style.opacity=vis*cf;
+  const es=$('#es'),e3=ease((t-8.9)/0.6);es.style.opacity=e3;es.style.transform=`translateY(${(1-e3)*14}px)`;
+};
+</script></body></html>

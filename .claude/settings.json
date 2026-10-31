@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Publora",
+      "mcp__higgsfield",
+      "mcp__Claude_Code_Remote",
+      "Bash(curl:*)",
+      "Bash(git:*)",
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(pdfunite:*)",
+      "PushNotification",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
