@@ -33,8 +33,8 @@ La serie recorre el método por vueltas: cada semana un elemento distinto (conoc
 
 | Semana | Elemento | Artículo del lunes | Hijos (mar / mié / jue) |
 |---|---|---|---|
-| 2 nov | Conocimiento | AR2 El mapa de lo que nadie escribió (listo; portada-articulo-02.png, anim-articulo-02.mp4) | B12 marchas atrás (programado, hijo 1) / C11 ego (programado, aprobado antes del cambio) / B13 la columna que asusta: opción A frente a B |
-| 9 nov | Personas | AR3 Las personas no son la fase final: criterio de diseño desde el diagnóstico (desarrolla B1; redactar el jueves 5) | B4 Polanyi y las cinco preguntas que destapan lo que sabe la gente / C12 ¿qué pasaría mañana en tu equipo si tú no vinieras? / C7 hacer partícipes a quienes sostienen el día a día (sin nombres) |
+| 2 nov | Conocimiento | AR2 El mapa de lo que nadie escribió (listo; portada-articulo-02.png, anim-articulo-02.mp4) | B12 marchas atrás (programado, hijo 1) / C12 ¿qué pasaría mañana en tu equipo si tú no vinieras? (sustituye a C11 en el mismo postGroup 6ae5120c33575169fb368226; vídeo girasol con la nueva pregunta) / B13 la columna que asusta: opción A frente a B |
+| 9 nov | Personas | AR3 Las personas no son la fase final: criterio de diseño desde el diagnóstico (desarrolla B1; redactar el jueves 5) | B4 Polanyi y las cinco preguntas que destapan lo que sabe la gente / C11 el liderazgo empieza donde termina el ego (texto aprobado en posts/2026-11-11-C11.md; regenerar el vídeo girasol con su pregunta y programar el martes 10) / C7 hacer partícipes a quienes sostienen el día a día (sin nombres) |
 | 16 nov | Tecnología | AR4 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto (redactar el jueves 12) | B3 Zuboff: no es la herramienta, es la decisión / C4 la última vez que una herramienta te quitó criterio / B5 Brynjolfsson y la trampa de Turing |
 | 23 nov | Crecer a la vez | AR5 Diagnóstico antes que solución: la puerta por la que pasa todo (redactar el jueves 19) | B14 el proyecto que llegó con la solución decidida (caso compuesto) / C13 ¿quién en tu organización sabe decir que no a un plazo? / B15 las tres preguntas de la puerta, por escrito |
 
