@@ -13,6 +13,7 @@ Este cuaderno es la memoria viva del pensamiento. No es el método terminado: es
 | `02-fuentes.md` | Referencias verificadas: qué dice cada una, qué aporta a Synergós, y qué no dice (para no citarla de más). | Al verificar una fuente. Nada entra sin verificación. |
 | `03-backlog-posts.md` | Ideas de publicación derivadas de las tesis, con pilar, ángulo y estado. | Al cerrar un hilo de pensamiento. La rutina de contenido lo lee antes de redactar. |
 | `07-perfil.md`, `08-colores.md`, `09-propiedad.md` | Perfil de LinkedIn, estudio de color y precauciones de propiedad y separación del empleo. | Cuando cambian. |
+| `10-metodo.md` | Estructura del método Synergós: promesa, tres elementos, ciclo Mirar-Decidir-Hacer-Sostener con entregables, principios, mapa de la serie y puntos por decidir. | Cuando una pieza del método se fija o se publica. |
 | `04-bitacora.md` | Registro cronológico de cómo evoluciona la idea: qué se discutió, qué cambió y por qué. | Al final de cada sesión de trabajo. |
 
 ## Axiomas (no se discuten en cada post; se cumplen)
