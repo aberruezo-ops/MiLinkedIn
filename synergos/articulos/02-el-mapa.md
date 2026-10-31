@@ -1,6 +1,6 @@
 # El mapa de lo que nadie escribió
 
-*Borrador v1 (31 oct 2026) para publicar el lunes 9 de noviembre de 2026 como artículo de LinkedIn (lo pega Alejandro en el editor de artículos; Publora no publica artículos). Segundo artículo quincenal de Synergós (AR2). Fuentes: Polanyi 1966, Trist y Bamforth 1951, Zuboff 1988, y los casos de Klarna y Commonwealth Bank fichados en `02-fuentes.md`. El caso del apartado "Cómo se hace" es compuesto e ilustrativo, y así se dice en el texto. Portada: `imagenes/portada-articulo-02.png`. Vídeo para el cuerpo y el post de anuncio: `imagenes/anim-articulo-02.mp4` (13 s: título, tabla del caso compuesto fila a fila con las filas de una persona marcadas, conclusión, cierre con semillas, logo y eslogan). Estado: pendiente de revisión de Alejandro.*
+*Borrador v2 (31 oct 2026) para publicar el lunes 2 de noviembre de 2026 como artículo de LinkedIn (lo pega Alejandro en el editor de artículos; Publora no publica artículos). Segundo artículo quincenal de Synergós (AR2). Fuentes: Polanyi 1966, Trist y Bamforth 1951, Zuboff 1988, y los casos de Klarna y Commonwealth Bank fichados en `02-fuentes.md`. El caso del apartado "Cómo se hace" es compuesto e ilustrativo, y así se dice en el texto. Portada: `imagenes/portada-articulo-02.png`. Vídeo para el cuerpo y el post de anuncio: `imagenes/anim-articulo-02.mp4` (13 s: título, tabla del caso compuesto fila a fila con las filas de una persona marcadas, conclusión, cierre con semillas, logo y eslogan). Estado: pendiente de revisión de Alejandro.*
 
 ---
 
@@ -8,7 +8,7 @@ Hay una frase que he oído en casi todas las organizaciones en las que he trabaj
 
 Hasta que Marta se va. O hasta que alguien decide que lo que hace Marta lo puede hacer un sistema.
 
-Hace unos días conté aquí tres casos verificados: Klarna anunció que su asistente hacía el trabajo de 700 agentes y un año después volvió a contratar personas; Commonwealth Bank declaró prescindibles 45 puestos de atención telefónica porque un bot reducía las llamadas, las llamadas subieron y el banco pidió disculpas; y un estudio de Stanford mide que los jóvenes en las ocupaciones más expuestas a la IA tienen menos empleo justo donde la IA automatiza, no donde amplía. Los tres tienen algo en común que casi nadie señala: nadie midió, antes de decidir, lo que sabían las personas a las que se sustituía. Lo descubrieron después, cuando el conocimiento ya no estaba.
+Mañana contaré aquí con detalle tres casos verificados, pero los adelanto: Klarna anunció que su asistente hacía el trabajo de 700 agentes y un año después volvió a contratar personas; Commonwealth Bank declaró prescindibles 45 puestos de atención telefónica porque un bot reducía las llamadas, las llamadas subieron y el banco pidió disculpas; y un estudio de Stanford mide que los jóvenes en las ocupaciones más expuestas a la IA tienen menos empleo justo donde la IA automatiza, no donde amplía. Los tres tienen algo en común que casi nadie señala: nadie midió, antes de decidir, lo que sabían las personas a las que se sustituía. Lo descubrieron después, cuando el conocimiento ya no estaba.
 
 Este artículo es sobre cómo evitar eso. No con un principio, que ya los tenemos de sobra, sino con un entregable concreto, con fecha y con responsable, que en Synergós se llama el mapa de lo que nadie escribió.
 

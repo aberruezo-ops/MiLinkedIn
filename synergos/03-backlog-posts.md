@@ -27,42 +27,43 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 ## Calendario previsto (desde el 31 oct: semana = artículo madre el lunes + hijos martes y jueves + comunidad miércoles; ver A12)
 
-**Semana del 2 nov** (sin artículo nuevo; el madre es "Los mimbres", 27 oct)
+**Semana del 2 nov. Artículo AR2: El mapa de lo que nadie escribió** (texto, portada y vídeo listos; lo publica Alejandro el lunes 2)
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
-| Mar 3 nov | Autoridad | B12 Sustituyeron personas por IA y dieron marcha atrás (vídeo 25 s; programado en Publora) |
-| Mié 4 nov | Comunidad | C11 El liderazgo empieza donde termina el ego (vídeo girasol; programado en Publora) |
-| Jue 5 nov | Autoridad | B2 Trist y Bamforth 1951: las minas de carbón y los pilotos de IA (lo redacta la rutina el miércoles 4; vídeo según A8) |
+| Lun 2 nov | Artículo | AR2 El mapa de lo que nadie escribió (portada-articulo-02.png; anim-articulo-02.mp4 en el cuerpo tras "Hasta que Marta se va") |
+| Mar 3 nov | Autoridad | B12 Sustituyeron personas por IA y dieron marcha atrás (programado; hijo 1: los tres casos que el artículo adelanta; añadir el enlace al artículo en el primer comentario cuando exista la URL) |
+| Mié 4 nov | Comunidad | C11 El liderazgo empieza donde termina el ego (programado; aprobado antes del cambio de estructura, se mantiene) |
+| Jue 5 nov | Autoridad | B13 La columna que asusta: misma tecnología, mismo presupuesto, resultado opuesto. El caso compuesto del artículo, opción A frente a B (hijo 2; lo redacta la rutina el miércoles 4). B2 Trist y Bamforth pasa a hijo de otra semana |
 
-**Semana del 9 nov. Artículo AR2: El mapa de lo que nadie escribió** (borrador, portada y vídeo listos)
-
-| Fecha | Pilar | Ítem |
-|---|---|---|
-| Lun 9 nov | Artículo | AR2 El mapa de lo que nadie escribió (lo publica Alejandro; portada-articulo-02.png; anim-articulo-02.mp4 en el cuerpo) |
-| Mar 10 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar, y las cinco preguntas que lo destapan (hijo 1 del AR2) |
-| Mié 11 nov | Comunidad | C12 Pregunta: ¿qué pasaría mañana en tu equipo si tú no vinieras? (hijo 2 del AR2; sustituye a C3) |
-| Jue 12 nov | Autoridad | B13 La columna que asusta: misma tecnología, mismo presupuesto, resultado opuesto. El caso compuesto del artículo, opción A frente a opción B (hijo 3 del AR2) |
-
-**Semana del 16 nov. Artículo AR3: Automatiza o informa**
+**Semana del 9 nov. Artículo AR3: Automatiza o informa** (redactar el jueves 5)
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
-| Lun 16 nov | Artículo | AR3 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto (redactar el jueves 12) |
-| Mar 17 nov | Autoridad | B3 Zuboff: no es la herramienta, es la decisión |
-| Mié 18 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
-| Jue 19 nov | Autoridad | B5 Brynjolfsson y la trampa de Turing: por qué la balanza está inclinada |
+| Lun 9 nov | Artículo | AR3 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto |
+| Mar 10 nov | Autoridad | B3 Zuboff: no es la herramienta, es la decisión |
+| Mié 11 nov | Comunidad | C4 Pregunta: la última vez que una herramienta te quitó criterio |
+| Jue 12 nov | Autoridad | B5 Brynjolfsson y la trampa de Turing: por qué la balanza está inclinada |
 
-**Semana del 23 nov. Artículo AR6: Lo que preguntasteis** (artículo de comunidad: las preguntas de Santiago Rubio, Laura Rollano, Maria Jose De Vega y Faustino Hermo, respondidas con el método; pedir permiso a De Vega antes de citar)
+**Semana del 16 nov. Artículo AR6: Lo que preguntasteis** (las preguntas de Santiago Rubio, Laura Rollano, Maria Jose De Vega y Faustino Hermo respondidas con el método; pedir permiso a De Vega antes de citar; redactar el jueves 12)
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
-| Lun 23 nov | Artículo | AR6 Lo que preguntasteis: participar, liderar, el miedo y los hábitos (redactar el jueves 19) |
-| Mar 24 nov | Autoridad | C7 Hacer partícipes a quienes sostienen el día a día: la pregunta a tiempo |
-| Mié 25 nov | Comunidad | C13 Pregunta: ¿quién en tu organización sabe decir que no a un plazo? (de C8) |
-| Jue 26 nov | Autoridad | C10 Los hábitos que hacen que la IA no se quede en piloto (verificar jidoka antes de usarlo) |
+| Lun 16 nov | Artículo | AR6 Lo que preguntasteis: participar, liderar, el miedo y los hábitos |
+| Mar 17 nov | Autoridad | C7 Hacer partícipes a quienes sostienen el día a día: la pregunta a tiempo |
+| Mié 18 nov | Comunidad | C13 Pregunta: ¿quién en tu organización sabe decir que no a un plazo? (de C8) |
+| Jue 19 nov | Autoridad | C10 Los hábitos que hacen que la IA no se quede en piloto (verificar jidoka antes de usarlo) |
 
-**Semana del 30 nov. Artículo AR4: Qué tiene de nuevo la IA generativa y qué no** (requiere sesión de investigación la semana del 23; si no está cerrada, se adelanta AR5 El orden importa: 137,5 grados, con B10 y B11 como hijos)
+**Semana del 23 nov. Artículo AR7: Setenta y cinco años avisando** (Trist y Bamforth 1951 y lo que la historia de la mecanización enseña a los pilotos de IA; redactar el jueves 19)
+
+| Fecha | Pilar | Ítem |
+|---|---|---|
+| Lun 23 nov | Artículo | AR7 Setenta y cinco años avisando |
+| Mar 24 nov | Autoridad | B2 Trist y Bamforth: las minas de carbón y los pilotos de IA |
+| Mié 25 nov | Comunidad | C12 Pregunta: ¿qué pasaría mañana en tu equipo si tú no vinieras? |
+| Jue 26 nov | Autoridad | B4 Polanyi: lo que el experto sabe y no puede explicar, y las cinco preguntas |
+
+**Semana del 30 nov. Artículo AR4: Qué tiene de nuevo la IA generativa y qué no** (requiere sesión de investigación la semana del 23; si no está cerrada, AR5 El orden importa: 137,5 grados, con B10 y B11 como hijos)
 
 | Fecha | Pilar | Ítem |
 |---|---|---|
@@ -85,7 +86,7 @@ Cada semana, un artículo madre el lunes que desarrolle una pieza concreta de Sy
 
 | Nº | Tema | Por qué es distinto | Base | Estado |
 |---|---|---|---|---|
-| AR2 | El mapa de lo que nadie escribió: el entregable de conocimiento tácito en el diagnóstico (dónde está, en quién, qué le pasa con cada opción; cómo se levanta y cómo se usa para decidir) | Convierte en entregable con fecha lo que todos dan por supuesto; propone no aprobar sin él. Enlaza con B12 y con los comentarios de Elena García y Jorge García | Polanyi 1966, Trist y Bamforth 1951, T1 | elegido por Alejandro el 31 oct; borrador v1 en articulos/02-el-mapa.md, pendiente de su revisión; publicar el lunes 9 nov; portada portada-articulo-02.png y vídeo anim-articulo-02.mp4 listos |
+| AR2 | El mapa de lo que nadie escribió: el entregable de conocimiento tácito en el diagnóstico (dónde está, en quién, qué le pasa con cada opción; cómo se levanta y cómo se usa para decidir) | Convierte en entregable con fecha lo que todos dan por supuesto; propone no aprobar sin él. Enlaza con B12 y con los comentarios de Elena García y Jorge García | Polanyi 1966, Trist y Bamforth 1951, T1 | elegido por Alejandro el 31 oct; borrador v2 en articulos/02-el-mapa.md (Alejandro adelanta la publicación al lunes 2 nov); portada portada-articulo-02.png y vídeo anim-articulo-02.mp4 listos |
 | AR3 | Automatiza o informa: la pregunta de puerta desarrollada con ejemplos de la misma tecnología usada de las dos maneras y una regla para decidir antes de aprobar | Sólido, pero ya presente en los posts | Zuboff 1988, Brynjolfsson 2022 | propuesto |
 | AR4 | Qué tiene de nuevo la IA generativa y qué no (respuesta a la objeción 4 de T1): cambia escala y velocidad, no la estructura; dos cosas sí nuevas | El más interesante intelectualmente; pide más investigación | T1 objeción 4; fuentes por verificar | propuesto |
 | AR5 | El orden importa: por qué 137,5 grados. El ángulo áureo como regla de diseño del método | Muy de marca, más poético que útil; candidato a cierre de año | Vogel 1979, Douady y Couder 1992 | propuesto |
