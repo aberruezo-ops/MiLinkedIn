@@ -56,3 +56,7 @@ Consecuencia: Synergós deja de presentarse como "transformación digital" y pas
 ## P7. ¿Personas y conocimiento son uno? (CERRADA, 26 oct 2026)
 
 Objeción de Alejandro al subtítulo "personas, conocimiento y tecnología". Respuesta que le convence: el conocimiento vive en tres sitios (personas, organización, tecnología) y la decisión central de una transformación es qué pasa con él; fundirlo con las personas borra esa decisión y devuelve al discurso manido de "personas y tecnología". Queda como axioma A11. Fuentes por fichar cuando las use un post: Nelson y Winter (1982), rutinas como memoria de la organización; Nonaka y Takeuchi (1995), conversión entre conocimiento tácito y explícito.
+
+## P8. ¿Quién tiene autoridad real para retirar un piloto en el que alguien ya ha puesto su nombre?
+
+**Abierta el 1 nov 2026** a raíz de un comentario en la red sobre criterios para escalar o detener pilotos. El método resuelve el cuándo (criterios firmados antes, tres salidas en la puerta). No resuelve el quién: el criterio puede estar escrito y nadie atreverse a aplicarlo por coste político o coste hundido. **Afecta a:** gobierno (el orden) y personas (liderazgo, problemas adaptativos). **Qué haría falta:** una regla de gobierno sobre quién firma la retirada y cómo se protege a quien la propone; casos compuestos. Candidata a desarrollarse en el artículo de la puerta (semana del 23 nov).
