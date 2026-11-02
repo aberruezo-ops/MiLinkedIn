@@ -12,6 +12,8 @@ Este cuaderno es la memoria viva del pensamiento. No es el método terminado: es
 | `01-preguntas-abiertas.md` | Lo que todavía no sabemos o no hemos decidido. | Cada vez que aparece una duda real. Se cierra cuando se convierte en tesis o se descarta. |
 | `02-fuentes.md` | Referencias verificadas: qué dice cada una, qué aporta a Synergós, y qué no dice (para no citarla de más). | Al verificar una fuente. Nada entra sin verificación. |
 | `03-backlog-posts.md` | Ideas de publicación derivadas de las tesis, con pilar, ángulo y estado. | Al cerrar un hilo de pensamiento. La rutina de contenido lo lee antes de redactar. |
+| `05-materiales.md` | Textos, ideas y capturas que Alejandro guarda para usar en Synergós, parafraseados y sin atribuir (A13), con dónde encajan. | Cada vez que Alejandro pasa algo "para hacer algo con ello". |
+| `06-comentarios.md` | Protocolo de comentarios en posts ajenos, reglas, registro de comentarios publicados y de los recibidos en posts propios. | Cada cosecha diaria y cada comentario recibido. |
 | `07-perfil.md`, `08-colores.md`, `09-propiedad.md` | Perfil de LinkedIn, estudio de color y precauciones de propiedad y separación del empleo. | Cuando cambian. |
 | `10-metodo.md` | Estructura del método Synergós: promesa, tres elementos, ciclo Mirar-Decidir-Hacer-Sostener con entregables, principios, mapa de la serie y puntos por decidir. | Cuando una pieza del método se fija o se publica. |
 | `04-bitacora.md` | Registro cronológico de cómo evoluciona la idea: qué se discutió, qué cambió y por qué. | Al final de cada sesión de trabajo. |
