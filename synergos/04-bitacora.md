@@ -143,3 +143,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 4 nov (noche, 3): Alejandro aprueba el reparto: la semana del 9 nov cuelga de La bola negra. AR3 pasa a 'La bola negra: quién decide quién cabe' (personas); martes 'Arañar la tierra' (conocimiento); C4 y B15 se mantienen. Backlog actualizado; la rutina del jueves 5 redacta AR3 sobre el estudio.
 - 5 nov (madrugada): Jorge García comenta en AR2 preguntando qué parte del saber se resiste al mapa. Dos variantes de réplica preparadas; la publica Alejandro a mano.
 - 5 nov (madrugada): comentario de Eduardo Romero Bock en un post propio (resistencia frente a conocimiento operativo no documentado). Dos variantes de réplica preparadas; la publica Alejandro a mano.
+- 5 nov: Alejandro confirma que el comentario de Eduardo Romero Bock es en el post de escuchar antes de decidir; registrado como B1 salvo que indique otro.
