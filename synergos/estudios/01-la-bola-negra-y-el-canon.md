@@ -12,7 +12,11 @@ Parte de una obra que Federico García Lorca empezó a escribir a principios de 
 
 La película cuenta tres historias de tres hombres en tres épocas (las críticas las sitúan en 1932, 1937 y 2017), conectadas entre sí. No hace falta decir más para lo que nos interesa.
 
-**Lo que no he podido verificar** (no leeré la película de memoria): la duración exacta, qué parte corresponde a qué historia, la cita de Lorca sobre "arañar la tierra para que puedan existir" que aparece en la conversación (no la he encontrado en ningún poema de Lorca; puede ser del guion, de Conejero o una paráfrasis) y lo que se dice de San Sebastián como "santo juzgado por ser gay" (no es un dato fiable; su iconografía sí se ha leído como icono gay por razones estéticas, pero eso no entra en el artículo). Las páginas de referencia (Wikipedia, Guía del Ocio, UNIR) no se pueden leer desde esta sesión por la política de red; los datos de arriba salen de los resúmenes de búsqueda y están cruzados entre varias fuentes.
+**La cita de "arañar la tierra" (verificada el 4 nov, segunda búsqueda).** No es un texto de Lorca. Es un diálogo de la película, escrito por Conejero y los Javis, que un Lorca de ficción le dice a Rafael Rodríguez Rapún. La redacción exacta varía según quien la recuerde. El Plural la recoge así: "Los campos de España están llenos de historias de amor enterradas. Y hay que arañar la tierra para desenterrarlas". La versión que circula en redes dice: "Este país tiene demasiadas historias de amor enterradas en los campos. Hay que arañar la tierra para que salgan, para que puedan existir más". Infobae solo recoge la primera frase. Ninguna fuente da la literalidad del guion, así que en el artículo se cita como "una frase de la película" y se dice que se cita de memoria, sin entrecomillar como si fuera exacta. La imagen es perfecta para Synergós: arañar la tierra es, al pie de la letra, lo que hace el mapa de lo que nadie escribió. Y "para que puedan existir más" dice lo que la película dice de la herencia: lo que se desentierra deja que exista lo que viene.
+
+**Lo que sigue sin verificar** (no leeré la película de memoria): la duración exacta y qué parte corresponde a qué historia; lo que se dice de San Sebastián como "santo juzgado por ser gay" (no es un dato fiable; su iconografía sí se ha leído como icono gay por razones estéticas, pero eso no entra en el artículo); y una crítica dice que los Javis ganaron el premio a la mejor dirección en Cannes, cosa que no he contrastado con una segunda fuente, así que no se afirma. Las páginas de referencia (Wikipedia, Guía del Ocio, UNIR) no se pueden leer desde esta sesión por la política de red; los datos de arriba salen de los resúmenes de búsqueda y están cruzados entre varias fuentes.
+
+**El contexto histórico que sí está documentado**, para el apartado de las consecuencias: Lorca fue asesinado en agosto de 1936. La Ley de Vagos y Maleantes de 1933 se reformó en 1954 para incluir expresamente la homosexualidad; la Ley de Peligrosidad y Rehabilitación Social de 1970 la sustituyó, pasando de perseguir a "los homosexuales" a perseguir "los actos homosexuales", y no se derogó hasta 1995. La cifra que repiten los medios es de unas 5.000 condenas bajo esas leyes; es una estimación sin fuente primaria visible, así que se cita como "en torno a cinco mil, según las estimaciones más citadas" o no se cita. Hubo cárceles específicas (la de Huelva es la más citada) y expedientes que marcaban a la persona para toda la vida.
 
 ## 2. Qué era una bola negra
 
@@ -80,11 +84,25 @@ La productiva: la película, por cómo cuenta (con contención, sin explicitar l
 
 Regla para escribirlo: sin nombres, sin aludir a nadie reconocible, sin convertirlo en reproche a una persona. Se habla de un tipo de mirada, no de quien la tiene.
 
+## 5 bis. La normalidad ficticia y hasta dónde llega
+
+Alejandro pide que el artículo haga ver lo injusto de no seguir un patrón, de no estar en una normalidad que es ficticia, de dejarse llevar por los que quieren controlar, y hasta dónde llegan las consecuencias: torturas, muertes, familias perdidas por una forma de pensar o de ser.
+
+Esto da al artículo su espina dorsal, y hay que escribirlo con cuidado y sin rebajarlo. Tres ideas, en orden:
+
+**El canon no es natural: alguien lo decide.** La bola negra lo demuestra con precisión mecánica. No hay una normalidad que exista por sí misma y a la que unos se ajusten y otros no; hay un grupo que vota, en secreto, qué es normal. Douglas lo dice con otras palabras: lo "sucio" no existe hasta que alguien dibuja el orden. El canon es siempre una decisión de quien tiene el poder de dibujar, y se presenta como naturaleza para que no haga falta defenderla. En la película, el casino de 1932 y las leyes que vinieron después son el mismo gesto a escalas distintas.
+
+**Dejarse llevar.** La mayoría de las bolas negras no las echa gente malvada. Las echa gente que no quiere problemas, que vota lo que cree que votarán los demás, que no se ha parado a imaginar qué pasa al otro lado del escrutinio. El voto secreto está diseñado para eso: para que nadie tenga que cargar con la cara del excluido. Y aquí entra el padre que enseña al hijo a vivir de puertas para afuera: no es un cómplice, es alguien que ha entendido cómo funciona la máquina y quiere que su hijo sobreviva a ella. La injusticia se sostiene tanto en los que controlan como en los que se dejan controlar por miedo, y la película no juzga a los segundos. Esa es su elegancia.
+
+**Hasta dónde llega.** Aquí el texto tiene que decir lo que pasó sin adornos ni comparaciones: Lorca asesinado en agosto de 1936; una ley reformada en 1954 para incluir expresamente la homosexualidad; otra en 1970, vigente hasta 1995; miles de condenas, cárceles específicas, expedientes que marcaban de por vida; familias que perdieron a alguien o que lo borraron para no perder el sitio. Eso no es una metáfora de nada. Es lo que pasa cuando el mecanismo de la bola negra deja de ser un club y se convierte en Estado. Y la película lo cuenta sin que haga falta verlo explícito: con un niño que entra en una iglesia, con un padre que avisa, con un minuto que alguien concede. Esa contención es lo que a Alejandro le parece lo más valioso y lo que más le duele que alguien no vea.
+
+**El puente, sin inflarlo.** Lo que una organización hace cuando decide quién encaja no se parece en gravedad a nada de lo anterior, y el texto lo dice. Pero sí se parece en la forma: una normalidad que se presenta como natural y que alguien ha decidido; un voto que no se explica; gente que se deja llevar; una persona que aprende a esconder cómo trabaja o cómo es para no perder el sitio. Reconocer el mecanismo en lo pequeño es la única manera de no repetirlo. Esto es lo que Synergós llama mirar antes de decidir: el mapa existe para que la organización sepa, por escrito y con nombre, a quién deja fuera cada opción, y no pueda decir después que no lo sabía.
+
 ## 6. Los límites de la analogía, dichos en el propio texto
 
 La película habla de una persecución real, con cárcel, violencia y muerte. Equiparar "no encajar" en una empresa con eso sería frívolo y falso. El artículo tiene que decirlo con claridad: la analogía no está en la gravedad, sino en el mecanismo. El mismo gesto, votar en secreto que alguien no cabe, aparece en escalas muy distintas, y conviene reconocerlo en la pequeña para entender lo que hace en la grande. Con eso el texto gana, no pierde: el lector agradece que no se le venda una comparación inflada.
 
-Segundo límite: no se desvela nada. Se habla de la obra inacabada de Lorca, del mecanismo de la bola negra (histórico, no de la película) y, como mucho, de una idea de una escena (el padre y el hijo) sin situarla ni contar qué pasa después.
+Segundo límite: no se desvela nada. Se habla de la obra inacabada de Lorca y del mecanismo de la bola negra (histórico, no de la película). Alejandro quiere usar más escenas sin desvelar datos clave. Las que él recuerda y que se pueden usar como imagen suelta, sin situarlas en la trama, sin decir qué pasa antes ni después y sin nombrar personajes: un niño que se refugia en una iglesia y se encuentra cara a cara con una estatua (se cuenta la imagen, no lo que la provoca); un padre que enseña a su hijo a ser una cosa de puertas para afuera; un minuto concedido para despedirse, en el que uno habla de lo que le impactó y el otro solo quiere decir que le va a perder (escuchar lo que el otro necesita frente a contar lo propio); los diálogos de fondo que suenan a hoy (una camilla estropeada, una ruta de senderismo), que hacen que lo de entonces no parezca de otro planeta; y la frase de arañar la tierra. Aviso: yo no he visto la película y las críticas que he podido leer no describen estas escenas, así que las uso tal como Alejandro las cuenta, y él tiene que confirmar que, dichas así, no desvelan nada.
 
 ## 7. Propuesta de piezas
 
@@ -94,9 +112,21 @@ Segundo límite: no se desvela nada. Se habla de la obra inacabada de Lorca, del
 
 **Publicación de autoridad** (si se quiere un hijo directo del artículo): la fila del mapa como escena. "Un comité no cambia de opinión porque le expliques el riesgo. Cambia cuando lo ve."
 
-## 8. Lo que falta para escribir
+## 8. Encaje en la semana del 9 nov (respuesta a "¿sería AR3 pero para conocimiento?")
 
-- Decisión de Alejandro: ¿AR3 o artículo aparte? Si es AR3, la rutina del jueves 5 (9:13) tiene que saberlo antes.
-- Confirmación de las escenas que se pueden usar: la del padre y el hijo, como idea, sin más detalle.
-- Si quiere la cita de "arañar la tierra", necesito la fuente exacta (¿aparece en la película, en qué contexto?); si no, se deja fuera.
-- Voz: la propuesta es primera persona y contenida, con una sola frase personal sobre qué le removió a él, sin explicar por qué.
+Alejandro pregunta si esto sería AR3 pero del pilar conocimiento. Mi recomendación es que no: el artículo es de personas, porque su núcleo es quién decide quién cabe, la normalidad ficticia y el coste humano de no encajar. Eso es el pilar personas del método (liderazgo, seguridad psicológica, personas como criterio de diseño), y la semana del 9 nov es justo la de personas. Forzarlo a conocimiento diluiría lo que Alejandro quiere decir.
+
+Lo que sí es de conocimiento, y mucho, es la frase de arañar la tierra: desenterrar lo que está debajo para que pueda existir más es, literalmente, el mapa de lo que nadie escribió. Por eso propongo repartirlo así, que además cumple A12 (lunes personas, martes conocimiento, miércoles tecnología, jueves el orden):
+
+- **Lunes 9, AR3 (personas):** *La bola negra: quién decide quién cabe.* Sustituye al AR3 previsto ("las personas no son la fase final"), que queda para otra vuelta; de hecho lo absorbe, porque la tesis es la misma dicha con más fuerza.
+- **Martes 10, post de conocimiento:** *Arañar la tierra.* La frase de la película como imagen del mapa: lo que no está escrito no es que no exista, es que está enterrado, y alguien tiene que ir a buscarlo antes de decidir. Sustituye a B4 Polanyi, o lo integra (Polanyi dice que sabemos más de lo que podemos decir; la película dice que hay que arañar para que salga).
+- **Miércoles 11, comunidad (tecnología):** se mantiene C4 (la última vez que una herramienta te quitó criterio), con un guiño: las herramientas también votan bola negra cuando solo entienden el caso normal.
+- **Jueves 12, el orden:** B15, las tres preguntas de la puerta por escrito, que cierra: la tercera pregunta del mapa es la que obliga a decir a quién deja fuera cada opción.
+
+Así la semana entera cuelga de la película sin que ninguna pieza repita a la anterior.
+
+## 9. Lo que falta para escribir
+
+- Confirmación de Alejandro de este reparto. Si vale, la rutina del jueves 5 (9:13) redacta AR3 sobre este estudio; aviso en el backlog para que la encuentre.
+- Confirmación de que las escenas del apartado 6, dichas como están dichas, no desvelan nada.
+- Voz: primera persona y contenida; una sola frase personal sobre qué le removió a él, sin explicarla. Y, si quiere, una frase sobre la decepción (apartado 5) sin ninguna alusión reconocible.
