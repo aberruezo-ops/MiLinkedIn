@@ -136,7 +136,7 @@ Siguiendo `09-propiedad.md`: en LinkedIn se publica el porqué y el qué (esta a
 | Tecnología | 16 nov. Automatiza o informa (puerta, pregunta 2) | 14 dic. De la demo al uso: los dos papeles de la IA y la escala de autonomía (5.3) | La medida justa y la frontera: delegar, centauro, cíborg, reservar (5.3) | El radar: incorporar lo nuevo sin perseguirlo (5.3) |
 | El orden | 23 nov. Diagnóstico antes que solución: la restricción y la puerta (fase 1, 6 estrategia) | 21 dic. El orden importa: 137,5 grados, nada nuevo encima de lo no mirado (principio 5) | Medir el crecimiento, no la actividad: el delta y los tres indicadores (6) | El método en una página: las cinco fases, las cinco preguntas, el valle de la curva J (todo) |
 
-Con cuatro vueltas queda descrito el método entero en público, al nivel de índice y porqué. Cada semana, los dos posts hijos y la pregunta de comunidad salen de la casilla del lunes.
+Con cuatro vueltas queda descrito el método entero en público, al nivel de índice y porqué. El lunes sale de la casilla de la semana; de martes a jueves los posts salen de las casillas de los otros pilares y del orden, de modo que cada semana se toca el método entero (A12, revisada el 4 nov).
 
 ## 9. Decisiones tomadas y pendientes
 

@@ -25,26 +25,26 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 | C11 | Comunidad | C8 | El liderazgo empieza donde termina el ego (a partir de un artículo de Antonio Núñez que aporta Alejandro): quién te hizo crecer y qué hacía distinto; cuánto de eso haces tú. Enlaza con la pregunta de Laura Rollano (C8). | Pregunta doble, la segunda incómoda. | aprobado por Alejandro el 30 oct; programado en Publora para el 4 nov a las 8:30 con el vídeo de girasol real (Higgsfield + capa de texto propia; el verde anim-comunidad-C11.mp4 queda como alternativa) y primer comentario (artículo de Núñez sin enlace + enlace a los mimbres) (postGroupId 6ae5120c33575169fb368226); B7 (encuesta) se pospone |
 | B9 | Autoridad | P1 | Qué es nuevo de verdad en la IA generativa y qué es la misma historia de siempre. Respuesta a la objeción 4 de T1. | Contrarian a la propia tesis. | idea, falta cerrar P1 |
 
-## Calendario previsto (desde el 31 oct: semana = artículo madre el lunes + hijos martes y jueves + comunidad miércoles; ver A12 y A14)
+## Calendario previsto (desde el 9 nov: lunes artículo del pilar de la semana; martes y miércoles los otros dos pilares; jueves el orden; ver A12 y A14)
 
-La serie recorre el método por vueltas: cada semana un elemento distinto (conocimiento, personas, tecnología, crecer a la vez) y cada vuelta baja un nivel. Las vueltas 3 y 4 se cierran en la sesión del índice del método con Alejandro.
+La serie recorre el método por vueltas: cada semana el artículo es de un pilar distinto (conocimiento, personas, tecnología, el orden) y cada vuelta baja un nivel. Regla de reparto: martes y miércoles son los otros dos pilares entre conocimiento, personas y tecnología (en ese orden, saltando el del artículo); jueves siempre el orden; en las semanas del orden, martes a jueves son conocimiento, personas y tecnología. Los ítems del banco se reasignan al pilar que les toca. Las vueltas 3 y 4 se cierran en la sesión del índice del método con Alejandro.
 
 **Vuelta 1**
 
 | Semana | Elemento | Artículo del lunes | Hijos (mar / mié / jue) |
 |---|---|---|---|
 | 2 nov | Conocimiento | AR2 El mapa de lo que nadie escribió (listo; portada-articulo-02.png, anim-articulo-02.mp4) | B12 marchas atrás (programado, hijo 1) / C12 ¿qué pasaría mañana en tu equipo si tú no vinieras? (sustituye a C11 en el mismo postGroup 6ae5120c33575169fb368226; vídeo girasol con la nueva pregunta) / B13 la columna que asusta: opción A frente a B (aprobado y programado el 3 nov en Publora para el 5 nov 8:30, postGroupId 6ae9c1e033575169fb5ddce5; posts/2026-11-05-B13.md y anim-infografia-B13.mp4) |
-| 9 nov | Personas | AR3 Las personas no son la fase final: criterio de diseño desde el diagnóstico (desarrolla B1; redactar el jueves 5) | B4 Polanyi y las cinco preguntas que destapan lo que sabe la gente / C11 el liderazgo empieza donde termina el ego (texto aprobado en posts/2026-11-11-C11.md; regenerar el vídeo girasol con su pregunta y programar el martes 10) / C7 hacer partícipes a quienes sostienen el día a día (sin nombres) |
-| 16 nov | Tecnología | AR4 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto (redactar el jueves 12) | B3 Zuboff: no es la herramienta, es la decisión / C4 la última vez que una herramienta te quitó criterio / B5 Brynjolfsson y la trampa de Turing |
-| 23 nov | Crecer a la vez | AR5 Diagnóstico antes que solución: la puerta por la que pasa todo (redactar el jueves 19) | B14 el proyecto que llegó con la solución decidida (caso compuesto) / C13 ¿quién en tu organización sabe decir que no a un plazo? / B15 las tres preguntas de la puerta, por escrito |
+| 9 nov | Personas | AR3 Las personas no son la fase final: criterio de diseño desde el diagnóstico (desarrolla B1; redactar el jueves 5) | Mar 10 conocimiento: B4 Polanyi y las cinco preguntas que destapan lo que sabe la gente / Mié 11 tecnología: C4 la última vez que una herramienta te quitó criterio (vídeo girasol con su pregunta) / Jue 12 el orden: B15 las tres preguntas de la puerta, por escrito |
+| 16 nov | Tecnología | AR4 Automatiza o informa: la pregunta de tres palabras que cambia el proyecto (redactar el jueves 12) | Mar 17 conocimiento: por elegir del banco (candidato B11 personas y conocimiento no son lo mismo) / Mié 18 personas: C7 hacer partícipes a quienes sostienen el día a día (sin nombres) / Jue 19 el orden: B14 el proyecto que llegó con la solución decidida (caso compuesto) |
+| 23 nov | El orden | AR5 Diagnóstico antes que solución: la puerta por la que pasa todo (redactar el jueves 19) | Mar 24 conocimiento: por elegir del banco / Mié 25 personas: C11 el liderazgo empieza donde termina el ego (texto aprobado en posts/2026-11-11-C11.md; regenerar el vídeo girasol con su pregunta y la fecha nueva) / Jue 26 tecnología: B3 Zuboff, no es la herramienta, es la decisión |
 
 **Vuelta 2**
 
 | Semana | Elemento | Artículo del lunes | Hijos |
 |---|---|---|---|
-| 30 nov | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando | B2 minas de carbón y pilotos de IA / C14 ¿qué sabe hacer tu equipo junto que nadie sabe por separado? / B11 personas y conocimiento no son lo mismo |
-| 7 dic | Personas | AR7 Lo que preguntasteis: participar, liderar, el miedo (sin nombres) | C9 el miedo a que se haga sin mí / C15 pregunta sobre liderar sin protagonismo / C8 quién sostiene una transformación |
-| 14 dic | Tecnología | AR8 De la demo al uso: por qué el piloto funciona y el despliegue no | C10 hábitos para que la IA no se quede en piloto (verificar jidoka) / C16 ¿cuántos pilotos has visto escalar? / B16 cuánta IA necesita cada caso |
+| 30 nov | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando | Mar 1 dic personas / Mié 2 dic tecnología: C16 ¿cuántos pilotos has visto escalar? / Jue 3 dic el orden: B10 ángulo áureo |
+| 7 dic | Personas | AR7 Lo que preguntasteis: participar, liderar, el miedo (sin nombres) | Mar 8 dic conocimiento: B2 minas de carbón y pilotos de IA / Mié 9 dic tecnología / Jue 10 dic el orden |
+| 14 dic | Tecnología | AR8 De la demo al uso: por qué el piloto funciona y el despliegue no | Mar 15 dic conocimiento: C14 ¿qué sabe hacer tu equipo junto que nadie sabe por separado? / Mié 16 dic personas: C9 el miedo a que se haga sin mí / Jue 17 dic el orden |
 | 21 dic | Crecer a la vez | AR9 El orden importa: 137,5 grados, nada nuevo encima de lo no mirado | B10 ángulo áureo / C17 pregunta de cierre de año / B17 el método en una página (adelanto) |
 
 **Vuelta 3 (enero, por cerrar en la sesión del índice):** Conocimiento en la tecnología (qué tiene de nuevo la IA generativa, B9); Personas: quién enseña lo que la tarea enseñaba (Stanford); Tecnología: lo que la tecnología aprende de nosotros; Crecer a la vez: gobierno y medida.
@@ -59,7 +59,7 @@ B7 (encuesta) y B8 (narrativa, falta caso real) siguen en espera.
 
 ## Artículos semanales (decisión de Alejandro, 31 oct 2026; antes quincenales)
 
-Cada semana, un artículo madre el lunes que desarrolle una pieza concreta de Synergós, con tres posts hijos (ver A12 y el calendario por semanas). El primero fue "Crecer a la vez: los mimbres de Synergós" (27 oct). Siguiente: lunes 9 de noviembre (Alejandro lo adelanta un día para no coincidir con el post del martes).
+Cada semana, un artículo madre el lunes que desarrolle una pieza concreta de Synergós, con tres posts de martes a jueves que cubren los otros pilares (ver A12 y el calendario por semanas). El primero fue "Crecer a la vez: los mimbres de Synergós" (27 oct). Siguiente: lunes 9 de noviembre (Alejandro lo adelanta un día para no coincidir con el post del martes).
 
 | Nº | Tema | Por qué es distinto | Base | Estado |
 |---|---|---|---|---|
