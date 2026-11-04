@@ -144,3 +144,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 5 nov (madrugada): Jorge García comenta en AR2 preguntando qué parte del saber se resiste al mapa. Dos variantes de réplica preparadas; la publica Alejandro a mano.
 - 5 nov (madrugada): comentario de Eduardo Romero Bock en un post propio (resistencia frente a conocimiento operativo no documentado). Dos variantes de réplica preparadas; la publica Alejandro a mano.
 - 5 nov: Alejandro confirma que el comentario de Eduardo Romero Bock es en el post de escuchar antes de decidir; registrado como B1 salvo que indique otro.
+- 5 nov: redactada la propuesta B18 'Arañar la tierra' (martes 10 nov, conocimiento, hijo de AR3). El post de este jueves (B13) ya está programado. Pendiente de aprobación del texto; el vídeo se hace tras la aprobación.
