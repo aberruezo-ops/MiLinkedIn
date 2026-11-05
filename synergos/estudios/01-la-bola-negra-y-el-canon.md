@@ -69,7 +69,7 @@ Traducción: en toda transformación hay un momento de umbral en que el viejo or
 | Vivir "de puertas para afuera" | El trabajo real no está en el procedimiento; hay que entrar en la región posterior con permiso y sin castigo | AR2, C12 (qué pasaría si tú no vinieras) |
 | Lo que no encaja se trata como suciedad | Las excepciones son información sobre dónde el patrón no llega; automatizar el caso normal deja sin sitio a quien resolvía el resto | AR4 (automatiza o informa), B3 Zuboff |
 | Sensibilidad que no va de la mano de la inteligencia | Edmondson (1999): seguridad psicológica es una creencia compartida de que el equipo es seguro para asumir riesgos interpersonales. Sin ella, nadie enseña lo que sabe ni dice lo que falla | AR3 (personas como criterio de diseño), semana del 9 nov |
-| Tres épocas, una herencia | Lo que una organización decide hoy sobre quién cabe lo hereda la siguiente generación de trabajadores; es el "quién enseña lo que la tarea enseñaba" | Vuelta 3, personas |
+| Tres existencias ligadas por la herencia | Lo que una organización decide hoy sobre quién cabe lo hereda la siguiente generación de trabajadores; es el "quién enseña lo que la tarea enseñaba" | Vuelta 3, personas |
 | Communitas en el umbral | Crecer a la vez: personas, conocimiento y tecnología, y nadie se queda atrás mientras cambia el orden | El orden, AR5 |
 
 ## 5. Sobre la decepción: inteligencia y sensibilidad
@@ -137,7 +137,7 @@ Así la semana entera cuelga de la película sin que ninguna pieza repita a la a
 
 **Los cuatro mensajes que la prensa destaca del tráiler y de la sinopsis oficial:**
 
-1. **Tres hombres, tres épocas, una herencia.** La sinopsis del Festival de San Sebastián lo resume así: tres vidas unidas por la sexualidad y el deseo, el dolor y la herencia. Las tres épocas son 1932, 1937 y 2017, y las historias están conectadas entre sí.
+1. **Tres hombres, tres épocas, una herencia.** La sinopsis oficial, según la recogen el Festival de San Sebastián y la prensa, dice: "narra las vidas interconectadas de tres hombres en tres épocas distintas. Tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia; y una de las últimas obras, inacabada, de Federico García Lorca". Las tres épocas son 1932, 1937 y 2017.
 2. **La bola negra es un voto de rechazo.** El título alude al voto que recibe un joven homosexual en Granada al intentar ser admitido en un club social (Hollywood Reporter España).
 3. **La frase que abre el tráiler.** Según Hollywood Reporter, una voz solemne dice: "Hay que arañar la tierra para que salgan, para que puedan existir más". Coincide con la que Alejandro recordaba, con una redacción algo distinta. Conviene citarla con la fórmula "una frase del tráiler" y no como cita literal hasta verificarla.
 4. **El tema, en palabras de los directores.** Una fuente recoge que lo definen como un viaje sobre lo que significa ser diferente a lo largo del tiempo, con una palabra que ellos reivindican. En un perfil corporativo no la citaría; basta con "ser diferente a lo largo del tiempo", que además es lo que Alejandro quiere decir.
@@ -152,7 +152,7 @@ La lectura es nuestra, no una afirmación sobre lo que la película pretende. Se
 |---|---|---|
 | Un voto secreto que rechaza a quien no encaja | El mecanismo por el que una organización decide, sin explicarlo, quién cabe. El mapa obliga a decir a quién deja fuera cada opción | AR3, lunes 9 (personas): núcleo del artículo |
 | "Hay que arañar la tierra para que salgan, para que puedan existir más" | El conocimiento que nadie escribió está enterrado. El diagnóstico es arañar antes de decidir, y lo que sale permite que exista más (proteger, enseñar, rediseñar) | B18, martes 10 (conocimiento) |
-| Tres épocas, una herencia | Lo que una organización decide hoy sobre quién cabe lo hereda la siguiente generación: quién enseña lo que la tarea enseñaba | AR3 (cierre) y vuelta 3 de personas |
+| Tres existencias ligadas por la herencia | Lo que una organización decide hoy sobre quién cabe lo hereda la siguiente generación: quién enseña lo que la tarea enseñaba | AR3 (cierre) y vuelta 3 de personas |
 | Tres vidas que solo se entienden juntas | Personas, conocimiento y tecnología solo funcionan si crecen a la vez. Nadie se sostiene solo | Jueves 12, el orden (B15) y cierre "Crecer a la vez" de todos los vídeos |
 | El dolor detrás de no encajar | Las personas no son un recurso: lo que saben lo saben con la experiencia. Perderlas por no encajar en el patrón es perder conocimiento y perder a alguien | AR3 (apartado de las consecuencias) |
 | Ser diferente a lo largo del tiempo | El caso normal es una decisión de diseño, no un hecho. Las herramientas también echan bola negra cuando solo entienden el caso normal | Miércoles 11 (tecnología), C4 con el guiño de la bola negra |
