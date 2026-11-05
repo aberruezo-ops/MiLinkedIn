@@ -130,3 +130,33 @@ Así la semana entera cuelga de la película sin que ninguna pieza repita a la a
 - Confirmación de Alejandro de este reparto. Si vale, la rutina del jueves 5 (9:13) redacta AR3 sobre este estudio; aviso en el backlog para que la encuentre.
 - Confirmación de que las escenas del apartado 6, dichas como están dichas, no desvelan nada.
 - Voz: primera persona y contenida; una sola frase personal sobre qué le removió a él, sin explicarla. Y, si quiere, una frase sobre la decepción (apartado 5) sin ninguna alusión reconocible.
+
+## 10. El tráiler y sus mensajes (5 nov 2026)
+
+**Qué he podido y qué no.** No puedo ver vídeo ni abrir las páginas de las webs de cine desde esta sesión (la política de red las bloquea). Lo que sigue sale de resúmenes de búsqueda de la prensa que cubre el tráiler (Hollywood Reporter España, Que.es, Ecartelera, Sopitas, la sinopsis del Festival de San Sebastián) y no de haber visto el avance. Hay un tráiler de Netflix en varias plataformas y la prensa lo comenta sin desvelar nada de la trama. Para citar una frase literal conviene que Alejandro la compruebe en el propio tráiler con subtítulos.
+
+**Los cuatro mensajes que la prensa destaca del tráiler y de la sinopsis oficial:**
+
+1. **Tres hombres, tres épocas, una herencia.** La sinopsis del Festival de San Sebastián lo resume así: tres vidas unidas por la sexualidad y el deseo, el dolor y la herencia. Las tres épocas son 1932, 1937 y 2017, y las historias están conectadas entre sí.
+2. **La bola negra es un voto de rechazo.** El título alude al voto que recibe un joven homosexual en Granada al intentar ser admitido en un club social (Hollywood Reporter España).
+3. **La frase que abre el tráiler.** Según Hollywood Reporter, una voz solemne dice: "Hay que arañar la tierra para que salgan, para que puedan existir más". Coincide con la que Alejandro recordaba, con una redacción algo distinta. Conviene citarla con la fórmula "una frase del tráiler" y no como cita literal hasta verificarla.
+4. **El tema, en palabras de los directores.** Una fuente recoge que lo definen como un viaje sobre lo que significa ser diferente a lo largo del tiempo, con una palabra que ellos reivindican. En un perfil corporativo no la citaría; basta con "ser diferente a lo largo del tiempo", que además es lo que Alejandro quiere decir.
+
+**Lo que no se usa del tráiler:** la trama de cada época (quién vigila a quién, qué personajes, qué le ocurre a cada uno) está descrita en la prensa, pero no la usamos. Tampoco imágenes ni fragmentos del vídeo: son contenido protegido y la regla de Synergós es que todo lo visual sea libre de derechos. En el vídeo promocional la película aparece solo como texto (título y frase), nunca como imagen.
+
+### Cómo se relaciona cada mensaje con Synergós
+
+La lectura es nuestra, no una afirmación sobre lo que la película pretende. Se dice así en los textos.
+
+| Mensaje del tráiler | Lectura Synergós | Dónde aparece esta semana |
+|---|---|---|
+| Un voto secreto que rechaza a quien no encaja | El mecanismo por el que una organización decide, sin explicarlo, quién cabe. El mapa obliga a decir a quién deja fuera cada opción | AR3, lunes 9 (personas): núcleo del artículo |
+| "Hay que arañar la tierra para que salgan, para que puedan existir más" | El conocimiento que nadie escribió está enterrado. El diagnóstico es arañar antes de decidir, y lo que sale permite que exista más (proteger, enseñar, rediseñar) | B18, martes 10 (conocimiento) |
+| Tres épocas, una herencia | Lo que una organización decide hoy sobre quién cabe lo hereda la siguiente generación: quién enseña lo que la tarea enseñaba | AR3 (cierre) y vuelta 3 de personas |
+| Tres vidas que solo se entienden juntas | Personas, conocimiento y tecnología solo funcionan si crecen a la vez. Nadie se sostiene solo | Jueves 12, el orden (B15) y cierre "Crecer a la vez" de todos los vídeos |
+| El dolor detrás de no encajar | Las personas no son un recurso: lo que saben lo saben con la experiencia. Perderlas por no encajar en el patrón es perder conocimiento y perder a alguien | AR3 (apartado de las consecuencias) |
+| Ser diferente a lo largo del tiempo | El caso normal es una decisión de diseño, no un hecho. Las herramientas también echan bola negra cuando solo entienden el caso normal | Miércoles 11 (tecnología), C4 con el guiño de la bola negra |
+
+### Vídeo promocional de AR3 (propuesta)
+
+Un "mundo" en los colores de Synergós: campo de tierra clara sobre fondo claro, verde y tinta. Una mano arañando la tierra, y de ahí brota la espiral de semillas del girasol que termina formando el logo. Encima, solo texto: el título del artículo, la frase del tráiler como "una frase del tráiler de La bola negra" y el cierre "Crecer a la vez." Sin imágenes de la película. Se genera con Higgsfield y se compone con ffmpeg (texto y logo exactos, no generados). 10 a 15 s, 56 a 112 créditos. Se hace cuando exista el texto de AR3.
