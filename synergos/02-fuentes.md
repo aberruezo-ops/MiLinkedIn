@@ -77,3 +77,39 @@ Regla: una obra de esta lista puede nombrarse como referencia general (autor y a
 - **Qué dice:** con datos de nóminas de ADP (EE. UU.), el empleo de los trabajadores de 22 a 25 años en las ocupaciones más expuestas a la IA está en torno a un 19 % por debajo de lo que estaría si hubiera seguido el ritmo de los jóvenes en ocupaciones menos expuestas (15 % en la primera versión, 13 % en algunas reseñas de 2025). Los trabajadores con experiencia en las mismas ocupaciones no muestran ese hueco. El efecto se concentra donde la IA automatiza y no donde amplía, y opera sobre todo por menos contratación de jóvenes, no por despidos. Los autores insisten en que no ven desplazamiento generalizado y han descartado tipos de interés, teletrabajo y ciclo tecnológico como explicaciones.
 - **Qué aporta:** evidencia reciente y del mismo autor de la trampa de Turing: automatizar frente a ampliar tiene un coste visible en quien está aprendiendo el oficio. Conecta con el hilo de la semana sobre criterio y formación.
 - **Qué NO dice:** no demuestra causalidad cerrada (los autores lo matizan); son datos de EE. UU., no de España; no dice que la IA destruya empleo en general. Citar siempre "en las ocupaciones más expuestas" y "jóvenes de 22 a 25", nunca "la IA deja sin trabajo a los jóvenes".
+
+## Fuentes del estudio y del artículo AR3 (La bola negra), fichadas el 5 nov 2026
+
+Todas verificadas solo por resúmenes de búsqueda y fuentes secundarias (las páginas originales de prensa y cine no se pueden abrir desde la sesión). Se citan como idea general, no con literalidad.
+
+### Douglas, M. (1966). Purity and Danger. Routledge.
+- **Qué dice:** la suciedad es "materia fuera de su sitio": un subproducto de ordenar y clasificar, en la medida en que ordenar implica rechazar lo inapropiado. No hay suciedad absoluta.
+- **Qué aporta:** los sistemas de clasificación (procesos, organigramas) producen su propia "suciedad": lo que no cabe en las casillas.
+- **Qué NO dice:** nada sobre organizaciones modernas ni IA. En el prefacio de 2002 la propia autora retiró su explicación de las reglas kosher como "un error importante": no usar el ejemplo del cerdo. La frase viene de William James.
+
+### Goffman, E. (1956/1959). The Presentation of Self in Everyday Life; (1963). Stigma: Notes on the Management of Spoiled Identity.
+- **Qué dice:** región anterior (se actúa para un público) y región posterior (se descansa de la actuación). Ningún atributo es estigmatizante por sí mismo: lo es cuando un público lo juzga muy desacreditador. Estrategias: *passing* (hacerse pasar por normal ocultando el estigma) y *covering* (reducir su visibilidad cuando ya se conoce).
+- **Qué aporta:** el procedimiento como fachada y el trabajo real como región posterior; por qué el conocimiento no se escribe.
+- **Qué NO dice:** nada sobre trabajo remoto ni redes sociales (esa extensión es de terceros). La fecha de *Presentation* varía (1956 Edimburgo, 1959 edición comercial): citar 1959 salvo que se use la primera.
+
+### Scott, J. C. (1998). Seeing Like a State. Yale University Press.
+- **Qué dice:** los Estados necesitan hacer "legible" lo que gobiernan, y esa simplificación destruye la *metis* (conocimiento práctico y local). Los grandes planes que la ignoran tienden a fracasar.
+- **Qué aporta:** un proyecto de IA es un ejercicio de legibilidad. Aún no se cita en artículos.
+- **Qué NO dice:** los historiadores han discutido la exactitud de algunos de sus casos (soviético, tanzano) y la separación tajante entre *metis* y ciencia formal es discutible.
+
+### Turner, V. (1969). The Ritual Process: Structure and Anti-Structure.
+- **Qué dice:** *communitas* es el vínculo igualitario que surge fuera de la estructura, entre quienes comparten un umbral (fase liminal).
+- **Qué aporta:** el momento de umbral de una transformación. Aún no se cita en artículos.
+- **Qué NO dice:** nada sobre empresas. Fuentes consultadas: reseñas editoriales, no el texto de Turner.
+
+### Edmondson, A. (1999). "Psychological Safety and Learning Behavior in Work Teams". Administrative Science Quarterly 44(2), 350-383.
+- **Qué dice:** la seguridad psicológica es una creencia compartida de que el equipo es seguro para asumir riesgos interpersonales; se asocia a conductas de aprendizaje, y estas median el vínculo con el rendimiento (51 equipos de una fábrica).
+- **Qué NO dice:** no demuestra por sí sola causalidad en cualquier sector.
+
+### Reglamentos de casinos y clubes del siglo XIX (admisión por bolas)
+- **Qué dice:** el Reglamento del Casino del Príncipe (Madrid, 1842) fijaba la admisión "siempre por escrutinio secreto con bolas de diferente color". Unos estatutos antiguos del Casino de Madrid, de fecha no visible, disponían que "una bola negra anula tres blancas". En la tradición inglesa (*blackballing*) bastaba una sola negra.
+- **Pendiente:** fuente primaria y fecha de los estatutos del Casino de Madrid. Antes de publicar, Alejandro puede quitar la frase de las tres blancas si no se verifica.
+
+### La bola negra (2026), de Javier Calvo y Javier Ambrossi
+- **Qué dice la sinopsis oficial (recogida por prensa y Festival de San Sebastián):** "narra las vidas interconectadas de tres hombres en tres épocas distintas. Tres existencias íntimamente ligadas por la sexualidad y el deseo, el dolor y la herencia; y una de las últimas obras, inacabada, de Federico García Lorca". Épocas: 1932, 1937 y 2017. Título: el voto de rechazo que recibe un joven homosexual en Granada al intentar entrar en un club social.
+- **Qué NO se usa:** la trama de cada época, los personajes concretos, el premio de Cannes (no contrastado con segunda fuente), la fecha de estreno en cines (las fuentes se contradicen), imágenes o fragmentos del tráiler. La frase "hay que arañar la tierra para que salgan, para que puedan existir más" es de la película, no de Lorca, y se cita de memoria.
