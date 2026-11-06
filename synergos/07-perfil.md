@@ -26,6 +26,8 @@ Crecer a la vez. En un girasol nadie coloca las semillas: cada una nace girada 1
 
 Sobre esa idea estoy construyendo Synergós (del griego "el que trabaja junto a otro"): un marco para dirigir transformaciones en las que personas, conocimiento y tecnología avanzan en el mismo orden, y la IA y la innovación amplían a quien hace el trabajo en lugar de sustituirlo. Aquí publico cada martes y jueves una idea, con sus fuentes, y discuto las objeciones. Si diriges una transformación y te haces las mismas preguntas, este es el sitio.
 
+Mi misión es ser el mejor compañero de viaje en tu transformación, lograr que las personas que hacen el trabajo sean las mejores embajadoras del cambio y que las organizaciones que lo dirigen sean mejores sitios para trabajar.
+
 Lo que hay detrás:
 
 Trabajo en la intersección entre negocio, tecnología y personas, ayudando a organizaciones complejas a definir y ejecutar transformaciones reales, más allá del discurso y del cambio puramente tecnológico. Treinta años de consultoría, preventa y liderazgo de iniciativas de transformación, especialmente en entornos de alta complejidad organizativa, con fuerte componente regulatorio y múltiples actores (sector público y grandes organizaciones).
@@ -48,6 +50,10 @@ Busco colaborar en retos donde la transformación sea estructural y sostenible, 
 Opiniones propias.
 
 ---
+
+## Misión (añadida el 6 nov 2026)
+
+Alejandro pidió usar la forma de contar la misión de un perfil que le gustó (tres compromisos seguidos: socio de confianza para la transformación, clientes como embajadores, mejor sitio para trabajar). Se ha adaptado a Synergós, sin nombre de empresa ni de clientes (A10), y se ha insertado en el Acerca de, tras el segundo párrafo. La forma original menciona a otra compañía y no se copia literal. Alejandro la pega a mano.
 
 ## Después de publicar el post del 27 oct
 
