@@ -1,6 +1,6 @@
 # Cómo leer este documento
 
-Este documento describe el método Synergós en su versión 1.1. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
+Este documento describe el método Synergós en su versión 1.2. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
 
 Hay tres cosas que conviene saber antes de empezar.
 

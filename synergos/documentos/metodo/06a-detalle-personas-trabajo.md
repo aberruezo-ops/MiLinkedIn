@@ -1,6 +1,6 @@
 # Parte V. El detalle: cómo se hace
 
-Hasta aquí el documento ha descrito la arquitectura: los elementos, el orden, las fases, las puertas. Esta parte entra en lo que hay dentro. Son catorce módulos, cada uno sobre un tema que el método toca en varias fases y que necesita desarrollo propio. Todos siguen la misma estructura: qué es y por qué importa, lo que dicen las fuentes, cómo se hace, cómo se mide, las señales de que va mal y lo que todavía no está resuelto.
+Hasta aquí el documento ha descrito la arquitectura: los elementos, el orden, las fases, las puertas. Esta parte entra en lo que hay dentro. Son veintidós módulos, cada uno sobre un tema que el método toca en varias fases y que necesita desarrollo propio. Todos siguen la misma estructura: qué es y por qué importa, lo que dicen las fuentes, cómo se hace, cómo se mide, las señales de que va mal y lo que todavía no está resuelto.
 
 El hilo que los une es una pregunta que la arquitectura plantea y no responde: en un trabajo en el que la tecnología puede hacer cada vez más cosas, ¿cuál es el lugar de las personas, y cómo se diseña para que la tecnología lo amplíe en lugar de ocuparlo?
 

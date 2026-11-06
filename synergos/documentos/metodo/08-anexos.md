@@ -219,6 +219,35 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Wrzesniewski, A. y Dutton, J. (2001).** "Crafting a Job". *Academy of Management Review.*
 
+
+**Fuentes añadidas en la versión 1.2** (las tres miradas). Mismo criterio: pendientes de ficha propia antes de citarlas en público.
+
+**Bovens, M. y Zouridis, S. (2002).** "From Street-Level to System-Level Bureaucracies". *Public Administration Review.* Cuando la discrecionalidad pasa a los sistemas.
+
+**Flyvbjerg, B. y Gardner, D. (2023).** *How Big Things Get Done.* La previsión por clase de referencia.
+
+**Floyd, S. y Wooldridge, B. (1997).** Los papeles estratégicos de los mandos intermedios.
+
+**Galbraith, J.** El modelo de la estrella: estrategia, estructura, procesos, recompensas y personas.
+
+**Huy, Q. (2001).** "In Praise of Middle Managers". *Harvard Business Review.*
+
+**Kahneman, D. y Tversky, A. (1979).** La falacia de la planificación.
+
+**Kellogg, K., Valentine, M. y Christin, A. (2020).** "Algorithms at Work: The New Contested Terrain of Control". *Academy of Management Annals.*
+
+**Lipsky, M. (1980).** *Street-Level Bureaucracy.* La discrecionalidad de quien atiende al ciudadano.
+
+**Moore, M. (1995).** *Creating Public Value.* El valor público como medida del éxito.
+
+**Schein, E. (1985).** *Organizational Culture and Leadership.* Artefactos, valores declarados y supuestos básicos.
+
+**Stickdorn, M. y otros (2018).** *This Is Service Design Doing.* Diseñar desde el recorrido de quien recibe el servicio.
+
+**Tarafdar, M. y otros (2007).** El tecnoestrés en el trabajo. *Journal of Management Information Systems.*
+
+**Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios. Su aplicación concreta debe comprobarse con asesoría jurídica.
+
 **Pendientes de ficha propia y no usadas como argumento:** los estudios de mercado de 2025 sobre pilotos de IA que no llegan a producción.
 
 ## Anexo F. Registro de versiones
@@ -229,3 +258,4 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 | 0.2 | 31 de octubre de 2026 | Reorganización en tres elementos y el orden; cinco preguntas de la puerta; mapa de lo que nadie escribió; tres indicadores |
 | 1.0 | 6 de noviembre de 2026 | Desarrollo completo: escala de autonomía propuesta; madurez por elemento; consentimiento en el mapa; lo que no encaja en el patrón; críticas al método; preguntas abiertas con y sin solución; reglas para cambiar el método |
 | 1.1 | 6 de noviembre de 2026 | Nueva Parte V, el detalle: catorce módulos sobre lo que aporta una persona, el rediseño del trabajo sin sustituir, la IA (cuándo sí, cuándo no y cuándo quitarla), el equipo, la colaboración, la gestión del conocimiento, aprender el oficio, motivación e incentivos, impacto en negocio, datos, riesgo y regulación, comunicación y transición, proveedores y sector público, y cartera; treinta y cuatro fuentes nuevas; la dependencia silenciosa como pieza nueva |
+| 1.2 | 6 de noviembre de 2026 | Las tres miradas: revisión desde quien dirige, quien hace el trabajo y quien recibe el servicio; ocho módulos nuevos (mandos intermedios, cultura y estructura, plazos realistas, trabajadores ante los algoritmos, cuando un puesto desaparece, inclusión, quien recibe el servicio, huella material) y lo que añaden a las puertas |
