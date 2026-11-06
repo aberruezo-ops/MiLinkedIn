@@ -137,7 +137,7 @@ Así la semana entera cuelga de la película sin que ninguna pieza repita a la a
 
 **Los cuatro mensajes que la prensa destaca del tráiler y de la sinopsis oficial:**
 
-1. **Tres hombres, tres épocas, una herencia.** La sinopsis en español (SensaCine y prensa) dice: "entrelaza las vidas de tres hombres en tres épocas diferentes, unidos por un vínculo invisible de deseo, dolor y legado". (La versión "narra las vidas interconectadas..." es una traducción de la ficha en inglés de San Sebastián.) Las tres épocas son 1932, 1937 y 2017.
+1. **Tres hombres, tres épocas, una herencia.** La sinopsis en español (SensaCine y prensa) dice: "entrelaza las vidas de tres hombres en tres épocas diferentes, unidos por un vínculo invisible de deseo, dolor y legado". (La versión "narra las vidas interconectadas..." también circula en español, por ejemplo en Fotogramas; ambas valen.) Las tres épocas son 1932, 1937 y 2017.
 2. **La bola negra es un voto de rechazo.** El título alude al voto que recibe un joven homosexual en Granada al intentar ser admitido en un club social (Hollywood Reporter España).
 3. **La frase que abre el tráiler.** Según Hollywood Reporter, una voz solemne dice: "Hay que arañar la tierra para que salgan, para que puedan existir más". Coincide con la que Alejandro recordaba, con una redacción algo distinta. Conviene citarla con la fórmula "una frase del tráiler" y no como cita literal hasta verificarla.
 4. **El tema, en palabras de los directores.** Una fuente recoge que lo definen como un viaje sobre lo que significa ser diferente a lo largo del tiempo, con una palabra que ellos reivindican. En un perfil corporativo no la citaría; basta con "ser diferente a lo largo del tiempo", que además es lo que Alejandro quiere decir.
@@ -160,3 +160,14 @@ La lectura es nuestra, no una afirmación sobre lo que la película pretende. Se
 ### Vídeo promocional de AR3 (propuesta)
 
 Un "mundo" en los colores de Synergós: campo de tierra clara sobre fondo claro, verde y tinta. Una mano arañando la tierra, y de ahí brota la espiral de semillas del girasol que termina formando el logo. Encima, solo texto: el título del artículo, la frase del tráiler como "una frase del tráiler de La bola negra" y el cierre "Crecer a la vez." Sin imágenes de la película. Se genera con Higgsfield y se compone con ffmpeg (texto y logo exactos, no generados). 10 a 15 s, 56 a 112 créditos. Se hace cuando exista el texto de AR3.
+
+## Nota del 6 nov 2026: crítica de Fotogramas pegada por Alejandro
+
+Datos de esa crítica que chocan con lo anotado antes, a resolver con una segunda fuente antes de usarlos en público:
+
+- **Quién dice "arañar la tierra".** Fotogramas lo atribuye a la hispanista que interpreta Glenn Close, en un coloquio con Alana S. Portero ("demos nombres y apellidos a aquellas historias de amor que descansan en las cunetas; hay que arañar la tierra para quienes vienen detrás"). Otras fuentes lo ponían en boca del Lorca de ficción. El B18 no atribuye la frase a ningún personaje, así que no cambia.
+- **Año de la segunda época.** Fotogramas sitúa la línea de los soldados en 1939; la sinopsis y la prensa citaban 1937. El AR3 no da el año.
+- **Guion y estreno.** Ver 02-fuentes.md: autoría de Conejero y fecha sin cerrar.
+- **Cuatro páginas.** Fotogramas habla de "novela inacabada"; el resto, de obra. El AR3 dice "una obra", neutral.
+- **El AR3 dice** que en las cuatro páginas "un joven intenta entrar en un club de Granada y recibe una bola negra". Fotogramas describe el dilema de un joven que debe decidir si seguir en el armario para entrar en un Casino por votación de bolas, y no menciona Granada ni el resultado del voto. Propuesta de ajuste al AR3: quitar "de Granada" y "y recibe una bola negra".
+- La crítica cuenta mucha trama. No se usa nada de ella.
