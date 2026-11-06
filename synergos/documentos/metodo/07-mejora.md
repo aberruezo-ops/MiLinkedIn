@@ -1,4 +1,4 @@
-# Parte V. Un método que se corrige a sí mismo
+# Parte VI. Un método que se corrige a sí mismo
 
 ## 19. Cómo mejora el método
 

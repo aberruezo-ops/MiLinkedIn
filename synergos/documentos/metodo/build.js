@@ -97,7 +97,7 @@ function parse(md) {
 }
 const numRefs = []; const heads = [];
 const pages = fs.existsSync(path.join(dir, 'toc-pages.json')) ? JSON.parse(fs.readFileSync(path.join(dir, 'toc-pages.json'))) : {};
-const files = fs.readdirSync(dir).filter(f => /^0\d-.*\.md$/.test(f)).sort();
+const files = fs.readdirSync(dir).filter(f => /^0\d[a-z]?-.*\.md$/.test(f)).sort();
 const body = files.flatMap(f => parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 
 // Portada
@@ -110,7 +110,7 @@ const toc = [
 ];
 
 const doc = new Document({
-  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 1.0', description: 'Método Synergós, documento de trabajo',
+  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 1.1', description: 'Método Synergós, documento de trabajo',
   features: { updateFields: true },
   styles: {
     default: { document: { run: { font: BF, size: 21, color: INK } } },
@@ -128,8 +128,8 @@ const doc = new Document({
     { properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover },
     { properties: { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN }, pageNumbers: { start: 2 } } },
       headers: { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'Synergós · El método', font: SF, size: 15, color: GREY })] })] }) },
-      footers: { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.0 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: SF, size: 16, color: GREEN })] })] }) },
+      footers: { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.1 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: SF, size: 16, color: GREEN })] })] }) },
       children: [...toc, ...body] }
   ]
 });
-Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v1.0.docx'), b); console.log('ok', files.length, 'ficheros'); });
+Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v1.1.docx'), b); console.log('ok', files.length, 'ficheros'); });

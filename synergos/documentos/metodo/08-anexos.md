@@ -148,6 +148,77 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Zuboff, S. (1988).** *In the Age of the Smart Machine.* Automatizar o informar. No es su libro de 2019 sobre vigilancia.
 
+
+**Fuentes añadidas en la versión 1.1** (Parte V, el detalle). Verificadas por conocimiento general de la literatura; pendientes de ficha propia en el cuaderno antes de citarlas en público.
+
+**Acemoglu, D. y Restrepo, P. (2019).** "Automation and New Tasks: How Technology Displaces and Reinstates Labor". *Journal of Economic Perspectives.* La automatización desplaza, y las tareas nuevas devuelven trabajo.
+
+**Agrawal, A., Gans, J. y Goldfarb, A. (2018).** *Prediction Machines.* La IA abarata la predicción y encarece el juicio.
+
+**Allen, T. (1977).** *Managing the Flow of Technology.* La comunicación cae con la distancia.
+
+**Autor, D., Mindell, D. y Reynolds, E. (2022).** *The Work of the Future.* MIT Press. Las instituciones y las decisiones, no la tecnología sola, determinan el resultado.
+
+**Bainbridge, L. (1983).** "Ironies of Automation". *Automatica.* Cuanto más se automatiza, más difícil y más importante es la intervención humana.
+
+**Bloom, N., Sadun, R. y Van Reenen, J. (2012).** "Americans Do IT Better". *American Economic Review.* Las prácticas de gestión explican parte del rendimiento de la tecnología.
+
+**Bresnahan, T., Brynjolfsson, E. y Hitt, L. (2002).** "Information Technology, Workplace Organization, and the Demand for Skilled Labor". *Quarterly Journal of Economics.* Tecnología y cambio organizativo son complementarios.
+
+**Bridges, W. (1991).** *Managing Transitions.* Final, zona neutra y nuevo comienzo.
+
+**Brynjolfsson, E. y Hitt, L. (2000).** "Beyond Computation". *Journal of Economic Perspectives.* La tecnología rinde con cambio organizativo.
+
+**Conway, M. (1968).** "How Do Committees Invent?". *Datamation.* Los sistemas reproducen la estructura de comunicación de quien los diseña.
+
+**Cross, R. y Parker, A. (2004).** *The Hidden Power of Social Networks.* El trabajo circula por redes informales.
+
+**DAMA International (2017).** *DAMA-DMBOK,* segunda edición. Gestión de datos.
+
+**Daugherty, P. y Wilson, J. (2018).** *Human + Machine.* El medio que falta: personas y máquinas trabajando juntas.
+
+**Davenport, T. y Prusak, L. (1998).** *Working Knowledge.* El mercado del conocimiento en la organización.
+
+**Deci, E. y Ryan, R. (2000).** Teoría de la autodeterminación: autonomía, competencia y vínculo.
+
+**Dreyfus, H. y Dreyfus, S. (1986).** *Mind over Machine.* Cinco etapas de novato a experto.
+
+**Edmondson, A. (2012).** *Teaming.* Equipos que se forman alrededor de un problema.
+
+**Hackman, J. R. (2002).** *Leading Teams.* Las cinco condiciones de un equipo eficaz.
+
+**Hackman, J. R. y Oldham, G. (1976).** "Motivation through the Design of Work". *Organizational Behavior and Human Performance.* Las cinco características del puesto.
+
+**Hansen, M. (2009).** *Collaboration.* La mala colaboración y cómo evitarla.
+
+**ISO/IEC 42001:2023.** Sistema de gestión de la inteligencia artificial.
+
+**Kahneman, D., Sibony, O. y Sunstein, C. (2021).** *Noise.* La variabilidad no deseada en el juicio.
+
+**Kaplan, R. y Norton, D. (1992 y 2004).** El cuadro de mando integral y los mapas estratégicos.
+
+**Lave, J. y Wenger, E. (1991).** *Situated Learning.* La participación periférica legítima.
+
+**NIST (2023).** *AI Risk Management Framework 1.0.* Gobernar, mapear, medir y gestionar.
+
+**Noy, S. y Zhang, W. (2023).** "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence". *Science.* Más mejora para quien empezaba peor.
+
+**Parasuraman, R. y Riley, V. (1997).** "Humans and Automation: Use, Misuse, Disuse, Abuse". *Human Factors.* El sesgo de automatización.
+
+**Reinertsen, D. (2009).** *The Principles of Product Development Flow.* El coste del retraso y el límite de trabajo en curso.
+
+**Skelton, M. y Pais, M. (2019).** *Team Topologies.* Tipos de equipo y carga cognitiva.
+
+**Solow, R. (1987).** Reseña en *The New York Times Book Review.* La paradoja de la productividad.
+
+**Ward, J. y Daniel, E. (2006).** *Benefits Management.* Cada beneficio con dueño en el negocio.
+
+**Wenger, E. (1998).** *Communities of Practice.*
+
+**Woolley, A. y otros (2010).** "Evidence for a Collective Intelligence Factor in the Performance of Human Groups". *Science.*
+
+**Wrzesniewski, A. y Dutton, J. (2001).** "Crafting a Job". *Academy of Management Review.*
+
 **Pendientes de ficha propia y no usadas como argumento:** los estudios de mercado de 2025 sobre pilotos de IA que no llegan a producción.
 
 ## Anexo F. Registro de versiones
@@ -156,4 +227,5 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 |---|---|---|
 | 0.1 | Octubre de 2026 | Primera estructura a partir del documento de trabajo del autor |
 | 0.2 | 31 de octubre de 2026 | Reorganización en tres elementos y el orden; cinco preguntas de la puerta; mapa de lo que nadie escribió; tres indicadores |
-| 1.0 | Noviembre de 2026 | Desarrollo completo: escala de autonomía propuesta; madurez por elemento; consentimiento en el mapa; lo que no encaja en el patrón; críticas al método; preguntas abiertas con y sin solución; reglas para cambiar el método |
+| 1.0 | 6 de noviembre de 2026 | Desarrollo completo: escala de autonomía propuesta; madurez por elemento; consentimiento en el mapa; lo que no encaja en el patrón; críticas al método; preguntas abiertas con y sin solución; reglas para cambiar el método |
+| 1.1 | 6 de noviembre de 2026 | Nueva Parte V, el detalle: catorce módulos sobre lo que aporta una persona, el rediseño del trabajo sin sustituir, la IA (cuándo sí, cuándo no y cuándo quitarla), el equipo, la colaboración, la gestión del conocimiento, aprender el oficio, motivación e incentivos, impacto en negocio, datos, riesgo y regulación, comunicación y transición, proveedores y sector público, y cartera; treinta y cuatro fuentes nuevas; la dependencia silenciosa como pieza nueva |

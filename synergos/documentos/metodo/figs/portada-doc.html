@@ -13,7 +13,7 @@ h2{position:absolute;left:96px;top:470px;font-family:Fr,serif;font-weight:normal
 <img class="logo" src="../../../imagenes/logo-synergos-dark.svg">
 <h1>El método</h1><h2>Crecer a la vez.</h2>
 <div class="sub">Personas, conocimiento y tecnología avanzando en el mismo orden</div>
-<div class="meta"><i>Documento de trabajo · uso interno</i><b>Alejandro Berruezo</b>Versión 1.0 · noviembre de 2026</div>
+<div class="meta"><i>Documento de trabajo · uso interno</i><b>Alejandro Berruezo</b>Versión 1.1 · noviembre de 2026</div>
 <script>const g=document.getElementById('s').getContext('2d'),GA=137.50776405*Math.PI/180,N=1800,cx=650,cy=650,R=620,c=R/Math.sqrt(N);
 const mix=(A,B,t)=>{const p=h=>[1,3,5].map(i=>parseInt(h.substr(i,2),16));const a=p(A),b=p(B);return '#'+a.map((v,i)=>Math.round(v+(b[i]-v)*t).toString(16).padStart(2,'0')).join('')};
 for(let n=1;n<=N;n++){const r=c*Math.sqrt(n),th=n*GA,t=n/N;g.globalAlpha=0.25+0.6*t;g.fillStyle=t<.5?mix('#3A3733','#2C6D3F',t*2):mix('#2C6D3F','#7CC090',(t-.5)/.5);g.beginPath();g.arc(cx+r*Math.cos(th),cy+r*Math.sin(th),c*(0.4+0.14*Math.sqrt(t)),0,7);g.fill();}</script></body></html>
