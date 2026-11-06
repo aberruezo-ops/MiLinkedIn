@@ -1,6 +1,6 @@
 # Cómo leer este documento
 
-Este documento describe el método Synergós en su versión 1.2. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
+Este documento describe el método Synergós en su versión 1.3. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
 
 Hay tres cosas que conviene saber antes de empezar.
 
@@ -38,7 +38,7 @@ Lo que sí está documentado, y con bastante solidez, son los motivos por los qu
 | Los pilotos de IA no llegan al proceso real | Varios estudios de mercado de 2025, pendientes de verificar en fuente primaria | La IA se planifica en todas las fases; la autonomía sube por puertas |
 | Falta urgencia y una coalición con poder real | Kotter 1995 | Obligaciones explícitas del patrocinador |
 | Se escala lo que nadie ha probado | Ries 2011; Cooper 1990 | Piloto con criterios fijados antes y puerta que decide |
-| Se mide tarde o se mide lo que no importa | Forsgren, Humble y Kim 2018; ley de Goodhart | Línea base en el diagnóstico; indicadores en pareja; el delta |
+| Se mide tarde o se mide lo que no importa | Forsgren, Humble y Kim 2018; Goodhart 1975 y Strathern 1997 | Línea base en el diagnóstico; indicadores en pareja; el delta |
 | Los costes llegan antes que los beneficios y el programa se cancela en el valle | Brynjolfsson, Rock y Syverson 2021 | Modelo económico pactado que prevé la curva J |
 | La gente no cambia porque sus incentivos siguen igual o equivocarse sale caro | Edmondson 2018 | Roles, carreras e incentivos rediseñados; espacio para fallar en el piloto |
 | Se corrigen errores sin cuestionar los supuestos | Argyris y Schön 1978 | Supervisión de doble bucle, con calendario |
@@ -72,4 +72,4 @@ Un método se entiende mejor cuando se dice también lo que no pretende ser.
 
 **No es una garantía.** Ningún método lo es. Lo que Synergós promete es más modesto y, creo, más útil: que las decisiones importantes se tomen sabiendo lo que se arriesga, y que el programa tenga formas baratas de equivocarse y de dar marcha atrás.
 
-**No es un producto cerrado.** Está en la versión 1.0 y tiene preguntas abiertas que reconozco en cada capítulo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.
+**No es un producto cerrado.** Va por la versión 1.3 y tiene preguntas abiertas que reconozco en cada capítulo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.

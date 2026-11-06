@@ -54,9 +54,9 @@ Colaborar no es reunirse más. En muchas organizaciones el problema es el contra
 
 Amy Edmondson propuso en 2012 el término *teaming* para describir algo que ocurre cada vez más: equipos que se forman y se deshacen alrededor de un problema, con personas que no han trabajado juntas antes. Lo que hace que funcionen no es la estabilidad del grupo, sino prácticas concretas: hablar claro, colaborar, experimentar y reflexionar sobre lo que pasa.
 
-Anita Woolley y sus coautores publicaron en 2010 en *Science* un hallazgo llamativo: los grupos tienen una especie de inteligencia colectiva, medible, que predice su rendimiento en tareas muy distintas. No dependía mucho de la inteligencia individual de sus miembros. Dependía de la sensibilidad social del grupo, de que los turnos de palabra estuvieran repartidos y, en su muestra, de la proporción de mujeres, que estaba asociada a la sensibilidad social.
+Anita Woolley y sus coautores publicaron en 2010 en *Science* un hallazgo llamativo: los grupos tienen una especie de inteligencia colectiva, medible, que predice su rendimiento en tareas muy distintas. No dependía mucho de la inteligencia individual de sus miembros. Dependía de la sensibilidad social del grupo, de que los turnos de palabra estuvieran repartidos y, en su muestra, de la proporción de mujeres, que estaba asociada a la sensibilidad social. Estudios posteriores no siempre han replicado el hallazgo, así que lo tomo como una pista y no como una ley.
 
-Rob Cross y Andrew Parker mostraron en 2004 que el trabajo real circula por redes informales que el organigrama no refleja. Con un análisis de redes sencillo (a quién acudes para resolver esto) aparecen los conectores centrales, las personas puente entre grupos y las que están aisladas. Morten Hansen añadió en 2009 el contrapunto: la mala colaboración es peor que no colaborar, porque cuesta tiempo y no produce. Recomendaba colaborar con disciplina, solo donde el valor esperado supera el coste.
+Rob Cross y Andrew Parker mostraron en 2004 que el trabajo real circula por redes informales que el organigrama no refleja. Con un análisis de redes sencillo (a quién acudes para resolver esto) aparecen los conectores centrales, las personas que hacen de puente entre grupos, los intermediarios de información y las personas periféricas, que a veces lo son por elección y aportan desde ahí. Morten Hansen añadió en 2009 el contrapunto: la mala colaboración es peor que no colaborar, porque cuesta tiempo y no produce. Recomendaba colaborar con disciplina, solo donde el valor esperado supera el coste.
 
 Thomas Allen había mostrado ya en 1977 que la probabilidad de que dos ingenieros se comuniquen cae de forma brusca con la distancia física entre sus mesas. Las herramientas digitales han cambiado la forma de esa curva, pero no su existencia: lo que está lejos, en cualquier sentido, se habla menos.
 
@@ -92,7 +92,7 @@ El método no trata el conocimiento como un repositorio, sino como un ciclo con 
 
 Ikujiro Nonaka e Hirotaka Takeuchi describieron en 1995 cómo se crea conocimiento en una organización mediante cuatro conversiones: de tácito a tácito, compartiendo experiencia (socialización); de tácito a explícito, poniéndolo en palabras y modelos (exteriorización); de explícito a explícito, combinando lo escrito (combinación); y de explícito a tácito, aprendiéndolo al usarlo (interiorización). El ciclo no se recorre una vez; da vueltas, y en cada vuelta el conocimiento crece.
 
-Thomas Davenport y Laurence Prusak insistieron en 1998 en algo más prosaico: el conocimiento se mueve en un mercado, con compradores, vendedores y precios. La gente comparte lo que sabe cuando espera algo a cambio (reconocimiento, reciprocidad, reputación) y lo guarda cuando compartirlo le cuesta. Un programa que pide compartir sin cambiar ese mercado se queda en un repositorio vacío.
+Thomas Davenport y Laurence Prusak insistieron en 1998 en algo más prosaico: el conocimiento se mueve en un mercado, con compradores, vendedores e intermediarios. Los precios se pagan en reciprocidad, en reputación y a veces en altruismo, y sin confianza el mercado no funciona. La gente comparte lo que sabe cuando espera algo a cambio y lo guarda cuando compartirlo le cuesta. Un programa que pide compartir sin cambiar ese mercado se queda en un repositorio vacío.
 
 ### Cómo se hace, momento a momento
 
@@ -134,9 +134,9 @@ El capítulo 15 planteó una pregunta incómoda: si la tarea que formaba a los n
 
 ### Cómo se aprende un oficio
 
-Jean Lave y Etienne Wenger estudiaron en 1991 cómo aprenden los aprendices en oficios muy distintos: sastres, comadronas, contramaestres, carniceros. Encontraron un patrón al que llamaron participación periférica legítima. El aprendiz empieza haciendo tareas reales pero periféricas, de bajo riesgo, dentro de la comunidad de quienes saben. Observa, prueba, se equivoca en lo pequeño y va pasando al centro. Lo que aprende no es solo la técnica; es cómo se ve el mundo desde el oficio.
+Jean Lave y Etienne Wenger estudiaron en 1991 cómo aprenden los aprendices en comunidades muy distintas: comadronas mayas de Yucatán, sastres de Liberia, especialistas en navegación de la Marina estadounidense, carniceros de supermercado y miembros de Alcohólicos Anónimos. Encontraron un patrón al que llamaron participación periférica legítima. El aprendiz empieza haciendo tareas reales pero periféricas, de bajo riesgo, dentro de la comunidad de quienes saben. Observa, prueba, se equivoca en lo pequeño y va pasando al centro. Lo que aprende no es solo la técnica; es cómo se ve el mundo desde el oficio.
 
-Hubert y Stuart Dreyfus propusieron en 1986 un modelo de cinco etapas para el paso de novato a experto: novato, principiante avanzado, competente, eficiente y experto. Lo que cambia en el camino es la relación con las reglas. El novato sigue reglas sin contexto. El experto ya no las sigue: ve la situación y sabe qué hacer, muchas veces sin poder explicar por qué. Es Polanyi otra vez.
+Hubert y Stuart Dreyfus propusieron en 1986 un modelo de cinco etapas para el paso de novato a experto: novato, principiante avanzado, competente, diestro y experto. Lo que cambia en el camino es la relación con las reglas. El novato sigue reglas sin contexto. El experto ya no las sigue: ve la situación y sabe qué hacer, muchas veces sin poder explicar por qué. Es Polanyi otra vez.
 
 La consecuencia para la IA es directa. Las tareas periféricas, las de bajo riesgo en las que el novato aprendía, son justo las que la IA hace mejor y más barato. Si la IA se las queda, el novato no tiene por dónde entrar. Y sin novatos que pasen por las etapas, dentro de diez años no habrá expertos. El estudio de Brynjolfsson, Chandar y Chen de 2025 sobre el empleo joven en las ocupaciones expuestas es la primera señal de que esto ya está pasando.
 
@@ -146,7 +146,7 @@ Ninguno está probado lo bastante, y por eso el método los presenta como opcion
 
 1. **Aprender corrigiendo.** El novato revisa lo que hace la IA en lugar de hacerlo desde cero. Aprende viendo muchos casos y razonando por qué la propuesta es buena o mala. Riesgo: se aprende a validar, no a hacer.
 2. **Tareas reservadas para formar.** Algunas tareas se dejan a propósito en manos de los novatos, aunque la IA las haría mejor. Es un coste consciente, como el de una escuela.
-3. **La IA como tutora.** El novato hace la tarea y la IA le explica, le pregunta y le corrige. Brynjolfsson, Li y Raymond observaron que la IA transmitía parte del saber de los mejores a los que empezaban. Riesgo: que la tutora transmita también sus errores.
+3. **La IA como tutora.** El novato hace la tarea y la IA le explica, le pregunta y le corrige. Brynjolfsson, Li y Raymond interpretan que la IA transmitía parte del saber de los mejores a los que empezaban. Riesgo: que la tutora transmita también sus errores.
 4. **Tiempo reconocido para enseñar.** Los veteranos tienen horas asignadas para acompañar a los nuevos, y esas horas cuentan en su evaluación. No como favor.
 5. **Rotación por el caso difícil.** Los novatos participan, acompañados, en los casos fuera de patrón que la IA no resuelve. Es donde más se aprende y donde menos riesgo hay de que la IA ocupe el sitio.
 

@@ -80,31 +80,33 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Brynjolfsson, E. (2022).** "The Turing Trap: The Promise and Peril of Human-Like Artificial Intelligence". *Daedalus.* La balanza inclinada hacia sustituir. No dice que automatizar sea malo.
 
-**Brynjolfsson, E., Chandar, B. y Chen, R. (2025).** "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence". Stanford Digital Economy Lab. Menos empleo joven en las ocupaciones más expuestas, donde la IA automatiza. Datos de Estados Unidos; los autores matizan la causalidad. Verificada por fuentes secundarias.
+**Brynjolfsson, E., Chandar, B. y Chen, R. (2025).** "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence". Stanford Digital Economy Lab, agosto de 2025, revisado en noviembre de 2025 y en agosto de 2026. Brecha relativa del 13 %, el 16 % y el 19 % para quienes tienen entre 22 y 25 años, sobre todo por menos contratación. Descriptivo, no causal. Menos empleo joven en las ocupaciones más expuestas, donde la IA automatiza. Datos de Estados Unidos; los autores matizan la causalidad. Verificada por fuentes secundarias.
 
-**Brynjolfsson, E., Li, D. y Raymond, L. (2023).** "Generative AI at Work". Documento de trabajo del NBER. Mayor mejora para quien empieza, en un centro de atención al cliente.
+**Brynjolfsson, E., Li, D. y Raymond, L. (2025).** "Generative AI at Work". *Quarterly Journal of Economics*, 140(2), 889-942 (versión previa del NBER, 2023). Unos cinco mil agentes de atención al cliente: un 15 % más de casos resueltos por hora de media y en torno a un 30 % para los menos expertos. Que la IA transmita el saber de los mejores es interpretación de los autores.
 
 **Brynjolfsson, E., Rock, D. y Syverson, C. (2021).** "The Productivity J-Curve". *American Economic Journal: Macroeconomics.* La curva J.
 
 **Christensen, C. y otros (2016).** *Competing Against Luck.* El trabajo que el cliente intenta resolver.
 
-**Commonwealth Bank of Australia (2025).** Reversión de cuarenta y cinco despidos atribuidos a un bot de voz. Fuentes: ABC News Australia y otros medios. No se ha confirmado si el bot sigue en uso.
+**Commonwealth Bank of Australia (2025).** En julio declaró prescindibles cuarenta y cinco puestos atribuyéndolo a un bot de voz; el 21 de agosto revirtió la decisión y pidió disculpas. Fuentes: ABC News Australia y otros medios. No se ha confirmado si el bot sigue en uso.
 
 **Cooper, R. (1990).** "Stage-Gate Systems: A New Tool for Managing New Products". *Business Horizons.* Las puertas con criterios.
 
 **Dell'Acqua, F. y otros (2023).** "Navigating the Jagged Technological Frontier". Documento de trabajo de Harvard Business School. La frontera dentada; centauros y cíborgs. Las categorías delegar y reservar son una extensión de Synergós, no del estudio.
 
-**Douady, S. y Couder, Y. (1992).** "Phyllotaxis as a Physical Self-Organized Growth Process". *Physical Review Letters.* El patrón del girasol emerge de una regla local. No dice nada sobre organizaciones.
+**Douady, S. y Couder, Y. (1992).** "Phyllotaxis as a Physical Self-Organized Growth Process". *Physical Review Letters*, 68(13), 2098-2101. Gotas de ferrofluido sobre aceite en un campo magnético: el patrón del girasol emerge de una regla local. No dice nada sobre organizaciones.
 
-**Douglas, M. (1966).** *Purity and Danger.* La suciedad como materia fuera de su sitio. Verificada por fuentes secundarias.
+**Douglas, M. (1966).** *Purity and Danger.* La suciedad como materia fuera de su sitio, una definición antigua que Douglas recoge y desarrolla, no que acuña.
 
-**Edmondson, A. (1999).** "Psychological Safety and Learning Behavior in Work Teams". *Administrative Science Quarterly.* **Edmondson, A. (2018).** *The Fearless Organization.* La seguridad psicológica.
+**Edmondson, A. (1999).** "Psychological Safety and Learning Behavior in Work Teams". *Administrative Science Quarterly.* **Edmondson, A. (2018).** *The Fearless Organization.* Wiley (salió a finales de 2018 con fecha de copyright de 2019). La seguridad psicológica.
 
 **Forsgren, N., Humble, J. y Kim, G. (2018).** *Accelerate.* Prácticas de entrega y rendimiento de los equipos tecnológicos.
 
 **Goffman, E. (1959).** *The Presentation of Self in Everyday Life.* **Goffman, E. (1963).** *Stigma.* Región anterior y posterior; hacerse pasar por normal. Verificadas por fuentes secundarias.
 
-**Goldratt, E. (1984).** *The Goal.* La restricción.
+**Goldratt, E. y Cox, J. (1984).** *The Goal.* North River Press. La restricción.
+
+**Goodhart, C. (1975).** Formulación original, referida a la política monetaria. La versión que se cita hoy es de **Strathern, M. (1997).** "'Improving ratings': audit in the British University system". *European Review*, 5(3), p. 308.
 
 **Heifetz, R. y Linsky, M. (2002).** *Leadership on the Line.* Problemas técnicos y adaptativos.
 
@@ -112,7 +114,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Hughes, M. (2011).** "Do 70 Per Cent of All Organizational Change Initiatives Really Fail?". *Journal of Change Management.* La cifra del setenta por ciento no tiene base empírica.
 
-**Klarna (2025).** Marcha atrás en la sustitución por IA de la atención al cliente, según declaraciones de su consejero delegado recogidas por varios medios. Las cifras de 2024 son de la propia empresa.
+**Klarna (2024 y 2025).** En febrero de 2024, el asistente hacía el trabajo equivalente a setecientos agentes a tiempo completo, buena parte de proveedores externos (no fueron setecientos despidos). En mayo de 2025, su consejero delegado admitió que se habían fijado demasiado en el coste y que la calidad había bajado, y anunció un piloto para volver a incorporar personas. Cifras de la propia empresa y declaraciones recogidas por varios medios.
 
 **Kotter, J. (1995).** "Leading Change: Why Transformation Efforts Fail". *Harvard Business Review.* Las causas clásicas del fracaso.
 
@@ -122,9 +124,9 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Nonaka, I. y Takeuchi, H. (1995).** *The Knowledge-Creating Company.* La conversión entre conocimiento tácito y explícito.
 
-**Polanyi, M. (1966).** *The Tacit Dimension.* "Sabemos más de lo que podemos decir". No habla de organizaciones ni de tecnología.
+**Polanyi, M. (1966).** *The Tacit Dimension.* "Podemos saber más de lo que podemos decir" (p. 4). No habla de organizaciones ni de tecnología.
 
-**Reglamento (UE) 2024/1689** del Parlamento Europeo y del Consejo, de inteligencia artificial. Aplicación escalonada; comprobar el calendario vigente antes de usarlo en una decisión.
+**Reglamento (UE) 2024/1689** del Parlamento Europeo y del Consejo, de inteligencia artificial. Aplicación escalonada, modificada por el **Reglamento (UE) 2026/1744** (ómnibus digital, en vigor desde el 27 de julio de 2026): prohibiciones desde el 2 de febrero de 2025; modelos de uso general desde el 2 de agosto de 2025; alto riesgo del anexo III, incluido el empleo, desde el 2 de diciembre de 2027; anexo I desde el 2 de agosto de 2028. Comprobar el calendario vigente antes de usarlo en una decisión.
 
 **Ries, E. (2011).** *The Lean Startup.* Probar en pequeño antes de escalar.
 
@@ -134,9 +136,9 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Scott, J. C. (1998).** *Seeing Like a State.* Legibilidad y *metis*. Algunos de sus casos han sido discutidos por historiadores. Verificada por fuentes secundarias.
 
-**Trist, E. y Bamforth, K. (1951).** "Some Social and Psychological Consequences of the Longwall Method of Coal-Getting". *Human Relations.* El origen de los sistemas sociotécnicos. La expresión "optimización conjunta" es una glosa posterior.
+**Trist, E. y Bamforth, K. (1951).** "Some Social and Psychological Consequences of the Longwall Method of Coal-Getting". *Human Relations*, 4(1), 3-38. El origen de los sistemas sociotécnicos. La mecanización del frente largo no trajo la mejora de productividad esperada: rompió los pequeños equipos autónomos y trajo baja moral, absentismo y culpas cruzadas entre turnos. La expresión "optimización conjunta" es una glosa posterior.
 
-**Turner, V. (1969).** *The Ritual Process.* La *communitas*. Verificada por reseñas.
+**Turner, V. (1969).** *The Ritual Process.* La *communitas*. La idea de la fase liminal la toma de **Van Gennep, A. (1909).** *Les rites de passage.*
 
 **Vogel, H. (1979).** "A Better Way to Construct the Sunflower Head". *Mathematical Biosciences.* El modelo del girasol.
 
@@ -161,7 +163,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Bainbridge, L. (1983).** "Ironies of Automation". *Automatica.* Cuanto más se automatiza, más difícil y más importante es la intervención humana.
 
-**Bloom, N., Sadun, R. y Van Reenen, J. (2012).** "Americans Do IT Better". *American Economic Review.* Las prácticas de gestión explican parte del rendimiento de la tecnología.
+**Bloom, N., Sadun, R. y Van Reenen, J. (2012).** "Americans Do IT Better: US Multinationals and the Productivity Miracle". *American Economic Review*, 102(1), 167-201. En establecimientos situados en Europa, los de multinacionales estadounidenses sacan más de la tecnología, sobre todo por sus prácticas de gestión de personas.
 
 **Bresnahan, T., Brynjolfsson, E. y Hitt, L. (2002).** "Information Technology, Workplace Organization, and the Demand for Skilled Labor". *Quarterly Journal of Economics.* Tecnología y cambio organizativo son complementarios.
 
@@ -179,7 +181,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Davenport, T. y Prusak, L. (1998).** *Working Knowledge.* El mercado del conocimiento en la organización.
 
-**Deci, E. y Ryan, R. (2000).** Teoría de la autodeterminación: autonomía, competencia y vínculo.
+**Ryan, R. y Deci, E. (2000).** "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being". *American Psychologist*, 55(1), 68-78. Autonomía, competencia y vínculo.
 
 **Dreyfus, H. y Dreyfus, S. (1986).** *Mind over Machine.* Cinco etapas de novato a experto.
 
@@ -187,7 +189,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Hackman, J. R. (2002).** *Leading Teams.* Las cinco condiciones de un equipo eficaz.
 
-**Hackman, J. R. y Oldham, G. (1976).** "Motivation through the Design of Work". *Organizational Behavior and Human Performance.* Las cinco características del puesto.
+**Hackman, J. R. y Oldham, G. (1976).** "Motivation through the Design of Work: Test of a Theory". *Organizational Behavior and Human Performance*, 16(2), 250-279. Las cinco características del puesto.
 
 **Hansen, M. (2009).** *Collaboration.* La mala colaboración y cómo evitarla.
 
@@ -203,7 +205,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Noy, S. y Zhang, W. (2023).** "Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence". *Science.* Más mejora para quien empezaba peor.
 
-**Parasuraman, R. y Riley, V. (1997).** "Humans and Automation: Use, Misuse, Disuse, Abuse". *Human Factors.* El sesgo de automatización.
+**Parasuraman, R. y Riley, V. (1997).** "Humans and Automation: Use, Misuse, Disuse, Abuse". *Human Factors*, 39(2), 230-253. Uso, mal uso (el sesgo de automatización), desuso y abuso.
 
 **Reinertsen, D. (2009).** *The Principles of Product Development Flow.* El coste del retraso y el límite de trabajo en curso.
 
@@ -215,24 +217,24 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Wenger, E. (1998).** *Communities of Practice.*
 
-**Woolley, A. y otros (2010).** "Evidence for a Collective Intelligence Factor in the Performance of Human Groups". *Science.*
+**Woolley, A. y otros (2010).** "Evidence for a Collective Intelligence Factor in the Performance of Human Groups". *Science*, 330(6004), 686-688. Hay estudios posteriores que no lo replican del todo.
 
 **Wrzesniewski, A. y Dutton, J. (2001).** "Crafting a Job". *Academy of Management Review.*
 
 
 **Fuentes añadidas en la versión 1.2** (las tres miradas). Mismo criterio: pendientes de ficha propia antes de citarlas en público.
 
-**Bovens, M. y Zouridis, S. (2002).** "From Street-Level to System-Level Bureaucracies". *Public Administration Review.* Cuando la discrecionalidad pasa a los sistemas.
+**Bovens, M. y Zouridis, S. (2002).** "From Street-Level to System-Level Bureaucracies". *Public Administration Review*, 62(2), 174-184. Cuando la discrecionalidad pasa a los sistemas.
 
 **Flyvbjerg, B. y Gardner, D. (2023).** *How Big Things Get Done.* La previsión por clase de referencia.
 
-**Floyd, S. y Wooldridge, B. (1997).** Los papeles estratégicos de los mandos intermedios.
+**Floyd, S. y Wooldridge, B. (1994).** "Dinosaurs or Dynamos? Recognizing Middle Management's Strategic Role". *Academy of Management Executive*, 8(4), 47-57. La tipología de los cuatro papeles procede de su artículo de 1992 en *Strategic Management Journal*.
 
-**Galbraith, J.** El modelo de la estrella: estrategia, estructura, procesos, recompensas y personas.
+**Galbraith, J. (1995).** *Designing Organizations.* Jossey-Bass (ed. revisada en 2002). El modelo de la estrella: estrategia, estructura, procesos, recompensas y personas.
 
 **Huy, Q. (2001).** "In Praise of Middle Managers". *Harvard Business Review.*
 
-**Kahneman, D. y Tversky, A. (1979).** La falacia de la planificación.
+**Kahneman, D. y Tversky, A. (1979).** "Intuitive Prediction: Biases and Corrective Procedures". *TIMS Studies in Management Science*, 12, 313-327. La falacia de la planificación y la corrección de mirar desde fuera.
 
 **Kellogg, K., Valentine, M. y Christin, A. (2020).** "Algorithms at Work: The New Contested Terrain of Control". *Academy of Management Annals.*
 
@@ -244,9 +246,9 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Stickdorn, M. y otros (2018).** *This Is Service Design Doing.* Diseñar desde el recorrido de quien recibe el servicio.
 
-**Tarafdar, M. y otros (2007).** El tecnoestrés en el trabajo. *Journal of Management Information Systems.*
+**Tarafdar, M. y otros (2007).** "The Impact of Technostress on Role Stress and Productivity". *Journal of Management Information Systems*, 24(1), 301-328. Tecnosobrecarga, tecnoinvasión, tecnocomplejidad, tecnoinseguridad y tecnoincertidumbre.
 
-**Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios. Su aplicación concreta debe comprobarse con asesoría jurídica.
+**Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios (Ley 11/2023, aplicable desde el 28 de junio de 2025); Directiva (UE) 2024/2831, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Su aplicación concreta debe comprobarse con asesoría jurídica.
 
 **Pendientes de ficha propia y no usadas como argumento:** los estudios de mercado de 2025 sobre pilotos de IA que no llegan a producción.
 
@@ -259,3 +261,4 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 | 1.0 | 6 de noviembre de 2026 | Desarrollo completo: escala de autonomía propuesta; madurez por elemento; consentimiento en el mapa; lo que no encaja en el patrón; críticas al método; preguntas abiertas con y sin solución; reglas para cambiar el método |
 | 1.1 | 6 de noviembre de 2026 | Nueva Parte V, el detalle: catorce módulos sobre lo que aporta una persona, el rediseño del trabajo sin sustituir, la IA (cuándo sí, cuándo no y cuándo quitarla), el equipo, la colaboración, la gestión del conocimiento, aprender el oficio, motivación e incentivos, impacto en negocio, datos, riesgo y regulación, comunicación y transición, proveedores y sector público, y cartera; treinta y cuatro fuentes nuevas; la dependencia silenciosa como pieza nueva |
 | 1.2 | 6 de noviembre de 2026 | Las tres miradas: revisión desde quien dirige, quien hace el trabajo y quien recibe el servicio; ocho módulos nuevos (mandos intermedios, cultura y estructura, plazos realistas, trabajadores ante los algoritmos, cuando un puesto desaparece, inclusión, quien recibe el servicio, huella material) y lo que añaden a las puertas |
+| 1.3 | 6 de noviembre de 2026 | Verificación de fuentes: corregidos Trist y Bamforth, Klarna, Commonwealth Bank, Brynjolfsson, Li y Raymond, el estudio de los canarios, Bloom y otros, Goodhart y Strathern, Lave y Wenger, Dreyfus, Douady y Couder, Polanyi, Douglas, Turner, Ryan y Deci, Cross y Parker, Parasuraman y Riley; calendario del Reglamento de IA tras el Reglamento (UE) 2026/1744; referencias completas |

@@ -30,7 +30,7 @@ En la práctica, la interacción tiene cinco formas: visitas al puesto donde se 
 
 ### Quién enseña lo que la tarea enseñaba
 
-Esta pieza es nueva en Synergós y viene de un dato incómodo. Erik Brynjolfsson, Bharat Chandar y Ruyu Chen publicaron en 2025, con datos de nóminas de Estados Unidos, que el empleo de los trabajadores más jóvenes en las ocupaciones más expuestas a la IA está claramente por debajo de lo que habría estado sin ella, y que el efecto se concentra donde la IA automatiza, no donde amplía. Los autores matizan la causalidad y son datos de otro país, pero la señal es clara.
+Esta pieza es nueva en Synergós y viene de un dato incómodo. Erik Brynjolfsson, Bharat Chandar y Ruyu Chen publicaron en 2025, con datos de nóminas de Estados Unidos, que el empleo de los trabajadores más jóvenes en las ocupaciones más expuestas a la IA está claramente por debajo de lo que habría estado sin ella, y que el efecto se concentra donde la IA automatiza, no donde amplía. Para quienes tienen entre 22 y 25 años, la brecha relativa era del 13 % en la primera versión del estudio (agosto de 2025) y del 19 % en la revisión de agosto de 2026, y se explica sobre todo porque se contrata menos. Son datos descriptivos, no prueban la causa y son de otro país, pero la señal es clara.
 
 Lo que ese dato pone sobre la mesa es una pregunta que casi ningún programa se hace. Las tareas sencillas que desaparecen eran, muchas veces, las que formaban a los nuevos. El junior aprendía el oficio haciendo lo que ahora hace la IA. Si la tarea desaparece, alguien tiene que decidir quién enseña ahora lo que esa tarea enseñaba. El método lo exige en la cuarta pregunta de la puerta.
 
@@ -38,7 +38,7 @@ Lo que ese dato pone sobre la mesa es una pregunta que casi ningún programa se 
 
 ### Lo que no encaja en el patrón
 
-En la elaboración del método he tenido que mirar algo que no estaba en el documento original. Toda organización produce una normalidad: un procedimiento, un perfil, un caso tipo. La antropóloga Mary Douglas definió en 1966 la suciedad como materia fuera de su sitio: lo que sobra cuando alguien ordena y clasifica. Los procesos también producen su propia suciedad. Las excepciones, los casos raros y las personas que los resuelven de una manera que nadie ha escrito.
+En la elaboración del método he tenido que mirar algo que no estaba en el documento original. Toda organización produce una normalidad: un procedimiento, un perfil, un caso tipo. La antropóloga Mary Douglas retomó en 1966 una vieja definición de la suciedad, materia fuera de su sitio, y la convirtió en una herramienta para pensar el orden: la suciedad es lo que sobra cuando alguien ordena y clasifica. Los procesos también producen su propia suciedad. Las excepciones, los casos raros y las personas que los resuelven de una manera que nadie ha escrito.
 
 Erving Goffman describió en 1959 la diferencia entre la región donde actuamos para un público y la región donde descansamos de la actuación, y en 1963 la estrategia de quien esconde lo que le señala para que el grupo le acepte. En el trabajo ocurre en pequeño: el procedimiento es la fachada y el trabajo real sucede detrás. Quien trabaja fuera del patrón aprende a no enseñar cómo lo hace. Por eso hay tanto conocimiento que nadie escribió.
 
@@ -92,7 +92,7 @@ Fabrizio Dell'Acqua y sus coautores publicaron en 2023 un experimento con consul
 
 Synergós usa esa idea para clasificar cada tarea en cuatro categorías: **delegar** (la IA la hace y la persona revisa por muestreo), **centauro** (la tarea se divide y cada parte la hace quien mejor la hace), **cíborg** (persona y máquina trabajan juntas en cada paso) y **reservar** (la tarea se queda en la persona, porque la IA empeora el resultado o porque la tarea forma a alguien). Las categorías de centauro y cíborg vienen del estudio; las de delegar y reservar son una extensión del método.
 
-Brynjolfsson, Danielle Li y Lindsey Raymond mostraron en 2023, en un centro de atención al cliente, que la ayuda de la IA generativa era mayor para quien empezaba que para los más expertos. Es una buena noticia y un aviso: la IA puede acelerar el aprendizaje del nuevo y, a la vez, quitarle la oportunidad de aprender por su cuenta. Vuelve a la pregunta de quién enseña.
+Brynjolfsson, Danielle Li y Lindsey Raymond estudiaron a unos cinco mil agentes de un centro de atención al cliente (el trabajo salió en 2023 y se publicó en 2025): con un asistente de IA generativa resolvían de media un 15 % más de casos por hora, en torno a un 30 % más quienes tenían menos experiencia, y los más expertos apenas mejoraban. Es una buena noticia y un aviso: la IA puede acelerar el aprendizaje del nuevo y, a la vez, quitarle la oportunidad de aprender por su cuenta. Vuelve a la pregunta de quién enseña.
 
 ### La escala de autonomía
 
@@ -117,7 +117,7 @@ El entorno es necesario, pero no suficiente. Dónde aplicar la IA lo decide el d
 
 ### Las demás tecnologías
 
-Plataforma común antes que soluciones a medida; pruebas y despliegues automatizados; arquitectura modular; y una salida pactada con cada proveedor. Nicole Forsgren, Jez Humble y Gene Kim documentaron en 2018 la relación entre esas prácticas y el rendimiento de los equipos tecnológicos. Jeanne Ross, Cynthia Beath y Martin Mocker describieron en 2019 cómo las organizaciones que se diseñan para lo digital construyen plataformas reutilizables en lugar de proyectos aislados.
+Plataforma común antes que soluciones a medida; pruebas y despliegues automatizados; arquitectura modular; y una salida pactada con cada proveedor. Nicole Forsgren, Jez Humble y Gene Kim documentaron en 2018 la relación entre esas prácticas y el rendimiento de entrega de software, que a su vez se asocia al rendimiento de toda la organización. Jeanne Ross, Cynthia Beath y Martin Mocker describieron en 2019 cómo las organizaciones que se diseñan para lo digital construyen plataformas reutilizables en lugar de proyectos aislados.
 
 ### El radar
 

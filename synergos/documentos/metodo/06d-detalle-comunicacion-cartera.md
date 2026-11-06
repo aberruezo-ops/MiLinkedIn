@@ -4,7 +4,7 @@
 
 William Bridges propuso en 1991 una distinción que cambia la manera de comunicar una transformación. El cambio es lo que ocurre fuera: una herramienta nueva, una estructura distinta, un proceso rediseñado. La transición es lo que ocurre dentro de las personas mientras se adaptan. Y la transición no empieza con lo nuevo, sino con un final: lo primero que hace alguien ante un cambio es perder algo (una forma de trabajar, una identidad, una relación, una seguridad). Después viene una zona neutra, incómoda, en la que lo viejo ya no sirve y lo nuevo todavía no funciona. Solo después llega el nuevo comienzo.
 
-Victor Turner, desde la antropología, había descrito en 1969 ese mismo espacio intermedio en los ritos de paso: la fase liminal, en la que alguien ya no es lo que era y todavía no es lo que será. Y en ella, el vínculo entre quienes la atraviesan juntos, la *communitas*. El estudio de *La bola negra* que acompaña este documento desarrolla esa idea.
+Victor Turner, desde la antropología, había descrito en 1969 ese mismo espacio intermedio en los ritos de paso, a partir de una idea de Arnold van Gennep (1909): la fase liminal, en la que alguien ya no es lo que era y todavía no es lo que será. Y en ella, el vínculo entre quienes la atraviesan juntos, la *communitas*. El estudio de *La bola negra* que acompaña este documento desarrolla esa idea.
 
 ### Lo que el método pide
 

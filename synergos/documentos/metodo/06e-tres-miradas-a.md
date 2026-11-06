@@ -67,7 +67,7 @@ Jay Galbraith propuso un modelo, conocido como el modelo de la estrella, que sig
 
 ### La falacia de la planificación
 
-Daniel Kahneman y Amos Tversky describieron en 1979 lo que llamaron la falacia de la planificación: tendemos a estimar la duración y el coste de un proyecto mirando el proyecto desde dentro, con sus planes y sus intenciones, e ignoramos lo que les pasó a proyectos parecidos. El resultado es que casi todo tarda más y cuesta más de lo previsto. Bent Flyvbjerg ha dedicado décadas a estudiar grandes proyectos y propone, con Dan Gardner en un libro de 2023, la corrección más eficaz que conoce: la previsión por clase de referencia. En lugar de estimar desde dentro, se busca cómo les fue a proyectos de la misma clase y se parte de esa distribución. Su lema resume bien la actitud: pensar despacio y actuar rápido.
+Daniel Kahneman y Amos Tversky describieron en 1979, en un trabajo sobre la predicción intuitiva, lo que llamaron la falacia de la planificación: tendemos a estimar la duración y el coste de un proyecto mirando el proyecto desde dentro, con sus planes y sus intenciones, e ignoramos lo que les pasó a proyectos parecidos. El resultado es que casi todo tarda más y cuesta más de lo previsto. Bent Flyvbjerg ha dedicado décadas a estudiar grandes proyectos y propone, con Dan Gardner en un libro de 2023, la corrección más eficaz que conoce: la previsión por clase de referencia. En lugar de estimar desde dentro, se busca cómo les fue a proyectos de la misma clase y se parte de esa distribución. Su lema resume bien la actitud: pensar despacio y actuar rápido.
 
 ### Órdenes de magnitud
 
@@ -103,7 +103,7 @@ Hay tres piezas que cualquier programa en España debe conocer y que el método 
 
 **El derecho de información sobre algoritmos.** Desde 2021, el Estatuto de los Trabajadores reconoce a la representación legal de las personas trabajadoras el derecho a ser informada de los parámetros, reglas e instrucciones en los que se basan los algoritmos o sistemas de IA que afectan a decisiones sobre las condiciones de trabajo, el acceso al empleo y su mantenimiento.
 
-**El Reglamento europeo de IA.** Clasifica como de alto riesgo los sistemas usados en el empleo y la gestión de trabajadores (selección, asignación de tareas, evaluación, promoción o despido), con obligaciones exigentes, y prohíbe el reconocimiento de emociones en el lugar de trabajo, salvo excepciones médicas o de seguridad.
+**El Reglamento europeo de IA.** Clasifica como de alto riesgo los sistemas usados en el empleo y la gestión de trabajadores (selección, asignación de tareas, evaluación, promoción o despido), con obligaciones exigentes que, tras el aplazamiento de 2026, se aplicarán desde el 2 de diciembre de 2027. Y prohíbe desde febrero de 2025 el reconocimiento de emociones en el lugar de trabajo, salvo por razones médicas o de seguridad.
 
 **Las decisiones automatizadas.** El Reglamento general de protección de datos reconoce el derecho a no ser objeto de una decisión basada únicamente en un tratamiento automatizado que produzca efectos jurídicos o afecte de forma significativa, con excepciones y garantías.
 

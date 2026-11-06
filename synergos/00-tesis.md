@@ -19,9 +19,9 @@ Porque explica el fracaso más documentado de la adopción de IA. Los pilotos no
 
 ### En qué se apoya
 
-- **Sistemas sociotécnicos (Trist y Bamforth, 1951).** El estudio de las minas de carbón británicas: la mecanización del frente largo subió la producción y destruyó la organización social del trabajo, con caída de moral y culpas cruzadas. Conclusión fundacional: el sistema técnico y el social se optimizan juntos o no se optimizan. Tiene 75 años y sigue describiendo lo que pasa con la IA.
+- **Sistemas sociotécnicos (Trist y Bamforth, 1951).** El estudio de las minas de carbón británicas: la mecanización del frente largo no trajo la mejora de productividad esperada y destruyó la organización social del trabajo, con caída de moral y culpas cruzadas. Conclusión fundacional: el sistema técnico y el social se optimizan juntos o no se optimizan. Tiene 75 años y sigue describiendo lo que pasa con la IA.
 - **Automatizar o informar (Zuboff, 1988).** La misma tecnología puede quitarle criterio al trabajador (automatizar) o dárselo (informar). No es una propiedad de la tecnología: es una decisión de diseño, y se toma antes de implantar.
-- **Conocimiento tácito (Polanyi, 1966).** "Sabemos más de lo que podemos decir." Lo que una persona experta sabe y no puede explicitar es precisamente lo que un sistema entrenado con lo explícito no captura. Si el diseño no identifica dónde está ese conocimiento, lo pierde sin darse cuenta.
+- **Conocimiento tácito (Polanyi, 1966).** "Podemos saber más de lo que podemos decir." Lo que una persona experta sabe y no puede explicitar es precisamente lo que un sistema entrenado con lo explícito no captura. Si el diseño no identifica dónde está ese conocimiento, lo pierde sin darse cuenta.
 - **La trampa de Turing (Brynjolfsson, 2022).** Hay incentivos excesivos para diseñar IA que imita y sustituye a las personas en lugar de ampliarlas. La automatización concentra poder; la ampliación crea capacidades nuevas y mantiene a las personas en posición de reclamar parte del valor. Brynjolfsson no dice que automatizar sea malo: dice que la balanza está inclinada y hay que corregirla a propósito.
 
 ### Qué cambia en Synergós
