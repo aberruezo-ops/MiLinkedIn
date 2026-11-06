@@ -8,7 +8,7 @@ const INK = '1F1D1A', GREEN = '2C6D3F', LIGHT = '7CC090', GREY = '56606A', PALE 
 const HF = 'Fraunces', BF = 'Georgia', SF = 'Arial';
 const PAGE_W = 11906, MARGIN = 1418, TEXT_W = PAGE_W - 2 * MARGIN; // A4, 2,5 cm
 const dir = __dirname;
-const imgSize = { 'fig-arquitectura.png': [1600, 960], 'fig-fases.png': [1800, 620], 'fig-girasol.png': [1200, 1000], 'logo.png': [2000, 520], 'portada-girasol.png': [1600, 1300] };
+const imgSize = { 'fig-arquitectura.png': [1600, 960], 'fig-fases.png': [1800, 620], 'fig-girasol.png': [1200, 1000], 'logo.png': [2000, 520], 'portada-girasol.png': [1600, 1300], 'portada-doc.png': [1240, 1754] };
 const cmToPx = cm => Math.round(cm / 2.54 * 96);
 
 function runs(text, base = {}) {
@@ -101,16 +101,7 @@ const files = fs.readdirSync(dir).filter(f => /^0\d-.*\.md$/.test(f)).sort();
 const body = files.flatMap(f => parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 
 // Portada
-const cover = [
-  new Paragraph({ spacing: { before: 600, after: 300 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'logo.png')), transformation: { width: cmToPx(12), height: Math.round(cmToPx(12) * 520 / 2000) } })] }),
-  new Paragraph({ spacing: { before: 200, after: 120 }, children: [new TextRun({ text: 'El método', font: HF, size: 72, color: INK })] }),
-  new Paragraph({ spacing: { before: 0, after: 120 }, children: [new TextRun({ text: 'Crecer a la vez.', font: HF, size: 40, color: GREEN })] }),
-  new Paragraph({ spacing: { before: 0, after: 400 }, children: [new TextRun({ text: 'Personas, conocimiento y tecnología avanzando en el mismo orden', font: BF, size: 26, color: GREY })] }),
-  image('portada-girasol.png', 11, AlignmentType.RIGHT),
-  new Paragraph({ spacing: { before: 200, after: 40 }, border: { top: { style: BorderStyle.SINGLE, size: 12, color: GREEN, space: 8 } }, children: [new TextRun({ text: 'Alejandro Berruezo', font: SF, size: 22, color: INK, bold: true })] }),
-  new Paragraph({ spacing: { before: 0, after: 40 }, children: [new TextRun({ text: 'Versión 1.0 · noviembre de 2026 · Documento de trabajo del autor', font: SF, size: 18, color: GREY })] }),
-  new Paragraph({ spacing: { before: 0, after: 0 }, children: [new TextRun({ text: 'Uso interno. No publicar: contiene el cómo operativo del método.', font: SF, size: 18, color: GREY, italics: true })] }),
-];
+const cover = [new Paragraph({ spacing: { before: 0, after: 0 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'portada-doc.png')), transformation: { width: 793, height: 1122 } })] })];
 const toc = [
   new Paragraph({ pageBreakBefore: true, spacing: { before: 0, after: 300 }, children: [new TextRun({ text: 'Índice', font: HF, size: 48, color: INK })] }),
   ...heads.map(([lv, t]) => new Paragraph({ spacing: { before: lv === 1 ? 200 : 40, after: lv === 1 ? 60 : 20 }, indent: { left: lv === 1 ? 0 : 360 },
@@ -134,7 +125,7 @@ const doc = new Document({
     ...numRefs.map(r => ({ reference: r, levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1.', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 540, hanging: 360 } }, run: { color: GREEN, bold: true } } }] }))
   ] },
   sections: [
-    { properties: { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN } }, titlePage: true }, children: cover },
+    { properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover },
     { properties: { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN }, pageNumbers: { start: 2 } } },
       headers: { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'Synergós · El método', font: SF, size: 15, color: GREY })] })] }) },
       footers: { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.0 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: SF, size: 16, color: GREEN })] })] }) },
