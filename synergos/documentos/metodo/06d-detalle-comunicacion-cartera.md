@@ -66,9 +66,9 @@ Casi todos los programas de transformación acumulan iniciativas. Cada área pro
 - No se ha retirado ninguna iniciativa en el último año.
 - Todo es prioritario.
 
-## Cómo encajan los módulos
+## Cómo encajan los catorce primeros módulos
 
-Los catorce módulos no son capítulos independientes. Se cruzan en cada fase del tronco. La tabla siguiente indica en qué fase pesa más cada uno.
+Los módulos no son capítulos independientes. Se cruzan en cada fase del tronco. Los ocho siguientes, nacidos de las tres miradas, se integran en las puertas con la tabla del final de esta parte. La tabla siguiente indica en qué fase pesa más cada uno.
 
 | Módulo | Diagnóstico | Diseño | Piloto | Escala | Sostenimiento |
 |---|---|---|---|---|---|
