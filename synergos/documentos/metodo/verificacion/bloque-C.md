@@ -1,0 +1,12 @@
+# Bloque C (IA y economía, casos). Verificado el 6 nov 2026.
+
+- Brynjolfsson, Li y Raymond: publicado en QJE 140(2) 889-942 (2025). Unos 5.000 agentes; +15 % de media en casos resueltos por hora, en torno a +30 % en los menos expertos (la versión NBER 2023 daba 14 % y 34 %). Que la IA "transmitía el saber de los mejores" es interpretación de los autores.
+- Canaries (Brynjolfsson, Chandar y Chen): la brecha relativa del empleo de 22-25 años en ocupaciones más expuestas fue 13 % (ago 2025), 16 % (nov 2025) y 19 % (revisión de 12 ago 2026). Caída concentrada donde la IA automatiza; sobre todo por menos contratación; datos descriptivos, no causales; no ven desplazamiento generalizado.
+- Bloom, Sadun y Van Reenen 2012 (AER 102(1) 167-201): comparan, en establecimientos situados en Europa, multinacionales estadounidenses con otras empresas; la ventaja de productividad de la TI se explica principalmente por prácticas de gestión de personas.
+- Klarna: feb 2024, el asistente hacía el trabajo equivalente a 700 agentes a tiempo completo (en buena parte de proveedores externos, no 700 despidos). Mayo 2025: el consejero delegado admitió que se centraron demasiado en el coste y la calidad empeoró; anunció un piloto para reincorporar personas en remoto y garantizar que el cliente pueda hablar con una persona. "Volvió a contratar personas" es más fuerte de lo que dicen las fuentes. Afecta a AR2 y B12 publicados.
+- Commonwealth Bank: los 45 puestos se declararon prescindibles en julio de 2025; la marcha atrás y la disculpa, el 21 de agosto de 2025.
+- Dell'Acqua y otros: 758 consultores de BCG; dentro de la frontera +12,2 % tareas, 25,1 % más rápido, más de 40 % más calidad; fuera, 19 puntos menos de acierto. Publicado en Organization Science (2026).
+- Noy y Zhang 2023 (Science 381(6654) 187-192): -40 % de tiempo, +18 % de calidad; se redujo la desigualdad.
+- Acemoglu y Restrepo 2019 (JEP 33(2) 3-30): efecto desplazamiento y efecto reinstauración; en EE. UU. el desplazamiento se aceleró y la reinstauración se debilitó en las últimas décadas.
+- Solow: reseña en NYT Book Review, 12 de julio de 1987.
+- Resto fiel: Brynjolfsson 2022 (Daedalus 151(2)); Brynjolfsson, Rock y Syverson 2021 (AEJ Macro 13(1) 333-372); Agrawal y otros 2018; Daugherty y Wilson 2018; Autor, Mindell y Reynolds 2022; Brynjolfsson y Hitt 2000 (JEP 14(4) 23-48); Bresnahan y otros 2002 (QJE 117(1) 339-376); Kahneman y otros 2021.
