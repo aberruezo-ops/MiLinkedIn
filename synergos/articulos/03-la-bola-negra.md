@@ -6,7 +6,7 @@
 
 En los casinos del siglo XIX, para admitir a un socio se votaba en secreto con bolas de dos colores. Blanca, a favor. Negra, en contra. El reglamento del Casino del Príncipe, en Madrid, aprobado en 1838, fijaba que la admisión fuera siempre por escrutinio secreto con bolas de diferente color, y para entrar hacían falta cuatro quintas partes de bolas blancas. Bastaba con que uno de cada cinco votara en contra. Nadie tenía que explicar su voto. El rechazado solo conocía el resultado.
 
-Me acordé de ese mecanismo viendo *La bola negra*, la película de Javier Calvo y Javier Ambrossi. Parte de una obra que Lorca empezó a escribir a principios de 1936 y que su asesinato dejó sin terminar: quedan unas cuatro páginas, en las que un joven intenta entrar en un club de Granada y recibe una bola negra. La película entrelaza, en tres épocas, las vidas de tres hombres. No voy a contar nada más. La he visto dos veces, y es de las pocas veces que escribo sobre algo que me removió sin saber bien explicar por qué.
+Me acordé de ese mecanismo viendo *La bola negra*, la película de Javier Calvo y Javier Ambrossi. Parte de una obra que Lorca empezó a escribir a principios de 1936 y que su asesinato dejó sin terminar: quedan unas cuatro páginas, en las que un joven intenta entrar en un club. La película entrelaza, en tres épocas, las vidas de tres hombres. No voy a contar nada más. La he visto dos veces, y es de las pocas veces que escribo sobre algo que me removió sin saber bien explicar por qué.
 
 Lo que me interesa aquí no es la película. Es el mecanismo.
 
