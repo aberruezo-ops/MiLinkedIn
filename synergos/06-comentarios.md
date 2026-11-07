@@ -32,6 +32,7 @@ De una URL del tipo `linkedin.com/posts/...-activity-7XXXXXXXXXXXXXXXXXX-...` se
 - Español de España (axioma A1). Sin hashtags en comentarios.
 - Si encaja de forma natural, una referencia a cómo lo ve Synergós. Si no encaja, no se fuerza: un comentario que suena a anuncio pierde al autor.
 - Nunca inventar cifras ni experiencias. Las cifras del perfil de Alejandro sí pueden usarse.
+- Equilibrio (A18, 7 nov 2026): en posts de tecnología o IA, el comentario también reconoce lo que la tecnología aporta; el riesgo se dice como condición de uso, no como objeción a usarla. Preferir posts sobre IA que complementa o aumenta a quien trabaja.
 
 ## Recomendación de variante (decisión de Alejandro, 2 nov 2026)
 
