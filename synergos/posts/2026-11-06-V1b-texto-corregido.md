@@ -1,4 +1,4 @@
-# V1 corregido (7 nov 2026). Cambio de plan de la semana siguiente
+# V1 corregido (7 nov 2026). HECHO: Alejandro editó el texto a mano el 7 nov (opción a)
 
 El V1 ya está publicado (6 nov, postGroupId 6aed879666309a4234c3f6e9). Publora no edita posts publicados. Alejandro puede cambiar el texto a mano en LinkedIn (editar publicación), pero el vídeo no se puede cambiar: su última pantalla sigue anunciando la semana de La bola negra. Opciones: (a) editar solo el texto y dejar el vídeo; (b) borrar el post y publicarlo de nuevo con el vídeo corregido (imagenes/anim-resumen-semana-V1b.mp4). Se pierden las reacciones y comentarios que haya.
 
