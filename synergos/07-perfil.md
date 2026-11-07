@@ -103,7 +103,7 @@ Fijar, por este orden: el artículo AR4 (¿Acelera, automatiza o aumenta?), la i
 
 Pedir tú mismo a dos personas con las que trabajaste en Getronics una recomendación centrada en offering y portfolio. Contacto tuyo, no mío.
 
-## Acerca de v2.1 (7 nov 2026; recortado para entrar en el límite de LinkedIn de 2.600 caracteres). Hueco de Getronics rellenado el 7 nov con las piezas de offering que dio Alejandro; faltan cargo, años y un resultado medible
+## Acerca de v2.2 (7 nov 2026; 2553 caracteres, dentro del límite de 2.600 de LinkedIn). Incluye el intraemprendimiento y los entornos colaborativos pedidos por Alejandro. Faltan cargo, años y un resultado medible de Getronics
 
 Crecer a la vez. En un girasol nadie coloca las semillas: cada una nace girada 137,5 grados respecto a la anterior, encuentra su sitio y todas crecen a la vez. Llevo 30 años viendo que las transformaciones se atascan cuando una parte crece a costa de las otras: la tecnología sin las personas, las personas sin el conocimiento, el conocimiento sin herramientas que lo aprovechen.
 
@@ -111,7 +111,9 @@ Sobre esa idea construyo Synergós (del griego "el que trabaja junto a otro"), u
 
 He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice desde el portfolio: consultoría para servicios sociales y empleo público, soluciones de banca privada y de gestión para industria, y hardware de seguridad con servicios encima. Hoy aplico ese ciclo a la IA.
 
-Lo que hay detrás: consultoría, preventa y liderazgo de transformaciones en entornos de alta complejidad, regulados y con muchos actores (sector público y grandes organizaciones). Mi especialidad es traducir necesidades estratégicas en modelos operativos y hojas de ruta viables, con gobierno.
+Me interesan los entornos colaborativos que potencian el intraemprendimiento de las personas que componen esos servicios complejos: transformar desde dentro y generar soluciones que unen tecnología, conocimiento y personas.
+
+Lo que hay detrás: consultoría, preventa y liderazgo de transformaciones en entornos de alta complejidad, regulados y con muchos actores (sector público y grandes organizaciones).
 
 He trabajado intensamente en:
 • Innovación en servicios y su paso a offering y portfolio
@@ -120,12 +122,12 @@ He trabajado intensamente en:
 • Transformación digital y modernización de modelos operativos
 • Gobierno de ecosistemas tecnológicos y organizativos
 
-Me siento cómodo en el diagnóstico, el diseño del modelo objetivo y la activación con el negocio. Siempre en ese orden: diagnóstico antes que solución.
+Mi orden de trabajo: diagnóstico, diseño y activación con el negocio. Diagnóstico antes que solución.
 
-Fuera de la consultoría soy ingeniero, emprendedor (Hestía, alojamiento con alma desde hace más de ocho años) y mentor. Y, sobre todo, aprendiz.
+Fuera de la consultoría soy ingeniero, emprendedor (Hestía, desde hace más de ocho años) y mentor. Y, sobre todo, aprendiz.
 
-Busco retos de transformación estructural y sostenible, no un eslogan ni un proyecto aislado, cada vez más en estrategia, adopción y gobierno de IA. Si quieres discutir una idea de Synergós o contarme dónde falla, escríbeme.
+Busco retos de transformación estructural, no un eslogan ni un proyecto aislado, cada vez más en estrategia, adopción y gobierno de IA. Si quieres discutir una idea de Synergós o contarme dónde falla, escríbeme.
 
-In English: innovation, portfolio and AI adoption in complex programs. I'm building Synergós, a framework in which people, knowledge and technology grow together, and AI complements and augments the people doing the work.
+In English: innovation, portfolio and AI adoption in complex programs. I'm building Synergós: people, knowledge and technology growing together, with AI that augments people.
 
 Opiniones propias.
