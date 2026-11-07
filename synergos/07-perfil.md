@@ -131,3 +131,36 @@ Busco retos de transformación estructural, no un eslogan ni un proyecto aislado
 In English: innovation, portfolio and AI adoption in complex programs. Building Synergós: people, knowledge and technology growing together.
 
 Opiniones propias.
+
+## Versión en inglés (7 nov 2026). Acerca de y titular, para la versión en inglés del perfil. Revisar por Alejandro (B2)
+
+### Titular en inglés
+
+Transformation & Innovation | Adoption in portfolios and services | AI that complements and augments | Presales and governance of complex programs | Creator of Synergós: growing together | Co-founder of Hestía, your home!
+
+### Acerca de en inglés
+
+Growing together. In a sunflower nobody places the seeds: each one is born turned 137.5 degrees from the previous one, finds its place, and all of them grow together. For 30 years I have seen transformations stall when one part grows at the expense of the others: technology without people, people without knowledge, knowledge without tools that put it to use.
+
+On that idea I am building Synergós (from the Greek for "the one who works alongside another"), a framework in progress for leading transformations in which people, knowledge and technology move forward in the same order, and AI complements and augments the people doing the work and protects what they know. I publish here every week, with sources. It is today's version: it changes as I learn.
+
+I have repeated the same cycle with different services: spot what can be improved, test it in a real program, turn it into an offer that can be sold and repeated, and get the organization to adopt it. At Getronics I did it as Presales, Alliances & Offering Director: I defined and evolved a portfolio of more than 50 digital transformation solutions (social services, private banking, industry, security), with +8% opportunities per year. Today I apply that cycle to AI.
+
+I am interested in collaborative environments that foster intrapreneurship among the people who make up those complex services: transforming from within and creating solutions that bring together technology, knowledge and people.
+
+Behind this: consulting, presales and leadership of transformations in highly complex, regulated environments with many stakeholders (public sector and large organizations).
+
+I have worked intensively on:
+• Service innovation and its move into offering and portfolio
+• Adoption of innovation in complex programs
+• Strategic presales and high-value proposals
+• Digital transformation and modernization of operating models
+• Governance of technology and organizational ecosystems
+
+My working order: diagnosis, design and activation with the business. Diagnosis before solution.
+
+Outside consulting I am an engineer, an entrepreneur (Hestía, for more than ten years) and a mentor. And above all, a learner.
+
+I look for structural transformation challenges, not a slogan or an isolated project, increasingly in AI strategy, adoption and governance. If you want to discuss an idea from Synergós or tell me where it fails, write to me.
+
+Views are my own.
