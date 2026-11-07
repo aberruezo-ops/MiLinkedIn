@@ -109,7 +109,7 @@ Crecer a la vez. En un girasol nadie coloca las semillas: cada una nace girada 1
 
 Sobre esa idea construyo Synergós (del griego "el que trabaja junto a otro"), un marco en construcción para dirigir transformaciones en las que personas, conocimiento y tecnología avanzan en el mismo orden, y la IA complementa y aumenta a quien hace el trabajo y protege lo que sabe. Publico aquí cada semana, con fuentes. Es la versión de hoy: cambia con lo que aprendo.
 
-He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice como director de Preventa, Alianzas y Offering definí y evolucioné un portfolio de más de 50 soluciones de transformación digital (servicios sociales, banca privada, industria, seguridad), con +8 % de oportunidades al año. Hoy aplico ese ciclo a la IA.
+He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice como director de Preventa, Alianzas y Offering: definí y evolucioné un portfolio de más de 50 soluciones de transformación digital (servicios sociales, banca privada, industria, seguridad), con +8 % de oportunidades al año. Hoy aplico ese ciclo a la IA.
 
 Me interesan los entornos colaborativos que potencian el intraemprendimiento de las personas que componen esos servicios complejos: transformar desde dentro y generar soluciones que unen tecnología, conocimiento y personas.
 
