@@ -103,13 +103,13 @@ Fijar, por este orden: el artículo AR4 (¿Acelera, automatiza o aumenta?), la i
 
 Pedir tú mismo a dos personas con las que trabajaste en Getronics una recomendación centrada en offering y portfolio. Contacto tuyo, no mío.
 
-## Acerca de v2.1 (7 nov 2026, revisión pedida por Alejandro; recortado para entrar en el límite de LinkedIn de 2.600 caracteres). Pendiente de completar el hueco entre corchetes
+## Acerca de v2.1 (7 nov 2026; recortado para entrar en el límite de LinkedIn de 2.600 caracteres). Hueco de Getronics rellenado el 7 nov con las piezas de offering que dio Alejandro; faltan cargo, años y un resultado medible
 
 Crecer a la vez. En un girasol nadie coloca las semillas: cada una nace girada 137,5 grados respecto a la anterior, encuentra su sitio y todas crecen a la vez. Llevo 30 años viendo que las transformaciones se atascan cuando una parte crece a costa de las otras: la tecnología sin las personas, las personas sin el conocimiento, el conocimiento sin herramientas que lo aprovechen.
 
 Sobre esa idea construyo Synergós (del griego "el que trabaja junto a otro"), un marco en construcción para dirigir transformaciones en las que personas, conocimiento y tecnología avanzan en el mismo orden, y la IA complementa y aumenta a quien hace el trabajo y protege lo que sabe. Publico aquí cada semana, con fuentes. Es la versión de hoy: cambia con lo que aprendo.
 
-He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice desde el portfolio: [qué piezas de offering creé o evolucioné a partir de servicios existentes, cuántas y para qué mercados]. Hoy aplico ese ciclo a la IA.
+He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice desde el portfolio: consultoría para servicios sociales y empleo público, soluciones de banca privada y de gestión para industria, y hardware de seguridad con servicios encima. Hoy aplico ese ciclo a la IA.
 
 Lo que hay detrás: consultoría, preventa y liderazgo de transformaciones en entornos de alta complejidad, regulados y con muchos actores (sector público y grandes organizaciones). Mi especialidad es traducir necesidades estratégicas en modelos operativos y hojas de ruta viables, con gobierno.
 
