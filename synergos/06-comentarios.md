@@ -40,9 +40,9 @@ Al presentar cada post con sus dos variantes, se indica cuál se recomienda y po
 
 ## Reglas de conducta
 
-- No comentar en posts de competidores directos de Minsait ni en nada relacionado con una licitación en curso. Competidores directos según Alejandro (24 oct 2026): Accenture, NTT Data, Deloitte, Inetum. Esto incluye posts de sus empleados hablando en nombre de la empresa; un empleado hablando a título personal de un tema general puede valorarse caso por caso, con cautela.
+- No comentar nada relacionado con una licitación en curso, ni polémicas ni política. Decisión de Alejandro (7 nov 2026): ya no se excluye a nadie por empresa. Accenture, NTT Data, Deloitte e Inetum pasan a ser posts comentables como los demás (sustituye a la regla del 24 oct). Cuidado extra solo si el post toca un cliente o una oferta concreta.
 - Junto a cada comentario aprobado se deja también una reacción (INTEREST o APPRECIATION según el tono del post). Confirmado por Alejandro.
-- Descubrimiento por temas, no por lista de autores: Alejandro prefiere que Claude busque temas relacionados. La lista de autores queda vacía a propósito; si con el tiempo aparecen autores recurrentes que merecen la pena, se proponen aquí.
+- Descubrimiento (decisión del 7 nov 2026): se buscan los mejores posts de verdad, por tema y por tracción (reacciones y comentarios), sin cerrarse a una lista. Los referentes en estrategia de IA y transformación digital entran como fuente añadida, no como filtro. Referentes fijos (la lista crece con autores recurrentes que merezcan la pena; se proponen aquí): por rellenar.
 - Autores con los que ya hay conversación (prioridad en futuras cosechas, respetando un comentario por autor y semana): Jaime Bárcenas (facilitador, transformación organizacional, Colombia; respondió el 26 oct).
 - No comentar en polémicas, política ni temas personales del autor.
 - No más de un comentario por autor y semana, para no parecer insistente.

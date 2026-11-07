@@ -23,7 +23,7 @@ Patrón: no piden ingeniería, piden entender la tecnología a nivel de gestión
 ## Cautelas
 
 - No poner el aviso público de "abierto a trabajar" en LinkedIn mientras siga en la empresa actual: lo ve cualquiera. LinkedIn permite mostrarlo solo a reclutadores; decide Alejandro.
-- La regla de no comentar posts de Accenture, NTT Data, Deloitte e Inetum es de comentarios; no impide mirar ni aplicar a sus ofertas.
+- Desde el 7 nov 2026 no se excluye a ninguna empresa, ni en comentarios ni en ofertas.
 - No se aplica a ninguna oferta sin orden expresa de Alejandro.
 
 ## Siguiente
