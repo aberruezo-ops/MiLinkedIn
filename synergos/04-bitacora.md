@@ -176,3 +176,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 - 7 nov: AR4 aprobado por Alejandro. Recordatorio programado para el lunes 9 nov a las 8:15 (Madrid) para que lo pegue. Pendiente: V1, edición del párrafo a mano (texto entregado).
 - 7 nov: Alejandro confirma que ha editado a mano el párrafo del V1 (opción a). Cerrado. El vídeo del V1 sigue anunciando el plan antiguo en su última pantalla.
 - 7 nov: C13 aprobado y programado para el miércoles 11 a las 8:30 (postGroupId 6aef1401c2bf532716680092). B15 aprobado y subido como borrador (6aef1402c2bf5327166800ac): la cola de Publora está llena (B18, C13 y un post de Hestía del lunes 9); recordatorio del lunes 10:30 para programarlo y añadir los enlaces del AR4 como primer comentario.
+- 7 nov: AR4: la sección 'Lo que no tengo resuelto' se sustituye por 'Lo que habrá que actualizar' (la frontera, las normas, cómo se mide aumentar), por A20. Pendiente de su visto bueno al texto nuevo.

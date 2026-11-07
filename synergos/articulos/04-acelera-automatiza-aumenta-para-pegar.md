@@ -42,9 +42,17 @@ La autonomía sube por puertas. Con criterios fijados antes, por escrito, y con 
 
 Shoshana Zuboff lo formuló en 1988 con dos verbos: automatizar o informar. En el método, la segunda pregunta de la puerta era justo esa. La estoy ampliando a tres: ¿acelera, automatiza o aumenta? Se responde por escrito para cada opción, antes de aprobar. Y con una segunda parte: qué tiene que ser cierto para que lo que se elige dé el resultado que se espera. Lo estoy probando y puede cambiar.
 
-## Lo que no tengo resuelto
+## Lo que habrá que actualizar
 
-Cómo se mide aumentar. Medir velocidad es fácil. Medir que una persona ahora hace algo que antes no podía, o aprende más rápido, o decide mejor, es más difícil, y no tengo un indicador que me convenza. Mi sospecha es que hay que mirarlo en pareja: lo que mejora hoy y lo que sabe hacer esa persona un año después. Lo dejo abierto.
+Lo que he contado es la versión de hoy, y está pensada para cambiar. Hay tres cosas que tendré que revisar, porque el contexto se mueve.
+
+La frontera. Los estudios que cito se hicieron con herramientas que ya han cambiado. Lo que hoy queda fuera de lo que la IA hace bien puede quedar dentro dentro de unos meses, y al revés. Cada vez que cambie, habrá que volver a preguntar qué tareas están dentro.
+
+Las normas. El calendario europeo para los sistemas de IA de alto riesgo, entre ellos los que se usan en el empleo, se aplazó este mismo año. Lo que se le pida a cada proyecto dependerá de la fecha en que se apruebe y de la norma vigente ese día.
+
+Cómo se mide aumentar. Hoy sé medir velocidad. Medir que una persona hace algo que antes no podía, o aprende más rápido, o decide mejor, es más difícil, y el indicador tendrá que cambiar con la herramienta. Mi sospecha es que hay que mirarlo en pareja: lo que mejora hoy y lo que sabe hacer esa persona un año después.
+
+Por eso la pregunta de la puerta lleva versión y fecha: se responde con lo que se sabe hoy y se revisa cuando cambia el contexto.
 
 ## Por qué esto es Synergós
 

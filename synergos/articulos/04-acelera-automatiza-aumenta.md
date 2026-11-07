@@ -1,6 +1,6 @@
 # ¿Acelera, automatiza o aumenta?
 
-*BORRADOR v1 (7 nov 2026) para publicar el lunes 9 de noviembre de 2026 como artículo de LinkedIn (lo pega Alejandro en el editor; Publora no publica artículos). Cuarto artículo de Synergós (AR4), pilar tecnología. Sustituye a la semana prevista de personas, que pasa al 16 nov (AR3 La bola negra), por decisión de Alejandro el 7 nov. Responde al axioma A18: la tecnología pesa igual que personas y conocimiento. Fuentes (todas fichadas en `02-fuentes.md` y en `11-evidencia-ia-complementa.md`): Brynjolfsson 2022; Zuboff 1988; Noy y Zhang 2023; Brynjolfsson, Li y Raymond 2025; Dell'Acqua y otros 2026; Brynjolfsson y Hitt 2000; Bresnahan, Brynjolfsson y Hitt 2002; casos Klarna y Commonwealth Bank. Sin caso compuesto. Cosas que Alejandro debe confirmar: (1) que le parece bien ampliar la segunda pregunta de la puerta de "automatiza o informa" a "acelera, automatiza o aumenta" (el texto la presenta como algo que está probando, A15); (2) el indicador de "cómo se mide aumentar", que queda abierto a propósito. Portada: `imagenes/portada-articulo-04.png`. Vídeo: `imagenes/anim-articulo-04.mp4`. Estado: APROBADO por Alejandro el 7 nov (incluida la ampliación de la segunda pregunta de la puerta). Texto para pegar: articulos/04-acelera-automatiza-aumenta-para-pegar.md. Lo publica Alejandro a mano el lunes 9 nov; recordatorio programado a las 8:15.*
+*BORRADOR v1 (7 nov 2026) para publicar el lunes 9 de noviembre de 2026 como artículo de LinkedIn (lo pega Alejandro en el editor; Publora no publica artículos). Cuarto artículo de Synergós (AR4), pilar tecnología. Sustituye a la semana prevista de personas, que pasa al 16 nov (AR3 La bola negra), por decisión de Alejandro el 7 nov. Responde al axioma A18: la tecnología pesa igual que personas y conocimiento. Fuentes (todas fichadas en `02-fuentes.md` y en `11-evidencia-ia-complementa.md`): Brynjolfsson 2022; Zuboff 1988; Noy y Zhang 2023; Brynjolfsson, Li y Raymond 2025; Dell'Acqua y otros 2026; Brynjolfsson y Hitt 2000; Bresnahan, Brynjolfsson y Hitt 2002; casos Klarna y Commonwealth Bank. Sin caso compuesto. Cosas que Alejandro debe confirmar: (1) que le parece bien ampliar la segunda pregunta de la puerta de "automatiza o informa" a "acelera, automatiza o aumenta" (el texto la presenta como algo que está probando, A15); (2) la sección "Lo que habrá que actualizar" (cambio del 7 nov por A20: sustituye a "Lo que no tengo resuelto"). Portada: `imagenes/portada-articulo-04.png`. Vídeo: `imagenes/anim-articulo-04.mp4`. Estado: APROBADO por Alejandro el 7 nov (incluida la ampliación de la segunda pregunta de la puerta). Texto para pegar: articulos/04-acelera-automatiza-aumenta-para-pegar.md. Lo publica Alejandro a mano el lunes 9 nov; recordatorio programado a las 8:15.*
 
 ---
 
@@ -46,9 +46,17 @@ La autonomía sube por puertas. Con criterios fijados antes, por escrito, y con 
 
 Shoshana Zuboff lo formuló en 1988 con dos verbos: automatizar o informar. En el método, la segunda pregunta de la puerta era justo esa. La estoy ampliando a tres: ¿acelera, automatiza o aumenta? Se responde por escrito para cada opción, antes de aprobar. Y con una segunda parte: qué tiene que ser cierto para que lo que se elige dé el resultado que se espera. Lo estoy probando y puede cambiar.
 
-## Lo que no tengo resuelto
+## Lo que habrá que actualizar
 
-Cómo se mide aumentar. Medir velocidad es fácil. Medir que una persona ahora hace algo que antes no podía, o aprende más rápido, o decide mejor, es más difícil, y no tengo un indicador que me convenza. Mi sospecha es que hay que mirarlo en pareja: lo que mejora hoy y lo que sabe hacer esa persona un año después. Lo dejo abierto.
+Lo que he contado es la versión de hoy, y está pensada para cambiar. Hay tres cosas que tendré que revisar, porque el contexto se mueve.
+
+La frontera. Los estudios que cito se hicieron con herramientas que ya han cambiado. Lo que hoy queda fuera de lo que la IA hace bien puede quedar dentro dentro de unos meses, y al revés. Cada vez que cambie, habrá que volver a preguntar qué tareas están dentro.
+
+Las normas. El calendario europeo para los sistemas de IA de alto riesgo, entre ellos los que se usan en el empleo, se aplazó este mismo año. Lo que se le pida a cada proyecto dependerá de la fecha en que se apruebe y de la norma vigente ese día.
+
+Cómo se mide aumentar. Hoy sé medir velocidad. Medir que una persona hace algo que antes no podía, o aprende más rápido, o decide mejor, es más difícil, y el indicador tendrá que cambiar con la herramienta. Mi sospecha es que hay que mirarlo en pareja: lo que mejora hoy y lo que sabe hacer esa persona un año después.
+
+Por eso la pregunta de la puerta lleva versión y fecha: se responde con lo que se sabe hoy y se revisa cuando cambia el contexto.
 
 ## Por qué esto es Synergós
 
