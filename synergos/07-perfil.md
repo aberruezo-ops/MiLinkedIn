@@ -103,13 +103,13 @@ Fijar, por este orden: el artículo AR4 (¿Acelera, automatiza o aumenta?), la i
 
 Pedir tú mismo a dos personas con las que trabajaste en Getronics una recomendación centrada en offering y portfolio. Contacto tuyo, no mío.
 
-## Acerca de v2.2 (7 nov 2026; 2553 caracteres, dentro del límite de 2.600 de LinkedIn). Incluye el intraemprendimiento y los entornos colaborativos pedidos por Alejandro. Faltan cargo, años y un resultado medible de Getronics
+## Acerca de v2.3 (7 nov 2026; 2555 caracteres, dentro del límite de 2.600 de LinkedIn). Datos de Getronics tomados del propio perfil de Alejandro (Presales, Alliances & Offering Director, 2012 a 2017; más de 50 soluciones; +8 % de oportunidades al año). Hestía: más de diez años
 
 Crecer a la vez. En un girasol nadie coloca las semillas: cada una nace girada 137,5 grados respecto a la anterior, encuentra su sitio y todas crecen a la vez. Llevo 30 años viendo que las transformaciones se atascan cuando una parte crece a costa de las otras: la tecnología sin las personas, las personas sin el conocimiento, el conocimiento sin herramientas que lo aprovechen.
 
 Sobre esa idea construyo Synergós (del griego "el que trabaja junto a otro"), un marco en construcción para dirigir transformaciones en las que personas, conocimiento y tecnología avanzan en el mismo orden, y la IA complementa y aumenta a quien hace el trabajo y protege lo que sabe. Publico aquí cada semana, con fuentes. Es la versión de hoy: cambia con lo que aprendo.
 
-He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice desde el portfolio: consultoría para servicios sociales y empleo público, soluciones de banca privada y de gestión para industria, y hardware de seguridad con servicios encima. Hoy aplico ese ciclo a la IA.
+He repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice como director de Preventa, Alianzas y Offering definí y evolucioné un portfolio de más de 50 soluciones de transformación digital (servicios sociales, banca privada, industria, seguridad), con +8 % de oportunidades al año. Hoy aplico ese ciclo a la IA.
 
 Me interesan los entornos colaborativos que potencian el intraemprendimiento de las personas que componen esos servicios complejos: transformar desde dentro y generar soluciones que unen tecnología, conocimiento y personas.
 
@@ -118,16 +118,16 @@ Lo que hay detrás: consultoría, preventa y liderazgo de transformaciones en en
 He trabajado intensamente en:
 • Innovación en servicios y su paso a offering y portfolio
 • Adopción de innovación en programas complejos
-• Preventa estratégica y diseño de propuestas de alto valor
+• Preventa estratégica y propuestas de alto valor
 • Transformación digital y modernización de modelos operativos
 • Gobierno de ecosistemas tecnológicos y organizativos
 
 Mi orden de trabajo: diagnóstico, diseño y activación con el negocio. Diagnóstico antes que solución.
 
-Fuera de la consultoría soy ingeniero, emprendedor (Hestía, desde hace más de ocho años) y mentor. Y, sobre todo, aprendiz.
+Fuera de la consultoría soy ingeniero, emprendedor (Hestía, desde hace más de diez años) y mentor. Y, sobre todo, aprendiz.
 
 Busco retos de transformación estructural, no un eslogan ni un proyecto aislado, cada vez más en estrategia, adopción y gobierno de IA. Si quieres discutir una idea de Synergós o contarme dónde falla, escríbeme.
 
-In English: innovation, portfolio and AI adoption in complex programs. I'm building Synergós: people, knowledge and technology growing together, with AI that augments people.
+In English: innovation, portfolio and AI adoption in complex programs. Building Synergós: people, knowledge and technology growing together.
 
 Opiniones propias.
