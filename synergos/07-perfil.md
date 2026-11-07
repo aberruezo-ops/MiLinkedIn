@@ -136,7 +136,7 @@ Opiniones propias.
 
 ### Titular en inglés
 
-Transformation & Innovation | Adoption in portfolios and services | AI that complements and augments | Presales and governance of complex programs | Creator of Synergós: growing together | Co-founder of Hestía, your home!
+Transformation & Innovation | Adoption in portfolios and services | AI that complements and augments | Presales and governance of complex programs | Creator of Synergós: growing together | Co-founder of Hestía
 
 ### Acerca de en inglés
 
