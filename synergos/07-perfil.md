@@ -66,3 +66,39 @@ Alejandro pidió usar la forma de contar la misión de un perfil que le gustó (
 Líder en Transformación e Innovación | Experto en Preventa, Estrategia y Gobierno | Multisectorial | Creador de Synergós: crecer a la vez | Emprendedor | Mentor | Aprendiz
 
 Versión propia de Alejandro, que conserva "Multisectorial" y "Aprendiz". Sugerencia pendiente: mover "Creador de Synergós: crecer a la vez" al segundo puesto para que se vea en el feed y en los comentarios. Cabecera pendiente de subir.
+
+## Propuesta v2 para puestos de estrategia, adopción y gobierno de IA (7 nov 2026)
+
+Objetivo: que se vea el mecanismo que Alejandro repite desde hace años (llevar innovación a los servicios, convertirla en oferta y portfolio, y lograr que se adopte), con Getronics como prueba de la parte de offering y portfolio. Los corchetes son datos que solo Alejandro puede dar: sin ellos no se publica. Respeta A10: nada de la empresa actual ni de clientes.
+
+### Titular (opción A, 205 caracteres; opción B, 188)
+
+A: Innovación, portfolio y adopción de IA en servicios complejos | Creador de Synergós: crecer a la vez | 30 años en transformación, preventa y gobierno de programas | Sector público y grandes organizaciones
+
+B: Transformación e innovación | Del servicio al portfolio y a la adopción | IA que complementa y aumenta | Creador de Synergós: crecer a la vez | Preventa estratégica y gobierno de programas complejos
+
+### Acerca de: párrafo nuevo, tras el de Synergós y antes de "Lo que hay detrás"
+
+A lo largo de mi carrera he repetido un mismo ciclo con distintos servicios: detectar qué se puede mejorar, probarlo en un programa real, convertirlo en una oferta que se pueda vender y repetir, y conseguir que la organización la adopte. En Getronics lo hice desde el portfolio: [qué tipo de piezas de offering creé o evolucioné a partir de servicios existentes, cuántas y para qué mercados]. Hoy aplico ese ciclo a la IA, con una idea fija: que complemente y aumente a quien hace el trabajo y proteja el conocimiento de la organización.
+
+### Experiencia, entrada de Getronics (cargo y años por confirmar)
+
+- Diseñé y evolucioné [piezas de offering] a partir de servicios existentes, para enriquecer el portfolio con [innovaciones concretas: automatización, nuevos servicios, modelos de entrega...].
+- Lideré un equipo de preventa de 25 personas: 3.800 oportunidades al año, [unidad: M€ o M$] 400 M de volumen y un 19 % de éxito.
+- Llevé [innovaciones] a programas complejos hasta su adopción: [resultado medible].
+
+### Experiencia, entrada de la empresa actual
+
+Sin nombres de cliente, sin proyectos ni cifras internas. Cargo y descripción general: preventa estratégica y gobierno de programas complejos en sector público; y, si es cierto, "adopción de innovación en programas complejos e incorporación al portfolio de ofertas". Nada más.
+
+### Aptitudes que añadir
+
+Gestión de portfolio de servicios, Desarrollo de ofertas, Innovación en servicios, Adopción de IA, Gobierno de IA, Gestión del cambio, Transformación digital, Inteligencia artificial.
+
+### Destacados
+
+Fijar, por este orden: el artículo AR4 (¿Acelera, automatiza o aumenta?), la infografía del método en una página y el post de las nueve fotos o el carrusel cuando existan.
+
+### Recomendaciones
+
+Pedir tú mismo a dos personas con las que trabajaste en Getronics una recomendación centrada en offering y portfolio. Contacto tuyo, no mío.
