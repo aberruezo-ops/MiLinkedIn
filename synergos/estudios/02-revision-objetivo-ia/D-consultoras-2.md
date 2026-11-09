@@ -4,6 +4,8 @@ Fecha de la revisión: 9 de noviembre de 2026.
 
 ## Nota de método (léela antes de usar cualquier cifra)
 
+Actualización del 9 nov 2026: tras permitir pwc.com y weforum.org en la red, las cifras de las fichas de PwC y del WEF se cotejaron con los PDF originales y llevan página (las corregidas se indican en cada ficha). Las de Accenture y KPMG siguen como extracto del buscador.
+
 En esta sesión la red no permitía abrir las webs de las fuentes (pwc.com, weforum.org y el resto devolvían error de resolución de dominio). Por eso:
 
 - Las URL se han comprobado como **existentes en el dominio oficial** a través del índice del buscador (aparecen indexadas en accenture.com, pwc.com, kpmg.com, unimelb.edu.au y weforum.org con el título indicado). **No se han abierto** los documentos.
@@ -58,28 +60,29 @@ Alto. Accenture vende exactamente los servicios de "reinvención", talento y tra
 ## 2. PwC
 
 ### Publicaciones revisadas
-- *Two futures for jobs in an AI era. 2026 Global AI Jobs Barometer*, publicado el 15 de junio de 2026 (nota de prensa global). Hallazgos globales: https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-global-findings.pdf . Informe completo: https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-full-report.pdf . Nota de prensa: https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html
-- *Leading through uncertainty in the age of AI. PwC's 29th Global CEO Survey*, enero de 2026. https://www.pwc.com/gx/en/ceo-survey/2026/pwc-ceo-survey-2026.pdf
+- *Two futures for jobs in an AI era. 2026 Global AI Jobs Barometer*, publicado el 15 de junio de 2026 (fecha verificada en la nota de prensa: "LONDON, 15 June 2026"). Hallazgos globales (PDF de 45 páginas): https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-global-findings.pdf . Informe completo (PDF de 30 páginas): https://www.pwc.com/gx/en/issues/artificial-intelligence/job-barometer/2026/2026-global-ai-jobs-barometer-full-report.pdf . Nota de prensa: https://www.pwc.com/gx/en/news-room/press-releases/2026/pwc-2026-ai-jobs-barometer.html
+- *Leading through uncertainty in the age of AI. PwC's 29th Global CEO Survey*, enero de 2026 (título verificado en la portada del PDF; el PDF no indica el día de publicación). https://www.pwc.com/gx/en/ceo-survey/2026/pwc-ceo-survey-2026.pdf
+- Cotejo: los tres PDF y la nota de prensa se abrieron y leyeron el 9 de noviembre de 2026. Las páginas citadas son las del PDF, que coinciden con la numeración impresa.
 
 ### Objetivo de la IA según la fuente
 Productividad y creación de valor. El Barómetro sostiene que la IA "amplifica" la pericia humana y que en los puestos más expuestos predomina el aumento sobre la sustitución, pero dibuja un mercado de **dos vías**: puestos "profesionalizados" (la IA asume lo rutinario y el puesto exige más juicio) y puestos "democratizados" (la IA asume tareas complejas y el puesto pierde valor). La CEO Survey añade que la mayoría de empresas aún no ve retorno financiero y que el retorno se asocia a "fundamentos" (IA responsable, entorno tecnológico integrado).
 
 ### Qué dice de las personas, las capacidades y el conocimiento
-- Las habilidades exigidas cambian más rápido en los puestos expuestos a la IA (extracto: más del doble de rápido).
+- Las habilidades exigidas cambian más rápido en los puestos expuestos a la IA: "more than twice as fast" (verificado en el informe completo, página 14; "twice as fast" en la página 3).
 - Los puestos de entrada expuestos exigen capacidades antes reservadas a perfiles sénior: liderazgo, juicio, creatividad, trato cara a cara.
 - Prima salarial por habilidades de IA.
 - El conocimiento como tal no se trata; se habla de "human expertise, judgement and creativity".
 
 ### Tipo de evidencia
-- Barómetro: **análisis de datos propios** (ofertas de empleo y datos financieros de empresas), no encuesta. Extracto de cobertura: más de mil millones de ofertas en 27 países (no confirmado en el PDF). Mide productividad como facturación por empleado. Correlacional: exposición a IA no equivale a uso de IA.
-- CEO Survey: **encuesta de consultora**. Extracto: "4,454 CEOs across 95 countries and territories, fielded between 30 September through 10 November 2025" (la edición CEE dice 4.554).
+- Barómetro: **análisis de datos propios** (ofertas de empleo y datos financieros de empresas), no encuesta. Cobertura: "more than one billion jobs advertisements in 27 countries and territories" (verificado en la nota de prensa, apartado "About PwC's 2026 Global AI Jobs Barometer"; el informe completo, página 3, dice "over one billion online job advertisements across six continents"). Mide productividad como facturación por empleado (verificado en el informe completo, página 19, nota de la figura). Correlacional: exposición a IA no equivale a uso de IA; el propio informe advierte que no cabe leer causalidad (página 12).
+- CEO Survey: **encuesta de consultora**. "We surveyed 4,454 CEOs in 95 countries and territories from 30 September through 10 November 2025" (verificado en el documento, página 23; también página 3). La cifra de 4.554 de la edición CEE no se ha cotejado.
 
-### Cifras clave (extracto del buscador sobre la web oficial; sin página)
-- "The average premium for AI skills is 62%, up from 57% last year."
-- Productividad: "Productivity growth for the most AI-exposed companies was 34% in 2025 relative to 2018, compared to 24% for the companies least able to use AI."
-- Dos vías: "The 22% of jobs being professionalised are growing twice as fast as democratised jobs (52% of jobs) and seeing 42% higher wage growth."
-- Entrada: los puestos de entrada expuestos son "seven times more likely to require traditionally senior-level skills" (formulación de la nota de prensa; el informe completo da 52% frente a 7% de nuevas habilidades sénior requeridas).
-- CEO Survey: "56% say their company has seen neither higher revenues nor lower costs from AI, while only one in eight (12%) report both".
+### Cifras clave (cotejadas con los documentos originales)
+- "Wage premiums for workers with AI skills have risen to 62% (from 57% in last year's Barometer)" (verificado en el informe completo, página 23; hallazgos globales, página 11). La frase "hitting 62%, up from 57% last year" está en la nota de prensa.
+- Productividad: "Companies operating in the most AI-exposed sectors recorded 34% productivity growth in 2025 relative to 2018, compared to 24% for the companies least able to use AI" (verificado en la nota de prensa; la redacción anterior del extracto no era literal). El informe completo da 34% en la página 3 y 33,5% en la figura de la página 19; el 24% de las menos expuestas solo aparece en la nota de prensa.
+- Dos vías: "The 22% of jobs that are being professionalised are growing twice as fast as democratised jobs (52% of jobs) and seeing 42% higher wage growth since 2021" (verificado en el informe completo, página 3; corregido: la frase original termina en "since 2021").
+- Entrada: los puestos de entrada más expuestos son "seven times more likely to require traditionally senior-level skills" (verificado en la nota de prensa y en el informe completo, página 12; "7x" en hallazgos globales, página 20). Base: datos de EE. UU. El informe completo, página 3, da 52% frente a 7% de nuevas habilidades sénior requeridas (verificado).
+- CEO Survey: "More than half (56%) say their company has seen neither higher revenues nor lower costs from AI, while only one in eight (12%) report both of these positive impacts" (verificado en el documento, página 5; corregido el arranque literal de la frase).
 
 ### Interés comercial o sesgo
 Medio-alto. PwC vende servicios de IA y personas; el mensaje "la IA recompensa a quien invierte" favorece su oferta. El Barómetro tiene una base de datos más sólida que una encuesta, pero la variable "exposición a IA" es una construcción propia y la relación con la productividad no es causal. La CEO Survey es más honesta de lo habitual al admitir que la mayoría no ve retorno.
@@ -137,7 +140,7 @@ Moderado. KPMG vende servicios de "IA de confianza" y gobierno, y el mensaje fav
 ## 4. World Economic Forum (contraste no comercial)
 
 ### Publicaciones revisadas
-- *The Future of Jobs Report 2025*, enero de 2025. Resumen: https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/ . Capítulo de estrategias de plantilla: https://www.weforum.org/publications/the-future-of-jobs-report-2025/4-workforce-strategies . Capítulo de habilidades: https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/ . Nota de prensa: https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces
+- *Future of Jobs Report 2025*, enero de 2025 (verificado en el PDF, 290 páginas; nota de prensa del 8 de enero de 2025). PDF: https://www3.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf . Cotejo: PDF y nota de prensa leídos el 9 de noviembre de 2026; las páginas web de www.weforum.org devolvieron 403 y no se leyeron. Las páginas citadas son las del PDF, que coinciden con la numeración impresa. Resumen: https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/ . Capítulo de estrategias de plantilla: https://www.weforum.org/publications/the-future-of-jobs-report-2025/4-workforce-strategies . Capítulo de habilidades: https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/ . Nota de prensa: https://www.weforum.org/media/future-of-jobs-report-2025-78-million-new-job-opportunities-by-2030-but-urgent-upskilling-needed-to-prepare-workforces
 
 ### Objetivo de la IA según la fuente
 La IA y el procesamiento de información son el principal motor de transformación de los negocios hasta 2030. El informe recoge a la vez **aumento y sustitución**: las empresas planean formar para trabajar con IA, automatizar, complementar a la plantilla con tecnología y, en parte, reducir plantilla. Su propia lectura favorece la colaboración persona-máquina en la mayoría de áreas.
@@ -149,14 +152,14 @@ La IA y el procesamiento de información son el principal motor de transformaci�
 - El conocimiento organizativo como activo no aparece como tal.
 
 ### Tipo de evidencia
-**Encuesta a empleadores** de un organismo no comercial, con datos complementarios de socios (entre ellos plataformas de empleo). Extracto: "over 1,000 employers representing more than 14 million workers across 22 industry clusters and 55 economies". Son expectativas y planes declarados, no resultados observados.
+**Encuesta a empleadores** de un organismo no comercial, con datos complementarios de socios (entre ellos plataformas de empleo). "over 1,000 employers – representing more than 14 million workers across 22 industry clusters and 55 economies" (verificado en el documento, páginas 4 y 5; la página 9 precisa "14.1 million"). Datos complementarios de ADP, Coursera, Indeed y LinkedIn (página 4). Son expectativas y planes declarados, no resultados observados.
 
-### Cifras clave (extracto del buscador sobre la web oficial; sin página)
-- "86% of employers expect AI and information processing technologies to transform their business by 2030."
-- Estrategias: upskilling 85%; automatización 73% ("down from 80% in the 2023 edition"); "63% of employers intend to complement and augment their workforce with new technologies".
-- Ante la IA: 77% planea formar a la plantilla para trabajar con IA; "41% plan to reduce their workforce as AI automates certain tasks"; 70% planea contratar habilidades de IA.
-- Empleo neto: 170 millones de empleos creados, 92 millones desplazados, 78 millones netos hasta 2030 (cifra muy repetida en la cobertura; nota de prensa con ese titular).
-- Habilidades: cerca del 40% de las habilidades nucleares cambiará hacia 2030 (extracto de cobertura; no visto en el texto del WEF).
+### Cifras clave (cotejadas con el PDF original)
+- "The Future of Jobs Survey finds that 86% of employers expect AI and information processing technologies to transform their business by 2030" (verificado en el documento, página 62; también páginas 5 y 11).
+- Estrategias (figura 4.4): upskilling 85%; automatización 73%, "down from 80% as noted in the report's 2023 edition" (corregida la cita literal); "63% of employers intend to complement and augment their workforce with new technologies" (todo verificado en el documento, página 52).
+- Ante la IA (figura 4.14): 77% planea "Reskilling and upskilling existing workforce to better work alongside AI" (verificado en el documento, páginas 62 y 63); 41% prevé "Downsizing workforce where AI can replicate people's work" (verificado, página 63; la frase literal es "a significant share (41%) also expect to downsize their workforce as AI capabilities to replicate roles expand", y no la del extracto; el resumen ejecutivo, página 6, redondea a 40%). Corregido: el 70% de "contratar habilidades de IA" no aparece en esa figura; el 70% es la estrategia general "Hire staff with new skills" (página 52). Respecto a la IA, el documento da 69% que contratará para diseñar herramientas de IA y 62% que contratará personas con habilidades para trabajar junto a la IA (página 63); el resumen ejecutivo habla de "two-thirds" (página 6).
+- Empleo neto: 170 millones de empleos creados, 92 millones desplazados, 78 millones netos hasta 2030, y una rotación del 22% de los empleos actuales (verificado en el documento, páginas 5 y 18, y en la nota de prensa del 8 de enero de 2025).
+- Habilidades: "two-fifths (39%) of their existing skill sets will be transformed or become outdated over the 2025-2030 period" (verificado en el documento, página 6; corregido: la cifra exacta es 39%, no "cerca del 40%"; la nota de prensa dice "nearly 40% of skills required on the job set to change").
 
 ### Interés comercial o sesgo
 Bajo en lo comercial, pero no neutro: el WEF representa a grandes empresas que son sus socias, y las encuestadas son grandes empleadores. Las cifras son intenciones de directivos, que suelen sobrestimar la formación y la transformación.
