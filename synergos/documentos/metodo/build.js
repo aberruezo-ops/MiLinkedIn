@@ -110,7 +110,7 @@ const toc = [
 ];
 
 const doc = new Document({
-  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 1.3', description: 'Método Synergós, documento de trabajo',
+  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 1.4', description: 'Método Synergós, documento de trabajo',
   features: { updateFields: true },
   styles: {
     default: { document: { run: { font: BF, size: 21, color: INK } } },
@@ -128,8 +128,8 @@ const doc = new Document({
     { properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover },
     { properties: { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN }, pageNumbers: { start: 2 } } },
       headers: { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'Synergós · El método', font: SF, size: 15, color: GREY })] })] }) },
-      footers: { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.3 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: SF, size: 16, color: GREEN })] })] }) },
+      footers: { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.4 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: SF, size: 16, color: GREEN })] })] }) },
       children: [...toc, ...body] }
   ]
 });
-Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v1.3.docx'), b); console.log('ok', files.length, 'ficheros'); });
+Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v1.4.docx'), b); console.log('ok', files.length, 'ficheros'); });

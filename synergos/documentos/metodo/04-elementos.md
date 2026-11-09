@@ -94,6 +94,18 @@ Synergós usa esa idea para clasificar cada tarea en cuatro categorías: **deleg
 
 Brynjolfsson, Danielle Li y Lindsey Raymond estudiaron a unos cinco mil agentes de un centro de atención al cliente (el trabajo salió en 2023 y se publicó en 2025): con un asistente de IA generativa resolvían de media un 15 % más de casos por hora, en torno a un 30 % más quienes tenían menos experiencia, y los más expertos apenas mejoraban. Es una buena noticia y un aviso: la IA puede acelerar el aprendizaje del nuevo y, a la vez, quitarle la oportunidad de aprender por su cuenta. Vuelve a la pregunta de quién enseña.
 
+### Acelerar, automatizar o aumentar
+
+Son tres verbos distintos, y la pregunta de la puerta se hace con los tres. **Acelerar** es hacer la misma tarea más rápido, con la misma persona. **Automatizar** es que la tarea la haga el sistema y la persona salga del circuito. **Aumentar** es que la persona haga algo que antes no podía, o lo haga mejor, con la tecnología a su lado. Ninguno es bueno o malo por sí solo: tanto la automatización como la ampliación pueden ser rentables. Lo que preocupa a Brynjolfsson (2022) es que los incentivos empujen casi siempre hacia sustituir sin que nadie lo haya decidido.
+
+Lo que se sabe de cada uno, con las cautelas de cada estudio. **Acelerar:** en un experimento con tareas de redacción profesional, quienes usaron IA generativa tardaron un 40 % menos y su trabajo salió con una calidad un 18 % mayor (Noy y Zhang, 2023). Es una mejora real, y por sí sola no cambia nada: si el proceso y las aprobaciones son los mismos, el tiempo que se gana se lo queda la organización sin que nadie decida en qué se reinvierte. **Automatizar** tiene sentido cuando la tarea está bien entendida, el criterio se puede escribir y equivocarse sale barato. El problema aparece cuando se automatiza sin haber medido antes qué más hacía la persona, como en los casos de Klarna y Commonwealth Bank que recoge este documento. **Aumentar:** con un asistente de IA, los agentes de atención al cliente resolvieron de media un 15 % más de casos por hora y en torno a un 30 % más quienes tenían menos experiencia (Brynjolfsson, Li y Raymond, 2025). En consultoría, dentro de la frontera, hicieron un 12,2 % más de tareas, un 25,1 % más rápido y con más de un 40 % más de calidad, y fuera de ella acertaron 19 puntos menos que sin IA (Dell'Acqua y otros, 2023).
+
+**Tres condiciones para que una herramienta aumente.** *La persona decide:* el sistema propone y enseña, y quien conoce el caso decide y puede pararlo. *El conocimiento se protege:* antes de poner la herramienta se sabe qué sabe la gente que no está escrito en ningún sitio, y se diseña para que la herramienta se lo muestre a esa persona en lugar de sustituirla. *La autonomía sube por puertas:* con criterios fijados antes, por escrito, y con alguien que responde si algo falla.
+
+**Qué tiene que ser cierto.** La respuesta a la pregunta de la puerta se escribe por opción y lleva una segunda parte: qué tiene que ser cierto para que lo elegido dé el resultado que se espera. Si se acelera, a dónde va el tiempo que se gana. Si se aumenta, qué indicador mostrará que la persona hace algo que antes no podía. Y si se prueban muchas más ideas porque probar sale casi gratis, que la tasa de acierto aguante al escalar, que no está contrastado y que puede bajar.
+
+**Volumen o conversión.** Hacer más y hacer mejor lo que ya hay no son lo mismo. Pasar de 2 aciertos de cada 10 a 5 de cada 10 es convertir mejor. Pasar de 2 de 10 a 20 de 100 es captar más con la misma tasa. La IA puede dar las dos cosas, pero cada una pide su indicador. Cuando probar sale barato, lo escaso pasa a ser decidir qué idea se escala. Es una hipótesis de la versión 1.4, sin evidencia propia todavía.
+
 ### La escala de autonomía
 
 La autonomía de un sistema de IA dentro del servicio sube por niveles, y cada subida se gana en una puerta con evaluaciones superadas. Es la pieza que protege lo que más cuesta recuperar: la confianza de quien trabaja y de quien recibe el servicio.
@@ -107,6 +119,8 @@ La autonomía de un sistema de IA dentro del servicio sube por niveles, y cada s
 
 Esta definición de niveles es una propuesta de la versión 1.0. Bajar de nivel es tan legítimo como subir, y el método lo prevé.
 
+**Qué se escribe antes de cada peldaño.** Subir de nivel exige tener por escrito, antes de pasar la puerta, tres cosas: el criterio de subida (la última columna de la tabla, con su medida concreta), quién responde si el sistema se equivoca en ese nivel y qué se registra de cada acción para poder auditarla. Bajar de nivel exige lo mismo a la inversa: quién puede decidirlo y con qué señal. Algunos esquemas de gobierno de IA usan cuatro niveles parecidos (asistencia, recomendada, decidida y actuada). La equivalencia con los de Synergós es aproximada y no está contrastada. Lo que importa no son los nombres, sino que cada peldaño tenga un criterio y un responsable escritos antes de subir.
+
 ### El entorno que exige la IA
 
 Antes del primer piloto con IA dentro del servicio hay que poder responder tres preguntas: quién decide y quién responde, con qué reglas se usa, y quién sabe usarla. De ahí salen las piezas del entorno: el gobierno de la IA integrado en el comité de puertas, no en un comité paralelo; un inventario de sistemas y de riesgos; la gestión de riesgos alineada con el Reglamento europeo de inteligencia artificial (Reglamento (UE) 2024/1689); el uso seguro y el acceso controlado; el gobierno del dato; la formación por perfil; y una comunidad de práctica.
@@ -114,6 +128,14 @@ Antes del primer piloto con IA dentro del servicio hay que poder responder tres 
 Sobre el Reglamento conviene ser prudente. Entró en vigor en agosto de 2024 y sus obligaciones se aplican de forma escalonada, con fechas que se han discutido y que pueden haberse ajustado. Antes de cualquier decisión concreta hay que comprobar el calendario vigente y la clasificación de riesgo del caso con quien tenga competencia jurídica. El método no sustituye a ese análisis; solo obliga a hacerlo en el momento oportuno.
 
 El entorno es necesario, pero no suficiente. Dónde aplicar la IA lo decide el diagnóstico, no el entorno.
+
+### Qué se gobierna, y la columna que falta
+
+Para esta versión revisé un esquema de gobierno de IA que circula en forma de infografía, de un autor que no he podido identificar. No es un estándar y no lo cito como fuente. Enumera lo que se gobierna: los casos de uso, los datos, los modelos, los agentes, las aplicaciones y servicios, y los proveedores y terceros. Y los riesgos que se vigilan: estratégico, operacional, tecnológico, legal y regulatorio, ético y reputacional, y de personas y social. Es una buena lista de comprobación y Synergós la adopta como tal.
+
+Lo que ese esquema no recoge, y no conviene generalizar a partir de uno solo, es el objeto que más le importa a Synergós: lo que sabe la gente que hace hoy el trabajo y lo que le pasa a su criterio con cada decisión. Propuesta de la versión 1.4: añadir esa columna al inventario de sistemas y de casos de uso. Para cada uno se anotan cuatro cosas: qué sabe hoy quien hace ese trabajo (la fila correspondiente del mapa), qué criterio gana o pierde cada rol, quién enseña lo que la tarea enseñaba y quién puede pararlo. Es el contenido de las cinco preguntas de la puerta, llevado al inventario para que no se pierda entre el registro de riesgos.
+
+La clasificación de riesgo que obliga a aplicar el Reglamento europeo la fija el análisis jurídico del caso, no esta lista. Aquí sirve para no olvidar qué mirar.
 
 ### Las demás tecnologías
 

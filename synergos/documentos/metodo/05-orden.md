@@ -12,6 +12,8 @@ Rumelt describió en 2011 el núcleo de una buena estrategia en tres partes: un 
 
 Un comité de puertas con criterios previos, derechos de decisión escritos y un registro de riesgos y de decisiones. Peter Weill y Jeanne Ross mostraron en 2004 que las organizaciones que deciden con claridad quién decide qué sobre la tecnología obtienen más valor de ella. La claridad importa más que el modelo concreto.
 
+**Tres capas de responsabilidad.** El gobierno fija los criterios, los derechos de decisión y las puertas. La gestión los aplica, los mide y los corrige. El uso es de quien trabaja con la herramienta cada día, que es quien primero ve cuándo falla. Propuesta de la versión 1.4: la capa de uso tiene derecho a parar, por escrito y sin represalias, y ese derecho se anota en la misma tabla que los demás derechos de decisión. Sin él, que la persona decida se queda en una frase.
+
 *Señal de fallo:* las puertas se aprueban por calendario y no por evidencias. Cuando la puerta se pasa porque toca, deja de ser una puerta.
 
 ### Modelo económico

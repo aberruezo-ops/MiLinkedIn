@@ -64,6 +64,8 @@ Algunas preguntas ya aparecen en los recuadros de cada capítulo. Aquí están r
 - **¿Cómo se mide el criterio de las personas?** Tengo candidatos, ningún indicador que me convenza.
 - **¿Cómo se demuestra que el método funciona?** No hay comparación entre programas con y sin Synergós. Solo se responde aplicándolo y publicando.
 - **¿Qué es exactamente nuevo en la IA generativa?** Tengo una hipótesis (escala, velocidad, relación con lo tácito) sin contrastar con evidencia suficiente.
+- **¿Aguanta la tasa de acierto cuando se prueba más?** Si la IA quita fricción y se prueban muchas más ideas, no sé si el porcentaje de aciertos se mantiene. Es posible que baje. No tengo evidencia propia ni una fuente que lo mida con claridad.
+- **¿Cuánto gobierno cabe en una hoja?** Los esquemas de gobierno de IA tienen decenas de casillas y las cinco preguntas de la puerta tienen cinco. No sé en qué punto se pierde lo que importa por simplificar, ni en cuál se pierde la gente por exceso.
 - **¿Qué hace el método si el patrocinador no quiere saber?** Puede hacerlo visible, no evitarlo.
 - **¿Funciona en una organización muy pequeña?** No lo he probado.
 - **¿Funciona en culturas organizativas muy jerárquicas,** donde la seguridad psicológica es baja por diseño? Mi intuición es que el mapa es más necesario y más difícil a la vez, pero es solo intuición.

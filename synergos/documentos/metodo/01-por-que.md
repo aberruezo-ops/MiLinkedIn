@@ -1,6 +1,6 @@
 # Cómo leer este documento
 
-Este documento describe el método Synergós en su versión 1.3. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
+Este documento describe el método Synergós en su versión 1.4. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
 
 Hay tres cosas que conviene saber antes de empezar.
 
@@ -44,7 +44,7 @@ Lo que sí está documentado, y con bastante solidez, son los motivos por los qu
 | Se corrigen errores sin cuestionar los supuestos | Argyris y Schön 1978 | Supervisión de doble bucle, con calendario |
 | Se diseña de espaldas a quien usa el servicio | Von Hippel 2005; Christensen y otros 2016 | Interacción: visitas al puesto, cocreación, canal de propuestas |
 | Se declara la victoria demasiado pronto | Kotter 1995 | Fase de sostenimiento con dueño y presupuesto propios |
-| La balanza está inclinada hacia sustituir en vez de ampliar | Brynjolfsson 2022; Zuboff 1988 | Segunda pregunta de la puerta: ¿automatiza o informa? |
+| La balanza está inclinada hacia sustituir en vez de ampliar | Brynjolfsson 2022; Zuboff 1988 | Segunda pregunta de la puerta: ¿acelera, automatiza o aumenta? |
 
 La tabla tiene una segunda función, menos visible: es un control. Quien proponga añadir una pieza al método tiene que decir a qué causa responde. Y si con el tiempo una causa deja de estar documentada, o aparece evidencia de que una pieza no la resuelve, la pieza se revisa. Así se evita que el método engorde por acumulación, que es lo que les pasa a casi todos.
 
@@ -58,7 +58,7 @@ Si se mira la tabla con calma aparecen tres patrones que explican casi todo lo d
 
 **Lo que no se ve.** Varias causas tienen que ver con algo que existe y nadie mira: el conocimiento que no está escrito, el incentivo que sigue premiando lo de antes, el supuesto que nadie cuestiona, el usuario que no estaba en la sala. El método pone entregables concretos para hacer visible cada una de esas cosas antes de decidir.
 
-**La balanza.** La tecnología actual, y la IA más que ninguna, se puede usar para sustituir a las personas o para ampliar lo que pueden hacer. Erik Brynjolfsson llamó trampa de Turing al exceso de incentivos que empuja hacia lo primero. Shoshana Zuboff lo había formulado en 1988 con dos verbos: automatizar o informar. No es una propiedad de la tecnología. Es una decisión de diseño, y Synergós obliga a tomarla por escrito.
+**La balanza.** La tecnología actual, y la IA más que ninguna, se puede usar para sustituir a las personas o para ampliar lo que pueden hacer. Erik Brynjolfsson llamó trampa de Turing al exceso de incentivos que empuja hacia lo primero. Shoshana Zuboff lo había formulado en 1988 con dos verbos: automatizar o informar. Synergós la amplía a tres: acelerar, automatizar o aumentar. No es una propiedad de la tecnología. Es una decisión de diseño, y Synergós obliga a tomarla por escrito.
 
 ## 4. Lo que Synergós no es
 
@@ -72,4 +72,4 @@ Un método se entiende mejor cuando se dice también lo que no pretende ser.
 
 **No es una garantía.** Ningún método lo es. Lo que Synergós promete es más modesto y, creo, más útil: que las decisiones importantes se tomen sabiendo lo que se arriesga, y que el programa tenga formas baratas de equivocarse y de dar marcha atrás.
 
-**No es un producto cerrado.** Va por la versión 1.3 y tiene preguntas abiertas que reconozco en cada capítulo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.
+**No es un producto cerrado.** Va por la versión 1.4 y tiene preguntas abiertas que reconozco en cada capítulo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.
