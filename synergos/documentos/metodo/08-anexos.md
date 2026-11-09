@@ -52,8 +52,9 @@ Una página por opción de diseño.
 | Campo | Qué se escribe |
 |---|---|
 | Opción | Descripción en dos líneas |
+| Objetivo | Cuál persigue (eficiencia, crecimiento, aumentar a las personas, reparto del valor, confianza), cómo se mide y quién se queda con lo que se gana |
 | 1. ¿Ataca la restricción? | Sí o no, y cómo; si no, motivo para mantenerla |
-| 2. ¿Automatiza o informa? | A quién, en qué tareas; qué criterio gana o pierde la persona |
+| 2. ¿Acelera, automatiza o aumenta? | A quién, en qué tareas; qué criterio gana o pierde la persona; si crea tareas nuevas o solo desplaza; qué pericia queda en el puesto; qué tiene que ser cierto para que dé el resultado esperado |
 | 3. Mapa | Qué filas se quedan en la persona, cuáles pasan al sistema de forma revisable, cuáles se pierden |
 | 4. Errores y enseñanza | Quién responde cuando el sistema se equivoque; quién enseña lo que la tarea enseñaba |
 | 5. Crecer a la vez | Qué indicador de cada elemento mejora, cuál empeora |
@@ -250,6 +251,34 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios (Ley 11/2023, aplicable desde el 28 de junio de 2025); Directiva (UE) 2024/2831, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Su aplicación concreta debe comprobarse con asesoría jurídica.
 
+**Fuentes añadidas en la versión 1.5** (revisión del objetivo de la IA, fichas en el cuaderno: estudios/02-revision-objetivo-ia). Pendientes de ficha propia antes de citarlas en público, salvo las marcadas como cotejadas.
+
+**Acemoglu, D. y Johnson, S. (2023).** *Power and Progress.* La dirección de la tecnología es una elección de poder; proponen la "utilidad de la máquina" frente a imitar al humano. No dicen que toda automatización sea mala; sus cifras macro son discutidas.
+
+**Autor, D. (2024).** "Applying AI to Rebuild Middle Class Jobs". NBER Working Paper 32140. La IA puede extender la pericia a más trabajadores. Lo plantea como posibilidad, no como pronóstico.
+
+**Autor, D. y Thompson, N. (2025).** "Expertise". *Journal of the European Economic Association*, 23(4). El efecto de automatizar depende de si se retiran las tareas sencillas o las expertas de un puesto.
+
+**Daugherty, P. y Wilson, H. J. (2018 y 2022).** *Human + Machine* y *Radically Human.* Los roles híbridos y "el medio que falta". Evidencia de consultora, no auditable.
+
+**Davenport, T. y Kirby, J. (2016).** *Only Humans Need Apply.* Cinco formas de aumentar a la persona. Aviso sobre la pérdida de pericia cuando la persona solo valida.
+
+**Gillespie, N. y otros (2025).** *Trust, attitudes and use of artificial intelligence: a global study 2025.* Universidad de Melbourne y KPMG; 48.340 personas en 47 países. Uso sin comprobar, uso oculto y pocas políticas internas. Cifras pendientes de cotejo en el informe completo.
+
+**Iansiti, M. y Lakhani, K. (2020).** *Competing in the Age of AI.* La empresa como "fábrica de IA". Apenas trata el conocimiento no escrito.
+
+**Malone, T. (2018).** *Superminds.* La inteligencia colectiva y los papeles de la máquina en un grupo (herramienta, asistente, compañero, jefe).
+
+**Mollick, E. (2024).** *Co-Intelligence.* La IA como cointeligencia y la frontera irregular; divulgación apoyada en el experimento de Dell'Acqua y otros.
+
+**PwC (2026).** *Global AI Jobs Barometer* y *29th Global CEO Survey.* Cotejadas con página en el cuaderno. Datos propios correlacionales y encuesta a consejeros delegados.
+
+**Vaccaro, M., Almaatouq, A. y Malone, T. (2024).** "When combinations of humans and AI are useful: a systematic review and meta-analysis". *Nature Human Behaviour.* De media, persona e IA juntas rinden mejor que la persona sola y peor que el mejor de los dos; mejor en tareas de creación que de decisión.
+
+**World Economic Forum (2025).** *The Future of Jobs Report 2025.* Cotejado con página en el cuaderno. Intenciones declaradas por empleadores, no resultados.
+
+**Revisadas y no citadas:** McKinsey, BCG, Deloitte y Accenture. Son encuestas de consultora, no evidencia independiente, y sus cifras no se han podido cotejar en el documento original. Se usan como contexto en el cuaderno, no en el método.
+
 **Esquemas no citados como fuente.** Para la versión 1.4 se revisó un esquema de gobierno de IA que circula como infografía, de un autor no identificado y con licencia desconocida. No es un estándar, no se cita como fuente y no se reproduce su diseño: solo se usó como lista de comprobación de lo que se gobierna y de los riesgos que se vigilan.
 
 **Pendientes de ficha propia y no usadas como argumento:** los estudios de mercado de 2025 sobre pilotos de IA que no llegan a producción.
@@ -265,3 +294,4 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 | 1.2 | 6 de noviembre de 2026 | Las tres miradas: revisión desde quien dirige, quien hace el trabajo y quien recibe el servicio; ocho módulos nuevos (mandos intermedios, cultura y estructura, plazos realistas, trabajadores ante los algoritmos, cuando un puesto desaparece, inclusión, quien recibe el servicio, huella material) y lo que añaden a las puertas |
 | 1.3 | 6 de noviembre de 2026 | Verificación de fuentes: corregidos Trist y Bamforth, Klarna, Commonwealth Bank, Brynjolfsson, Li y Raymond, el estudio de los canarios, Bloom y otros, Goodhart y Strathern, Lave y Wenger, Dreyfus, Douady y Couder, Polanyi, Douglas, Turner, Ryan y Deci, Cross y Parker, Parasuraman y Riley; calendario del Reglamento de IA tras el Reglamento (UE) 2026/1744; referencias completas |
 | 1.4 | 9 de noviembre de 2026 | Gobierno de la IA: la columna de las personas y su conocimiento en el inventario, las tres capas de responsabilidad con el derecho a parar y qué se escribe antes de cada peldaño de la escala de autonomía. La pregunta de la puerta pasa de dos verbos a tres (acelerar, automatizar o aumentar), con las tres condiciones para aumentar, la segunda parte "qué tiene que ser cierto" y la distinción entre volumen y conversión. Dos preguntas abiertas nuevas |
+| 1.5 | 9 de noviembre de 2026 | Revisión de lo que dicen autores y consultoras sobre el objetivo de la IA: nueva sección "Para qué: el objetivo" (cap. 17) y campo Objetivo en la plantilla de puerta; dos preguntas más dentro de la segunda de la puerta (si crea tareas o solo desplaza, qué pericia queda en el puesto); acelerar declarado como distinción propia sin fuente; el metaanálisis de Vaccaro, Almaatouq y Malone (aumentar no está garantizado); la doble cara de capturar lo tácito (cap. 16); vigilancia e incentivos en el inventario; techo explícito para la escala de autonomía; fuentes nuevas en el anexo E |
