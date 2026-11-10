@@ -5,10 +5,10 @@ def bar(a,b,label,cls,row):
     return f'<div class="seg {cls}" style="left:{pct(a):.2f}%;width:{pct(b)-pct(a):.2f}%;top:{row}mm"><span>{label}</span></div>'
 segs=[bar(1996.67,1997.55,'','c1',0),bar(1997.55,1998.08,'','c9',0),bar(1998.08,2006.42,'Nexus IT y Business Integration','c2',0),
 bar(2006.42,2017.13,'Getronics','c3',0),bar(2017.13,2018.67,'','c8',0),bar(2018.67,2019.42,'','c4',0),bar(2019.42,2026.85,'Minsait (Indra)','c5',0),
-bar(2016.92,2026.85,'Hestía, your home!','c6',9),bar(2025.9,2026.85,'','c7',16)]
+bar(2016.92,2026.85,'Hestía, your home!','c6',9),bar(2024.85,2026.85,'','c7',16)]
 ticks=''.join(f'<span style="position:absolute;left:{pct(y):.2f}%;transform:translateX(-50%)">{y}</span>' for y in (2000,2006,2010,2016,2020,2026))
 tl=f'''<div class="tl"><div class="tlbars">{"".join(segs)}</div>
-<div class="tlnote"><span style="left:0">Software AG, Thales</span><span style="left:{pct(2016.6):.2f}%">estudios: máster Big Data</span><span style="right:{100-pct(2025.9)+1:.2f}%;top:9.6mm">Synergós, 2026</span></div></div>'''
+<div class="tlnote"><span style="left:0">Software AG, Thales</span><span style="left:{pct(2016.6):.2f}%">estudios: máster Big Data</span><span style="right:{100-pct(2024.85)+1:.2f}%;top:9.6mm">Synergós, 2024</span></div></div>'''
 CSS='''
 @font-face{font-family:Fr;src:url('file:///home/user/MiLinkedIn/synergos/imagenes/fonts/Fraunces.ttf')}
 @page{size:A4;margin:0}
@@ -217,8 +217,8 @@ HTML=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Aleja
 
   <section><h2>Emprendimiento personal y profesional</h2>
     <div class="job">
-      <div class="jh"><span class="jt">Fundador, Synergós</span><span class="jd">Oct 2026 a hoy</span></div>
-      <div class="jc">Método propio para dirigir transformaciones con IA, versión 1.5</div>
+      <div class="jh"><span class="jt">Fundador, Synergós</span><span class="jd">2024 a hoy</span></div>
+      <div class="jc">Método propio para dirigir transformaciones con IA, con origen en MINEsait. Versión 1.5</div>
       <ul class="b">
         <li><b>Gobierno.</b> Comité de puertas integrado en el gobierno del programa. Inventario de sistemas y riesgos con una columna de personas y conocimiento.</li>
         <li><b>Autonomía y decisión.</b> Cuatro niveles; cada subida exige criterio, responsable y registro. Antes de aprobar, si la herramienta acelera, automatiza o aumenta.</li>

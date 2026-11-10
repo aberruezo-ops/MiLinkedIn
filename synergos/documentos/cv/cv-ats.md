@@ -60,9 +60,9 @@ Perfil multisectorial: mis modelos no están circunscritos a un sector (Administ
 
 ## Emprendimiento personal y profesional
 
-### Fundador, Synergós. Oct 2026 a hoy
+### Fundador, Synergós. 2024 a hoy
 
-Método propio para dirigir transformaciones con IA. Versión 1.5 (noviembre de 2026), 81 páginas, con fuentes verificadas. Publicación semanal en LinkedIn.
+Método propio para dirigir transformaciones con IA, con origen en MINEsait, el ecosistema de colaboración para la innovación dentro de Minsait. Versión 1.5 (noviembre de 2026), 81 páginas, con fuentes verificadas. Publicación semanal en LinkedIn.
 
 - Gobierno: comité de puertas integrado en el gobierno del programa; inventario de sistemas y riesgos con una columna de personas y conocimiento.
 - Autonomía: cuatro niveles; cada subida exige criterio, responsable y registro para auditar.
