@@ -36,7 +36,7 @@ section{margin-top:4.6mm}
 p{margin-bottom:1.8mm}
 .lead{font-size:9.6pt;line-height:1.42;color:var(--ink)}
 .kw{display:flex;flex-wrap:wrap;gap:1.2mm;margin-top:2.4mm}
-.kw span,.chips span{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.6pt;border:.25mm solid #BFD3C5;color:var(--dk);padding:.6mm 1.9mm;border-radius:2mm;font-weight:500}
+.kw span,.chips span{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.6pt;border:.25mm solid #BFD3C5;color:var(--dk);padding:.6mm 2mm;border-radius:2.2mm 0 2.2mm 0;font-weight:500}
 .chips{display:flex;flex-wrap:wrap;gap:1.1mm}
 aside .chips span{border-color:#3C6350;color:#E6EEE8}
 .match{display:grid;grid-template-columns:1fr 1fr;gap:3mm 5mm;counter-reset:m}
@@ -52,7 +52,7 @@ aside .chips span{border-color:#3C6350;color:#E6EEE8}
 ul.b{list-style:none}
 ul.b li{position:relative;padding-left:3.4mm;margin-bottom:.9mm}
 ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.6mm;height:.28mm;background:var(--gold)}
-.inss{border-left:.7mm solid var(--gold);background:var(--tint);padding:2.2mm 3.2mm 1.2mm;margin:1.4mm 0 2.2mm;border-radius:0 1.5mm 1.5mm 0}
+.inss{border:.25mm solid #CFE0D3;background:var(--tint);padding:2.4mm 3.6mm 1.4mm;margin:1.4mm 0 2.4mm;border-radius:5mm 0 5mm 0}
 .inss .tag{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.3pt;letter-spacing:1.4pt;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:.6mm}
 .inss .big{font-family:Fr,'Liberation Serif',serif;font-size:10.5pt;margin-bottom:.9mm;color:var(--dk)}
 .small{font-size:8.2pt;color:var(--mute)}
