@@ -20,7 +20,7 @@ Perfil multisectorial: mis modelos no están circunscritos a un sector (Administ
 
 ### Senior Manager / Principal, Transformación Digital, Preventa y Proyectos. Minsait (Indra), Madrid. Jun 2019 a hoy
 
-- Proyecto destacado: transformación digital de la Gerencia de Informática de la Seguridad Social (GISS), con especial presencia en el INSS. Liderazgo de un programa de más de 300 profesionales.
+- Proyecto destacado: transformación digital de la Gerencia de Informática de la Seguridad Social (GISS). Liderazgo de un programa de más de 300 profesionales.
 - Modelo de gobierno entre ingeniería, arquitectura, producto, operaciones y la dirección del cliente. Acompañamiento a su comité de dirección en las decisiones que marcan cada fase.
 - Gobierno de plataformas, productos y ecosistemas tecnológicos; estrategias de transformación, modelos objetivo y hojas de ruta ejecutables en sector público y grandes entornos regulados.
 - Ofertas lideradas por más de 500 M€ acumulados, con adjudicación cercana al 50 % en las oportunidades clave: propuestas de más de 30 M€, equipos de oferta de más de 12 personas y servicios de hasta 400 personas.
