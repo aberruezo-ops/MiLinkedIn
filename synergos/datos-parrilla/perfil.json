@@ -1,0 +1,56 @@
+[
+ {
+  "id": "p1",
+  "tarea": "Titular en español",
+  "estado": "hecho",
+  "falta": "Publicado el 26 oct. Sugerencia: subir \"Creador de Synergós\" al segundo puesto"
+ },
+ {
+  "id": "p2",
+  "tarea": "Acerca de en español (v2.3, 2.556 caracteres)",
+  "estado": "por confirmar",
+  "falta": "Entregado el 7 nov; falta confirmar que está pegado"
+ },
+ {
+  "id": "p3",
+  "tarea": "Titular y Acerca de en inglés",
+  "estado": "por confirmar",
+  "falta": "Entregados el 7 nov; revisar con tu B2 y pegar en la versión en inglés del perfil"
+ },
+ {
+  "id": "p4",
+  "tarea": "Cabecera (imagenes/cabecera.png)",
+  "estado": "por confirmar",
+  "falta": "Subirla si no está"
+ },
+ {
+  "id": "p5",
+  "tarea": "Destacados",
+  "estado": "por confirmar",
+  "falta": "Fijar el AR4 y la infografía del método, por encima de los de Hestía"
+ },
+ {
+  "id": "p6",
+  "tarea": "Aptitudes",
+  "estado": "pendiente",
+  "falta": "Añadir gestión de portfolio, desarrollo de ofertas, innovación en servicios, adopción de IA, gobierno de IA, gestión del cambio"
+ },
+ {
+  "id": "p7",
+  "tarea": "Experiencia en Getronics",
+  "estado": "pendiente",
+  "falta": "Completar con las piezas de offering y portfolio; confirmar cargo y años"
+ },
+ {
+  "id": "p8",
+  "tarea": "Recomendaciones",
+  "estado": "pendiente",
+  "falta": "Pedir dos a personas de Getronics, centradas en offering y portfolio (contacto tuyo)"
+ },
+ {
+  "id": "p9",
+  "tarea": "Misión del perfil",
+  "estado": "en espera",
+  "falta": "Decidir si va en el Acerca de o en la descripción del puesto"
+ }
+]

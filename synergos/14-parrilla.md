@@ -1,6 +1,6 @@
-# Parrilla de publicaciones
+# Parrilla LinkedIn
 
-Qué sale cada día, en qué estado está y qué falta. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 10 nov 2026, 9:00. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 10 nov 2026, 9:00. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (texto aprobado, falta programar o pegar), **por redactar**, **por decidir**, **idea**.
 
