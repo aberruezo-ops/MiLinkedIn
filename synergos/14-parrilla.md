@@ -1,6 +1,6 @@
 # Parrilla de publicaciones
 
-Qué sale cada día, en qué estado está y qué falta. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 10 nov 2026, 9:00.
+Qué sale cada día, en qué estado está y qué falta. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 10 nov 2026, 9:00. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (texto aprobado, falta programar o pegar), **por redactar**, **por decidir**, **idea**.
 
@@ -38,9 +38,9 @@ En el banco, sin fecha: B19 (volumen o conversión), B20 (el marco al que le fal
 
 | Día | Pieza |
 |---|---|
-| Lun 27 oct | B0 Presentación de Synergós (8 comentarios el primer día) y AR1 Los mimbres |
-| Mar 28 oct | B6 La persona sin la que nada funcionaría |
-| Mié 29 oct | B1 La gestión del cambio llega tarde |
+| Mar 27 oct | B0 Presentación de Synergós (8 comentarios el primer día) y AR1 Los mimbres |
+| Mié 28 oct | B6 La persona sin la que nada funcionaría |
+| Jue 29 oct | B1 La gestión del cambio llega tarde |
 | Lun 2 nov | AR2 El mapa de lo que nadie escribió |
 | Mar 3 nov | B12 Marchas atrás (Klarna, CBA, Stanford) |
 | Mié 4 nov | C12 ¿Qué pasaría mañana en tu equipo si tú no vinieras? |

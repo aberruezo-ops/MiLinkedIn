@@ -1,0 +1,26 @@
+[
+ {
+  "concepto": "Límite del mes",
+  "valor": 15
+ },
+ {
+  "concepto": "Usados",
+  "valor": 8
+ },
+ {
+  "concepto": "Programados",
+  "valor": 2
+ },
+ {
+  "concepto": "Restantes",
+  "valor": 5
+ },
+ {
+  "concepto": "Previstos sin programar",
+  "valor": 9
+ },
+ {
+  "concepto": "Faltan",
+  "valor": 4
+ }
+]

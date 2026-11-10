@@ -1,0 +1,186 @@
+[
+ {
+  "fecha": "2026-10-27",
+  "tipo": "Artículo y post",
+  "pieza": "B0 Presentación de Synergós y AR1 Los mimbres",
+  "pilar": "Todos",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-10-28",
+  "tipo": "Post",
+  "pieza": "B6 La persona sin la que nada funcionaría",
+  "pilar": "Conocimiento",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-10-29",
+  "tipo": "Post",
+  "pieza": "B1 La gestión del cambio llega tarde",
+  "pilar": "Personas",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-11-02",
+  "tipo": "Artículo",
+  "pieza": "AR2 El mapa de lo que nadie escribió",
+  "pilar": "Conocimiento",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-11-03",
+  "tipo": "Post",
+  "pieza": "B12 Marchas atrás (Klarna, CBA, Stanford)",
+  "pilar": "Tecnología",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-11-04",
+  "tipo": "Post",
+  "pieza": "C12 ¿Qué pasaría mañana en tu equipo si tú no vinieras?",
+  "pilar": "Personas",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-11-05",
+  "tipo": "Post",
+  "pieza": "B13 La columna que asusta",
+  "pilar": "El orden",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-11-06",
+  "tipo": "Cierre",
+  "pieza": "V1 Cierre de la semana (conocimiento)",
+  "pilar": "Cierre",
+  "estado": "publicado",
+  "falta": ""
+ },
+ {
+  "fecha": "2026-11-09",
+  "tipo": "Artículo",
+  "pieza": "AR4 ¿Acelera, automatiza o aumenta?",
+  "pilar": "Tecnología",
+  "estado": "publicado",
+  "falta": "Responder a mano a Jorge García"
+ },
+ {
+  "fecha": "2026-11-10",
+  "tipo": "Post",
+  "pieza": "B18 Lo que no está escrito está enterrado",
+  "pilar": "Conocimiento",
+  "estado": "publicado",
+  "falta": "Responder a mano a los comentarios que lleguen"
+ },
+ {
+  "fecha": "2026-11-11",
+  "tipo": "Post",
+  "pieza": "C13 ¿Qué tarea soltarías y cuál no?",
+  "pilar": "Personas",
+  "estado": "programado",
+  "falta": "Nada: sale solo con vídeo y enlace del AR4"
+ },
+ {
+  "fecha": "2026-11-12",
+  "tipo": "Post",
+  "pieza": "B15 Tres preguntas antes de aprobar un proyecto con IA",
+  "pilar": "El orden",
+  "estado": "programado",
+  "falta": "Nada: sale solo con vídeo, enlace y fuentes"
+ },
+ {
+  "fecha": "2026-11-13",
+  "tipo": "Cierre",
+  "pieza": "V2 Cierre de la semana (tecnología)",
+  "pilar": "Cierre",
+  "estado": "por redactar",
+  "falta": "Rutina del jueves 12 a las 17:41; Alejandro aprueba; decidir si lleva la infografía de los tres verbos"
+ },
+ {
+  "fecha": "2026-11-16",
+  "tipo": "Artículo",
+  "pieza": "AR3 La bola negra",
+  "pilar": "Personas",
+  "estado": "aprobado",
+  "falta": "Alejandro lo pega a mano; falta su visto bueno a la animación 3D"
+ },
+ {
+  "fecha": "2026-11-17",
+  "tipo": "Post",
+  "pieza": "Post de conocimiento (candidato B11)",
+  "pilar": "Conocimiento",
+  "estado": "por decidir",
+  "falta": "Elegir del banco; B11 exige fichar Nelson y Winter, y Nonaka y Takeuchi"
+ },
+ {
+  "fecha": "2026-11-18",
+  "tipo": "Post",
+  "pieza": "C4 La última vez que una herramienta te hizo mejor en tu trabajo",
+  "pilar": "Tecnología",
+  "estado": "por decidir",
+  "falta": "Aprobación de Alejandro"
+ },
+ {
+  "fecha": "2026-11-19",
+  "tipo": "Post",
+  "pieza": "B14",
+  "pilar": "El orden",
+  "estado": "por redactar",
+  "falta": "Rutina del miércoles 18; ese jueves se redacta el AR5"
+ },
+ {
+  "fecha": "2026-11-20",
+  "tipo": "Cierre",
+  "pieza": "V3 Cierre de la semana (personas)",
+  "pilar": "Cierre",
+  "estado": "por redactar",
+  "falta": "Rutina del jueves 19"
+ },
+ {
+  "fecha": "2026-11-23",
+  "tipo": "Artículo",
+  "pieza": "AR5 Diagnóstico antes que solución",
+  "pilar": "El orden",
+  "estado": "por redactar",
+  "falta": "Redactar el jueves 19"
+ },
+ {
+  "fecha": "2026-11-24",
+  "tipo": "Post",
+  "pieza": "Post de conocimiento",
+  "pilar": "Conocimiento",
+  "estado": "por decidir",
+  "falta": "Elegir del banco"
+ },
+ {
+  "fecha": "2026-11-25",
+  "tipo": "Post",
+  "pieza": "C11 El liderazgo empieza donde termina el ego",
+  "pilar": "Personas",
+  "estado": "aprobado",
+  "falta": "Regenerar el vídeo girasol con su pregunta"
+ },
+ {
+  "fecha": "2026-11-26",
+  "tipo": "Post",
+  "pieza": "B3 Zuboff: no es la herramienta, es la decisión",
+  "pilar": "Tecnología",
+  "estado": "idea",
+  "falta": "Redactar"
+ },
+ {
+  "fecha": "2026-11-27",
+  "tipo": "Cierre",
+  "pieza": "V4 Cierre de la semana (el orden)",
+  "pilar": "Cierre",
+  "estado": "por redactar",
+  "falta": "Rutina del jueves 26"
+ }
+]
