@@ -167,7 +167,12 @@ HTML=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Aleja
     <div class="job">
       <div class="jh"><span class="jt">Senior Manager y Presales Manager</span><span class="jd">Sep 2018 a may 2019</span></div>
       <div class="jc">Enzyme Advising Group, Madrid</div>
-      <ul class="b"><li>Desarrollo de la oficina de Madrid: preventa, desarrollo de negocio y relación con las cuentas estratégicas.</li></ul>
+      <div class="nums">
+        <div><span class="num">≈10</span>personas en la oficina de Madrid</div>
+        <div><span class="num">≈25</span>oportunidades en cartera</div>
+        <div><span class="num">0,8 a 0,9 M€</span>de volumen total aproximado</div>
+      </div>
+      <ul class="b"><li>Puesta en marcha de la oficina de Madrid, con soporte de servicios desde Barcelona: preventa, desarrollo de negocio y relación con las cuentas estratégicas.</li></ul>
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales, Alliances &amp; Offering Director</span><span class="jd">May 2012 a feb 2017</span></div>
@@ -193,7 +198,7 @@ HTML=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Aleja
     <div class="job">
       <div class="jh"><span class="jt">Presales Manager</span><span class="jd">Jun 2006 a nov 2010</span></div>
       <div class="jc">Getronics, Madrid</div>
-      <ul class="b"><li>Coordinación de la preventa técnica; definición, puesta en marcha y auditoría de los procedimientos de oportunidades y de proyectos.</li></ul>
+      <ul class="b"><li>Coordinación de la preventa técnica; definición, puesta en marcha y auditoría de procedimientos de oportunidades y proyectos.</li></ul>
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales Engineer, Consultant y Project Manager</span><span class="jd">Feb 1998 a may 2006</span></div>
@@ -210,8 +215,7 @@ HTML=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Aleja
   <section><h2>Emprendimiento personal y profesional</h2>
     <div class="job">
       <div class="jh"><span class="jt">Fundador, Synergós</span><span class="jd">Oct 2026 a hoy</span></div>
-      <div class="jc">Método propio para dirigir transformaciones con IA</div>
-      <p>Personas, conocimiento y tecnología crecen a la vez. Versión 1.5 (noviembre de 2026), 81 páginas, con fuentes verificadas. Publicación semanal en LinkedIn.</p>
+      <div class="jc">Método propio para dirigir transformaciones con IA. Versión 1.5, 81 páginas, publicación semanal en LinkedIn</div>
       <ul class="b">
         <li><b>Gobierno.</b> Comité de puertas integrado en el gobierno del programa. Inventario de sistemas y riesgos con una columna de personas y conocimiento.</li>
         <li><b>Autonomía.</b> Cuatro niveles; cada subida exige criterio, responsable y registro para auditar.</li>

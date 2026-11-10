@@ -29,7 +29,7 @@ Perfil multisectorial: mis modelos no están circunscritos a un sector (Administ
 
 ### Senior Manager y Presales Manager. Enzyme Advising Group, Madrid. Sep 2018 a may 2019
 
-- Desarrollo de la oficina de Madrid: preventa, desarrollo de negocio y relación con las cuentas estratégicas.
+- Puesta en marcha de la oficina de Madrid (unas 10 personas), con soporte de servicios desde Barcelona: preventa, desarrollo de negocio y relación con las cuentas estratégicas. Cartera de unas 25 oportunidades, con un volumen total aproximado de 0,8 a 0,9 M€.
 
 ### Presales, Alliances & Offering Director. Getronics, Madrid. May 2012 a feb 2017
 
