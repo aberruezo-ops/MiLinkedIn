@@ -1,91 +1,107 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Alejandro Berruezo Márquez, CV</title>
-<style>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Alejandro Berruezo Márquez, CV</title><style>
 @font-face{font-family:Fr;src:url('file:///home/user/MiLinkedIn/synergos/imagenes/fonts/Fraunces.ttf')}
 @page{size:A4;margin:0}
-:root{--ink:#1F1D1A;--mute:#5E625F;--rule:#CFD5D0;--side:#EEF1EE;--acc:#2C6D3F}
+:root{--ink:#1F1D1A;--mute:#5E625F;--rule:#D5DBD6;--dk:#1B3A29;--acc:#2C6D3F;--tint:#E8F0EA;--lt:#CFE0D3}
 *{box-sizing:border-box;margin:0;padding:0}
-html,body{width:210mm;background:#fff;color:var(--ink);font-family:'Bitstream Charter','Charter','Liberation Serif',serif;font-size:8.85pt;line-height:1.34;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-.page{display:grid;grid-template-columns:62mm 1fr;grid-template-areas:"side main";width:210mm;height:297mm;overflow:hidden;page-break-after:always}
+html,body{width:210mm;background:#fff;color:var(--ink);font-family:'Bitstream Charter','Charter','Liberation Serif',serif;font-size:8.7pt;line-height:1.33;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{display:grid;grid-template-columns:64mm 1fr;grid-template-areas:"side main";width:210mm;height:297mm;overflow:hidden;page-break-after:always}
 .page:last-child{page-break-after:auto}
-aside{grid-area:side;background:var(--side);padding:13mm 7mm 10mm 9mm;display:flex;flex-direction:column;gap:5.2mm}
-main{grid-area:main;padding:13mm 12mm 10mm 10mm}
-.foto{width:44mm;height:44mm;background:#ccc url(data:image/jpeg;base64,__FOTO__) center/cover;border-radius:50%;margin:1mm auto 2mm;box-shadow:0 0 0 .8mm #fff,0 0 0 1.1mm var(--acc)}
-h1{font-family:Fr,'Liberation Serif',serif;font-weight:400;font-size:25pt;line-height:1.04;letter-spacing:-.4pt}
-.role{font-family:Inter,'Liberation Sans',sans-serif;font-size:7.6pt;letter-spacing:.9pt;text-transform:uppercase;color:var(--acc);margin:3mm 0 1.2mm;font-weight:600}
-.target{font-size:10.2pt;line-height:1.3;max-width:120mm}
-h2{font-family:Inter,'Liberation Sans',sans-serif;font-size:7.2pt;letter-spacing:1.3pt;text-transform:uppercase;font-weight:600;color:var(--acc);margin:0 0 2.2mm;padding-bottom:1.2mm;border-bottom:.35mm solid var(--acc)}
-aside h2{margin-bottom:1.8mm}
-aside p,aside li{font-size:8.3pt;line-height:1.36}
-aside ul{list-style:none}
-aside li{margin-bottom:1.5mm}
-aside b{font-weight:700}
-.k{display:block;font-family:Inter,'Liberation Sans',sans-serif;font-size:6.6pt;letter-spacing:.7pt;text-transform:uppercase;color:var(--mute);margin-bottom:.2mm}
-section{margin-top:4.6mm}
-section.first{margin-top:4.6mm}
-p{margin-bottom:2mm}
-.lead{font-size:9.6pt;line-height:1.42}
-table{width:100%;border-collapse:collapse;font-size:8.45pt;line-height:1.3}
-td{padding:1.15mm 2mm 1.15mm 0;border-bottom:.2mm solid var(--rule);vertical-align:top}
-td:first-child{width:36%;font-family:Inter,'Liberation Sans',sans-serif;font-size:7.5pt;font-weight:600;line-height:1.3;padding-right:3mm}
-tr:last-child td{border-bottom:0}
-.job{margin-bottom:3.4mm}
+aside{grid-area:side;background:var(--dk);color:#EAF1EC;padding:12mm 7mm 10mm 8.5mm;display:flex;flex-direction:column;gap:5mm}
+main{grid-area:main;padding:12mm 12mm 9mm 10mm}
+.foto{width:46mm;height:46mm;background:#ccc url(data:image/jpeg;base64,__FOTO__) center/cover;border-radius:50%;margin:0 auto 1.5mm;box-shadow:0 0 0 .9mm var(--dk),0 0 0 1.5mm #EAF1EC}
+h1{font-family:Fr,'Liberation Serif',serif;font-weight:400;font-size:25pt;line-height:1.04;letter-spacing:-.4pt;color:var(--dk)}
+.role{font-family:Inter,'Liberation Sans',sans-serif;font-size:7.4pt;letter-spacing:.9pt;text-transform:uppercase;color:var(--acc);margin:2.6mm 0 1mm;font-weight:600}
+.target{font-size:10.1pt;line-height:1.3}
+h2{font-family:Inter,'Liberation Sans',sans-serif;font-size:7.1pt;letter-spacing:1.3pt;text-transform:uppercase;font-weight:600;color:var(--acc);margin:0 0 2mm;display:flex;align-items:center;gap:2.5mm}
+h2:after{content:"";flex:1;height:.3mm;background:var(--lt)}
+aside h2{color:#9CC9A8;margin-bottom:1.8mm}aside h2:after{background:#3C6350}
+aside p,aside li{font-size:8.2pt;line-height:1.35;color:#EAF1EC}
+aside ul{list-style:none}aside li{margin-bottom:1.4mm}aside b{font-weight:700;color:#fff}
+.k{display:block;font-family:Inter,'Liberation Sans',sans-serif;font-size:6.4pt;letter-spacing:.7pt;text-transform:uppercase;color:#9CC9A8;margin-bottom:.1mm}
+aside .small{color:#B9D0C0}
+section{margin-top:3.8mm}
+p{margin-bottom:1.8mm}
+.lead{font-size:9.5pt;line-height:1.4}
+.kw{display:flex;flex-wrap:wrap;gap:1.2mm;margin-top:2.2mm}
+.kw span,.chips span{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.9pt;background:var(--tint);color:var(--dk);padding:.7mm 2mm;border-radius:2mm;font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:1.1mm}
+aside .chips span{background:#2A5640;color:#EAF1EC}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:1.8mm}
+.match div{border-top:.7mm solid var(--acc);background:#F5F8F5;padding:1.3mm 2.2mm 1.4mm}
+.match b{display:block;font-family:Inter,'Liberation Sans',sans-serif;font-size:7.2pt;font-weight:600;color:var(--dk);line-height:1.25;margin-bottom:.6mm}
+.match span{font-size:8pt;line-height:1.3;display:block}
+.job{margin-bottom:3mm}
 .jh{display:flex;justify-content:space-between;align-items:baseline;gap:4mm}
-.jt{font-weight:700;font-size:9.5pt}
-.jd{font-family:Inter,'Liberation Sans',sans-serif;font-size:7.2pt;color:var(--mute);white-space:nowrap}
-.jc{font-size:8.7pt;color:var(--mute);margin-bottom:1.2mm;font-style:italic}
-ul.b{list-style:none;margin-left:0}
-ul.b li{position:relative;padding-left:3.4mm;margin-bottom:1mm}
+.jt{font-weight:700;font-size:9.4pt;color:var(--dk)}
+.jd{font-family:Inter,'Liberation Sans',sans-serif;font-size:7pt;color:var(--mute);white-space:nowrap}
+.jc{font-size:8.5pt;color:var(--mute);margin-bottom:1.1mm;font-style:italic}
+ul.b{list-style:none}
+ul.b li{position:relative;padding-left:3.4mm;margin-bottom:.9mm}
 ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:.28mm;background:var(--acc)}
-.inss{border-left:.8mm solid var(--acc);background:#F6F8F6;padding:2.4mm 3.2mm 1.4mm;margin:1.6mm 0 2.4mm}
-.inss .tag{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.8pt;letter-spacing:1pt;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:.8mm}
-.inss .big{font-weight:700;font-size:9.5pt;margin-bottom:1mm}
-.small{font-size:8.3pt;color:var(--mute)}
-.num{font-family:Fr,'Liberation Serif',serif;font-size:14pt;line-height:1;color:var(--acc)}
-.nums{display:flex;gap:6mm;margin:2.4mm 0 1mm}
-.nums div{font-size:7.4pt;color:var(--mute);line-height:1.2;font-family:Inter,'Liberation Sans',sans-serif}
+.inss{border-left:.9mm solid var(--acc);background:var(--tint);padding:2.2mm 3.2mm 1.2mm;margin:1.4mm 0 2.2mm;border-radius:0 1.5mm 1.5mm 0}
+.inss .tag{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.6pt;letter-spacing:1pt;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:.6mm}
+.inss .big{font-weight:700;font-size:9.3pt;margin-bottom:.8mm;color:var(--dk)}
+.small{font-size:8.2pt;color:var(--mute)}
+.nums{display:flex;gap:0;margin:1.8mm 0 1.6mm;border:.25mm solid var(--rule);border-radius:1.5mm;overflow:hidden}
+.nums div{flex:1;padding:1.2mm 1.8mm;font-size:6.9pt;color:var(--mute);line-height:1.2;font-family:Inter,'Liberation Sans',sans-serif;border-right:.25mm solid var(--rule)}
+.nums div:last-child{border-right:0}
+.nums.in{background:#fff;border-color:#BCD2C2;margin-top:1mm}
+.num{white-space:nowrap;font-family:Fr,'Liberation Serif',serif;font-size:12.5pt;line-height:1.05;color:var(--acc);display:block}
+.tl{position:relative;height:23mm;margin:1mm 0 1mm}
+.tlbars{position:relative;height:100%}
+.seg{position:absolute;height:6mm;border-radius:1mm;overflow:hidden;display:flex;align-items:center;justify-content:center;font-family:Inter,'Liberation Sans',sans-serif;font-size:6.2pt;color:#fff;white-space:nowrap;font-weight:500}
+.c1{background:#9DBBA6}.c2{background:#6F9B7F}.c3{background:#3F7F54}.c4{background:#7BA88A}.c5{background:var(--dk)}.c6{background:#B8860B;opacity:.9}.c7{background:#7A5A07}
+.tlnote{position:absolute;left:0;right:0;top:6.5mm;font-family:Inter,'Liberation Sans',sans-serif;font-size:6pt;color:var(--mute)}
+.tlnote span{position:absolute;white-space:nowrap}
+.tlax{position:relative;height:3mm;font-family:Inter,'Liberation Sans',sans-serif;font-size:6.2pt;color:var(--mute);margin-top:.5mm}
+.legend{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.2pt;color:var(--mute);margin-top:.4mm}
+.tlseg2{font-family:Inter,'Liberation Sans',sans-serif}
 </style></head><body>
-
 <div class="page">
-
-
 <main>
   <h1>Alejandro Berruezo Márquez</h1>
   <div class="role">Candidatura</div>
   <div class="target">Head of Governance &amp; Orchestration (Agentic Organization), Santander, CDAIO</div>
-  <div class="small" style="margin-top:1.4mm">Análisis, asesoría y gobierno de tecnología e IA · Modelo operativo · Estándares, trazabilidad y auditoría · Comunidades de práctica y adopción</div>
+  <div class="kw"><span>Análisis, asesoría y gobierno de tecnología e IA</span><span>Modelo operativo</span><span>Estándares, trazabilidad y auditoría</span><span>Comunidades de práctica y adopción</span></div>
 
-  <section class="first"><h2>Perfil</h2>
+  <section><h2>Perfil</h2>
     <p class="lead">Llevo 30 años haciendo que la tecnología llegue al trabajo real en organizaciones con muchos actores y mucha regulación: sector público, con especial peso de la Seguridad Social (GISS), banca privada, industria y servicios sociales.</p>
     <p>Más de 15 años en análisis, asesoría y gobierno de programas, plataformas y procedimientos tecnológicos: defino criterios, roles y control, y lidero equipos de hasta 25 personas y programas de más de 300 profesionales. Ingeniero informático de formación, hoy me dedico al aterrizaje y la puesta en marcha de los modelos que implanto, hasta que alcanzan velocidad de crucero. Encaja con una organización agéntica (AI governance): nada pasa a producción sin criterio escrito antes, cada decisión tiene responsable y registro, y quien trabaja con el sistema puede pararlo. Lo he formalizado en Synergós, mi método propio, que publico cada semana.</p>
   </section>
 
   <section><h2>Lo que pide el puesto y lo que aporto</h2>
-    <table>
-      <tr><td>Modelo operativo, roles, estándares y criterios para pasar a producción</td><td>Gobierno de la transformación digital de la GISS (especialmente del INSS). En Synergós, modelo operativo con puertas, criterios firmados antes y tres salidas: escalar, ajustar o retirar.</td></tr>
-      <tr><td>Decisiones documentadas, trazabilidad y auditoría</td><td>Definición, implantación y auditoría de procedimientos (Getronics). ITIL certificado, ISO 9001 y CMMi. En Synergós, registro de riesgos y decisiones con firma de patrocinador y responsable.</td></tr>
-      <tr><td>Revisión independiente y reparto de funciones</td><td>Derechos de decisión escritos, separando quien decide, quien ejecuta y quien mide. El método propone firma doble (patrocinador y persona sin interés en la iniciativa) para retirar un piloto.</td></tr>
-      <tr><td>Control y autonomía de agentes; riesgos de aplicaciones con LLM</td><td>Escala de autonomía en cuatro niveles con criterio, responsable y registro antes de cada subida, y derecho a parar. Análisis del uso sin comprobar y del uso oculto. Uso diario de IA generativa.</td></tr>
-      <tr><td>Normativa de IA y sector regulado</td><td>Gestión de riesgos alineada con el Reglamento europeo de IA en el método Synergós. Banca privada y conceptos de PSD2; seguridad (cifrado, firma, certificados).</td></tr>
-      <tr><td>Coordinación sin jerarquía, comunidad y adopción</td><td>Programa de más de 300 profesionales (GISS, INSS). MINEsait dentro de Minsait: innovación colaborativa e intraemprendimiento. Innovación aplicada bajo método (Synergós).</td></tr>
-    </table>
+    <div class="match">
+      <div><b>Modelo operativo, roles, estándares y criterios para pasar a producción</b><span>Gobierno de la transformación digital de la GISS (especialmente del INSS). En Synergós, puertas con criterios firmados antes y tres salidas: escalar, ajustar o retirar.</span></div>
+      <div><b>Decisiones documentadas, trazabilidad y auditoría</b><span>Definición, implantación y auditoría de procedimientos (Getronics). ITIL certificado, ISO 9001 y CMMi. En Synergós, registro de riesgos y decisiones con firma de patrocinador y responsable.</span></div>
+      <div><b>Revisión independiente y reparto de funciones</b><span>Derechos de decisión escritos: quién decide, quién ejecuta y quién mide. Firma doble (patrocinador y persona sin interés en la iniciativa) para retirar un piloto.</span></div>
+      <div><b>Control de agentes y riesgos de aplicaciones con LLM</b><span>Escala de autonomía en cuatro niveles con criterio, responsable y registro antes de cada subida, y derecho a parar. Análisis del uso sin comprobar y del uso oculto. Uso diario de IA generativa.</span></div>
+      <div><b>Normativa de IA y sector regulado</b><span>Gestión de riesgos alineada con el Reglamento europeo de IA en el método Synergós. Banca privada y conceptos de PSD2; seguridad (cifrado, firma, certificados).</span></div>
+      <div><b>Coordinación sin jerarquía, comunidad y adopción</b><span>Programa de más de 300 profesionales (GISS, INSS). MINEsait dentro de Minsait: innovación colaborativa e intraemprendimiento. Innovación aplicada bajo método.</span></div>
+    </div>
   </section>
 
   <section><h2>Experiencia</h2>
     <div class="job">
       <div class="jh"><span class="jt">Senior Manager / Principal, Transformación Digital, Preventa y Proyectos</span><span class="jd">Jun 2019 a hoy</span></div>
       <div class="jc">Minsait (Indra), Madrid, modelo híbrido</div>
+      <div class="nums">
+        <div><span class="num">+500 M€</span>en ofertas lideradas</div>
+        <div><span class="num">≈50 %</span>de adjudicación en oportunidades clave</div>
+        <div><span class="num">+30 M€</span>propuestas de mayor tamaño</div>
+        <div><span class="num">+12</span>personas en equipos de oferta</div>
+        <div><span class="num">400</span>personas en servicios ofertados</div>
+      </div>
       <div class="inss">
         <div class="tag">Proyecto destacado</div>
         <div class="big">Transformación digital de la GISS, con especial presencia en el INSS</div>
         <ul class="b">
           <li>Gerencia de Informática de la Seguridad Social (GISS), con foco en el INSS: liderazgo de un programa de más de 300 profesionales.</li>
-          <li>Modelo de gobierno entre ingeniería, arquitectura, producto, operaciones y la dirección del cliente.</li>
-          <li>Acompañamiento a su comité de dirección en las decisiones que marcan cada fase.</li>
+          <li>Modelo de gobierno entre ingeniería, arquitectura, producto, operaciones y la dirección del cliente. Acompañamiento a su comité de dirección en las decisiones de cada fase.</li>
         </ul>
       </div>
       <ul class="b">
         <li>Gobierno de plataformas, productos y ecosistemas tecnológicos; estrategias de transformación, modelos objetivo y hojas de ruta ejecutables en sector público y grandes entornos regulados.</li>
-        <li>Ofertas lideradas por más de 500 M€ acumulados, con adjudicación cercana al 50 % en las oportunidades clave: propuestas de más de 30 M€, con equipos de oferta de más de 12 personas y servicios de hasta 400 personas.</li>
+        <li><b>Nuevos modelos de trabajo.</b> Creación de MINEsait dentro de Minsait: un ecosistema de innovación colaborativa e intraemprendimiento que cambia cómo se organizan y colaboran los equipos.</li>
       </ul>
     </div>
   </section>
@@ -123,18 +139,19 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:
 </div>
 
 <div class="page">
-
-
 <main>
-  <section class="first"><h2>Experiencia</h2>
+  <section style="margin-top:0"><h2>Trayectoria</h2><div class="tl"><div class="tlbars"><div class="seg c1" style="left:0.56%;width:4.64%;top:0mm"><span>Thales</span></div><div class="seg c2" style="left:5.20%;width:27.43%;top:0mm"><span>Nexus IT y Business Integration</span></div><div class="seg c3" style="left:32.63%;width:35.23%;top:0mm"><span>Getronics</span></div><div class="seg c4" style="left:72.93%;width:2.47%;top:0mm"><span></span></div><div class="seg c5" style="left:75.39%;width:24.44%;top:0mm"><span>Minsait (Indra)</span></div><div class="seg c6" style="left:67.17%;width:32.66%;top:9mm"><span>Hestía, your home!</span></div><div class="seg c7" style="left:96.71%;width:3.12%;top:16mm"><span></span></div></div>
+<div class="tlnote"><span style="left:67.11%">máster Big Data 2017 a 2018</span><span style="right:4.29%;top:9.6mm">Synergós, 2026</span></div></div>
+    <div class="tlax"><span style="position:absolute;left:11.51%;transform:translateX(-50%)">2000</span><span style="position:absolute;left:31.25%;transform:translateX(-50%)">2006</span><span style="position:absolute;left:44.41%;transform:translateX(-50%)">2010</span><span style="position:absolute;left:64.14%;transform:translateX(-50%)">2016</span><span style="position:absolute;left:77.30%;transform:translateX(-50%)">2020</span><span style="position:absolute;left:97.04%;transform:translateX(-50%)">2026</span></div>
+  </section>
+
+  <section><h2>Experiencia</h2>
     <div class="job">
       <div class="jh"><span class="jt">Minsait (Indra), continuación</span><span class="jd">Jun 2019 a hoy</span></div>
       <ul class="b">
-        <li><b>Nuevos modelos de trabajo.</b> Creación de MINEsait dentro de Minsait: un ecosistema de innovación colaborativa e intraemprendimiento que cambia cómo se organizan y colaboran los equipos.</li>
         <li><b>Innovación aplicada y bajo método.</b> La llevo a programas reales con criterios escritos, responsables y puertas de decisión, el enfoque que he formalizado en Synergós.</li>
       </ul>
     </div>
-    <div style="height:1.5mm"></div>
     <div class="job">
       <div class="jh"><span class="jt">Senior Manager y Presales Manager</span><span class="jd">Sep 2018 a may 2019</span></div>
       <div class="jc">Enzyme Advising Group, Madrid</div>
@@ -144,29 +161,27 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:
       <div class="jh"><span class="jt">Presales, Alliances &amp; Offering Director</span><span class="jd">May 2012 a feb 2017</span></div>
       <div class="jc">Getronics, Madrid</div>
       <div class="nums">
-        <div><span class="num">25</span><br>personas</div>
-        <div><span class="num">3.800</span><br>oportunidades al año</div>
-        <div><span class="num">+400 M€</span><br>de volumen</div>
-        <div><span class="num">11 a 19 %</span><br>tasa de éxito</div>
+        <div><span class="num">25</span>personas a cargo</div>
+        <div><span class="num">3.800</span>oportunidades al año</div>
+        <div><span class="num">+400 M€</span>de volumen</div>
+        <div><span class="num">11 a 19 %</span>tasa de éxito</div>
+        <div><span class="num">-20 %</span>coste del área en 3 años</div>
       </div>
       <ul class="b">
         <li>Dirección del área de preventa, desarrollo de negocio y consultoría.</li>
         <li>Estrategia de alianzas, casi inexistente hasta entonces: más de 30 partners al año con planes de negocio conjuntos, objetivos compartidos y seguimiento de compromisos, que aportaron cerca de un 12 % más de oportunidades.</li>
-        <li>Cartera de más de 50 soluciones de transformación digital, con un 8 % más de oportunidades al año.</li>
-        <li>Integración de equipos y procesos: un 20 % menos de coste del área en tres años.</li>
+        <li>Cartera de más de 50 soluciones de transformación digital, con un 8 % más de oportunidades al año. Integración de equipos y procesos.</li>
       </ul>
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales &amp; Bid Director</span><span class="jd">Dic 2010 a may 2012</span></div>
       <div class="jc">Getronics, Madrid</div>
-      <ul class="b">
-        <li>Preventa nacional con foco en Administración Pública. Definición, implantación y auditoría de los procedimientos de gestión de oportunidades.</li>
-      </ul>
+      <ul class="b"><li>Preventa nacional con foco en Administración Pública. Definición, implantación y auditoría de los procedimientos de gestión de oportunidades.</li></ul>
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales Manager</span><span class="jd">Jun 2006 a nov 2010</span></div>
       <div class="jc">Getronics, Madrid</div>
-      <ul class="b"><li>Coordinación de la preventa técnica; definición, puesta en marcha y auditoría de los procedimientos de gestión de oportunidades y de proyectos.</li></ul>
+      <ul class="b"><li>Coordinación de la preventa técnica; definición, puesta en marcha y auditoría de los procedimientos de oportunidades y de proyectos.</li></ul>
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales Engineer, Consultant y Project Manager</span><span class="jd">Feb 1998 a may 2006</span></div>
@@ -186,9 +201,9 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:
       <div class="jc">Método propio para dirigir transformaciones con IA</div>
       <p>Personas, conocimiento y tecnología crecen a la vez. Versión 1.5 (noviembre de 2026), 81 páginas, con fuentes verificadas. Publicación semanal en LinkedIn.</p>
       <ul class="b">
-        <li><b>Gobierno.</b> Comité de puertas integrado en el gobierno del programa. Inventario de sistemas y riesgos con una columna de personas y conocimiento: quién sabe qué y quién puede parar el sistema.</li>
-        <li><b>Autonomía.</b> Cuatro niveles (sugiere, propone, actúa con revisión, actúa e informa). Cada subida exige criterio, responsable y registro para auditar.</li>
-        <li><b>Decisión.</b> Antes de aprobar: si la herramienta acelera, automatiza o aumenta, y qué tiene que ser cierto para que funcione.</li>
+        <li><b>Gobierno.</b> Comité de puertas integrado en el gobierno del programa. Inventario de sistemas y riesgos con una columna de personas y conocimiento.</li>
+        <li><b>Autonomía.</b> Cuatro niveles; cada subida exige criterio, responsable y registro para auditar.</li>
+        <li><b>Decisión.</b> Antes de aprobar: si la herramienta acelera, automatiza o aumenta.</li>
       </ul>
     </div>
     <div class="job">
@@ -199,13 +214,9 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:
   </section>
 </main>
 <aside>
-  <div><h2>Sectores</h2>
-    <ul>
-      <li>Administración Pública y Seguridad Social (GISS)</li>
-      <li>Banca privada</li>
-      <li>Industria</li>
-      <li>Sanidad, servicios y retail</li>
-    </ul></div>
+  <div><h2>Multisectorial</h2>
+    <p>Mis modelos no están circunscritos a un sector. Tienen una parte de negocio que requiere aterrizaje, y no preveo que adaptarme a la banca sea un problema.</p>
+    <div class="chips" style="margin-top:2mm"><span>Administración Pública</span><span>Seguridad Social</span><span>Banca privada</span><span>Industria</span><span>Sanidad y servicios</span><span>Retail</span></div></div>
   <div><h2>Conocimiento técnico</h2>
     <ul>
       <li>Cloud, API management, microservicios y DevOps</li>
@@ -221,12 +232,7 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:
       <li>Banca: conceptos de PSD2</li>
     </ul></div>
   <div><h2>Otras competencias</h2>
-    <ul>
-      <li>Casos de negocio y medición del valor</li>
-      <li>Gestión del cambio</li>
-      <li>Propuestas complejas de más de 30 M€</li>
-      <li>Design Thinking</li>
-    </ul></div>
+    <div class="chips"><span>Casos de negocio y medición del valor</span><span>Gestión del cambio</span><span>Propuestas complejas</span><span>Design Thinking</span><span>Comunidades de práctica</span></div></div>
 </aside>
 </div>
 </body></html>

@@ -12,6 +12,10 @@ Llevo 30 años haciendo que la tecnología llegue al trabajo real en organizacio
 
 Análisis y asesoría; gobierno de tecnología e IA (AI governance); modelo operativo (operating model); estándares y criterios para pasar a producción; trazabilidad, registro de decisiones y auditoría; derechos de decisión y reparto de funciones; autonomía y control de agentes de IA; riesgos de aplicaciones con LLM (alucinación, uso oculto, dependencia); Reglamento europeo de IA (AI Act) como marco del método; coordinación de equipos sin jerarquía; comunidades de práctica y adopción; casos de negocio y medición del valor; gestión del cambio; ITIL, ISO 9001, CMMi; Scrum, Design Thinking.
 
+## Sectores
+
+Perfil multisectorial: mis modelos no están circunscritos a un sector (Administración Pública, Seguridad Social, banca privada, industria, sanidad y servicios, retail). Tienen una parte de negocio que requiere aterrizaje, y no preveo que adaptarme a la banca sea un problema.
+
 ## Experiencia
 
 ### Senior Manager / Principal, Transformación Digital, Preventa y Proyectos. Minsait (Indra), Madrid. Jun 2019 a hoy
