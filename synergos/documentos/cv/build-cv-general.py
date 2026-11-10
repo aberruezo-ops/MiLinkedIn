@@ -56,14 +56,14 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.6mm;height:
 .inss .tag{font-family:Inter,'Liberation Sans',sans-serif;font-size:6.3pt;letter-spacing:1.4pt;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:.6mm}
 .inss .big{font-family:Fr,'Liberation Serif',serif;font-size:10.5pt;margin-bottom:.9mm;color:var(--dk)}
 .small{font-size:8.2pt;color:var(--mute)}
-.nums{display:flex;margin:1.8mm 0 1.8mm;border-top:.25mm solid var(--lt);border-bottom:.25mm solid var(--lt)}
+.nums{display:flex;margin:1.8mm 0 1.8mm;border:.25mm solid var(--lt);border-radius:4mm 0 4mm 0;overflow:hidden}
 .nums div{flex:1;padding:1.3mm 2mm 1.2mm;font-size:6.6pt;color:var(--mute);line-height:1.2;font-family:Inter,'Liberation Sans',sans-serif;border-right:.25mm solid var(--rule)}
-.nums div:first-child{padding-left:0}.nums div:last-child{border-right:0}
+.nums div:first-child{padding-left:2.4mm}.nums div:last-child{border-right:0}
 .num{white-space:nowrap;font-family:Fr,'Liberation Serif',serif;font-size:13pt;line-height:1.05;color:var(--acc);display:block}
 .tl{position:relative;height:21mm;margin:1mm 0 0}
 .tlbars{position:relative;height:100%}
 .tgrid{position:absolute;top:0;bottom:0;border-left:.2mm dotted #C5D0C8}
-.seg{position:absolute;height:5mm;border-radius:1.2mm;overflow:hidden;display:flex;align-items:center;justify-content:center;font-family:Inter,'Liberation Sans',sans-serif;font-size:6pt;color:#fff;white-space:nowrap;font-weight:500}
+.seg{position:absolute;height:5mm;border-radius:2.4mm 0 2.4mm 0;overflow:hidden;display:flex;align-items:center;justify-content:center;font-family:Inter,'Liberation Sans',sans-serif;font-size:6pt;color:#fff;white-space:nowrap;font-weight:500}
 .c1{background:#9DBBA6}.c2{background:#6E9A7E}.c3{background:#3F7F54}.c4{background:#7BA88A}.c5{background:var(--dk)}.c6{background:var(--gold)}.c7{background:#7A5C16}.c8{background:#D3DDD5}.c9{background:#BFD3C5}
 .tlnote{position:absolute;left:0;right:0;top:5.5mm;font-family:Inter,'Liberation Sans',sans-serif;font-size:5.8pt;color:var(--mute)}
 .tlnote span{position:absolute;white-space:nowrap}
