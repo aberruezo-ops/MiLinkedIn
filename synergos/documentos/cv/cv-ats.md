@@ -42,17 +42,21 @@ Perfil multisectorial: mis modelos no están circunscritos a un sector (Administ
 
 - Preventa nacional con foco en Administración Pública. Definición, implantación y auditoría de los procedimientos de gestión de oportunidades.
 
-### Presales Manager. Getronics, Madrid. Jun 2006 a nov 2010
+### Presales Manager. Getronics (antes Thales), Madrid. Jun 2006 a nov 2010
 
 - Coordinación de la preventa técnica; definición, puesta en marcha y auditoría de los procedimientos de gestión de oportunidades y de proyectos.
 
-### Presales Engineer, Consultant y Project Manager. Nexus IT y Business Integration, Madrid. Feb 1998 a may 2006
+### Presales Engineer, Consultant y Project Manager. Nexus IT y después Business Integration (BT), Madrid. Feb 1998 a may 2006
 
 - Soluciones, estimación y gestión de proyectos; planes de calidad, manuales operativos y transición de servicios.
 
-### Programador. Thales y Software AG, Madrid. Sep 1996 a feb 1998
+### Programador. Thales, Madrid. 1997 a 1998
 
-- Desarrollo para la Gerencia de Informática de la Seguridad Social (GISS) y para Telefónica.
+- Desarrollo en la Gerencia de Informática de la Seguridad Social (GISS), el mismo organismo que vuelvo a gobernar desde 2019.
+
+### Programador Natural y Adabas. Software AG, Madrid. 1996 a 1997
+
+- Desarrollo para Telefónica.
 
 ## Emprendimiento personal y profesional
 

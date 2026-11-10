@@ -3,12 +3,12 @@ S,E=1996.5,2026.9
 def pct(x): return (x-S)/(E-S)*100
 def bar(a,b,label,cls,row):
     return f'<div class="seg {cls}" style="left:{pct(a):.2f}%;width:{pct(b)-pct(a):.2f}%;top:{row}mm"><span>{label}</span></div>'
-segs=[bar(1996.67,1998.08,'Thales','c1',0),bar(1998.08,2006.42,'Nexus IT y Business Integration','c2',0),
-bar(2006.42,2017.13,'Getronics','c3',0),bar(2018.67,2019.42,'','c4',0),bar(2019.42,2026.85,'Minsait (Indra)','c5',0),
+segs=[bar(1996.67,1997.55,'','c1',0),bar(1997.55,1998.08,'','c9',0),bar(1998.08,2006.42,'Nexus IT y Business Integration','c2',0),
+bar(2006.42,2017.13,'Getronics','c3',0),bar(2017.13,2018.67,'','c8',0),bar(2018.67,2019.42,'','c4',0),bar(2019.42,2026.85,'Minsait (Indra)','c5',0),
 bar(2016.92,2026.85,'Hestía, your home!','c6',9),bar(2025.9,2026.85,'','c7',16)]
 ticks=''.join(f'<span style="position:absolute;left:{pct(y):.2f}%;transform:translateX(-50%)">{y}</span>' for y in (2000,2006,2010,2016,2020,2026))
 tl=f'''<div class="tl"><div class="tlbars">{"".join(segs)}</div>
-<div class="tlnote"><span style="left:{pct(2016.9):.2f}%">máster Big Data 2017 a 2018</span><span style="right:{100-pct(2025.9)+1:.2f}%;top:9.6mm">Synergós, 2026</span></div></div>'''
+<div class="tlnote"><span style="left:0">Software AG, Thales</span><span style="left:{pct(2016.6):.2f}%">estudios: máster Big Data</span><span style="right:{100-pct(2025.9)+1:.2f}%;top:9.6mm">Synergós, 2026</span></div></div>'''
 CSS='''
 @font-face{font-family:Fr;src:url('file:///home/user/MiLinkedIn/synergos/imagenes/fonts/Fraunces.ttf')}
 @page{size:A4;margin:0}
@@ -61,7 +61,7 @@ ul.b li:before{content:"";position:absolute;left:0;top:.62em;width:1.7mm;height:
 .tl{position:relative;height:23mm;margin:1mm 0 1mm}
 .tlbars{position:relative;height:100%}
 .seg{position:absolute;height:6mm;border-radius:1mm;overflow:hidden;display:flex;align-items:center;justify-content:center;font-family:Inter,'Liberation Sans',sans-serif;font-size:6.2pt;color:#fff;white-space:nowrap;font-weight:500}
-.c1{background:#9DBBA6}.c2{background:#6F9B7F}.c3{background:#3F7F54}.c4{background:#7BA88A}.c5{background:var(--dk)}.c6{background:#B8860B;opacity:.9}.c7{background:#7A5A07}
+.c8{background:#D3DDD5}.c9{background:#BFD3C5}.c1{background:#9DBBA6}.c2{background:#6F9B7F}.c3{background:#3F7F54}.c4{background:#7BA88A}.c5{background:var(--dk)}.c6{background:#B8860B;opacity:.9}.c7{background:#7A5A07}
 .tlnote{position:absolute;left:0;right:0;top:6.5mm;font-family:Inter,'Liberation Sans',sans-serif;font-size:6pt;color:var(--mute)}
 .tlnote span{position:absolute;white-space:nowrap}
 .tlax{position:relative;height:3mm;font-family:Inter,'Liberation Sans',sans-serif;font-size:6.2pt;color:var(--mute);margin-top:.5mm}
@@ -186,7 +186,7 @@ HTML=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Aleja
       </div>
       <ul class="b">
         <li>Dirección del área de preventa, desarrollo de negocio y consultoría.</li>
-        <li>Estrategia de alianzas, casi inexistente hasta entonces: más de 30 partners al año con planes de negocio conjuntos, objetivos compartidos y seguimiento de compromisos, que aportaron cerca de un 12 % más de oportunidades.</li>
+        <li>Estrategia de alianzas, casi inexistente hasta entonces: más de 30 partners al año con planes conjuntos y seguimiento de compromisos, cerca de un 12 % más de oportunidades.</li>
         <li>Cartera de más de 50 soluciones de transformación digital, con un 8 % más de oportunidades al año. Integración de equipos y procesos.</li>
       </ul>
     </div>
@@ -197,29 +197,31 @@ HTML=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Aleja
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales Manager</span><span class="jd">Jun 2006 a nov 2010</span></div>
-      <div class="jc">Getronics, Madrid</div>
+      <div class="jc">Getronics (antes Thales), Madrid</div>
       <ul class="b"><li>Coordinación de la preventa técnica; definición, puesta en marcha y auditoría de procedimientos de oportunidades y proyectos.</li></ul>
     </div>
     <div class="job">
       <div class="jh"><span class="jt">Presales Engineer, Consultant y Project Manager</span><span class="jd">Feb 1998 a may 2006</span></div>
-      <div class="jc">Nexus IT y Business Integration, Madrid</div>
+      <div class="jc">Nexus IT y después Business Integration (BT), Madrid</div>
       <ul class="b"><li>Soluciones, estimación y gestión de proyectos; planes de calidad, manuales operativos y transición de servicios.</li></ul>
     </div>
     <div class="job">
-      <div class="jh"><span class="jt">Programador</span><span class="jd">Sep 1996 a feb 1998</span></div>
-      <div class="jc">Thales y Software AG, Madrid</div>
-      <ul class="b"><li>Desarrollo para la Gerencia de Informática de la Seguridad Social (GISS) y para Telefónica.</li></ul>
+      <div class="jh"><span class="jt">Programador</span><span class="jd">1997 a 1998</span></div>
+      <div class="jc">Thales, Madrid. Desarrollo en la GISS, el organismo que gobierno desde 2019.</div>
+    </div>
+    <div class="job">
+      <div class="jh"><span class="jt">Programador Natural y Adabas</span><span class="jd">1996 a 1997</span></div>
+      <div class="jc">Software AG, Madrid. Desarrollo para Telefónica.</div>
     </div>
   </section>
 
   <section><h2>Emprendimiento personal y profesional</h2>
     <div class="job">
       <div class="jh"><span class="jt">Fundador, Synergós</span><span class="jd">Oct 2026 a hoy</span></div>
-      <div class="jc">Método propio para dirigir transformaciones con IA. Versión 1.5, 81 páginas, publicación semanal en LinkedIn</div>
+      <div class="jc">Método propio para dirigir transformaciones con IA, versión 1.5</div>
       <ul class="b">
         <li><b>Gobierno.</b> Comité de puertas integrado en el gobierno del programa. Inventario de sistemas y riesgos con una columna de personas y conocimiento.</li>
-        <li><b>Autonomía.</b> Cuatro niveles; cada subida exige criterio, responsable y registro para auditar.</li>
-        <li><b>Decisión.</b> Antes de aprobar: si la herramienta acelera, automatiza o aumenta.</li>
+        <li><b>Autonomía y decisión.</b> Cuatro niveles; cada subida exige criterio, responsable y registro. Antes de aprobar, si la herramienta acelera, automatiza o aumenta.</li>
       </ul>
     </div>
     <div class="job">
