@@ -166,5 +166,53 @@
   "estado": "por decidir",
   "enlace": "https://www.linkedin.com/jobs/view/4486251135/",
   "nota": "CV en español e inglés listos; caduca el 6 dic; nivel Associate según LinkedIn"
+ },
+ {
+  "id": "e15",
+  "fecha": "2026-11-10",
+  "empresa": "HBX Group",
+  "puesto": "Head of AI Adoption & Enablement",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés probable (grupo internacional; no consta nivel)",
+  "encaje": "alto",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4489481898/",
+  "nota": "Remoto en España; caduca el 10 dic; 55 solicitantes; piden 8+ años en transformación digital y conocimiento de plataformas de IA"
+ },
+ {
+  "id": "e16",
+  "fecha": "2026-11-10",
+  "empresa": "Hays (cliente tecnológico confidencial)",
+  "puesto": "Director de Transformación Digital",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés mínimo B2",
+  "encaje": "alto",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4487804409/",
+  "nota": "Madrid híbrido; unidad de más de 400 personas; caduca el 10 dic; 128 solicitantes; comprobar que el cliente no sea su empresa actual"
+ },
+ {
+  "id": "e17",
+  "fecha": "2026-11-05",
+  "empresa": "Wolters Kluwer",
+  "puesto": "Commercial Transformation Manager",
+  "fuente": "LinkedIn",
+  "idioma": "No consta (grupo global)",
+  "encaje": "medio",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4478804019/",
+  "nota": "Madrid híbrido; proyectos de transformación comercial; puede ser nivel inferior"
+ },
+ {
+  "id": "e18",
+  "fecha": "2026-11-04",
+  "empresa": "Globeducate",
+  "puesto": "Global Head of AI & Transformation",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés fluido",
+  "encaje": "bajo",
+  "estado": "descartada",
+  "enlace": "https://www.linkedin.com/jobs/view/4486502712/",
+  "nota": "Piden 5 años o más de ciencia de datos o ingeniería de IA; perfil técnico"
  }
 ]
