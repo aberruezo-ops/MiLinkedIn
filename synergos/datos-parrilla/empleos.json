@@ -142,5 +142,29 @@
   "estado": "descartada",
   "enlace": "https://to.indeed.com/aa9jb7wmqg2r",
   "nota": "Arquitectura técnica"
+ },
+ {
+  "id": "e13",
+  "fecha": "2026-11-05",
+  "empresa": "AFRY",
+  "puesto": "Global AI Transformation & Solutions Lead",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés de trabajo",
+  "encaje": "bajo",
+  "estado": "descartada",
+  "enlace": "https://www.linkedin.com/jobs/view/4487741511/",
+  "nota": "Piden perfil constructor (prototipos, LLM, IA industrial); descartada por Alejandro el 11 nov"
+ },
+ {
+  "id": "e14",
+  "fecha": "2026-11-06",
+  "empresa": "Capgemini Invent",
+  "puesto": "Senior Digital Transformation",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés fluido (hueco: B2)",
+  "encaje": "medio",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4486251135/",
+  "nota": "CV en español e inglés listos; caduca el 6 dic; nivel Associate según LinkedIn"
  }
 ]
