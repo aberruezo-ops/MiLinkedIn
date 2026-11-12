@@ -93,7 +93,7 @@
   "encaje": "medio",
   "estado": "por decidir",
   "enlace": "https://to.indeed.com/aapq2nm2xp4f",
-  "nota": "Banda de 55.000 a 75.000 euros, probablemente baja"
+  "nota": "Banda de 55.000 a 75.000 euros, probablemente baja; también en LinkedIn (4479379727), 85 solicitantes, Madrid híbrido"
  },
  {
   "id": "e9",
@@ -214,5 +214,29 @@
   "estado": "descartada",
   "enlace": "https://www.linkedin.com/jobs/view/4486502712/",
   "nota": "Piden 5 años o más de ciencia de datos o ingeniería de IA; perfil técnico"
+ },
+ {
+  "id": "e19",
+  "fecha": "2026-11-09",
+  "empresa": "Exceltic",
+  "puesto": "Head of AI & Engineering Services",
+  "fuente": "LinkedIn",
+  "idioma": "No consta",
+  "encaje": "medio",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4476684006/",
+  "nota": "Madrid híbrido; 200 solicitantes; caduca el 13 dic; liderar servicios de QA e IA con cuenta de resultados y ofertas; pide ingeniería informática; sesgo técnico en testing"
+ },
+ {
+  "id": "e20",
+  "fecha": "2026-11-12",
+  "empresa": "Matchtech (organización humanitaria internacional)",
+  "puesto": "Senior Manager Global Change",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés obligatorio",
+  "encaje": "medio",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4488283980/",
+  "nota": "Remoto desde España; caduca el 12 dic; cambio y adopción en un programa de transformación global; hueco de inglés"
  }
 ]
