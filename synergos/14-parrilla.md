@@ -9,7 +9,7 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
 | Jue 12 nov | B15 Tres preguntas antes de aprobar un proyecto con IA | El orden | programado, sale hoy 8:30 | Nada: sale con vídeo, enlace del AR4 y fuentes 2 h después |
-| Vie 13 nov | V2 Cierre de la semana (tecnología) | Cierre | por redactar | Lo redacta la rutina del jueves 12 a las 17:41; Alejandro aprueba. Decidir si lleva la infografía "acelera, automatiza, aumenta" |
+| Vie 13 nov | V2 Cierre de la semana (tecnología) | Cierre | programado 8:30, con vídeo y enlace del AR4 | Nada |
 | Lun 16 nov | AR3 La bola negra (artículo) | Personas | aprobado | Alejandro lo pega a mano. Falta su visto bueno a la animación 3D (anim-promo-AR3.mp4) |
 | Mar 17 nov | Post de conocimiento | Conocimiento | por decidir | Elegir del banco; candidato B11 (personas y conocimiento no son lo mismo), que exige fichar Nelson y Winter y Nonaka y Takeuchi |
 | Mié 18 nov | C4 La última vez que una herramienta te hizo mejor en tu trabajo | Tecnología (comunidad) | por decidir | Aprobación de Alejandro |
