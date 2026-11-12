@@ -1,6 +1,6 @@
 # Parrilla LinkedIn
 
-Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 11 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 12 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (texto aprobado, falta programar o pegar), **por redactar**, **por decidir**, **idea**.
 
@@ -8,8 +8,7 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
-| Mié 11 nov | C13 ¿Qué tarea soltarías y cuál no? | Personas (comunidad) | programado, sale hoy 8:30 | Nada: lleva vídeo y enlace del AR4 |
-| Jue 12 nov | B15 Tres preguntas antes de aprobar un proyecto con IA | El orden | programado 8:30 | Nada: sale con vídeo, enlace del AR4 y fuentes 2 h después |
+| Jue 12 nov | B15 Tres preguntas antes de aprobar un proyecto con IA | El orden | programado, sale hoy 8:30 | Nada: sale con vídeo, enlace del AR4 y fuentes 2 h después |
 | Vie 13 nov | V2 Cierre de la semana (tecnología) | Cierre | por redactar | Lo redacta la rutina del jueves 12 a las 17:41; Alejandro aprueba. Decidir si lleva la infografía "acelera, automatiza, aumenta" |
 | Lun 16 nov | AR3 La bola negra (artículo) | Personas | aprobado | Alejandro lo pega a mano. Falta su visto bueno a la animación 3D (anim-promo-AR3.mp4) |
 | Mar 17 nov | Post de conocimiento | Conocimiento | por decidir | Elegir del banco; candidato B11 (personas y conocimiento no son lo mismo), que exige fichar Nelson y Winter y Nonaka y Takeuchi |
@@ -47,6 +46,7 @@ En el banco, sin fecha: B19 (volumen o conversión), B20 (el marco al que le fal
 | Vie 6 nov | V1 Cierre de la semana (conocimiento) |
 | Lun 9 nov | AR4 ¿Acelera, automatiza o aumenta? |
 | Mar 10 nov | B18 Lo que no está escrito está enterrado |
+| Mié 11 nov | C13 ¿Qué tarea soltarías y cuál no? |
 
 Las métricas por pieza están en 12-metricas.md (las actualiza la rutina del jueves).
 
@@ -56,11 +56,11 @@ Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov. No ha
 
 Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto.
 
-**Noviembre no llega.** A 11 nov, Publora cuenta 9 posts usados (7 salidos y 2 programados, C13 y B15) y quedan 6 del límite de 15. El calendario pide 9 más (cierres del 13, 20 y 27; posts del 17, 18, 19, 24, 25 y 26), y eso sin contar Hestía. Faltan 3. Además, Publora solo deja programar 7 días vista (hasta el 18 nov) y 3 a la vez. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan. Hay que decidirlo antes del 13.
+**Noviembre no llega.** A 12 nov, Publora cuenta 9 posts usados (8 salidos y B15 programado) y quedan 6 del límite de 15. El calendario pide 9 más (cierres del 13, 20 y 27; posts del 17, 18, 19, 24, 25 y 26), y eso sin contar Hestía. Faltan 3. Además, Publora solo deja programar 7 días vista (hasta el 18 nov) y 3 a la vez. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan. Hay que decidirlo antes del 13.
 
 ## Decisiones pendientes de Alejandro
 
-1. Cómo cubrir el hueco de cupo de noviembre (faltan 3).
+1. Cómo cubrir el hueco de cupo de noviembre (faltan 3). Urgente: el cierre V2 sale mañana viernes 13.
 2. Infografía "acelera, automatiza, aumenta": en el cierre del 13 o en otra fecha.
 3. Visto bueno a la animación 3D del AR3.
 4. Post de conocimiento del 17 (B11 u otro).

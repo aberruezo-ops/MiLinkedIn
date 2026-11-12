@@ -84,8 +84,8 @@
   "tipo": "Post",
   "pieza": "C13 ¿Qué tarea soltarías y cuál no?",
   "pilar": "Personas",
-  "estado": "programado",
-  "falta": "Nada: sale solo con vídeo y enlace del AR4"
+  "estado": "publicado",
+  "falta": "Responder a mano a los comentarios que lleguen"
  },
  {
   "fecha": "2026-11-12",
@@ -93,7 +93,7 @@
   "pieza": "B15 Tres preguntas antes de aprobar un proyecto con IA",
   "pilar": "El orden",
   "estado": "programado",
-  "falta": "Nada: sale solo con vídeo, enlace y fuentes"
+  "falta": "Nada: sale hoy a las 8:30 con vídeo, enlace del AR4 y fuentes 2 h después"
  },
  {
   "fecha": "2026-11-13",
