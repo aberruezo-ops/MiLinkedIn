@@ -1,7 +1,7 @@
 [
  {
   "n": 1,
-  "decision": "Cómo cubrir el hueco de cupo de noviembre: faltan 3 (quedan 5 y el calendario pide 8 sin contar los artículos del lunes)"
+  "decision": "Cómo cubrir el hueco de cupo de noviembre: quedan 5 y el calendario pide 8 (faltan 3). Publora solo deja programar hasta el 21 nov"
  },
  {
   "n": 2,
@@ -33,6 +33,6 @@
  },
  {
   "n": 9,
-  "decision": "Arreglar el token de Apify (falla desde el 12 nov): sin él no hay búsqueda de posts, seguimiento de comentarios, métricas ni ofertas"
+  "decision": "Arreglar el token de Apify (falla desde el 12 nov, error user-or-token-not-found): sin él no hay búsqueda de posts, seguimiento de comentarios, métricas ni ofertas"
  }
 ]
