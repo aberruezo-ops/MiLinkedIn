@@ -1,0 +1,1 @@
+Origen: https://github.com/blader/humanizer (MIT), version 4.0.0, copiado el 15 nov 2026 y revisado antes de instalar: solo contiene instrucciones de edicion de texto, sin scripts ni accesos a red. Patrones basados en escritura en ingles; para espanol se aplican con criterio y se complementan con stop-slop.
