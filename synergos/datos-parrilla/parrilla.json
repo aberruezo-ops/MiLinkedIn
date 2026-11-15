@@ -2,7 +2,7 @@
  {
   "fecha": "2026-10-27",
   "tipo": "Artículo y post",
-  "pieza": "B0 Presentación de Synergós y AR1 Los mimbres",
+  "pieza": "mar 27 oct · Artículo + post · Presentación de Synergós y «Los mimbres»",
   "pilar": "Todos",
   "estado": "publicado",
   "falta": ""
@@ -10,7 +10,7 @@
  {
   "fecha": "2026-10-28",
   "tipo": "Post",
-  "pieza": "B6 La persona sin la que nada funcionaría",
+  "pieza": "mié 28 oct · Post · La persona sin la que nada funcionaría",
   "pilar": "Conocimiento",
   "estado": "publicado",
   "falta": ""
@@ -18,7 +18,7 @@
  {
   "fecha": "2026-10-29",
   "tipo": "Post",
-  "pieza": "B1 La gestión del cambio llega tarde",
+  "pieza": "jue 29 oct · Post · La gestión del cambio llega tarde",
   "pilar": "Personas",
   "estado": "publicado",
   "falta": ""
@@ -26,7 +26,7 @@
  {
   "fecha": "2026-11-02",
   "tipo": "Artículo",
-  "pieza": "AR2 El mapa de lo que nadie escribió",
+  "pieza": "lun 2 nov · Artículo · El mapa de lo que nadie escribió",
   "pilar": "Conocimiento",
   "estado": "publicado",
   "falta": ""
@@ -34,7 +34,7 @@
  {
   "fecha": "2026-11-03",
   "tipo": "Post",
-  "pieza": "B12 Marchas atrás (Klarna, CBA, Stanford)",
+  "pieza": "mar 3 nov · Post · Marchas atrás: Klarna, CBA y Stanford",
   "pilar": "Tecnología",
   "estado": "publicado",
   "falta": ""
@@ -42,7 +42,7 @@
  {
   "fecha": "2026-11-04",
   "tipo": "Post",
-  "pieza": "C12 ¿Qué pasaría mañana en tu equipo si tú no vinieras?",
+  "pieza": "mié 4 nov · Post comunidad · ¿Qué pasaría mañana si tú no vinieras?",
   "pilar": "Personas",
   "estado": "publicado",
   "falta": ""
@@ -50,7 +50,7 @@
  {
   "fecha": "2026-11-05",
   "tipo": "Post",
-  "pieza": "B13 La columna que asusta",
+  "pieza": "jue 5 nov · Post · La columna que asusta",
   "pilar": "El orden",
   "estado": "publicado",
   "falta": ""
@@ -58,7 +58,7 @@
  {
   "fecha": "2026-11-06",
   "tipo": "Cierre",
-  "pieza": "V1 Cierre de la semana (conocimiento)",
+  "pieza": "vie 6 nov · Cierre semanal · Conocimiento",
   "pilar": "Cierre",
   "estado": "publicado",
   "falta": ""
@@ -66,7 +66,7 @@
  {
   "fecha": "2026-11-09",
   "tipo": "Artículo",
-  "pieza": "AR4 ¿Acelera, automatiza o aumenta?",
+  "pieza": "lun 9 nov · Artículo · ¿Acelera, automatiza o aumenta?",
   "pilar": "Tecnología",
   "estado": "publicado",
   "falta": "Responder a mano a Jorge García"
@@ -74,7 +74,7 @@
  {
   "fecha": "2026-11-10",
   "tipo": "Post",
-  "pieza": "B18 Lo que no está escrito está enterrado",
+  "pieza": "mar 10 nov · Post · Lo que no está escrito está enterrado",
   "pilar": "Conocimiento",
   "estado": "publicado",
   "falta": "Responder a mano a los comentarios que lleguen"
@@ -82,7 +82,7 @@
  {
   "fecha": "2026-11-11",
   "tipo": "Post",
-  "pieza": "C13 ¿Qué tarea soltarías y cuál no?",
+  "pieza": "mié 11 nov · Post comunidad · ¿Qué tarea soltarías y cuál no?",
   "pilar": "Personas",
   "estado": "publicado",
   "falta": "Responder a mano a los comentarios que lleguen"
@@ -90,7 +90,7 @@
  {
   "fecha": "2026-11-12",
   "tipo": "Post",
-  "pieza": "B15 Tres preguntas antes de aprobar un proyecto con IA",
+  "pieza": "jue 12 nov · Post · Tres preguntas antes de aprobar un proyecto con IA",
   "pilar": "El orden",
   "estado": "publicado",
   "falta": "Responder a mano a los comentarios que lleguen"
@@ -98,7 +98,7 @@
  {
   "fecha": "2026-11-13",
   "tipo": "Cierre",
-  "pieza": "V2 Cierre de la semana (tecnología)",
+  "pieza": "vie 13 nov · Cierre semanal · Tecnología",
   "pilar": "Cierre",
   "estado": "publicado",
   "falta": "Responder a mano a los comentarios que lleguen"
@@ -106,7 +106,7 @@
  {
   "fecha": "2026-11-16",
   "tipo": "Artículo",
-  "pieza": "AR3 La bola negra",
+  "pieza": "lun 16 nov · Artículo · La bola negra: quién decide quién cabe",
   "pilar": "Personas",
   "estado": "aprobado",
   "falta": "Alejandro lo pega a mano; falta su visto bueno a la animación 3D"
@@ -114,15 +114,15 @@
  {
   "fecha": "2026-11-17",
   "tipo": "Post",
-  "pieza": "Post de conocimiento (candidato B11)",
+  "pieza": "mar 17 nov · Post · ¿Personas y conocimiento no son lo mismo?",
   "pilar": "Conocimiento",
   "estado": "por decidir",
-  "falta": "Elegir del banco; B11 exige fichar Nelson y Winter, y Nonaka y Takeuchi"
+  "falta": "Elegir del banco; la idea de personas y conocimiento exige fichar Nelson y Winter, y Nonaka y Takeuchi"
  },
  {
   "fecha": "2026-11-18",
   "tipo": "Post",
-  "pieza": "C4 La última vez que una herramienta te hizo mejor en tu trabajo",
+  "pieza": "mié 18 nov · Post comunidad · La última vez que una herramienta te hizo mejor",
   "pilar": "Tecnología",
   "estado": "por decidir",
   "falta": "Aprobación de Alejandro"
@@ -130,15 +130,15 @@
  {
   "fecha": "2026-11-19",
   "tipo": "Post",
-  "pieza": "B14",
+  "pieza": "jue 19 nov · Post · Tema por redactar (el orden)",
   "pilar": "El orden",
   "estado": "por redactar",
-  "falta": "Rutina del miércoles 18; ese jueves se redacta el AR5"
+  "falta": "Rutina del miércoles 18; ese jueves se redacta el artículo del 23 nov"
  },
  {
   "fecha": "2026-11-20",
   "tipo": "Cierre",
-  "pieza": "V3 Cierre de la semana (personas)",
+  "pieza": "vie 20 nov · Cierre semanal · Personas",
   "pilar": "Cierre",
   "estado": "por redactar",
   "falta": "Rutina del jueves 19"
@@ -146,7 +146,7 @@
  {
   "fecha": "2026-11-23",
   "tipo": "Artículo",
-  "pieza": "AR5 Diagnóstico antes que solución",
+  "pieza": "lun 23 nov · Artículo · Diagnóstico antes que solución",
   "pilar": "El orden",
   "estado": "por redactar",
   "falta": "Redactar el jueves 19"
@@ -154,7 +154,7 @@
  {
   "fecha": "2026-11-24",
   "tipo": "Post",
-  "pieza": "Post de conocimiento",
+  "pieza": "mar 24 nov · Post · Tema por elegir (conocimiento)",
   "pilar": "Conocimiento",
   "estado": "por decidir",
   "falta": "Elegir del banco"
@@ -162,7 +162,7 @@
  {
   "fecha": "2026-11-25",
   "tipo": "Post",
-  "pieza": "C11 El liderazgo empieza donde termina el ego",
+  "pieza": "mié 25 nov · Post comunidad · El liderazgo empieza donde termina el ego",
   "pilar": "Personas",
   "estado": "aprobado",
   "falta": "Regenerar el vídeo girasol con su pregunta"
@@ -170,7 +170,7 @@
  {
   "fecha": "2026-11-26",
   "tipo": "Post",
-  "pieza": "B3 Zuboff: no es la herramienta, es la decisión",
+  "pieza": "jue 26 nov · Post · Zuboff: no es la herramienta, es la decisión",
   "pilar": "Tecnología",
   "estado": "idea",
   "falta": "Redactar"
@@ -178,7 +178,7 @@
  {
   "fecha": "2026-11-27",
   "tipo": "Cierre",
-  "pieza": "V4 Cierre de la semana (el orden)",
+  "pieza": "vie 27 nov · Cierre semanal · El orden",
   "pilar": "Cierre",
   "estado": "por redactar",
   "falta": "Rutina del jueves 26"
