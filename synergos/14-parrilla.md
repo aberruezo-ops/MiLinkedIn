@@ -1,6 +1,6 @@
 # Parrilla LinkedIn
 
-Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 14 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 15 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (texto aprobado, falta programar o pegar), **por redactar**, **por decidir**, **idea**.
 
@@ -8,7 +8,6 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
-| Sáb 14 nov | Sin publicación | | | Fin de semana |
 | Dom 15 nov | Sin publicación | | | Fin de semana |
 | Lun 16 nov | AR3 La bola negra (artículo) | Personas | aprobado | Alejandro lo pega a mano. Falta su visto bueno a la animación 3D (anim-promo-AR3.mp4) |
 | Mar 17 nov | Post de conocimiento | Conocimiento | por decidir | Elegir del banco; candidato B11 (personas y conocimiento no son lo mismo), que exige fichar Nelson y Winter y Nonaka y Takeuchi |
@@ -58,7 +57,7 @@ Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov. No ha
 
 Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto.
 
-**Noviembre no llega.** A 14 nov, Publora cuenta 10 posts usados y quedan 5 del límite de 15, sin nada programado. El calendario pide 8 más (posts del 17, 18, 19, 24, 25 y 26 y cierres del 20 y 27), y eso sin contar Hestía. Faltan 3. Además, Publora solo deja programar 7 días vista (hasta el 18 nov) y 3 a la vez. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan. Hay que decidirlo antes del martes 17.
+**Noviembre no llega.** A 15 nov, Publora cuenta 10 posts usados y quedan 5 del límite de 15, sin nada programado. El calendario pide 8 más (posts del 17, 18, 19, 24, 25 y 26 y cierres del 20 y 27), y eso sin contar Hestía. Faltan 3. Además, Publora solo deja programar 7 días vista (hasta el 18 nov) y 3 a la vez. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan. Hay que decidirlo antes del martes 17.
 
 ## Decisiones pendientes de Alejandro
 
