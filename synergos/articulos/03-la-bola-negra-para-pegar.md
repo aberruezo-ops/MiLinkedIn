@@ -38,6 +38,10 @@ En la película la bola negra deja de ser un club y se hace mucho más grande, y
 
 El mapa tiene un riesgo que no he sabido cerrar: puede exponer. Si alguien esconde cómo trabaja por una razón legítima, ponerle nombre en una tabla es sacarlo de detrás sin su permiso. Mi regla de hoy es que el mapa es de la persona antes que del comité: se construye con su consentimiento y muestra el conocimiento, no a quien lo tiene, hasta que ella decida otra cosa. Lo que habrá que revisar es cómo se aplica cuando la organización tiene prisa, y aún no sé la respuesta.
 
+## Lo que se salva
+
+Noventa años después de que se interrumpiera la obra de Lorca, otros han hecho una película a partir de lo poco que quedó. Alguien conservó un fragmento y otros lo recogieron. En una organización pasa algo parecido, a menor escala. Si una persona deja lo que sabe a la vista de otra, aunque sea en una nota o en una conversación, el siguiente equipo parte de ahí. Si se marcha sin que nadie lo haya recogido, el siguiente equipo empieza de cero. Esa es la parte del mapa que más me importa: no señalar a nadie, dejar un fragmento al que otros puedan volver.
+
 ## Por qué esto es Synergós
 
 *Syn*, en griego, es con. *Érgon*, trabajo. Trabajar con. Como en el girasol, donde cada semilla encuentra su sitio sin tapar a la anterior, una organización tiene sitio para quien no sigue el patrón si alguien decide mirar antes de votar.
