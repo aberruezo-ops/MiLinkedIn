@@ -18,10 +18,10 @@ Lectura: el artículo y los posts de miércoles y jueves tuvieron un comentario 
 
 | Fecha | Pieza | Pilar | Reacciones | Comentarios de terceros | Compartidos |
 |---|---|---|---|---|---|
-| 9 nov | AR4 ¿Acelera, automatiza o aumenta? (y post de presentación) | tecnología | sin dato | 1 (de los registrados) | sin dato |
-| 10 nov | B18 lo que no está escrito está enterrado | conocimiento | sin dato | sin dato | sin dato |
-| 11 nov | C13 ¿qué tarea soltarías y cuál no? | personas (comunidad) | sin dato | sin dato | sin dato |
-| 12 nov | B15 tres preguntas antes de aprobar un proyecto con IA | el orden | sin dato | sin dato | sin dato |
-| 13 nov | V2 cierre de semana | comunidad | pendiente | pendiente | pendiente |
+| 9 nov | AR4 ¿Acelera, automatiza o aumenta? (y post de presentación) | tecnología | 1 | 1 | 0 |
+| 10 nov | B18 lo que no está escrito está enterrado | conocimiento | 2 | 0 | 0 |
+| 11 nov | C13 ¿qué tarea soltarías y cuál no? | personas (comunidad) | 1 | 0 | 0 |
+| 12 nov | B15 tres preguntas antes de aprobar un proyecto con IA | el orden | 2 | 0 | 0 |
+| 13 nov | V2 cierre de semana | comunidad | 0 | 0 | 0 |
 
-Lectura: no se han podido sacar las métricas porque la autenticación de Apify fallaba el 12 nov (error "user-or-token-not-found"). Solo consta el comentario registrado en el AR4. No se puede concluir nada de esta semana; hay que repetir la medición cuando Apify vuelva a funcionar.
+Medido el 16 nov 2026 con Apify (la medición del jueves 12 falló por autenticación y luego por crédito agotado; se rehízo al reponer el plan). Los comentarios de Alejandro con enlaces y fuentes no se cuentan. Lectura: seis reacciones y un comentario de tercero (Jorge García, en el artículo) en cinco piezas, frente a una reacción y tres comentarios la semana anterior. Con cifras tan bajas no se puede concluir qué formato funciona mejor; lo que sí se ve es que los comentarios llegaron en los posts de pregunta y de caso (C12, B13), y esta semana, con más posts de método, llegaron menos. El contador de reacciones puede quedarse corto.
