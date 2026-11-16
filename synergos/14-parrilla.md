@@ -11,7 +11,7 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
 | Lun 16 nov | Artículo · La bola negra: quién decide quién cabe | Personas | por confirmar | Lo pegas tú a mano hoy. Falta tu visto bueno al texto nuevo (v3.2) y a la animación 3D |
-| Mar 17 nov | Post · ¿Personas y conocimiento no son lo mismo? | Conocimiento | por decidir | Elegir del banco; candidato B11 (personas y conocimiento no son lo mismo), que exige fichar Nelson y Winter y Nonaka y Takeuchi |
+| Mar 17 nov | Post · ¿Personas y conocimiento no son lo mismo? | Conocimiento | programado, sale 8:30 | Nada. Primer comentario provisional con el enlace del artículo anterior; hay que cambiarlo por el de «La bola negra» cuando tengas la URL |
 | Mié 18 nov | Post comunidad · La última vez que una herramienta te hizo mejor | Tecnología (comunidad) | por decidir | Aprobación de Alejandro |
 | Jue 19 nov | Post · Tema por redactar (el orden) | El orden | por redactar | Redacta la rutina del miércoles 18. Ese jueves también se redacta el AR5 |
 | Vie 20 nov | Cierre semanal · Personas | Cierre | por redactar | Rutina del jueves 19 |
