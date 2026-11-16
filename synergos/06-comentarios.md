@@ -42,7 +42,15 @@ Al presentar cada post con sus dos variantes, se indica cuál se recomienda y po
 
 - No comentar nada relacionado con una licitación en curso, ni polémicas ni política. Decisión de Alejandro (7 nov 2026): ya no se excluye a nadie por empresa. Accenture, NTT Data, Deloitte e Inetum pasan a ser posts comentables como los demás (sustituye a la regla del 24 oct). Cuidado extra solo si el post toca un cliente o una oferta concreta.
 - Junto a cada comentario aprobado se deja también una reacción (INTEREST o APPRECIATION según el tono del post). Confirmado por Alejandro.
-- Descubrimiento (decisión del 7 nov 2026): se buscan los mejores posts de verdad, por tema y por tracción (reacciones y comentarios), sin cerrarse a una lista. Los referentes en estrategia de IA y transformación digital entran como fuente añadida, no como filtro. Referentes fijos (la lista crece con autores recurrentes que merezcan la pena; se proponen aquí): propuesta del 16 nov 2026 pendiente de visto bueno de Alejandro, con ocho autores de España y uno de fuera, en estudios/04-referentes-audiencia-seguimiento.md.
+- Descubrimiento (decisión del 7 nov 2026): se buscan los mejores posts de verdad, por tema y por tracción (reacciones y comentarios), sin cerrarse a una lista. Los referentes en estrategia de IA y transformación digital entran como fuente añadida, no como filtro. Referentes fijos (la lista crece con autores recurrentes que merezcan la pena; se proponen aquí): APROBADOS por Alejandro el 16 nov 2026 (detalle y datos en estudios/04-referentes-audiencia-seguimiento.md; la rutina de descubrimiento los consulta con authorUrls, un comentario por autor y semana):
+  - Javier Martinez Aldanondo: https://www.linkedin.com/in/javier-mart%C3%ADnez-aldanondo-inteligencia
+  - Tomás García de Jaime: https://www.linkedin.com/in/tgdej
+  - Alvaro Moya: https://www.linkedin.com/in/alvarormoya
+  - Ricardo Tayar López: https://www.linkedin.com/in/ricardotayar
+  - Julia Díaz: https://www.linkedin.com/in/julia-diaz-repsol
+  - Fernando Díez: https://www.linkedin.com/in/fernandodiezruiz
+  - Pilar Torralbo: https://www.linkedin.com/in/pilartorralbo
+  - Pablo Santamaria: https://www.linkedin.com/in/pablosantamariariano
 - Autores con los que ya hay conversación (prioridad en futuras cosechas, respetando un comentario por autor y semana): Jaime Bárcenas (facilitador, transformación organizacional, Colombia; respondió el 26 oct).
 - No comentar en polémicas, política ni temas personales del autor.
 - No más de un comentario por autor y semana, para no parecer insistente.
