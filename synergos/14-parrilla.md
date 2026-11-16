@@ -1,6 +1,6 @@
 # Parrilla LinkedIn
 
-Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 15 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 16 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Cómo se llama cada pieza (regla del 15 nov 2026): tipo, un punto y el título tal como lo leerá la gente, por ejemplo «Artículo · La bola negra: quién decide quién cabe». La fecha va en su columna. Los códigos internos del cuaderno (AR3, B11, C4...) no se usan en esta página; la equivalencia está en la tabla de abajo.
 
@@ -10,8 +10,7 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
-| Dom 15 nov | Sin publicación | | | Fin de semana |
-| Lun 16 nov | Artículo · La bola negra: quién decide quién cabe | Personas | aprobado | Alejandro lo pega a mano. Falta su visto bueno a la animación 3D (anim-promo-AR3.mp4) |
+| Lun 16 nov | Artículo · La bola negra: quién decide quién cabe | Personas | por confirmar | Lo pegas tú a mano hoy. Falta tu visto bueno al texto nuevo (v3.2) y a la animación 3D |
 | Mar 17 nov | Post · ¿Personas y conocimiento no son lo mismo? | Conocimiento | por decidir | Elegir del banco; candidato B11 (personas y conocimiento no son lo mismo), que exige fichar Nelson y Winter y Nonaka y Takeuchi |
 | Mié 18 nov | Post comunidad · La última vez que una herramienta te hizo mejor | Tecnología (comunidad) | por decidir | Aprobación de Alejandro |
 | Jue 19 nov | Post · Tema por redactar (el orden) | El orden | por redactar | Redacta la rutina del miércoles 18. Ese jueves también se redacta el AR5 |
@@ -59,7 +58,7 @@ Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov. No ha
 
 Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto.
 
-**Noviembre no llega.** A 15 nov, Publora cuenta 10 posts usados y quedan 5 del límite de 15, sin nada programado. El calendario pide 8 más (posts del 17, 18, 19, 24, 25 y 26 y cierres del 20 y 27), y eso sin contar Hestía. Faltan 3. Además, Publora solo deja programar 7 días vista (hasta el 18 nov) y 3 a la vez. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan. Hay que decidirlo antes del martes 17.
+**Noviembre no llega.** A 16 nov, Publora cuenta 10 posts usados y quedan 5 del límite de 15, sin nada programado. El calendario pide 8 más (posts del 17, 18, 19, 24, 25 y 26 y cierres del 20 y 27), y eso sin contar Hestía. Faltan 3. Además, Publora solo deja programar 7 días vista (hasta el 18 nov) y 3 a la vez. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan. Hay que decidirlo antes del martes 17.
 
 ## Decisiones pendientes de Alejandro
 

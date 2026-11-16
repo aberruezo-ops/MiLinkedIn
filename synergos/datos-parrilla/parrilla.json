@@ -108,8 +108,8 @@
   "tipo": "Artículo",
   "pieza": "lun 16 nov · Artículo · La bola negra: quién decide quién cabe",
   "pilar": "Personas",
-  "estado": "aprobado",
-  "falta": "Alejandro lo pega a mano; falta su visto bueno a la animación 3D"
+  "estado": "por confirmar",
+  "falta": "Lo pegas tú a mano hoy. Falta tu visto bueno al texto nuevo (v3.2) y a la animación 3D"
  },
  {
   "fecha": "2026-11-17",
@@ -182,5 +182,13 @@
   "pilar": "Cierre",
   "estado": "por redactar",
   "falta": "Rutina del jueves 26"
+ },
+ {
+  "fecha": "2026-11-30",
+  "tipo": "Artículo",
+  "pieza": "lun 30 nov · Artículo · El conocimiento que vive en los equipos",
+  "pilar": "Conocimiento",
+  "estado": "idea",
+  "falta": "Por concretar (Trist y Bamforth). Lo pegas tú a mano"
  }
 ]
