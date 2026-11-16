@@ -20,7 +20,7 @@ Hay una frase de la película que cito de memoria: este país tiene demasiadas h
 
 ## Un diseño también es un voto
 
-La urna del casino era una tecnología. Estaba diseñada para que excluir fuera fácil, admitir difícil, y para que nadie tuviera que dar la cara. Un sistema que automatiza el trabajo de una organización también se diseña así, aunque no lo parezca: decide qué casos caben y cuáles se quedan fuera, y quien los resolvía a mano queda sin sitio sin que nadie lo haya votado en voz alta. Quien la diseña decide qué casos caben.
+La urna del casino era una tecnología. Estaba diseñada para que excluir fuera fácil, admitir difícil, y para que nadie tuviera que dar la cara. Un sistema que automatiza el trabajo de una organización también se diseña así, aunque no lo parezca: decide qué casos caben y cuáles se quedan fuera, y quien los resolvía a mano queda sin sitio sin que nadie lo haya votado en voz alta.
 
 ## Lo que hace Synergós con esto
 
