@@ -1,6 +1,6 @@
 # Parte V. El detalle: cómo se hace
 
-Hasta aquí el documento ha descrito la arquitectura: los elementos, el orden, las fases, las puertas. Esta parte entra en lo que hay dentro. Son veinticuatro módulos, cada uno sobre un tema que el método toca en varias fases y que necesita desarrollo propio. Todos siguen la misma estructura: qué es y por qué importa, lo que dicen las fuentes, cómo se hace, cómo se mide, las señales de que va mal y lo que todavía no está resuelto.
+Hasta aquí el documento ha descrito la arquitectura: los elementos, el orden, las fases, las puertas. Esta parte entra en lo que hay dentro. Son veinticuatro módulos, cada uno sobre un tema que el método toca en varias fases y que necesita desarrollo propio. Casi todos siguen esta estructura: qué es y por qué importa, lo que dicen las fuentes, cómo se hace, cómo se mide, las señales de que va mal y lo que todavía no está resuelto. Donde falta un apartado es porque no lo tengo. No todos los módulos hacen falta en todos los programas: la tabla "Qué es obligatorio según alcance", al cierre de esta parte, dice qué es obligatorio, qué es recomendado y qué no aplica en una iniciativa puntual, en una de flujo y en una de sistema.
 
 El hilo que los une es una pregunta que la arquitectura plantea y no responde: en un trabajo en el que la tecnología puede hacer cada vez más cosas, ¿cuál es el lugar de las personas, y cómo se diseña para que la tecnología lo amplíe en lugar de ocuparlo?
 
@@ -38,9 +38,9 @@ La tabla no es una lista de virtudes humanas en abstracto. Es una plantilla de d
 
 ### Cómo se usa en el método
 
-**En el diagnóstico**, el inventario de aportaciones se levanta junto al mapa, con las mismas personas.
+**En el diagnóstico**, el inventario de aportaciones se levanta junto al mapa, con las mismas personas. En una organización grande se pregunta por perfil, con la misma regla de parada que el mapa (capítulo 9).
 
-**En el diseño**, cada opción dice qué aportaciones conserva, cuáles amplía y cuáles elimina. La quinta pregunta de la puerta (¿crecen los tres elementos?) se responde con datos: si una opción elimina el juicio, el contexto y la relación de un rol y le deja solo la vigilancia de lo que hace la máquina, no está haciendo crecer a las personas aunque mantenga el empleo.
+**En el diseño**, cada opción dice qué aportaciones conserva, cuáles amplía y cuáles elimina. Esa línea no va en la página de la decisión de puerta: va en el anexo a la decisión (anexo C), cuando la tabla "Qué es obligatorio según alcance" la marca como obligatoria para ese alcance. La quinta pregunta de la puerta (¿crecen los tres elementos?) se responde con datos: si una opción elimina el juicio, el contexto y la relación de un rol y le deja solo la vigilancia de lo que hace la máquina, no está haciendo crecer a las personas aunque mantenga el empleo.
 
 **En la escala**, los roles se describen por aportaciones, no por tareas. Es la forma más directa de que las carreras y los incentivos se rediseñen con sentido.
 
@@ -62,7 +62,7 @@ Hay tres formas de meter tecnología en un trabajo: sustituir a la persona, pone
 
 Lisanne Bainbridge publicó en 1983 un artículo breve que sigue siendo de lo más lúcido que se ha escrito sobre el tema. Lo llamó las ironías de la automatización. La primera ironía: cuanto más se automatiza un sistema, más importante y más difícil se vuelve la intervención humana, porque la persona solo interviene cuando algo ha fallado y el caso es raro. La segunda: la persona que ya no hace el trabajo deja de practicarlo y pierde la destreza justo cuando más la necesita. La tercera: vigilar un sistema que casi nunca falla es una tarea para la que los humanos están especialmente mal dotados; la atención se apaga.
 
-Raja Parasuraman y Victor Riley distinguieron en 1997 cuatro maneras de relacionarse con la automatización. El uso, que es activarla cuando conviene, y tres problemas: el mal uso, que es confiar demasiado en ella (el llamado sesgo de automatización); el desuso, que es desconfiar tanto que se ignora cuando acierta; y el abuso, que es automatizar sin pensar en las consecuencias para quien tiene que convivir con ella, una decisión de quien diseña y dirige, no del operador. Los tres problemas aparecen hoy con la IA generativa, y el estudio de la frontera dentada de 2023 mostró el primero con claridad: los consultores confiaban en la IA justo en las tareas en las que se equivocaba.
+Raja Parasuraman y Victor Riley distinguieron en 1997 cuatro maneras de relacionarse con la automatización. El uso, que es activarla cuando conviene, y tres problemas: el mal uso, que es confiar demasiado en ella (el llamado sesgo de automatización); el desuso, que es desconfiar tanto que se ignora cuando acierta; y el abuso, que es automatizar sin pensar en las consecuencias para quien tiene que convivir con ella, una decisión de quien diseña y dirige, no del operador. Los tres problemas aparecen hoy con la IA generativa. El estudio de la frontera dentada de 2023 encontró que, en las tareas que quedaban fuera de la frontera, los consultores con IA lo hacían peor que sin ella. Mi lectura es que confiaban en la IA justo donde se equivocaba, y por eso lo tomo como ejemplo del primero.
 
 Para Synergós, la consecuencia es concreta: "poner a una persona en el bucle" no es una solución por sí misma. Es el punto de partida de un problema de diseño.
 
@@ -77,8 +77,8 @@ Amy Wrzesniewski y Jane Dutton describieron en 2001 algo complementario: las per
 ### Cómo se hace: cinco pasos
 
 1. **Descomponer el trabajo en tareas.** No en funciones ni en procesos, sino en tareas concretas que alguien hace. Es el enfoque que usan los economistas del trabajo desde Autor, y es el único que permite ver qué cambia de verdad.
-2. **Clasificar cada tarea en la frontera.** Delegar, centauro, cíborg o reservar, según el capítulo 17. Para cada una, la pregunta es dónde mejora la IA el resultado y dónde lo empeora, y se responde probando con casos reales, no con la ficha del proveedor.
-3. **Recomponer el puesto.** Con las tareas reasignadas, se vuelve a montar el puesto y se evalúa con las cinco características de Hackman y Oldham. Si alguna cae mucho, se rediseña: se devuelve a la persona una tarea completa, se le da la decisión final, se le muestra el resultado de su trabajo.
+2. **Clasificar cada tarea con las cuatro categorías.** Delegar, centauro, cíborg o reservar, según el capítulo 17. Para cada una, la pregunta es a qué lado de la frontera dentada cae: dónde mejora la IA el resultado y dónde lo empeora. Se responde probando con casos reales, no con la ficha del proveedor. La frontera se mueve con cada modelo, así que la clasificación se revisa con los casos de prueba cada vez que cambia el modelo.
+3. **Recomponer el puesto.** Con las tareas reasignadas, se vuelve a montar el puesto y se evalúa con las cinco características de Hackman y Oldham. Si alguna cae mucho, se rediseña (cuánto es mucho lo fija cada programa en el diseño; anexo G): se devuelve a la persona una tarea completa, se le da la decisión final, se le muestra el resultado de su trabajo.
 4. **Diseñar la intervención humana.** Para cada tarea en la que la persona vigila o corrige a la IA: cuándo interviene, con qué información, cada cuánto practica el caso difícil y qué poder tiene para cambiar el sistema. Es la respuesta directa a Bainbridge.
 5. **Crear las tareas nuevas.** Qué hará la persona con el tiempo que libera. Si la respuesta es "más de lo mismo", no se han creado tareas nuevas; se ha aumentado la carga. Las tareas nuevas con más valor suelen estar en las aportaciones del módulo 1: más tiempo para el caso difícil, para la relación, para mejorar el proceso y para enseñar.
 
@@ -86,7 +86,7 @@ Amy Wrzesniewski y Jane Dutton describieron en 2001 algo complementario: las per
 
 ### Un caso compuesto
 
-Un equipo de tramitación incorpora un asistente que lee la documentación y propone una resolución. La primera versión del diseño dejaba a los tramitadores validando propuestas en pantalla, una tras otra. En el piloto, la productividad subió las dos primeras semanas y luego se estancó; los errores que se colaban eran justo los casos raros, que nadie miraba con atención porque el noventa por ciento de las propuestas eran correctas. El rediseño cambió tres cosas: el asistente señalaba su nivel de confianza y los casos fuera de patrón iban directos a la persona sin propuesta previa; cada tramitador llevaba sus expedientes completos de principio a fin; y una parte de la jornada se reservó para revisar a fondo una muestra y mejorar las reglas del asistente. Caso compuesto, ilustrativo.
+Un equipo de tramitación incorpora un asistente que lee la documentación y propone una resolución. La primera versión del diseño dejaba a los tramitadores validando propuestas en pantalla, una tras otra. En el piloto, la productividad subió las dos primeras semanas y luego se estancó; los errores que se colaban eran justo los casos raros, que nadie miraba con atención porque el noventa por ciento de las propuestas eran correctas (cifras ilustrativas, no medidas). El rediseño cambió tres cosas: el asistente señalaba su nivel de confianza y los casos fuera de patrón iban directos a la persona sin propuesta previa; cada tramitador llevaba sus expedientes completos de principio a fin; y una parte de la jornada se reservó para revisar a fondo una muestra y mejorar las reglas del asistente. Es un caso compuesto: lo construyo para ilustrar el rediseño, y ni sus cifras ni su desenlace son un resultado medido.
 
 ### Señales de que va mal
 
@@ -95,7 +95,7 @@ Un equipo de tramitación incorpora un asistente que lee la documentación y pro
 - Nadie sabe qué se hace con el tiempo liberado.
 - Se ha puesto IA en un paso que el flujo no necesitaba.
 
-!! Pregunta abierta. ¿Cuánta práctica del caso difícil necesita alguien para no perder la destreza? | Bainbridge planteó el problema hace cuarenta años y sigue sin una respuesta general. En aviación se resolvió con simuladores y horas obligatorias de vuelo manual. En el trabajo de oficina no hay nada equivalente. Propuesta provisional: reservar a propósito una proporción de casos para que se resuelvan sin asistencia, y medir la calidad de esas resoluciones. No sé qué proporción es la adecuada.
+!! Pregunta abierta. ¿Cuánta práctica del caso difícil necesita alguien para no perder la destreza? | Bainbridge planteó el problema hace cuarenta años y sigue sin una respuesta general. En aviación se resolvió con simuladores y horas obligatorias de vuelo manual. En el trabajo de oficina no hay nada equivalente. Propuesta provisional: reservar a propósito una proporción de casos para que se resuelvan sin asistencia, y medir la calidad de esas resoluciones, leída por equipo y no por persona (capítulo 18). No sé qué proporción es la adecuada.
 
 ## Módulo 3. La IA: cuándo sí, cuándo no y cuándo quitarla
 
@@ -107,7 +107,7 @@ La pregunta "¿dónde ponemos IA?" se responde casi siempre por disponibilidad: 
 
 La evidencia experimental sobre IA generativa en el trabajo ha crecido rápido y apunta en una dirección bastante clara, con matices. Shakked Noy y Whitney Zhang publicaron en 2023 un experimento con tareas de redacción profesional: la IA redujo el tiempo y mejoró la calidad, y la mejora fue mayor para quienes peor lo hacían al principio. Brynjolfsson, Li y Raymond encontraron algo parecido en un centro de atención al cliente, con una mejora media del 15 % y en torno al 30 % para los menos expertos. Dell'Acqua y sus coautores mostraron el reverso: en las tareas fuera de la frontera, los consultores con IA lo hacían peor que sin ella.
 
-Daniel Kahneman, Olivier Sibony y Cass Sunstein publicaron en 2021 un libro sobre el ruido: la variabilidad no deseada en los juicios de personas expertas que deberían coincidir. Dos tramitadores ante el mismo expediente deciden distinto; el mismo tramitador decide distinto un lunes y un viernes. Un sistema bien diseñado puede reducir ese ruido. Es un argumento a favor de la IA que casi nunca se usa y que es más sólido que el ahorro de tiempo.
+Daniel Kahneman, Olivier Sibony y Cass Sunstein publicaron en 2021 un libro sobre el ruido: la variabilidad no deseada en los juicios de personas expertas que deberían coincidir. Dos tramitadores ante el mismo expediente deciden distinto; el mismo tramitador decide distinto un lunes y un viernes. Un sistema bien diseñado puede reducir ese ruido. Es un argumento a favor de la IA que, en mi experiencia, casi nunca se usa, y que me parece más sólido que el ahorro de tiempo.
 
 ### La matriz de decisión
 
@@ -123,22 +123,24 @@ Para cada tarea candidata se responden siete preguntas. No hay una puntuación m
 | Explicación | Nadie necesita saber por qué | Hay que poder explicar la decisión a un tercero |
 | Relación | La tarea no depende de la confianza | La tarea es la relación |
 
-Una tarea con coste de error alto y difícil de detectar no está prohibida para la IA. Pero exige subir muy despacio por la escala de autonomía y diseñar con cuidado la intervención humana del módulo 2. Una tarea que es la que forma a los nuevos se puede automatizar, pero solo después de decidir quién enseña lo que enseñaba.
+Una tarea con coste de error alto y difícil de detectar no está prohibida para la IA. Pero exige subir muy despacio por la escala de autonomía y diseñar con cuidado la intervención humana del módulo 2. Si además la decisión afecta a derechos de las personas, no se puede deshacer o hay que poder explicarla a quien la recibe, vale el techo de autonomía del capítulo 17. Una tarea que es la que forma a los nuevos se puede automatizar, pero solo después de decidir quién enseña lo que enseñaba.
 
 ### Cuándo no
 
 Hay cuatro situaciones en las que el método recomienda no poner IA, al menos todavía.
 
-**Cuando el problema no es de predicción.** Si la restricción es que dos departamentos no se hablan, ninguna IA lo arregla. Es el error del capítulo 5: comprar un acelerador para tapar un elemento que falta.
+**Cuando el problema no es de predicción.** Si la restricción es que dos departamentos no se hablan, ninguna IA lo arregla. Es el error del capítulo 5: comprar un acelerador para tapar un elemento que falta. Si el diagnóstico no justifica la IA dentro del servicio, el programa sigue sin ella.
 
 **Cuando no se sabe qué es un buen resultado.** Si el equipo no se pone de acuerdo en qué es una resolución correcta, la IA reproducirá ese desacuerdo a escala.
 
-**Cuando el entorno no está.** Si nadie sabe quién responde de los errores, la IA en el servicio tiene que esperar.
+**Cuando el entorno no está.** Es la regla de entrada del capítulo 18: si las condiciones que la IA necesita no están en el nivel 2 de madurez en el ámbito, por ejemplo porque nadie sabe quién responde de los errores, la IA en el servicio tiene que esperar.
 
 **Cuando la tarea es la relación.** Hay servicios en los que lo que la persona recibe es, precisamente, que otra persona la atienda. Automatizar esa parte puede ahorrar coste y destruir lo que daba valor al servicio.
 
 ### Cuándo quitarla
 
-Retirar una IA que ya funciona es más difícil que no ponerla, porque alguien la defendió y alguien la pagó. El método fija señales de retirada desde el diseño: que la tasa de corrección deje de bajar o vuelva a subir; que aparezcan errores en los casos raros que antes resolvían las personas; que el indicador de criterio de las personas baje; que el coste total, incluida la supervisión, supere al ahorro. Ante cualquiera de ellas, la puerta del ciclo puede decidir bajar de nivel de autonomía o retirarla.
+Retirar una IA que ya funciona es más difícil que no ponerla, porque alguien la defendió y alguien la pagó. El método fija señales de retirada desde el diseño: que la tasa de corrección vuelva a subir o se estanque por encima del valor fijado en el diseño; que aparezcan errores en los casos raros que antes resolvían las personas; que el indicador de capacidad baje (capítulo 18); que el coste por tarea completada, incluida la revisión humana, supere al ahorro. Son los mismos indicadores con los que el capítulo 17 revisa cada solución en uso (el uso, la capacidad y el coste por tarea completada), mirados desde la tarea. Una tasa de corrección baja solo tranquiliza si una muestra revisada a ciegas por otra persona confirma la tasa de error, porque también puede querer decir que quien revisa ha dejado de mirar.
 
-!! Pregunta abierta. ¿Cómo se mide el coste de la supervisión? | Casi ningún caso de negocio de IA incluye el tiempo que las personas dedican a revisar, corregir y vigilar lo que hace el sistema. Ese tiempo es real y, según Bainbridge, crece con la automatización. No tengo una forma estándar de medirlo sin que la medición se vuelva intrusiva. Propuesta: registrar durante el piloto, por muestreo y con el acuerdo del equipo, el tiempo de revisión por caso, y llevarlo al modelo económico.
+Ante cualquiera de esas señales, el dueño de la solución propone bajar de nivel de autonomía o retirarla. Bajar de nivel se decide en una puerta de autonomía, que puede convocarse en cualquier momento. La retirada sigue la regla de la tabla "Quién decide qué" del capítulo 18: la firma el patrocinador, la contrafirma alguien sin interés en la iniciativa y quien la propone queda protegido por escrito.
+
+!! Pregunta abierta. ¿Cómo se mide el coste de la revisión humana? | Casi ningún caso de negocio de IA incluye el tiempo que las personas dedican a revisar, corregir y vigilar lo que hace el sistema. Ese tiempo es real y, según Bainbridge, crece con la automatización. Una parte ya es regla: el coste por tarea completada incluye la revisión humana (capítulo 18) y el módulo 24 pide dos medidas de esa revisión. Lo que sigue abierto es cómo medir ese tiempo sin que la medición se vuelva intrusiva. Propuesta: registrarlo durante el piloto por muestreo, con el acuerdo del equipo y leído por equipo y no por persona, y llevarlo al modelo económico.

@@ -6,7 +6,7 @@ Todo el método está orientado a ampliar a las personas en lugar de sustituirla
 
 ### Lo que pide el método
 
-**Saberlo en el diseño, no en la escala.** La quinta pregunta de la puerta (¿crecen los tres elementos?) obliga a ver, en cada opción, qué roles se reducen. Si un rol se reduce, se escribe en ese momento, cuando todavía hay tiempo para prepararlo.
+**Saberlo en el diseño, no en la escala.** La quinta pregunta de la puerta (¿crecen los tres elementos?) obliga a ver, en cada opción, qué roles se reducen. Si un rol se reduce, se escribe en ese momento, en el anexo a la decisión de puerta, cuando todavía hay tiempo para prepararlo.
 
 **Un plan de transición por persona, no por colectivo.** Para cada persona afectada: qué otras tareas o puestos podría ocupar con su conocimiento, qué formación necesitaría, cuánto tiempo y quién la acompaña. Las tareas nuevas del módulo 2 (el caso difícil, la relación, la mejora, la enseñanza) son el primer sitio donde buscar.
 
@@ -56,13 +56,13 @@ En el sector público hay dos referencias que cambian la perspectiva. Michael Li
 
 **Accesibilidad.** Los servicios digitales del sector público tienen obligaciones de accesibilidad desde la Directiva (UE) 2016/2102, y la Directiva (UE) 2019/882, que se aplica desde 2025, extiende exigencias a muchos productos y servicios privados. El método lo trata como criterio de puerta, no como revisión final.
 
-**Medir lo que vive quien recibe el servicio.** El indicador de tecnología (uso real) se completa con uno de quien recibe el servicio: tiempo hasta la resolución, resolución a la primera, abandono, reclamaciones y, en servicios públicos, quién no llega a usarlo.
+**Medir lo que vive quien recibe el servicio.** El capítulo 18 pide que el indicador de tecnología lleve el uso y el resultado. El resultado se mide desde quien recibe el servicio: tiempo hasta la resolución, resolución a la primera, abandono, reclamaciones y, en servicios públicos, quién no llega a usarlo.
 
 ### El valor que crea la persona para quien recibe el servicio
 
 Lo que una persona aporta desde el punto de vista de quien recibe el servicio es, muchas veces, lo que la organización menos mide: que alguien escuche, que alguien entienda que su caso es distinto, que alguien responda con nombre. En servicios sensibles (salud, servicios sociales, prestaciones, educación) eso es el servicio, no un adorno. El módulo 3 lo recoge como criterio para no poner IA, o para ponerla solo detrás de la persona.
 
-!! Pregunta abierta. ¿Quién representa a quien recibe el servicio en las puertas? | Los usuarios no están en los comités. Se les pregunta, se les observa y se miden sus resultados, pero no deciden. Propuesta provisional: que en cada puerta haya una persona con la función explícita de defender la mirada de quien recibe el servicio, con datos del recorrido. No sé si una función interna basta, o si en algunos servicios haría falta una representación externa.
+!! Pregunta abierta. ¿Quién representa a quien recibe el servicio en las puertas? | Los usuarios no están en los comités. Se les pregunta, se les observa y se miden sus resultados, pero no deciden. Desde la versión 1.8 es regla que el comité de puertas oiga antes de decidir, por escrito, a una persona con la función explícita de defender la mirada de quien recibe el servicio, con datos del recorrido (capítulo 18). Lo que sigue abierto es si una función interna basta, o si en algunos servicios haría falta una representación externa.
 
 ## Módulo 22. La huella material de la tecnología
 
@@ -78,15 +78,17 @@ La IA parece inmaterial y no lo es. Funciona en centros de datos que consumen el
 
 **Medir la dependencia.** Cuántos servicios críticos dependen de un solo proveedor o de un solo modelo, y qué pasa si cambia sus condiciones, su precio o su disponibilidad. Es la salida pactada del módulo 13, vista como riesgo estratégico.
 
-!! Pregunta abierta. ¿Cómo se compara el coste material de la IA con el valor que crea? | No tengo una forma de hacerlo que no sea arbitraria. Lo que el método puede hacer es que la pregunta se haga, que quede escrita en la decisión de puerta y que se revise cuando haya mejores datos.
+**Una línea en el anexo a la decisión.** La huella y la dependencia se escriben en el anexo a la decisión de puerta. La línea es obligatoria en las iniciativas de sistema y recomendada en las de flujo (tabla "Qué es obligatorio según alcance", al cierre de esta parte).
+
+!! Pregunta abierta. ¿Cómo se compara el coste material de la IA con el valor que crea? | No tengo una forma de hacerlo que no sea arbitraria. Lo que el método puede hacer es que la pregunta se haga, que quede escrita en el anexo a la decisión de puerta y que se revise cuando haya mejores datos.
 
 ## Lo que cambia en el método con las tres miradas
 
-Las tres miradas no añaden fases ni puertas. Añaden preguntas y responsables dentro de las que ya existen.
+Las tres miradas no añaden fases ni puertas. Añaden preguntas y voces dentro de las que ya existen. Ninguna de las personas que la tabla nombra se suma a los cuatro que deciden en el comité de puertas: se las oye antes, por escrito (capítulo 18). Las líneas que van al anexo a la decisión solo son obligatorias en el alcance que marca la tabla "Qué es obligatorio según alcance", al cierre de esta parte.
 
 | Mirada | Qué se añade a las puertas |
 |---|---|
-| Quien dirige | Mandos intermedios con voz en las puertas de diseño y piloto; las cinco puntas de la estrella en la decisión; plazo comprometido solo hasta la siguiente puerta, con clase de referencia |
-| Quien hace el trabajo | Representación legal informada en el diagnóstico; separación escrita entre asistir y vigilar; plan de transición por persona si un rol se reduce; indicador de carga e intrusión |
-| Quien recibe el servicio | Mapa del recorrido junto al mapa de lo que nadie escribió; canal humano garantizado; explicación y reclamación; accesibilidad como criterio de puerta; una persona que defiende su mirada en cada puerta |
-| Las tres | La huella y la dependencia en la decisión de la medida justa |
+| Quien dirige | El mando intermedio del ámbito, oído por escrito antes de cada puerta; las cinco puntas de la estrella en el anexo a la decisión; plazo comprometido solo hasta la siguiente puerta, con clase de referencia |
+| Quien hace el trabajo | Representación legal informada en el diagnóstico y oída por escrito cuando la decisión toca condiciones de trabajo; separación entre asistir y vigilar y roles que se reducen, en el anexo a la decisión; plan de transición por persona si un rol se reduce; carga e intrusión percibidas como indicador de guarda |
+| Quien recibe el servicio | Mapa del recorrido junto al mapa de lo que nadie escribió; canal humano garantizado; explicación y reclamación; accesibilidad como criterio de puerta; una persona que defiende su mirada, oída por escrito antes de cada puerta |
+| Las tres | La huella y la dependencia en la decisión de la medida justa, con su línea en el anexo a la decisión |

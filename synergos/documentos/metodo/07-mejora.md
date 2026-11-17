@@ -10,7 +10,7 @@ Synergós se corrige con las mismas piezas que pide a una organización. A la fe
 
 **Una línea base.** La versión 1.0 fue la línea base del método. Todo cambio posterior se compara con ella, y el registro de versiones del anexo F dice qué cambió en cada versión.
 
-**Una tabla de causas como control.** Cada pieza tiene que decir a qué causa de fracaso de la tabla del capítulo 2 responde. Entre las versiones 1.1 y 1.7 no apliqué este control a todo lo que entró. Desde la versión 1.8, las piezas que no responden a ninguna causa están marcadas como extensión sin causa documentada al cierre de la Parte V, y son las primeras candidatas a salir.
+**Una tabla de causas como control.** Cada pieza tiene que decir a qué causa de fracaso de la tabla del capítulo 2 responde. Entre las versiones 1.1 y 1.7 no apliqué este control a todo lo que entró. Desde la versión 1.8, las piezas que no responden a ninguna causa están marcadas como extensión sin causa documentada al cierre de la Parte V.
 
 **Doble bucle.** Cada trimestre revisaré si las piezas funcionan y si los supuestos en los que se apoyan siguen siendo ciertos. Todavía no ha habido ninguna de esas revisiones. El supuesto más importante del método, que el conocimiento tácito decide el resultado de una transformación con IA, es también el que más necesita evidencia.
 
