@@ -36,6 +36,10 @@ Una regla práctica: ninguna función crítica puede estar cubierta por alguien 
 
 El equipo que transforma se va. El que opera se queda. El sostenimiento falla cuando todo lo aprendido vive en el primero. Por eso, desde el diseño, cada pieza tiene un dueño en el equipo que opera, que participa en el piloto y recibe el conocimiento antes de que el programa termine. La puerta del sostenimiento (dos ciclos sin el equipo del programa) es la prueba de que esa transferencia ha ocurrido.
 
+### El equipo central y las áreas
+
+La relación entre el equipo del programa y las áreas cambia con la fase, y conviene decidirlo en el diseño. El capítulo 13 da la regla: central al principio, las áreas dueñas de sus casos en la escala, el centro como apoyo en el sostenimiento. Los dos extremos fallan de forma conocida. Un centro que lo decide todo se convierte en cuello de botella y produce presentaciones. Unas áreas que van cada una por su lado duplican trabajo y llenan la organización de herramientas sin inventario.
+
 ### Señales de que va mal
 
 - El equipo de transformación no tiene a nadie que haga hoy el trabajo que se va a cambiar.

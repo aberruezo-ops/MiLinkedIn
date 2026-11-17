@@ -1,6 +1,6 @@
 # Parte V. El detalle: cómo se hace
 
-Hasta aquí el documento ha descrito la arquitectura: los elementos, el orden, las fases, las puertas. Esta parte entra en lo que hay dentro. Son veintidós módulos, cada uno sobre un tema que el método toca en varias fases y que necesita desarrollo propio. Todos siguen la misma estructura: qué es y por qué importa, lo que dicen las fuentes, cómo se hace, cómo se mide, las señales de que va mal y lo que todavía no está resuelto.
+Hasta aquí el documento ha descrito la arquitectura: los elementos, el orden, las fases, las puertas. Esta parte entra en lo que hay dentro. Son veinticuatro módulos, cada uno sobre un tema que el método toca en varias fases y que necesita desarrollo propio. Todos siguen la misma estructura: qué es y por qué importa, lo que dicen las fuentes, cómo se hace, cómo se mide, las señales de que va mal y lo que todavía no está resuelto.
 
 El hilo que los une es una pregunta que la arquitectura plantea y no responde: en un trabajo en el que la tecnología puede hacer cada vez más cosas, ¿cuál es el lugar de las personas, y cómo se diseña para que la tecnología lo amplíe en lugar de ocuparlo?
 
@@ -82,6 +82,8 @@ Amy Wrzesniewski y Jane Dutton describieron en 2001 algo complementario: las per
 4. **Diseñar la intervención humana.** Para cada tarea en la que la persona vigila o corrige a la IA: cuándo interviene, con qué información, cada cuánto practica el caso difícil y qué poder tiene para cambiar el sistema. Es la respuesta directa a Bainbridge.
 5. **Crear las tareas nuevas.** Qué hará la persona con el tiempo que libera. Si la respuesta es "más de lo mismo", no se han creado tareas nuevas; se ha aumentado la carga. Las tareas nuevas con más valor suelen estar en las aportaciones del módulo 1: más tiempo para el caso difícil, para la relación, para mejorar el proceso y para enseñar.
 
+**El flujo entero, antes que la tarea suelta.** Desde la versión 1.7, los cinco pasos se aplican al flujo de principio a fin: desde que entra la petición hasta que alguien recibe el resultado. Mejorar una tarea deja intactas las esperas, los traspasos y las revisiones duplicadas que hay alrededor, y la ganancia se pierde en la siguiente cola. Antes de poner IA en un paso conviene preguntar si ese paso tiene que existir. A lo que se arrastra sin motivo lo llamo deuda de proceso: aprobaciones que nadie recuerda por qué se pusieron, datos que se piden dos veces, controles que duplican otro control. Automatizarla la hace más rápida y más difícil de quitar.
+
 ### Un caso compuesto
 
 Un equipo de tramitación incorpora un asistente que lee la documentación y propone una resolución. La primera versión del diseño dejaba a los tramitadores validando propuestas en pantalla, una tras otra. En el piloto, la productividad subió las dos primeras semanas y luego se estancó; los errores que se colaban eran justo los casos raros, que nadie miraba con atención porque el noventa por ciento de las propuestas eran correctas. El rediseño cambió tres cosas: el asistente señalaba su nivel de confianza y los casos fuera de patrón iban directos a la persona sin propuesta previa; cada tramitador llevaba sus expedientes completos de principio a fin; y una parte de la jornada se reservó para revisar a fondo una muestra y mejorar las reglas del asistente. Caso compuesto, ilustrativo.
@@ -91,6 +93,7 @@ Un equipo de tramitación incorpora un asistente que lee la documentación y pro
 - La persona pasa la mayor parte del día validando lo que propone la máquina.
 - Los errores que se escapan son siempre los casos raros.
 - Nadie sabe qué se hace con el tiempo liberado.
+- Se ha puesto IA en un paso que el flujo no necesitaba.
 
 !! Pregunta abierta. ¿Cuánta práctica del caso difícil necesita alguien para no perder la destreza? | Bainbridge planteó el problema hace cuarenta años y sigue sin una respuesta general. En aviación se resolvió con simuladores y horas obligatorias de vuelo manual. En el trabajo de oficina no hay nada equivalente. Propuesta provisional: reservar a propósito una proporción de casos para que se resuelvan sin asistencia, y medir la calidad de esas resoluciones. No sé qué proporción es la adecuada.
 

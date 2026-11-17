@@ -57,6 +57,8 @@ Robert Kaplan y David Norton propusieron en los años noventa el cuadro de mando
 
 La mayoría de los casos de negocio de IA prometen horas ahorradas. Pero una hora ahorrada no es un euro ganado hasta que alguien decide qué se hace con ella. Si nadie lo decide, la organización la absorbe: la gente hace más de lo mismo, o lo mismo más despacio, o cosas que nadie ha pedido. El método exige que la capacidad liberada tenga un destino escrito antes de aprobar la escala: se reinvierte en el caso difícil, en la calidad, en la relación con quien recibe el servicio, en mejorar el proceso, en formar, o se reduce coste de una forma concreta. Cada destino tiene su indicador.
 
+**El tiempo no se libera solo.** Desde la versión 1.7 el método añade una comprobación. Lo que se ha observado en organizaciones que ya trabajan con IA es que la carga tiende a subir: la gente asume tareas que antes eran de otros, hace más cosas a la vez y el trabajo se cuela en los descansos. Por eso el destino del tiempo se decide antes de la escala y se comprueba después con dos medidas: a qué se ha dedicado de verdad y cómo percibe la gente su carga. Si la carga sube y el destino pactado no aparece, el ahorro se ha convertido en intensidad.
+
 ### El valor que generan las personas
 
 El método pide que el modelo económico incluya lo que aportan las personas en el diseño elegido, no solo lo que se ahorra en ellas. Hay al menos cuatro fuentes de valor que casi nunca se cuentan:

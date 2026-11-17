@@ -112,6 +112,12 @@ El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño h
 
 **La puerta.** Tres salidas: pasar si se cumplen los criterios; ajustar y repetir si el resultado es prometedor pero incompleto; retirar si no funciona. Los criterios se escribieron antes, en el diseño, y no se reescriben al ver el resultado. Y desde la versión 1.6 se pregunta, antes de aprobar el piloto, qué decisión va a cambiar su evidencia y quién la toma: si nadie sabe contestar, el piloto todavía no está listo para empezar.
 
+**Criterio de parada y revisión a noventa días.** Desde la versión 1.7, cada piloto nace con dos cosas escritas además de los criterios para pasar: qué resultado lo detiene antes de tiempo y una fecha de revisión a noventa días como máximo. En esa revisión se decide con lo que haya. Un piloto que sigue abierto sin que nadie haya decidido nada es la forma más común de no retirar.
+
+**El registro de supuestos.** Toda opción de diseño descansa en supuestos: que la gente la usará, que los datos sirven, que el caso raro es poco frecuente. Se escriben en el diseño y en cada puerta se anota cuáles se han confirmado, cuáles han caído y cuáles siguen sin probar. Es la planificación guiada por el descubrimiento de McGrath y MacMillan aplicada a las puertas. Pasar una puerta con los supuestos principales sin probar es pasarla por fe.
+
+**Los casos de prueba.** Antes de empezar, quien hace el trabajo prepara un conjunto de casos reales, con los difíciles incluidos, y dice qué cuenta como buen resultado en cada uno. El sistema los pasa antes del piloto y vuelve a pasarlos en cada puerta. El módulo 24 lo desarrolla para los agentes, pero vale para cualquier sistema de IA.
+
 **El espacio para fallar.** Amy Edmondson ha documentado que los equipos aprenden cuando creen que es seguro asumir riesgos interpersonales: preguntar, admitir un error, proponer algo que puede salir mal. Si el piloto castiga el fallo, la gente lo esconde, y el piloto deja de informar. El patrocinador tiene que decir, antes de empezar y en voz alta, que retirar es una salida legítima.
 
 !! Pregunta abierta. ¿Quién tiene autoridad real para retirar un piloto con nombre propio? | El método resuelve el cuándo: los criterios están firmados antes y la puerta tiene tres salidas. No resuelve el quién. El criterio puede estar escrito y nadie atreverse a aplicarlo, porque el piloto es de alguien con poder o porque ya se ha gastado mucho. Propuesta provisional: la retirada la firman dos personas, el patrocinador y alguien sin interés en la iniciativa (por ejemplo, el responsable de medición), y quien la propone queda protegido por escrito. No sé si funciona en organizaciones muy jerárquicas. Es una de las preguntas que más necesita casos reales.
@@ -126,6 +132,12 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 
 **Varios referentes por área.** Desde la versión 1.6, la escala no descansa en un solo campeón por equipo. Se forma una comunidad de práctica con varios referentes por área: personas que ya usan bien la herramienta, que se reconocen como tales y que tienen tiempo reconocido para ayudar a los demás. Así la formación en el puesto no depende de quien más la usa, y el saber de usarla bien no se concentra. Esto se cruza con la columna de concentración del mapa: si en un área solo una persona sabe usar bien la herramienta, esa fila vuelve a ser de una sola persona y el riesgo se ha movido de sitio, no ha desaparecido. Mi punto de partida es al menos dos referentes por área. No tengo una cifra mejor, y seguramente depende del tamaño del área.
 
+**Quién lleva la adopción.** Desde la versión 1.7, la escala tiene una persona responsable de la adopción, con nombre y con tiempo, distinta de quien despliega la herramienta. Coordina a los referentes, recoge lo que no funciona y lo lleva al comité. Los referentes tienen horas reconocidas en su jornada. Si la adopción es tarea de todos y de nadie en concreto, se queda en la formación inicial.
+
+**Normas de equipo.** Que cada persona rinda más con IA no significa que el equipo rinda más. Cada equipo acuerda por escrito cuándo se usa la IA y cuándo no, cómo se avisa de que algo está hecho con ella, quién revisa qué, y qué no se entrega sin haberlo leído. Lo último importa: un trabajo generado deprisa y pasado sin revisar traslada el coste a quien lo recibe.
+
+**El modelo operativo cambia con la fase.** En el diagnóstico, el diseño y el piloto conviene un equipo central, porque hay poco saber y hay que concentrarlo. En la escala, las áreas se hacen dueñas de sus casos y el centro conserva lo común: gobierno, plataforma, estándares y medición. En el sostenimiento el centro queda como apoyo. Es una regla de práctica; no conozco datos que comparen los modelos (módulo 4).
+
 **Roles, carreras e incentivos.** Es la parte que más se olvida. Si el trabajo cambia y la evaluación no, la gente hace lo que se evalúa. Una señal clara de fallo es el uso alto de las herramientas nuevas con resultados iguales que antes.
 
 **La puerta de escala.** Los indicadores aguantan al ampliar, y los tres elementos aguantan la carga: hay personas formadas, el conocimiento está donde tiene que estar y la tecnología soporta el volumen.
@@ -135,6 +147,8 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 El sostenimiento asegura que la mejora siga cuando el equipo del programa se vaya. Es la fase que menos se planifica, porque el programa ya ha declarado su éxito. John Kotter lo identificó en 1995 como una de las causas clásicas del fracaso: declarar la victoria demasiado pronto.
 
 **Lo que tiene que existir.** Un dueño operativo con nombre, que acepte la responsabilidad. Un presupuesto recurrente, no el del proyecto. Un cuadro de indicadores en régimen, que se mire sin que nadie del programa lo pida. Un calendario de supervisión, con la revisión de supuestos incluida.
+
+**Evaluación que no termina.** Un sistema de IA cambia aunque nadie lo toque: el proveedor actualiza el modelo, cambian los datos, cambia lo que la gente le pide. Desde la versión 1.7, el calendario de supervisión incluye volver a pasar los casos de prueba en cada ciclo y siempre que cambie el modelo, y la auditoría interna revisa una vez al año que el inventario y los registros se corresponden con lo que está en uso.
 
 **La puerta.** El dueño acepta la responsabilidad por escrito y los indicadores aguantan dos ciclos sin el equipo del programa. Si caen al irse el equipo, la mejora era del equipo, no de la organización.
 

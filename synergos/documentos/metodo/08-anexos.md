@@ -59,6 +59,9 @@ Una página por opción de diseño.
 | 4. Errores y enseñanza | Quién responde cuando el sistema se equivoque; quién enseña lo que la tarea enseñaba |
 | 5. Crecer a la vez | Qué indicador de cada elemento mejora, cuál empeora |
 | Criterios del piloto | Delta mínimo del ciclo; ningún indicador retrocede; plazo; qué decisión cambia el resultado y quién la toma |
+| Criterio de parada | Qué resultado detiene el piloto antes de tiempo; fecha de revisión, a noventa días como máximo |
+| Supuestos | Los tres o cuatro de los que depende la opción; en cada puerta, cuáles se han confirmado, cuáles han caído y cuáles siguen sin probar |
+| Alcance | Puntual, de flujo o de sistema |
 | Cómo se deshace | Qué haría falta para volver atrás y cuánto cuesta |
 | Firma | Patrocinador y responsable de medición |
 
@@ -281,6 +284,36 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Revisadas y no citadas:** McKinsey, BCG, Deloitte y Accenture. Son encuestas de consultora, no evidencia independiente, y sus cifras no se han podido cotejar en el documento original. Se usan como contexto en el cuaderno, no en el método.
 
+**Revisión de la versión 1.7.** Para ampliar el método en innovación con IA, estrategia, gobierno y adopción se revisaron informes de 2025 y 2026, temarios de unos treinta programas para directivos, textos de autores de gestión y treinta y dos publicaciones de LinkedIn (cuaderno: estudios/05-enriquecimiento). Tres reglas. Las publicaciones de LinkedIn no se citan: sirvieron para ver qué preocupa a quien implanta. Los temarios se usaron como lista de comprobación de lo que el método no cubría. Y ninguna cifra de esos informes entra en el documento, porque la mayoría solo pude consultarla en resúmenes y varias se contradicen entre sí; lo que entra son prácticas, presentadas como propuestas de la versión 1.7. La parte legal de la revisión (calendarios y normas) se dejó fuera: el gobierno del que habla el método es el de la organización sobre su IA.
+
+**Fuentes añadidas en la versión 1.7.** Pendientes de ficha propia antes de citarlas en público. Se indica cuáles conozco solo por resúmenes.
+
+**Agrawal, A., Gans, J. y Goldfarb, A. (2022).** *Power and Prediction.* Soluciones puntuales y soluciones de sistema. De ahí sale la clasificación por alcance, que el método amplía con el nivel de flujo.
+
+**Dell'Acqua, F. y otros (2025).** "The Cybernetic Teammate". Documento de trabajo del NBER, 33641. Experimento en Procter and Gamble: una persona con IA rinde como un equipo de dos sin ella. Una sola empresa y tareas de un día; no dice que los equipos sobren. Conocido por resúmenes.
+
+**Doshi, A. y Hauser, O. (2024).** "Generative AI enhances individual creativity but reduces the collective diversity of novel content". *Science Advances.* Hecho con relatos breves; el método lo extiende por analogía a las sesiones de ideas, y eso es una inferencia propia.
+
+**FinOps Foundation (2025 y 2026).** Materiales sobre gestión del gasto en IA por unidad de trabajo. Conocidos por resúmenes.
+
+**Institute of Internal Auditors (2020).** *The IIA's Three Lines Model.* El reparto entre quien opera, quien controla y quien audita. No habla de IA.
+
+**March, J. (1991).** "Exploration and Exploitation in Organizational Learning". *Organization Science.* Por qué las organizaciones dejan de explorar.
+
+**McGrath, R. y MacMillan, I. (1995).** "Discovery-Driven Planning". *Harvard Business Review.* Escribir los supuestos y financiar por tramos. Es anterior a la IA.
+
+**McKinsey, QuantumBlack (2025).** "One year of agentic AI: Six lessons from the people doing the work". Experiencia de una consultora con sus clientes, no un estudio. Conocido por resúmenes.
+
+**Microsoft (2026).** *Work Trend Index*, informe anual. Encuesta a personas que ya usan IA; lo que declaran, no lo que se ha medido.
+
+**Mollick, E. (2025).** "Making AI Work: Leadership, Lab, and Crowd". Publicado en su boletín. Propuesta de práctica sin contraste empírico.
+
+**O'Reilly, C. y Tushman, M. (2004).** "The Ambidextrous Organization". *Harvard Business Review.* Separar la exploración del negocio diario y unirlas en la dirección.
+
+**Ranganathan, A. y Ye, X. (2026).** "AI Doesn't Reduce Work, It Intensifies It". *Harvard Business Review.* Una empresa tecnológica observada durante meses. Conocido por resúmenes; autoría por confirmar.
+
+**Marcos de gobierno de agentes (2025 y 2026).** El de la autoridad de medios e infocomunicaciones de Singapur y la lista de riesgos para aplicaciones con agentes de OWASP. Conocidos por resúmenes. Se usan como lista de comprobación, no como norma.
+
 **Esquemas no citados como fuente.** Para la versión 1.4 se revisó un esquema de gobierno de IA que circula como infografía, de un autor no identificado y con licencia desconocida. No es un estándar, no se cita como fuente y no se reproduce su diseño: solo se usó como lista de comprobación de lo que se gobierna y de los riesgos que se vigilan.
 
 **Pendientes de ficha propia y no usadas como argumento:** los estudios de mercado de 2025 sobre pilotos de IA que no llegan a producción.
@@ -298,3 +331,4 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 | 1.4 | 9 de noviembre de 2026 | Gobierno de la IA: la columna de las personas y su conocimiento en el inventario, las tres capas de responsabilidad con el derecho a parar y qué se escribe antes de cada peldaño de la escala de autonomía. La pregunta de la puerta pasa de dos verbos a tres (acelerar, automatizar o aumentar), con las tres condiciones para aumentar, la segunda parte "qué tiene que ser cierto" y la distinción entre volumen y conversión. Dos preguntas abiertas nuevas |
 | 1.5 | 9 de noviembre de 2026 | Revisión de lo que dicen autores y consultoras sobre el objetivo de la IA: nueva sección "Para qué: el objetivo" (cap. 17) y campo Objetivo en la plantilla de puerta; dos preguntas más dentro de la segunda de la puerta (si crea tareas o solo desplaza, qué pericia queda en el puesto); acelerar declarado como distinción propia sin fuente; el metaanálisis de Vaccaro, Almaatouq y Malone (aumentar no está garantizado); la doble cara de capturar lo tácito (cap. 16); vigilancia e incentivos en el inventario; techo explícito para la escala de autonomía; fuentes nuevas en el anexo E |
 | 1.6 | 17 de noviembre de 2026 | Implantación y adopción de la IA por los equipos (axioma A23), cinco propuestas: criterio del piloto con la decisión que cambia el resultado (cap. 10 y 12, plantilla de puerta); varios referentes por área en la escala, cruzados con la columna de concentración (cap. 13); sección Construir, comprar o retirar al cierre de cada ciclo (cap. 17); coste por tarea completada en el modelo económico (cap. 18); indicador de capacidad en pareja con el de uso (cap. 18, con nota en la pregunta abierta del criterio) |
+| 1.7 | 17 de noviembre de 2026 | Innovación con IA, estrategia, gobierno y adopción, doce propuestas: dos módulos nuevos, Innovar con IA (23) y Los agentes (24), con la ficha del agente y los controles por peldaño; papel de la dirección y arranque a cien días, tabla de quién decide qué, inventario único, las tres líneas, gobierno dentro de cada función y uso informal, coste que no está en la factura y medición en tres niveles (cap. 18); criterio de parada con revisión a noventa días, registro de supuestos y casos de prueba en el piloto, responsable de adopción, normas de equipo y modelo operativo por fase en la escala, y evaluación continua en el sostenimiento (cap. 12 a 14); el flujo entero y la deuda de proceso (módulo 2); el tiempo que no se libera solo (módulo 9); alcance y habilitadores en la cartera (módulo 14); tres campos nuevos en la plantilla de puerta. Trece fuentes nuevas, sin cifras de informes |

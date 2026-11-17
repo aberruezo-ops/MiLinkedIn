@@ -58,6 +58,10 @@ Casi todos los programas de transformación acumulan iniciativas. Cada área pro
 
 **Clasificar en cada ciclo.** Mantener, acelerar, reorientar o retirar. Es la misma clasificación que se usa para un programa en marcha (capítulo 18), aplicada en cada revisión.
 
+**Clasificar por alcance.** Desde la versión 1.7, cada iniciativa lleva una etiqueta: puntual, de flujo o de sistema (módulo 23). Una cartera en la que todo es puntual mejora lo que hay y no cambia nada. Una en la que todo es de sistema no entrega nada este año.
+
+**Hacer sitio a los habilitadores.** Hay iniciativas que no dan valor por sí mismas y sin las que las demás no escalan: la calidad del dato, la plataforma común, la formación, el inventario. Si se las mide por su retorno propio, la cartera las expulsa. Se aprueban por las iniciativas que desbloquean, y esa lista se escribe.
+
 **Retirar con la misma puerta que se entra.** Una iniciativa que sale pasa por las cinco preguntas, porque retirarla también afecta a personas, conocimiento y tecnología.
 
 ### Señales de que va mal

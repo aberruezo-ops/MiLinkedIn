@@ -133,6 +133,8 @@ Esta definición de niveles es una propuesta de la versión 1.0. Bajar de nivel 
 
 **Qué se escribe antes de cada peldaño.** Subir de nivel exige tener por escrito, antes de pasar la puerta, tres cosas: el criterio de subida (la última columna de la tabla, con su medida concreta), quién responde si el sistema se equivoca en ese nivel y qué se registra de cada acción para poder auditarla. Bajar de nivel exige lo mismo a la inversa: quién puede decidirlo y con qué señal. Algunos esquemas de gobierno de IA usan cuatro niveles parecidos (asistencia, recomendada, decidida y actuada). La equivalencia con los de Synergós es aproximada y no está contrastada. Lo que importa no son los nombres, sino que cada peldaño tenga un criterio y un responsable escritos antes de subir.
 
+**Controles por peldaño.** Desde la versión 1.7, cada nivel tiene además un paquete mínimo de controles que debe existir antes de subir: ficha e inventario, registro, casos de prueba, identidad y permisos propios del sistema, aprobación previa en lo irreversible, parada probada y nueva evaluación tras cada cambio. La tabla está en el módulo 24, junto con la ficha del agente.
+
 **Un techo explícito.** La escala termina en el nivel 4, pero no todo sistema tiene que llegar ahí. Propuesta de la versión 1.5: en la puerta de diseño se fija por escrito el nivel máximo al que puede subir cada sistema y por qué. Como regla de partida, las decisiones que afectan a derechos de las personas, que no se pueden deshacer o que la organización tiene que poder explicar a quien las recibe se quedan como máximo en el nivel 3, con revisión humana. Malone (2018) describe cuatro papeles posibles de la máquina en un grupo: herramienta, asistente, compañero y jefe. Synergós no prevé el papel de jefe en decisiones sobre personas.
 
 ### El entorno que exige la IA
@@ -163,7 +165,7 @@ Plataforma común antes que soluciones a medida; pruebas y despliegues automatiz
 
 ### El radar
 
-Lo emergente se revisa al cierre de cada ciclo y se clasifica en tres grupos: movimientos sin arrepentimiento, que se adoptan; opciones pequeñas, que se prueban con poco coste; y apuestas que esperan una señal antes de invertir. Nada entra por fuera de las puertas, por muy prometedor que parezca.
+Lo emergente se revisa al cierre de cada ciclo y se clasifica en tres grupos: movimientos sin arrepentimiento, que se adoptan; opciones pequeñas, que se prueban con poco coste; y apuestas que esperan una señal antes de invertir. Nada entra por fuera de las puertas, por muy prometedor que parezca. Las opciones pequeñas se prueban en el carril de exploración que describe el módulo 23.
 
 ### La medida justa
 
