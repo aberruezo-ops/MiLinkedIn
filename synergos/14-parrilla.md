@@ -63,7 +63,7 @@ Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reaccio
 
 ## Decisiones pendientes de Alejandro
 
-1. Cómo cubrir el hueco de cupo de noviembre: quedan 4 y el calendario pide 7 (faltan 3). Publora deja programar hasta el 24 nov; los posts del 18, 19 y 20 ya caben
+1. Cupo de posts de Publora (no tiene que ver con Apify): el plan Starter permite 15 al mes, llevas 11 y quedan 4, y el calendario pide 7 más (faltan 3). Opciones: publicar a mano los cierres de los viernes y alguno de comunidad, quitar un día por semana, o subir el plan de Publora
 2. Infografía de los tres verbos: lista y actualizada a la v1.5; decidir fecha (recomendado: publicarla a mano, sin gastar cupo)
 3. Aprobar el post comunidad del miércoles 18 («La última vez que una herramienta te hizo mejor»)
 4. Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico (mirar con el enlace)
