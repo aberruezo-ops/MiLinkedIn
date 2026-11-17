@@ -6,7 +6,7 @@ const { Document, Packer, Paragraph, TextRun, HeadingLevel, ImageRun, Table, Tab
 
 const INK = '1F1D1A', GREEN = '2C6D3F', LIGHT = '7CC090', GREY = '56606A', PALE = 'E8F1EB', LINE = 'D7DCDC';
 const TERRA = 'B5512A', ALBERO = 'C89A2A', ALBT = '8A6508', TERRAPALE = 'FBF1EC', SOFT = 'F4F6F6';
-const HF = 'Bricolage Grotesque ExtraBold', BF = 'Public Sans', SF = 'Public Sans', BOLD = 'Public Sans SemiBold';
+const HF = 'EB Garamond', BF = 'Public Sans', SF = 'Public Sans', BOLD = 'Public Sans SemiBold';
 const FONTDIR = '/tmp/claude-0/-home-user-MiLinkedIn/8b3653e3-6315-50f3-96b3-ad0bde922485/scratchpad/ttf/';
 const PAGE_W = 11906, MARGIN = 1418, TEXT_W = PAGE_W - 2 * MARGIN; // A4, 2,5 cm
 const dir = __dirname;
@@ -34,41 +34,36 @@ function image(file, widthCm, align = AlignmentType.CENTER) {
 const cellBorder = { style: BorderStyle.SINGLE, size: 4, color: LINE }; const noB = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
 function table(rows) {
   const n = rows[0].length;
-  // anchura de columnas: proporcional a la longitud media del texto, con mínimo
   const lens = Array.from({ length: n }, (_, i) => Math.max(8, rows.reduce((a, r) => a + (r[i] || '').length, 0) / rows.length));
-  const tot = lens.reduce((a, b) => a + b, 0);
+  const tot = lens.reduce((a, c) => a + c, 0);
   let cols = lens.map(l => Math.round(TEXT_W * l / tot));
   const MIN = n > 3 ? 1500 : 2000; let deficit = 0; cols = cols.map(c => { if (c < MIN) { deficit += MIN - c; return MIN; } return c; });
   const big = cols.reduce((a, c) => a + (c > MIN ? c : 0), 0); cols = cols.map(c => c > MIN ? Math.round(c - deficit * c / big) : c);
-  cols[n - 1] += TEXT_W - cols.reduce((a, b) => a + b, 0);
+  cols[n - 1] += TEXT_W - cols.reduce((a, c) => a + c, 0);
+  const hair = { style: BorderStyle.SINGLE, size: 4, color: LINE };
   return new Table({
     width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: cols,
     rows: rows.map((r, ri) => new TableRow({
       tableHeader: ri === 0, cantSplit: true,
       children: r.map((c, ci) => new TableCell({
         width: { size: cols[ci], type: WidthType.DXA },
-        shading: ri === 0 ? { type: ShadingType.CLEAR, color: 'auto', fill: INK } : (ri % 2 === 0 ? { type: ShadingType.CLEAR, color: 'auto', fill: SOFT } : undefined),
-        margins: { top: 90, bottom: 90, left: 120, right: 120 },
-        borders: { top: ri === 0 ? { style: BorderStyle.SINGLE, size: 24, color: GREEN } : cellBorder, bottom: cellBorder, left: noB, right: noB },
-        children: [new Paragraph({ spacing: { before: 0, after: 0, line: 252 }, children: runs(c, { font: (ri === 0 || (ci === 0 && n > 1)) ? BOLD : SF, size: 17, color: ri === 0 ? 'FFFFFF' : INK }) })]
+        margins: { top: 100, bottom: 100, left: ci === 0 ? 0 : 140, right: 140 },
+        borders: { top: ri === 0 ? { style: BorderStyle.SINGLE, size: 12, color: INK } : noB, bottom: ri === 0 ? { style: BorderStyle.SINGLE, size: 8, color: INK } : hair, left: noB, right: noB },
+        children: [new Paragraph({ spacing: { before: 0, after: 0, line: 264 }, children: runs(ri === 0 ? c.toUpperCase() : c, { font: (ri === 0 || (ci === 0 && n > 1)) ? BOLD : SF, size: ri === 0 ? 14 : 17, color: INK, characterSpacing: ri === 0 ? 30 : 0 }) })]
       }))
     }))
   });
 }
-function callout(title, body, color = GREEN, fill = PALE) {
-  const b = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
-  return new Table({
-    width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [TEXT_W],
-    rows: [new TableRow({ cantSplit: true, children: [new TableCell({
-      width: { size: TEXT_W, type: WidthType.DXA }, shading: { type: ShadingType.CLEAR, color: 'auto', fill },
-      margins: { top: 160, bottom: 160, left: 240, right: 240 },
-      borders: { top: b, bottom: b, right: b, left: { style: BorderStyle.SINGLE, size: 36, color } },
-      children: [
-        new Paragraph({ spacing: { before: 0, after: 80 }, children: [new TextRun({ text: title, font: HF, size: 23, color, bold: true })] }),
-        new Paragraph({ spacing: { before: 0, after: 0, line: 288 }, children: runs(body, { font: BF, size: 20, color: INK }) })
-      ]
-    })] })]
-  });
+function callout(title, body, color = TERRA, label = null) {
+  let lab = label, head = title;
+  if (!lab) { const m = /^Pregunta abierta\.\s*(.*)$/.exec(title); if (m) { lab = 'Pregunta abierta'; head = m[1]; } else { lab = 'Nota'; } }
+  const W1 = 2600, W2 = TEXT_W - W1; const hair = { style: BorderStyle.SINGLE, size: 6, color: LINE };
+  const left = [new Paragraph({ spacing: { before: 0, after: 80 }, children: [new TextRun({ text: lab.toUpperCase(), font: BOLD, size: 15, color, characterSpacing: 50 })] })];
+  if (head) left.push(new Paragraph({ spacing: { before: 0, after: 0, line: 280 }, children: [new TextRun({ text: head, font: HF, size: 27, color: INK })] }));
+  return new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [W1, W2], rows: [new TableRow({ cantSplit: true, children: [
+    new TableCell({ width: { size: W1, type: WidthType.DXA }, margins: { top: 140, bottom: 140, left: 0, right: 280 }, borders: { top: hair, bottom: hair, left: noB, right: noB }, children: left }),
+    new TableCell({ width: { size: W2, type: WidthType.DXA }, margins: { top: 140, bottom: 140, left: 0, right: 0 }, borders: { top: hair, bottom: hair, left: noB, right: noB }, children: [new Paragraph({ spacing: { before: 0, after: 0, line: 300 }, children: runs(body, { font: BF, size: 19, color: GREY }) })] }),
+  ] })] });
 }
 const spacer = (after = 120) => new Paragraph({ spacing: { before: 0, after }, children: [] });
 
@@ -81,33 +76,31 @@ const ESENCIA = {
   'V': 'Veinticuatro módulos para lo que el método toca en varias fases. Casi nunca hacen falta todos.',
   'VI': 'Las dudas, las críticas y lo que todavía falta por probar.'
 };
-function tricolor(h = 120) {
+function tricolor(h = 60) {
   const w = Math.floor(TEXT_W / 3); const nb = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
   return new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [w, w, TEXT_W - 2 * w],
     rows: [new TableRow({ height: { value: h, rule: 'exact' }, children: [TERRA, GREEN, ALBERO].map((c, i) => new TableCell({ width: { size: i < 2 ? w : TEXT_W - 2 * w, type: WidthType.DXA },
-      shading: { type: ShadingType.CLEAR, color: 'auto', fill: c }, borders: { top: nb, bottom: nb, left: nb, right: nb }, children: [new Paragraph({ spacing: { before: 0, after: 0, line: 60 }, children: [] })] })) })] });
+      shading: { type: ShadingType.CLEAR, color: 'auto', fill: c }, borders: { top: nb, bottom: nb, left: nb, right: nb }, children: [new Paragraph({ spacing: { before: 0, after: 0, line: 40 }, children: [] })] })) })] });
 }
 function portadilla(title) {
-  const m = /^Parte ([IVX]+)\. (.*)$/.exec(title); const num = m[1], rest = m[2];
-  const bg = new Paragraph({ spacing: { before: 0, after: 0 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, `portadilla-${num}.png`)),
-    transformation: { width: 793, height: 1122 }, floating: { behindDocument: true, horizontalPosition: { relative: D.HorizontalPositionRelativeFrom.PAGE, offset: 0 }, verticalPosition: { relative: D.VerticalPositionRelativeFrom.PAGE, offset: 0 } } })] });
-  return { portadilla: [
-    bg,
-    new Paragraph({ spacing: { before: 5200, after: 120 }, children: [new TextRun({ text: 'PARTE ' + num, font: BOLD, size: 24, color: ALBERO, characterSpacing: 90 })] }),
-    new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 360, line: 800 }, children: [new TextRun({ text: title, font: HF, size: 76, color: 'F3F1EC' })] }),
-    new Paragraph({ spacing: { before: 0, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: BF, size: 30, color: 'C9D2CD' })] }),
+  const m = /^Parte ([IVX]+)\. (.*)$/.exec(title); const num = m[1];
+  return { part: 'PARTE ' + num + ' · ' + m[2].split(':')[0].toUpperCase(), portadilla: [
+    new Paragraph({ pageBreakBefore: true, spacing: { before: 2200, after: 0 }, children: [new TextRun({ text: 'PARTE ' + num, font: BOLD, size: 20, color: GREEN, characterSpacing: 90 })] }),
+    new Paragraph({ spacing: { before: 0, after: 200, line: 2400 }, children: [new TextRun({ text: num, font: HF, size: 300, color: INK })] }),
+    new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 360, line: 880 }, children: [new TextRun({ text: title, font: HF, size: 80, color: INK })] }),
+    tricolor(40),
+    new Paragraph({ spacing: { before: 360, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: HF, size: 32, color: GREY, italics: true })] }),
   ] };
 }
 function pilar(t) { if (/^15\. /.test(t)) return TERRA; if (/^16\. /.test(t)) return GREEN; if (/^17\. /.test(t)) return ALBT; return GREEN; }
 function kicker(t) {
-  let k = null; let m;
+  let k = null, m;
   if ((m = /^(\d+)\. /.exec(t))) k = 'Capítulo ' + m[1]; else if ((m = /^Módulo (\d+)\./.exec(t))) k = 'Módulo ' + m[1]; else if ((m = /^Anexo ([A-Z])\./.exec(t))) k = 'Anexo ' + m[1];
   if (!k) return null;
-  return new Paragraph({ keepNext: true, spacing: { before: 420, after: 0 }, border: { top: { style: BorderStyle.SINGLE, size: 18, color: pilar(t), space: 6 } }, children: [new TextRun({ text: k.toUpperCase(), font: SF, size: 16, color: pilar(t), characterSpacing: 60 })] });
+  return new Paragraph({ keepNext: true, spacing: { before: 520, after: 40 }, children: [new TextRun({ text: k.toUpperCase(), font: BOLD, size: 15, color: pilar(t), characterSpacing: 70 })] });
 }
 function cita(text) {
-  return new Paragraph({ spacing: { before: 200, after: 320, line: 440 }, indent: { left: 400, right: 400 }, border: { left: { style: BorderStyle.SINGLE, size: 30, color: ALBERO, space: 14 } },
-    children: [new TextRun({ text, font: HF, size: 32, color: GREEN })] });
+  return new Paragraph({ spacing: { before: 240, after: 360, line: 460 }, indent: { left: 0, right: 600 }, children: [new TextRun({ text, font: HF, size: 38, color: INK, italics: true })] });
 }
 function firma() {
   return [new Paragraph({ alignment: AlignmentType.RIGHT, spacing: { before: 300, after: 0 }, children: [new TextRun({ text: 'Alejandro Berruezo', font: HF, size: 30, italics: true, color: INK })] }),
@@ -126,11 +119,11 @@ function parse(md) {
       out.push(new Paragraph({ spacing: { before: 0, after: 240 }, border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: GREEN, space: 1 } }, children: [] }));
       i++; continue;
     }
-    if (l.startsWith('## ')) { const t = l.slice(3); heads.push([2, t]); const k = kicker(t); if (k) out.push(k); out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: k ? { before: 60, after: 160 } : undefined, children: [new TextRun({ text: t, color: pilar(t) })] })); i++; continue; }
+    if (l.startsWith('## ')) { const t = l.slice(3); heads.push([2, t]); const k = kicker(t); if (k) out.push(k); out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: k ? { before: 60, after: 160 } : undefined, children: [new TextRun({ text: t })] })); i++; continue; }
     if (l.startsWith('### ')) { out.push(new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun({ text: l.slice(4) })] })); i++; continue; }
     if (l.startsWith('>> ')) { out.push(cita(l.slice(3))); i++; continue; }
     if (l.trim() === '{{firma}}') { out.push(...firma()); i++; continue; }
-    if (/^\*Señal de fallo:\*/.test(l)) { out.push(callout('Señal de fallo', l.replace(/^\*Señal de fallo:\*\s*/, '').replace(/^./, c => c.toUpperCase()), TERRA, TERRAPALE)); out.push(spacer(160)); i++; continue; }
+    if (/^\*Señal de fallo:\*/.test(l)) { out.push(spacer(60)); out.push(callout('', l.replace(/^\*Señal de fallo:\*\s*/, '').replace(/^./, c => c.toUpperCase()), TERRA, 'Señal de fallo')); out.push(spacer(160)); i++; continue; }
     if (l.startsWith('{{img:')) { const [f, w] = l.slice(6, -2).split('|'); out.push(image(f, +w)); i++; continue; }
     if (l.startsWith('!! ')) { const [t, ...b] = l.slice(3).split(' | '); out.push(spacer(60)); out.push(callout(t, b.join(' | '))); out.push(spacer(160)); i++; continue; }
     if (l.startsWith('|')) {
@@ -160,16 +153,17 @@ const toc = [
 
 function sectionsOf() {
   const mainProps = { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN } } };
-  const hdr = { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'Synergós · El método', font: SF, size: 15, color: GREY })] })] }) };
-  const ftr = { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.8 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ text: '\t', font: SF, size: 15 }), new TextRun({ children: [PageNumber.CURRENT], font: SF, size: 15, color: GREY })] })] }) };
+  const hair = { style: BorderStyle.SINGLE, size: 4, color: LINE };
+  const hdrOf = part => ({ default: new Header({ children: [new Paragraph({ border: { bottom: { ...hair, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'SYNERGÓS · EL MÉTODO', font: SF, size: 14, color: GREY, characterSpacing: 60 }), new TextRun({ text: '\t' + (part || ''), font: SF, size: 14, color: GREY, characterSpacing: 60 })] })] }) });
+  const ftr = { default: new Footer({ children: [new Paragraph({ border: { top: { ...hair, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez.', font: HF, size: 24, color: GREEN, italics: true }), new TextRun({ text: '\t', font: SF, size: 15 }), new TextRun({ children: [PageNumber.CURRENT], font: SF, size: 15, color: GREY, characterSpacing: 40 })] })] }) };
   const empty = { default: new Header({ children: [new Paragraph({ children: [] })] }) }, emptyF = { default: new Footer({ children: [new Paragraph({ children: [] })] }) };
   const secs = [{ properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover }];
-  let cur = [...toc], first = true;
-  const push = (children, withStart) => secs.push({ properties: withStart ? { ...mainProps, page: { ...mainProps.page, pageNumbers: { start: 2 } } } : mainProps, headers: hdr, footers: ftr, children });
+  let cur = [...toc], first = true, part = '';
+  const push = (children, withStart) => secs.push({ properties: withStart ? { ...mainProps, page: { ...mainProps.page, pageNumbers: { start: 2 } } } : mainProps, headers: hdrOf(part), footers: ftr, children });
   for (const el of bodyAll) {
     if (el && el.portadilla) {
-      push(cur, first); first = false; cur = [];
-      secs.push({ properties: { page: { margin: { top: 0, bottom: 0, left: MARGIN, right: MARGIN, header: 0, footer: 0 } } }, headers: empty, footers: emptyF, children: el.portadilla });
+      push(cur, first); first = false; cur = []; part = el.part;
+      secs.push({ properties: mainProps, headers: empty, footers: emptyF, children: el.portadilla });
     } else cur.push(el);
   }
   push(cur, first);
@@ -181,9 +175,9 @@ const doc = new Document({
   styles: {
     default: { document: { run: { font: BF, size: 21, color: INK } } },
     paragraphStyles: [
-      { id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 46, color: INK }, paragraph: { spacing: { before: 0, after: 120 }, keepNext: true, outlineLevel: 0 } },
-      { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 32, color: GREEN }, paragraph: { spacing: { before: 360, after: 140 }, keepNext: true, outlineLevel: 1 } },
-      { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 25, color: INK }, paragraph: { spacing: { before: 240, after: 100 }, keepNext: true, outlineLevel: 2 } },
+      { id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 76, color: INK }, paragraph: { spacing: { before: 0, after: 120 }, keepNext: true, outlineLevel: 0 } },
+      { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 64, color: INK }, paragraph: { spacing: { before: 360, after: 200 }, keepNext: true, outlineLevel: 1 } },
+      { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 36, color: INK }, paragraph: { spacing: { before: 240, after: 100 }, keepNext: true, outlineLevel: 2 } },
     ]
   },
   numbering: { config: [
@@ -193,7 +187,7 @@ const doc = new Document({
   fonts: [
     { name: 'Public Sans', data: fs.readFileSync(FONTDIR + 'public-sans-400-normal.ttf'), characterSet: D.CharacterSet.ANSI },
     { name: 'Public Sans SemiBold', data: fs.readFileSync(FONTDIR + 'public-sans-600-normal.ttf'), characterSet: D.CharacterSet.ANSI },
-    { name: 'Bricolage Grotesque ExtraBold', data: fs.readFileSync(FONTDIR + 'bricolage-grotesque-800-normal.ttf'), characterSet: D.CharacterSet.ANSI },
+    { name: 'EB Garamond', data: fs.readFileSync(FONTDIR + 'eb-garamond-400-normal.ttf'), characterSet: D.CharacterSet.ANSI },
   ],
   sections: sectionsOf()
 });
