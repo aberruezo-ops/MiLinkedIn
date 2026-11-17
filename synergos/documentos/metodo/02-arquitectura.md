@@ -19,9 +19,11 @@ La decisión central de cualquier transformación es a dónde va ese conocimient
 | Componente | Qué agrupa |
 |---|---|
 | Personas | Liderazgo; roles, carreras e incentivos; seguridad psicológica; interacción con quien hace el trabajo y con quien recibe el servicio; quién enseña lo que la tarea enseñaba |
-| Conocimiento | El explícito (datos con dueño, base curada, registro de decisiones); el tácito (el mapa de lo que nadie escribió); el aprendizaje del propio programa (supervisión de doble bucle) |
-| Tecnología | La IA en sus dos papeles, la frontera, la escala de autonomía, el entorno que exige; las demás tecnologías (plataforma, automatización, entrega continua); el radar de lo emergente; la medida justa |
-| El orden | Las cinco fases y sus puertas; estrategia; gobierno; modelo económico; medición y el delta; madurez y regla de entrada; dimensionamiento del programa; la marcha atrás |
+| Conocimiento | El explícito (datos con dueño, base curada, registro de decisiones, captura del conocimiento de quien se va); el tácito (el mapa de lo que nadie escribió); el aprendizaje del propio programa (supervisión del programa, de doble bucle) |
+| Tecnología | La capacidad de la organización para gobernar y usar tecnología: los dos papeles de la IA, la frontera, la escala de autonomía, el entorno que exige la IA, la plataforma, el radar de lo emergente y la medida justa |
+| El orden | Las cinco fases y sus puertas (el tronco, Parte III); estrategia; gobierno; modelo económico; medición; madurez; dimensionamiento. El capítulo 18 explica con ellos el delta, la regla de entrada y la marcha atrás |
+
+**Elemento y acelerador.** El elemento tecnología es la capacidad de la organización para gobernar y usar tecnología. Un acelerador es una tecnología concreta que se activa en un ámbito: un asistente de IA, una plataforma, una herramienta de automatización. El primero se construye y madura; el segundo entra o no entra. La lista de aceleradores que el documento reconoce está en el glosario (anexo A).
 
 ### La regla que protege la arquitectura
 
@@ -41,13 +43,15 @@ En la práctica, este principio choca con algo muy humano: casi todos los proyec
 
 ### Principio 2. Elemento antes que acelerador
 
-Un acelerador entra en una fase solo si los tres elementos están, para esa fase, al menos en el nivel 2 de madurez. La escala de madurez se explica en el capítulo 18. Lo importante aquí es la lógica: un acelerador multiplica lo que encuentra. Si encuentra un equipo que no sabe para qué sirve la herramienta, multiplica la confusión.
+Un acelerador entra en el servicio solo si las condiciones que necesita, en los tres elementos y en el gobierno, están en nivel 2 en el ámbito. Es la regla de entrada. El nivel es el de la escala de madurez, y las dos se explican en el capítulo 18. La regla se aplica a la tecnología dentro del servicio. La IA como herramienta del equipo que transforma solo exige reglas de uso y datos autorizados, y por eso puede usarse desde el diagnóstico. Lo importante aquí es la lógica: un acelerador multiplica lo que encuentra. Si encuentra un equipo que no sabe para qué sirve la herramienta, multiplica la confusión.
 
 *Riesgo:* que la escala de madurez se convierta en un examen burocrático. La evaluación tiene que durar horas, no semanas, y hacerse con quien trabaja, no sobre quien trabaja.
 
 ### Principio 3. Pocas cosas a la vez
 
-La IA se planifica en todas las fases. Además, uno o dos aceleradores por fase: los que atacan la restricción. Un programa que activa a la vez la IA, una plataforma nueva, un rediseño de procesos, un cambio de estructura y un nuevo modelo de medición no está transformando nada; está generando ruido que nadie puede atribuir.
+El límite se refiere a los aceleradores: la IA, cuando entra en el servicio, y uno o dos más por ciclo, los que atacan la restricción. Un ciclo es el recorrido de las cinco fases en un ámbito. Lo que el método pide siempre (rediseño del trabajo, medición, gobierno) no cuenta en ese límite. Un programa que activa a la vez, en el mismo ámbito, la IA, una plataforma nueva y varias herramientas de automatización genera un ruido que nadie puede atribuir.
+
+La IA tiene dos papeles y el principio los trata distinto. La IA como herramienta del equipo que transforma se considera en todas las fases. La IA dentro del servicio entra solo si el diagnóstico lo justifica, y un programa Synergós puede terminar sin ella. Así el principio 1 vale también para la IA.
 
 ### Principio 4. Puertas con criterios fijados antes
 
@@ -59,7 +63,7 @@ Es el principio del girasol, y se explica en el capítulo siguiente. Cada inicia
 
 ### Principio 6. El método se supervisa a sí mismo
 
-Si una pieza del método no aporta en un programa, se retira de ese programa. Y si no aporta en varios, se retira del método. Este principio es el que da a Synergós su vocación de mejora continua, y tiene un capítulo propio al final.
+Si una pieza del método no aporta en un programa, se retira de ese programa. Lo decide el patrocinador y se anota en el registro de decisiones. Qué piezas no se pueden quitar lo dice la tabla "Qué es obligatorio según alcance", al cierre de la Parte V. Y si no aporta en varios, se retira del método. Este principio es el que da a Synergós su vocación de mejora continua, y tiene un capítulo propio al final.
 
 ## 7. El girasol: por qué 137,5 grados
 
