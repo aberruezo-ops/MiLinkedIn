@@ -6,7 +6,8 @@ const { Document, Packer, Paragraph, TextRun, HeadingLevel, ImageRun, Table, Tab
 
 const INK = '1F1D1A', GREEN = '2C6D3F', LIGHT = '7CC090', GREY = '56606A', PALE = 'E8F1EB', LINE = 'D7DCDC';
 const TERRA = 'B5512A', ALBERO = 'C89A2A', ALBT = '8A6508', TERRAPALE = 'FBF1EC', SOFT = 'F4F6F6';
-const HF = 'Fraunces', BF = 'Georgia', SF = 'Arial';
+const HF = 'Bricolage Grotesque ExtraBold', BF = 'Public Sans', SF = 'Public Sans', BOLD = 'Public Sans SemiBold';
+const FONTDIR = '/tmp/claude-0/-home-user-MiLinkedIn/8b3653e3-6315-50f3-96b3-ad0bde922485/scratchpad/ttf/';
 const PAGE_W = 11906, MARGIN = 1418, TEXT_W = PAGE_W - 2 * MARGIN; // A4, 2,5 cm
 const dir = __dirname;
 const imgSize = { 'fig-arquitectura.png': [1600, 960], 'fig-fases.png': [1800, 620], 'fig-girasol.png': [1200, 1000], 'logo.png': [2000, 520], 'portada-girasol.png': [1600, 1300], 'portada-doc.png': [1240, 1754] };
@@ -19,7 +20,7 @@ function runs(text, base = {}) {
   while ((m = re.exec(text))) {
     if (m.index > last) out.push(new TextRun({ text: text.slice(last, m.index), ...base }));
     const t = m[0];
-    if (t.startsWith('**')) out.push(new TextRun({ text: t.slice(2, -2), bold: true, ...base }));
+    if (t.startsWith('**')) out.push(new TextRun({ ...base, text: t.slice(2, -2), font: BOLD }));
     else out.push(new TextRun({ text: t.slice(1, -1), italics: true, ...base }));
     last = m.index + t.length;
   }
@@ -49,7 +50,7 @@ function table(rows) {
         shading: ri === 0 ? { type: ShadingType.CLEAR, color: 'auto', fill: INK } : (ri % 2 === 0 ? { type: ShadingType.CLEAR, color: 'auto', fill: SOFT } : undefined),
         margins: { top: 90, bottom: 90, left: 120, right: 120 },
         borders: { top: ri === 0 ? { style: BorderStyle.SINGLE, size: 24, color: GREEN } : cellBorder, bottom: cellBorder, left: noB, right: noB },
-        children: [new Paragraph({ spacing: { before: 0, after: 0, line: 252 }, children: runs(c, { font: SF, size: 17, color: ri === 0 ? 'FFFFFF' : INK, bold: (ri === 0 || (ci === 0 && n > 1)) ? true : undefined }) })]
+        children: [new Paragraph({ spacing: { before: 0, after: 0, line: 252 }, children: runs(c, { font: (ri === 0 || (ci === 0 && n > 1)) ? BOLD : SF, size: 17, color: ri === 0 ? 'FFFFFF' : INK }) })]
       }))
     }))
   });
@@ -88,14 +89,14 @@ function tricolor(h = 120) {
 }
 function portadilla(title) {
   const m = /^Parte ([IVX]+)\. (.*)$/.exec(title); const num = m[1], rest = m[2];
-  return [
-    new Paragraph({ pageBreakBefore: true, spacing: { before: 2600, after: 200 }, children: [new TextRun({ text: 'PARTE ' + num, font: SF, size: 22, color: GREEN, characterSpacing: 80 })] }),
-    tricolor(),
-    new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 400, after: 300 }, children: [new TextRun({ text: title, size: 2, color: 'FFFFFF' })] }),
-    new Paragraph({ spacing: { before: 0, after: 400, line: 760 }, children: [new TextRun({ text: rest, font: HF, size: 68, color: INK })] }),
-    new Paragraph({ spacing: { before: 0, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: HF, size: 30, color: GREY, italics: true })] }),
-    new Paragraph({ children: [new PageBreak()] }),
-  ];
+  const bg = new Paragraph({ spacing: { before: 0, after: 0 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, `portadilla-${num}.png`)),
+    transformation: { width: 793, height: 1122 }, floating: { behindDocument: true, horizontalPosition: { relative: D.HorizontalPositionRelativeFrom.PAGE, offset: 0 }, verticalPosition: { relative: D.VerticalPositionRelativeFrom.PAGE, offset: 0 } } })] });
+  return { portadilla: [
+    bg,
+    new Paragraph({ spacing: { before: 5200, after: 120 }, children: [new TextRun({ text: 'PARTE ' + num, font: BOLD, size: 24, color: ALBERO, characterSpacing: 90 })] }),
+    new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 360, line: 800 }, children: [new TextRun({ text: title, font: HF, size: 76, color: 'F3F1EC' })] }),
+    new Paragraph({ spacing: { before: 0, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: BF, size: 30, color: 'C9D2CD' })] }),
+  ] };
 }
 function pilar(t) { if (/^15\. /.test(t)) return TERRA; if (/^16\. /.test(t)) return GREEN; if (/^17\. /.test(t)) return ALBT; return GREEN; }
 function kicker(t) {
@@ -120,7 +121,7 @@ function parse(md) {
     if (!l.trim()) { i++; continue; }
     if (l.startsWith('# ')) {
       heads.push([1, l.slice(2)]);
-      if (/^Parte [IVX]+\. /.test(l.slice(2))) { out.push(...portadilla(l.slice(2))); i++; continue; }
+      if (/^Parte [IVX]+\. /.test(l.slice(2))) { out.push(portadilla(l.slice(2))); i++; continue; }
       out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun({ text: l.slice(2) })] }));
       out.push(new Paragraph({ spacing: { before: 0, after: 240 }, border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: GREEN, space: 1 } }, children: [] }));
       i++; continue;
@@ -146,7 +147,7 @@ function parse(md) {
 const numRefs = []; const heads = [];
 const pages = fs.existsSync(path.join(dir, 'toc-pages.json')) ? JSON.parse(fs.readFileSync(path.join(dir, 'toc-pages.json'))) : {};
 const files = fs.readdirSync(dir).filter(f => /^0\d[a-z]?-.*\.md$/.test(f)).sort();
-const body = files.flatMap(f => parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+const bodyAll = files.flatMap(f => parse(fs.readFileSync(path.join(dir, f), 'utf8')));
 
 // Portada
 const cover = [new Paragraph({ spacing: { before: 0, after: 0 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'portada-doc.png')), transformation: { width: 793, height: 1122 } })] })];
@@ -157,6 +158,23 @@ const toc = [
     children: [new TextRun({ text: t, font: lv === 1 ? HF : BF, size: lv === 1 ? 24 : 20, color: lv === 1 ? GREEN : INK }), new TextRun({ text: '\t' + (pages[t] || '0'), font: SF, size: 18, color: GREY })] })),
 ];
 
+function sectionsOf() {
+  const mainProps = { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN } } };
+  const hdr = { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'Synergós · El método', font: SF, size: 15, color: GREY })] })] }) };
+  const ftr = { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.8 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ text: '\t', font: SF, size: 15 }), new TextRun({ children: [PageNumber.CURRENT], font: SF, size: 15, color: GREY })] })] }) };
+  const empty = { default: new Header({ children: [new Paragraph({ children: [] })] }) }, emptyF = { default: new Footer({ children: [new Paragraph({ children: [] })] }) };
+  const secs = [{ properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover }];
+  let cur = [...toc], first = true;
+  const push = (children, withStart) => secs.push({ properties: withStart ? { ...mainProps, page: { ...mainProps.page, pageNumbers: { start: 2 } } } : mainProps, headers: hdr, footers: ftr, children });
+  for (const el of bodyAll) {
+    if (el && el.portadilla) {
+      push(cur, first); first = false; cur = [];
+      secs.push({ properties: { page: { margin: { top: 0, bottom: 0, left: MARGIN, right: MARGIN, header: 0, footer: 0 } } }, headers: empty, footers: emptyF, children: el.portadilla });
+    } else cur.push(el);
+  }
+  push(cur, first);
+  return secs;
+}
 const doc = new Document({
   creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 1.8', description: 'Método Synergós, documento de trabajo',
   features: { updateFields: true },
@@ -165,19 +183,18 @@ const doc = new Document({
     paragraphStyles: [
       { id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 46, color: INK }, paragraph: { spacing: { before: 0, after: 120 }, keepNext: true, outlineLevel: 0 } },
       { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 32, color: GREEN }, paragraph: { spacing: { before: 360, after: 140 }, keepNext: true, outlineLevel: 1 } },
-      { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 25, color: INK, bold: true }, paragraph: { spacing: { before: 240, after: 100 }, keepNext: true, outlineLevel: 2 } },
+      { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: HF, size: 25, color: INK }, paragraph: { spacing: { before: 240, after: 100 }, keepNext: true, outlineLevel: 2 } },
     ]
   },
   numbering: { config: [
     { reference: 'vinetas', levels: [{ level: 0, format: LevelFormat.BULLET, text: '•', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 540, hanging: 300 } }, run: { color: GREEN } } }] },
     ...numRefs.map(r => ({ reference: r, levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1.', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 540, hanging: 360 } }, run: { color: GREEN, bold: true } } }] }))
   ] },
-  sections: [
-    { properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover },
-    { properties: { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN }, pageNumbers: { start: 2 } } },
-      headers: { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'Synergós · El método', font: SF, size: 15, color: GREY })] })] }) },
-      footers: { default: new Footer({ children: [new Paragraph({ border: { top: { style: BorderStyle.SINGLE, size: 8, color: GREEN, space: 6 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: [new TextRun({ text: 'Crecer a la vez · Versión 1.8 · Documento de trabajo', font: SF, size: 15, color: GREY }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: SF, size: 16, color: GREEN })] })] }) },
-      children: [...toc, ...body] }
-  ]
+  fonts: [
+    { name: 'Public Sans', data: fs.readFileSync(FONTDIR + 'public-sans-400-normal.ttf'), characterSet: D.CharacterSet.ANSI },
+    { name: 'Public Sans SemiBold', data: fs.readFileSync(FONTDIR + 'public-sans-600-normal.ttf'), characterSet: D.CharacterSet.ANSI },
+    { name: 'Bricolage Grotesque ExtraBold', data: fs.readFileSync(FONTDIR + 'bricolage-grotesque-800-normal.ttf'), characterSet: D.CharacterSet.ANSI },
+  ],
+  sections: sectionsOf()
 });
 Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v1.8.docx'), b); console.log('ok', files.length, 'ficheros'); });
