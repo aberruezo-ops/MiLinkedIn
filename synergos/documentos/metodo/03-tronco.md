@@ -82,7 +82,7 @@ El diseño decide qué se cambia, cómo y con qué. Su error típico es el más 
 
 **Los aceleradores por fase.** Qué aceleradores entran, cuándo, y cumpliendo la regla de entrada.
 
-**Los criterios del piloto.** Escritos y firmados antes de empezar: qué tiene que mejorar, cuánto, en qué plazo y qué se hará si no ocurre. Se expresan como delta mínimo respecto a la línea base.
+**Los criterios del piloto.** Escritos y firmados antes de empezar: qué tiene que mejorar, cuánto, en qué plazo y qué se hará si no ocurre. Se expresan como delta mínimo respecto a la línea base. Desde la versión 1.6 el criterio escribe también qué decisión va a cambiar el resultado del piloto: qué se hará distinto si sale bien y qué se hará distinto si sale mal. Un piloto cuyo resultado no cambiaría ninguna decisión solo demuestra, no prueba.
 
 **El modelo económico.** Cuánto cuesta, cuándo llegan los beneficios y cómo se reparten. Tiene que prever el valle de la curva J, que se explica en el capítulo 18.
 
@@ -110,7 +110,7 @@ El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño h
 
 **Qué produce.** Resultados contra la línea base, lecciones aprendidas, ajustes al diseño y riesgos descubiertos.
 
-**La puerta.** Tres salidas: pasar si se cumplen los criterios; ajustar y repetir si el resultado es prometedor pero incompleto; retirar si no funciona. Los criterios se escribieron antes, en el diseño, y no se reescriben al ver el resultado.
+**La puerta.** Tres salidas: pasar si se cumplen los criterios; ajustar y repetir si el resultado es prometedor pero incompleto; retirar si no funciona. Los criterios se escribieron antes, en el diseño, y no se reescriben al ver el resultado. Y desde la versión 1.6 se pregunta, antes de aprobar el piloto, qué decisión va a cambiar su evidencia y quién la toma: si nadie sabe contestar, el piloto todavía no está listo para empezar.
 
 **El espacio para fallar.** Amy Edmondson ha documentado que los equipos aprenden cuando creen que es seguro asumir riesgos interpersonales: preguntar, admitir un error, proponer algo que puede salir mal. Si el piloto castiga el fallo, la gente lo esconde, y el piloto deja de informar. El patrocinador tiene que decir, antes de empezar y en voz alta, que retirar es una salida legítima.
 
@@ -123,6 +123,8 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 **Despliegue por etapas.** Nunca de golpe. Cada etapa tiene su propia mini puerta: los indicadores tienen que aguantar al ampliar. Si la mejora del piloto se diluye al pasar a más equipos, se para y se entiende por qué antes de seguir.
 
 **Formación en el puesto.** No un curso de un día, sino acompañamiento mientras se trabaja. Lo que funciona en la escala casi siempre es lo que aprendieron los usuarios avanzados del piloto, no lo que estaba en el manual.
+
+**Varios referentes por área.** Desde la versión 1.6, la escala no descansa en un solo campeón por equipo. Se forma una comunidad de práctica con varios referentes por área: personas que ya usan bien la herramienta, que se reconocen como tales y que tienen tiempo reconocido para ayudar a los demás. Así la formación en el puesto no depende de quien más la usa, y el saber de usarla bien no se concentra. Esto se cruza con la columna de concentración del mapa: si en un área solo una persona sabe usar bien la herramienta, esa fila vuelve a ser de una sola persona y el riesgo se ha movido de sitio, no ha desaparecido. Mi punto de partida es al menos dos referentes por área. No tengo una cifra mejor, y seguramente depende del tamaño del área.
 
 **Roles, carreras e incentivos.** Es la parte que más se olvida. Si el trabajo cambia y la evaluación no, la gente hace lo que se evalúa. Una señal clara de fallo es el uso alto de las herramientas nuevas con resultados iguales que antes.
 

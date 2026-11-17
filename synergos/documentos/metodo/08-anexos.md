@@ -58,7 +58,7 @@ Una página por opción de diseño.
 | 3. Mapa | Qué filas se quedan en la persona, cuáles pasan al sistema de forma revisable, cuáles se pierden |
 | 4. Errores y enseñanza | Quién responde cuando el sistema se equivoque; quién enseña lo que la tarea enseñaba |
 | 5. Crecer a la vez | Qué indicador de cada elemento mejora, cuál empeora |
-| Criterios del piloto | Delta mínimo del ciclo; ningún indicador retrocede; plazo |
+| Criterios del piloto | Delta mínimo del ciclo; ningún indicador retrocede; plazo; qué decisión cambia el resultado y quién la toma |
 | Cómo se deshace | Qué haría falta para volver atrás y cuánto cuesta |
 | Firma | Patrocinador y responsable de medición |
 
@@ -251,6 +251,8 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios (Ley 11/2023, aplicable desde el 28 de junio de 2025); Directiva (UE) 2024/2831, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Su aplicación concreta debe comprobarse con asesoría jurídica.
 
+**Revisión de la versión 1.6.** Para llevar al método la implantación y la adopción por los equipos se revisaron experiencias de profesionales de adopción y cambio publicadas en LinkedIn (diez publicaciones). Ninguna se cita: son testimonios de práctica, no estudios, y sirven para contrastar prácticas, no como evidencia. Lo que se añade (cinco propuestas) se presenta como propuesta de la versión 1.6, sin atribuir a nadie, y necesita contraste con casos reales.
+
 **Fuentes añadidas en la versión 1.5** (revisión del objetivo de la IA, fichas en el cuaderno: estudios/02-revision-objetivo-ia). Pendientes de ficha propia antes de citarlas en público, salvo las marcadas como cotejadas.
 
 **Acemoglu, D. y Johnson, S. (2023).** *Power and Progress.* La dirección de la tecnología es una elección de poder; proponen la "utilidad de la máquina" frente a imitar al humano. No dicen que toda automatización sea mala; sus cifras macro son discutidas.
@@ -295,3 +297,4 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 | 1.3 | 6 de noviembre de 2026 | Verificación de fuentes: corregidos Trist y Bamforth, Klarna, Commonwealth Bank, Brynjolfsson, Li y Raymond, el estudio de los canarios, Bloom y otros, Goodhart y Strathern, Lave y Wenger, Dreyfus, Douady y Couder, Polanyi, Douglas, Turner, Ryan y Deci, Cross y Parker, Parasuraman y Riley; calendario del Reglamento de IA tras el Reglamento (UE) 2026/1744; referencias completas |
 | 1.4 | 9 de noviembre de 2026 | Gobierno de la IA: la columna de las personas y su conocimiento en el inventario, las tres capas de responsabilidad con el derecho a parar y qué se escribe antes de cada peldaño de la escala de autonomía. La pregunta de la puerta pasa de dos verbos a tres (acelerar, automatizar o aumentar), con las tres condiciones para aumentar, la segunda parte "qué tiene que ser cierto" y la distinción entre volumen y conversión. Dos preguntas abiertas nuevas |
 | 1.5 | 9 de noviembre de 2026 | Revisión de lo que dicen autores y consultoras sobre el objetivo de la IA: nueva sección "Para qué: el objetivo" (cap. 17) y campo Objetivo en la plantilla de puerta; dos preguntas más dentro de la segunda de la puerta (si crea tareas o solo desplaza, qué pericia queda en el puesto); acelerar declarado como distinción propia sin fuente; el metaanálisis de Vaccaro, Almaatouq y Malone (aumentar no está garantizado); la doble cara de capturar lo tácito (cap. 16); vigilancia e incentivos en el inventario; techo explícito para la escala de autonomía; fuentes nuevas en el anexo E |
+| 1.6 | 17 de noviembre de 2026 | Implantación y adopción de la IA por los equipos (axioma A23), cinco propuestas: criterio del piloto con la decisión que cambia el resultado (cap. 10 y 12, plantilla de puerta); varios referentes por área en la escala, cruzados con la columna de concentración (cap. 13); sección Construir, comprar o retirar al cierre de cada ciclo (cap. 17); coste por tarea completada en el modelo económico (cap. 18); indicador de capacidad en pareja con el de uso (cap. 18, con nota en la pregunta abierta del criterio) |

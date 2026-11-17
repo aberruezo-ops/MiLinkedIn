@@ -151,6 +151,12 @@ Lo que ese esquema no recoge, y no conviene generalizar a partir de uno solo, es
 
 La clasificación de riesgo que obliga a aplicar el Reglamento europeo la fija el análisis jurídico del caso, no esta lista. Aquí sirve para no olvidar qué mirar.
 
+### Construir, comprar o retirar
+
+Lo que valía cuando se eligió una solución puede no valer un año después: cambia el mercado, cambia el modelo que hay debajo, cambia el coste y cambia el uso real. Desde la versión 1.6, al cierre de cada ciclo se vuelve a decidir, para cada solución en uso, si se mantiene, se sustituye por otra comprada, se construye algo propio o se retira. La decisión la toma el comité de puertas con los mismos indicadores que aprobaron la solución: el uso, la capacidad que ha dejado en las personas y el coste por tarea completada (capítulo 18). No la toma el proveedor ni el equipo que la construyó, que tienen razones para mantenerla. Retirar es una salida legítima, como en el piloto.
+
+*Señal de fallo:* en la organización nadie ha retirado nunca una herramienta, y las licencias solo se renuevan.
+
 ### Las demás tecnologías
 
 Plataforma común antes que soluciones a medida; pruebas y despliegues automatizados; arquitectura modular; y una salida pactada con cada proveedor. Nicole Forsgren, Jez Humble y Gene Kim documentaron en 2018 la relación entre esas prácticas y el rendimiento de entrega de software, que a su vez se asocia al rendimiento de toda la organización. Jeanne Ross, Cynthia Beath y Martin Mocker describieron en 2019 cómo las organizaciones que se diseñan para lo digital construyen plataformas reutilizables en lugar de proyectos aislados.
