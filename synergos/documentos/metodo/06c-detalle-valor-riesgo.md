@@ -57,6 +57,8 @@ Robert Kaplan y David Norton propusieron en los años noventa el cuadro de mando
 
 La mayoría de los casos de negocio de IA prometen horas ahorradas. Pero una hora ahorrada no es un euro ganado hasta que alguien decide qué se hace con ella. Si nadie lo decide, la organización la absorbe: la gente hace más de lo mismo, o lo mismo más despacio, o cosas que nadie ha pedido. El método exige que la capacidad liberada tenga un destino. Se escribe en el diseño, al responder a la segunda pregunta de la puerta, y se confirma antes de aprobar la escala: se reinvierte en el caso difícil, en la calidad, en la relación con quien recibe el servicio, en mejorar el proceso, en formar, o se reduce coste de una forma concreta. Cada destino tiene su indicador.
 
+>> Una hora ahorrada no es un euro ganado hasta que alguien decide qué se hace con ella.
+
 **El tiempo no se libera solo.** Desde la versión 1.7 el método añade una comprobación. En una empresa tecnológica observada durante meses (Ranganathan y Ye, 2026, que conozco por resúmenes), la carga subió: la gente asumía tareas que antes eran de otros, hacía más cosas a la vez y el trabajo se colaba en los descansos. Es un solo caso, y la comprobación es una propuesta. El destino del tiempo, escrito en el diseño, se confirma antes de la escala y se comprueba después con dos medidas: a qué se ha dedicado de verdad y cómo percibe la gente su carga. La carga percibida es un indicador de guarda y se lee por equipo (capítulo 18). Si la carga sube y el destino pactado no aparece, el ahorro se ha convertido en intensidad.
 
 ### El valor que generan las personas

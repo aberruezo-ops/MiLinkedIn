@@ -106,6 +106,8 @@ Brynjolfsson, Danielle Li y Lindsey Raymond estudiaron a unos cinco mil agentes 
 
 Son tres verbos distintos, y la pregunta de la puerta se hace con los tres. **Acelerar** es hacer la misma tarea más rápido, con la misma persona. **Automatizar** es que la tarea la haga el sistema y la persona salga del circuito. **Aumentar** es que la persona haga algo que antes no podía, o lo haga mejor, con la tecnología a su lado. La regla para elegir está en el capítulo 11 y se responde por tarea. Si la persona sale del circuito, automatiza. Si sigue y el resultado esperado es solo tiempo, acelera. Si se espera mejor calidad o algo que antes no hacía, aumenta, y se dice con qué indicador. Ninguno es bueno o malo por sí solo: tanto automatizar como aumentar pueden ser rentables. Lo que preocupa a Brynjolfsson (2022) es que los incentivos empujen casi siempre hacia sustituir sin que nadie lo haya decidido.
 
+{{img:fig-verbos.png|16}}
+
 La distinción entre acelerar y los otros dos verbos es propia de Synergós. Ninguno de los autores revisados para la versión 1.5 trata acelerar como una categoría aparte: hablan de sustituir o de complementar. Se mantiene porque obliga a preguntar a dónde va el tiempo que se gana, pero no tiene una fuente que la respalde.
 
 Lo que se sabe de cada uno, con las cautelas de cada estudio. Los estudios no separan los verbos como la regla, y varios resultados mezclan dos. **Acelerar:** en un experimento con tareas de redacción profesional, quienes usaron IA generativa tardaron un 40 % menos (Noy y Zhang, 2023). El mismo estudio midió una calidad un 18 % mayor, que con la regla ya es aumentar. La ganancia de tiempo es real, y por sí sola no cambia nada: si el proceso y las aprobaciones son los mismos, el tiempo que se gana se lo queda la organización sin que nadie decida en qué se reinvierte. **Automatizar** tiene sentido cuando la tarea está bien entendida, el criterio se puede escribir y equivocarse sale barato. El problema aparece cuando se automatiza sin haber medido antes qué más hacía la persona. Es mi lectura de los casos de Klarna y Commonwealth Bank (capítulo 18), que las fuentes no confirman. **Aumentar:** en el centro de atención al cliente de Brynjolfsson, Li y Raymond (2025), el 15 % más de casos por hora es, con la regla, acelerar: misma tarea, misma persona, menos tiempo. Lo que apunta a aumentar es que quienes tenían menos experiencia mejoraran en torno a un 30 %, porque pasaron a resolver casos como los resolvían los más expertos. En consultoría, dentro de la frontera, hicieron un 12,2 % más de tareas, un 25,1 % más rápido y con más de un 40 % más de calidad, y fuera de ella acertaron 19 puntos menos que sin IA (Dell'Acqua y otros, 2023).
@@ -121,6 +123,8 @@ Lo que se sabe de cada uno, con las cautelas de cada estudio. Los estudios no se
 ### La escala de autonomía
 
 La autonomía de un sistema de IA dentro del servicio sube por niveles, y cada subida se gana en una puerta de autonomía con evaluaciones superadas. Es la pieza que protege lo que más cuesta recuperar: la confianza de quien trabaja y de quien recibe el servicio.
+
+{{img:fig-autonomia.png|16}}
 
 | Nivel | Qué hace el sistema | Qué hace la persona | Para subir al siguiente |
 |---|---|---|---|
@@ -144,6 +148,8 @@ Antes del primer piloto con IA dentro del servicio hay que poder responder tres 
 Sobre el Reglamento conviene ser prudente. Entró en vigor en agosto de 2024, sus obligaciones se aplican de forma escalonada y el calendario cambió en 2026. Las fechas están en el módulo 11 y no las repito aquí. Antes de cualquier decisión concreta hay que comprobar el calendario vigente y la clasificación de riesgo del caso con quien tenga competencia jurídica. El método no sustituye a ese análisis; solo obliga a hacerlo en el momento oportuno.
 
 El entorno es necesario, pero no suficiente. Dónde aplicar la IA lo decide el diagnóstico, no el entorno.
+
+>> Dónde aplicar la IA lo decide el diagnóstico, no el entorno.
 
 ### Qué se gobierna, y la columna que falta
 

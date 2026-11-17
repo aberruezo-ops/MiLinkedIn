@@ -6,6 +6,8 @@ El tronco del método son cinco fases: diagnóstico, diseño, piloto, escala y s
 
 {{img:fig-fases.png|16}}
 
+{{img:fig-estructura.png|16}}
+
 **Qué recorre el tronco.** Un programa tiene uno o varios ámbitos. Un ámbito es el servicio o el flujo de trabajo que se va a transformar. Cada ámbito hace un diagnóstico y tiene una restricción. Del diagnóstico salen iniciativas, que forman la cartera. Cada iniciativa compara opciones en el diseño y recorre piloto, escala y sostenimiento. Hay, por tanto, un diagnóstico y un mapa por ámbito, y una puerta de diseño, de piloto, de escala y de sostenimiento por iniciativa.
 
 Cada puerta tiene tres salidas posibles para la iniciativa que llega a ella: pasar, ajustar y repetir, o retirar. La tercera no es un fracaso. Retirar una iniciativa en la puerta del piloto es barato, y es una buena noticia: el método ha hecho su trabajo, que es equivocarse en pequeño antes de equivocarse en grande.
@@ -117,6 +119,8 @@ El diseño decide qué se cambia, cómo y con qué. Su error típico es el más 
 
 La puerta de diseño es donde los tres elementos se protegen, y por eso tiene cinco preguntas en lugar de una.
 
+{{img:fig-puerta.png|16}}
+
 1. **¿Ataca la restricción?** La pregunta clásica de Goldratt y Rumelt. Si no la ataca, puede ser una buena idea, pero no es la prioridad.
 2. **¿Acelera, automatiza o aumenta?** Zuboff formuló en 1988 la pregunta de fondo con dos verbos, automatizar o informar. Desde la versión 1.4 son tres. Acelerar es hacer la misma tarea más rápido con la misma persona; automatizar es sacar a la persona del circuito; aumentar, que ocupa el lugar del informar de Zuboff, es que la persona haga algo que antes no podía, o lo haga mejor, con la tecnología a su lado. Se responde por tarea, porque una misma opción suele mezclar los tres. Si la persona sale del circuito, automatiza. Si sigue y el resultado que se espera es solo tiempo, acelera. Si se espera mejor calidad o algo que antes no hacía, aumenta, y se dice con qué indicador se va a ver. Ninguno es bueno o malo por sí solo, y hay que elegir a propósito. Si la respuesta es acelerar, se escribe a dónde va el tiempo que se gana, y ese destino se confirma antes de aprobar la escala (módulo 9). Y en los tres casos se escribe qué tiene que ser cierto para que lo elegido dé el resultado que se espera (capítulo 17). Dentro de esta pregunta van dos más desde la versión 1.5: ¿crea tareas nuevas para las personas o solo desplaza las que había?, que es la distinción de Acemoglu y Restrepo (2019); y ¿qué pericia queda en el puesto después?, porque, como muestran Autor y Thompson (2025), el efecto sobre el puesto es distinto si la tecnología retira sus tareas sencillas o sus tareas expertas.
 3. **¿Qué le pasa a cada fila del mapa de lo que nadie escribió?** Se queda en la persona y la tecnología la ayuda, pasa al sistema de forma revisable, o se pierde.
@@ -130,6 +134,8 @@ Se puede aprobar una opción que pierde conocimiento. Se puede aprobar una que a
 ## 12. Fase 3. Piloto
 
 El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño ha decidido. Su error típico es elegir el entorno más fácil, el equipo más motivado o el servicio más sencillo, que funciona muy bien y no representa al resto. Un piloto que no representa no prueba nada.
+
+>> Un piloto que no representa no prueba nada.
 
 **Cómo elegir el entorno.** Con al menos una de las condiciones difíciles del resto de la organización: un equipo con rotación, un volumen alto, casos raros, sistemas antiguos. La pregunta útil no es dónde va a funcionar, sino dónde va a fallar primero si tiene que fallar.
 

@@ -16,6 +16,8 @@ Rumelt describió en 2011 el núcleo de una buena estrategia en tres partes: un 
 
 Un comité de puertas con criterios previos, derechos de decisión escritos y un registro de riesgos y de decisiones. Peter Weill y Jeanne Ross mostraron en 2004 que las organizaciones que deciden con claridad quién decide qué sobre la tecnología obtienen más valor de ella. La claridad importa más que el modelo concreto.
 
+{{img:fig-comite.png|16}}
+
 **Tres capas de responsabilidad.** El gobierno fija los criterios, los derechos de decisión y las puertas. La gestión los aplica, los mide y los corrige. El uso es de quien trabaja con la herramienta cada día, que es quien primero ve cuándo falla. Propuesta de la versión 1.4: la capa de uso tiene derecho a parar, por escrito y sin represalias, y ese derecho se anota en la misma tabla que los demás derechos de decisión. Sin él, que la persona decida se queda en una frase.
 
 **El comité de puertas.** Desde la versión 1.8 su composición está escrita. Deciden cuatro personas y otras son oídas antes, por escrito.
@@ -59,15 +61,21 @@ El dueño de la solución es el dueño operativo, el del agente y quien figura e
 
 **El uso informal.** En casi todas las organizaciones hay gente usando herramientas de IA que nadie ha aprobado. Prohibirlo sin ofrecer alternativa lo esconde. Desde la versión 1.8 esto es regla y deja de ser pregunta abierta. El método pide cuatro cosas: averiguar en el diagnóstico qué se usa de verdad, con una consulta anónima; ofrecer herramientas aprobadas que sirvan para lo que la gente hace con las otras; un canal para pedir herramientas nuevas con respuesta en plazo; y la garantía de que contar un uso para que se evalúe no trae sanción (módulo 23). La garantía cubre haber probado la herramienta; no exime de comunicar y tratar una posible fuga de datos. Qué datos pueden usarse con cada herramienta lo dice el módulo 11. Lo que la gente usa a escondidas dice dónde está la necesidad.
 
+>> Lo que la gente usa a escondidas dice dónde está la necesidad.
+
 **Herramientas de uso general.** Un asistente para toda la plantilla no ataca una restricción concreta ni tiene un flujo que mapear, así que no puede recorrer el tronco. Se aprueba por una vía corta, con cuatro condiciones escritas: reglas de uso, datos permitidos, formación mínima e indicadores de uso y de capacidad. Cada uso que entre en un servicio pasa después por el tronco.
 
 *Señal de fallo:* las puertas se aprueban por calendario y no por evidencias. Cuando la puerta se pasa porque toca, deja de ser una puerta. Otra señal: hay sistemas o agentes en uso que no están en el inventario.
+
+>> Cuando la puerta se pasa porque toca, deja de ser una puerta.
 
 ### Modelo económico
 
 Presupuesto por fases, con la horquilla que cada puerta libera o devuelve, reparto pactado de las ganancias e hitos de recuperación. Y una previsión explícita del valle.
 
 Brynjolfsson, Daniel Rock y Chad Syverson describieron en 2021 la curva J de la productividad: cuando una organización adopta una tecnología de propósito general, primero tiene que invertir en cosas que no se ven en la contabilidad (rediseño del trabajo, formación, procesos nuevos), y durante un tiempo la productividad medida baja antes de subir. La fuente describe el efecto a nivel de empresa y de economía; aplicarlo a un programa es una analogía mía. En mi experiencia, muchos programas se cancelan en ese valle, justo antes de dar resultado. El modelo económico de Synergós lo prevé: dice cuánto dura el valle esperado, cuánto cuesta, qué indicadores bajarán y cuánto, y qué indicadores tempranos muestran que se va por buen camino aunque el resultado todavía no llegue. La duración del valle se estima con la clase de referencia del módulo 17 y, si no hay, se declara como supuesto.
+
+{{img:fig-curva.png|16}}
 
 **Coste por tarea completada.** Desde la versión 1.6, el modelo no se queda en lo que cuesta tener la herramienta. Calcula cuánto cuesta cerrar una tarea de principio a fin con ella: licencias o consumo, la revisión humana que exige, el retrabajo cuando falla y el soporte. Se compara con lo que costaba la misma tarea en la línea base. Es una cuenta incómoda, porque la herramienta puede ser barata por uso y cara por tarea cerrada si casi todo hay que revisarlo. Y hay que repetirla cada periodo de medición, porque el uso y el coste cambian.
 
@@ -78,6 +86,8 @@ Brynjolfsson, Daniel Rock y Chad Syverson describieron en 2021 la curva J de la 
 ### Medición y el delta
 
 Las reglas de medición de Synergós están todas en este apartado.
+
+{{img:fig-medicion.png|16}}
 
 **Línea base antes de cambiar nada.** Sin ella, ningún resultado posterior significa nada. La línea base recoge también la variación normal de cada indicador, es decir, entre qué valores se movía antes de cambiar nada. Un indicador que no existía antes de la herramienta, como el uso, parte de cero, y se dice así.
 

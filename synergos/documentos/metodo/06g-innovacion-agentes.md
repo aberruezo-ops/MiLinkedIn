@@ -20,6 +20,8 @@ Ethan Mollick propuso en 2025 una forma de organizarlo en tres piezas: una direc
 
 **Dos carriles con reglas distintas.** La mejora de lo existente sigue el tronco, con sus puertas. La exploración tiene un carril propio, con un presupuesto pequeño y fijado de antemano por el patrocinador, que no promete retorno y que se mide por lo que aprende. Lo que no cambia es la regla del radar: nada entra en el servicio por fuera de las puertas.
 
+{{img:fig-carriles.png|16}}
+
 **Un laboratorio pequeño.** Dos o tres personas con tiempo reconocido, una de ellas alguien que hace hoy el trabajo. Sus experimentos duran días o pocas semanas y cuestan poco. Cada uno empieza con una frase escrita: qué supuesto se prueba y qué resultado lo daría por bueno o por caído. El laboratorio no opera el servicio ni decide sobre él. Cada experimento que usa IA figura en el inventario único con el estado "en experimento" (capítulo 18).
 
 **Clasificar cada idea por su alcance.** Puntual, si mejora una tarea. De flujo, si obliga a rediseñar un proceso de principio a fin. De sistema, si cambia lo que la organización ofrece o cómo se organiza. La clasificación decide dos cosas: cuánto del método hay que activar (una mejora puntual no necesita los veinticuatro módulos; la tabla "Qué es obligatorio según alcance", al cierre de esta parte, dice qué se pide en cada alcance) y con qué vara se mide. Una apuesta de sistema medida con los indicadores del trimestre se cancela siempre.
@@ -117,6 +119,8 @@ Es una propuesta de la versión 1.7, sin probar. Los límites se aplican en el s
 ## Qué es obligatorio según alcance
 
 El método no se aplica entero a todo. Desde la versión 1.8 esta tabla dice qué pieza se pide según el alcance de la iniciativa (puntual, de flujo o de sistema, módulo 23). Es una propuesta sin probar. Un módulo marcado como obligatorio se lee así: lo que ese módulo pide se hace y queda escrito. Uno recomendado se usa cuando ayuda y no hay que justificar dejarlo. Lo mismo vale para las líneas del anexo a la decisión de puerta: solo se escriben las obligatorias para ese alcance.
+
+{{img:fig-nucleo.png|16}}
 
 | Pieza o módulo | Puntual | De flujo | De sistema |
 |---|---|---|---|

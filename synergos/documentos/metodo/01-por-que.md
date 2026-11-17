@@ -12,6 +12,8 @@ La tercera: este es un documento de trabajo del autor. Recoge el cómo operativo
 
 !! Cómo están marcadas las preguntas abiertas | Cada recuadro como este recoge una pregunta que el método todavía no ha cerrado. Si lleva una propuesta, es provisional y se dice. Si no la lleva, es porque no la tengo, y prefiero decirlo a inventarla.
 
+{{firma}}
+
 # Parte I. Por qué un método
 
 ## 1. Una transformación rota que todavía no lo sabe

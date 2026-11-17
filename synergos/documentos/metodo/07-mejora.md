@@ -98,3 +98,5 @@ La versión actual recoge el método tal como lo entiendo hoy, ordenado y con su
 Mientras tanto, el método se publica por partes, cada semana una pieza, en una serie que recorre los tres elementos y el orden por vueltas, bajando un nivel de profundidad en cada una. La serie es también una forma de supervisión: lo que la gente pregunta, discute o rebate entra en la siguiente versión.
 
 Crecer a la vez vale también para el método. Si un día el método crece más que la evidencia que lo sostiene, estará cometiendo el mismo error que intenta evitar.
+
+>> Crecer a la vez vale también para el método.
