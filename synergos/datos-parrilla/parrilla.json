@@ -108,16 +108,16 @@
   "tipo": "Artículo",
   "pieza": "lun 16 nov · Artículo · La bola negra: quién decide quién cabe",
   "pilar": "Personas",
-  "estado": "por confirmar",
-  "falta": "Lo pegas tú a mano hoy. Falta tu visto bueno al texto nuevo (v3.2) y a la animación 3D"
+  "estado": "publicado",
+  "falta": "Responder a mano a los comentarios que lleguen. Enlace: https://www.linkedin.com/pulse/la-bola-negra-qui%C3%A9n-decide-cabe-alejandro-berruezo-m%C3%A1rquez-aybee/"
  },
  {
   "fecha": "2026-11-17",
   "tipo": "Post",
   "pieza": "mar 17 nov · Post · ¿Personas y conocimiento no son lo mismo?",
   "pilar": "Conocimiento",
-  "estado": "por decidir",
-  "falta": "Elegir del banco; la idea de personas y conocimiento exige fichar Nelson y Winter, y Nonaka y Takeuchi"
+  "estado": "programado",
+  "falta": "Nada: sale hoy a las 8:30 con vídeo y primer comentario con el enlace de «La bola negra»"
  },
  {
   "fecha": "2026-11-18",
@@ -125,7 +125,7 @@
   "pieza": "mié 18 nov · Post comunidad · La última vez que una herramienta te hizo mejor",
   "pilar": "Tecnología",
   "estado": "por decidir",
-  "falta": "Aprobación de Alejandro"
+  "falta": "La rutina de hoy a las 19:47 (hora de Madrid) redacta el borrador; apruebas tú"
  },
  {
   "fecha": "2026-11-19",
@@ -133,7 +133,7 @@
   "pieza": "jue 19 nov · Post · Tema por redactar (el orden)",
   "pilar": "El orden",
   "estado": "por redactar",
-  "falta": "Rutina del miércoles 18; ese jueves se redacta el artículo del 23 nov"
+  "falta": "Redacta la rutina del miércoles 18; ese jueves también se redacta el artículo del 23 nov"
  },
  {
   "fecha": "2026-11-20",

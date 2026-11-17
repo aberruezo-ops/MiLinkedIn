@@ -238,5 +238,65 @@
   "estado": "por decidir",
   "enlace": "https://www.linkedin.com/jobs/view/4488283980/",
   "nota": "Remoto desde España; caduca el 12 dic; cambio y adopción en un programa de transformación global; hueco de inglés"
+ },
+ {
+  "id": "e21",
+  "fecha": "2026-11-12",
+  "empresa": "BBVA",
+  "puesto": "AI Capability Deployment & Adoption Lead, AI Analytics (Senior Expert II)",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés B2",
+  "encaje": "alto",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4490380124/",
+  "nota": "Madrid híbrido, caduca el 12 dic, 80 solicitantes. Falta peso técnico en analítica e IA predictiva, generativa y agéntica."
+ },
+ {
+  "id": "e22",
+  "fecha": "2026-11-10",
+  "empresa": "Accenture España",
+  "puesto": "I&P Associate Director, Banking Strategy",
+  "fuente": "LinkedIn",
+  "idioma": "No indicado",
+  "encaje": "medio",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4488600507/",
+  "nota": "Madrid híbrido, caduca el 10 dic, 28 solicitantes. Falta sector bancario. Visita de técnico de selección de Accenture el 16 nov."
+ },
+ {
+  "id": "e23",
+  "fecha": "2026-10-22",
+  "empresa": "Broseta",
+  "puesto": "Head of AI & Legal Transformation",
+  "fuente": "Indeed",
+  "idioma": "No indicado",
+  "encaje": "medio",
+  "estado": "por decidir",
+  "enlace": "https://to.indeed.com/aajxdf4lyxh6",
+  "nota": "Madrid. Falta sector jurídico."
+ },
+ {
+  "id": "e24",
+  "fecha": "2026-11-15",
+  "empresa": "Deloitte",
+  "puesto": "Corporate Transformation Manager",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés avanzado",
+  "encaje": "bajo",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4464228853/",
+  "nota": "Madrid híbrido, 5 a 10 años, nivel inferior al suyo."
+ },
+ {
+  "id": "e25",
+  "fecha": "2026-11-14",
+  "empresa": "Johnson & Johnson Innovative Medicine",
+  "puesto": "Transcend Manager PMO",
+  "fuente": "LinkedIn",
+  "idioma": "Inglés",
+  "encaje": "bajo",
+  "estado": "por decidir",
+  "enlace": "https://www.linkedin.com/jobs/view/4491084654/",
+  "nota": "Madrid híbrido, PMO de programa global con ERP."
  }
 ]
