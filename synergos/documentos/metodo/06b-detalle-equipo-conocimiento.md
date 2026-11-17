@@ -60,8 +60,8 @@ Fuera de las siete funciones, el documento nombra otros papeles y órganos. Esta
 | Auditoría interna | La tercera línea | Sostenimiento | De ninguna |
 | Área de tecnología | La unidad que lleva los sistemas de la organización. Decide plataforma y arquitectura, acepta la solución en producción y la opera (capítulo 18) | Es oída antes de las puertas y acepta la solución cuando pasa a producción | Tecnología y datos hace de enlace |
 | Persona que responde en cada función | Alguien de la función que usa IA, que conoce el inventario de su área (capítulo 18) | Desde el primer caso de uso de su función | Dirección del programa |
-| Mando intermedio del ámbito | Un mando del ámbito afectado (módulo 15) | Es oído antes de las puertas de diseño y de piloto | Voz de quien hace el trabajo |
-| Persona que defiende a quien recibe el servicio | Una función interna; es una propuesta provisional (módulo 21) | Es oída antes de cada puerta | Diseño del trabajo |
+| Mando intermedio del ámbito | Un mando del ámbito afectado (módulo 15) | Es oído antes de cada puerta | Voz de quien hace el trabajo |
+| Persona que defiende a quien recibe el servicio | Una función interna (módulo 21). Que el comité la oiga es regla desde la versión 1.8; queda abierto si una función interna basta | Es oída antes de cada puerta | Diseño del trabajo |
 | Representación legal | La representación de las personas trabajadoras (módulo 18) | Se la informa en el diagnóstico y es oída cuando una decisión toca condiciones de trabajo | De ninguna |
 | Usuarios avanzados | Un grupo estable de personas que prueban antes que nadie (capítulo 15) | Piloto | Voz de quien hace el trabajo |
 | Referentes | Personas que ya usan bien la herramienta, con horas reconocidas (capítulo 13) | Escala | Los coordina el responsable de adopción |

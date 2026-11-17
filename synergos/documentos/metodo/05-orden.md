@@ -1,6 +1,6 @@
 ## 18. El orden: crecer a la vez
 
-El orden es lo que hace que los tres elementos avancen al mismo compás. Además de las fases y sus puertas, que ocupan la Parte III, agrupa la estrategia, el gobierno, el modelo económico, la medición, la madurez, el dimensionamiento y la marcha atrás. Es la parte menos vistosa del método y la que decide si todo lo demás llega a algún sitio.
+El orden es lo que hace que los tres elementos avancen al mismo compás. Además de las fases y sus puertas, que ocupan la Parte III, agrupa la estrategia, el gobierno, el modelo económico, la medición, la madurez y el dimensionamiento. El capítulo explica con ellos el delta, la regla de entrada y la marcha atrás. Es la parte menos vistosa del método y la que decide si todo lo demás llega a algún sitio.
 
 ### Estrategia
 

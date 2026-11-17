@@ -155,7 +155,7 @@ La clasificación de riesgo que obliga a aplicar el Reglamento europeo la fija e
 
 ### Construir, comprar o retirar
 
-Lo que valía cuando se eligió una solución puede no valer un año después: cambia el mercado, cambia el modelo que hay debajo, cambia el coste y cambia el uso real. Desde la versión 1.6, cada periodo de medición se vuelve a decidir, para cada solución en uso, si se mantiene, se sustituye por otra comprada, se construye algo propio o se retira. Se decide con los mismos indicadores que aprobaron la solución: el uso, la capacidad que ha dejado en las personas y el coste por tarea completada (capítulo 18). Quién decide está en la tabla del capítulo 18. Sustituir la solución o el proveedor, por otra comprada o por algo propio, lo decide el comité de puertas. Retirar lo firma el patrocinador con la contrafirma de alguien sin interés en la iniciativa. Cambiar de versión de modelo dentro de la misma solución lo decide el dueño, con nueva evaluación. No decide el proveedor ni el equipo que la construyó, que tienen razones para mantenerla. Retirar es una salida legítima, como en el piloto.
+Lo que valía cuando se eligió una solución puede no valer un año después: cambia el mercado, cambia el modelo que hay debajo, cambia el coste y cambia el uso real. Desde la versión 1.6 se vuelve a decidir, para cada solución en uso, si se mantiene, se sustituye por otra comprada, se construye algo propio o se retira. Se hace al menos una vez al año, y antes si cambia el modelo o el coste. Esa frecuencia es un valor de partida, y el anexo H la recoge. Se decide con los mismos indicadores que aprobaron la solución: el uso, la capacidad que ha dejado en las personas y el coste por tarea completada (capítulo 18). Quién decide está en la tabla del capítulo 18. Sustituir la solución o el proveedor, por otra comprada o por algo propio, lo decide el comité de puertas. Retirar lo firma el patrocinador con la contrafirma de alguien sin interés en la iniciativa. Cambiar de versión de modelo dentro de la misma solución lo decide el dueño, con nueva evaluación. No decide el proveedor ni el equipo que la construyó, que tienen razones para mantenerla. Retirar es una salida legítima, como en el piloto.
 
 Esta clasificación vale para las soluciones en uso. Las iniciativas de la cartera se clasifican con el módulo 14, y lo emergente, con el radar.
 
@@ -167,7 +167,7 @@ Plataforma común antes que soluciones a medida; pruebas y despliegues automatiz
 
 ### El radar
 
-Lo emergente se revisa cada periodo de medición y se clasifica en tres grupos: movimientos sin arrepentimiento, que se adoptan pasando por la cartera y respetando su límite (módulo 14); opciones pequeñas, que se prueban con poco coste; y apuestas que esperan una señal antes de invertir. Nada entra por fuera de las puertas, por muy prometedor que parezca. Las opciones pequeñas se prueban en el carril de exploración que describe el módulo 23.
+Lo emergente se revisa con la misma frecuencia de partida, al menos una vez al año, y antes si cambia el modelo o el coste (anexo H). Se clasifica en tres grupos: movimientos sin arrepentimiento, que se adoptan pasando por la cartera y respetando su límite (módulo 14); opciones pequeñas, que se prueban con poco coste; y apuestas que esperan una señal antes de invertir. Nada entra por fuera de las puertas, por muy prometedor que parezca. Las opciones pequeñas se prueban en el carril de exploración que describe el módulo 23.
 
 ### La medida justa
 

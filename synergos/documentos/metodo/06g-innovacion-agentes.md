@@ -174,7 +174,7 @@ Quitar una pieza obligatoria en un programa lo decide el patrocinador y se anota
 
 ## Cómo encajan los veinticuatro módulos
 
-Esta tabla completa la de los catorce primeros módulos, que va tras el módulo 14, y cumple el control del capítulo 2: cada pieza dice a qué causa responde. La causa se cita con las palabras de la tabla de causas. La asignación es mía y ninguna fuente la prueba. Doce módulos no responden a ninguna de las trece causas y quedan marcados como extensión sin causa documentada. Para cada uno de ellos, la siguiente versión tiene que documentar una causa con su fuente o revisar el módulo.
+Esta tabla completa la de los catorce primeros módulos, que va tras el módulo 14, y cumple el control del capítulo 2: cada pieza dice a qué causa responde. La causa se cita con las palabras de la tabla de causas. La asignación es mía y ninguna fuente la prueba. La tabla de causas tiene diecisiete filas desde la versión 1.8. Nueve módulos no responden a ninguna de las diecisiete causas y quedan marcados como extensión sin causa documentada. Para cada uno de ellos, la siguiente versión tiene que documentar una causa con su fuente o revisar el módulo.
 
 | Módulo | Fases en que pesa más | Causa de la tabla del capítulo 2 a la que responde |
 |---|---|---|
@@ -192,13 +192,13 @@ Esta tabla completa la de los catorce primeros módulos, que va tras el módulo 
 | 12. Comunicación | Ver la tabla de los catorce primeros módulos | Extensión sin causa documentada |
 | 13. Proveedores | Ver la tabla de los catorce primeros módulos | Se elige la solución antes de entender el problema (el pliego que fija la solución antes del diagnóstico) |
 | 14. Cartera | Ver la tabla de los catorce primeros módulos | Extensión sin causa documentada |
-| 15. Los mandos intermedios | Diagnóstico, diseño y piloto | La gente no cambia porque sus incentivos siguen igual o equivocarse sale caro |
+| 15. Los mandos intermedios | Diagnóstico, diseño y piloto | Se deja fuera a los mandos intermedios, que son quienes llevan el cambio al trabajo diario |
 | 16. Cultura y estructura | Diagnóstico y diseño | La gente no cambia porque sus incentivos siguen igual o equivocarse sale caro; se corrigen errores sin cuestionar los supuestos |
-| 17. Plazos realistas | Diseño, y antes de cada puerta | Extensión sin causa documentada |
+| 17. Plazos realistas | Diseño, y antes de cada puerta | Los plazos y los costes se estiman mirando solo el propio plan |
 | 18. Los trabajadores ante los algoritmos | Diagnóstico, diseño y piloto | Extensión sin causa documentada |
 | 19. Cuando un puesto desaparece | Diseño y escala | La balanza está inclinada hacia sustituir en vez de ampliar |
 | 20. Inclusión | Diagnóstico y diseño | Extensión sin causa documentada |
 | 21. Quien recibe el servicio | Diagnóstico, diseño y piloto | Se diseña de espaldas a quien usa el servicio |
 | 22. La huella material | Diseño | Extensión sin causa documentada |
-| 23. Innovar con IA | Antes del tronco, en el carril de exploración; enlaza con el diagnóstico cuando un experimento pasa a la cartera | Extensión sin causa documentada |
-| 24. Los agentes | Diseño (ficha, nivel de entrada y techo), piloto y escala (controles por nivel) y sostenimiento (revisión) | Extensión sin causa documentada |
+| 23. Innovar con IA | Antes del tronco, en el carril de exploración; enlaza con el diagnóstico cuando un experimento pasa a la cartera | El trabajo diario deja sin sitio a la exploración |
+| 24. Los agentes | Diseño (ficha, nivel de entrada y techo), piloto y escala (controles por nivel) y sostenimiento (revisión) | Se automatiza y quien supervisa deja de poder intervenir a tiempo |

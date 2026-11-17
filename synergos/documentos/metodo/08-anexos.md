@@ -4,27 +4,55 @@
 
 | Término | Qué significa en Synergós |
 |---|---|
-| Acelerador | Lo que hace que una fase vaya más rápido o llegue más lejos (la IA, una plataforma, la automatización). Solo entra si los elementos están preparados |
-| Automatizar o informar | La elección de diseño, formulada por Zuboff, entre quitar criterio a quien hace el trabajo o dárselo |
+| Acelerador | Una tecnología concreta que se activa en un ámbito. El documento reconoce tres: la IA dentro del servicio (un asistente o un agente), una plataforma y una herramienta de automatización. Entra en el servicio solo si se cumple la regla de entrada. El límite de pocas cosas a la vez cuenta aceleradores por ciclo |
+| Acelerar, automatizar o aumentar | Los tres verbos de la segunda pregunta de la puerta, que se responde por tarea. Si la persona sale del circuito, la opción automatiza. Si sigue y el resultado que se espera es solo tiempo, acelera. Si se espera mejor calidad o algo que antes no hacía, aumenta, y se dice con qué indicador. Amplían los dos verbos de Zuboff, automatizar o informar. El texto usa a veces ampliar como sinónimo de aumentar |
+| Alcance | La etiqueta de cada iniciativa: puntual, si mejora una tarea; de flujo, si obliga a rediseñar un proceso de principio a fin; de sistema, si cambia lo que la organización ofrece o cómo se organiza. Decide qué piezas son obligatorias (tabla «Qué es obligatorio según alcance», al cierre de la Parte V) |
+| Ámbito | El servicio o el flujo de trabajo que se va a transformar. Cada ámbito tiene un diagnóstico, un mapa y una restricción |
+| Anexo a la decisión | Las líneas que los módulos piden por escrito en una puerta y que no caben en la página del anexo C. Solo se rellenan las que la tabla «Qué es obligatorio según alcance» marca para el alcance de la iniciativa |
+| Capas y líneas | Las tres capas (gobierno, gestión y uso) son niveles de responsabilidad. Las tres líneas (quien opera, quien controla y quien audita) dicen quién vigila a quién |
+| Carril de exploración | El cauce, separado del tronco, en el que un laboratorio pequeño prueba supuestos con un presupuesto fijado de antemano. Nada pasa de ahí al servicio sin entrar en la cartera y recorrer las puertas (módulo 23) |
+| Ciclo | El recorrido de las cinco fases en un ámbito. Un programa amplio tiene varios ciclos en paralelo. Para un intervalo de tiempo el documento usa periodo de medición |
+| Comité de puertas | Quien decide en cada puerta de un programa amplio. Deciden cuatro: el patrocinador, que firma; el dueño operativo; el responsable de medición, que certifica los datos y no la decisión; y una persona ajena al equipo del programa, que contrafirma. Los demás son oídos antes, por escrito. En el programa acotado no hay comité: firma el patrocinador con quien dirige el programa y contrafirma alguien ajeno (capítulo 18) |
+| Coste por tarea completada | Lo que cuesta cerrar una tarea de principio a fin con la herramienta: licencias o consumo, revisión humana, retrabajo y soporte. Se compara con el de la línea base |
 | Crecer a la vez | La promesa del método: personas, conocimiento y tecnología avanzan sin que ninguno crezca a costa de los otros |
-| Curva J | El valle de productividad que aparece al adoptar una tecnología general, antes de que lleguen los beneficios |
-| Delta | Lo que un indicador ha avanzado desde su línea base hacia su objetivo, en porcentaje; unidad única de mejora del método |
-| Elemento | Cada uno de los tres ejes: personas, conocimiento y tecnología |
-| Frontera dentada | La distribución irregular de tareas en las que la IA mejora o empeora el resultado (Dell'Acqua y otros) |
-| Línea base | La medida del punto de partida, tomada antes de cambiar nada |
-| Mapa de lo que nadie escribió | El entregable del diagnóstico que recoge el conocimiento no escrito, en quién está, dónde se usa y cuán concentrado está |
-| Orden | El cuarto componente: fases, puertas, estrategia, gobierno, modelo económico, medición, madurez y dimensionamiento |
-| Patrocinador | La persona con poder real que responde del programa y preside sus puertas |
-| Puerta | El punto de decisión al final de cada fase, con criterios escritos antes y tres salidas: pasar, ajustar y repetir, o retirar |
-| Restricción | El punto que limita el resultado del conjunto; mejorar cualquier otro no mejora nada (Goldratt) |
+| Curva J | El valle de productividad medida que aparece al adoptar una tecnología general, antes de que lleguen los beneficios. Aplicarla a un programa concreto es una analogía del autor |
+| Delta | Lo que un indicador de avance ha recorrido desde su línea base hacia su objetivo, en porcentaje, con un máximo del cien por cien. El delta de un ciclo es la media ponderada de sus indicadores de avance |
+| Dueño | A secas, el dueño de la solución: una persona con nombre, del equipo que opera, que responde de lo que la solución hace. Es la misma persona que el dueño operativo, el dueño del agente y quien figura en el inventario. Los demás dueños llevan apellido: el dueño del flujo responde de una cadena de agentes entera; el dueño de los datos y el dueño del beneficio están en el negocio; el dueño del contenido mantiene una pieza de la base de conocimiento; y la estrategia de IA tiene su dueño en el órgano de dirección |
+| Elemento | Cada uno de los tres que tienen que crecer a la vez: personas, conocimiento y tecnología. El orden es el cuarto componente del método y no es un elemento |
+| Elemento tecnología | La capacidad de la organización para gobernar y usar tecnología. Se construye y madura. Un acelerador, en cambio, entra o no entra |
+| Ficha del agente | Los once campos que se escriben de cada agente antes de un piloto (módulo 24). Es la base de cada entrada del inventario |
+| Frontera dentada | El hallazgo de Dell'Acqua y otros: la IA mejora el resultado en unas tareas y lo empeora en otras que parecen iguales. El método llama clasificación de tareas a sus cuatro categorías propias: delegar, centauro, cíborg y reservar |
+| Habilitador | Una iniciativa que no da valor por sí misma y sin la que otras no escalan, como la calidad del dato o la plataforma común. Puede no atacar la restricción, con el motivo escrito (módulo 14) |
+| Indicador de avance | El que tiene objetivo y entra en el delta |
+| Indicador de guarda | El que solo tiene un suelo y no entra en el delta: se cumple o no. El suelo se fija mirando la variación normal de la línea base |
+| Iniciativa | Cada cambio que sale del diagnóstico de un ámbito. Las iniciativas forman la cartera. Cada una compara opciones en el diseño y recorre piloto, escala y sostenimiento |
+| Inventario | El registro único de casos de uso, sistemas y agentes. Cada entrada lleva los campos de la ficha del módulo 24 más el riesgo, el proveedor, los incidentes, las seis anotaciones de personas y conocimiento del capítulo 17 y un estado: en evaluación, en experimento, aprobado o retirado. Su única definición está en el capítulo 18 |
+| Línea base | La medida del punto de partida, tomada antes de cambiar nada, con la variación normal de cada indicador |
+| Mapa de lo que nadie escribió | El entregable del diagnóstico que recoge el conocimiento no escrito, en quién está, dónde se usa y cuán concentrado está. Tiene una versión de trabajo, con nombres, y una de comité, por perfiles (anexo B) |
+| Orden (el orden) | El cuarto componente. Agrupa las cinco fases y sus puertas, la estrategia, el gobierno, el modelo económico, la medición, la madurez y el dimensionamiento |
+| Patrocinador | La persona con poder real que responde del programa. Decide y firma en las puertas, oído el comité |
+| Periodo de medición | El intervalo, fijado en el diseño, en que se leen los indicadores. Por defecto, un trimestre. Las revisiones periódicas se expresan en periodos de medición (anexo H) |
+| Preguntas del comité | Las tres que el comité tiene que poder responder por escrito sobre el mapa: qué conocimiento no escrito sostiene el trabajo, en quién está y qué le pasa con cada opción de diseño |
+| Preguntas por las grietas | Las cinco que se hacen a quien hace el trabajo para levantar el mapa (anexo B). No son las cinco preguntas de la puerta |
+| Puerta | El punto de decisión al final de cada fase, con criterios escritos antes y tres salidas: pasar, ajustar y repetir, o retirar. Las cinco preguntas de la puerta son las de la puerta de diseño (capítulo 11) |
+| Puerta de autonomía | La decisión de subir o bajar un nivel de autonomía. Puede tomarse en cualquier momento, con los criterios escritos antes. Quién la toma está en la tabla «Quién decide qué» del capítulo 18 |
+| Referente | Una persona que ya usa bien la herramienta, que se reconoce como tal y que tiene tiempo reconocido para ayudar a los demás. En otros textos, campeón. Los usuarios avanzados del capítulo 15 son el grupo que prueba antes que nadie, y de él pueden salir referentes |
+| Regla de entrada | Un acelerador entra en el servicio solo si las condiciones que necesita, en los tres elementos y en el gobierno, están en nivel 2 de madurez en el ámbito. La IA como herramienta del equipo que transforma solo exige reglas de uso y datos autorizados |
+| Restricción | El punto que limita el resultado del conjunto; mejorar cualquier otro no mejora nada (Goldratt). Hay una por ámbito |
+| Supervisión del programa | El aprendizaje del propio programa: revisión tras cada puerta, retrospectiva por ciclo, análisis de incidentes y revisión de supuestos. A lo que hace una persona cuando revisa lo que produce un sistema el documento lo llama revisión humana |
 | Tácito | El conocimiento que alguien tiene y no puede explicar del todo (Polanyi) |
+| Techo de autonomía | El nivel máximo al que puede subir un sistema, fijado en la puerta de diseño. Como partida, las decisiones que afectan a derechos de las personas, que no se pueden deshacer o que hay que poder explicar a quien las recibe se quedan como máximo en el nivel 2, salvo que el análisis jurídico del caso permita otra cosa |
 | Trampa de Turing | El exceso de incentivos para diseñar IA que imita y sustituye en lugar de ampliar (Brynjolfsson) |
 
 ## Anexo B. Plantilla del mapa de lo que nadie escribió
 
-**Datos del mapa.** Ámbito del trabajo que se va a cambiar. Fecha. Personas entrevistadas (por perfil, no por nombre, salvo consentimiento). Compromiso del patrocinador sobre el uso del mapa, firmado.
+**Datos del mapa.** Ámbito del trabajo que se va a cambiar. Fecha. Personas con las que se ha conversado, por perfil.
 
-**Las cinco preguntas por las grietas,** a quien más sabe y a quien lleva menos tiempo:
+**El compromiso de uso.** Antes de empezar, el patrocinador firma que el mapa no se usará para evaluar a nadie ni para decidir despidos individuales. Si no lo firma, el mapa no se hace y la puerta del diagnóstico no se pasa.
+
+**Dos versiones.** La de trabajo lleva nombres y solo la ve la función de conocimiento. La de comité va por perfiles y es la que se enseña en la puerta; lleva nombre solo si la persona lo consiente. En un equipo pequeño el perfil puede bastar para saber quién es. En ese caso se le dice antes a la persona y decide ella si la fila se enseña.
+
+**Las cinco preguntas por las grietas.** Se hacen a quien más sabe y a quien lleva menos tiempo. En todo el documento tienen este nombre.
 
 1. ¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?
 2. ¿Cuándo no sigues el procedimiento, y por qué?
@@ -32,51 +60,90 @@
 4. ¿Qué sabes de un caso antes de leerlo entero?
 5. ¿Qué pasaría mañana si tú no vinieras?
 
-**La tabla.** Ejemplo compuesto, ilustrativo, sin correspondencia con ninguna organización real.
+En una organización grande se pregunta por perfil y por centro, y se para cuando dos conversaciones seguidas no añaden filas nuevas.
 
-| Qué se sabe | Quién lo sabe | Dónde se usa | Concentración |
-|---|---|---|---|
-| Qué peticiones acabarán en reclamación | Perfil A y perfil B | Triaje | Dos personas |
-| A quién llamar en otra unidad cuando algo se atasca | Perfil A | Excepciones | Una persona |
-| Qué casos parecen iguales y no lo son | Perfil B y perfil C | Clasificación | Dos personas |
-| Cómo responder a un remitente conflictivo | Perfil A | Redacción | Una persona |
-| Cuándo no seguir el procedimiento | Todo el equipo | Todo el flujo | Doce personas |
-| Qué hacer si la petición llega en papel | Perfil C | Registro | Una persona |
+**Las tres preguntas del comité.** Son las que el comité que aprueba el diseño tiene que poder responder por escrito con el mapa delante.
+
+1. Qué conocimiento no escrito sostiene hoy el trabajo que se va a cambiar.
+2. En quién está. Se responde por perfil, y con nombre solo si la persona lo consiente.
+3. Qué le pasa a ese conocimiento con cada opción de diseño.
+
+**La tabla.** Tiene cuatro columnas básicas: qué se sabe, quién lo sabe, dónde se usa y concentración. Y dos opcionales. La primera dice si la fila es crítica; como propuesta provisional, lo fija quien usa el resultado de esa fila, no quien la sabe ni quien manda. La segunda dice quién mantiene la capacidad de hacerlo sin el sistema, y se rellena solo en las filas que pasan a él. El ejemplo es compuesto e ilustrativo, sin correspondencia con ninguna organización real.
+
+| Qué se sabe | Quién lo sabe | Dónde se usa | Concentración | Crítica (opcional) | Quién mantiene la capacidad si pasa al sistema (opcional) |
+|---|---|---|---|---|---|
+| Qué peticiones acabarán en reclamación | Perfil A y perfil B | Triaje | Dos personas | Sí | Perfil B |
+| A quién llamar en otra unidad cuando algo se atasca | Perfil A | Excepciones | Una persona | Sí | No pasa al sistema |
+| Qué casos parecen iguales y no lo son | Perfil B y perfil C | Clasificación | Dos personas | Sí | Perfil C |
+| Cómo responder a un remitente conflictivo | Perfil A | Redacción | Una persona | No | No pasa al sistema |
+| Cuándo no seguir el procedimiento | Todo el equipo | Todo el flujo | Doce personas | No | No pasa al sistema |
+| Qué hacer si la petición llega en papel | Perfil C | Registro | Una persona | No | No pasa al sistema |
+
+**Si alguien no consiente.** Su parte se anota en una fila como "conocimiento no descrito, concentrado en una persona". El mapa se da por hecho con esa fila, y la puerta de diseño la trata como riesgo alto en la tercera de sus cinco preguntas.
 
 **La lectura por opción.** Para cada opción de diseño, una columna más por fila: se queda en la persona y la tecnología la ayuda; pasa al sistema de forma revisable; o se pierde.
 
 ## Anexo C. Plantilla de decisión de puerta
 
-Una página por opción de diseño.
+Una página por opción de diseño. Es el núcleo de la decisión y se pide en cualquier alcance. La misma página acompaña a la iniciativa en las puertas siguientes: en cada una se actualizan los resultados, los supuestos y las firmas. Lo que piden los módulos va aparte, en el anexo a la decisión que sigue a esta tabla.
 
 | Campo | Qué se escribe |
 |---|---|
 | Opción | Descripción en dos líneas |
+| Alcance | Puntual, de flujo o de sistema |
+| Dueño | La persona con nombre, del equipo que opera, que responderá de la solución |
 | Objetivo | Cuál persigue (eficiencia, crecimiento, aumentar a las personas, reparto del valor, confianza), cómo se mide y quién se queda con lo que se gana |
-| 1. ¿Ataca la restricción? | Sí o no, y cómo; si no, motivo para mantenerla |
-| 2. ¿Acelera, automatiza o aumenta? | A quién, en qué tareas; qué criterio gana o pierde la persona; si crea tareas nuevas o solo desplaza; qué pericia queda en el puesto; qué tiene que ser cierto para que dé el resultado esperado |
+| 1. ¿Ataca la restricción? | Sí o no, y cómo. Si no, si es un habilitador o una obligación legal, con su motivo |
+| 2. ¿Acelera, automatiza o aumenta? | Por tarea: dónde sale la persona del circuito, dónde se espera solo tiempo y dónde mejor calidad o algo que antes no hacía, con el indicador que lo mostrará. Si acelera, a dónde va el tiempo que se gana. Qué criterio gana o pierde la persona; si crea tareas nuevas o solo desplaza; qué pericia queda en el puesto; qué tiene que ser cierto para que dé el resultado esperado |
 | 3. Mapa | Qué filas se quedan en la persona, cuáles pasan al sistema de forma revisable, cuáles se pierden |
 | 4. Errores y enseñanza | Quién responde cuando el sistema se equivoque; quién enseña lo que la tarea enseñaba |
-| 5. Crecer a la vez | Qué indicador de cada elemento mejora, cuál empeora |
-| Criterios del piloto | Delta mínimo del ciclo; ningún indicador retrocede; plazo; qué decisión cambia el resultado y quién la toma |
-| Criterio de parada | Qué resultado detiene el piloto antes de tiempo; fecha de revisión, a noventa días como máximo |
+| 5. Crecer a la vez | Qué indicador de cada elemento mejora y cuál empeora. Al menos uno por elemento, y de cada uno si es de avance o de guarda |
+| Criterios del piloto | El delta mínimo firmado y, además, el criterio en la unidad de cada indicador. Ningún indicador de guarda baja de su suelo. Los indicadores para los que el modelo económico prevé valle no bajan más de lo previsto. Plazo. Qué decisión cambia el resultado y quién la toma |
+| Criterio de parada | Qué resultado detiene el piloto antes de tiempo; fecha de revisión, a noventa días como máximo. Si el piloto dura más, esa revisión es intermedia y la puerta sigue al final |
 | Supuestos | Los tres o cuatro de los que depende la opción; en cada puerta, cuáles se han confirmado, cuáles han caído y cuáles siguen sin probar |
-| Alcance | Puntual, de flujo o de sistema |
 | Cómo se deshace | Qué haría falta para volver atrás y cuánto cuesta |
-| Firma | Patrocinador y responsable de medición |
+| Datos | El responsable de medición certifica los datos en que se apoya la decisión. No firma la decisión |
+| Objeciones | Las de quienes han sido oídos antes de la puerta, por escrito |
+| Firma | El patrocinador. En el programa acotado, con quien dirige el programa |
+| Contrafirma | Una persona ajena al equipo del programa (segunda línea o finanzas). En una retirada, alguien sin interés en la iniciativa |
+
+**El anexo a la decisión.** Son las líneas que los módulos piden por escrito en la puerta. Solo se rellenan las que la tabla «Qué es obligatorio según alcance», al cierre de la Parte V, marca como obligatorias para el alcance de la iniciativa. Las recomendadas se escriben cuando ayudan, y las que no aplican se dejan fuera sin justificarlo.
+
+| Línea | Qué se escribe | De dónde sale |
+|---|---|---|
+| Techo de autonomía | Con qué nivel de autonomía entra el sistema en el piloto, hasta qué nivel puede subir y por qué | Capítulo 17 |
+| Aportaciones | Qué aportaciones de la persona conserva la opción, cuáles amplía y cuáles elimina | Módulo 1 |
+| Tres necesidades | Para cada rol que cambia, si gana o pierde autonomía, competencia y vínculo. Una línea cada una | Módulo 8 |
+| Cinco puntas | Qué cambia en estrategia, estructura, procesos, recompensas y personas. Una línea por punta | Módulo 16 |
+| Roles que se reducen | Qué roles se reducen con esta opción. Si alguno se reduce, el plan de transición por persona va aparte | Módulo 19 |
+| Asistir o vigilar | Si el sistema, además de ayudar, mide a quien trabaja, se dice, se justifica y se dice qué sabe la persona de lo que se mide | Módulo 18 |
+| Huella y dependencia | La huella material de la opción y de qué proveedor o modelo depende | Módulo 22 |
 
 ## Anexo D. La escala de madurez por elemento
 
-| Nivel | Personas | Conocimiento | Tecnología |
-|---|---|---|---|
-| 1. Puntual | Hay buena voluntad, sin roles ni tiempo asignados; el cambio depende de quien se ofrece | Lo que se sabe está en personas concretas; no hay mapa ni registro | Herramientas usadas por iniciativa individual, sin gobierno |
-| 2. Repetible | Hay un patrocinador con tiempo y una forma acordada de implicar a quien hace el trabajo | Hay un mapa hecho y un registro de decisiones que se usa | Hay reglas de uso, inventario y responsables conocidos |
-| 3. Integrado | Roles, incentivos y formación se rediseñan con el trabajo; hay canal de propuestas con respuesta | Los datos tienen dueño y calidad medida; la base de conocimiento se mantiene | La tecnología entra por las puertas; la autonomía sube por niveles |
-| 4. Sistemático | La cartera nace en parte de empleados y usuarios; la seguridad psicológica se mide | La concentración se mide y se reduce a propósito; lo que pasa al sistema es revisable | Radar, medida justa y salida pactada con proveedores; se baja de nivel sin drama |
+La escala tiene cuatro niveles y se aplica a cada uno de los tres elementos y al gobierno, en el ámbito que se va a transformar. Aquí nivel quiere decir siempre nivel de madurez, que no es lo mismo que el nivel de autonomía de un sistema. La fila de gobierno se añade en la versión 1.8, porque la regla de entrada la necesita, y es una propuesta sin probar.
+
+| Qué se evalúa | 1. Puntual | 2. Repetible | 3. Integrado | 4. Sistemático |
+|---|---|---|---|---|
+| Personas | Hay buena voluntad, sin roles ni tiempo asignados; el cambio depende de quien se ofrece | Hay un patrocinador con tiempo y una forma acordada de implicar a quien hace el trabajo | Roles, incentivos y formación se rediseñan con el trabajo; hay canal de propuestas con respuesta | La cartera nace en parte de empleados y usuarios; la seguridad psicológica se mide |
+| Conocimiento | Lo que se sabe está en personas concretas y nadie lo ha puesto por escrito | Se sabe por escrito qué conocimiento crítico está en una sola persona, y las decisiones se anotan con sus motivos | Los datos tienen dueño y calidad medida; la base de conocimiento se mantiene | La concentración se mide y se reduce a propósito; lo que pasa al sistema es revisable |
+| Tecnología | Herramientas usadas por iniciativa individual, sin reglas | Hay reglas de uso, se sabe qué se usa y cada solución tiene un responsable conocido | La tecnología entra por decisiones con criterios escritos antes; la autonomía de los sistemas sube por niveles | Se vigila lo emergente, se usa la medida justa y hay salida pactada con los proveedores; se baja el nivel de autonomía de un sistema cuando hace falta |
+| Gobierno | Las decisiones sobre tecnología las toma quien la trae; nadie sabe decir quién responde de un error | Está escrito quién decide qué y quién responde de los errores, y las decisiones quedan anotadas | Las decisiones se toman con criterios escritos antes; quienes controlan riesgos, seguridad y datos participan desde el diseño | Los derechos de decisión se revisan, la auditoría comprueba que lo anotado se corresponde con lo que está en uso y lo que no aporta se retira |
+
+**Quién evalúa y cómo.** Evalúa la función de medición con el equipo afectado, en el diagnóstico, y se revisa en cada puerta. Cada nivel se anota con la evidencia en que se apoya. Cuando los rasgos de una celda no se cumplen todos, vale el nivel más bajo. La evaluación tiene que durar horas, no semanas.
+
+**Cómo se pasa del nivel 1 al 2.** El nivel 2 es el que pide la regla de entrada. Esto es lo mínimo que tiene que existir, por escrito, en cada fila. Es una propuesta de la versión 1.8.
+
+- Personas: el patrocinador tiene un tiempo fijo cada semana, y está acordado cómo participa quien hace el trabajo y con qué parte de su jornada.
+- Conocimiento: hay una lista escrita del conocimiento crítico que está en una sola persona, y un registro de decisiones abierto y en uso. El mapa del diagnóstico da la primera, pero el nivel no nombra el mapa: vale cualquier forma de saberlo por escrito.
+- Tecnología: hay reglas de uso y datos autorizados, una lista de lo que se usa y un responsable con nombre por solución.
+- Gobierno: está escrita la tabla de quién decide qué, y tienen nombre quien firma las decisiones y quien las contrafirma.
+
+La regla de entrada se aplica a la tecnología dentro del servicio, que no entra antes del piloto. Por eso el nivel 2 de conocimiento puede alcanzarse durante el diagnóstico sin impedir que el equipo que transforma use la IA desde el primer día, que solo exige reglas de uso y datos autorizados.
 
 ## Anexo E. Fuentes y lo que no dicen
 
-Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo que no dice. Las fuentes verificadas solo por resúmenes o fuentes secundarias se marcan así.
+Cada fuente aparece con lo que aporta al método y, en las que más pesan, con lo que no dice. Se marcan las fuentes que conozco solo por resúmenes o por fuentes secundarias y las que están pendientes de ficha propia. El cuaderno al que remiten algunas notas es el archivo de trabajo del autor, con las fichas de lectura; no forma parte de este documento. Los bloques siguen el orden de las versiones. Al final, en "Leídas, no usadas", están las fuentes que se revisaron y que el texto no cita.
 
 **Argyris, C. y Schön, D. (1978).** *Organizational Learning: A Theory of Action Perspective.* Aprendizaje de bucle simple y de doble bucle. Base de la supervisión.
 
@@ -98,11 +165,13 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Dell'Acqua, F. y otros (2023).** "Navigating the Jagged Technological Frontier". Documento de trabajo de Harvard Business School. La frontera dentada; centauros y cíborgs. Las categorías delegar y reservar son una extensión de Synergós, no del estudio.
 
+**Deming, W. E. (1986).** *Out of the Crisis.* MIT Press. El ciclo de mejora de planificar, hacer, comprobar y actuar, que el propio Deming atribuía a Shewhart. Habla de la calidad en la producción, no de programas de transformación; llevarlo a escala de programa es una analogía del método. Añadida en la versión 1.8, porque el capítulo 8 lo citaba sin entrada; pendiente de ficha propia.
+
 **Douady, S. y Couder, Y. (1992).** "Phyllotaxis as a Physical Self-Organized Growth Process". *Physical Review Letters*, 68(13), 2098-2101. Gotas de ferrofluido sobre aceite en un campo magnético: el patrón del girasol emerge de una regla local. No dice nada sobre organizaciones.
 
 **Douglas, M. (1966).** *Purity and Danger.* La suciedad como materia fuera de su sitio, una definición antigua que Douglas recoge y desarrolla, no que acuña.
 
-**Edmondson, A. (1999).** "Psychological Safety and Learning Behavior in Work Teams". *Administrative Science Quarterly.* **Edmondson, A. (2018).** *The Fearless Organization.* Wiley (salió a finales de 2018 con fecha de copyright de 2019). La seguridad psicológica.
+**Edmondson, A. (1999).** "Psychological Safety and Learning Behavior in Work Teams". *Administrative Science Quarterly.* **Edmondson, A. (2018).** *The Fearless Organization.* Wiley (salió a finales de 2018 con fecha de copyright de 2019). La seguridad psicológica. El texto cita su trabajo sin año, salvo en la tabla de causas, que remite al libro de 2018.
 
 **Forsgren, N., Humble, J. y Kim, G. (2018).** *Accelerate.* Prácticas de entrega y rendimiento de los equipos tecnológicos.
 
@@ -130,7 +199,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Polanyi, M. (1966).** *The Tacit Dimension.* "Podemos saber más de lo que podemos decir" (p. 4). No habla de organizaciones ni de tecnología.
 
-**Reglamento (UE) 2024/1689** del Parlamento Europeo y del Consejo, de inteligencia artificial. Aplicación escalonada, modificada por el **Reglamento (UE) 2026/1744** (ómnibus digital, en vigor desde el 27 de julio de 2026): prohibiciones desde el 2 de febrero de 2025; modelos de uso general desde el 2 de agosto de 2025; alto riesgo del anexo III, incluido el empleo, desde el 2 de diciembre de 2027; anexo I desde el 2 de agosto de 2028. Comprobar el calendario vigente antes de usarlo en una decisión.
+**Reglamento (UE) 2024/1689** del Parlamento Europeo y del Consejo, de inteligencia artificial. Aplicación escalonada, modificada por el **Reglamento (UE) 2026/1744** (ómnibus digital, en vigor desde el 27 de julio de 2026): prohibiciones desde el 2 de febrero de 2025; modelos de uso general desde el 2 de agosto de 2025; alto riesgo del anexo III, incluido el empleo, desde el 2 de diciembre de 2027; anexo I desde el 2 de agosto de 2028. Son las mismas fechas del módulo 11, que es el único sitio del texto que da el calendario. Las anoté en la verificación de fuentes de la versión 1.3 (6 de noviembre de 2026) y no las he vuelto a contrastar después. Quien vaya a usar una fecha en una decisión la comprueba antes en el Diario Oficial de la Unión Europea.
 
 **Ries, E. (2011).** *The Lean Startup.* Probar en pequeño antes de escalar.
 
@@ -153,7 +222,6 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 **Westerman, G., Bonnet, D. y McAfee, A. (2014).** *Leading Digital.* La tecnología sin cambio en la forma de trabajar.
 
 **Zuboff, S. (1988).** *In the Age of the Smart Machine.* Automatizar o informar. No es su libro de 2019 sobre vigilancia.
-
 
 **Fuentes añadidas en la versión 1.1** (Parte V, el detalle). Verificadas por conocimiento general de la literatura; pendientes de ficha propia en el cuaderno antes de citarlas en público.
 
@@ -181,7 +249,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **DAMA International (2017).** *DAMA-DMBOK,* segunda edición. Gestión de datos.
 
-**Daugherty, P. y Wilson, J. (2018).** *Human + Machine.* El medio que falta: personas y máquinas trabajando juntas.
+**Daugherty, P. y Wilson, H. J. (2018).** *Human + Machine.* Los roles híbridos y "el medio que falta": personas y máquinas trabajando juntas. Evidencia de consultora, no auditable.
 
 **Davenport, T. y Prusak, L. (1998).** *Working Knowledge.* El mercado del conocimiento en la organización.
 
@@ -219,12 +287,11 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Ward, J. y Daniel, E. (2006).** *Benefits Management.* Cada beneficio con dueño en el negocio.
 
-**Wenger, E. (1998).** *Communities of Practice.*
+**Wenger, E. (1998).** *Communities of Practice.* Grupos de personas que comparten una práctica y aprenden juntas haciéndola.
 
 **Woolley, A. y otros (2010).** "Evidence for a Collective Intelligence Factor in the Performance of Human Groups". *Science*, 330(6004), 686-688. Hay estudios posteriores que no lo replican del todo.
 
-**Wrzesniewski, A. y Dutton, J. (2001).** "Crafting a Job". *Academy of Management Review.*
-
+**Wrzesniewski, A. y Dutton, J. (2001).** "Crafting a Job". *Academy of Management Review.* Las personas rediseñan su propio trabajo desde dentro: cambian tareas, relaciones y la manera de entenderlo.
 
 **Fuentes añadidas en la versión 1.2** (las tres miradas). Mismo criterio: pendientes de ficha propia antes de citarlas en público.
 
@@ -236,11 +303,11 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Galbraith, J. (1995).** *Designing Organizations.* Jossey-Bass (ed. revisada en 2002). El modelo de la estrella: estrategia, estructura, procesos, recompensas y personas.
 
-**Huy, Q. (2001).** "In Praise of Middle Managers". *Harvard Business Review.*
+**Huy, Q. (2001).** "In Praise of Middle Managers". *Harvard Business Review.* En las transformaciones que estudió, los mandos intermedios mantenían la continuidad, atendían el lado emocional del cambio y aportaban ideas que la dirección no veía.
 
 **Kahneman, D. y Tversky, A. (1979).** "Intuitive Prediction: Biases and Corrective Procedures". *TIMS Studies in Management Science*, 12, 313-327. La falacia de la planificación y la corrección de mirar desde fuera.
 
-**Kellogg, K., Valentine, M. y Christin, A. (2020).** "Algorithms at Work: The New Contested Terrain of Control". *Academy of Management Annals.*
+**Kellogg, K., Valentine, M. y Christin, A. (2020).** "Algorithms at Work: The New Contested Terrain of Control". *Academy of Management Annals.* Los algoritmos como nuevo terreno de disputa sobre el control del trabajo: dirigen, evalúan y disciplinan.
 
 **Lipsky, M. (1980).** *Street-Level Bureaucracy.* La discrecionalidad de quien atiende al ciudadano.
 
@@ -252,11 +319,11 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Tarafdar, M. y otros (2007).** "The Impact of Technostress on Role Stress and Productivity". *Journal of Management Information Systems*, 24(1), 301-328. Tecnosobrecarga, tecnoinvasión, tecnocomplejidad, tecnoinseguridad y tecnoincertidumbre.
 
-**Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios (Ley 11/2023, aplicable desde el 28 de junio de 2025); Directiva (UE) 2024/2831, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Su aplicación concreta debe comprobarse con asesoría jurídica.
+**Normas citadas:** Estatuto de los Trabajadores, derecho de información sobre algoritmos (2021); Reglamento (UE) 2016/679, de protección de datos, artículo 22; Directiva (UE) 2016/2102, de accesibilidad de sitios web del sector público; Directiva (UE) 2019/882, de requisitos de accesibilidad de productos y servicios (Ley 11/2023, aplicable desde el 28 de junio de 2025); Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público, por las consultas preliminares al mercado, el diálogo competitivo y la asociación para la innovación (módulo 13). El módulo 13 nombra además, sin citar artículos ni fechas, el Esquema Nacional de Seguridad y la relación de puestos de trabajo. La aplicación concreta de todas ellas debe comprobarse con asesoría jurídica.
 
-**Revisión de la versión 1.6.** Para llevar al método la implantación y la adopción por los equipos se revisaron experiencias de profesionales de adopción y cambio publicadas en LinkedIn (diez publicaciones). Ninguna se cita: son testimonios de práctica, no estudios, y sirven para contrastar prácticas, no como evidencia. Lo que se añade (cinco propuestas) se presenta como propuesta de la versión 1.6, sin atribuir a nadie, y necesita contraste con casos reales.
+**Esquemas no citados como fuente.** Para la versión 1.4 se revisó un esquema de gobierno de IA que circula como infografía, de un autor no identificado y con licencia desconocida. No es un estándar, no se cita como fuente y no se reproduce su diseño: solo se usó como lista de comprobación de lo que se gobierna y de los riesgos que se vigilan.
 
-**Fuentes añadidas en la versión 1.5** (revisión del objetivo de la IA, fichas en el cuaderno: estudios/02-revision-objetivo-ia). Pendientes de ficha propia antes de citarlas en público, salvo las marcadas como cotejadas.
+**Fuentes añadidas en la versión 1.5** (revisión del objetivo de la IA; las fichas están en el cuaderno). Pendientes de ficha propia antes de citarlas en público.
 
 **Acemoglu, D. y Johnson, S. (2023).** *Power and Progress.* La dirección de la tecnología es una elección de poder; proponen la "utilidad de la máquina" frente a imitar al humano. No dicen que toda automatización sea mala; sus cifras macro son discutidas.
 
@@ -264,27 +331,17 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **Autor, D. y Thompson, N. (2025).** "Expertise". *Journal of the European Economic Association*, 23(4). El efecto de automatizar depende de si se retiran las tareas sencillas o las expertas de un puesto.
 
-**Daugherty, P. y Wilson, H. J. (2018 y 2022).** *Human + Machine* y *Radically Human.* Los roles híbridos y "el medio que falta". Evidencia de consultora, no auditable.
-
 **Davenport, T. y Kirby, J. (2016).** *Only Humans Need Apply.* Cinco formas de aumentar a la persona. Aviso sobre la pérdida de pericia cuando la persona solo valida.
-
-**Gillespie, N. y otros (2025).** *Trust, attitudes and use of artificial intelligence: a global study 2025.* Universidad de Melbourne y KPMG; 48.340 personas en 47 países. Uso sin comprobar, uso oculto y pocas políticas internas. Cifras pendientes de cotejo en el informe completo.
-
-**Iansiti, M. y Lakhani, K. (2020).** *Competing in the Age of AI.* La empresa como "fábrica de IA". Apenas trata el conocimiento no escrito.
 
 **Malone, T. (2018).** *Superminds.* La inteligencia colectiva y los papeles de la máquina en un grupo (herramienta, asistente, compañero, jefe).
 
-**Mollick, E. (2024).** *Co-Intelligence.* La IA como cointeligencia y la frontera irregular; divulgación apoyada en el experimento de Dell'Acqua y otros.
-
-**PwC (2026).** *Global AI Jobs Barometer* y *29th Global CEO Survey.* Cotejadas con página en el cuaderno. Datos propios correlacionales y encuesta a consejeros delegados.
-
 **Vaccaro, M., Almaatouq, A. y Malone, T. (2024).** "When combinations of humans and AI are useful: a systematic review and meta-analysis". *Nature Human Behaviour.* De media, persona e IA juntas rinden mejor que la persona sola y peor que el mejor de los dos; mejor en tareas de creación que de decisión.
 
-**World Economic Forum (2025).** *The Future of Jobs Report 2025.* Cotejado con página en el cuaderno. Intenciones declaradas por empleadores, no resultados.
+**Consultoras.** Para la versión 1.5 se revisaron publicaciones de McKinsey, BCG, Deloitte y Accenture. Sus encuestas con cifras no se citan, porque no son evidencia independiente y no he podido cotejar las cifras en el documento original. El capítulo 17 las menciona solo como contexto, sin cifras. La versión 1.7 cita un texto de práctica de McKinsey (2025), que conozco por resúmenes y que el módulo 24 usa como lista de comprobación; su entrada está más abajo.
 
-**Revisadas y no citadas:** McKinsey, BCG, Deloitte y Accenture. Son encuestas de consultora, no evidencia independiente, y sus cifras no se han podido cotejar en el documento original. Se usan como contexto en el cuaderno, no en el método.
+**Revisión de la versión 1.6.** Para llevar al método la implantación y la adopción por los equipos se revisaron experiencias de profesionales de adopción y cambio publicadas en LinkedIn (diez publicaciones). Ninguna se cita: son testimonios de práctica, no estudios, y sirven para contrastar prácticas, no como evidencia. Lo que se añade (cinco propuestas) se presenta como propuesta de la versión 1.6, sin atribuir a nadie, y necesita contraste con casos reales.
 
-**Revisión de la versión 1.7.** Para ampliar el método en innovación con IA, estrategia, gobierno y adopción se revisaron informes de 2025 y 2026, temarios de unos treinta programas para directivos, textos de autores de gestión y treinta y dos publicaciones de LinkedIn (cuaderno: estudios/05-enriquecimiento). Tres reglas. Las publicaciones de LinkedIn no se citan: sirvieron para ver qué preocupa a quien implanta. Los temarios se usaron como lista de comprobación de lo que el método no cubría. Y ninguna cifra de esos informes entra en el documento, porque la mayoría solo pude consultarla en resúmenes y varias se contradicen entre sí; lo que entra son prácticas, presentadas como propuestas de la versión 1.7. La parte legal de la revisión (calendarios y normas) se dejó fuera: el gobierno del que habla el método es el de la organización sobre su IA.
+**Revisión de la versión 1.7.** Para ampliar el método en innovación con IA, estrategia, gobierno y adopción se revisaron informes de 2025 y 2026, temarios de unos treinta programas para directivos, textos de autores de gestión y treinta y dos publicaciones de LinkedIn (las notas están en el cuaderno). Tres reglas. Las publicaciones de LinkedIn no se citan: sirvieron para ver qué preocupa a quien implanta. Los temarios se usaron como lista de comprobación de lo que el método no cubría. Y ninguna cifra de esos informes entra en el documento, porque la mayoría solo pude consultarla en resúmenes y varias se contradicen entre sí; lo que entra son prácticas, presentadas como propuestas de la versión 1.7. La parte legal de esa revisión (calendarios y normas) se dejó fuera: el gobierno del que habla el método es el de la organización sobre su IA. Las normas que el texto sí cita vienen de versiones anteriores y están en "Normas citadas".
 
 **Fuentes añadidas en la versión 1.7.** Pendientes de ficha propia antes de citarlas en público. Se indica cuáles conozco solo por resúmenes.
 
@@ -302,7 +359,7 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **McGrath, R. y MacMillan, I. (1995).** "Discovery-Driven Planning". *Harvard Business Review.* Escribir los supuestos y financiar por tramos. Es anterior a la IA.
 
-**McKinsey, QuantumBlack (2025).** "One year of agentic AI: Six lessons from the people doing the work". Experiencia de una consultora con sus clientes, no un estudio. Conocido por resúmenes.
+**McKinsey, QuantumBlack (2025).** "One year of agentic AI: Six lessons from the people doing the work". Texto de práctica: la experiencia de una consultora con sus clientes, no un estudio. Conocido por resúmenes. El módulo 24 lo usa como lista de comprobación, sin cifras.
 
 **Microsoft (2026).** *Work Trend Index*, informe anual. Encuesta a personas que ya usan IA; lo que declaran, no lo que se ha medido.
 
@@ -310,15 +367,33 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 
 **O'Reilly, C. y Tushman, M. (2004).** "The Ambidextrous Organization". *Harvard Business Review.* Separar la exploración del negocio diario y unirlas en la dirección.
 
-**Ranganathan, A. y Ye, X. (2026).** "AI Doesn't Reduce Work, It Intensifies It". *Harvard Business Review.* Una empresa tecnológica observada durante meses. Conocido por resúmenes; autoría por confirmar.
+**Ranganathan, A. y Ye, X. (2026).** "AI Doesn't Reduce Work, It Intensifies It". *Harvard Business Review.* Una empresa tecnológica observada durante meses. Conocido por resúmenes; autoría por confirmar. Es un solo caso; el módulo 9 lo cita así.
 
 **Marcos de gobierno de agentes (2025 y 2026).** El de la autoridad de medios e infocomunicaciones de Singapur y la lista de riesgos para aplicaciones con agentes de OWASP. Conocidos por resúmenes. Se usan como lista de comprobación, no como norma.
 
-**Esquemas no citados como fuente.** Para la versión 1.4 se revisó un esquema de gobierno de IA que circula como infografía, de un autor no identificado y con licencia desconocida. No es un estándar, no se cita como fuente y no se reproduce su diseño: solo se usó como lista de comprobación de lo que se gobierna y de los riesgos que se vigilan.
-
 **Pendientes de ficha propia y no usadas como argumento:** los estudios de mercado de 2025 sobre pilotos de IA que no llegan a producción.
 
+**Revisión de la versión 1.8.** Es una versión de consolidación, hecha tras una auditoría interna de la versión 1.7 que buscó contradicciones, huecos y afirmaciones que decían más que su fuente. No añade fuentes nuevas. Lo que cambia en este anexo es de orden: los bloques siguen las versiones, se funden entradas repetidas, se completan las que no decían qué aportaban, y entran dos referencias que el texto ya citaba sin entrada, Deming y la Ley 9/2017. Las cuatro filas que la versión 1.8 añade a la tabla de causas del capítulo 2 se apoyan en fuentes que ya estaban aquí.
+
+**Leídas, no usadas.** Se revisaron para la versión 1.5 y el texto no las cita. Se conservan para que se sepa qué se leyó. Ninguna sostiene una afirmación del documento.
+
+**Gillespie, N. y otros (2025).** *Trust, attitudes and use of artificial intelligence: a global study 2025.* Universidad de Melbourne y KPMG; 48.340 personas en 47 países. Uso sin comprobar, uso oculto y pocas políticas internas. Cifras pendientes de cotejo en el informe completo.
+
+**Iansiti, M. y Lakhani, K. (2020).** *Competing in the Age of AI.* La empresa como "fábrica de IA". Apenas trata el conocimiento no escrito.
+
+**Mollick, E. (2024).** *Co-Intelligence.* La IA como cointeligencia y la frontera dentada; divulgación apoyada en el experimento de Dell'Acqua y otros.
+
+**PwC (2026).** *Global AI Jobs Barometer* y *29th Global CEO Survey.* Cotejadas con página en el cuaderno. Datos propios correlacionales y encuesta a consejeros delegados.
+
+**World Economic Forum (2025).** *The Future of Jobs Report 2025.* Cotejado con página en el cuaderno. Intenciones declaradas por empleadores, no resultados.
+
+**Daugherty, P. y Wilson, H. J. (2022).** *Radically Human.* De los mismos autores que *Human + Machine*, que sí se cita.
+
+**Directiva (UE) 2024/2831**, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Figuraba entre las normas citadas y ningún módulo la cita.
+
 ## Anexo F. Registro de versiones
+
+La tabla dice qué cambió en cada versión. Cuando un cambio responde a algo aprendido, la misma celda lo dice. No hay una columna aparte para el porqué.
 
 | Versión | Fecha | Qué cambia |
 |---|---|---|
@@ -330,5 +405,71 @@ Cada fuente aparece con lo que aporta al método y, cuando hace falta, con lo qu
 | 1.3 | 6 de noviembre de 2026 | Verificación de fuentes: corregidos Trist y Bamforth, Klarna, Commonwealth Bank, Brynjolfsson, Li y Raymond, el estudio de los canarios, Bloom y otros, Goodhart y Strathern, Lave y Wenger, Dreyfus, Douady y Couder, Polanyi, Douglas, Turner, Ryan y Deci, Cross y Parker, Parasuraman y Riley; calendario del Reglamento de IA tras el Reglamento (UE) 2026/1744; referencias completas |
 | 1.4 | 9 de noviembre de 2026 | Gobierno de la IA: la columna de las personas y su conocimiento en el inventario, las tres capas de responsabilidad con el derecho a parar y qué se escribe antes de cada peldaño de la escala de autonomía. La pregunta de la puerta pasa de dos verbos a tres (acelerar, automatizar o aumentar), con las tres condiciones para aumentar, la segunda parte "qué tiene que ser cierto" y la distinción entre volumen y conversión. Dos preguntas abiertas nuevas |
 | 1.5 | 9 de noviembre de 2026 | Revisión de lo que dicen autores y consultoras sobre el objetivo de la IA: nueva sección "Para qué: el objetivo" (cap. 17) y campo Objetivo en la plantilla de puerta; dos preguntas más dentro de la segunda de la puerta (si crea tareas o solo desplaza, qué pericia queda en el puesto); acelerar declarado como distinción propia sin fuente; el metaanálisis de Vaccaro, Almaatouq y Malone (aumentar no está garantizado); la doble cara de capturar lo tácito (cap. 16); vigilancia e incentivos en el inventario; techo explícito para la escala de autonomía; fuentes nuevas en el anexo E |
-| 1.6 | 17 de noviembre de 2026 | Implantación y adopción de la IA por los equipos (axioma A23), cinco propuestas: criterio del piloto con la decisión que cambia el resultado (cap. 10 y 12, plantilla de puerta); varios referentes por área en la escala, cruzados con la columna de concentración (cap. 13); sección Construir, comprar o retirar al cierre de cada ciclo (cap. 17); coste por tarea completada en el modelo económico (cap. 18); indicador de capacidad en pareja con el de uso (cap. 18, con nota en la pregunta abierta del criterio) |
-| 1.7 | 17 de noviembre de 2026 | Innovación con IA, estrategia, gobierno y adopción, doce propuestas: dos módulos nuevos, Innovar con IA (23) y Los agentes (24), con la ficha del agente y los controles por peldaño; papel de la dirección y arranque a cien días, tabla de quién decide qué, inventario único, las tres líneas, gobierno dentro de cada función y uso informal, coste que no está en la factura y medición en tres niveles (cap. 18); criterio de parada con revisión a noventa días, registro de supuestos y casos de prueba en el piloto, responsable de adopción, normas de equipo y modelo operativo por fase en la escala, y evaluación continua en el sostenimiento (cap. 12 a 14); el flujo entero y la deuda de proceso (módulo 2); el tiempo que no se libera solo (módulo 9); alcance y habilitadores en la cartera (módulo 14); tres campos nuevos en la plantilla de puerta. Trece fuentes nuevas, sin cifras de informes |
+| 1.6 | 17 de noviembre de 2026 | Implantación y adopción de la IA por los equipos , cinco propuestas: criterio del piloto con la decisión que cambia el resultado (cap. 10 y 12, plantilla de puerta); varios referentes por área en la escala, cruzados con la columna de concentración (cap. 13); sección Construir, comprar o retirar al cierre de cada ciclo (cap. 17); coste por tarea completada en el modelo económico (cap. 18); indicador de capacidad en pareja con el de uso (cap. 18, con nota en la pregunta abierta del criterio) |
+| 1.7 | 17 de noviembre de 2026 | Innovación con IA, estrategia, gobierno y adopción: dos módulos nuevos, Innovar con IA (23) y Los agentes (24), con la ficha del agente y los controles por peldaño; papel de la dirección y arranque a cien días, tabla de quién decide qué, inventario único, las tres líneas, gobierno dentro de cada función y uso informal, coste que no está en la factura y medición en tres niveles (cap. 18); criterio de parada con revisión a noventa días, registro de supuestos y casos de prueba en el piloto, responsable de adopción, normas de equipo y modelo operativo por fase en la escala, y evaluación continua en el sostenimiento (cap. 12 a 14); el flujo entero y la deuda de proceso (módulo 2); el tiempo que no se libera solo (módulo 9); alcance y habilitadores en la cartera (módulo 14); tres campos nuevos en la plantilla de puerta. Trece fuentes nuevas, sin cifras de informes |
+| 1.8 | 17 de noviembre de 2026 | Consolidación tras una auditoría interna de la versión 1.7. No añade temas ni fuentes: cierra contradicciones, unifica reglas y dice qué se puede quitar. Una sola regla de entrada, con fila de gobierno en la escala de madurez; composición del comité de puertas y firma de toda decisión por el patrocinador con contrafirma de una persona ajena; tabla de quién decide qué ampliada a diez decisiones; inventario único con una sola definición y un campo de estado; el uso informal pasa de pregunta abierta a regla, con una vía corta para las herramientas de uso general; dos clases de indicador, de avance y de guarda, y nuevo criterio tipo del piloto, que deja de ser que ningún indicador retroceda; el techo de autonomía para decisiones sobre derechos baja al nivel 2; núcleo mínimo con la tabla de lo que es obligatorio según alcance, y la plantilla de puerta partida en una página y un anexo a la decisión; tabla de encaje de los veinticuatro módulos con la causa a la que responde cada uno, y cuatro causas nuevas en el capítulo 2; ciclo y periodo de medición separados; el estado real del método dicho en el texto: a la fecha ningún programa lo ha aplicado completo. Glosario rehecho, tabla sobre la administración pública en el módulo 13 y dos anexos nuevos: G, valores que fija cada programa, y H, calendario de revisiones. Lo aprendido: las versiones 1.4 a 1.7 añadieron reglas sin actualizar los sitios que resumen el método |
+
+## Anexo G. Valores que fija cada programa
+
+El documento usa expresiones sin número de las que dependen decisiones. Este anexo las reúne y dice quién fija cada una en un programa y con qué referencia. Solo lleva valor de partida donde el texto ya daba uno. No añado cifras nuevas porque no tengo ninguna contrastada (capítulo 21). Donde el texto no nombraba a nadie, quien figura aquí es una propuesta de la versión 1.8 y va marcado con la palabra propuesta.
+
+| Expresión | Dónde aparece | Quién lo fija | Con qué referencia | Valor de partida que da el documento |
+|---|---|---|---|---|
+| Periodo de medición | Capítulos 8 y 14 | Se fija en el diseño, junto con los criterios, que propone medición y firma el patrocinador | El ritmo al que los indicadores dan dato | Un trimestre |
+| Durante cuánto tiempo se mide la línea base | Capítulo 9 | El responsable de medición | Lo bastante para ver la variación normal de cada indicador: su mínimo y su máximo de los últimos meses | Sin valor |
+| Delta mínimo y umbrales de cada puerta | Capítulos 10, 12 y 18 | Los propone medición y los firma el patrocinador | La variación normal del indicador en la línea base y el mínimo que haría rentable la escala según el modelo económico | Sin valor |
+| Objetivo y peso de cada indicador de avance | Capítulo 18 | Se fijan y se firman en el diseño, con su justificación, y no cambian hasta el siguiente ciclo | De dónde sale cada objetivo, por escrito | Sin valor |
+| Suelo de cada indicador de guarda | Capítulo 18 | Lo propone medición y lo firma el patrocinador | La variación normal de la línea base | Sin valor |
+| Cuánto dura el valle y cuánto bajan los indicadores | Capítulo 18, módulos 9 y 17 | Lo dice el modelo económico, que se aprueba en el diseño | La clase de referencia del módulo 17. Si no la hay, se declara como supuesto | Sin valor |
+| Tasa de corrección "baja y estable", para subir del nivel 2 | Capítulo 17 | La propone el dueño con medición y la aprueba el comité de puertas antes de la puerta de autonomía (propuesta) | La tasa observada en casos reales y la muestra revisada a ciegas por otra persona | Sin valor |
+| Errores "pocos, conocidos y reversibles", para subir del nivel 3 | Capítulo 17 | Igual que la fila anterior (propuesta) | Los errores detectados en la revisión por muestreo y en los casos fuera de patrón | Sin valor |
+| "Valor fijado" de la tasa de corrección, como señal de retirada | Módulo 3 | Se fija en el diseño. Lo propone el dueño con medición (propuesta) | El mismo valor que sirvió para subir de nivel | Sin valor |
+| Una característica del puesto "cae mucho" | Módulo 2 | Cada programa, en el diseño. Lo propone la función de diseño del trabajo con quien hace el trabajo (propuesta) | Las cinco características del puesto antes del rediseño | Sin valor |
+| Datos "suficientes y representativos" | Módulo 3 | El dueño de los datos, con medición (propuesta) | Los indicadores de calidad del módulo 10 y los casos de prueba | Sin valor |
+| Tiempo fijo del patrocinador cada semana | Capítulo 15 y módulo 4 | Se escribe antes de empezar, en las obligaciones del patrocinador | El calendario de puertas y la revisión semanal de la cartera | Unas pocas horas fijas cada semana |
+| Qué funciones del equipo son críticas y cuáles acumula una persona | Módulo 4 | Lo propone quien dirige el programa en el diseño y lo aprueba el patrocinador | Dos límites: quien mide no firma, y la voz de quien hace el trabajo la llevan personas que hacen ese trabajo | Una función crítica no se cubre con menos de un tercio del tiempo de alguien |
+| Horas liberadas a quien hace el trabajo | Módulo 4 | Lo propone quien dirige el programa y lo aprueba el patrocinador | El coste de sustituir en parte a esas personas, que va al modelo económico | Sin valor |
+| Tamaño de un área | Capítulo 13 | Pendiente de que lo diga el autor (capítulo 21). Mientras tanto, quien dirige el programa (propuesta) | La unidad que tiene un mando directo | Sin valor |
+| Referentes por área | Capítulo 13 | La persona responsable de la adopción, que los nombra a propuesta de cada equipo | Que el saber de usar bien la herramienta no quede en una sola persona | Al menos dos |
+| Horas reconocidas a los referentes | Capítulo 13 | Cada programa, con un mínimo escrito. Lo propone la persona responsable de la adopción (propuesta) | El número de personas a las que acompaña cada referente | Sin valor |
+| Horas de formación por perfil | Capítulo 13 | Cada programa. Cómo se comprueba que se sabe lo decide la persona responsable de la adopción | La tabla de lo que tiene que saber cada perfil antes del piloto y antes de la escala | Sin valor |
+| Límite de iniciativas en curso ("pocas iniciativas") | Capítulo 10 y módulo 14 | Lo propone quien dirige el programa y lo firma el patrocinador | La capacidad del equipo. Más iniciativas que personas en el equipo es señal de fallo | Sin valor |
+| Filas críticas en una sola persona | Capítulo 9 | La criticidad la fija quien usa el resultado de la fila. El número, cada programa | Cuántas decisiones dependen de cada fila | Más de tres, como propuesta de un lector, sin probar |
+| Cuándo se deja de preguntar para el mapa | Capítulo 9 | La función de conocimiento | Por perfil y por centro | Cuando dos conversaciones seguidas no añaden filas nuevas |
+| Cuántos casos se muestrean para el indicador de personas | Capítulo 18 | Medición. Sigue abierto | Lo que haga falta para distinguir un cambio de la variación normal | Sin valor |
+| "Respuesta en plazo" del canal de propuestas y del canal para pedir herramientas | Capítulos 15 y 18, módulo 23 | Quien dirige el programa lo escribe en las reglas del canal (propuesta) | Que quien pregunta sepa cuándo tendrá respuesta | Sin valor. Para una petición de parada sí hay uno: el dueño responde en el día |
+| "Formación mínima" de una herramienta de uso general | Capítulo 18 | Quien aprueba la herramienta por la vía corta, con la persona responsable de la adopción si la hay (propuesta) | Las reglas de uso y los datos permitidos de esa herramienta | Sin valor |
+| Presupuesto de exploración "pequeño" | Módulo 23 | El patrocinador, de antemano | Una cantidad, no un porcentaje | Estable durante al menos tres periodos de medición |
+| Tamaño del laboratorio y duración de un experimento | Módulo 23 | El patrocinador, con quien dirige el programa (propuesta) | Que el coste de cada experimento sea pequeño | Dos o tres personas; días o pocas semanas |
+| Cuánto riesgo se acepta | Capítulo 18 | El órgano de dirección | La estrategia de IA | Sin valor |
+| Cuántos agentes supervisa una persona | Módulo 24 | Se fija en el diseño y se baja si se deja de corregir | La tasa de correcciones y el tiempo de revisión, agregados por equipo | Sin valor |
+| Proporción de casos que se resuelven sin asistencia para no perder la destreza | Módulo 2 | Cada programa, en el diseño. Sigue abierto | La calidad de esas resoluciones, leída por equipo | Sin valor |
+| "Una parte relevante" de la cartera nace de empleados y usuarios | Capítulo 15 | Es una señal de madurez y ninguna puerta depende de ella. Si un programa la quiere como objetivo, lo fija quien dirige el programa (propuesta) | El origen de cada iniciativa, anotado en la cartera | Sin valor |
+| La cola de quienes tienen peor experiencia | Módulo 20 | Medición | Se mira qué tienen en común | El diez por ciento con peor experiencia |
+| Cada cuánto se revisan las soluciones en uso y el radar | Capítulo 17 | Cada programa puede acortarlo | Cambios de modelo o de coste | Al menos una vez al año (anexo H) |
+
+## Anexo H. Calendario de revisiones
+
+El documento pide revisiones periódicas en muchos sitios. Este calendario las reúne y fusiona las que coinciden, para que quepan en pocas reuniones. Un programa acotado puede hacer coincidir las de cada periodo de medición con la puerta. El responsable que figura con la palabra propuesta no estaba nombrado en el texto.
+
+| Cuándo | Qué se revisa | Quién responde | Dónde se pide |
+|---|---|---|---|
+| Cada semana | La cartera, en treinta minutos, con el patrocinador | Quien dirige el programa | Módulo 5 |
+| Cada dos semanas | Quien hace el trabajo prueba lo nuevo y lo cuenta | Diseño del trabajo, con la voz de quien hace el trabajo (propuesta) | Módulo 5 |
+| En cada etapa de la escala | La mini puerta: los indicadores aguantan al ampliar | El dueño operativo, con los datos que certifica medición | Capítulo 13 |
+| Antes de cada puerta | Se preparan y se llevan juntos: la madurez de los tres elementos y del gobierno, la tabla de quién decide qué, el inventario, el registro de supuestos, los casos de prueba y el coste completo por unidad | Quien dirige el programa lo reúne; medición certifica los datos; el dueño pasa los casos de prueba | Capítulos 12 y 18, módulo 11 |
+| Tras cada puerta | Cuatro preguntas: qué esperábamos, qué pasó, por qué y qué cambiamos | Quien dirige el programa, con la función de conocimiento, que lo registra (propuesta) | Capítulo 16 |
+| Una vez en cada piloto, a noventa días como máximo | Si el piloto sigue, se ajusta o se para. Es intermedia cuando el piloto dura más | El patrocinador, con quien dirige el programa | Capítulo 12 |
+| Cada periodo de medición (por defecto, un trimestre) | Lectura de los indicadores y cuadro, el mismo para el comité de puertas y para el órgano de dirección | Medición | Capítulo 18 |
+| Cada periodo de medición | Supervisión del programa: revisión de supuestos, que incluye qué capacidades se han perdido en lo que ha pasado al sistema | La función de conocimiento (propuesta); en el sostenimiento, el dueño operativo | Capítulos 14 y 16, módulo 6 |
+| Cada periodo de medición | La cartera: cada iniciativa se clasifica en mantener, priorizar, reorientar o retirar | Quien dirige el programa, con el patrocinador | Módulo 14 |
+| Cada periodo de medición | Cada solución en uso: coste por tarea completada, casos de prueba y, si un sistema está en el nivel 4 de autonomía, si sigue ahí | El dueño, con medición | Capítulos 14, 17 y 18 |
+| Al menos una vez al año, y antes si cambia el modelo o el coste (valor de partida) | Construir, comprar o retirar: si cada solución en uso se mantiene, se sustituye, se construye o se retira. En la misma sesión, el radar de lo emergente | Lo prepara el dueño de cada solución. Decide quien dice la tabla «Quién decide qué». El radar lo lleva tecnología y datos (propuesta) | Capítulo 17 |
+| Una vez al año | Que el inventario y los registros se corresponden con lo que está en uso | Auditoría interna | Capítulo 14 |
+| Una vez por ciclo | Retrospectiva | Quien dirige el programa (propuesta) | Capítulo 16 |
+| Dos periodos de medición después de irse el equipo | La puerta de sostenimiento: los indicadores aguantan sin el equipo del programa | La convoca el dueño operativo ante el patrocinador | Capítulo 14 |
+| Cuando cambian el modelo, las herramientas o los permisos | Se repiten los casos de prueba y la evaluación, y se revisa la clasificación de las tareas | El dueño | Capítulos 12 y 17, módulo 24 |
+| Cuando hay un incidente | Análisis sin culpables | El dueño, con la función de conocimiento (propuesta) | Capítulo 16 |
+| Después de la escala | Si el tiempo ganado ha ido al destino escrito y cómo percibe la gente su carga | El dueño del beneficio, con medición (propuesta) | Módulo 9 |
+| Un año después de un cambio que reduce puestos | Qué fue de las personas cuyos puestos cambiaron o desaparecieron | El patrocinador (propuesta) | Módulo 19 |
+| Cada trimestre | El propio método: si las piezas funcionan y si sus supuestos siguen siendo ciertos | El autor | Capítulo 19 |
