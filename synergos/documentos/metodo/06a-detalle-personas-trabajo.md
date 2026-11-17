@@ -40,7 +40,7 @@ La tabla no es una lista de virtudes humanas en abstracto. Es una plantilla de d
 
 **En el diagnóstico**, el inventario de aportaciones se levanta junto al mapa, con las mismas personas. En una organización grande se pregunta por perfil, con la misma regla de parada que el mapa (capítulo 9).
 
-**En el diseño**, cada opción dice qué aportaciones conserva, cuáles amplía y cuáles elimina. Esa línea no va en la página de la decisión de puerta: va en el anexo a la decisión (anexo C), cuando la tabla "Qué es obligatorio según alcance" la marca como obligatoria para ese alcance. La quinta pregunta de la puerta (¿crecen los tres elementos?) se responde con datos: si una opción elimina el juicio, el contexto y la relación de un rol y le deja solo la vigilancia de lo que hace la máquina, no está haciendo crecer a las personas aunque mantenga el empleo.
+**En el diseño**, cada opción dice qué aportaciones conserva, cuáles amplía y cuáles elimina. Esa línea va en el anexo a la decisión de puerta (anexo C), cuando la tabla "Qué es obligatorio según alcance" la marca como obligatoria para ese alcance. La quinta pregunta de la puerta (¿crecen los tres elementos?) se responde con datos: si una opción elimina el juicio, el contexto y la relación de un rol y le deja solo la vigilancia de lo que hace la máquina, no está haciendo crecer a las personas aunque mantenga el empleo.
 
 **En la escala**, los roles se describen por aportaciones, no por tareas. Es la forma más directa de que las carreras y los incentivos se rediseñen con sentido.
 

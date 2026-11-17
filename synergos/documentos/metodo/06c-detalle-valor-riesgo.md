@@ -127,7 +127,7 @@ Desde la versión 1.8, este es el sitio del documento que trata la seguridad de 
 - **Qué datos pueden usarse con qué herramienta.** Se escribe antes de que la herramienta entre, por clases de información, y dice cuáles pueden salir a una herramienta externa y cuáles no.
 - **Quién lo decide.** El dueño de los datos (módulo 10), con la segunda línea, que revisa y puede objetar.
 - **Datos personales.** El delegado de protección de datos dice si procede una evaluación de impacto. Si procede, se hace antes del piloto.
-- **Riesgos propios de un sistema con IA.** Seguridad revisa, antes del piloto y tras cada cambio de modelo, de herramientas o de permisos, por dónde puede salir información y cómo se puede manipular lo que entra al sistema.
+- **Riesgos propios de un sistema con IA.** Seguridad revisa, antes del piloto, por dónde puede salir información y cómo se puede manipular lo que entra al sistema.
 - **Uso informal.** La garantía de no sanción del capítulo 18 cubre haber probado una herramienta. No exime de comunicar y tratar una posible fuga de datos.
 
 El método no sustituye a las normas de seguridad ni de protección de datos de la organización. Fija cuándo se hacen estas preguntas y quién las responde.

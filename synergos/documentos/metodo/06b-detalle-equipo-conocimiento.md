@@ -49,16 +49,16 @@ Fuera de las siete funciones, el documento nombra otros papeles y órganos. Esta
 | Papel | Quién suele serlo | En qué fase aparece | De cuál de las siete funciones depende |
 |---|---|---|---|
 | Comité de puertas | El patrocinador, el dueño operativo, el responsable de medición y una persona ajena al equipo del programa. Su composición está en el capítulo 18 | Todas las puertas de un programa amplio. En el programa acotado no hay comité | Patrocinio |
-| Órgano de dirección | El órgano que dirige la organización | Estrategia, antes del diagnóstico, y cuando hay que aceptar un riesgo por encima de lo fijado | De ninguna. El patrocinio responde ante él |
+| Órgano de dirección | El órgano que dirige la organización | Estrategia, y cuando hay que aceptar un riesgo por encima de lo fijado | De ninguna. El patrocinio responde ante él |
 | Quien dirige el programa | La persona que cubre la función de dirección del programa. Es "el responsable" con quien el patrocinador firma las puertas en el programa acotado | Todas | Dirección del programa |
 | Dueño operativo | Una persona del equipo que opera. Es también el dueño de la solución y del agente y quien figura en el inventario | Se nombra en el diseño, participa en el piloto y se queda en el sostenimiento | De ninguna: es del equipo que opera. Lo acompaña la dirección del programa |
 | Dueño del flujo | El dueño operativo del flujo completo, cuando hay varios agentes encadenados (módulo 24) | Diseño, y después mientras la cadena esté en uso | De ninguna: es del equipo que opera |
 | Dueño de los datos | Una persona responsable en el negocio (módulo 10) | Diagnóstico y diseño | Del negocio. Trabaja con tecnología y datos |
-| Dueño del beneficio | Una persona del negocio, una por beneficio (módulo 9) | Diseño, y lo comprueba en la escala y en el sostenimiento | Del negocio. Trabaja con medición |
+| Dueño del beneficio | Una persona del negocio, una por beneficio (módulo 9) | Desde el diseño | Del negocio. Trabaja con medición |
 | Persona ajena que contrafirma | Alguien de la segunda línea o de finanzas, sin interés en la iniciativa | Todas las puertas y las retiradas | De ninguna, por definición |
 | Segunda línea | Riesgos, seguridad, protección de datos y cumplimiento | Diseño y piloto | De ninguna: revisa y puede objetar |
 | Auditoría interna | La tercera línea | Sostenimiento | De ninguna |
-| Área de tecnología | La unidad que lleva los sistemas de la organización. Decide plataforma y arquitectura, acepta la solución en producción y la opera (capítulo 18) | Es oída antes de las puertas; opera desde la escala | Tecnología y datos hace de enlace |
+| Área de tecnología | La unidad que lleva los sistemas de la organización. Decide plataforma y arquitectura, acepta la solución en producción y la opera (capítulo 18) | Es oída antes de las puertas y acepta la solución cuando pasa a producción | Tecnología y datos hace de enlace |
 | Persona que responde en cada función | Alguien de la función que usa IA, que conoce el inventario de su área (capítulo 18) | Desde el primer caso de uso de su función | Dirección del programa |
 | Mando intermedio del ámbito | Un mando del ámbito afectado (módulo 15) | Es oído antes de las puertas de diseño y de piloto | Voz de quien hace el trabajo |
 | Persona que defiende a quien recibe el servicio | Una función interna; es una propuesta provisional (módulo 21) | Es oída antes de cada puerta | Diseño del trabajo |
@@ -190,6 +190,6 @@ Son los cinco diseños a los que remite el capítulo 15. Ninguno está probado l
 
 El indicador es el tiempo que tarda alguien nuevo en resolver solo los casos difíciles, comparado con la línea base de antes del programa. Si ese tiempo crece, el programa está comiéndose el futuro del oficio.
 
-Es un indicador de guarda (capítulo 18): su suelo es no empeorar respecto a la línea base, y no entra en el delta. Tarda años en dar dato, así que no sirve para la puerta del piloto. Se lee en el sostenimiento y después. En la puerta del piloto se comprueba otra cosa: que el diseño elegido para aprender el oficio está escrito y se está usando.
+Es un indicador de guarda (capítulo 18): su suelo es no empeorar respecto a la línea base, y no entra en el delta. Tarda años en dar dato, así que no sirve para la puerta del piloto. Se lee en el sostenimiento y después. Para la puerta del piloto propongo comprobar que el diseño elegido para aprender el oficio está escrito y se está usando.
 
 !! Pregunta abierta. ¿Quién paga la formación cuando la IA hace el trabajo de entrada? | En el modelo anterior, el trabajo de los novatos pagaba su formación: hacían tareas útiles mientras aprendían. Si la IA hace esas tareas, la formación se convierte en un coste puro. Ninguna organización lo presupuesta si nadie lo pide. El método lo pide en la cuarta pregunta de la puerta, pero no sé si basta con pedirlo.
