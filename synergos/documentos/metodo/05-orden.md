@@ -77,7 +77,7 @@ Brynjolfsson, Daniel Rock y Chad Syverson describieron en 2021 la curva J de la 
 
 ### Medición y el delta
 
-Las reglas de medición de Synergós están todas en este apartado. No las numero: lo que importa es que se cumplan juntas.
+Las reglas de medición de Synergós están todas en este apartado.
 
 **Línea base antes de cambiar nada.** Sin ella, ningún resultado posterior significa nada. La línea base recoge también la variación normal de cada indicador, es decir, entre qué valores se movía antes de cambiar nada. Un indicador que no existía antes de la herramienta, como el uso, parte de cero, y se dice así.
 
