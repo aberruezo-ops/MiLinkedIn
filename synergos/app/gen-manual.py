@@ -130,13 +130,15 @@ pasos = ''.join([
   'Cada ficha es la base de una entrada del inventario único de agentes, sistemas y casos de uso.'],
   'que no aparece ninguna alerta de «faltan controles» para el nivel en que opera y que la próxima revisión tiene fecha.', 'Agentes > Nueva ficha'),
  STEP(10, 'Lee las alertas cada semana', [
-  'Vuelve al Resumen y trabaja la lista de arriba abajo. Pulsa una alerta para ir a su sección. Cuando la resuelvas desaparece sola.'],
+  'Vuelve al Resumen y trabaja la lista de arriba abajo. Pulsa una alerta para ir a su sección. Cuando la resuelvas desaparece sola.',
+  'Después abre Camino, elige el ámbito y mira qué pasos de la fase actual faltan. Los pasos con la etiqueta «Se comprueba solo» se marcan cuando tus datos lo cumplen; los de «Lo marcas tú» los confirmas con una casilla.'],
   'que el Resumen dice «Nada pendiente según las reglas del método». Es una buena señal, pero no una garantía: el gestor solo ve lo que le has contado.', 'Sección Resumen'),
 ])
 SECS.append(('tutorial', 'Tu primer programa en diez pasos', pasos))
 
 SECS.append(('secciones', 'Qué hace cada sección', TBL(['Sección', 'Para qué sirve', 'Qué se guarda'], [
  ['Resumen', 'Ve el estado de cada ámbito de un vistazo y las alertas pendientes.', 'Nada: lo calcula con lo demás.'],
+ ['Camino', 'Muestra las cinco fases con su puerta y lo que el documento pide en cada paso, para el ámbito que elijas.', 'Los pasos que marcas a mano. Los demás los comprueba solo con tus datos.'],
  ['Ámbitos e iniciativas', 'Define los ámbitos, su restricción, su madurez y las iniciativas que cuelgan de cada uno.', 'Nombre, restricción, patrocinador, fase, madurez y evidencia. Para cada iniciativa, alcance, fase, tecnología y dueño.'],
  ['Puertas', 'Registra cada decisión con sus criterios, firmas y salida.', 'Fechas, salida, cinco preguntas, firma, contrafirma y certificación de datos.'],
  ['Mapa de lo no escrito', 'Lleva el conocimiento que no está escrito y su concentración.', 'Qué se sabe, quién, dónde, número de personas, si es crítico y qué pasa con cada opción.'],

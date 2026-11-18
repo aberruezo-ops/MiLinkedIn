@@ -77,6 +77,31 @@ textarea{min-height:76px;resize:vertical}
 .chk{display:flex;gap:10px;align-items:center;font-weight:400;margin:8px 0}.chk input{width:auto}
 .ctrl{display:flex;gap:10px;align-items:flex-start;padding:6px 0;font-size:14px}.ctrl input{width:auto;margin-top:4px}
 dl{display:grid;grid-template-columns:minmax(110px,150px) 1fr;gap:6px 14px;margin:10px 0;font-size:14px}dt{color:var(--muted)}dd{margin:0;min-width:0;overflow-wrap:anywhere}
+
+.flow{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr);gap:0 0;align-items:stretch;margin-top:8px}
+.phase{background:var(--surface);border:1px solid var(--line);padding:16px 14px 14px;min-width:0;border-radius:var(--leaf)}
+.phase:nth-child(4n+3){border-radius:var(--leafb)}
+.phase.cur{border-color:var(--green);box-shadow:0 0 0 2px var(--green-soft)}
+.phase.done{background:var(--green-soft)}
+.phase .pn{font-family:var(--serif);font-size:34px;line-height:1;color:var(--green)}
+.phase h4{font-family:var(--serif);font-weight:500;font-size:19px;margin:2px 0 8px}
+.phase .bar{margin-bottom:10px}
+.it{display:flex;gap:8px;align-items:flex-start;font-size:12.5px;line-height:1.35;padding:5px 0;border-top:1px solid var(--line)}
+.it .bx{flex:0 0 16px;height:16px;margin-top:1px;border:1.5px solid var(--muted);border-radius:0 6px 0 2px;display:inline-block;position:relative}
+.it.ok .bx{background:var(--green);border-color:var(--green)}
+.it.ok .bx::after{content:"";position:absolute;left:4px;top:0;width:4px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(40deg)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .it.ok .bx::after{border-color:#0E1410}}
+:root[data-theme="dark"] .it.ok .bx::after{border-color:#0E1410}
+.it.na{opacity:.55}.it input{margin:2px 0 0;width:16px;height:16px;flex:0 0 16px}
+.it .au{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block}
+.gate{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 6px;min-width:0}
+.gate a{writing-mode:vertical-rl;transform:rotate(180deg);text-decoration:none;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:14px 8px;border-radius:0 12px 0 5px;background:var(--ink);color:var(--bg);text-align:center}
+.gate a.g{background:var(--green);color:#fff}.gate a.a{background:var(--alb-soft);color:var(--alb)}.gate a.t{background:var(--terra-soft);color:var(--terra)}
+.gate small{font-size:10px;color:var(--muted);text-align:center;margin-top:6px;line-height:1.2}
+.crit{font-size:12px;color:var(--muted);margin:8px 0 0;line-height:1.35}
+.nextl{margin:0;padding-left:18px}.nextl li{margin-bottom:6px}
+.loop{display:flex;align-items:center;gap:12px;margin-top:14px;color:var(--muted);font-size:13px}.loop i{flex:1;height:0;border-top:2px dashed var(--green)}
+@media (max-width:900px){.flow{grid-template-columns:1fr}.gate{flex-direction:row;padding:6px 0;justify-content:flex-start;gap:10px}.gate a{writing-mode:horizontal-tb;transform:none;padding:6px 16px}.gate small{margin:0}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -93,7 +118,7 @@ dl{display:grid;grid-template-columns:minmax(110px,150px) 1fr;gap:6px 14px;margi
 <script>
 (function(){
 const FASES=['Diagnóstico','Diseño','Piloto','Escala','Sostenimiento'];
-const TABS=[['resumen','Resumen'],['ambitos','Ámbitos e iniciativas'],['puertas','Puertas'],['mapa','Mapa de lo no escrito'],['indicadores','Indicadores'],['agentes','Agentes'],['ajustes','Ajustes']];
+const TABS=[['resumen','Resumen'],['camino','Camino'],['ambitos','Ámbitos e iniciativas'],['puertas','Puertas'],['mapa','Mapa de lo no escrito'],['indicadores','Indicadores'],['agentes','Agentes'],['ajustes','Ajustes']];
 const CONTROLES=[
  ['c_casos',0,'Casos de prueba superados antes del piloto'],['c_reeval',0,'Nueva evaluación tras cada cambio de modelo, herramientas o permisos'],
  ['c_ficha',1,'Ficha del agente escrita'],['c_inv',1,'Anotado en el inventario'],['c_datos',1,'Datos acotados a la finalidad'],
@@ -121,7 +146,8 @@ const SCHEMA={
   ['nivel','Nivel actual','select',NIVELES,'half'],['entrada','Nivel de entrada al piloto','select',NIVELES,'half'],['techo','Nivel máximo fijado en la puerta','select',NIVELES,'half'],['derechos','Decide sobre derechos de las personas','check'],
   ['aprobacion','Acciones que necesitan visto bueno previo y de quién','textarea'],['parada','Condiciones de parada y cómo se para a mano','textarea'],['registro','Qué se registra de cada acción y cuánto tiempo','textarea'],['coste','Coste por unidad de trabajo resuelta','text'],['personasConoc','Qué criterio gana o pierde quien trabajaba en el flujo y quién enseña lo que la tarea enseñaba','textarea'],['proxRevision','Próxima revisión','date']]}
 };
-const S={ambitos:[],iniciativas:[],indicadores:[],puertas:[],mapa:[],agentes:[],aj:{}};
+const S={ambitos:[],iniciativas:[],indicadores:[],puertas:[],mapa:[],agentes:[],camino:[],aj:{}};
+let campAmb=null;
 let db=null,tab=(location.hash||'#resumen').slice(1),ready={},ajDoc=null,usr=null;
 const $=s=>document.querySelector(s);
 const h=v=>String(v==null?'':v).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -239,12 +265,91 @@ function vAjustes(){
 }
 const VIEWS={resumen:vResumen,ambitos:vAmbitos,puertas:vPuertas,mapa:vMapa,indicadores:vInd,agentes:vAgentes,ajustes:vAjustes};
 
+
+/* ---------- camino: infografía del avance, alineada con el documento ---------- */
+const hoyISO=()=>new Date().toISOString().slice(0,10);
+function ctx(a){const ini=S.iniciativas.filter(i=>i.ambitoId===a.id),ids=ini.map(i=>i.id);
+  return{a,ini,ind:S.indicadores.filter(i=>i.ambitoId===a.id),mapa:S.mapa.filter(m=>m.ambitoId===a.id),ag:S.agentes.filter(g=>g.ambitoId===a.id),pu:S.puertas.filter(p=>ids.includes(p.iniciativaId)),man:((S.camino.find(c=>c.id===a.id)||{}).items)||{}}}
+const tienePuerta=(c,t)=>c.pu.some(p=>p.puerta===t);
+const CAMINO=[
+ {f:1,n:'Diagnóstico',tipo:'diagnostico',crit:'Para pasar al diseño: la restricción está nombrada y el patrocinador la acepta, la línea base está medida y el mapa de lo que nadie escribió existe, con el compromiso de uso firmado.',items:[
+  ['flujo','Mapa del flujo de trabajo real',null],
+  ['restr','Restricción principal nombrada',c=>!!(c.a.restriccion||'').trim()],
+  ['base','Línea base medida, un indicador por elemento',c=>['personas','conocimiento','tecnologia'].every(e=>c.ind.some(i=>i.elemento===e&&num(i.base)!=null))],
+  ['actores','Mapa de actores, con la columna de quién sabe',null],
+  ['mad','Madurez evaluada, con su evidencia',c=>!!(c.a.evidencia||'').trim()],
+  ['mapa','Mapa de lo que nadie escribió',c=>c.mapa.length>0],
+  ['compromiso','Compromiso de uso del mapa firmado por el patrocinador',null]]},
+ {f:2,n:'Diseño',tipo:'diseno',crit:'Cada opción de diseño contesta por escrito las cinco preguntas antes de aprobar un piloto, y los criterios del piloto quedan firmados.',items:[
+  ['cartera','Cartera priorizada por la restricción',c=>c.ini.length>0],
+  ['trabajo','Nuevo diseño del trabajo',null],
+  ['acel','Aceleradores por fase y regla de entrada',null],
+  ['crit','Criterios del piloto firmados',c=>c.pu.some(p=>p.puerta==='diseno'&&p.criteriosFecha)],
+  ['supuestos','Registro de supuestos',null],
+  ['eco','Modelo económico, con el valle previsto',null],
+  ['cinco','Decisión escrita con las cinco preguntas',c=>c.pu.some(p=>p.puerta==='diseno'&&['q1','q2','q3','q4','q5'].every(q=>(p[q]||'').trim()))],
+  ['ficha','Ficha de cada agente',c=>c.ag.length?c.ag.every(g=>g.finalidad&&g.acciones&&g.dueno&&g.parada&&g.registro):undefined]]},
+ {f:3,n:'Piloto',tipo:'piloto',crit:'Tres salidas: pasar si se cumplen los criterios escritos antes, ajustar y repetir una vez, o retirar.',items:[
+  ['entorno','Entorno con una condición difícil',null],
+  ['casos','Casos de prueba de quien hace el trabajo',c=>c.ag.length?c.ag.every(g=>(g.controles||{}).c_casos):undefined],
+  ['comp','Comparación con un grupo sin el cambio',null],
+  ['parada','Criterio de parada y revisión a noventa días',null],
+  ['valores','Valores actuales frente a la línea base',c=>c.ind.some(i=>num(i.actual)!=null)],
+  ['guardas','Indicadores de guarda por encima de su suelo',c=>{const g=c.ind.filter(i=>i.tipo==='guarda');return g.length?g.every(i=>guardaOk(i)!==false):undefined}],
+  ['dpiloto','Decisión de la puerta registrada',c=>tienePuerta(c,'piloto')]]},
+ {f:4,n:'Escala',tipo:'escala',crit:'Los indicadores aguantan al ampliar, y los tres elementos aguantan la carga.',items:[
+  ['etapas','Despliegue por etapas, con mini puertas',null],
+  ['formacion','Formación en el puesto',null],
+  ['refer','Varios referentes por área',null],
+  ['adop','Responsable de adopción con nombre y tiempo',null],
+  ['normas','Normas de equipo por escrito',null],
+  ['incent','Roles, carreras e incentivos revisados',null],
+  ['descala','Decisión de la puerta registrada',c=>tienePuerta(c,'escala')]]},
+ {f:5,n:'Sostenimiento',tipo:'sostenimiento',crit:'El dueño acepta la responsabilidad por escrito y los indicadores aguantan dos periodos de medición sin el equipo del programa.',items:[
+  ['dueno','Dueño operativo con nombre',c=>{const v=c.ini.filter(i=>i.estado!=='retirada');return v.length?v.every(i=>(i.dueno||'').trim()):false}],
+  ['presup','Presupuesto recurrente, no el del proyecto',null],
+  ['regimen','Cuadro de indicadores en régimen',c=>c.ind.some(i=>num(i.actual)!=null)],
+  ['eval','Evaluación que no termina: revisiones al día',c=>c.ag.length?c.ag.every(g=>g.proxRevision&&g.proxRevision>=hoyISO()):undefined],
+  ['dossp','Dos periodos de medición sin el equipo',null],
+  ['dsost','Decisión de la puerta registrada',c=>tienePuerta(c,'sostenimiento')]]}
+];
+function estadoItem(c,it){const[k,l,fn]=it;if(fn){const r=fn(c);return r===undefined?'na':r?'ok':'no'}return c.man[k]?'ok':'no'}
+function vCamino(){
+  let o=head('Camino','Las cinco fases del tronco, con su puerta al final de cada una y lo que el documento pide en cada paso. Lo que el gestor puede comprobar con tus datos se marca solo; lo demás lo marcas tú.');
+  if(!S.ambitos.length)return o+vEmpty('Todavía no hay ámbitos','El camino se lee por ámbito. Crea el primero.',addBtn('ambitos','Crear el primer ámbito'));
+  if(!campAmb||!byId('ambitos',campAmb))campAmb=S.ambitos[0].id;
+  const a=byId('ambitos',campAmb),c=ctx(a),cur=num(a.fase)||1;
+  o+='<div class="row" style="margin-bottom:6px"><label for="camp-sel" style="margin:0">Ámbito</label><select id="camp-sel" style="width:auto;min-width:220px">'+S.ambitos.map(x=>'<option value="'+x.id+'"'+(x.id===campAmb?' selected':'')+'>'+h(x.nombre)+'</option>').join('')+'</select><span class="muted" style="font-size:13px">Fase actual: '+cur+'. '+FASES[cur-1]+'</span></div>';
+  let hechos=0,total=0,sig=[];
+  const cols=CAMINO.map((p,ix)=>{
+    const st=p.items.map(it=>[it,estadoItem(c,it)]);const act=st.filter(x=>x[1]!=='na');const ok=act.filter(x=>x[1]==='ok').length;hechos+=ok;total+=act.length;
+    const pct=act.length?Math.round(ok/act.length*100):0;
+    const pu=c.pu.filter(x=>x.puerta===p.tipo).sort((x,y)=>(y.fecha||'')<(x.fecha||'')?-1:1)[0];
+    const pasada=pu&&pu.salida==='pasar';
+    if(p.f===cur)sig=st.filter(x=>x[1]==='no').slice(0,4).map(x=>x[0][1]);
+    const gcls=!pu?'':pu.salida==='pasar'?'g':pu.salida==='retirar'?'t':'a';
+    const gtxt=!pu?'Puerta sin decidir':pu.salida==='pasar'?'Pasada':pu.salida==='retirar'?'Retirada':'Ajustar y repetir';
+    return '<div class="phase'+(p.f===cur?' cur':'')+(pasada?' done':'')+'"><div class="pn">'+p.f+'</div><h4>'+p.n+'</h4><div class="bar"><i style="width:'+pct+'%"></i></div>'
+      +st.map(([it,e])=>{const[k,l,fn]=it;
+        if(fn)return '<div class="it '+e+'"><span class="bx"></span><span>'+h(l)+'<span class="au">'+(e==='na'?'No aplica':'Se comprueba solo')+'</span></span></div>';
+        return '<label class="it '+e+'" style="font-weight:400;margin:0"><input type="checkbox" data-a="cam" data-k="'+k+'"'+(e==='ok'?' checked':'')+'><span>'+h(l)+'<span class="au">Lo marcas tú</span></span></label>'}).join('')
+      +'<p class="crit">'+h(p.crit)+'</p></div>'
+      +(ix<4?'<div class="gate"><a class="'+gcls+'" href="#puertas" title="Puerta '+p.f+': '+h(gtxt)+'">Puerta '+p.f+'</a><small>'+gtxt+'</small></div>':'');
+  });
+  o+='<div class="flow">'+cols.join('')+'</div>';
+  o+='<div class="loop"><span>Sostenimiento</span><i></i><span>Lo aprendido alimenta el diagnóstico del siguiente ciclo</span></div>';
+  o+='<div class="card b" style="margin-top:18px"><div class="k">Avance del ámbito · '+hechos+' de '+total+' pasos'+'</div><div class="bar" style="margin:8px 0 14px"><i style="width:'+(total?Math.round(hechos/total*100):0)+'%"></i></div>'
+    +(sig.length?'<b>Siguientes pasos de la fase '+cur+', '+FASES[cur-1]+'</b><ul class="nextl">'+sig.map(x=>'<li>'+h(x)+'</li>').join('')+'</ul>':'<b>La fase '+cur+' no tiene pasos pendientes.</b> Si la puerta está lista, regístrala en Puertas.')+'</div>';
+  return o;
+}
+VIEWS.camino=vCamino;
+
 function render(){
   if(!VIEWS[tab])tab='resumen';
   $('#progname').textContent=S.aj.nombre||'Gestor del programa';
   const ej=[...S.ambitos,...S.iniciativas].some(x=>x.ejemplo);
   $('#nav').innerHTML=TABS.map(([k,n])=>'<a href="#'+k+'"'+(k===tab?' aria-current="page"':'')+'>'+n+'</a>').join('');
-  if(db&&Object.keys(ready).length<6&&!S.ambitos.length){$('#main').innerHTML='<div class="empty"><b>Cargando el programa</b>Un momento.</div>';return}
+  if(db&&Object.keys(ready).length<7&&!S.ambitos.length){$('#main').innerHTML='<div class="empty"><b>Cargando el programa</b>Un momento.</div>';return}
   $('#main').innerHTML=(ej?'<div class="banner"><span><b>Caso de ejemplo.</b> Un caso compuesto e ilustrativo, que no corresponde a ninguna organización real.</span><button data-a="clearej">Quitar el ejemplo y empezar</button></div>':'')+VIEWS[tab]();
 }
 
@@ -285,10 +390,12 @@ document.addEventListener('click',async e=>{
   if(a==='del'){const key=t.dataset.c+t.dataset.id;if(armed!==key){armed=key;t.textContent='Confirmar borrado';setTimeout(()=>{if(armed===key){armed=null;if(t.isConnected)t.textContent='Borrar'}},4000);return}armed=null;try{await db.collection(t.dataset.c).doc(t.dataset.id).delete()}catch(err){alert2('No se pudo borrar')}return}
   if(a==='saveaj'){try{await ajDoc.set({nombre:$('#aj-nombre').value,umbral:+$('#aj-umbral').value||3});alert2('Ajustes guardados')}catch(err){alert2('No se pudo guardar')}return}
   if(a==='export'){const dl=await claude.use('downloads');const data=JSON.stringify({programa:S.aj,ambitos:S.ambitos,iniciativas:S.iniciativas,indicadores:S.indicadores,puertas:S.puertas,mapa:S.mapa,agentes:S.agentes},null,1);if(!dl){alert2('Este visor no permite descargar archivos');return}try{await dl.save({filename:'programa-synergos.json',data})}catch(err){}return}
-  if(a==='clearej'){const k=t.dataset.k||'x';if(armed!=='ej'){armed='ej';t.textContent='Confirmar: quitar el ejemplo';setTimeout(()=>{armed=null},4000);return}armed=null;const jobs=[];['ambitos','iniciativas','indicadores','puertas','mapa','agentes'].forEach(c=>S[c].filter(x=>x.ejemplo).forEach(x=>jobs.push(db.collection(c).doc(x.id).delete())));try{await Promise.all(jobs)}catch(err){alert2('No se pudo quitar todo el ejemplo')}return}
+  if(a==='clearej'){const k=t.dataset.k||'x';if(armed!=='ej'){armed='ej';t.textContent='Confirmar: quitar el ejemplo';setTimeout(()=>{armed=null},4000);return}armed=null;const jobs=[];['ambitos','iniciativas','indicadores','puertas','mapa','agentes','camino'].forEach(c=>S[c].filter(x=>x.ejemplo).forEach(x=>jobs.push(db.collection(c).doc(x.id).delete())));try{await Promise.all(jobs)}catch(err){alert2('No se pudo quitar todo el ejemplo')}return}
 });
 document.addEventListener('change',async e=>{
-  const t=e.target;if(t.dataset&&t.dataset.a==='ctrl'){const g=byId('agentes',t.dataset.id);if(!g)return;const c={...(g.controles||{}),[t.dataset.k]:t.checked};const {id,...rest}=g;try{await db.collection('agentes').doc(g.id).set({...rest,controles:c})}catch(err){alert2('No se pudo guardar'); t.checked=!t.checked}}
+  const t=e.target;
+  if(t.id==='camp-sel'){campAmb=t.value;render();return}
+  if(t.dataset&&t.dataset.a==='cam'){const cur=S.camino.find(x=>x.id===campAmb);const {id:_i,...rest}=cur||{};const items={...((cur&&cur.items)||{}),[t.dataset.k]:t.checked};try{await db.collection('camino').doc(campAmb).set({...rest,items})}catch(err){alert2('No se pudo guardar');t.checked=!t.checked}return}if(t.dataset&&t.dataset.a==='ctrl'){const g=byId('agentes',t.dataset.id);if(!g)return;const c={...(g.controles||{}),[t.dataset.k]:t.checked};const {id,...rest}=g;try{await db.collection('agentes').doc(g.id).set({...rest,controles:c})}catch(err){alert2('No se pudo guardar'); t.checked=!t.checked}}
 });
 document.addEventListener('submit',e=>{if(e.target.id==='frm')saveForm(e)});
 window.addEventListener('hashchange',()=>{tab=(location.hash||'#resumen').slice(1);render();window.scrollTo(0,0)});
@@ -301,8 +408,8 @@ function snap(c){return db.collection(c).onSnapshot(s=>{S[c]=s.docs.map(d=>({id:
   if(!db){$('#main').innerHTML=vEmpty('Hace falta iniciar sesión','Este programa guarda sus datos en tu cuenta. Ábrelo con tu sesión de Claude para verlo y editarlo.');return}
   ajDoc=db.doc('ajustes/programa');
   ajDoc.onSnapshot(s=>{S.aj=s.exists?s.data():{};render()},()=>{});
-  ['ambitos','iniciativas','indicadores','puertas','mapa','agentes'].forEach(snap);
-  setTimeout(()=>{if(Object.keys(ready).length<6)render()},10000);
+  ['ambitos','iniciativas','indicadores','puertas','mapa','agentes','camino'].forEach(snap);
+  setTimeout(()=>{if(Object.keys(ready).length<7)render()},10000);
 })();
 })();
 </script>
