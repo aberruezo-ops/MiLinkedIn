@@ -116,8 +116,8 @@
   "tipo": "Post",
   "pieza": "mar 17 nov · Post · ¿Personas y conocimiento no son lo mismo?",
   "pilar": "Conocimiento",
-  "estado": "programado",
-  "falta": "Nada: sale hoy a las 8:30 con vídeo y primer comentario con el enlace de «La bola negra»"
+  "estado": "publicado",
+  "falta": "Responder a mano a los comentarios que lleguen"
  },
  {
   "fecha": "2026-11-18",
@@ -125,7 +125,7 @@
   "pieza": "mié 18 nov · Post comunidad · La última vez que una herramienta te hizo mejor",
   "pilar": "Tecnología",
   "estado": "por decidir",
-  "falta": "La rutina de hoy a las 19:47 (hora de Madrid) redacta el borrador; apruebas tú"
+  "falta": "Borrador y vídeo listos (posts/2026-11-18-C4.md). No está aprobado ni programado en Publora, así que hoy no sale solo. Apruébalo y lo publico ahora, o lo movemos a otro día"
  },
  {
   "fecha": "2026-11-19",
@@ -133,7 +133,7 @@
   "pieza": "jue 19 nov · Post · Tema por redactar (el orden)",
   "pilar": "El orden",
   "estado": "por redactar",
-  "falta": "Redacta la rutina del miércoles 18; ese jueves también se redacta el artículo del 23 nov"
+  "falta": "Redacta la rutina de hoy (19:47 Madrid); ese jueves también se redacta el artículo del 23 nov"
  },
  {
   "fecha": "2026-11-20",
@@ -190,5 +190,29 @@
   "pilar": "Conocimiento",
   "estado": "idea",
   "falta": "Por concretar (Trist y Bamforth). Lo pegas tú a mano"
+ },
+ {
+  "fecha": "2026-12-01",
+  "tipo": "Post",
+  "pieza": "mar 1 dic · Post · Tema de personas por concretar",
+  "pilar": "Personas",
+  "estado": "idea",
+  "falta": "Vuelta 2 del calendario; por concretar. Cae en el cupo de diciembre"
+ },
+ {
+  "fecha": "2026-12-02",
+  "tipo": "Post",
+  "pieza": "mié 2 dic · Post comunidad · ¿Cuántos pilotos has visto escalar?",
+  "pilar": "Tecnología",
+  "estado": "idea",
+  "falta": "Por redactar. Cae en el cupo de diciembre"
+ },
+ {
+  "fecha": "2026-12-03",
+  "tipo": "Post",
+  "pieza": "jue 3 dic · Post · El ángulo áureo",
+  "pilar": "El orden",
+  "estado": "idea",
+  "falta": "Por redactar. Cae en el cupo de diciembre"
  }
 ]
