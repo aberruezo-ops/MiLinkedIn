@@ -32,14 +32,25 @@ function image(file, widthCm, align = AlignmentType.CENTER) {
   return new Paragraph({ alignment: align, spacing: { before: 160, after: 200 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, file)), transformation: { width: pw, height: Math.round(pw * h / w) } })] });
 }
 const cellBorder = { style: BorderStyle.SINGLE, size: 4, color: LINE }; const noB = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
+function colWidths(rows, MIN) {
+  const n = rows[0].length;
+  const lens = Array.from({ length: n }, (_, i) => Math.min(70, Math.max(12, rows.slice(1).reduce((a, r) => a + (r[i] || '').length, 0) / Math.max(1, rows.length - 1))));
+  let fixed = new Array(n).fill(false), cols = new Array(n).fill(0);
+  for (let it = 0; it < n; it++) {
+    const freeTot = lens.reduce((a, l, i) => a + (fixed[i] ? 0 : l), 0), room = TEXT_W - cols.reduce((a, c, i) => a + (fixed[i] ? c : 0), 0);
+    let again = false;
+    lens.forEach((l, i) => { if (!fixed[i]) { cols[i] = Math.round(room * l / freeTot); } });
+    lens.forEach((l, i) => { if (!fixed[i] && cols[i] < MIN) { cols[i] = MIN; fixed[i] = true; again = true; } });
+    if (!again) break;
+  }
+  cols[n - 1] += TEXT_W - cols.reduce((a, c) => a + c, 0);
+  return cols;
+}
+const SHADE = f => ({ type: ShadingType.CLEAR, fill: f, color: 'auto' });
 function table(rows) {
   const n = rows[0].length;
-  const lens = Array.from({ length: n }, (_, i) => Math.max(8, rows.reduce((a, r) => a + (r[i] || '').length, 0) / rows.length));
-  const tot = lens.reduce((a, c) => a + c, 0);
-  let cols = lens.map(l => Math.round(TEXT_W * l / tot));
-  const MIN = n > 3 ? 1500 : 2000; let deficit = 0; cols = cols.map(c => { if (c < MIN) { deficit += MIN - c; return MIN; } return c; });
-  const big = cols.reduce((a, c) => a + (c > MIN ? c : 0), 0); cols = cols.map(c => c > MIN ? Math.round(c - deficit * c / big) : c);
-  cols[n - 1] += TEXT_W - cols.reduce((a, c) => a + c, 0);
+  if (n >= 6) return fichas(rows);
+  const cols = colWidths(rows, n > 3 ? 1500 : 2000);
   const hair = { style: BorderStyle.SINGLE, size: 4, color: LINE };
   return new Table({
     width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: cols,
@@ -47,12 +58,35 @@ function table(rows) {
       tableHeader: ri === 0, cantSplit: true,
       children: r.map((c, ci) => new TableCell({
         width: { size: cols[ci], type: WidthType.DXA },
-        margins: { top: 100, bottom: 100, left: ci === 0 ? 0 : 140, right: 140 },
-        borders: { top: ri === 0 ? { style: BorderStyle.SINGLE, size: 12, color: INK } : noB, bottom: ri === 0 ? { style: BorderStyle.SINGLE, size: 8, color: INK } : hair, left: noB, right: noB },
-        children: [new Paragraph({ spacing: { before: 0, after: 0, line: 264 }, children: runs(ri === 0 ? c.toUpperCase() : c, { font: (ri === 0 || (ci === 0 && n > 1)) ? BOLD : SF, size: ri === 0 ? 14 : 17, color: INK, characterSpacing: ri === 0 ? 30 : 0 }) })]
+        shading: SHADE(ri === 0 ? '1F1D1A' : (ci === 0 ? 'EAF2EC' : (ri % 2 === 0 ? 'F4F6F6' : 'FFFFFF'))),
+        margins: { top: 130, bottom: 130, left: 160, right: 140 },
+        borders: { top: noB, bottom: ri === 0 ? noB : hair, left: noB, right: noB },
+        children: [new Paragraph({ spacing: { before: 0, after: 0, line: 270 }, children: runs(ri === 0 ? c.toUpperCase() : c, { font: (ri === 0 || ci === 0) ? BOLD : SF, size: ri === 0 ? 15 : 18, color: ri === 0 ? 'FFFFFF' : (ci === 0 ? GREEN : INK), characterSpacing: ri === 0 ? 12 : 0 }) })]
       }))
     }))
   });
+}
+// Tablas de seis o más columnas: una ficha por fila (cabecera de color y pares etiqueta/valor)
+function fichas(rows) {
+  const head = rows[0], LW = 2500, VW = TEXT_W - LW, hair = { style: BorderStyle.SINGLE, size: 4, color: LINE };
+  const tints = [GREEN, TERRA, INK, ALBT];
+  const out = [];
+  rows.slice(1).forEach((r, k) => {
+    const rowsT = [new TableRow({ cantSplit: true, children: [new TableCell({ columnSpan: 2, width: { size: TEXT_W, type: WidthType.DXA }, shading: SHADE(tints[k % tints.length]), margins: { top: 150, bottom: 150, left: 200, right: 200 }, borders: { top: noB, bottom: noB, left: noB, right: noB },
+      children: [new Paragraph({ keepNext: true, spacing: { before: 0, after: 0 }, children: runs(r[0], { font: HF, size: 30, color: 'FFFFFF' }) })] })] })];
+    for (let j = 1; j < head.length; j++) {
+      const last = j === head.length - 1;
+      rowsT.push(new TableRow({ cantSplit: true, children: [
+        new TableCell({ width: { size: LW, type: WidthType.DXA }, shading: SHADE('F4F6F6'), margins: { top: 110, bottom: 110, left: 200, right: 120 }, borders: { top: noB, bottom: hair, left: noB, right: noB },
+          children: [new Paragraph({ keepNext: !last, spacing: { before: 0, after: 0, line: 250 }, children: [new TextRun({ text: head[j].toUpperCase(), font: BOLD, size: 14, color: GREEN, characterSpacing: 14 })] })] }),
+        new TableCell({ width: { size: VW, type: WidthType.DXA }, margins: { top: 110, bottom: 110, left: 200, right: 160 }, borders: { top: noB, bottom: hair, left: noB, right: noB },
+          children: [new Paragraph({ keepNext: !last, spacing: { before: 0, after: 0, line: 276 }, children: runs(r[j] || '', { font: SF, size: 18, color: INK }) })] }),
+      ] }));
+    }
+    out.push(new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [LW, VW], rows: rowsT }));
+    if (k < rows.length - 2) out.push(spacer(200));
+  });
+  return out;
 }
 function callout(title, body, color = TERRA, label = null) {
   let lab = label, head = title;
@@ -86,7 +120,7 @@ function portadilla(title) {
   const m = /^Parte ([IVX]+)\. (.*)$/.exec(title); const num = m[1];
   return { part: 'PARTE ' + num + ' · ' + m[2].split(':')[0].toUpperCase(), portadilla: [
     new Paragraph({ pageBreakBefore: true, spacing: { before: 2200, after: 0 }, children: [new TextRun({ text: 'PARTE ' + num, font: BOLD, size: 20, color: GREEN, characterSpacing: 90 })] }),
-    new Paragraph({ spacing: { before: 0, after: 200, line: 2400 }, children: [new TextRun({ text: num, font: HF, size: 300, color: INK })] }),
+    new Paragraph({ spacing: { before: 500, after: 300 }, children: [new TextRun({ text: num, font: HF, size: 260, color: INK })] }),
     new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 360, line: 880 }, children: [new TextRun({ text: title, font: HF, size: 80, color: INK })] }),
     tricolor(40),
     new Paragraph({ spacing: { before: 360, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: HF, size: 32, color: GREY, italics: true })] }),
@@ -128,7 +162,7 @@ function parse(md) {
     if (l.startsWith('!! ')) { const [t, ...b] = l.slice(3).split(' | '); out.push(spacer(60)); out.push(callout(t, b.join(' | '))); out.push(spacer(160)); i++; continue; }
     if (l.startsWith('|')) {
       const rows = []; while (i < lines.length && lines[i].startsWith('|')) { const cells = lines[i].trim().slice(1, -1).split('|').map(s => s.trim()); if (!cells.every(c => /^-+$/.test(c))) rows.push(cells); i++; }
-      out.push(table(rows)); out.push(spacer(180)); continue;
+      [].concat(table(rows)).forEach(x => out.push(x)); out.push(spacer(180)); continue;
     }
     if (/^- /.test(l)) { while (i < lines.length && /^- /.test(lines[i])) { out.push(new Paragraph({ numbering: { reference: 'vinetas', level: 0 }, spacing: { before: 0, after: 80, line: 300 }, children: runs(lines[i].slice(2)) })); i++; } out.push(spacer(80)); continue; }
     if (/^\d+\. /.test(l)) { const ref = 'num' + i; numRefs.push(ref); while (i < lines.length && /^\d+\. /.test(lines[i])) { out.push(new Paragraph({ numbering: { reference: ref, level: 0 }, spacing: { before: 0, after: 80, line: 300 }, children: runs(lines[i].replace(/^\d+\. /, '')) })); i++; } out.push(spacer(80)); continue; }
