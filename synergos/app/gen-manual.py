@@ -131,7 +131,7 @@ pasos = ''.join([
   'que no aparece ninguna alerta de «faltan controles» para el nivel en que opera y que la próxima revisión tiene fecha.', 'Agentes > Nueva ficha'),
  STEP(10, 'Lee las alertas cada semana', [
   'Vuelve al Resumen y trabaja la lista de arriba abajo. Pulsa una alerta para ir a su sección. Cuando la resuelvas desaparece sola.',
-  'Después abre Camino, elige el ámbito y mira qué pasos de la fase actual faltan. Los pasos con la etiqueta «Se comprueba solo» se marcan cuando tus datos lo cumplen; los de «Lo marcas tú» los confirmas con una casilla.'],
+  'Después abre Camino, elige el ámbito y mira qué pasos de la fase actual faltan. Los pasos con la etiqueta «auto» se marcan cuando tus datos lo cumplen; los de «manual» los confirmas con una casilla. Pulsa una fase de la fila de arriba para ver sus pasos y su puerta.'],
   'que el Resumen dice «Nada pendiente según las reglas del método». Es una buena señal, pero no una garantía: el gestor solo ve lo que le has contado.', 'Sección Resumen'),
 ])
 SECS.append(('tutorial', 'Tu primer programa en diez pasos', pasos))
