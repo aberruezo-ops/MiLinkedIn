@@ -1,0 +1,308 @@
+<title>Gestor Synergós</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Concepto: cuaderno de programa. Un panel que lee el estado de cada ámbito, con las formas de hoja de la marca y las alertas del método por delante. */
+:root{
+  --bg:#F5F7F5;--surface:#FFFFFF;--ink:#1F1D1A;--muted:#5A625E;--line:#DCE1DD;
+  --green:#2C6D3F;--green-soft:#E3EEE6;--terra:#B5512A;--terra-soft:#F6E6DD;--alb:#8A6508;--alb-soft:#F6EACB;--ink-soft:#ECEEED;
+  --serif:'EB Garamond',Georgia,serif;--sans:'Public Sans',system-ui,sans-serif;
+  --leaf:6px 0 30px 0;--leafb:0 6px 0 30px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#131614;--surface:#1B1F1C;--ink:#EDEEE9;--muted:#A3ABA6;--line:#323835;
+  --green:#7CC490;--green-soft:#1F3226;--terra:#E68F68;--terra-soft:#3A2519;--alb:#E2B957;--alb-soft:#3A3119;--ink-soft:#262A27;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#131614;--surface:#1B1F1C;--ink:#EDEEE9;--muted:#A3ABA6;--line:#323835;
+  --green:#7CC490;--green-soft:#1F3226;--terra:#E68F68;--terra-soft:#3A2519;--alb:#E2B957;--alb-soft:#3A3119;--ink-soft:#262A27;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+.wrap{max-width:1120px;margin:0 auto}
+header{padding-block:22px 6px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;justify-content:space-between}
+.brand{font-family:var(--serif);font-size:30px;line-height:1;letter-spacing:-.3px}
+.brand b{color:var(--green);font-weight:500}
+.prog{color:var(--muted);font-size:14px}
+nav{display:flex;gap:6px;overflow-x:auto;padding-block:12px;scrollbar-width:thin;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5}
+nav a{white-space:nowrap;text-decoration:none;color:var(--muted);padding:8px 16px;border-radius:0 14px 0 6px;font-weight:500;font-size:14px;background:var(--ink-soft)}
+nav a[aria-current=page]{background:var(--green);color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) nav a[aria-current=page]{color:#0E1410}}
+:root[data-theme="dark"] nav a[aria-current=page]{color:#0E1410}
+h2{font-family:var(--serif);font-weight:400;font-size:30px;line-height:1.1;margin:22px 0 4px;text-wrap:balance}
+h3{font-family:var(--serif);font-weight:500;font-size:22px;margin:0 0 6px;text-wrap:balance}
+.lead{color:var(--muted);max-width:68ch;margin:0 0 18px}
+.k{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--leaf);padding:20px 22px 24px;min-width:0}
+.card.b{border-radius:var(--leafb)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.sp{justify-content:space-between}
+button,.btn{font:inherit;font-weight:500;font-size:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 16px;border-radius:0 12px 0 6px;cursor:pointer}
+button:hover{border-color:var(--green)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.pri{background:var(--green);color:#fff;border-color:var(--green)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .pri{color:#0E1410}}
+:root[data-theme="dark"] .pri{color:#0E1410}
+.danger{color:var(--terra)}
+.chip{display:inline-block;font-size:12px;font-weight:600;padding:2px 10px;border-radius:0 10px 0 4px;background:var(--ink-soft);color:var(--ink)}
+.chip.g{background:var(--green-soft);color:var(--green)}.chip.t{background:var(--terra-soft);color:var(--terra)}.chip.a{background:var(--alb-soft);color:var(--alb)}
+.alert{display:flex;gap:12px;padding:12px 16px;border-radius:var(--leaf);margin-bottom:10px;align-items:flex-start;background:var(--terra-soft)}
+.alert.m{background:var(--alb-soft)}
+.alert small{color:var(--muted);display:block}
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;margin:12px 0}
+.steps span{font-size:11px;padding:6px 2px;text-align:center;background:var(--ink-soft);color:var(--muted);border-radius:0 8px 0 3px}
+.steps span.d{background:var(--green-soft);color:var(--green)}.steps span.n{background:var(--green);color:#fff;font-weight:600}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .steps span.n{color:#0E1410}}
+:root[data-theme="dark"] .steps span.n{color:#0E1410}
+.bar{height:10px;background:var(--ink-soft);border-radius:0 8px 0 3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--green)}
+.mad{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}
+.mad div{padding:8px 6px;text-align:center;border-radius:0 10px 0 4px;background:var(--ink-soft);font-size:12px}
+.mad div b{display:block;font-family:var(--serif);font-size:22px;font-weight:500;line-height:1}
+.mad .ok{background:var(--green-soft)}.mad .no{background:var(--terra-soft)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink)}
+td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+.scroll{overflow-x:auto}
+.empty{padding:40px 24px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--leaf)}
+.empty b{display:block;font-family:var(--serif);font-weight:500;font-size:24px;color:var(--ink);margin-bottom:6px}
+.muted{color:var(--muted)}
+.banner{background:var(--alb-soft);padding:12px 16px;border-radius:var(--leaf);margin:14px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.ov{position:fixed;inset:0;background:rgba(10,12,10,.55);display:flex;align-items:flex-start;justify-content:center;padding:max(16px,env(safe-area-inset-top,0px)) 16px 16px;overflow:auto;z-index:20}
+.dlg{background:var(--surface);width:min(640px,100%);border-radius:var(--leaf);padding:24px;margin-block:auto}
+label{display:block;font-size:13px;font-weight:600;margin:12px 0 4px}
+input,select,textarea{font:inherit;width:100%;padding:9px 12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:0 10px 0 4px;min-width:0}
+textarea{min-height:76px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+@media (max-width:520px){.two{grid-template-columns:1fr}}
+.chk{display:flex;gap:10px;align-items:center;font-weight:400;margin:8px 0}.chk input{width:auto}
+.ctrl{display:flex;gap:10px;align-items:flex-start;padding:6px 0;font-size:14px}.ctrl input{width:auto;margin-top:4px}
+dl{display:grid;grid-template-columns:minmax(110px,150px) 1fr;gap:6px 14px;margin:10px 0;font-size:14px}dt{color:var(--muted)}dd{margin:0;min-width:0;overflow-wrap:anywhere}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand">Syner<b>gós</b></div>
+    <div class="prog" id="progname">Gestor del programa</div>
+  </header>
+  <nav id="nav" aria-label="Secciones"></nav>
+  <main id="main"><div class="empty"><b>Cargando el programa</b>Un momento.</div></main>
+</div>
+<div id="modal"></div>
+
+<script>
+(function(){
+const FASES=['Diagnóstico','Diseño','Piloto','Escala','Sostenimiento'];
+const TABS=[['resumen','Resumen'],['ambitos','Ámbitos e iniciativas'],['puertas','Puertas'],['mapa','Mapa de lo no escrito'],['indicadores','Indicadores'],['agentes','Agentes'],['ajustes','Ajustes']];
+const CONTROLES=[
+ ['c_casos',0,'Casos de prueba superados antes del piloto'],['c_reeval',0,'Nueva evaluación tras cada cambio de modelo, herramientas o permisos'],
+ ['c_ficha',1,'Ficha del agente escrita'],['c_inv',1,'Anotado en el inventario'],['c_datos',1,'Datos acotados a la finalidad'],
+ ['c_regprop',2,'Registro de propuestas y de correcciones'],
+ ['c_ident',3,'Identidad propia con permisos acotados y con caducidad'],['c_lista',3,'Lista cerrada de acciones aplicada por el sistema'],['c_aprob',3,'Aprobación previa en lo que no se puede deshacer'],['c_parada',3,'Parada probada'],
+ ['c_vigil',4,'Vigilancia continua de indicadores'],['c_incid',4,'Procedimiento de incidentes'],['c_ajeno',4,'Revisión por alguien ajeno al equipo']];
+const NIVELES=[['1','1. Sugiere'],['2','2. Propone'],['3','3. Actúa con revisión'],['4','4. Actúa e informa']];
+const MAD=[['mP','Personas'],['mC','Conocimiento'],['mT','Tecnología'],['mG','Gobierno']];
+const O=(arr)=>arr.map(x=>Array.isArray(x)?x:[x,x]);
+const FASEOPT=FASES.map((f,i)=>[String(i+1),(i+1)+'. '+f]);
+const MADOPT=[['1','1. Puntual'],['2','2. Repetible'],['3','3. Integrado'],['4','4. Sistemático']];
+const SCHEMA={
+ ambitos:{one:'ámbito',fields:[['nombre','Nombre del ámbito','text'],['restriccion','Restricción principal (una por ámbito, aceptada por el patrocinador)','textarea'],['patrocinador','Patrocinador','text'],['fase','Fase actual','select',FASEOPT],
+  ['mP','Madurez · Personas','select',MADOPT,'half'],['mC','Madurez · Conocimiento','select',MADOPT,'half'],['mT','Madurez · Tecnología','select',MADOPT,'half'],['mG','Madurez · Gobierno','select',MADOPT,'half'],['evidencia','Evidencia de la madurez','textarea']]},
+ iniciativas:{one:'iniciativa',fields:[['nombre','Nombre','text'],['ambitoId','Ámbito','ref','ambitos'],['alcance','Alcance','select',O([['puntual','Puntual'],['flujo','De flujo'],['sistema','De sistema']])],['fase','Fase','select',FASEOPT],
+  ['verbo','Qué hace la tecnología','select',O([['sin','No lleva tecnología'],['acelera','Acelera'],['automatiza','Automatiza'],['aumenta','Aumenta']])],['ataca','¿Ataca la restricción?','select',O([['si','Sí'],['no','No'],['habilitador','Es un habilitador'],['legal','Obligación legal']])],
+  ['dueno','Dueño operativo','text'],['estado','Estado','select',O([['curso','En curso'],['pausada','Pausada'],['retirada','Retirada'],['sostenimiento','En sostenimiento']])],['notas','Notas','textarea']]},
+ indicadores:{one:'indicador',fields:[['nombre','Nombre del indicador','text'],['ambitoId','Ámbito','ref','ambitos'],['elemento','Elemento','select',O([['personas','Personas'],['conocimiento','Conocimiento'],['tecnologia','Tecnología']])],['tipo','Clase','select',O([['avance','De avance (tiene objetivo)'],['guarda','De guarda (tiene suelo)']])],
+  ['sentido','Mejor cuando','select',O([['sube','Sube'],['baja','Baja']])],['unidad','Unidad','text','','half'],['base','Línea base','number','','half'],['actual','Valor actual','number','','half'],['objetivo','Objetivo (avance)','number','','half'],['suelo','Suelo o techo (guarda)','number','','half'],['variacion','Variación normal','number','','half'],['peso','Peso (avance)','number','','half']]},
+ puertas:{one:'decisión de puerta',fields:[['iniciativaId','Iniciativa','ref','iniciativas'],['puerta','Puerta','select',O([['diagnostico','Diagnóstico'],['diseno','Diseño'],['piloto','Piloto'],['escala','Escala'],['sostenimiento','Sostenimiento'],['autonomia','Subir o bajar autonomía']])],['fecha','Fecha de la decisión','date','','half'],['criteriosFecha','Fecha en que se firmaron los criterios','date','','half'],
+  ['salida','Salida','select',O([['pasar','Pasar'],['ajustar','Ajustar y repetir'],['retirar','Retirar']])],['firma','Firma el patrocinador (nombre)','text','','half'],['contrafirma','Contrafirma, persona ajena al equipo','text','','half'],['mide','Medición certifica los datos','check'],
+  ['q1','1. ¿Ataca la restricción?','textarea'],['q2','2. ¿Acelera, automatiza o aumenta? ¿Qué criterio gana o pierde la persona?','textarea'],['q3','3. ¿Qué pasa con el mapa de lo que nadie escribió?','textarea'],['q4','4. ¿Quién responde y quién enseña lo que la tarea enseñaba?','textarea'],['q5','5. ¿Crecen a la vez? ¿Qué indicador mejora y cuál empeora?','textarea'],['notas','Notas','textarea']]},
+ mapa:{one:'fila del mapa',fields:[['ambitoId','Ámbito','ref','ambitos'],['saber','Qué se sabe','textarea'],['quien','Quién lo sabe','text'],['donde','Dónde se usa','text'],['personas','Personas que lo saben','number','','half'],['critico','Es crítico','check'],['destino','Qué pasa con cada opción de diseño','select',O([['','Sin decidir'],['persona','Se queda en la persona'],['sistema','Pasa al sistema'],['pierde','Se pierde']])]]},
+ agentes:{one:'agente',fields:[['nombre','Nombre del agente','text'],['ambitoId','Ámbito','ref','ambitos'],['dueno','Dueño (una persona con nombre)','text'],['finalidad','Finalidad y flujo','textarea'],['acciones','Acciones permitidas (lista cerrada)','textarea'],['datos','Datos a los que llega y cómo se borran','textarea'],
+  ['nivel','Nivel actual','select',NIVELES,'half'],['entrada','Nivel de entrada al piloto','select',NIVELES,'half'],['techo','Nivel máximo fijado en la puerta','select',NIVELES,'half'],['derechos','Decide sobre derechos de las personas','check'],
+  ['aprobacion','Acciones que necesitan visto bueno previo y de quién','textarea'],['parada','Condiciones de parada y cómo se para a mano','textarea'],['registro','Qué se registra de cada acción y cuánto tiempo','textarea'],['coste','Coste por unidad de trabajo resuelta','text'],['personasConoc','Qué criterio gana o pierde quien trabajaba en el flujo y quién enseña lo que la tarea enseñaba','textarea'],['proxRevision','Próxima revisión','date']]}
+};
+const S={ambitos:[],iniciativas:[],indicadores:[],puertas:[],mapa:[],agentes:[],aj:{}};
+let db=null,tab=(location.hash||'#resumen').slice(1),ready={},ajDoc=null,usr=null;
+const $=s=>document.querySelector(s);
+const h=v=>String(v==null?'':v).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const num=v=>(v===''||v==null||isNaN(+v))?null:+v;
+const byId=(c,id)=>S[c].find(x=>x.id===id);
+const nameOf=(c,id)=>{const x=byId(c,id);return x?(x.nombre||x.saber||'(sin nombre)'):'—'};
+const umbral=()=>num(S.aj.umbral)||3;
+
+/* ---------- cálculos del método ---------- */
+function delta(i){const b=num(i.base),o=num(i.objetivo),a=num(i.actual);if(b==null||o==null||a==null||o===b)return null;return Math.max(0,Math.min(1,(a-b)/(o-b)))}
+function enVar(i){const v=num(i.variacion),b=num(i.base),a=num(i.actual);return v!=null&&b!=null&&a!=null&&Math.abs(a-b)<=v}
+function guardaOk(i){const s=num(i.suelo),a=num(i.actual);if(s==null||a==null)return null;return i.sentido==='baja'?a<=s:a>=s}
+function deltaAmbito(id){let sw=0,sd=0;S.indicadores.filter(i=>i.ambitoId===id&&i.tipo==='avance').forEach(i=>{let d=delta(i);if(d==null)return;if(enVar(i))d=0;const w=num(i.peso)||1;sw+=w;sd+=d*w});return sw?sd/sw:null}
+function regla(a){const bajos=MAD.filter(([k])=>(num(a[k])||1)<2).map(([,n])=>n);return{ok:!bajos.length,bajos}}
+function faltan(ag){const L=num(ag.nivel)||1;return CONTROLES.filter(c=>c[1]<=L&&!(ag.controles||{})[c[0]])}
+function techoAg(ag){let t=num(ag.techo)||4;if(ag.derechos)t=Math.min(t,2);return t}
+function alertas(){
+  const A=[];const hoy=new Date().toISOString().slice(0,10);
+  S.ambitos.forEach(a=>{
+    if((num(a.fase)||1)>=2&&!(a.restriccion||'').trim())A.push(['a','Falta nombrar la restricción de «'+a.nombre+'»','Sin restricción nombrada no se entra en diseño.','ambitos']);
+    const r=regla(a);const tec=S.iniciativas.some(i=>i.ambitoId===a.id&&['acelera','automatiza','aumenta'].includes(i.verbo)&&i.estado==='curso'&&(num(i.fase)||1)>=3);
+    if(!r.ok&&tec)A.push(['a','Regla de entrada sin cumplir en «'+a.nombre+'»','Hay tecnología en piloto y estos elementos están por debajo del nivel 2: '+r.bajos.join(', ')+'.','ambitos']);
+    const crit=S.mapa.filter(m=>m.ambitoId===a.id&&m.critico&&(num(m.personas)||0)<=1).length;
+    if(crit>=umbral())A.push(['a','Conocimiento concentrado en «'+a.nombre+'»',crit+' filas críticas dependen de una sola persona (umbral: '+umbral()+').','mapa']);
+  });
+  S.indicadores.forEach(i=>{if(i.tipo==='guarda'&&guardaOk(i)===false)A.push(['a','Indicador de guarda bajo su suelo: '+i.nombre,'Ninguno puede bajar de su suelo para pasar una puerta.','indicadores'])});
+  S.puertas.forEach(p=>{
+    const n=nameOf('iniciativas',p.iniciativaId);
+    if(!p.criteriosFecha||(p.fecha&&p.criteriosFecha>p.fecha))A.push(['a','Criterios no firmados antes: puerta de «'+n+'»','Un criterio escrito después del dato se parece a un voto secreto.','puertas']);
+    if(p.salida==='pasar'&&(!(p.firma||'').trim()||!(p.contrafirma||'').trim()))A.push(['m','Puerta «'+n+'» sin firma y contrafirma','La firma la pone el patrocinador y contrafirma una persona ajena al equipo.','puertas']);
+    if(p.salida==='pasar'&&!p.mide)A.push(['m','Puerta «'+n+'» sin datos certificados por Medición','','puertas']);
+  });
+  S.agentes.forEach(g=>{
+    const L=num(g.nivel)||1,t=techoAg(g);
+    if(L>t)A.push(['a','«'+g.nombre+'» opera por encima de su techo','Nivel '+L+' con techo '+t+(g.derechos?' (decide sobre derechos: techo 2)':'')+'.','agentes']);
+    const f=faltan(g);if(f.length)A.push(['m','«'+g.nombre+'»: faltan '+f.length+' controles para operar en el nivel '+L,f.slice(0,2).map(x=>x[2]).join('; ')+(f.length>2?'…':''),'agentes']);
+    if(g.proxRevision&&g.proxRevision<hoy)A.push(['m','Revisión vencida: '+g.nombre,'Fijada para '+g.proxRevision+'.','agentes']);
+    if(!(g.dueno||'').trim())A.push(['a','Agente sin dueño: '+g.nombre,'Una persona con nombre responde de lo que hace.','agentes']);
+  });
+  return A.sort((x,y)=>x[0]<y[0]?-1:1);
+}
+
+/* ---------- vistas ---------- */
+function pill(t,c){return '<span class="chip '+(c||'')+'">'+h(t)+'</span>'}
+const salidaChip=s=>s==='pasar'?pill('Pasar','g'):s==='retirar'?pill('Retirar','t'):pill('Ajustar y repetir','a');
+function vEmpty(t,s,btn){return '<div class="empty"><b>'+t+'</b>'+s+(btn?'<div style="margin-top:14px">'+btn+'</div>':'')+'</div>'}
+function head(t,s,btn){return '<div class="row sp"><div><h2>'+t+'</h2><p class="lead">'+s+'</p></div>'+(btn||'')+'</div>'}
+function addBtn(c,label){return '<button class="pri" data-a="new" data-c="'+c+'">'+label+'</button>'}
+function rowBtns(c,id){return '<div class="row"><button data-a="edit" data-c="'+c+'" data-id="'+id+'">Editar</button><button class="danger" data-a="del" data-c="'+c+'" data-id="'+id+'">Borrar</button></div>'}
+
+function vResumen(){
+  if(!S.ambitos.length)return head('Resumen','Un programa se lleva por ámbitos: el servicio o el flujo que se va a transformar.')+vEmpty('Todavía no hay ningún ámbito','Empieza por nombrar el ámbito y su restricción. Todo lo demás cuelga de ahí.',addBtn('ambitos','Crear el primer ámbito'));
+  const A=alertas();
+  let o=head('Resumen','El estado de cada ámbito y lo que el método marca como pendiente.');
+  o+=A.length?'<div class="k" style="margin-bottom:10px">Pendiente · '+A.length+'</div>'+A.slice(0,8).map(a=>'<a class="alert '+a[0]+'" href="#'+a[3]+'" style="color:inherit;text-decoration:none"><div><b>'+h(a[1])+'</b><small>'+h(a[2])+'</small></div></a>').join('')+(A.length>8?'<p class="muted">Y '+(A.length-8)+' más en sus secciones.</p>':''):'<div class="alert m" style="background:var(--green-soft)"><div><b>Nada pendiente según las reglas del método.</b></div></div>';
+  o+='<div class="grid" style="margin-top:18px">'+S.ambitos.map((a,ix)=>{
+    const f=num(a.fase)||1,d=deltaAmbito(a.id),r=regla(a),ini=S.iniciativas.filter(i=>i.ambitoId===a.id),ag=S.agentes.filter(x=>x.ambitoId===a.id);
+    const crit=S.mapa.filter(m=>m.ambitoId===a.id&&m.critico&&(num(m.personas)||0)<=1).length;
+    return '<div class="card'+(ix%2?' b':'')+'"><div class="k">'+h(a.patrocinador||'Sin patrocinador')+'</div><h3>'+h(a.nombre)+'</h3>'
+    +'<p style="margin:0 0 4px"><span class="muted">Restricción:</span> '+(a.restriccion?h(a.restriccion):'<b class="danger">sin nombrar</b>')+'</p>'
+    +'<div class="steps">'+FASES.map((n,i)=>'<span class="'+(i+1<f?'d':i+1===f?'n':'')+'">'+n.slice(0,5)+'.</span>').join('')+'</div>'
+    +'<div class="row sp"><span class="k">Avance medido</span><b>'+(d==null?'sin datos':Math.round(d*100)+' %')+'</b></div><div class="bar"><i style="width:'+Math.round((d||0)*100)+'%"></i></div>'
+    +'<div class="mad">'+MAD.map(([k,n])=>{const v=num(a[k])||1;return '<div class="'+(v>=2?'ok':'no')+'"><b>'+v+'</b>'+n.slice(0,6)+'.</div>'}).join('')+'</div>'
+    +'<p class="muted" style="margin:10px 0 0;font-size:13px">'+(r.ok?'Regla de entrada cumplida: la tecnología puede entrar en el servicio.':'Regla de entrada: falta nivel 2 en '+h(r.bajos.join(', '))+'.')+'</p>'
+    +'<div class="row" style="margin-top:12px;gap:6px">'+pill(ini.length+' iniciativas')+pill(ag.length+' agentes')+(crit?pill(crit+' filas en una persona','t'):'')+'</div></div>'}).join('')+'</div>';
+  return o;
+}
+function vAmbitos(){
+  let o=head('Ámbitos e iniciativas','Cada iniciativa recorre las cinco fases dentro de su ámbito. Una restricción por ámbito.',addBtn('ambitos','Nuevo ámbito'));
+  if(!S.ambitos.length)return o+vEmpty('Sin ámbitos','Crea el primero para colgar de él las iniciativas.');
+  return o+S.ambitos.map(a=>{const ini=S.iniciativas.filter(i=>i.ambitoId===a.id);
+    return '<div class="card" style="margin-bottom:16px"><div class="row sp"><div><div class="k">Fase '+(num(a.fase)||1)+' · '+FASES[(num(a.fase)||1)-1]+'</div><h3>'+h(a.nombre)+'</h3></div>'+rowBtns('ambitos',a.id)+'</div>'
+    +'<dl><dt>Restricción</dt><dd>'+h(a.restriccion||'—')+'</dd><dt>Patrocinador</dt><dd>'+h(a.patrocinador||'—')+'</dd><dt>Madurez</dt><dd>'+MAD.map(([k,n])=>n+' '+(num(a[k])||1)).join(' · ')+'</dd>'+(a.evidencia?'<dt>Evidencia</dt><dd>'+h(a.evidencia)+'</dd>':'')+'</dl>'
+    +'<div class="row sp" style="margin-top:14px"><span class="k">Iniciativas · '+ini.length+'</span><button data-a="new" data-c="iniciativas" data-amb="'+a.id+'">Añadir iniciativa</button></div>'
+    +(ini.length?'<div class="scroll"><table><tr><th>Iniciativa</th><th>Fase</th><th>Tecnología</th><th>Estado</th><th></th></tr>'+ini.map(i=>'<tr><td><b>'+h(i.nombre)+'</b><br><span class="muted">'+h(i.alcance||'')+' · dueño: '+h(i.dueno||'sin dueño')+'</span></td><td>'+h(FASES[(num(i.fase)||1)-1])+'</td><td>'+h(i.verbo||'—')+(i.ataca==='no'?'<br>'+pill('No ataca la restricción','a'):'')+'</td><td>'+pill(i.estado||'curso',i.estado==='retirada'?'t':'g')+'</td><td>'+rowBtns('iniciativas',i.id)+'</td></tr>').join('')+'</table></div>':'<p class="muted">Sin iniciativas todavía.</p>')+'</div>'}).join('');
+}
+function vPuertas(){
+  let o=head('Puertas','Una decisión por puerta, con los criterios firmados antes de ver el dato. Tres salidas: pasar, ajustar y repetir, o retirar.',addBtn('puertas','Registrar decisión'));
+  if(!S.puertas.length)return o+vEmpty('Sin decisiones registradas','Cada puerta queda escrita con su fecha, sus firmas y el motivo.');
+  return o+[...S.puertas].sort((a,b)=>(b.fecha||'')<(a.fecha||'')?-1:1).map(p=>{const tarde=!p.criteriosFecha||(p.fecha&&p.criteriosFecha>p.fecha);
+    return '<div class="card b" style="margin-bottom:14px"><div class="row sp"><div><div class="k">'+h(p.puerta||'')+' · '+h(p.fecha||'sin fecha')+'</div><h3>'+h(nameOf('iniciativas',p.iniciativaId))+'</h3></div><div class="row">'+salidaChip(p.salida)+rowBtns('puertas',p.id)+'</div></div>'
+    +'<div class="row" style="gap:6px;margin-bottom:8px">'+(tarde?pill('Criterios no firmados antes','t'):pill('Criterios firmados antes','g'))+(p.mide?pill('Datos certificados','g'):pill('Sin certificar','a'))+'</div>'
+    +'<dl><dt>Firma</dt><dd>'+h(p.firma||'—')+'</dd><dt>Contrafirma</dt><dd>'+h(p.contrafirma||'—')+'</dd>'+['q1','q2','q3','q4','q5'].filter(q=>p[q]).map((q,i)=>'<dt>Pregunta '+q.slice(1)+'</dt><dd>'+h(p[q])+'</dd>').join('')+(p.notas?'<dt>Notas</dt><dd>'+h(p.notas)+'</dd>':'')+'</dl></div>'}).join('');
+}
+function vMapa(){
+  let o=head('Mapa de lo que nadie escribió','Qué se sabe, quién lo sabe, dónde se usa y cuán concentrado está. La última columna es la que asusta.',addBtn('mapa','Añadir fila'));
+  if(!S.mapa.length)return o+vEmpty('El mapa está vacío','Se levanta en el diagnóstico, conversando con quien hace el trabajo.');
+  return o+S.ambitos.map(a=>{const f=S.mapa.filter(m=>m.ambitoId===a.id);if(!f.length)return '';const crit=f.filter(m=>m.critico&&(num(m.personas)||0)<=1).length;
+    return '<div class="card" style="margin-bottom:16px"><div class="row sp"><h3>'+h(a.nombre)+'</h3>'+(crit>=umbral()?pill(crit+' filas críticas en una persona','t'):pill(crit+' filas críticas en una persona','g'))+'</div><p class="muted" style="margin:0 0 8px">'+f.length+' filas. Umbral para parar a repartir el conocimiento: '+umbral()+'.</p><div class="scroll"><table><tr><th>Qué se sabe</th><th>Quién</th><th>Dónde</th><th>Personas</th><th>Con el diseño</th><th></th></tr>'
+    +f.map(m=>'<tr><td>'+(m.critico?pill('Crítico','t')+' ':'')+h(m.saber)+'</td><td>'+h(m.quien||'')+'</td><td>'+h(m.donde||'')+'</td><td><b>'+h(m.personas==null?'':m.personas)+'</b></td><td>'+h({persona:'Se queda en la persona',sistema:'Pasa al sistema',pierde:'Se pierde'}[m.destino]||'Sin decidir')+'</td><td>'+rowBtns('mapa',m.id)+'</td></tr>').join('')+'</table></div></div>'}).join('');
+}
+function vInd(){
+  let o=head('Indicadores','De avance, con objetivo, entran en el delta. De guarda, con suelo, no entran en la media: se cumplen o no. La línea base se toma antes de cambiar nada.',addBtn('indicadores','Nuevo indicador'));
+  if(!S.indicadores.length)return o+vEmpty('Sin indicadores','Al menos uno por elemento, con su línea base y su variación normal.');
+  return o+S.ambitos.map(a=>{const f=S.indicadores.filter(i=>i.ambitoId===a.id);if(!f.length)return '';const d=deltaAmbito(a.id);
+    return '<div class="card b" style="margin-bottom:16px"><div class="row sp"><h3>'+h(a.nombre)+'</h3><span class="k">Delta del ámbito · '+(d==null?'sin datos':Math.round(d*100)+' %')+'</span></div><div class="scroll"><table><tr><th>Indicador</th><th>Línea base</th><th>Actual</th><th>Objetivo o suelo</th><th>Estado</th><th></th></tr>'
+    +f.map(i=>{let est;if(i.tipo==='guarda'){const g=guardaOk(i);est=g==null?pill('Sin datos'):g?pill('Por encima del suelo','g'):pill('Bajo el suelo','t')}else{const dd=delta(i);est=dd==null?pill('Sin datos'):enVar(i)?pill('Dentro de la variación normal','a'):pill(Math.round(dd*100)+' % recorrido','g')}
+    return '<tr><td><b>'+h(i.nombre)+'</b><br><span class="muted">'+h(i.elemento||'')+' · '+(i.tipo==='guarda'?'guarda':'avance')+'</span></td><td>'+h(i.base??'')+' '+h(i.unidad||'')+'</td><td>'+h(i.actual??'')+'</td><td>'+h(i.tipo==='guarda'?i.suelo??'':i.objetivo??'')+'</td><td>'+est+'</td><td>'+rowBtns('indicadores',i.id)+'</td></tr>'}).join('')+'</table></div></div>'}).join('');
+}
+function vAgentes(){
+  let o=head('Agentes','La ficha de cada agente y los controles que tienen que existir para el nivel en que opera. Un límite solo cuenta si lo aplica el sistema.',addBtn('agentes','Nueva ficha'));
+  if(!S.agentes.length)return o+vEmpty('Sin agentes en el inventario','Cada agente tiene ficha antes de entrar en un piloto. Un agente que se usa y no está aquí es una señal de que algo va mal.');
+  return o+S.agentes.map((g,ix)=>{const L=num(g.nivel)||1,t=techoAg(g),f=faltan(g);
+    return '<div class="card'+(ix%2?'':' b')+'" style="margin-bottom:16px"><div class="row sp"><div><div class="k">'+h(nameOf('ambitos',g.ambitoId))+'</div><h3>'+h(g.nombre)+'</h3></div><div class="row">'+pill('Nivel '+L,L>t?'t':'g')+pill('Techo '+t)+rowBtns('agentes',g.id)+'</div></div>'
+    +'<dl><dt>Dueño</dt><dd>'+h(g.dueno||'—')+'</dd><dt>Finalidad</dt><dd>'+h(g.finalidad||'—')+'</dd><dt>Acciones</dt><dd>'+h(g.acciones||'—')+'</dd><dt>Datos</dt><dd>'+h(g.datos||'—')+'</dd><dt>Visto bueno</dt><dd>'+h(g.aprobacion||'—')+'</dd><dt>Parada</dt><dd>'+h(g.parada||'—')+'</dd><dt>Registro</dt><dd>'+h(g.registro||'—')+'</dd><dt>Próxima revisión</dt><dd>'+h(g.proxRevision||'—')+'</dd></dl>'
+    +'<div class="k" style="margin:14px 0 4px">Controles para el nivel '+L+' · faltan '+f.length+'</div>'
+    +CONTROLES.filter(c=>c[1]<=L).map(c=>'<label class="ctrl" style="font-weight:400;margin:0"><input type="checkbox" data-a="ctrl" data-id="'+g.id+'" data-k="'+c[0]+'"'+((g.controles||{})[c[0]]?' checked':'')+'> <span>'+h(c[2])+'</span></label>').join('')+'</div>'}).join('');
+}
+function vAjustes(){
+  const hay=S.ambitos.length+S.iniciativas.length+S.indicadores.length+S.puertas.length+S.mapa.length+S.agentes.length;
+  const ej=[...S.ambitos,...S.iniciativas,...S.indicadores,...S.puertas,...S.mapa,...S.agentes].some(x=>x.ejemplo);
+  return head('Ajustes','Nombre del programa, umbral de concentración y exportación de los datos.')
+  +'<div class="card" style="max-width:640px"><label for="aj-nombre">Nombre del programa</label><input id="aj-nombre" value="'+h(S.aj.nombre||'')+'"><label for="aj-umbral">Filas críticas en una sola persona que obligan a repartir el conocimiento</label><input id="aj-umbral" type="number" min="1" value="'+umbral()+'"><p class="muted" style="font-size:13px">Tres es un punto de partida propuesto por un lector del método, sin probar con números reales.</p><div class="row" style="margin-top:12px"><button class="pri" data-a="saveaj">Guardar ajustes</button></div></div>'
+  +'<div class="card b" style="max-width:640px;margin-top:16px"><h3>Datos</h3><p class="muted">'+hay+' registros en el programa.</p><div class="row"><button data-a="export">Exportar en JSON</button>'+(ej?'<button class="danger" data-a="clearej">Quitar los datos de ejemplo</button>':'')+'</div></div>';
+}
+const VIEWS={resumen:vResumen,ambitos:vAmbitos,puertas:vPuertas,mapa:vMapa,indicadores:vInd,agentes:vAgentes,ajustes:vAjustes};
+
+function render(){
+  if(!VIEWS[tab])tab='resumen';
+  $('#progname').textContent=S.aj.nombre||'Gestor del programa';
+  const ej=[...S.ambitos,...S.iniciativas].some(x=>x.ejemplo);
+  $('#nav').innerHTML=TABS.map(([k,n])=>'<a href="#'+k+'"'+(k===tab?' aria-current="page"':'')+'>'+n+'</a>').join('');
+  if(db&&Object.keys(ready).length<6&&!S.ambitos.length){$('#main').innerHTML='<div class="empty"><b>Cargando el programa</b>Un momento.</div>';return}
+  $('#main').innerHTML=(ej?'<div class="banner"><span><b>Caso de ejemplo.</b> Un caso compuesto e ilustrativo, que no corresponde a ninguna organización real.</span><button data-a="clearej">Quitar el ejemplo y empezar</button></div>':'')+VIEWS[tab]();
+}
+
+/* ---------- formularios ---------- */
+function field(f,v){const [k,l,t,o,w]=f;const id='f-'+k;
+  if(t==='check')return '<label class="chk" for="'+id+'"><input id="'+id+'" type="checkbox" data-k="'+k+'"'+(v?' checked':'')+'> '+h(l)+'</label>';
+  let c;
+  if(t==='textarea')c='<textarea id="'+id+'" data-k="'+k+'">'+h(v)+'</textarea>';
+  else if(t==='select')c='<select id="'+id+'" data-k="'+k+'">'+o.map(([a,b])=>'<option value="'+h(a)+'"'+(String(v)===String(a)?' selected':'')+'>'+h(b)+'</option>').join('')+'</select>';
+  else if(t==='ref'){c='<select id="'+id+'" data-k="'+k+'"><option value="">—</option>'+S[o].map(x=>'<option value="'+x.id+'"'+(v===x.id?' selected':'')+'>'+h(x.nombre||x.saber)+'</option>').join('')+'</select>'}
+  else c='<input id="'+id+'" data-k="'+k+'" type="'+t+'" value="'+h(v)+'">';
+  return '<div><label for="'+id+'">'+h(l)+'</label>'+c+'</div>';
+}
+function openForm(c,id,pre){
+  const sc=SCHEMA[c];const d=id?byId(c,id):(pre||{});
+  const half=sc.fields.map(f=>f[4]==='half'?'<div class="two-i">'+field(f,d[f[0]])+'</div>':field(f,d[f[0]]));
+  let body='',buf=[];sc.fields.forEach(f=>{const x=field(f,d[f[0]]);if(f[4]==='half'){buf.push(x);if(buf.length===2){body+='<div class="two">'+buf.join('')+'</div>';buf=[]}}else{if(buf.length){body+='<div class="two">'+buf.join('')+'</div>';buf=[]}body+=x}});
+  if(buf.length)body+='<div class="two">'+buf.join('')+'</div>';
+  $('#modal').innerHTML='<div class="ov"><form class="dlg" id="frm" data-c="'+c+'" data-id="'+(id||'')+'"><h3>'+(id?'Editar':'Nueva')+' '+SC_NAME(sc)+'</h3>'+body+'<div class="row" style="margin-top:18px"><button class="pri" type="submit">Guardar</button><button type="button" data-a="close">Cancelar</button></div></form></div>';
+  const first=document.querySelector('#frm [data-k]');if(first)first.focus();
+}
+const SC_NAME=sc=>sc.one;
+async function saveForm(e){
+  e.preventDefault();const f=e.target,c=f.dataset.c,id=f.dataset.id;const data={};
+  f.querySelectorAll('[data-k]').forEach(el=>{const k=el.dataset.k;data[k]=el.type==='checkbox'?el.checked:el.type==='number'?(el.value===''?null:+el.value):el.value});
+  const old=id?byId(c,id):{};const keep={...old};delete keep.id;
+  try{const ref=id?db.collection(c).doc(id):db.collection(c).doc();await ref.set({...keep,...data});$('#modal').innerHTML=''}catch(err){alert2('No se pudo guardar: '+(err&&err.message||err))}
+}
+function alert2(t){const d=document.createElement('div');d.className='banner';d.style.cssText='position:fixed;left:16px;right:16px;bottom:16px;z-index:30';d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),4000)}
+
+/* ---------- acciones ---------- */
+let armed=null;
+document.addEventListener('click',async e=>{
+  const t=e.target.closest('[data-a]');if(!t)return;const a=t.dataset.a;
+  if(a==='close'){$('#modal').innerHTML='';return}
+  if(a==='new'){const pre={};if(t.dataset.amb)pre.ambitoId=t.dataset.amb;if(t.dataset.c==='iniciativas'){pre.estado='curso';pre.fase='1'}if(t.dataset.c==='ambitos'){pre.fase='1';MAD.forEach(([k])=>pre[k]='1')}if(t.dataset.c==='agentes'){pre.nivel='1';pre.entrada='1';pre.techo='3'}openForm(t.dataset.c,null,pre);return}
+  if(a==='edit'){openForm(t.dataset.c,t.dataset.id);return}
+  if(a==='del'){const key=t.dataset.c+t.dataset.id;if(armed!==key){armed=key;t.textContent='Confirmar borrado';setTimeout(()=>{if(armed===key){armed=null;if(t.isConnected)t.textContent='Borrar'}},4000);return}armed=null;try{await db.collection(t.dataset.c).doc(t.dataset.id).delete()}catch(err){alert2('No se pudo borrar')}return}
+  if(a==='saveaj'){try{await ajDoc.set({nombre:$('#aj-nombre').value,umbral:+$('#aj-umbral').value||3});alert2('Ajustes guardados')}catch(err){alert2('No se pudo guardar')}return}
+  if(a==='export'){const dl=await claude.use('downloads');const data=JSON.stringify({programa:S.aj,ambitos:S.ambitos,iniciativas:S.iniciativas,indicadores:S.indicadores,puertas:S.puertas,mapa:S.mapa,agentes:S.agentes},null,1);if(!dl){alert2('Este visor no permite descargar archivos');return}try{await dl.save({filename:'programa-synergos.json',data})}catch(err){}return}
+  if(a==='clearej'){const k=t.dataset.k||'x';if(armed!=='ej'){armed='ej';t.textContent='Confirmar: quitar el ejemplo';setTimeout(()=>{armed=null},4000);return}armed=null;const jobs=[];['ambitos','iniciativas','indicadores','puertas','mapa','agentes'].forEach(c=>S[c].filter(x=>x.ejemplo).forEach(x=>jobs.push(db.collection(c).doc(x.id).delete())));try{await Promise.all(jobs)}catch(err){alert2('No se pudo quitar todo el ejemplo')}return}
+});
+document.addEventListener('change',async e=>{
+  const t=e.target;if(t.dataset&&t.dataset.a==='ctrl'){const g=byId('agentes',t.dataset.id);if(!g)return;const c={...(g.controles||{}),[t.dataset.k]:t.checked};const {id,...rest}=g;try{await db.collection('agentes').doc(g.id).set({...rest,controles:c})}catch(err){alert2('No se pudo guardar'); t.checked=!t.checked}}
+});
+document.addEventListener('submit',e=>{if(e.target.id==='frm')saveForm(e)});
+window.addEventListener('hashchange',()=>{tab=(location.hash||'#resumen').slice(1);render();window.scrollTo(0,0)});
+
+/* ---------- datos ---------- */
+function snap(c){return db.collection(c).onSnapshot(s=>{S[c]=s.docs.map(d=>({id:d.id,...d.data()}));ready[c]=1;render()},()=>{ready[c]=1;render()})}
+(async function start(){
+  render();
+  try{db=await claude.use('db')}catch(e){db=null}
+  if(!db){$('#main').innerHTML=vEmpty('Hace falta iniciar sesión','Este programa guarda sus datos en tu cuenta. Ábrelo con tu sesión de Claude para verlo y editarlo.');return}
+  ajDoc=db.doc('ajustes/programa');
+  ajDoc.onSnapshot(s=>{S.aj=s.exists?s.data():{};render()},()=>{});
+  ['ambitos','iniciativas','indicadores','puertas','mapa','agentes'].forEach(snap);
+  setTimeout(()=>{if(Object.keys(ready).length<6)render()},10000);
+})();
+})();
+</script>
