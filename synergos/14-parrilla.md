@@ -11,8 +11,8 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
 | Mié 18 nov | Post comunidad · La última vez que una herramienta te hizo mejor | Tecnología (comunidad) | publicado | Salió el 18 nov a las 8:53. Responder a mano a los comentarios que lleguen |
-| Jue 19 nov | Post · Un criterio escrito después del dato es un voto secreto | El orden | programado | Sale solo a las 8:30 |
-| Vie 20 nov | Cierre semanal · Quién cabe | Cierre | programado | Sale solo a las 8:30. Revisar el jueves tarde con los comentarios reales de la semana |
+| Jue 19 nov | Post · Un criterio escrito después del dato es un voto secreto | El orden | aprobado | Lo publicas tú a mano a las 8:30; todo en listos-para-publicar/2026-11-19-jueves |
+| Vie 20 nov | Cierre semanal · Quién cabe | Cierre | aprobado | Lo publicas tú a mano a las 8:30; el jueves tarde se revisa con comentarios reales. Todo en listos-para-publicar/2026-11-20-viernes |
 | Lun 23 nov | Artículo · Diagnóstico antes que solución | El orden | por redactar | Redactar el jueves 19. Lo pegas tú a mano |
 | Mar 24 nov | Post · Tema por elegir (conocimiento) | Conocimiento | por decidir | Elegir del banco |
 | Mié 25 nov | Post comunidad · El liderazgo empieza donde termina el ego | Personas (comunidad) | aprobado | Regenerar el vídeo girasol con su pregunta |
@@ -62,12 +62,12 @@ Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov. No ha
 
 Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto. Horizonte de programación: hasta el 25 nov.
 
-**Noviembre no llega.** A 18 nov, Publora cuenta 12 posts usados y 0 programados; quedan 3 del límite de 15. Hasta fin de mes el calendario pide 6 más (posts del 19, 24, 25 y 26 y cierres del 20 y 27), sin contar Hestía. Faltan 3. Los posts del 1 al 3 de diciembre caen en el cupo de diciembre, que se repone el 1. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan.
+**Noviembre no llega.** A 18 nov, Publora cuenta 12 posts usados y 0 programados; quedan 3 del límite de 15. Hasta fin de mes el calendario pide 4 más para Publora (posts del 24, 25 y 26 y cierre del 27; el 19 y el 20 los publicas a mano), sin contar Hestía. Faltan 3. Los posts del 1 al 3 de diciembre caen en el cupo de diciembre, que se repone el 1. Opciones: que Alejandro publique a mano los cierres de los viernes y alguno de comunidad (no gastan cupo), quitar un día por semana o subir de plan.
 
 ## Decisiones pendientes de Alejandro
 
-1. Posts de mañana y del viernes: el del jueves 19 y el cierre del viernes 20 están redactados con su vídeo. Aprueba o corrige y los programo para las 8:30. El cierre se revisa el jueves tarde con los comentarios reales de la semana
-2. Cupo de posts de Publora (no tiene que ver con Apify): el plan Starter permite 15 al mes, llevas 12 y quedan 3, y el calendario pide 6 más hasta fin de mes (faltan 3). Opciones: publicar a mano los cierres de los viernes y alguno de comunidad, quitar un día por semana, o subir el plan de Publora
+1. Jueves 19 y viernes 20 a las 8:30: los publicas tú a mano (carpeta listos-para-publicar). El jueves tarde reviso el cierre con comentarios reales y te dejo la versión final
+2. Cupo de posts de Publora (no tiene que ver con Apify): el plan Starter permite 15 al mes, llevas 12 y quedan 3, y el calendario pide 4 más para Publora hasta fin de mes (falta 1). Opciones: publicar a mano los cierres de los viernes y alguno de comunidad, quitar un día por semana, o subir el plan de Publora
 3. Comentarios en posts ajenos: tres propuestos ayer (Ricardo Tayar, Javier Martínez Aldanondo y Areli Pineda). Aprueba con «tus recomendaciones» o elige variantes; sin aprobación no se publica nada
 4. Método 1.8: construida (149 páginas, estilo editorial elegido). Falta la comprobación independiente de las correcciones (se cortó por el límite de uso) y que decidas si la das por buena. Quedan cuatro datos que solo tú puedes dar: qué piezas has usado en programas reales, esfuerzo por fase, tamaño de un área y valores de partida
 5. Imagen de marca: elegida la maqueta de Wonder para el documento. Pendiente instalar los plugins Website Design y Codesign si quieres usarlos (no aparecen instalados); Wonder y Canva ya están conectados

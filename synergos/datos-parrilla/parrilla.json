@@ -132,16 +132,16 @@
   "tipo": "Post",
   "pieza": "jue 19 nov · Post · Un criterio escrito después del dato es un voto secreto",
   "pilar": "El orden",
-  "estado": "programado",
-  "falta": "Sale solo a las 8:30. El cierre del viernes se revisa el jueves tarde"
+  "estado": "aprobado",
+  "falta": "Lo publicas tú a mano a las 8:30 (no gasta cupo). Todo en listos-para-publicar/2026-11-19-jueves"
  },
  {
   "fecha": "2026-11-20",
   "tipo": "Cierre",
   "pieza": "vie 20 nov · Cierre semanal · Personas",
   "pilar": "Cierre",
-  "estado": "programado",
-  "falta": "Sale solo a las 8:30. Las conclusiones son lecturas propias; si hay comentarios reales el jueves tarde se actualiza el texto en Publora"
+  "estado": "aprobado",
+  "falta": "Lo publicas tú a mano a las 8:30 (no gasta cupo). El jueves tarde se revisa con comentarios reales. Todo en listos-para-publicar/2026-11-20-viernes"
  },
  {
   "fecha": "2026-11-23",
