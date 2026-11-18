@@ -11,8 +11,8 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 | Día | Pieza | Pilar | Estado | Qué falta y quién |
 |---|---|---|---|---|
 | Mié 18 nov | Post comunidad · La última vez que una herramienta te hizo mejor | Tecnología (comunidad) | publicado | Salió el 18 nov a las 8:53. Responder a mano a los comentarios que lleguen |
-| Jue 19 nov | Post · Un criterio escrito después del dato es un voto secreto | El orden | por decidir | Borrador y vídeo listos (posts/2026-11-19-B23.md). Apruebas tú y lo programo para las 8:30 |
-| Vie 20 nov | Cierre semanal · Quién cabe | Cierre | por decidir | Borrador y vídeo listos (posts/2026-11-20-V3.md). Las tres conclusiones son lecturas propias; el jueves tarde se cambian por comentarios reales si los hay |
+| Jue 19 nov | Post · Un criterio escrito después del dato es un voto secreto | El orden | programado | Sale solo a las 8:30 |
+| Vie 20 nov | Cierre semanal · Quién cabe | Cierre | programado | Sale solo a las 8:30. Revisar el jueves tarde con los comentarios reales de la semana |
 | Lun 23 nov | Artículo · Diagnóstico antes que solución | El orden | por redactar | Redactar el jueves 19. Lo pegas tú a mano |
 | Mar 24 nov | Post · Tema por elegir (conocimiento) | Conocimiento | por decidir | Elegir del banco |
 | Mié 25 nov | Post comunidad · El liderazgo empieza donde termina el ego | Personas (comunidad) | aprobado | Regenerar el vídeo girasol con su pregunta |

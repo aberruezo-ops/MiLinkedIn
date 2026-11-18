@@ -9,7 +9,7 @@
  },
  {
   "concepto": "Programados",
-  "valor": 0
+  "valor": 2
  },
  {
   "concepto": "Restantes",
@@ -17,10 +17,10 @@
  },
  {
   "concepto": "Previstos sin programar",
-  "valor": 6
+  "valor": 4
  },
  {
   "concepto": "Faltan",
-  "valor": 3
+  "valor": 1
  }
 ]
