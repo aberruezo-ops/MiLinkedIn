@@ -32,6 +32,8 @@ En mi experiencia, el diagnóstico es la fase más importante y la que más se s
 
 Son los seis entregables básicos. Lo que el capítulo 18 y los módulos añaden al diagnóstico está al final de este apartado.
 
+{{img:fig-diagnostico.png|16}}
+
 **El mapa del flujo de trabajo real.** No el del procedimiento, sino el que se hace. La diferencia entre los dos es la primera información útil del programa. Se construye observando en el puesto, no en una sala con los responsables. Las herramientas de minería de procesos ayudan cuando hay registros, pero solo ven lo que deja huella en el sistema, y lo más interesante suele ocurrir fuera.
 
 **La restricción principal.** El punto que limita el resultado del conjunto. Tiene que ser una por ámbito diagnosticado, nombrada, y aceptada por el patrocinador. Una lista de diez problemas no es un diagnóstico. Si el equipo no consigue ponerse de acuerdo en cuál es la restricción, el programa todavía no sabe qué está transformando. Para nombrarla se hacen dos preguntas sobre el mapa del flujo: dónde se acumula la cola de trabajo, y qué pasaría con el resultado del conjunto si se duplicara la capacidad en ese punto. Si el resultado no cambiaría, la restricción está en otro sitio. Se escribe en una frase que diga el punto del flujo y lo que limita.
@@ -135,6 +137,8 @@ Se puede aprobar una opción que pierde conocimiento. Se puede aprobar una que a
 
 El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño ha decidido. Su error típico es elegir el entorno más fácil, el equipo más motivado o el servicio más sencillo, que funciona muy bien y no representa al resto. Un piloto que no representa no prueba nada.
 
+{{img:fig-piloto.png|16}}
+
 >> Un piloto que no representa no prueba nada.
 
 **Cómo elegir el entorno.** Con al menos una de las condiciones difíciles del resto de la organización: un equipo con rotación, un volumen alto, casos raros, sistemas antiguos. La pregunta útil no es dónde va a funcionar, sino dónde va a fallar primero si tiene que fallar.
@@ -163,6 +167,8 @@ El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño h
 
 La escala extiende lo que ha funcionado. Su error típico es escalar la herramienta sin escalar los roles y los incentivos: la herramienta llega a toda la organización, pero el trabajo de cada persona sigue evaluándose como antes, y el resultado vuelve a donde estaba.
 
+{{img:fig-escala.png|16}}
+
 **Despliegue por etapas.** Nunca de golpe. Cada etapa tiene su propia mini puerta: los indicadores tienen que aguantar al ampliar. La decide el dueño operativo con los datos que certifica medición. Si la mejora del piloto se diluye al pasar a más equipos, para, lo lleva al comité de puertas y se entiende por qué antes de seguir.
 
 **Formación en el puesto.** No un curso de un día, sino acompañamiento mientras se trabaja. Lo que funciona en la escala casi siempre es lo que aprendieron quienes usaron la herramienta en el piloto, no lo que estaba en el manual. La tabla dice qué tiene que saber cada perfil y quién se lo enseña. Las horas las fija cada programa (anexo G), y cómo se comprueba que se sabe lo decide la persona responsable de la adopción.
@@ -188,6 +194,8 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 ## 14. Fase 5. Sostenimiento
 
 El sostenimiento asegura que la mejora siga cuando el equipo del programa se vaya. Es la fase que menos se planifica, porque el programa ya ha declarado su éxito. John Kotter lo identificó en 1995 como una de las causas clásicas del fracaso: declarar la victoria demasiado pronto.
+
+{{img:fig-sostenimiento.png|16}}
 
 **Lo que tiene que existir.** Un dueño operativo con nombre, que acepte la responsabilidad. Un presupuesto recurrente, no el del proyecto. Un cuadro de indicadores en régimen, que se mire sin que nadie del programa lo pida. Un calendario de supervisión del programa, con la revisión de supuestos incluida; el anexo H reúne las revisiones periódicas que pide el documento.
 

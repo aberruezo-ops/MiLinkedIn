@@ -33,6 +33,8 @@ No se compra un acelerador para tapar un elemento que falta. Un agente de IA que
 
 Los principios son las reglas que se aplican cuando el método no dice nada concreto. Son seis y cada uno tiene su fuente y su riesgo.
 
+{{img:fig-principios.png|16}}
+
 ### Principio 1. Diagnóstico antes que solución
 
 Nada entra en diseño sin una restricción nombrada y una línea base medida. Richard Rumelt lo explicó con precisión en 2011: una buena estrategia empieza por un diagnóstico que simplifica la realidad hasta encontrar el problema crítico. La mayoría de lo que se llama estrategia es una lista de objetivos sin diagnóstico. Eliyahu Goldratt añadió en 1984 la idea de restricción: en todo sistema hay un punto que limita el rendimiento del conjunto, y mejorar cualquier otro punto no mejora nada.

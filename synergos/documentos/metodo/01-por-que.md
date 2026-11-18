@@ -62,6 +62,8 @@ Hay tres filas que merecen un comentario aparte. La primera es la de los pilotos
 
 Si se mira la tabla con calma aparecen tres patrones que explican casi todo lo demás.
 
+{{img:fig-causas.png|16}}
+
 **El orden.** La mayoría de las causas no hablan de hacer algo mal, sino de hacerlo en el momento equivocado. Elegir la solución antes del diagnóstico, comprar la tecnología antes de rediseñar el trabajo, formar a la gente después de decidir, medir cuando ya no se puede comparar. Por eso Synergós dedica un componente entero, el orden, a algo que parece logístico y es estructural.
 
 **Lo que no se ve.** Varias causas tienen que ver con algo que existe y nadie mira: el conocimiento que no está escrito, el incentivo que sigue premiando lo de antes, el supuesto que nadie cuestiona, el usuario que no estaba en la sala. El método pone entregables concretos para hacer visible cada una de esas cosas antes de decidir.

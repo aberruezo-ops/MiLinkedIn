@@ -4,6 +4,8 @@
 
 El sexto principio dice que el método se supervisa a sí mismo. Este capítulo explica cómo, porque un principio sin mecanismo es solo una buena intención.
 
+{{img:fig-mejora.png|16}}
+
 ### Las mismas herramientas, aplicadas al método
 
 Synergós se corrige con las mismas piezas que pide a una organización. A la fecha ningún programa ha aplicado el método completo, así que hasta ahora estas piezas han trabajado sobre el texto y sobre lo que otros han dicho de él, y todavía no sobre resultados de programas.

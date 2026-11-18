@@ -61,6 +61,8 @@ El dueño de la solución es el dueño operativo, el del agente y quien figura e
 
 **El uso informal.** En casi todas las organizaciones hay gente usando herramientas de IA que nadie ha aprobado. Prohibirlo sin ofrecer alternativa lo esconde. Desde la versión 1.8 esto es regla y deja de ser pregunta abierta. El método pide cuatro cosas: averiguar en el diagnóstico qué se usa de verdad, con una consulta anónima; ofrecer herramientas aprobadas que sirvan para lo que la gente hace con las otras; un canal para pedir herramientas nuevas con respuesta en plazo; y la garantía de que contar un uso para que se evalúe no trae sanción (módulo 23). La garantía cubre haber probado la herramienta; no exime de comunicar y tratar una posible fuga de datos. Qué datos pueden usarse con cada herramienta lo dice el módulo 11. Lo que la gente usa a escondidas dice dónde está la necesidad.
 
+{{img:fig-uso-informal.png|16}}
+
 >> Lo que la gente usa a escondidas dice dónde está la necesidad.
 
 **Herramientas de uso general.** Un asistente para toda la plantilla no ataca una restricción concreta ni tiene un flujo que mapear, así que no puede recorrer el tronco. Se aprueba por una vía corta, con cuatro condiciones escritas: reglas de uso, datos permitidos, formación mínima e indicadores de uso y de capacidad. Cada uso que entre en un servicio pasa después por el tronco.
@@ -131,6 +133,8 @@ Con una herramienta dentro del servicio, el mínimo real son seis lecturas: las 
 ### Madurez y regla de entrada
 
 La escala de madurez tiene cuatro niveles y se aplica a cada uno de los tres elementos y al gobierno. Se evalúa en el diagnóstico y se revisa en cada puerta.
+
+{{img:fig-madurez.png|16}}
 
 | Nivel | Nombre | Qué significa |
 |---|---|---|

@@ -197,6 +197,8 @@ Quitar una pieza obligatoria en un programa lo decide el patrocinador y se anota
 
 Esta tabla completa la de los catorce primeros módulos, que va tras el módulo 14, y cumple el control del capítulo 2: cada pieza dice a qué causa responde. La causa se cita con las palabras de la tabla de causas. La asignación es mía y ninguna fuente la prueba. La tabla de causas tiene diecisiete filas desde la versión 1.8. Nueve módulos no responden a ninguna de las diecisiete causas y quedan marcados como extensión sin causa documentada. Para cada uno de ellos, la siguiente versión tiene que documentar una causa con su fuente o revisar el módulo.
 
+{{img:fig-modulos.png|14}}
+
 | Módulo | Fases en que pesa más | Causa de la tabla del capítulo 2 a la que responde |
 |---|---|---|
 | 1. Lo que aporta una persona | Ver la tabla de los catorce primeros módulos | Se sustituye a quien sabía sin haberlo mirado |
