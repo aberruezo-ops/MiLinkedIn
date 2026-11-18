@@ -6,6 +6,7 @@
 |---|---|
 | Acelerador | Una tecnología concreta que se activa en un ámbito. El documento reconoce tres: la IA dentro del servicio (un asistente o un agente), una plataforma y una herramienta de automatización. Entra en el servicio solo si se cumple la regla de entrada. El límite de pocas cosas a la vez cuenta aceleradores por ciclo |
 | Acelerar, automatizar o aumentar | Los tres verbos de la segunda pregunta de la puerta, que se responde por tarea. Si la persona sale del circuito, la opción automatiza. Si sigue y el resultado que se espera es solo tiempo, acelera. Si se espera mejor calidad o algo que antes no hacía, aumenta, y se dice con qué indicador. Amplían los dos verbos de Zuboff, automatizar o informar. El texto usa a veces ampliar como sinónimo de aumentar |
+| Agente | Sistema de IA que usa herramientas, encadena pasos y ejecuta acciones para cumplir un objetivo, con distinto grado de autonomía. Un asistente responde y deja la acción a la persona; un agente actúa, y su error es una acción ya hecha (módulo 24) |
 | Alcance | La etiqueta de cada iniciativa: puntual, si mejora una tarea; de flujo, si obliga a rediseñar un proceso de principio a fin; de sistema, si cambia lo que la organización ofrece o cómo se organiza. Decide qué piezas son obligatorias (tabla «Qué es obligatorio según alcance», al cierre de la Parte V) |
 | Ámbito | El servicio o el flujo de trabajo que se va a transformar. Cada ámbito tiene un diagnóstico, un mapa y una restricción |
 | Anexo a la decisión | Las líneas que los módulos piden por escrito en una puerta y que no caben en la página del anexo C. Solo se rellenan las que la tabla «Qué es obligatorio según alcance» marca para el alcance de la iniciativa |
@@ -16,6 +17,7 @@
 | Coste por tarea completada | Lo que cuesta cerrar una tarea de principio a fin con la herramienta: licencias o consumo, revisión humana, retrabajo y soporte. Se compara con el de la línea base |
 | Crecer a la vez | La promesa del método: personas, conocimiento y tecnología avanzan sin que ninguno crezca a costa de los otros |
 | Curva J | El valle de productividad medida que aparece al adoptar una tecnología general, antes de que lleguen los beneficios. Aplicarla a un programa concreto es una analogía del autor |
+| Aprendizaje automático | Sistemas que aprenden de datos pasados para predecir, clasificar o recomendar, como estimar una demanda o detectar un fraude. No generan contenido nuevo |
 | Delta | Lo que un indicador de avance ha recorrido desde su línea base hacia su objetivo, en porcentaje, con un máximo del cien por cien. El delta de un ciclo es la media ponderada de sus indicadores de avance |
 | Dueño | A secas, el dueño de la solución: una persona con nombre, del equipo que opera, que responde de lo que la solución hace. Es la misma persona que el dueño operativo, el dueño del agente y quien figura en el inventario. Los demás dueños llevan apellido: el dueño del flujo responde de una cadena de agentes entera; el dueño de los datos y el dueño del beneficio están en el negocio; el dueño del contenido mantiene una pieza de la base de conocimiento; y la estrategia de IA tiene su dueño en el órgano de dirección |
 | Elemento | Cada uno de los tres que tienen que crecer a la vez: personas, conocimiento y tecnología. El orden es el cuarto componente del método y no es un elemento |
@@ -26,6 +28,8 @@
 | Indicador de avance | El que tiene objetivo y entra en el delta |
 | Indicador de guarda | El que solo tiene un suelo y no entra en el delta: se cumple o no. El suelo se fija mirando la variación normal de la línea base |
 | Iniciativa | Cada cambio que sale del diagnóstico de un ámbito. Las iniciativas forman la cartera. Cada una compara opciones en el diseño y recorre piloto, escala y sostenimiento |
+| IA agéntica | Enfoque en el que varios agentes se coordinan, o un agente orquestador reparte el trabajo entre otros especializados. El fallo se propaga de uno a otro, por eso cada agente conserva su ficha y su dueño (módulo 24) |
+| IA generativa | Modelos que producen texto, imágenes, código o audio a partir de lo aprendido en su entrenamiento. Pueden equivocarse con la misma seguridad con que aciertan, y por eso se revisan con evidencia |
 | Inventario | El registro único de casos de uso, sistemas y agentes. Cada entrada lleva los campos de la ficha del módulo 24 más el riesgo, el proveedor, los incidentes, las seis anotaciones de personas y conocimiento del capítulo 17 y un estado: en evaluación, en experimento, aprobado o retirado. Su única definición está en el capítulo 18 |
 | Línea base | La medida del punto de partida, tomada antes de cambiar nada, con la variación normal de cada indicador |
 | Mapa de lo que nadie escribió | El entregable del diagnóstico que recoge el conocimiento no escrito, en quién está, dónde se usa y cuán concentrado está. Tiene una versión de trabajo, con nombres, y una de comité, por perfiles (anexo B) |
