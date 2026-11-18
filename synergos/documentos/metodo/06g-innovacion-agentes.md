@@ -67,16 +67,17 @@ Los marcos de gobierno de agentes publicados entre finales de 2025 y 2026, entre
 
 ### La base de la organización, antes de ningún agente
 
-Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás. El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo que figura al final de este módulo, y no antes. La tercera capa está casi entera en este módulo. Lo que el método no decía era qué tiene que existir en las dos de abajo, y lo añado como base mínima, que no pertenece a ningún programa.
+Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás. El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo que figura al final de este módulo, y no antes. La tercera capa está casi entera en este módulo. Las dos de abajo ya estaban repartidas por el documento, y las reúno aquí en una lista para comprobar de un vistazo que la base existe. Solo una pieza es nueva.
 
-| Qué tiene que existir | Para qué le sirve al método |
+| Qué tiene que existir | Dónde está en el método |
 |---|---|
-| Inventario del uso real: qué herramientas de IA usa la gente, también las que nadie aprobó | Sin él, el mapa del trabajo del diagnóstico describe un trabajo que ya no existe |
-| Cuentas de la organización y una regla escrita de qué datos no entran en una herramienta pública | Es la versión barata de la fila Datos de la ficha del agente |
-| Lista de herramientas aprobadas, con fecha de revisión | Dice a qué opciones de diseño se puede acudir sin empezar de cero |
-| Evaluación de proveedores: uso, seguridad y contrato antes de aprobar | Se enlaza con el módulo 13 |
-| Una política corta, quién decide qué entra y quién responde del uso | Es el dueño que luego aparece en la ficha |
-| Formación de quien usa cada herramienta: para qué sirve y qué no hacer con ella | Sin ella nadie enseña lo que la tarea enseñaba |
+| Inventario del uso real, también de lo que nadie aprobó | Consulta anónima en el diagnóstico (capítulo 18, el uso informal) |
+| Regla escrita de qué datos entran en cada herramienta | Módulo 11 |
+| Lista de herramientas aprobadas y un canal para pedir otras | Capítulo 18, el uso informal. Se añade una fecha de revisión de la lista |
+| Cuentas de la organización, no personales, para trabajar con IA | Nuevo en esta versión. El módulo 11 dice qué datos entran, no desde qué cuenta |
+| Evaluación de proveedores: uso, seguridad y contrato antes de aprobar | Módulo 13 |
+| Política corta, quién decide qué entra y quién responde del uso | Capítulo 18, la tabla «Quién decide qué» |
+| Formación de quien usa cada herramienta | Los capítulos de adopción y el papel de quien enseña |
 
 Lo que ese esquema no pregunta es lo que el método añade: qué criterio gana o pierde quien trabaja, quién enseña lo que la tarea enseñaba, con qué indicador se comprueba el resultado y en qué puerta se decide subir de nivel. Además pide revisión humana antes de usar cualquier resultado. En los niveles 3 y 4 revisar todo no funciona (Bainbridge, módulo 2), y por eso aquí se pide aprobación previa en lo irreversible y muestreo en lo demás.
 
