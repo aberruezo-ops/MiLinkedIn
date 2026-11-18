@@ -65,6 +65,21 @@ McKinsey publicó en 2025 un texto de práctica con las lecciones de un año de 
 
 Los marcos de gobierno de agentes publicados entre finales de 2025 y 2026, entre ellos el de la autoridad de Singapur y la lista de riesgos de OWASP, coinciden en un principio: dar al agente la menor capacidad de actuar que necesite para su tarea. Los conozco por resúmenes y no los cito como norma. Los uso como lista de comprobación, igual que el esquema de gobierno del capítulo 17.
 
+### La base de la organización, antes de ningún agente
+
+Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás. El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo que figura al final de este módulo, y no antes. La tercera capa está casi entera en este módulo. Lo que el método no decía era qué tiene que existir en las dos de abajo, y lo añado como base mínima, que no pertenece a ningún programa.
+
+| Qué tiene que existir | Para qué le sirve al método |
+|---|---|
+| Inventario del uso real: qué herramientas de IA usa la gente, también las que nadie aprobó | Sin él, el mapa del trabajo del diagnóstico describe un trabajo que ya no existe |
+| Cuentas de la organización y una regla escrita de qué datos no entran en una herramienta pública | Es la versión barata de la fila Datos de la ficha del agente |
+| Lista de herramientas aprobadas, con fecha de revisión | Dice a qué opciones de diseño se puede acudir sin empezar de cero |
+| Evaluación de proveedores: uso, seguridad y contrato antes de aprobar | Se enlaza con el módulo 13 |
+| Una política corta, quién decide qué entra y quién responde del uso | Es el dueño que luego aparece en la ficha |
+| Formación de quien usa cada herramienta: para qué sirve y qué no hacer con ella | Sin ella nadie enseña lo que la tarea enseñaba |
+
+Lo que ese esquema no pregunta es lo que el método añade: qué criterio gana o pierde quien trabaja, quién enseña lo que la tarea enseñaba, con qué indicador se comprueba el resultado y en qué puerta se decide subir de nivel. Además pide revisión humana antes de usar cualquier resultado. En los niveles 3 y 4 revisar todo no funciona (Bainbridge, módulo 2), y por eso aquí se pide aprobación previa en lo irreversible y muestreo en lo demás.
+
 ### La ficha del agente
 
 Cada agente tiene una ficha antes de entrar en un piloto. La ficha es la base del inventario único, que se define en el capítulo 18: los campos de la ficha más riesgo, proveedor, incidentes, las seis anotaciones de personas y conocimiento del capítulo 17 y el estado.
@@ -109,6 +124,7 @@ Es una propuesta de la versión 1.7, sin probar. Los límites se aplican en el s
 ### Señales de que va mal
 
 - Hay agentes en uso que no están en el inventario.
+- Nadie sabe qué herramientas de IA usa de verdad la gente.
 - Nadie sabe decir quién responde de un agente concreto.
 - El agente actúa con las credenciales de una persona.
 - No se ha probado nunca la parada.
