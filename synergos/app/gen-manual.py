@@ -193,8 +193,9 @@ CSS = """
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 64px;scroll-behavior:smooth}
 .wrap{max-width:920px;margin:0 auto}
 .top{padding-block:28px 8px}
+.kick{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);font-weight:600;margin-top:14px}
 .brand{font-family:var(--serif);font-size:26px;line-height:1}.brand b{color:var(--green);font-weight:500}
-h1{font-family:var(--serif);font-weight:400;font-size:clamp(38px,7vw,60px);line-height:1.02;margin:16px 0 10px;text-wrap:balance}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(38px,7vw,60px);line-height:1.02;margin:6px 0 10px;text-wrap:balance}
 .sub{color:var(--muted);max-width:60ch;margin:0 0 20px}
 nav.toc{display:flex;flex-wrap:wrap;gap:6px;padding-block:10px;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
 nav.toc a{font-size:13px;text-decoration:none;color:var(--muted);padding:5px 12px;border-radius:0 12px 0 5px;background:var(--ink-soft);white-space:nowrap}
@@ -233,12 +234,12 @@ footer{margin-top:48px;color:var(--muted);font-size:13px;border-top:1px solid va
 @media (prefers-reduced-motion:reduce){body{scroll-behavior:auto}}
 """
 
-PAGE = """<title>Manual del Gestor Synergós</title>
+PAGE = """<title>Synergós Champion</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Public+Sans:wght@400;500;600&display=swap">
 <style>%s</style>
 <div class="wrap">
-<header class="top"><div class="brand">Syner<b>gós</b></div><h1>Manual del Gestor</h1><p class="sub">Cómo llevar un programa con el método, paso a paso, con el glosario de cada término. Pensado para quien lo usa por primera vez.</p></header>
+<header class="top"><div class="brand">Syner<b>gós</b></div><div class="kick">Manual del gestor y glosario</div><h1>Synergós Champion</h1><p class="sub">Cómo llevar un programa con el método, paso a paso, con el glosario de cada término. Pensado para quien lo usa por primera vez.</p></header>
 <nav class="toc" aria-label="Secciones del manual">%s</nav>
 <main>%s</main>
 <footer>Versión 1.0 · noviembre de 2026 · Alejandro Berruezo. Documento de trabajo del método Synergós.</footer>
