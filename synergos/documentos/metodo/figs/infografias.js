@@ -9,7 +9,7 @@ const css = `*{box-sizing:border-box;margin:0;padding:0}body{width:1600px;backgr
 h1{font-family:'EB Garamond',serif;font-weight:normal;font-size:60px;line-height:1.05;margin-bottom:10px;max-width:1150px}
 .sub{font-size:22px;color:${GREY};margin-bottom:36px;line-height:1.35}
 .row{display:flex;gap:22px;align-items:stretch}.col{display:flex;flex-direction:column;gap:18px}
-.card{background:transparent;border:0;border-top:2px solid ${GREEN};padding:18px 8px 0 0;flex:1};border-radius:16px 16px 16px 2px;padding:22px 24px;flex:1}
+.card{background:#EAF2EC;border:0;padding:24px 26px 28px;flex:1;border-radius:10px 0 46px 0}
 .card b{font-family:'EB Garamond',serif;font-weight:normal;font-size:36px;display:block;line-height:1.15;margin-bottom:8px}
 .card span{font-size:19px;line-height:1.38;color:${GREY};display:block}
 .num{font-family:'EB Garamond',serif;font-size:62px;line-height:1;color:${GREEN};display:block;margin-bottom:6px}
@@ -17,9 +17,9 @@ h1{font-family:'EB Garamond',serif;font-weight:normal;font-size:60px;line-height
 .arrow{align-self:center;font-size:38px;color:${GREEN};flex:0 0 auto}
 .pie{margin-top:30px;font-size:19px;color:${GREY};line-height:1.4;border-top:2px solid ${LINE};padding-top:18px}
 .pie b{color:${INK};font-weight:normal;font-family:'EB Garamond',serif;font-size:22px}
-.chip{background:transparent;border:0;border-bottom:1.5px solid ${LINE};padding:12px 4px;font-size:20px;line-height:1.3};border-radius:12px 12px 12px 2px;padding:14px 18px;font-size:20px;line-height:1.3}
-.t{border-top-color:${TERRA}}.t .num,.t .k{color:${TERRA}}.a{border-top-color:${ALBERO}}.a .num,.a .k{color:${ALBT}}.i{border-top-color:${INK}}.i .num,.i .k{color:${INK}}
-.dark{background:transparent;color:${INK};border-top-color:${INK}};color:#F4F6F6;border-color:${INK}}.dark span{color:${GREY}}.dark .k{color:${GREY}}
+.chip{background:#F4F6F6;border:0;padding:16px 26px 16px 20px;font-size:20px;line-height:1.3;border-radius:0 26px 0 10px}
+.t{background:#F8E9E1}.t .num,.t .k{color:${TERRA}}.a{background:#F8EDD0}.a .num,.a .k{color:${ALBT}}.i{background:#ECEEEE}.i .num,.i .k{color:${INK}}
+.dark{background:${INK};color:#fff;border-radius:0 46px 0 10px}.dark span{color:#D7DCDC}.dark .k{color:#B9C0BE}
 `;
 const LOGO = 'file://' + path.join(dir, '../../../imagenes/logo-synergos.svg');
 const page = (h1, sub, body, pie = '') => `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body><div id="f"><img class="mark" src="${LOGO}"><h1>${h1}</h1><div class="sub">${sub}</div>${body}${pie ? `<div class="pie">${pie}</div>` : ''}</div></body></html>`;
@@ -46,7 +46,7 @@ const figs = {
   'fig-autonomia.png': page('La escala de autonomía', 'Cada peldaño se gana en una puerta, con criterios escritos antes. Bajar es tan legítimo como subir.',
     `<div class="row" style="align-items:flex-end">
       <div class="card" style="min-height:230px">${'<span class="num">1</span><b>Sugiere</b><span>El sistema ofrece información o un borrador. La persona decide y hace todo</span>'}</div>
-      <div class="card" style="min-height:300px;border-top-color:${TERRA}"><span class="num" style="color:${TERRA}">2</span><b>Propone</b><span>El sistema propone una decisión completa. La persona revisa cada propuesta y decide</span><span style="margin-top:14px;color:${TERRA}"><b style="font-size:20px;font-family:'DejaVu Sans';color:${TERRA}">Techo de partida</b>para decisiones que afectan a derechos, que no se pueden deshacer o que hay que poder explicar</span></div>
+      <div class="card t" style="min-height:300px"><span class="num">2</span><b>Propone</b><span>El sistema propone una decisión completa. La persona revisa cada propuesta y decide</span><span style="margin-top:14px;color:${TERRA}"><b style="font-size:20px;font-family:'DejaVu Sans';color:${TERRA}">Techo de partida</b>para decisiones que afectan a derechos, que no se pueden deshacer o que hay que poder explicar</span></div>
       <div class="card a" style="min-height:370px"><span class="num">3</span><b>Actúa con revisión</b><span>El sistema decide en los casos tipo. La persona revisa por muestreo y todos los casos fuera de patrón</span></div>
       <div class="card i" style="min-height:440px"><span class="num">4</span><b>Actúa e informa</b><span>El sistema decide y ejecuta dentro de límites. La persona supervisa indicadores y atiende excepciones</span></div>
     </div>`,
@@ -54,7 +54,7 @@ const figs = {
 
   'fig-comite.png': page('Quién decide en una puerta', 'Deciden pocos. A los demás se les oye antes, por escrito, y sus objeciones quedan anotadas.',
     `<div class="row"><div class="col" style="flex:1.25"><span class="k" style="color:${INK}">Deciden cuatro</span><div class="row">${card('i', '', 'Patrocinador', 'Decide y firma')}${card('', '', 'Dueño operativo', 'Responde de la solución cuando el programa se va')}</div><div class="row">${card('a', '', 'Medición', 'Certifica los datos. No firma la decisión')}${card('t', '', 'Persona ajena', 'De la segunda línea o de finanzas. Contrafirma')}</div></div>
-    <div class="col" style="flex:1"><span class="k" style="color:${INK}">Son oídos antes, por escrito</span><div class="chip">Quien hace el trabajo</div><div class="chip">El mando intermedio del ámbito</div><div class="chip">Quien defiende a quien recibe el servicio</div><div class="chip">El área de tecnología</div><div class="chip" style="border-bottom-color:${TERRA}">La representación legal, cuando la decisión toca condiciones de trabajo</div></div></div>`,
+    <div class="col" style="flex:1"><span class="k" style="color:${INK}">Son oídos antes, por escrito</span><div class="chip">Quien hace el trabajo</div><div class="chip">El mando intermedio del ámbito</div><div class="chip">Quien defiende a quien recibe el servicio</div><div class="chip">El área de tecnología</div><div class="chip" style="background:#F8E9E1">La representación legal, cuando la decisión toca condiciones de trabajo</div></div></div>`,
     '<b>Programa acotado:</b> no hay comité. Firma el patrocinador con quien dirige el programa y contrafirma alguien ajeno.'),
 
   'fig-medicion.png': page('Cómo se mide', 'Dos clases de indicador y, como mínimo, uno por elemento. La línea base se toma antes de cambiar nada.',
@@ -77,7 +77,7 @@ const figs = {
   'fig-nucleo.png': page('Qué es obligatorio según el alcance', 'El método no se aplica entero a todo. Cada alcance añade piezas al anterior.',
     `<div class="col">
       <div class="card i"><span class="k">Siempre · iniciativa puntual</span><b>Ocho piezas</b><span>Restricción nombrada · línea base · mapa del trabajo afectado · decisión de puerta de una página · un indicador por elemento · criterio de parada · cómo se deshace · dueño</span></div>
-      <div class="card" style="margin-left:70px"><span class="k">Se añade · iniciativa de flujo</span><b>Rediseñar y adoptar</b><span>Rediseño del trabajo · casos de prueba · registro de supuestos · responsable de adopción y referentes · destino del tiempo</span></div>
+      <div class="card" style="margin-left:70px;border-radius:0 10px 0 46px"><span class="k">Se añade · iniciativa de flujo</span><b>Rediseñar y adoptar</b><span>Rediseño del trabajo · casos de prueba · registro de supuestos · responsable de adopción y referentes · destino del tiempo</span></div>
       <div class="card a" style="margin-left:140px"><span class="k">Se añade · iniciativa de sistema</span><b>El método completo</b><span>Modelo económico con valle · las tres miradas · gobierno completo</span></div>
     </div>`,
     '<b>Si hay un agente,</b> su ficha es obligatoria en cualquier alcance. Quitar una pieza lo decide el patrocinador y se anota en el registro de decisiones.'),
