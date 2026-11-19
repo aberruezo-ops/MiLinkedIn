@@ -4,27 +4,66 @@
   "fecha": "2026-10-28",
   "pieza": "De septiembre a junio, Vera Playa también es sitio para trabajar (Thalassa)",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:share:7521118645364744192"
+   },
+   {
+    "t": "Foto",
+    "u": "https://media.publora.com/images/1793007342092-hestia-thalassa-salon-li-2026-10-1.jpg"
+   }
+  ]
  },
  {
   "id": "h2",
   "fecha": "2026-11-02",
   "pieza": "Unos días de calma en Vera Playa (vídeo de los tres apartamentos)",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7522930580859187201"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1793394758998-elige-tu-hestia-li-2026-11-1.mp4"
+   }
+  ]
  },
  {
   "id": "h3",
   "fecha": "2026-11-09",
   "pieza": "Almería en invierno también es sitio para trabajar (Mar)",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525467226112638976"
+   },
+   {
+    "t": "Foto 1",
+    "u": "https://media.publora.com/images/1793396706924-hestia-mar-salon-1-li-2026-11-2.jpg"
+   },
+   {
+    "t": "Foto 2",
+    "u": "https://media.publora.com/images/1793396781912-hestia-mar-salon-2-li-2026-11-2.jpg"
+   },
+   {
+    "t": "Foto 3",
+    "u": "https://media.publora.com/images/1793396784607-hestia-mar-salon-3-li-2026-11-2.jpg"
+   }
+  ]
  },
  {
   "id": "h4",
   "fecha": "",
   "pieza": "Siguiente publicación de Hestía",
   "estado": "por decidir",
-  "falta": "No hay nada programado. Decidir ritmo y temas; cada post gasta cupo de Publora, el mismo que Synergós"
+  "falta": "No hay nada programado. Decidir ritmo y temas; cada post gasta cupo de Publora, el mismo que Synergós",
+  "enlaces": []
  }
 ]

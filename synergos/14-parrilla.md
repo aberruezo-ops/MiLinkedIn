@@ -1,6 +1,6 @@
 # Parrilla LinkedIn
 
-Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 19 nov 2026, 8:30. Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 19 nov 2026, 11:00. La columna Material enlaza el texto, el vídeo, la portada y la publicación en LinkedIn de cada pieza; los mismos enlaces están en la página (datos-parrilla/gen-enlaces.py los genera). Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Cómo se llama cada pieza (regla del 15 nov 2026): tipo, un punto y el título tal como lo leerá la gente, por ejemplo «Artículo · La bola negra: quién decide quién cabe». La fecha va en su columna. Los códigos internos del cuaderno (AR3, B11, C4...) no se usan en esta página; la equivalencia está en la tabla de abajo.
 
@@ -8,24 +8,24 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 
 ## Hoy y lo que viene
 
-| Día | Pieza | Pilar | Estado | Qué falta y quién |
-|---|---|---|---|---|
-| Jue 19 nov | Post · Un criterio escrito después del dato es un voto secreto | El orden | aprobado | Lo publicas tú a mano a las 8:30; todo en listos-para-publicar/2026-11-19-jueves. No gasta cupo |
-| Vie 20 nov | Cierre semanal · Quién cabe | Cierre | aprobado | Lo publicas tú a mano a las 8:30. Hoy por la tarde se revisa con los comentarios reales de la semana. Carpeta listos-para-publicar/2026-11-20-viernes |
-| Lun 23 nov | Artículo · Diagnóstico antes que solución | El orden | por redactar | Redactar hoy (rutina de las 19:47). Lo pegas tú a mano |
-| Mar 24 nov | Post · Tema por elegir (conocimiento) | Conocimiento | por decidir | Elegir del banco |
-| Mié 25 nov | Post comunidad · El liderazgo empieza donde termina el ego | Personas (comunidad) | aprobado | Regenerar el vídeo girasol con su pregunta |
-| Jue 26 nov | Post · Zuboff: no es la herramienta, es la decisión | Tecnología | idea | Redactar; ojo, ya se ha usado mucho Zuboff |
-| Vie 27 nov | Cierre semanal · El orden | Cierre | por redactar | Rutina del jueves 26 |
-| Lun 30 nov | Artículo · El conocimiento que vive en los equipos | Conocimiento | idea | Por concretar (Trist y Bamforth). Lo pegas tú a mano |
-| Mar 1 dic | Post · Tema de personas por concretar | Personas | idea | Vuelta 2; cae en el cupo de diciembre |
-| Mié 2 dic | Post comunidad · ¿Cuántos pilotos has visto escalar? | Tecnología (comunidad) | idea | Por redactar; cupo de diciembre |
-| Jue 3 dic | Post · El ángulo áureo | El orden | idea | Por redactar; cupo de diciembre |
-| Vie 4 dic | Cierre semanal · Conocimiento | Cierre | por redactar | Rutina del jueves 3 dic |
-| Lun 7 dic | Artículo · Lo que preguntasteis | Todos | idea | Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano |
-| Mar 8 dic | Post · Minas de carbón y pilotos de IA | Conocimiento | idea | Por redactar; cupo de diciembre |
-| Mié 9 dic | Post comunidad · Por concretar (tecnología) | Tecnología (comunidad) | idea | Por concretar |
-| Jue 10 dic | Post · Por concretar (el orden) | El orden | idea | Por concretar |
+| Día | Pieza | Pilar | Estado | Qué falta y quién | Material |
+|---|---|---|---|---|---|
+| Jue 19 nov | Post · Un criterio escrito después del dato es un voto secreto | El orden | aprobado | Lo publicas tú a mano a las 8:30; todo en listos-para-publicar/2026-11-19-jueves. No gasta cupo | [Carpeta para publicar](https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-19-jueves) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-19-B23.md) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B23.mp4) |
+| Vie 20 nov | Cierre semanal · Quién cabe | Cierre | aprobado | Lo publicas tú a mano a las 8:30. Hoy por la tarde se revisa con los comentarios reales de la semana. Carpeta listos-para-publicar/2026-11-20-viernes | [Carpeta para publicar](https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-20-viernes) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-20-V3.md) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.mp4) |
+| Lun 23 nov | Artículo · Diagnóstico antes que solución | El orden | por redactar | Redactar hoy (rutina de las 19:47). Lo pegas tú a mano | [Texto del artículo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion-para-pegar.md) · [Notas del borrador](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion.md) · [Portada](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-05.png) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-05.mp4) |
+| Mar 24 nov | Post · Tema por elegir (conocimiento) | Conocimiento | por decidir | Elegir del banco | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mié 25 nov | Post comunidad · El liderazgo empieza donde termina el ego | Personas (comunidad) | aprobado | Regenerar el vídeo girasol con su pregunta | [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C11.md) · [Tarjeta](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/tarjeta-comunidad-C11.png) · [Vídeo (por regenerar)](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-comunidad-C11.mp4) |
+| Jue 26 nov | Post · Zuboff: no es la herramienta, es la decisión | Tecnología | idea | Redactar; ojo, ya se ha usado mucho Zuboff | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Vie 27 nov | Cierre semanal · El orden | Cierre | por redactar | Rutina del jueves 26 | [Regla del cierre semanal](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/README.md) · [Plantilla de vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.html) |
+| Lun 30 nov | Artículo · El conocimiento que vive en los equipos | Conocimiento | idea | Por concretar (Trist y Bamforth). Lo pegas tú a mano | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mar 1 dic | Post · Tema de personas por concretar | Personas | idea | Vuelta 2; cae en el cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mié 2 dic | Post comunidad · ¿Cuántos pilotos has visto escalar? | Tecnología (comunidad) | idea | Por redactar; cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Jue 3 dic | Post · El ángulo áureo | El orden | idea | Por redactar; cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Vie 4 dic | Cierre semanal · Conocimiento | Cierre | por redactar | Rutina del jueves 3 dic | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Lun 7 dic | Artículo · Lo que preguntasteis | Todos | idea | Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mar 8 dic | Post · Minas de carbón y pilotos de IA | Conocimiento | idea | Por redactar; cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mié 9 dic | Post comunidad · Por concretar (tecnología) | Tecnología (comunidad) | idea | Por concretar | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Jue 10 dic | Post · Por concretar (el orden) | El orden | idea | Por concretar | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
 
 ## Semanas siguientes (vuelta 2, por concretar)
 
@@ -40,28 +40,28 @@ En el banco, sin fecha: B19 (volumen o conversión), B20 (el marco al que le fal
 
 ## Lo ya publicado
 
-| Día | Pieza |
-|---|---|
-| Mar 27 oct | B0 Presentación de Synergós (8 comentarios el primer día) y AR1 Los mimbres |
-| Mié 28 oct | Post · La persona sin la que nada funcionaría |
-| Jue 29 oct | Post · La gestión del cambio llega tarde |
-| Lun 2 nov | Artículo · El mapa de lo que nadie escribió |
-| Mar 3 nov | Post · Marchas atrás: Klarna, CBA y Stanford |
-| Mié 4 nov | Post comunidad · ¿Qué pasaría mañana si tú no vinieras? |
-| Jue 5 nov | Post · La columna que asusta |
-| Vie 6 nov | Cierre semanal · Conocimiento |
-| Lun 9 nov | Artículo · ¿Acelera, automatiza o aumenta? |
-| Mar 10 nov | Post · Lo que no está escrito está enterrado |
-| Mié 11 nov | Post comunidad · ¿Qué tarea soltarías y cuál no? |
-| Jue 12 nov | Post · Tres preguntas antes de aprobar un proyecto con IA |
-| Vie 13 nov | Cierre semanal · Tecnología |
-| Lun 16 nov | Artículo · La bola negra: quién decide quién cabe |
-| Mar 17 nov | Post · ¿Personas y conocimiento no son lo mismo? |
-| Mié 18 nov | Post comunidad · La última vez que una herramienta te hizo mejor |
+| Día | Pieza | Material |
+|---|---|---|
+| Mar 27 oct | B0 Presentación de Synergós (8 comentarios el primer día) y AR1 Los mimbres | [Post de presentación en LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7520748674851917824) · [Artículo en LinkedIn](https://www.linkedin.com/pulse/crecer-la-vez-los-mimbres-de-synerg%C3%B3s-alejandro-berruezo-m%C3%A1rquez-tl1ie/) · [Texto del artículo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/01-los-mimbres.md) |
+| Mié 28 oct | Post · La persona sin la que nada funcionaría | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7521111054538514432) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-10-28-B6.md) |
+| Jue 29 oct | Post · La gestión del cambio llega tarde | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:share:7521473452176867329) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-10-29-B1.md) · [Tarjeta](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/tarjeta-B1.png) |
+| Lun 2 nov | Artículo · El mapa de lo que nadie escribió | [Artículo en LinkedIn](https://www.linkedin.com/pulse/el-mapa-de-lo-que-nadie-escribi%C3%B3-alejandro-berruezo-m%C3%A1rquez-gxrze/) · [Texto del artículo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/02-el-mapa.md) · [Portada](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-02.png) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-02.mp4) |
+| Mar 3 nov | Post · Marchas atrás: Klarna, CBA y Stanford | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7523285369702731777) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-03-B12-propuesta.md) · [Vídeo](https://media.publora.com/videos/1793395946794-anim-infografia-B12.mp4) |
+| Mié 4 nov | Post comunidad · ¿Qué pasaría mañana si tú no vinieras? | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7523647746566791168) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-04-C12.md) · [Vídeo](https://media.publora.com/videos/1793463828148-0-7d427c27-212ac430-71d9-4d06-a906-cdc8731c3b65.mp4) |
+| Jue 5 nov | Post · La columna que asusta | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7524010142628114433) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-05-B13.md) · [Vídeo](https://media.publora.com/videos/1793704458722-anim-infografia-B13.mp4) · [Previsualización](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/previsualizaciones/2026-11-05-B13.html) |
+| Vie 6 nov | Cierre semanal · Conocimiento | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7524378649509265408) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-06-V1.md) · [Vídeo](https://media.publora.com/videos/1793951642786-anim-resumen-semana-V1.mp4) |
+| Lun 9 nov | Artículo · ¿Acelera, automatiza o aumenta? | [Artículo en LinkedIn](https://www.linkedin.com/pulse/acelera-automatiza-o-aumenta-alejandro-berruezo-m%C3%A1rquez-ydp9e) · [Post de presentación](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-09-AR4-post.md) · [Texto del artículo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/04-acelera-automatiza-aumenta-para-pegar.md) · [Portada](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-04.png) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-04.mp4) |
+| Mar 10 nov | Post · Lo que no está escrito está enterrado | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7525822078038753280) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-10-B18.md) · [Vídeo](https://media.publora.com/videos/1793952054509-anim-infografia-B18.mp4) |
+| Mié 11 nov | Post comunidad · ¿Qué tarea soltarías y cuál no? | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7526184472648523776) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C13.md) · [Vídeo](https://media.publora.com/videos/1794053128602-anim-comunidad-C13.mp4) |
+| Jue 12 nov | Post · Tres preguntas antes de aprobar un proyecto con IA | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7526546865744543745) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-12-B15.md) · [Vídeo](https://media.publora.com/videos/1794053129090-anim-infografia-B15.mp4) |
+| Vie 13 nov | Cierre semanal · Tecnología | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7526909233515200512) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-13-V2.md) · [Vídeo](https://media.publora.com/videos/1794512108138-anim-resumen-semana-V2.mp4) |
+| Lun 16 nov | Artículo · La bola negra: quién decide quién cabe | [Artículo en LinkedIn](https://www.linkedin.com/pulse/la-bola-negra-qui%C3%A9n-decide-cabe-alejandro-berruezo-m%C3%A1rquez-aybee/) · [Post de presentación](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-16-AR3-post.md) · [Texto del artículo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/03-la-bola-negra-para-pegar.md) · [Portada](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-03.png) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-03.mp4) · [Vídeo promocional](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-promo-AR3.mp4) · [Estudio base](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/estudios/01-la-bola-negra-y-el-canon.md) |
+| Mar 17 nov | Post · ¿Personas y conocimiento no son lo mismo? | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7528358789184507904) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-17-B11.md) · [Vídeo](https://media.publora.com/videos/1794850022070-anim-infografia-B11.mp4) |
+| Mié 18 nov | Post comunidad · La última vez que una herramienta te hizo mejor | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7528726959498121216) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-18-C4.md) · [Vídeo](https://media.publora.com/videos/1794988350567-anim-comunidad-C4.mp4) |
 
 Las métricas por pieza están en 12-metricas.md (las actualiza la rutina del jueves).
 
-Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov. No hay más programados.
+Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov, con sus enlaces en la pestaña Hestía de la página. No hay más programados.
 
 ## Cupo de Publora
 

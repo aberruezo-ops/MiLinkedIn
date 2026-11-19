@@ -5,7 +5,21 @@
   "pieza": "mar 27 oct · Artículo + post · Presentación de Synergós y «Los mimbres»",
   "pilar": "Todos",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "Post de presentación en LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:share:7520748674851917824"
+   },
+   {
+    "t": "Artículo en LinkedIn",
+    "u": "https://www.linkedin.com/pulse/crecer-la-vez-los-mimbres-de-synerg%C3%B3s-alejandro-berruezo-m%C3%A1rquez-tl1ie/"
+   },
+   {
+    "t": "Texto del artículo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/01-los-mimbres.md"
+   }
+  ]
  },
  {
   "fecha": "2026-10-28",
@@ -13,7 +27,17 @@
   "pieza": "mié 28 oct · Post · La persona sin la que nada funcionaría",
   "pilar": "Conocimiento",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:share:7521111054538514432"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-10-28-B6.md"
+   }
+  ]
  },
  {
   "fecha": "2026-10-29",
@@ -21,7 +45,21 @@
   "pieza": "jue 29 oct · Post · La gestión del cambio llega tarde",
   "pilar": "Personas",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:share:7521473452176867329"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-10-29-B1.md"
+   },
+   {
+    "t": "Tarjeta",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/tarjeta-B1.png"
+   }
+  ]
  },
  {
   "fecha": "2026-11-02",
@@ -29,7 +67,25 @@
   "pieza": "lun 2 nov · Artículo · El mapa de lo que nadie escribió",
   "pilar": "Conocimiento",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "Artículo en LinkedIn",
+    "u": "https://www.linkedin.com/pulse/el-mapa-de-lo-que-nadie-escribi%C3%B3-alejandro-berruezo-m%C3%A1rquez-gxrze/"
+   },
+   {
+    "t": "Texto del artículo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/02-el-mapa.md"
+   },
+   {
+    "t": "Portada",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-02.png"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-02.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-03",
@@ -37,7 +93,21 @@
   "pieza": "mar 3 nov · Post · Marchas atrás: Klarna, CBA y Stanford",
   "pilar": "Tecnología",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523285369702731777"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-03-B12-propuesta.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1793395946794-anim-infografia-B12.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-04",
@@ -45,7 +115,21 @@
   "pieza": "mié 4 nov · Post comunidad · ¿Qué pasaría mañana si tú no vinieras?",
   "pilar": "Personas",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7523647746566791168"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-04-C12.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1793463828148-0-7d427c27-212ac430-71d9-4d06-a906-cdc8731c3b65.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-05",
@@ -53,7 +137,25 @@
   "pieza": "jue 5 nov · Post · La columna que asusta",
   "pilar": "El orden",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7524010142628114433"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-05-B13.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1793704458722-anim-infografia-B13.mp4"
+   },
+   {
+    "t": "Previsualización",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/previsualizaciones/2026-11-05-B13.html"
+   }
+  ]
  },
  {
   "fecha": "2026-11-06",
@@ -61,7 +163,21 @@
   "pieza": "vie 6 nov · Cierre semanal · Conocimiento",
   "pilar": "Cierre",
   "estado": "publicado",
-  "falta": ""
+  "falta": "",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7524378649509265408"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-06-V1.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1793951642786-anim-resumen-semana-V1.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-09",
@@ -69,7 +185,29 @@
   "pieza": "lun 9 nov · Artículo · ¿Acelera, automatiza o aumenta?",
   "pilar": "Tecnología",
   "estado": "publicado",
-  "falta": "Responder a mano a Jorge García"
+  "falta": "Responder a mano a Jorge García",
+  "enlaces": [
+   {
+    "t": "Artículo en LinkedIn",
+    "u": "https://www.linkedin.com/pulse/acelera-automatiza-o-aumenta-alejandro-berruezo-m%C3%A1rquez-ydp9e"
+   },
+   {
+    "t": "Post de presentación",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-09-AR4-post.md"
+   },
+   {
+    "t": "Texto del artículo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/04-acelera-automatiza-aumenta-para-pegar.md"
+   },
+   {
+    "t": "Portada",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-04.png"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-04.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-10",
@@ -77,7 +215,21 @@
   "pieza": "mar 10 nov · Post · Lo que no está escrito está enterrado",
   "pilar": "Conocimiento",
   "estado": "publicado",
-  "falta": "Responder a mano a los comentarios que lleguen"
+  "falta": "Responder a mano a los comentarios que lleguen",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525822078038753280"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-10-B18.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1793952054509-anim-infografia-B18.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-11",
@@ -85,7 +237,21 @@
   "pieza": "mié 11 nov · Post comunidad · ¿Qué tarea soltarías y cuál no?",
   "pilar": "Personas",
   "estado": "publicado",
-  "falta": "Responder a mano a los comentarios que lleguen"
+  "falta": "Responder a mano a los comentarios que lleguen",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526184472648523776"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C13.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1794053128602-anim-comunidad-C13.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-12",
@@ -93,7 +259,21 @@
   "pieza": "jue 12 nov · Post · Tres preguntas antes de aprobar un proyecto con IA",
   "pilar": "El orden",
   "estado": "publicado",
-  "falta": "Responder a mano a los comentarios que lleguen"
+  "falta": "Responder a mano a los comentarios que lleguen",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526546865744543745"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-12-B15.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1794053129090-anim-infografia-B15.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-13",
@@ -101,7 +281,21 @@
   "pieza": "vie 13 nov · Cierre semanal · Tecnología",
   "pilar": "Cierre",
   "estado": "publicado",
-  "falta": "Responder a mano a los comentarios que lleguen"
+  "falta": "Responder a mano a los comentarios que lleguen",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7526909233515200512"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-13-V2.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1794512108138-anim-resumen-semana-V2.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-16",
@@ -109,7 +303,37 @@
   "pieza": "lun 16 nov · Artículo · La bola negra: quién decide quién cabe",
   "pilar": "Personas",
   "estado": "publicado",
-  "falta": "Responder a mano a los comentarios que lleguen. Enlace: https://www.linkedin.com/pulse/la-bola-negra-qui%C3%A9n-decide-cabe-alejandro-berruezo-m%C3%A1rquez-aybee/"
+  "falta": "Responder a mano a los comentarios que lleguen. Enlace: https://www.linkedin.com/pulse/la-bola-negra-qui%C3%A9n-decide-cabe-alejandro-berruezo-m%C3%A1rquez-aybee/",
+  "enlaces": [
+   {
+    "t": "Artículo en LinkedIn",
+    "u": "https://www.linkedin.com/pulse/la-bola-negra-qui%C3%A9n-decide-cabe-alejandro-berruezo-m%C3%A1rquez-aybee/"
+   },
+   {
+    "t": "Post de presentación",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-16-AR3-post.md"
+   },
+   {
+    "t": "Texto del artículo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/03-la-bola-negra-para-pegar.md"
+   },
+   {
+    "t": "Portada",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-03.png"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-03.mp4"
+   },
+   {
+    "t": "Vídeo promocional",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-promo-AR3.mp4"
+   },
+   {
+    "t": "Estudio base",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/estudios/01-la-bola-negra-y-el-canon.md"
+   }
+  ]
  },
  {
   "fecha": "2026-11-17",
@@ -117,7 +341,21 @@
   "pieza": "mar 17 nov · Post · ¿Personas y conocimiento no son lo mismo?",
   "pilar": "Conocimiento",
   "estado": "publicado",
-  "falta": "Responder a mano a los comentarios que lleguen"
+  "falta": "Responder a mano a los comentarios que lleguen",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528358789184507904"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-17-B11.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1794850022070-anim-infografia-B11.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-18",
@@ -125,7 +363,21 @@
   "pieza": "mié 18 nov · Post comunidad · La última vez que una herramienta te hizo mejor",
   "pilar": "Tecnología",
   "estado": "publicado",
-  "falta": "Publicado el 18 nov a las 8:53. Responder a mano a los comentarios que lleguen"
+  "falta": "Publicado el 18 nov a las 8:53. Responder a mano a los comentarios que lleguen",
+  "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7528726959498121216"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-18-C4.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://media.publora.com/videos/1794988350567-anim-comunidad-C4.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-19",
@@ -133,7 +385,21 @@
   "pieza": "jue 19 nov · Post · Un criterio escrito después del dato es un voto secreto",
   "pilar": "El orden",
   "estado": "aprobado",
-  "falta": "Lo publicas tú a mano a las 8:30 (listos-para-publicar/2026-11-19-jueves). No gasta cupo"
+  "falta": "Lo publicas tú a mano a las 8:30 (listos-para-publicar/2026-11-19-jueves). No gasta cupo",
+  "enlaces": [
+   {
+    "t": "Carpeta para publicar",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-19-jueves"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-19-B23.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B23.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-20",
@@ -141,7 +407,21 @@
   "pieza": "vie 20 nov · Cierre semanal · Quién cabe",
   "pilar": "Cierre",
   "estado": "aprobado",
-  "falta": "Lo publicas tú a mano a las 8:30. Se revisa hoy por la tarde con los comentarios reales de la semana"
+  "falta": "Lo publicas tú a mano a las 8:30. Se revisa hoy por la tarde con los comentarios reales de la semana",
+  "enlaces": [
+   {
+    "t": "Carpeta para publicar",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-20-viernes"
+   },
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-20-V3.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-23",
@@ -149,7 +429,25 @@
   "pieza": "lun 23 nov · Artículo · Diagnóstico antes que solución",
   "pilar": "El orden",
   "estado": "por redactar",
-  "falta": "Redactar hoy (rutina de las 19:47). Lo pegas tú a mano"
+  "falta": "Redactar hoy (rutina de las 19:47). Lo pegas tú a mano",
+  "enlaces": [
+   {
+    "t": "Texto del artículo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion-para-pegar.md"
+   },
+   {
+    "t": "Notas del borrador",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion.md"
+   },
+   {
+    "t": "Portada",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-05.png"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-05.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-24",
@@ -157,7 +455,13 @@
   "pieza": "mar 24 nov · Post · Tema por elegir (conocimiento)",
   "pilar": "Conocimiento",
   "estado": "por decidir",
-  "falta": "Elegir del banco"
+  "falta": "Elegir del banco",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-11-25",
@@ -165,7 +469,21 @@
   "pieza": "mié 25 nov · Post comunidad · El liderazgo empieza donde termina el ego",
   "pilar": "Personas",
   "estado": "aprobado",
-  "falta": "Regenerar el vídeo girasol con su pregunta"
+  "falta": "Regenerar el vídeo girasol con su pregunta",
+  "enlaces": [
+   {
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C11.md"
+   },
+   {
+    "t": "Tarjeta",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/tarjeta-comunidad-C11.png"
+   },
+   {
+    "t": "Vídeo (por regenerar)",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-comunidad-C11.mp4"
+   }
+  ]
  },
  {
   "fecha": "2026-11-26",
@@ -173,7 +491,13 @@
   "pieza": "jue 26 nov · Post · Zuboff: no es la herramienta, es la decisión",
   "pilar": "Tecnología",
   "estado": "idea",
-  "falta": "Redactar"
+  "falta": "Redactar",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-11-27",
@@ -181,7 +505,17 @@
   "pieza": "vie 27 nov · Cierre semanal · El orden",
   "pilar": "Cierre",
   "estado": "por redactar",
-  "falta": "Rutina del jueves 26"
+  "falta": "Rutina del jueves 26",
+  "enlaces": [
+   {
+    "t": "Regla del cierre semanal",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/README.md"
+   },
+   {
+    "t": "Plantilla de vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.html"
+   }
+  ]
  },
  {
   "fecha": "2026-11-30",
@@ -189,7 +523,13 @@
   "pieza": "lun 30 nov · Artículo · El conocimiento que vive en los equipos",
   "pilar": "Conocimiento",
   "estado": "idea",
-  "falta": "Por concretar (Trist y Bamforth). Lo pegas tú a mano"
+  "falta": "Por concretar (Trist y Bamforth). Lo pegas tú a mano",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-01",
@@ -197,7 +537,13 @@
   "pieza": "mar 1 dic · Post · Tema de personas por concretar",
   "pilar": "Personas",
   "estado": "idea",
-  "falta": "Vuelta 2 del calendario; por concretar. Cae en el cupo de diciembre"
+  "falta": "Vuelta 2 del calendario; por concretar. Cae en el cupo de diciembre",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-02",
@@ -205,7 +551,13 @@
   "pieza": "mié 2 dic · Post comunidad · ¿Cuántos pilotos has visto escalar?",
   "pilar": "Tecnología",
   "estado": "idea",
-  "falta": "Por redactar. Cae en el cupo de diciembre"
+  "falta": "Por redactar. Cae en el cupo de diciembre",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-03",
@@ -213,7 +565,13 @@
   "pieza": "jue 3 dic · Post · El ángulo áureo",
   "pilar": "El orden",
   "estado": "idea",
-  "falta": "Por redactar; cupo de diciembre"
+  "falta": "Por redactar; cupo de diciembre",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-04",
@@ -221,7 +579,13 @@
   "pieza": "vie 4 dic · Cierre semanal · Conocimiento",
   "pilar": "Cierre",
   "estado": "por redactar",
-  "falta": "Rutina del jueves 3 dic"
+  "falta": "Rutina del jueves 3 dic",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-07",
@@ -229,7 +593,13 @@
   "pieza": "lun 7 dic · Artículo · Lo que preguntasteis",
   "pilar": "Todos",
   "estado": "idea",
-  "falta": "Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano"
+  "falta": "Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-08",
@@ -237,7 +607,13 @@
   "pieza": "mar 8 dic · Post · Minas de carbón y pilotos de IA",
   "pilar": "Conocimiento",
   "estado": "idea",
-  "falta": "Por redactar; cupo de diciembre"
+  "falta": "Por redactar; cupo de diciembre",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-09",
@@ -245,7 +621,13 @@
   "pieza": "mié 9 dic · Post comunidad · Por concretar (tecnología)",
   "pilar": "Tecnología (comunidad)",
   "estado": "idea",
-  "falta": "Por concretar"
+  "falta": "Por concretar",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  },
  {
   "fecha": "2026-12-10",
@@ -253,6 +635,12 @@
   "pieza": "jue 10 dic · Post · Por concretar (el orden)",
   "pilar": "El orden",
   "estado": "idea",
-  "falta": "Por concretar"
+  "falta": "Por concretar",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
  }
 ]
