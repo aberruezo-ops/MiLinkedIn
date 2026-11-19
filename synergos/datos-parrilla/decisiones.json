@@ -1,38 +1,42 @@
 [
  {
   "n": 1,
-  "decision": "Jueves 19 y viernes 20 a las 8:30: los publicas tú a mano (carpeta listos-para-publicar con texto, vídeo y primer comentario). El jueves tarde reviso el cierre con comentarios reales y te dejo la versión final"
+  "decision": "Hoy a las 8:30 publicas tú a mano el post del jueves (carpeta listos-para-publicar/2026-11-19-jueves). El cierre del viernes lo reviso esta tarde con los comentarios que hayan llegado a los posts de la semana y te dejo la versión final"
  },
  {
   "n": 2,
-  "decision": "Cupo de posts de Publora: llevas 12 de 15 y quedan 3. Con el jueves y el viernes a mano, el calendario pide 4 más (24, 25, 26 y 27), falta 1. Opción: publicar a mano el cierre del 27"
+  "decision": "Cupo de Publora: llevas 12 de 15 y quedan 3. El calendario pide 4 más para Publora hasta fin de mes (24, 25 y 26 y el cierre del 27), así que falta 1. El horizonte llega hasta el 26 nov: el cierre del 27 solo se podrá programar desde mañana. Opción: publicar a mano el cierre del 27"
  },
  {
   "n": 3,
-  "decision": "Comentarios en posts ajenos: publicados el 18 nov los tres con tus recomendaciones (Javier Martínez Aldanondo, Ricardo Tayar y Pilar Torralbo), con su reacción. Mira si responden y, si lo hacen, decide si contestas a mano"
+  "decision": "Comentarios en posts ajenos: publicados ayer los tres con tus recomendaciones (Javier Martínez Aldanondo, Ricardo Tayar y Pilar Torralbo). Mira si responden y decide si contestas a mano"
  },
  {
   "n": 4,
-  "decision": "Método 1.8: construida (149 páginas, estilo editorial elegido). Falta la comprobación independiente de las correcciones (se cortó por el límite de uso) y que decidas si la das por buena. Quedan cuatro datos que solo tú puedes dar: qué piezas has usado en programas reales, esfuerzo por fase, tamaño de un área y valores de partida"
+  "decision": "Método 1.8: 160 páginas y 22 figuras, con base de la organización y glosario ampliados. Falta la comprobación independiente de las correcciones y que decidas si la das por buena. Quedan cuatro datos que solo tú puedes dar: qué piezas has usado en programas reales, esfuerzo por fase, tamaño de un área y valores de partida"
  },
  {
   "n": 5,
-  "decision": "Imagen de marca: elegida la maqueta de Wonder para el documento. Pendiente instalar los plugins Website Design y Codesign si quieres usarlos (no aparecen instalados); Wonder y Canva ya están conectados"
+  "decision": "Gestor Synergós y manual Synergós Champion: revísalos y dime qué sobra. El gestor tiene campos que se guardan y no se usan en ningún cálculo (coste, criterio y conocimiento del agente, nivel de entrada). Decide también si se lo enseñas a alguien: hoy solo lo ves tú"
  },
  {
   "n": 6,
-  "decision": "Infografía de los tres verbos: lista y actualizada; decidir fecha (recomendado: publicarla a mano, sin gastar cupo)"
+  "decision": "Remotion para los vídeos: no está instalado. Propuesta pendiente de tu respuesta: instalarlo y probar con el cierre del viernes antes de migrar nada"
  },
  {
   "n": 7,
-  "decision": "Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico (mirar con el enlace)"
+  "decision": "Infografía de los tres verbos: lista y actualizada; decidir fecha (recomendado: publicarla a mano, sin gastar cupo)"
  },
  {
   "n": 8,
-  "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. HBX enviada, Hays enviada. El curso de gobierno de IA que buscabas: los tres mejores son el de la AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic); el IESE sale esta semana o en abril"
+  "decision": "Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico (mirar con el enlace)"
  },
  {
   "n": 9,
-  "decision": "Instalar el plugin Humanizer en tu cuenta desde el ordenador (ya hay una copia en el repositorio, regla A22). Indeed ya no corre: decidir si quieres una rutina semanal con Indeed creada desde claude.ai"
+  "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. HBX enviada, Hays enviada. El curso de gobierno de IA que buscabas: los tres mejores son el de la AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic); el IESE sale esta semana o en abril"
+ },
+ {
+  "n": 10,
+  "decision": "Plugins Website Design y Codesign (no aparecen instalados) y Humanizer: instalar desde el ordenador si los quieres usar. Indeed ya no corre: decide si quieres una rutina semanal con Indeed creada desde claude.ai"
  }
 ]

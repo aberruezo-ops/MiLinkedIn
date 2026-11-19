@@ -133,15 +133,15 @@
   "pieza": "jue 19 nov · Post · Un criterio escrito después del dato es un voto secreto",
   "pilar": "El orden",
   "estado": "aprobado",
-  "falta": "Lo publicas tú a mano a las 8:30 (no gasta cupo). Todo en listos-para-publicar/2026-11-19-jueves"
+  "falta": "Lo publicas tú a mano a las 8:30 (listos-para-publicar/2026-11-19-jueves). No gasta cupo"
  },
  {
   "fecha": "2026-11-20",
   "tipo": "Cierre",
-  "pieza": "vie 20 nov · Cierre semanal · Personas",
+  "pieza": "vie 20 nov · Cierre semanal · Quién cabe",
   "pilar": "Cierre",
   "estado": "aprobado",
-  "falta": "Lo publicas tú a mano a las 8:30 (no gasta cupo). El jueves tarde se revisa con comentarios reales. Todo en listos-para-publicar/2026-11-20-viernes"
+  "falta": "Lo publicas tú a mano a las 8:30. Se revisa hoy por la tarde con los comentarios reales de la semana"
  },
  {
   "fecha": "2026-11-23",
@@ -149,7 +149,7 @@
   "pieza": "lun 23 nov · Artículo · Diagnóstico antes que solución",
   "pilar": "El orden",
   "estado": "por redactar",
-  "falta": "Redactar el jueves 19"
+  "falta": "Redactar hoy (rutina de las 19:47). Lo pegas tú a mano"
  },
  {
   "fecha": "2026-11-24",
@@ -213,6 +213,46 @@
   "pieza": "jue 3 dic · Post · El ángulo áureo",
   "pilar": "El orden",
   "estado": "idea",
-  "falta": "Por redactar. Cae en el cupo de diciembre"
+  "falta": "Por redactar; cupo de diciembre"
+ },
+ {
+  "fecha": "2026-12-04",
+  "tipo": "Cierre",
+  "pieza": "vie 4 dic · Cierre semanal · Conocimiento",
+  "pilar": "Cierre",
+  "estado": "por redactar",
+  "falta": "Rutina del jueves 3 dic"
+ },
+ {
+  "fecha": "2026-12-07",
+  "tipo": "Artículo",
+  "pieza": "lun 7 dic · Artículo · Lo que preguntasteis",
+  "pilar": "Todos",
+  "estado": "idea",
+  "falta": "Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano"
+ },
+ {
+  "fecha": "2026-12-08",
+  "tipo": "Post",
+  "pieza": "mar 8 dic · Post · Minas de carbón y pilotos de IA",
+  "pilar": "Conocimiento",
+  "estado": "idea",
+  "falta": "Por redactar; cupo de diciembre"
+ },
+ {
+  "fecha": "2026-12-09",
+  "tipo": "Post",
+  "pieza": "mié 9 dic · Post comunidad · Por concretar (tecnología)",
+  "pilar": "Tecnología (comunidad)",
+  "estado": "idea",
+  "falta": "Por concretar"
+ },
+ {
+  "fecha": "2026-12-10",
+  "tipo": "Post",
+  "pieza": "jue 10 dic · Post · Por concretar (el orden)",
+  "pilar": "El orden",
+  "estado": "idea",
+  "falta": "Por concretar"
  }
 ]
