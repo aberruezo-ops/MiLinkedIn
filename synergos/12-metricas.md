@@ -25,3 +25,15 @@ Lectura: el artículo y los posts de miércoles y jueves tuvieron un comentario 
 | 13 nov | V2 cierre de semana | comunidad | 0 | 0 | 0 |
 
 Medido el 16 nov 2026 con Apify (la medición del jueves 12 falló por autenticación y luego por crédito agotado; se rehízo al reponer el plan). Los comentarios de Alejandro con enlaces y fuentes no se cuentan. Lectura: seis reacciones y un comentario de tercero (Jorge García, en el artículo) en cinco piezas, frente a una reacción y tres comentarios la semana anterior. Con cifras tan bajas no se puede concluir qué formato funciona mejor; lo que sí se ve es que los comentarios llegaron en los posts de pregunta y de caso (C12, B13), y esta semana, con más posts de método, llegaron menos. El contador de reacciones puede quedarse corto.
+
+## Semana del 16 al 20 nov 2026 (pilar personas, artículo AR3)
+
+| Fecha | Pieza | Pilar | Reacciones | Comentarios de terceros | Compartidos |
+|---|---|---|---|---|---|
+| 16 nov | Post de presentación de AR3 La bola negra | personas | 1 | 0 | 0 |
+| 17 nov | B11 ¿personas y conocimiento no son lo mismo? | conocimiento | 3 | 0 | 0 |
+| 18 nov | C4 la última vez que una herramienta te hizo mejor | tecnología (comunidad) | 0 | 0 | 0 |
+| 19 nov | B23 los criterios se escriben antes del dato | el orden | 0 | 0 | 0 |
+| 20 nov | V3 cierre de semana | comunidad | sin dato (sale el 20 nov a las 8:30) | sin dato | sin dato |
+
+Medido el 19 nov 2026 por la tarde con Apify. El único comentario que devuelve cada post es el primero de Alejandro con el enlace del artículo, que no cuenta. Reacciones de B23 y C4: salieron esa mañana y el B23 tenía horas. El actor de búsqueda devolvió además dos publicaciones de otros autores, que no son piezas propias y no se cuentan. Lectura: el B11 fue la pieza con más reacciones (tres), y ninguna de las cuatro tuvo comentarios de terceros, frente a uno en AR4 y tres la semana del AR2. No se puede concluir nada del formato ni del pilar con esas cifras; sí que esta semana no hubo conversación propia que recoger, y por eso el cierre V3 no resume comentarios ajenos (A17).
