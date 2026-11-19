@@ -1,0 +1,226 @@
+<meta name="dash-one-writer">
+<style>
+.pz { display: grid; gap: var(--cds-gap-xl); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.pz h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+.pz h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 var(--cds-gap-sm); }
+.pz .lead { margin: var(--cds-gap-sm) 0 0; max-width: 68ch; line-height: 1.5; }
+.pz .muted { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.pz .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+.pz .twocol { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--cds-gap-lg); }
+.pz .tw { overflow-x: auto; }
+.pz table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-body); }
+.pz th { text-align: left; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.pz td { padding: var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+.pz td.dia { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pz tr.hoy td { background: color-mix(in srgb, var(--color-ok) 10%, transparent); }
+.pz .chip { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: var(--cds-font-size-caption); white-space: nowrap; border: 1px solid var(--color-border-line); }
+.pz .chip.publicado { color: var(--color-ok); border-color: var(--color-ok); }
+.pz .chip.programado { color: var(--color-ok); }
+.pz .chip.aprobado { color: var(--color-fg); }
+.pz .chip.redactar, .pz .chip.decidir { color: var(--color-warn); border-color: var(--color-warn); }
+.pz .chip.idea { color: var(--color-fg-muted); }
+.pz .falta { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.pz .cupo-nums { display: flex; flex-wrap: wrap; gap: var(--cds-gap-lg); margin: var(--cds-gap-sm) 0; }
+.pz .num { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; display: block; }
+.pz .num.bad { color: var(--color-bad); }
+.pz .bar { min-height: 40px; }
+.pz ol { margin: 0; padding-left: 1.2em; display: grid; gap: var(--cds-gap-xs); line-height: 1.45; }
+.pz [data-dash-source-state=refreshing] { opacity: .5; }
+
+.pz .tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+.pz .tab { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; padding: var(--cds-pad-sm) var(--cds-pad-md); font: inherit; color: var(--color-fg-muted); cursor: pointer; }
+.pz .tab[aria-selected=true] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.pz .tab:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.pz .panel { display: grid; gap: var(--cds-gap-lg); }
+.pz .chip.hecho { color: var(--color-ok); border-color: var(--color-ok); }
+.pz .chip.pendiente, .pz .chip.confirmar { color: var(--color-warn); border-color: var(--color-warn); }
+.pz .chip.espera, .pz .chip.descartada { color: var(--color-fg-muted); }
+.pz .chip.alto { color: var(--color-ok); border-color: var(--color-ok); }
+.pz .chip.medio { color: var(--color-fg); }
+.pz .chip.bajo { color: var(--color-fg-muted); }
+.pz tr.descartada td { opacity: .6; }
+.pz a { color: inherit; }
+.pz .enl { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 6px; }
+.pz .enl a { font-size: var(--cds-font-size-caption); padding: 1px 8px; border: 1px solid var(--color-border-line); border-radius: 999px; text-decoration: none; white-space: nowrap; color: var(--color-fg); }
+.pz .enl a:hover { border-color: var(--color-fg); }
+</style>
+<div class="pz">
+  <header id="cabecera">
+    <h1>Parrilla LinkedIn</h1>
+    <p class="lead">Hoy en Synergós: <b data-draw="hoy" data-source="hoy">—</b>. Lo siguiente: <b data-draw="siguiente" data-source="siguiente">—</b>. En Publora faltan <b data-draw="faltan" data-source="cupo" data-field="valor" data-where="concepto=Faltan">—</b> posts para cubrir el mes y quedan <b data-draw="ndec" data-source="ndecisiones">—</b> decisiones tuyas. En empleos tienes <b data-draw="nofertas" data-source="nofertas">—</b> ofertas por decidir.</p>
+    <p class="muted">Se actualiza cada mañana a las 8:27 con lo que dicen Publora y el cuaderno.</p>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Líneas">
+    <button class="tab" role="tab" id="tab-synergos" aria-controls="synergos" aria-selected="true">Synergós</button>
+    <button class="tab" role="tab" id="tab-hestia" aria-controls="hestia" aria-selected="false">Hestía</button>
+    <button class="tab" role="tab" id="tab-perfil" aria-controls="perfil" aria-selected="false">Perfil</button>
+    <button class="tab" role="tab" id="tab-empleos" aria-controls="empleos" aria-selected="false">Empleos</button>
+  </div>
+
+  <section id="synergos" class="panel" role="tabpanel" aria-labelledby="tab-synergos">
+    <section id="proximos" class="card">
+      <h2>Hoy y lo que viene</h2>
+      <div class="tw">
+        <table data-source="proximos" data-row-key="fecha">
+          <thead><tr><th data-field="fecha">Día</th><th data-field="pieza">Pieza</th><th data-field="pilar">Pilar</th><th data-field="estado">Estado</th><th data-field="falta">Qué falta</th></tr></thead>
+          <tbody data-draw="tabla-proximos"></tbody>
+        </table>
+      </div>
+    </section>
+    <div class="twocol">
+      <section id="cupo" class="card">
+        <h2>Cupo de Publora en noviembre</h2>
+        <p class="muted">Plan Starter: 15 posts al mes entre Synergós y Hestía, 3 programados a la vez.</p>
+        <div class="cupo-nums">
+          <span><span class="num" data-draw="usados" data-source="cupo" data-field="valor" data-where="concepto=Usados">—</span><span class="muted">usados</span></span>
+          <span><span class="num" data-draw="programados" data-source="cupo" data-field="valor" data-where="concepto=Programados">—</span><span class="muted">programados</span></span>
+          <span><span class="num" data-draw="restantes" data-source="cupo" data-field="valor" data-where="concepto=Restantes">—</span><span class="muted">restantes</span></span>
+          <span><span class="num bad" data-draw="faltan2" data-source="cupo" data-field="valor" data-where="concepto=Faltan">—</span><span class="muted">faltan para lo previsto</span></span>
+        </div>
+        <div class="bar" data-draw="barra-cupo" data-source="cupo"></div>
+        <p class="muted">Lo que publicas tú a mano no gasta cupo.</p>
+      </section>
+      <section id="decisiones" class="card">
+        <h2>Decisiones pendientes</h2>
+        <ol data-draw="lista-decisiones" data-source="decisiones"></ol>
+      </section>
+    </div>
+    <section id="publicado" class="card">
+      <h2>Lo ya publicado</h2>
+      <div class="tw">
+        <table data-source="publicados" data-row-key="fecha">
+          <thead><tr><th data-field="fecha">Día</th><th data-field="pieza">Pieza</th><th data-field="pilar">Pilar</th><th data-field="falta">Pendiente</th></tr></thead>
+          <tbody data-draw="tabla-publicados"></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section id="hestia" class="panel" role="tabpanel" aria-labelledby="tab-hestia" hidden>
+    <section id="hestia-tabla" class="card">
+      <h2>Publicaciones de Hestía</h2>
+      <p class="muted">Página de empresa en LinkedIn. Comparte el cupo de Publora con Synergós.</p>
+      <div class="tw">
+        <table data-source="hestia" data-row-key="id">
+          <thead><tr><th data-field="fecha">Día</th><th data-field="pieza">Publicación</th><th data-field="estado">Estado</th><th data-field="falta">Qué falta</th></tr></thead>
+          <tbody data-draw="tabla-hestia"></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section id="perfil" class="panel" role="tabpanel" aria-labelledby="tab-perfil" hidden>
+    <section id="perfil-tabla" class="card">
+      <h2>Tu perfil de LinkedIn</h2>
+      <p class="muted">Cambios preparados para orientar el perfil a estrategia, adopción y gobierno de IA. Los haces tú a mano.</p>
+      <div class="tw">
+        <table data-source="perfil" data-row-key="id">
+          <thead><tr><th data-field="tarea">Qué</th><th data-field="estado">Estado</th><th data-field="falta">Qué falta</th></tr></thead>
+          <tbody data-draw="tabla-perfil"></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section id="empleos" class="panel" role="tabpanel" aria-labelledby="tab-empleos" hidden>
+    <section id="empleos-tabla" class="card">
+      <h2>Ofertas presentadas</h2>
+      <p class="muted">De Indeed y LinkedIn Jobs, con tu inglés B2 como referencia. No se aplica a nada sin tu orden.</p>
+      <div class="tw">
+        <table data-source="empleos" data-row-key="id">
+          <thead><tr><th data-field="empresa">Empresa y puesto</th><th data-field="encaje">Encaje</th><th data-field="idioma">Idioma</th><th data-field="fecha">Publicada</th><th data-field="estado">Estado</th><th data-field="nota">Nota</th></tr></thead>
+          <tbody data-draw="tabla-empleos"></tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+</div>
+<script>
+window.pzHoy = () => new Date().toLocaleDateString('sv-SE', {timeZone: 'Europe/Madrid'});
+const DIAS = ['dom', 'lun', 'mar', 'mié', 'jue', 'vie', 'sáb'];
+const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+window.pzDia = (iso) => { const d = new Date(iso + 'T12:00:00Z'); return DIAS[d.getUTCDay()] + ' ' + d.getUTCDate() + ' ' + MESES[d.getUTCMonth()]; };
+const chipClase = (e) => ({'publicado': 'publicado', 'programado': 'programado', 'aprobado': 'aprobado', 'por redactar': 'redactar', 'por decidir': 'decidir', 'idea': 'idea'}[e] || 'idea');
+
+dash.calc('proximos', {inputs: ['parrilla'], title: 'Hoy y lo que viene', description: 'Piezas con fecha de hoy o posterior, en orden de fecha.',
+  fn: (parrilla) => parrilla.filter((r) => r.fecha >= window.pzHoy()).sort((a, b) => a.fecha.localeCompare(b.fecha))});
+dash.calc('publicados', {inputs: ['parrilla'], title: 'Lo ya publicado', description: 'Piezas con fecha anterior a hoy, de la más reciente a la más antigua.',
+  fn: (parrilla) => parrilla.filter((r) => r.fecha < window.pzHoy()).sort((a, b) => b.fecha.localeCompare(a.fecha))});
+dash.calc('hoy', {inputs: ['parrilla'], title: 'Pieza de hoy', description: 'La pieza con la fecha de hoy, o "no sale nada".',
+  fn: (parrilla) => { const r = parrilla.find((x) => x.fecha === window.pzHoy()); return r ? r.pieza : 'no sale nada'; }});
+dash.calc('siguiente', {inputs: ['parrilla'], title: 'Siguiente pieza', description: 'La primera pieza con fecha posterior a hoy.',
+  fn: (parrilla) => { const r = parrilla.filter((x) => x.fecha > window.pzHoy()).sort((a, b) => a.fecha.localeCompare(b.fecha))[0]; return r ? window.pzDia(r.fecha) + ', ' + r.pieza : 'nada previsto'; }});
+dash.calc('ndecisiones', {inputs: ['decisiones'], title: 'Decisiones pendientes', description: 'Cuántas decisiones pendientes hay en la lista.',
+  fn: (decisiones) => decisiones.length});
+
+const texto = (el, v) => { el.textContent = (v === undefined || v === null || v === '') ? '—' : String(v); };
+const valorCupo = (c) => { const g = dash.data('cupo'); if (g.status !== 'ok') return null; const r = g.data.find((x) => x.concepto === c); return r ? +r.valor : null; };
+
+dash.draw('hoy', (el) => { const g = dash.data('hoy'); texto(el, g.status === 'ok' ? g.data : null); });
+dash.draw('siguiente', (el) => { const g = dash.data('siguiente'); texto(el, g.status === 'ok' ? g.data : null); });
+dash.draw('ndec', (el) => { const g = dash.data('ndecisiones'); texto(el, g.status === 'ok' ? g.data : null); });
+['faltan', 'faltan2'].forEach((n) => dash.draw(n, (el) => texto(el, valorCupo('Faltan'))));
+dash.draw('usados', (el) => texto(el, valorCupo('Usados')));
+dash.draw('programados', (el) => texto(el, valorCupo('Programados')));
+dash.draw('restantes', (el) => texto(el, valorCupo('Restantes')));
+
+window.pzEnl = (td, r) => { let L = r.enlaces; if (typeof L === 'string') { try { L = JSON.parse(L); } catch (e) { L = []; } } if (!Array.isArray(L) || !L.length) return; const w = document.createElement('div'); w.className = 'enl'; L.forEach((e) => { if (!e || typeof e.u !== 'string' || !/^https:\/\//.test(e.u)) return; const a = document.createElement('a'); a.href = e.u; a.target = '_blank'; a.rel = 'noopener'; a.textContent = e.t; a.title = e.u; w.appendChild(a); }); if (w.children.length) td.appendChild(w); };
+const fila = (tbody, r, cols, esHoy) => {
+  const tr = tbody.insertRow(); tr.dataset.key = r.fecha; if (esHoy) tr.className = 'hoy';
+  cols.forEach((c) => {
+    const td = tr.insertCell();
+    if (c === 'fecha') { td.className = 'dia'; td.textContent = window.pzDia(r.fecha); }
+    else if (c === 'estado') { const s = document.createElement('span'); s.className = 'chip ' + chipClase(r.estado); s.textContent = r.estado; td.appendChild(s); }
+    else if (c === 'falta') { td.className = 'falta'; td.textContent = r.falta || ''; window.pzEnl(td, r); }
+    else if (c === 'pieza') { td.textContent = r.pieza; const t = document.createElement('div'); t.className = 'falta'; t.textContent = r.tipo; td.appendChild(t); }
+    else td.textContent = r[c] ?? '';
+  });
+};
+dash.draw('tabla-proximos', (tb) => { tb.replaceChildren(); const g = dash.data('proximos'); if (g.status !== 'ok') return; const hoy = window.pzHoy(); g.data.forEach((r) => fila(tb, r, ['fecha', 'pieza', 'pilar', 'estado', 'falta'], r.fecha === hoy)); });
+dash.draw('tabla-publicados', (tb) => { tb.replaceChildren(); const g = dash.data('publicados'); if (g.status !== 'ok') return; g.data.forEach((r) => fila(tb, r, ['fecha', 'pieza', 'pilar', 'falta'], false)); });
+dash.draw('lista-decisiones', (ol) => { ol.replaceChildren(); const g = dash.data('decisiones'); if (g.status !== 'ok') return; g.data.forEach((r) => { const li = document.createElement('li'); li.textContent = r.decision; ol.appendChild(li); }); });
+
+dash.draw('barra-cupo', (el) => {
+  el.replaceChildren();
+  const lim = valorCupo('Límite del mes'), us = valorCupo('Usados'), pr = valorCupo('Programados'), prev = valorCupo('Previstos sin programar');
+  if ([lim, us, pr, prev].some((v) => v === null)) return;
+  const total = Math.max(lim, us + pr + prev), W = el.clientWidth || 300, H = 40, x = d3.scaleLinear([0, total], [0, W]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('role', 'img')
+    .attr('aria-label', `Cupo: ${us} usados, ${pr} programados y ${prev} previstos sin programar, frente a un límite de ${lim}`);
+  const tramos = [{v: us, c: dash.colors[0], t: 'usados'}, {v: pr, c: dash.colors[1] || dash.colors[0], t: 'programados'}, {v: prev, c: 'var(--cds-chart-muted)', t: 'previstos'}];
+  let acc = 0;
+  tramos.forEach((s) => { svg.append('rect').attr('x', x(acc)).attr('y', 6).attr('width', Math.max(0, x(s.v) - 1)).attr('height', 18).style('fill', s.c).append('title').text(`${s.v} ${s.t}`); acc += s.v; });
+  svg.append('line').attr('x1', x(lim)).attr('x2', x(lim)).attr('y1', 0).attr('y2', 30).style('stroke', 'var(--cds-chart-status-critical)').style('stroke-width', 2);
+  svg.append('text').attr('x', Math.min(x(lim) + 4, W - 70)).attr('y', 38).style('font-size', '11px').style('fill', 'var(--cds-text-secondary)').text(`límite ${lim}`);
+});
+</script>
+<script>
+dash.calc('nofertas', {inputs: ['empleos'], title: 'Ofertas por decidir', description: 'Cuántas ofertas están en estado por decidir.',
+  fn: (empleos) => empleos.filter((r) => r.estado === 'por decidir').length});
+dash.draw('nofertas', (el) => { const g = dash.data('nofertas'); el.textContent = g.status === 'ok' ? String(g.data) : '—'; });
+const clase2 = (e) => ({'hecho': 'hecho', 'por confirmar': 'confirmar', 'pendiente': 'pendiente', 'en espera': 'espera', 'publicado': 'publicado', 'programado': 'programado', 'por decidir': 'decidir', 'descartada': 'descartada', 'alto': 'alto', 'medio': 'medio', 'bajo': 'bajo'}[e] || 'idea');
+const chip = (txt) => { const s = document.createElement('span'); s.className = 'chip ' + clase2(txt); s.textContent = txt; return s; };
+const diaO = (f) => f ? window.pzDia(f) : 'sin fecha';
+dash.draw('tabla-hestia', (tb) => { tb.replaceChildren(); const g = dash.data('hestia'); if (g.status !== 'ok') return;
+  [...g.data].sort((a, b) => (b.fecha || '9').localeCompare(a.fecha || '9')).forEach((r) => { const tr = tb.insertRow(); tr.dataset.key = r.id;
+    const a = tr.insertCell(); a.className = 'dia'; a.textContent = diaO(r.fecha); tr.insertCell().textContent = r.pieza; tr.insertCell().appendChild(chip(r.estado)); const f = tr.insertCell(); f.className = 'falta'; f.textContent = r.falta || ''; window.pzEnl(f, r); }); });
+dash.draw('tabla-perfil', (tb) => { tb.replaceChildren(); const g = dash.data('perfil'); if (g.status !== 'ok') return;
+  const orden = {'pendiente': 0, 'por confirmar': 1, 'en espera': 2, 'hecho': 3};
+  [...g.data].sort((a, b) => (orden[a.estado] ?? 9) - (orden[b.estado] ?? 9)).forEach((r) => { const tr = tb.insertRow(); tr.dataset.key = r.id;
+    tr.insertCell().textContent = r.tarea; tr.insertCell().appendChild(chip(r.estado)); const f = tr.insertCell(); f.className = 'falta'; f.textContent = r.falta || ''; window.pzEnl(f, r); }); });
+dash.draw('tabla-empleos', (tb) => { tb.replaceChildren(); const g = dash.data('empleos'); if (g.status !== 'ok') return;
+  const oe = {'por decidir': 0, 'descartada': 1}, oc = {'alto': 0, 'medio': 1, 'bajo': 2};
+  [...g.data].sort((a, b) => (oe[a.estado] ?? 0) - (oe[b.estado] ?? 0) || (oc[a.encaje] ?? 9) - (oc[b.encaje] ?? 9)).forEach((r) => { const tr = tb.insertRow(); tr.dataset.key = r.id; if (r.estado === 'descartada') tr.className = 'descartada';
+    const c = tr.insertCell(); const b = document.createElement('div'); b.textContent = r.empresa; c.appendChild(b);
+    const a = document.createElement('a'); a.href = r.enlace; a.target = '_blank'; a.rel = 'noopener'; a.textContent = r.puesto; c.appendChild(a);
+    const fu = document.createElement('div'); fu.className = 'falta'; fu.textContent = r.fuente; c.appendChild(fu);
+    tr.insertCell().appendChild(chip(r.encaje)); const i = tr.insertCell(); i.className = 'falta'; i.textContent = r.idioma;
+    const d = tr.insertCell(); d.className = 'dia'; d.textContent = diaO(r.fecha); tr.insertCell().appendChild(chip(r.estado)); const n = tr.insertCell(); n.className = 'falta'; n.textContent = r.nota || ''; window.pzEnl(n, r); }); });
+(() => {
+  const ids = ['synergos', 'hestia', 'perfil', 'empleos'];
+  const abrir = (id, enlace) => { ids.forEach((x) => { document.querySelectorAll('#' + x).forEach((s) => { s.hidden = x !== id; }); document.querySelectorAll('#tab-' + x).forEach((t) => { t.setAttribute('aria-selected', x === id ? 'true' : 'false'); }); }); if (enlace) dash.setLink(id); };
+  ids.forEach((x) => document.querySelectorAll('#tab-' + x).forEach((t) => t.addEventListener('click', () => abrir(x, true))));
+  const h = (location.hash || '').slice(1); if (ids.includes(h)) abrir(h, false);
+})();
+</script>
