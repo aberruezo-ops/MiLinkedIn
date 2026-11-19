@@ -146,6 +146,15 @@ La escala tiene cuatro niveles y se aplica a cada uno de los tres elementos y al
 
 La regla de entrada se aplica a la tecnología dentro del servicio, que no entra antes del piloto. Por eso el nivel 2 de conocimiento puede alcanzarse durante el diagnóstico sin impedir que el equipo que transforma use la IA desde el primer día, que solo exige reglas de uso y datos autorizados.
 
+**Cómo se pasa del nivel 2 al 3.** La tabla dice cómo es cada nivel, y la regla de entrada solo fija el paso del 1 al 2. Para ordenar lo que viene después me he inspirado en cómo las hojas de ruta de IA ordenan las actividades de lo inicial a lo avanzado. La lista de abajo sale de lo que ya dice este documento, no de ninguna hoja de ruta concreta. Es una propuesta de la versión 1.8, sin probar, y el orden dentro de cada fila es el que yo seguiría, no el único posible.
+
+- Personas: primero, formación por perfil y tiempo reconocido a los referentes (capítulo 13); después, roles e incentivos rediseñados con el trabajo (módulos 2 y 8); por último, un canal de propuestas con respuesta en plazo (capítulo 18).
+- Conocimiento: primero, un dueño de los datos en el negocio por cada conjunto que usa la IA; después, calidad medida con indicadores sencillos (módulo 10); por último, una base de conocimiento curada, con fechas, responsables y revisión (capítulo 16).
+- Tecnología: primero, criterios escritos antes de cada decisión de entrada, en la puerta de diseño; después, autonomía por niveles con puerta de autonomía (capítulo 17).
+- Gobierno: primero, criterios de cada puerta escritos antes de ver el resultado; después, la segunda línea (riesgos, seguridad, datos y cumplimiento) metida desde el diseño y no al final; por último, el derecho a parar de quien usa la herramienta, por escrito y sin represalias (capítulo 18).
+
+**Cómo se pasa del 3 al 4.** Es el paso menos explorado: ningún programa ha llegado ahí con este método. La tabla marca el destino de cada fila: en personas, que parte de la cartera nazca de empleados y usuarios y que la seguridad psicológica se mida; en conocimiento, que la concentración se mida y se reduzca a propósito; en tecnología, la revisión anual de qué se mantiene, se sustituye o se retira (capítulo 17); en gobierno, que los derechos de decisión se revisen y que la auditoría compare el inventario con lo que de verdad se usa. No hay orden propuesto para este paso.
+
 ## Anexo E. Fuentes y lo que no dicen
 
 Cada fuente aparece con lo que aporta al método y, en las que más pesan, con lo que no dice. Se marcan las fuentes que conozco solo por resúmenes o por fuentes secundarias y las que están pendientes de ficha propia. El cuaderno al que remiten algunas notas es el archivo de trabajo del autor, con las fichas de lectura; no forma parte de este documento. Los bloques siguen el orden de las versiones. Al final, en "Leídas, no usadas", están las fuentes que se revisaron y que el texto no cita.
