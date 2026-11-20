@@ -32,7 +32,7 @@ SYN = {
  '2026-11-17': [l('En LinkedIn', LI('urn:li:ugcPost:7528358789184507904')), l('Texto', G('posts/2026-11-17-B11.md')), l('Vídeo', PM('videos/1794850022070-anim-infografia-B11.mp4'))],
  '2026-11-18': [l('En LinkedIn', LI('urn:li:ugcPost:7528726959498121216')), l('Texto', G('posts/2026-11-18-C4.md')), l('Vídeo', PM('videos/1794988350567-anim-comunidad-C4.mp4'))],
  '2026-11-19': [l('En LinkedIn', LI('urn:li:ugcPost:7529104370664116224')), l('Texto', G('posts/2026-11-19-B23.md')), l('Vídeo', PM('videos/1794988835613-anim-infografia-B23.mp4')), l('Carpeta que se usó para publicar', T('listos-para-publicar/2026-11-19-jueves'))],
- '2026-11-20': [l('Carpeta para publicar', T('listos-para-publicar/2026-11-20-viernes')), l('Texto', G('posts/2026-11-20-V3.md')), l('Vídeo', G('imagenes/anim-resumen-semana-V3.mp4'))],
+ '2026-11-20': [l('En LinkedIn', LI('urn:li:ugcPost:7529451636377903104')), l('Texto', G('posts/2026-11-20-V3.md')), l('Vídeo', PM('videos/1794988836237-anim-resumen-semana-V3.mp4')), l('Carpeta preparada', T('listos-para-publicar/2026-11-20-viernes'))],
  '2026-11-23': [l('Texto del artículo', G('articulos/05-diagnostico-antes-que-solucion-para-pegar.md')), l('Notas del borrador', G('articulos/05-diagnostico-antes-que-solucion.md')), l('Portada', G('imagenes/portada-articulo-05.png')), l('Vídeo', G('imagenes/anim-articulo-05.mp4'))],
  '2026-11-25': [l('Texto', G('posts/2026-11-11-C11.md')), l('Tarjeta', G('imagenes/tarjeta-comunidad-C11.png')), l('Vídeo (por regenerar)', G('imagenes/anim-comunidad-C11.mp4'))],
  '2026-11-27': [l('Regla del cierre semanal', G('README.md')), l('Plantilla de vídeo', G('imagenes/anim-resumen-semana-V3.html'))],

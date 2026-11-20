@@ -5,7 +5,7 @@
  },
  {
   "concepto": "Usados",
-  "valor": 12
+  "valor": 13
  },
  {
   "concepto": "Programados",
@@ -13,7 +13,7 @@
  },
  {
   "concepto": "Restantes",
-  "valor": 3
+  "valor": 2
  },
  {
   "concepto": "Previstos sin programar",
@@ -21,6 +21,6 @@
  },
  {
   "concepto": "Faltan",
-  "valor": 1
+  "valor": 2
  }
 ]

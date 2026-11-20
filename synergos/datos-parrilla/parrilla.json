@@ -410,12 +410,12 @@
   "tipo": "Cierre",
   "pieza": "vie 20 nov · Cierre semanal · Quién cabe",
   "pilar": "Cierre",
-  "estado": "aprobado",
-  "falta": "Lo publicas tú a mano hoy a las 8:30. Texto final revisado ayer: sin comentarios de terceros esta semana, el agradecimiento dice reacciones. Carpeta listos-para-publicar/2026-11-20-viernes",
+  "estado": "publicado",
+  "falta": "",
   "enlaces": [
    {
-    "t": "Carpeta para publicar",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-20-viernes"
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529451636377903104"
    },
    {
     "t": "Texto",
@@ -423,7 +423,11 @@
    },
    {
     "t": "Vídeo",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.mp4"
+    "u": "https://media.publora.com/videos/1794988836237-anim-resumen-semana-V3.mp4"
+   },
+   {
+    "t": "Carpeta preparada",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-20-viernes"
    }
   ]
  },
