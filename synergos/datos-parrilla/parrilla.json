@@ -384,12 +384,12 @@
   "tipo": "Post",
   "pieza": "jue 19 nov · Post · Un criterio escrito después del dato es un voto secreto",
   "pilar": "El orden",
-  "estado": "aprobado",
-  "falta": "Lo publicas tú a mano a las 8:30 (listos-para-publicar/2026-11-19-jueves). No gasta cupo",
+  "estado": "publicado",
+  "falta": "",
   "enlaces": [
    {
-    "t": "Carpeta para publicar",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-19-jueves"
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7529104370664116224"
    },
    {
     "t": "Texto",
@@ -397,7 +397,11 @@
    },
    {
     "t": "Vídeo",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B23.mp4"
+    "u": "https://media.publora.com/videos/1794988835613-anim-infografia-B23.mp4"
+   },
+   {
+    "t": "Carpeta que se usó para publicar",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-19-jueves"
    }
   ]
  },
@@ -407,7 +411,7 @@
   "pieza": "vie 20 nov · Cierre semanal · Quién cabe",
   "pilar": "Cierre",
   "estado": "aprobado",
-  "falta": "Lo publicas tú a mano a las 8:30. Se revisa hoy por la tarde con los comentarios reales de la semana",
+  "falta": "Lo publicas tú a mano hoy a las 8:30. Texto final revisado ayer: sin comentarios de terceros esta semana, el agradecimiento dice reacciones. Carpeta listos-para-publicar/2026-11-20-viernes",
   "enlaces": [
    {
     "t": "Carpeta para publicar",
@@ -428,8 +432,8 @@
   "tipo": "Artículo",
   "pieza": "lun 23 nov · Artículo · Diagnóstico antes que solución",
   "pilar": "El orden",
-  "estado": "por redactar",
-  "falta": "Redactar hoy (rutina de las 19:47). Lo pegas tú a mano",
+  "estado": "por decidir",
+  "falta": "Redactado (910 palabras, con portada y vídeo): falta tu aprobación. Lo pegas tú a mano el lunes",
   "enlaces": [
    {
     "t": "Texto del artículo",
@@ -455,7 +459,7 @@
   "pieza": "mar 24 nov · Post · Tema por elegir (conocimiento)",
   "pilar": "Conocimiento",
   "estado": "por decidir",
-  "falta": "Elegir del banco",
+  "falta": "Propuesta: quién enseña lo que la tarea enseñaba. Falta tu elección",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -469,7 +473,7 @@
   "pieza": "mié 25 nov · Post comunidad · El liderazgo empieza donde termina el ego",
   "pilar": "Personas",
   "estado": "aprobado",
-  "falta": "Regenerar el vídeo girasol con su pregunta",
+  "falta": "Regenerar el vídeo girasol con su pregunta. Se programa en Publora",
   "enlaces": [
    {
     "t": "Texto",
@@ -488,10 +492,10 @@
  {
   "fecha": "2026-11-26",
   "tipo": "Post",
-  "pieza": "jue 26 nov · Post · Zuboff: no es la herramienta, es la decisión",
+  "pieza": "jue 26 nov · Post · Escala de autonomía: el borrador sí, el envío no",
   "pilar": "Tecnología",
-  "estado": "idea",
-  "falta": "Redactar",
+  "estado": "por decidir",
+  "falta": "Propuesta: B21 en lugar de Zuboff, que ya se ha usado mucho. Decide y lo redacto",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -505,7 +509,7 @@
   "pieza": "vie 27 nov · Cierre semanal · El orden",
   "pilar": "Cierre",
   "estado": "por redactar",
-  "falta": "Rutina del jueves 26",
+  "falta": "Rutina del jueves 26. Ya cabe en el horizonte de Publora (hasta el 27)",
   "enlaces": [
    {
     "t": "Regla del cierre semanal",
