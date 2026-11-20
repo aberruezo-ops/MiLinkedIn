@@ -50,6 +50,12 @@ La regla de decisión es una: decide el patrocinador oído el comité, y las obj
 | Elegir plataforma y arquitectura | El área de tecnología, con el comité de puertas como consultado |
 | Aceptar una solución en producción y operarla | El área de tecnología, con el comité de puertas como consultado |
 | Responder ante quien recibe el servicio cuando algo falla | El dueño, que es la persona con nombre que figura en el inventario |
+| Gestionar un incidente con un sistema de IA | El dueño, que lo anota en el inventario. La segunda línea lo revisa y puede objetar, y el análisis posterior, sin culpables, entra en la supervisión del programa |
+| Vigilar un sistema en servicio y volver a pasar sus casos de prueba | El dueño, con el responsable de medición, que certifica los datos de los indicadores. La auditoría interna comprueba una vez al año que el inventario se corresponde con lo que está en uso |
+| Buscar sesgos y casos que no encajan antes de pasar a producción | Quien hace el trabajo escribe los casos de prueba, incluidos los raros, con el mapa de lo que nadie escribió como punto de partida. La segunda línea revisa y puede objetar |
+| Decidir qué datos pueden usarse con qué herramienta | El dueño de los datos, con la segunda línea. Si hay datos personales, el delegado de protección de datos dice si procede una evaluación de impacto, antes del piloto (módulo 11) |
+
+Las cuatro últimas filas, sobre incidentes, vigilancia, sesgos y datos, son una propuesta de la versión 1.8 sin probar. No traen reglas nuevas: reúnen lo que dicen otros capítulos para que cada una tenga responsable en la misma tabla.
 
 El dueño de la solución es el dueño operativo, el del agente y quien figura en el inventario: una sola persona. Cuando el documento habla de otro dueño (de los datos, del beneficio, de la estrategia), lo nombra con su apellido.
 
