@@ -80,7 +80,7 @@ Casi todos los programas de transformación acumulan iniciativas. Cada área pro
 
 **Hacer sitio a los habilitadores.** Hay iniciativas que no dan valor por sí mismas y sin las que las demás no escalan: la calidad del dato, la plataforma común, la formación, el inventario. Si se las mide por su retorno propio, la cartera las expulsa. Se aprueban por las iniciativas que desbloquean, y esa lista se escribe.
 
-**Retirar sin encarecerlo.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma alguien sin interés en la iniciativa. Quien la propone queda protegido por escrito (capítulo 18). Cuánto hay que justificar depende de la fase: en la puerta del piloto bastan las preguntas 3 y 4 de la puerta, y en escala o en sostenimiento se piden las cinco, porque entonces la retirada afecta de lleno a personas, conocimiento y tecnología (capítulo 12).
+**Retirar sin encarecerlo.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma una persona ajena al equipo del programa (sin interés en la iniciativa). Quien la propone queda protegido por escrito (capítulo 18). Cuánto hay que justificar depende de la fase: en la puerta del piloto bastan las preguntas 3 y 4 de la puerta, y en escala o en sostenimiento se piden las cinco, porque entonces la retirada afecta de lleno a personas, conocimiento y tecnología (capítulo 12).
 
 ### Señales de que va mal
 

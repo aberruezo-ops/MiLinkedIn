@@ -144,7 +144,8 @@ function epigrafe(t) {
   const e = key && EPI[key]; if (!e) return [];
   const col = TXT[curPart];
   const who = [new TextRun({ text: e.autor.toUpperCase(), font: BOLD, size: 15, color: col, characterSpacing: 50 })];
-  if (e.obra) who.push(new TextRun({ text: '   ' + e.obra + (e.anio ? ' (' + (e.anio < 0 ? Math.abs(e.anio) + ' a. C.' : e.anio) + ')' : ''), font: HF, size: 22, color: GREY, italics: true }));
+  const obra = (e.obra || '').split(/ \(|, |: /)[0].trim();
+  if (obra) who.push(new TextRun({ text: '   ' + obra + (e.anio ? ' (' + e.anio + ')' : ''), font: HF, size: 22, color: GREY, italics: true }));
   if (e.traduccion_libre) who.push(new TextRun({ text: '   traducción libre', font: SF, size: 14, color: 'A9B0AD' }));
   return [new Paragraph({ keepNext: true, spacing: { before: 60, after: 80, line: 380 }, indent: { left: 0, right: 900 }, children: [new TextRun({ text: '\u00AB' + e.texto + '\u00BB', font: HF, size: 31, color: '45423E', italics: true })] }),
     new Paragraph({ spacing: { before: 0, after: 360 }, children: who })];
