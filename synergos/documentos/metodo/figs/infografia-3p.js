@@ -115,14 +115,14 @@ ${top(2, true)}
     ${[['Qué peticiones acabarán en reclamación', 'Perfil A y perfil B', 'Triaje', 'Dos personas', 0], ['A quién llamar en otra unidad cuando algo se atasca', 'Perfil A', 'Excepciones', 'Una persona', 1]]
       .map(([a, b, c, d, hot]) => [a, b, c, d].map((t, j) => `<div style="padding:12px 12px;background:${hot ? (j === 3 ? T : '#F7E4DA') : '#EFEDE6'};color:${hot && j === 3 ? '#fff' : INK};font-weight:${j === 3 || j === 0 ? 600 : 400}">${t}</div>`).join('')).join('')}
   </div>
-  <div style="font-size:16.5px;line-height:1.4;margin-top:12px;color:${GREY}">Una fila que dice «una persona» se ve. Y con cada opción de diseño se responde, fila a fila, qué le pasa a ese conocimiento.</div>
+  <div style="font-size:16.5px;line-height:1.4;margin-top:12px;color:${GREY}">Una fila que dice "una persona" se ve. Y con cada opción de diseño se responde, fila a fila, qué le pasa a ese conocimiento.</div>
 </div>
 
 <div class="z" style="margin-top:30px;display:grid;grid-template-columns:1.08fr 1fr;gap:44px">
   <div>
     <div class="k" style="color:${AV}">Cómo se levanta</div>
     <h2 style="margin:8px 0 10px;font-size:40px">Cinco preguntas por las grietas</h2>
-    ${['¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?', '¿Cuándo no sigues el procedimiento, y por qué?', '¿A quién llamas cuando algo se atasca? ¿Y a quién te llaman a ti?', '¿Qué sabes de un caso antes de leerlo entero?', '¿Qué pasaría mañana si tú no vinieras?']
+    ${['¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?', '¿Cuándo no sigues el procedimiento, y por qué?', '¿A quién llamas cuando algo se atasca? ¿Y quién te llama a ti?', '¿Qué sabes de un caso antes de leerlo entero?', '¿Qué pasaría mañana si tú no vinieras?']
       .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:8.5px 0;border-top:1px solid rgba(244,246,246,.28)"><span class="ser" style="font-size:32px;line-height:.9;color:${AV};flex:0 0 24px">${i + 1}</span><span style="font-size:18px;line-height:1.34">${t}</span></div>`).join('')}
   </div>
   <div>

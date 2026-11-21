@@ -86,7 +86,7 @@ const figs = {
     `<div class="row">
      <div class="col" style="flex:1">
        <span class="k" style="color:${INK}">Cómo se despliega</span>
-       ${card('', '', 'Por etapas', 'Cada etapa tiene su mini puerta: los indicadores tienen que aguantar al ampliar. La decide el dueño operativo.')}
+       ${card('', '', 'Por etapas', 'Cada etapa tiene su minipuerta: los indicadores tienen que aguantar al ampliar. La decide el dueño operativo.')}
        ${card('a b', '', 'Formación en el puesto', 'Acompañamiento mientras se trabaja, no un curso de un día.')}
      </div>
      <div class="col" style="flex:1.4">
@@ -136,7 +136,7 @@ const figs = {
     </div>`,
     '<b>Un módulo 23 aparte:</b> el carril de exploración va antes del tronco y enlaza con el diagnóstico cuando un experimento pasa a la cartera.'),
 
-  'fig-mejora.png': page('Cómo se corrige el método', 'El método aplica a sí mismo sus herramientas: línea base, control de causas, doble bucle y registro de decisiones.',
+  'fig-mejora.png': page('Cómo se corrige el método', 'El método se aplica a sí mismo sus herramientas: línea base, control de causas, doble bucle y registro de decisiones.',
     `<div class="row">
      ${card('i', 'Punto de partida', 'Línea base', 'La versión 1.0. Todo cambio se compara con ella.')}${ar}
      ${card('a b', 'Control', 'Tabla de causas', 'Cada pieza dice a qué causa de fracaso responde.')}${ar}
