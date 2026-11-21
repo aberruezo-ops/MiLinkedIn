@@ -19,7 +19,7 @@ En la práctica, el objetivo aparece en cuatro sitios:
 - **Antes del diagnóstico.** Quien dirige la organización escribe qué resultado quiere cambiar (capítulo 18, Estrategia).
 - **En la restricción.** Se nombra respecto a ese resultado: es el punto del flujo que más lo limita (capítulo 9).
 - **En cada puerta.** La primera pregunta pide cuánto vale resolver la restricción y quién es el dueño de ese beneficio (capítulo 11).
-- **En la medición.** El árbol de valor une la restricción con la cuenta de resultados y se corrige en cada puerta con lo medido (módulo 9 y capítulo 18).
+- **En la medición.** El árbol de valor une la restricción con la cuenta de resultados y se corrige en cada puerta con lo medido. El resultado tiene fila propia, fuera de los tres elementos, y su delta se lee aparte del de las palancas (módulo 9 y capítulo 18).
 
 *Lo que la evidencia dice y lo que no.* Que la tecnología rinde más cuando cambia a la vez la organización del trabajo tiene veinticinco años de respaldo, con correlaciones entre empresas anteriores a la IA generativa (módulo 9). Que mover las tres palancas a la vez dé más impacto que mover dos es la hipótesis de Synergós, y ningún programa la ha puesto a prueba todavía.
 

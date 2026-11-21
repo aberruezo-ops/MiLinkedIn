@@ -246,7 +246,7 @@ ${top(4, true)}
   <div class="k" style="color:${AV}">Proporcionalidad · propuesta sin probar</div>
   <h2 style="margin:6px 0 10px;font-size:40px">El método no se aplica entero a todo</h2>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;align-items:stretch">
-    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción nombrada, línea base, mapa del trabajo afectado, decisión de puerta de una página, un indicador por elemento, criterio de parada, cómo se deshace y dueño.', 0],
+    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción nombrada, línea base, mapa del trabajo afectado, decisión de puerta de una página, un indicador por elemento y uno del objetivo, criterio de parada, cómo se deshace y dueño.', 0],
        ['De flujo', 'Rediseña un proceso de principio a fin.', 'Se añaden el rediseño del trabajo, los casos de prueba, el registro de supuestos, el responsable de adopción y el destino del tiempo.', 8],
        ['De sistema', 'Cambia lo que la organización ofrece o cómo se organiza.', 'Se añaden el modelo económico con valle, el gobierno completo y los módulos 1 a 22.', 16]]
       .map(([t, d, q, up], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};padding:12px 18px 20px;border-top:8px solid ${[AV, '#7CC090', TV][i]}"><div class="ser" style="font-size:32px;line-height:1">${t}</div><div style="font-size:16px;font-weight:700;line-height:1.3;margin-top:4px">${d}</div><div style="font-size:15px;line-height:1.36;color:#3F423F;margin-top:6px">${q}</div></div>`).join('')}
@@ -303,7 +303,7 @@ ${top(5, true)}
   <div>
     <div class="k" style="color:${GV}">Medir</div>
     <h2 style="margin:8px 0 10px;font-size:40px">La percepción no es medida</h2>
-    ${['Línea base antes de cambiar nada.', 'Indicadores de avance, con objetivo, e indicadores de guarda, con suelo.', 'El resultado se lee por nivel de pericia y no solo por la media.']
+    ${['Línea base antes de cambiar nada.', 'El resultado de negocio se mide aparte de las palancas: dos deltas y dos umbrales.', 'Indicadores de avance, con objetivo, e indicadores de guarda, con suelo.', 'El resultado se lee por nivel de pericia y no solo por la media.']
       .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:9px 0;border-top:1px solid rgba(244,246,246,.22)"><span class="ser" style="font-size:32px;line-height:.9;color:${GV};flex:0 0 24px">${i + 1}</span><span style="font-size:17.5px;line-height:1.36">${t}</span></div>`).join('')}
   </div>
 </div>

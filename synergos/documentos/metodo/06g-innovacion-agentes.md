@@ -161,7 +161,7 @@ El método no se aplica entero a todo. Desde la versión 1.8 esta tabla dice qu�
 | Línea base | Obligatorio | Obligatorio | Obligatorio |
 | Mapa del trabajo afectado (las filas del mapa de lo que nadie escribió que la iniciativa toca) | Obligatorio | Obligatorio | Obligatorio |
 | Decisión de puerta de una página (anexo C) | Obligatorio | Obligatorio | Obligatorio |
-| Un indicador por elemento | Obligatorio | Obligatorio | Obligatorio |
+| Un indicador por elemento y uno del objetivo de negocio | Obligatorio | Obligatorio | Obligatorio |
 | Criterio de parada | Obligatorio | Obligatorio | Obligatorio |
 | Cómo se deshace | Obligatorio | Obligatorio | Obligatorio |
 | Dueño | Obligatorio | Obligatorio | Obligatorio |

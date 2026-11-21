@@ -56,7 +56,7 @@ En el sector público hay tres referencias que cambian la perspectiva. Michael L
 
 **Accesibilidad.** Los servicios digitales del sector público tienen obligaciones de accesibilidad desde la Directiva (UE) 2016/2102, y la Directiva (UE) 2019/882, que se aplica desde 2025, extiende exigencias a muchos productos y servicios privados. El método lo trata como criterio de puerta, no como revisión final.
 
-**Medir lo que vive quien recibe el servicio.** El capítulo 18 pide que el indicador de tecnología lleve el uso y el resultado. El resultado se mide desde quien recibe el servicio: tiempo hasta la resolución, resolución a la primera, abandono, reclamaciones y, en servicios públicos, quién no llega a usarlo.
+**Medir lo que vive quien recibe el servicio.** El capítulo 18 pide un indicador de resultado para el objetivo de negocio. Ese resultado se mide desde quien recibe el servicio: tiempo hasta la resolución, resolución a la primera, abandono, reclamaciones y, en servicios públicos, quién no llega a usarlo.
 
 ### El valor que crea la persona para quien recibe el servicio
 
