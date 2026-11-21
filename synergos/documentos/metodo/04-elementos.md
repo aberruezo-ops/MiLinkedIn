@@ -90,6 +90,8 @@ Antes de decidir cómo se usa la tecnología conviene escribir para qué. Las fu
 
 La posición de Synergós es esta: el objetivo de la tecnología en una organización es ampliar lo que puede hacer a través de sus personas y de su conocimiento. La eficiencia es legítima y casi siempre llega primero, pero es el primer resultado, no el fin. En cada puerta se declara por escrito cuál de esos objetivos persigue la iniciativa, cómo se medirá y quién se queda con lo que se gana. Si el objetivo declarado es aumentar y el único indicador mide ahorro, la puerta no está bien respondida.
 
+Desde la versión 2.1, el capítulo 5 nombra el impacto en el negocio como objetivo del método. Las cinco respuestas de arriba son las formas que ese impacto toma en una iniciativa concreta. La eficiencia cuenta como impacto y suele ser el primero en llegar, y la posición de Synergós dice cuál considera el fin: ampliar lo que la organización puede hacer.
+
 ### Los dos papeles de la IA
 
 **Para transformar.** Herramienta del equipo desde el primer día del diagnóstico: minería de procesos, análisis de documentación, síntesis de entrevistas, prototipos, medición automática. Se considera en todas las fases y solo exige reglas de uso y datos autorizados (capítulo 18). Riesgo bajo y beneficio pronto. Es el sitio más sensato para empezar.

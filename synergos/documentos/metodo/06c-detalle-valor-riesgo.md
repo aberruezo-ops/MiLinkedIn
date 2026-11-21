@@ -30,6 +30,8 @@ Un rediseño con IA toca las tres necesidades a la vez. Puede quitar autonomía 
 
 ## Módulo 9. El impacto en el negocio
 
+Desde la versión 2.1 el impacto en el negocio es el objetivo declarado del método (capítulo 5). Este módulo es su detalle: cómo se construye el árbol de valor, quién es dueño de cada beneficio y qué se hace con la capacidad que se libera.
+
 ### La paradoja de partida
 
 Robert Solow escribió en 1987, en una reseña, una frase que se ha citado miles de veces: se ven ordenadores por todas partes menos en las estadísticas de productividad. La explicación tardó años en llegar, y es, a mi juicio, el respaldo empírico más sólido que tiene Synergós, aunque solo cubre una parte de su promesa.
@@ -52,6 +54,8 @@ El método construye el impacto en negocio con un árbol que va de la restricci�
 2. **Los indicadores operativos** que la reflejan. Tiempo de los expedientes complejos, proporción de expedientes que vuelven, carga de esas tres personas.
 3. **Los indicadores de resultado** para quien recibe el servicio y para la organización. Satisfacción, reclamaciones, coste por expediente, ingresos o recaudación que dependen de la rapidez.
 4. **El efecto económico**, en euros, con su horizonte temporal y el valle previsto.
+
+A esta cadena la llamo árbol de valor. Desde la versión 2.1 va dentro del modelo económico, responde a la primera pregunta de la puerta y se corrige en cada puerta con lo medido (capítulos 11 y 18).
 
 Robert Kaplan y David Norton propusieron en los años noventa el cuadro de mando integral y, en 2004, los mapas estratégicos, precisamente para hacer visible esa cadena entre lo que se hace y lo que se gana. John Ward y Elizabeth Daniel desarrollaron en 2006 la gestión de beneficios, con una idea que el método adopta: cada beneficio tiene su dueño del beneficio, que está en el negocio y no en el programa, y un plan para que se materialice. Un beneficio sin dueño es una promesa.
 

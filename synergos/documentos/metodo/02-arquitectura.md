@@ -1,10 +1,27 @@
 # Parte II. La arquitectura
 
-## 5. Tres elementos y un orden
+## 5. Un objetivo, tres elementos y un orden
 
-Synergós se apoya en tres elementos: personas, conocimiento y tecnología, y un cuarto componente, el orden, que hace que los tres crezcan a la vez.
+Synergós tiene un objetivo, el impacto en el negocio, y se apoya en tres elementos para alcanzarlo: personas, conocimiento y tecnología. Un cuarto componente, el orden, hace que los tres crezcan a la vez.
 
 {{img:fig-arquitectura.png|15}}
+
+### El objetivo: el impacto en el negocio
+
+Desde la versión 2.1 el método dice por escrito algo que antes daba por supuesto. Una organización se transforma para cambiar un resultado. En una empresa ese resultado son los ingresos, el margen, el coste, la calidad o la capacidad de ofrecer algo nuevo. En una administración es lo que recibe el ciudadano y el uso que se hace del dinero público. Ese resultado es lo que consigue patrocinador y presupuesto, y es la vara con la que se juzga el programa cuando termina.
+
+El objetivo de negocio no es un cuarto elemento. Los elementos son palancas: se construyen, maduran y cada uno tiene sus indicadores. El objetivo es para qué se mueven. Pesa tanto como los tres, o más, pero no se coloca a su lado, porque no crece a la vez que ellos: es lo que se obtiene cuando crecen.
+
+De ahí salen dos formas de fracasar, y el método las trata como igual de graves. La primera es hacer crecer a personas, conocimiento y tecnología sin cambiar ningún resultado: un programa ordenado que no ha servido al negocio. La segunda es cambiar el resultado quemando una de las palancas. El ejemplo más repetido es el ahorro que se consigue sustituyendo a quien sabía, que se pierde cuando falla lo que esa persona sostenía sin que nadie lo hubiera mirado. Es mi lectura de los dos casos públicos del capítulo 2.
+
+En la práctica, el objetivo aparece en cuatro sitios:
+
+- **Antes del diagnóstico.** Quien dirige la organización escribe qué resultado quiere cambiar (capítulo 18, Estrategia).
+- **En la restricción.** Se nombra respecto a ese resultado: es el punto del flujo que más lo limita (capítulo 9).
+- **En cada puerta.** La primera pregunta pide cuánto vale resolver la restricción y quién es el dueño de ese beneficio (capítulo 11).
+- **En la medición.** El árbol de valor une la restricción con la cuenta de resultados y se corrige en cada puerta con lo medido (módulo 9 y capítulo 18).
+
+*Lo que la evidencia dice y lo que no.* Que la tecnología rinde más cuando cambia a la vez la organización del trabajo tiene veinticinco años de respaldo, con correlaciones entre empresas anteriores a la IA generativa (módulo 9). Que mover las tres palancas a la vez dé más impacto que mover dos es la hipótesis de Synergós, y ningún programa la ha puesto a prueba todavía.
 
 ### Por qué tres y no dos
 
@@ -37,7 +54,7 @@ Los principios son las reglas que se aplican cuando el método no dice nada conc
 
 ### Principio 1. Diagnóstico antes que solución
 
-Nada entra en diseño sin una restricción nombrada y una línea base medida. Richard Rumelt lo explicó en 2011: una buena estrategia empieza por un diagnóstico que simplifica la realidad hasta encontrar el problema crítico. Mi observación, que no es de Rumelt, es que la mayoría de lo que se llama estrategia es una lista de objetivos sin diagnóstico. Eliyahu Goldratt añadió en 1984 la idea de restricción: en todo sistema hay un punto que limita el rendimiento del conjunto, y mejorar cualquier otro punto no mejora nada.
+Nada entra en diseño sin una restricción nombrada y una línea base medida. La restricción se nombra respecto al objetivo de negocio: es el punto que más limita el resultado que la organización quiere cambiar. Richard Rumelt lo explicó en 2011: una buena estrategia empieza por un diagnóstico que simplifica la realidad hasta encontrar el problema crítico. Mi observación, que no es de Rumelt, es que la mayoría de lo que se llama estrategia es una lista de objetivos sin diagnóstico. Eliyahu Goldratt añadió en 1984 la idea de restricción: en todo sistema hay un punto que limita el rendimiento del conjunto, y mejorar cualquier otro punto no mejora nada.
 
 En la práctica, este principio choca con algo muy humano: muchos proyectos llegan con la solución ya decidida. En treinta años de trabajo, la mayoría de las conversaciones que he tenido sobre transformación empezaban con una herramienta en la mesa. Tener una idea de solución desde el principio está permitido; lo que el principio prohíbe es aprobarla antes de saber qué problema resuelve.
 

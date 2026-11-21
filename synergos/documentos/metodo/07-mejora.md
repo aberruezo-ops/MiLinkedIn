@@ -51,12 +51,15 @@ Hay continuidad más reciente, y no borra la crítica. Pasmore y otros (2019) re
 
 **"Puede convertirse en burocracia."** Todo método con puertas corre el riesgo de que las puertas se vuelvan trámites. La defensa está en el sexto principio, en el núcleo mínimo, que permite quitar piezas, en el calendario de revisiones del anexo H, que fusiona las que coinciden, y en las señales de fallo que llevan muchas piezas. Pero las defensas escritas no bastan si nadie las aplica. Es la misma crítica que el método hace a las organizaciones, y le alcanza igual.
 
+**"Es un método de prudencia, no de resultados."** Hasta la versión 2.0 el documento explicaba con detalle cómo no romper nada y dejaba el valor para el negocio en un módulo de detalle. Quien lo leía desde la dirección no encontraba por qué moverse. La versión 2.1 nombra el impacto en el negocio como objetivo y lo lleva a la primera pregunta de la puerta. La crítica sigue en pie en lo que más importa: no tengo todavía un programa que demuestre que mover las tres palancas a la vez da más resultado que moverlas por separado.
+
 ## 21. Preguntas abiertas para la siguiente versión
 
 En el documento hay muchos recuadros de pregunta abierta. Este capítulo no los reúne todos: recoge las preguntas principales, junto con otras que no tienen sitio en un capítulo concreto. Las demás siguen en su recuadro, en el capítulo o en el módulo donde nacen. Están en cuatro grupos: las que llevan una propuesta, las que ya tienen regla y conservan una parte abierta, las que no tienen solución y lo que tengo pendiente de decir yo.
 
 **Con propuesta provisional:**
 
+- **¿Debe el resultado de negocio tener fila propia en la medición?** Hoy el indicador de resultado cuenta como indicador de tecnología, aunque es el que mide el objetivo de negocio. Propuesta: mantenerlo ahí mientras el delta no se haya probado en un programa real, y revisar entonces si el objetivo necesita su propia fila, fuera de los tres elementos.
 - **¿Cuántas filas críticas en una sola persona son demasiadas?** Propuesta: medir por decisiones que dependen de cada fila, no por número de filas, y que la criticidad la fije quien usa el resultado. Sin cifra probada.
 - **¿Cómo se aplica el consentimiento del mapa con prisa?** Propuesta: compromiso firmado del patrocinador de que el mapa no se usará para evaluar ni despedir.
 - **¿Cómo se enseña un oficio cuando la tarea que lo enseñaba desaparece?** El módulo 7 propone cinco diseños posibles, entre ellos aprender corrigiendo, reservar tareas para formar y dar tiempo reconocido a los veteranos. Ninguno está probado lo bastante. Hay evidencia de campo sobre lo que pasa cuando la tecnología aparta al novato de la tarea (Beane, 2019; capítulo 15), pero describe el problema y no prueba ningún diseño.
@@ -92,7 +95,7 @@ Son cuatro datos que el documento necesita y que solo puedo poner yo. La versió
 
 ## 22. Hoja de ruta: hacia la versión 3.0
 
-Esta versión se llama 2.0 por lo mucho que cambia desde la 1.8: dos auditorías de coherencia, más de cincuenta fuentes nuevas, varias reglas propuestas y otra forma de presentar el documento. No ha cumplido lo que la hoja de ruta anterior pedía a una 2.0. Aquella pedía evidencia, herramientas y comunidad, y los tres frentes siguen abiertos: a la fecha ningún programa ha aplicado el método completo. Pasan, tal cual, a ser la condición de la 3.0.
+La versión 2.0 se llamó así por lo mucho que cambiaba desde la 1.8: dos auditorías de coherencia, más de cincuenta fuentes nuevas, varias reglas propuestas y otra forma de presentar el documento. La 2.1 cambia una sola cosa, y es de fondo: nombra el impacto en el negocio como objetivo del método (capítulo 5). Ninguna de las dos ha cumplido lo que la hoja de ruta anterior pedía a una 2.0. Aquella pedía evidencia, herramientas y comunidad, y los tres frentes siguen abiertos: a la fecha ningún programa ha aplicado el método completo. Pasan, tal cual, a ser la condición de la 3.0.
 
 **Evidencia.** Aplicar el método completo en al menos un programa y sustituir casos compuestos por casos reales, anonimizados y con permiso, en las piezas que más los necesitan: el mapa, la retirada del piloto y el indicador de criterio. Es también el momento de dar valor a los cuatro datos que solo puedo poner yo y que el capítulo 21 deja pendientes.
 

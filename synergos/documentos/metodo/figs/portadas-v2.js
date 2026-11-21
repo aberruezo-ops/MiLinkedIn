@@ -27,7 +27,7 @@ ${girasol({ cx: 1070, cy: 1380, n: 1500, c: 15.8, rot: 0.4, s0: 3.5, sk: 0.017 }
 <div style="position:absolute;left:100px;top:340px;font-family:'EB Garamond',serif;font-size:270px;line-height:.95;letter-spacing:-7px;white-space:nowrap;z-index:3">El método</div>
 <div style="position:absolute;left:110px;top:650px;font-family:'EB Garamond',serif;font-style:italic;font-size:104px;color:#7CC090;z-index:3">Crecer a la vez.</div>
 <div style="position:absolute;left:110px;top:800px;width:520px;font-size:30px;line-height:1.5;color:#C9D2CD;z-index:3">Personas, conocimiento y tecnología avanzando en el mismo orden.</div>
-<div style="position:absolute;left:110px;bottom:120px;z-index:3;font-size:26px;line-height:1.6"><b style="font-weight:600;font-size:32px">Alejandro Berruezo</b><br><span style="color:#C9D2CD">Versión 2.0 · noviembre de 2026</span></div>`;
+<div style="position:absolute;left:110px;bottom:120px;z-index:3;font-size:26px;line-height:1.6"><b style="font-weight:600;font-size:32px">Alejandro Berruezo</b><br><span style="color:#C9D2CD">Versión 2.1 · noviembre de 2026</span></div>`;
 
 // fondos de portadilla: seis composiciones del mismo girasol, con otro encuadre cada una
 const POR = [
@@ -41,7 +41,7 @@ const POR = [
 const contra = `${girasol({ cx: 620, cy: 700, n: 900, c: 14, rot: 0.6, s0: 3.5, sk: 0.02 })}
 <img src="file://${IM}logo-synergos-dark.svg" style="position:absolute;left:50%;transform:translateX(-50%);top:1380px;height:84px">
 <div style="position:absolute;left:0;right:0;top:1500px;text-align:center;font-family:'EB Garamond',serif;font-style:italic;font-size:64px;color:#7CC090">Crecer a la vez.</div>
-<div style="position:absolute;left:0;right:0;top:1610px;text-align:center;font-size:22px;letter-spacing:5px;text-transform:uppercase;color:#C9D2CD">Versión 2.0 · noviembre de 2026</div>`;
+<div style="position:absolute;left:0;right:0;top:1610px;text-align:center;font-size:22px;letter-spacing:5px;text-transform:uppercase;color:#C9D2CD">Versión 2.1 · noviembre de 2026</div>`;
 
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 1 });

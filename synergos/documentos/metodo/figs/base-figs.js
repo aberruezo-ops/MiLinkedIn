@@ -9,24 +9,29 @@ const base = `*{box-sizing:border-box;margin:0;padding:0}body{background:#fff;fo
 
 // 1. Arquitectura: el orden contiene los tres elementos
 const arq = `<style>${base}
-body{width:1600px;height:980px;position:relative}
+body{width:1600px;height:1060px;position:relative}
 h1{position:absolute;left:60px;top:44px;font-family:'EB Garamond',serif;font-weight:normal;font-size:56px}
-.panel{position:absolute;left:60px;right:60px;top:150px;height:780px;background:#F4F6F6;border-radius:16px 0 110px 0}
+.obj{position:absolute;left:60px;right:60px;top:112px;height:104px;background:#fff;border:3px solid ${INK};border-radius:16px 0 60px 0;padding:0 40px;display:flex;align-items:center;gap:44px}
+.obj b{font-family:'EB Garamond',serif;font-weight:normal;font-size:44px;white-space:nowrap}
+.obj span{font-size:22px;line-height:1.38;color:${GREY}}
+.obj i{font-style:normal;font-size:16px;letter-spacing:4px;text-transform:uppercase;font-weight:600;color:${TERRA};white-space:nowrap}
+.panel{position:absolute;left:60px;right:60px;top:150px;height:860px;background:#F4F6F6;border-radius:16px 0 110px 0}
 .lab{position:absolute;left:60px;top:34px;font-size:18px;letter-spacing:4px;text-transform:uppercase;color:${GREEN};font-weight:600}
 .sub{position:absolute;left:60px;top:66px;font-size:23px;color:${GREY}}
-.blk{position:absolute;top:150px;width:400px;height:360px;padding:34px 36px;color:#fff}
+.blk{position:absolute;top:244px;width:400px;height:360px;padding:34px 36px;color:#fff}
 .blk b{font-family:'EB Garamond',serif;font-weight:normal;font-size:56px;display:block;margin-bottom:14px}
 .blk span{font-size:23px;line-height:1.4;display:block}
 .base{position:absolute;left:60px;right:60px;top:590px;height:150px;background:${INK};color:#fff;border-radius:0 16px 0 70px;padding:32px 44px}
 .base b{font-family:'EB Garamond',serif;font-weight:normal;font-size:40px;display:block;margin-bottom:8px}
 .base span{font-size:22px;color:#D7DCDC}
 .cierre{position:absolute;left:60px;top:772px;font-family:'EB Garamond',serif;font-style:italic;font-size:34px;color:${GREEN}}
-</style><img class="mark" src="${LOGO}"><h1>Tres elementos, un orden</h1>
+</style><img class="mark" src="${LOGO}"><h1>Un objetivo, tres elementos, un orden</h1>
 <div class="panel"><div class="lab">Los tres crecen a la vez</div><div class="sub">Ninguno avanza solo. El orden decide en qué secuencia y con qué puertas.</div>
+<div class="obj"><i>El objetivo</i><b>Impacto en el negocio</b><span>El resultado que la organización quiere cambiar. Los tres elementos son las palancas para alcanzarlo.</span></div>
 <div class="blk" style="left:60px;background:${TERRA};border-radius:16px 0 100px 0"><b>Personas</b><span>Liderazgo, roles e incentivos, seguridad psicológica, interacción, quién enseña</span></div>
 <div class="blk" style="left:540px;background:${GREEN};border-radius:0 16px 0 100px"><b>Conocimiento</b><span>Explícito, tácito (el mapa), supervisión de doble bucle</span></div>
 <div class="blk" style="left:1020px;background:${ALB};color:${INK};border-radius:16px 0 100px 0"><b>Tecnología</b><span>IA en sus dos papeles, frontera, autonomía, entorno, radar, medida justa</span></div>
-<div class="base" style="top:560px;left:60px;right:60px"><b>El orden</b><span>Fases y puertas · estrategia · gobierno · modelo económico · medición y delta · madurez</span></div></div>`;
+<div class="base" style="top:644px;left:60px;right:60px"><b>El orden</b><span>Fases y puertas · estrategia · gobierno · modelo económico · medición y delta · madurez</span></div></div>`;
 
 // 2. Fases: cinco fases, cinco puertas y el bucle de aprendizaje
 const fase = (n, t, d, c) => `<div class="f" style="background:${c[0]}"><i style="color:${c[1]}">${n}</i><b>${t}</b><span>${d}</span></div>`;

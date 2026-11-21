@@ -106,7 +106,7 @@ const spacer = (after = 120) => new Paragraph({ spacing: { before: 0, after }, c
 
 const ESENCIA = {
   'I': 'Casi todo lo que hace fracasar una transformación estaba ahí antes de que llegara la tecnología.',
-  'II': 'Tres elementos que avanzan al mismo compás y un orden que los sostiene.',
+  'II': 'Un objetivo, tres elementos que avanzan al mismo compás y un orden que los sostiene.',
   'III': 'Cinco fases. Al final de cada una, una puerta con criterios escritos antes.',
   'IV': 'Personas, conocimiento y tecnología pesan lo mismo. El orden decide si llegan juntos.',
   'V': 'Veinticuatro módulos para lo que el método toca en varias fases. Casi nunca hacen falta todos.',
@@ -268,7 +268,7 @@ function sectionsOf() {
   return secs;
 }
 const doc = new Document({
-  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 2.0', description: 'Método Synergós, documento de trabajo',
+  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 2.1', description: 'Método Synergós, documento de trabajo',
   features: { updateFields: true },
   styles: {
     default: { document: { run: { font: BF, size: 21, color: INK } } },
@@ -289,4 +289,4 @@ const doc = new Document({
   ],
   sections: sectionsOf()
 });
-Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v2.0.docx'), b); console.log('ok', files.length, 'ficheros'); });
+Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v2.1.docx'), b); console.log('ok', files.length, 'ficheros'); });

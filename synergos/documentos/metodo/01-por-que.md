@@ -1,6 +1,6 @@
 # Cómo leer este documento
 
-Este documento describe el método Synergós en su versión 2.0. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
+Este documento describe el método Synergós en su versión 2.1. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
 
 Antes de empezar, tres avisos.
 
@@ -24,7 +24,9 @@ Synergós nace de ver muchas veces la misma secuencia. Se decide una tecnología
 
 Cuando la tecnología va dos años por delante de las personas y del conocimiento, lo que hay es una transformación rota que todavía no lo sabe. La promesa de Synergós cabe en cuatro palabras: **crecer a la vez**. Una transformación sale bien cuando las personas, el conocimiento y la tecnología avanzan en el mismo orden y ninguno crece a costa de los otros. La evidencia económica apoya la mitad de esa promesa: la tecnología rinde más cuando cambia a la vez la organización del trabajo (módulo 9). Que el conocimiento no escrito sea el tercer factor es la hipótesis de Synergós, y todavía necesita evidencia.
 
-Synergós es un método para dirigir programas de transformación, de un servicio, de un área o de una organización entera. Tiene tres elementos, que han de crecer a la vez, y un cuarto componente, el orden, del que forma parte un tronco de cinco fases con entregables y puertas. Sobre ellos se activan los aceleradores, que son tecnologías concretas (la lista está en el glosario) y entre los que hoy la inteligencia artificial pesa más que ninguno. La regla de diseño es sencilla: cada pieza tiene que decir a qué causa descrita de fracaso responde. Las que hoy no responden a ninguna están marcadas como extensión sin causa documentada al cierre de la Parte V.
+Crecer a la vez es el camino. El destino es el impacto en el negocio. Una organización se transforma para ingresar más, gastar menos, servir mejor o poder hacer algo que antes no podía, y este método está pensado para conseguirlo. Lo que sostiene es que ese impacto llega al trabajo real, y dura, cuando se busca con las palancas adecuadas: las personas, el conocimiento y la tecnología, movidas a la vez y no la tecnología sola.
+
+Synergós es un método para dirigir programas de transformación, de un servicio, de un área o de una organización entera. Tiene un objetivo, el impacto en el negocio. Tiene tres elementos, que han de crecer a la vez para alcanzarlo, y un cuarto componente, el orden, del que forma parte un tronco de cinco fases con entregables y puertas. Sobre ellos se activan los aceleradores, que son tecnologías concretas (la lista está en el glosario) y entre los que hoy la inteligencia artificial pesa más que ninguno. La regla de diseño es sencilla: cada pieza tiene que decir a qué causa descrita de fracaso responde. Las que hoy no responden a ninguna están marcadas como extensión sin causa documentada al cierre de la Parte V.
 
 ## 2. Lo que sabemos de por qué fracasan las transformaciones
 
@@ -80,6 +82,8 @@ La idea sociotécnica de Trist y Bamforth tiene continuidad reciente. Barley (19
 
 **No sustituye a los métodos de gestión de proyectos.** Un programa Synergós puede ejecutarse con métodos ágiles, en cascada o con cualquier marco que la organización ya use. Synergós se coloca un nivel por encima: decide qué se transforma, en qué orden y con qué condiciones. Cómo se gestionan las tareas dentro de cada fase es otra conversación.
 
+**No es un freno.** Las puertas, las preguntas y los mapas están para que el impacto en el negocio llegue al trabajo real y se sostenga cuando el equipo del programa se va. Un programa que cumple todas las reglas del método y no mueve ningún resultado del negocio ha fracasado. También fracasa el que lo mueve a costa de las personas o del conocimiento, porque lo ganado suele perderse cuando falta quien lo sostenía.
+
 **No es una garantía.** Ningún método lo es. Lo que Synergós promete es más modesto y, creo, más útil: que las decisiones importantes se tomen sabiendo lo que se arriesga, y que el programa tenga formas baratas de equivocarse y de dar marcha atrás.
 
-**No es un producto cerrado.** Va por la versión 2.0, tiene preguntas abiertas que reconozco en muchos capítulos y a la fecha ningún programa lo ha aplicado completo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.
+**No es un producto cerrado.** Va por la versión 2.1, tiene preguntas abiertas que reconozco en muchos capítulos y a la fecha ningún programa lo ha aplicado completo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.
