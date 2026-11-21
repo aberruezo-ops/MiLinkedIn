@@ -1,42 +1,38 @@
 [
  {
   "n": 1,
-  "decision": "El cierre de la semana ya está publicado: lo publiqué yo a las 8:52 con el texto revisado (sin comentarios de terceros esta semana) y el primer comentario con el enlace del artículo sale solo. No tienes que publicar nada a mano hoy"
+  "decision": "Fin de semana: no hay nada que publicar. El lunes 23 toca el artículo «Diagnóstico antes que solución», ya redactado (910 palabras, con portada y vídeo). Falta tu aprobación; lo pegas tú a mano y me pasas la URL"
  },
  {
   "n": 2,
-  "decision": "Artículo del lunes 23: «Diagnóstico antes que solución» está redactado (910 palabras, con portada y vídeo). Falta tu aprobación; lo pegas tú a mano. Cuando lo publiques, pásame la URL"
- },
- {
-  "n": 3,
   "decision": "Posts del martes 24 y jueves 26: martes, propuesta de quién enseña lo que la tarea enseñaba (conocimiento); jueves, cambiar Zuboff por la escala de autonomía (B21). Dime si te valen y los redacto"
  },
  {
+  "n": 3,
+  "decision": "Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 28. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
+ },
+ {
   "n": 4,
-  "decision": "Cupo de Publora: tras el cierre de hoy llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 27. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
+  "decision": "Comentarios en posts ajenos: el 19 y el 20 publiqué seis con tus recomendaciones (Julia Díaz, Javier Cruz, Pedro J. Moreno, Maica Enrique Valencia, Nacho Bellosta y Pedro Cardona-Vilaplana). Mira si responden y decide si contestas a mano"
  },
  {
   "n": 5,
-  "decision": "Comentarios en posts ajenos: ayer publiqué los tres con tus recomendaciones (Julia Díaz, Javier Cruz y Pedro J. Moreno). Mira si responden y decide si contestas a mano"
+  "decision": "Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras"
  },
  {
   "n": 6,
-  "decision": "Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección de ayer. Si no, dime qué pestaña miras"
+  "decision": "Método 1.8: 162 páginas. Desde el 19 nov se añadieron al anexo A política, gobierno y cumplimiento, alucinación y conector; al anexo D el paso del nivel 2 al 3; al capítulo 21 una pregunta abierta sobre las filas de madurez; y cuatro filas a la tabla «Quién decide qué» del capítulo 18. En esas filas la gestión del incidente la asigné al dueño, y el documento no lo decía: revísalo. Falta la comprobación independiente de las correcciones y cuatro datos que solo tú puedes dar: piezas usadas en programas reales, esfuerzo por fase, tamaño de un área y valores de partida"
  },
  {
   "n": 7,
-  "decision": "Método 1.8: 162 páginas. Ayer se añadieron en el anexo A política, gobierno y cumplimiento, alucinación y conector, el paso del nivel 2 al 3 de madurez en el anexo D y una pregunta abierta sobre las filas de madurez. Falta la comprobación independiente de las correcciones y cuatro datos que solo tú puedes dar: piezas usadas en programas reales, esfuerzo por fase, tamaño de un área y valores de partida"
- },
- {
-  "n": 8,
   "decision": "Gestor Synergós y manual Synergós Champion: revísalos y dime qué sobra (la revisión quedó a medias). Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta"
  },
  {
-  "n": 9,
+  "n": 8,
   "decision": "Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)"
  },
  {
-  "n": 10,
+  "n": 9,
   "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar"
  }
 ]
