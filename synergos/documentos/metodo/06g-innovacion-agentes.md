@@ -12,7 +12,7 @@ El tronco del método está pensado para una iniciativa que ya tiene forma: se d
 
 Charles O'Reilly y Michael Tushman propusieron en 2004 separar la exploración del negocio diario en equipos distintos, unidos por arriba en la misma dirección, para que la urgencia del día no se coma lo nuevo. Rita McGrath e Ian MacMillan defendieron en 1995 que, cuando hay más supuestos que certezas, no se financia el plan entero: se escriben los supuestos y se libera dinero a medida que se comprueban. Ajay Agrawal, Joshua Gans y Avi Goldfarb distinguieron en 2022 entre la solución puntual, que mejora una decisión dentro del proceso que ya existe, y la de sistema, que cambia las decisiones que dependen de ella y permite procesos nuevos. Las primeras se adoptan con facilidad y cambian poco.
 
-Sobre cómo se innova con IA hay dos resultados que conviene tener juntos. Fabrizio Dell'Acqua y otros publicaron en 2025 un experimento en Procter and Gamble, en desarrollo de productos: las personas que trabajaron solas con IA rindieron como los equipos de dos sin ella, y sus propuestas salían menos sesgadas hacia su propia especialidad. Fue una sola empresa y tareas de un día. Anil Doshi y Oliver Hauser mostraron en 2024, con relatos breves, que la IA generativa mejora la creatividad de cada persona y a la vez hace que el conjunto de lo producido se parezca más entre sí. Mi lectura de los dos resultados juntos, que ninguno prueba fuera de su contexto: la IA ayuda a quien tiene una idea y puede empobrecer el abanico si todo el mundo parte de ella.
+Sobre cómo se innova con IA hay dos resultados que hay que leer juntos. Fabrizio Dell'Acqua y otros publicaron en 2025 un experimento en Procter and Gamble, en desarrollo de productos: las personas que trabajaron solas con IA rindieron como los equipos de dos sin ella, y sus propuestas salían menos sesgadas hacia su propia especialidad. Fue una sola empresa y tareas de un día. Anil Doshi y Oliver Hauser mostraron en 2024, con relatos breves, que la IA generativa mejora la creatividad de cada persona y a la vez hace que el conjunto de lo producido se parezca más entre sí. Mi lectura de los dos resultados juntos, que ninguno prueba fuera de su contexto: la IA ayuda a quien tiene una idea y puede empobrecer el abanico si todo el mundo parte de ella.
 
 Ethan Mollick propuso en 2025 una forma de organizarlo en tres piezas: una dirección que marca el rumbo y da permiso, un equipo pequeño que experimenta y construye, y el conjunto de la plantilla, que es quien descubre los usos que funcionan. Es una propuesta de práctica, sin contraste empírico.
 
@@ -42,7 +42,7 @@ Personas: quién tiene tiempo y permiso para explorar, y qué le pasa si no acie
 
 ### Cómo se mide
 
-Con indicadores de aprendizaje y sin cifras de retorno. Experimentos cerrados en el periodo de medición, contando los descartados. Tiempo entre la idea y la primera evidencia. Supuestos caídos, que son tan valiosos como los confirmados. Y el reparto de la cartera entre puntual, de flujo y de sistema.
+Con indicadores de aprendizaje y sin cifras de retorno. Experimentos cerrados en el periodo de medición, contando los descartados. Tiempo entre la idea y la primera evidencia. Supuestos caídos, que cuentan tanto como los confirmados. Y el reparto de la cartera entre puntual, de flujo y de sistema.
 
 ### Señales de que va mal
 

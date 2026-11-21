@@ -10,7 +10,7 @@ El tronco del método son cinco fases: diagnóstico, diseño, piloto, escala y s
 
 **Qué recorre el tronco.** Un programa tiene uno o varios ámbitos. Un ámbito es el servicio o el flujo de trabajo que se va a transformar. Cada ámbito hace un diagnóstico y tiene una restricción. Del diagnóstico salen iniciativas, que forman la cartera. Cada iniciativa compara opciones en el diseño y recorre piloto, escala y sostenimiento. Hay, por tanto, un diagnóstico, un mapa y una puerta de diagnóstico por ámbito, y una puerta de diseño, de piloto, de escala y de sostenimiento por iniciativa.
 
-Cada puerta tiene tres salidas posibles para la iniciativa que llega a ella: pasar, ajustar y repetir, o retirar. La tercera no es un fracaso. Retirar una iniciativa en la puerta del piloto es barato, y es una buena noticia: el método ha hecho su trabajo, que es equivocarse en pequeño antes de equivocarse en grande.
+Cada puerta tiene tres salidas posibles para la iniciativa que llega a ella: pasar, ajustar y repetir, o retirar. Retirar una iniciativa en la puerta del piloto es barato, y es una buena noticia: el método ha hecho su trabajo, que es equivocarse en pequeño antes de equivocarse en grande.
 
 | Fase | Para qué | Entregables | Puerta: qué tiene que ser cierto | Quién escribe los criterios y cuándo | Quién decide | Error típico |
 |---|---|---|---|---|---|---|
@@ -34,7 +34,7 @@ Son los seis entregables básicos. Lo que el capítulo 18 y los módulos añaden
 
 {{img:fig-diagnostico.png|16}}
 
-**El mapa del flujo de trabajo real.** No el del procedimiento, sino el que se hace. La diferencia entre los dos es la primera información útil del programa. Se construye observando en el puesto, no en una sala con los responsables. Las herramientas de minería de procesos ayudan cuando hay registros, pero solo ven lo que deja huella en el sistema, y lo más interesante suele ocurrir fuera.
+**El mapa del flujo de trabajo real.** Se dibuja el flujo que se hace, y la diferencia con el del procedimiento es la primera información útil del programa. Se construye observando en el puesto, no en una sala con los responsables. Las herramientas de minería de procesos ayudan cuando hay registros, pero solo ven lo que deja huella en el sistema, y lo más interesante suele ocurrir fuera.
 
 **La restricción principal.** El punto que limita el resultado del conjunto. Tiene que ser una por ámbito diagnosticado, nombrada, y aceptada por el patrocinador. Una lista de diez problemas no es un diagnóstico. Si el equipo no consigue ponerse de acuerdo en cuál es la restricción, el programa todavía no sabe qué está transformando. Para nombrarla se hacen dos preguntas sobre el mapa del flujo: dónde se acumula la cola de trabajo, y qué pasaría con el resultado del conjunto si se duplicara la capacidad en ese punto. Si el resultado no cambiaría, la restricción está en otro sitio. Se escribe en una frase que diga el punto del flujo y lo que limita.
 
@@ -69,9 +69,9 @@ El mapa recoge el conocimiento no escrito que sostiene hoy el trabajo que se va 
 
 La segunda se responde ante el comité por perfil, y con nombre solo si la persona lo consiente. La tercera pregunta del comité es la que convierte el mapa en una herramienta de decisión y no en un ejercicio de antropología. Conecta con la segunda pregunta de la puerta de diseño (capítulo 11). El mapa permite responder a esa pregunta, la de si acelera, automatiza o aumenta, con datos en lugar de con intenciones.
 
-**A quién se pregunta.** No a los responsables del procedimiento. A quienes hacen el trabajo, y en especial a dos perfiles: la persona a la que los demás acuden cuando algo se atasca, y la persona que lleva menos tiempo, porque todavía recuerda lo que nadie le explicó cuando llegó. Mi hipótesis es que entre los dos se dibuja casi todo el mapa. En una organización grande se pregunta por perfil y por centro, y se para cuando dos conversaciones seguidas no añaden filas nuevas.
+**A quién se pregunta.** A quienes hacen el trabajo, no a los responsables del procedimiento, y en especial a dos perfiles: la persona a la que los demás acuden cuando algo se atasca, y la persona que lleva menos tiempo, porque todavía recuerda lo que nadie le explicó cuando llegó. Mi hipótesis es que entre los dos se dibuja casi todo el mapa. En una organización grande se pregunta por perfil y por centro, y se para cuando dos conversaciones seguidas no añaden filas nuevas.
 
-**Qué se pregunta.** No "qué haces", porque la respuesta es el procedimiento. Se pregunta por las grietas. Son cinco, y en todo el documento las llamo las preguntas por las grietas:
+**Qué se pregunta.** "Qué haces" no sirve, porque la respuesta es el procedimiento; se pregunta por las grietas. Son cinco, y en todo el documento las llamo las preguntas por las grietas:
 
 - ¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?
 - ¿Cuándo no sigues el procedimiento, y por qué?
@@ -85,7 +85,7 @@ La segunda se responde ante el comité por perfil, y con nombre solo si la perso
 
 **Qué se hace con él.** Se pone al lado de cada opción de diseño y se responde fila a fila: con esta opción, este conocimiento se queda en la persona y la tecnología la ayuda, pasa al sistema de forma revisable, o se pierde.
 
-Un caso compuesto lo ilustra bien. Una organización quiere usar IA para clasificar y responder las peticiones que le llegan por escrito; las atiende un equipo de doce personas. El mapa da diecinueve filas, cinco de ellas concentradas en una sola persona y dos que no se podían escribir aunque se quisiera (cifras ilustrativas, no medidas). La opción inicial, que la IA respondiera directamente las peticiones sencillas, perdía esas cinco filas, porque quien las sabía dejaba de ver las peticiones que la IA se quedaba. La opción que se aprobó fue otra: la IA clasifica y propone, la persona decide y el sistema le muestra lo que antes detectaba de oído. Mismo presupuesto, misma tecnología, resultado previsto opuesto en la tercera pregunta del comité. El coste del mapa en ese caso: dos semanas de una persona y unas veinte conversaciones. Es también una cifra ilustrativa, pensada para un equipo de ese tamaño, y no sirve para presupuestar un área grande.
+Va un caso compuesto. Una organización quiere usar IA para clasificar y responder las peticiones que le llegan por escrito; las atiende un equipo de doce personas. El mapa da diecinueve filas, cinco de ellas concentradas en una sola persona y dos que no se podían escribir aunque se quisiera (cifras ilustrativas, no medidas). La opción inicial, que la IA respondiera directamente las peticiones sencillas, perdía esas cinco filas, porque quien las sabía dejaba de ver las peticiones que la IA se quedaba. La opción que se aprobó fue otra: la IA clasifica y propone, la persona decide y el sistema le muestra lo que antes detectaba de oído. Con el mismo presupuesto y la misma tecnología, el resultado previsto en la tercera pregunta del comité era el opuesto. El coste del mapa en ese caso: dos semanas de una persona y unas veinte conversaciones. Es también una cifra ilustrativa, pensada para un equipo de ese tamaño, y no sirve para presupuestar un área grande.
 
 **El límite del mapa.** No dice qué opción elegir; dice qué se pierde con cada una. Tampoco sustituye al análisis de costes, ni al de riesgos, ni al de la restricción. Y tiene un riesgo propio que todavía no he resuelto del todo: puede exponer. Si una persona esconde cómo trabaja por una razón legítima, ponerle nombre en una tabla es sacarla de detrás sin su permiso. La regla provisional es que el mapa es de la persona antes que del comité: se construye con su consentimiento, y la versión de comité muestra el conocimiento, no a quien lo tiene, hasta que ella decida otra cosa.
 
@@ -129,19 +129,19 @@ La puerta de diseño es donde los tres elementos se protegen, y por eso tiene ci
 4. **¿Quién responde de los errores cuando el sistema se equivoque, y quién enseña lo que la tarea enseñaba?** La primera mitad es de gobierno. La segunda es de personas: si la tarea que desaparece era la que formaba a los nuevos, alguien tiene que asumir esa enseñanza.
 5. **¿Hace crecer a la vez a los tres elementos, o abarata uno a costa de los otros?** La pregunta de síntesis.
 
-Se puede aprobar una opción que pierde conocimiento. Se puede aprobar una que automatiza y le quita criterio a alguien. Lo que el método no permite es aprobarlas sin saberlo. La puerta no impide decidir; impide decidir a ciegas.
+Se puede aprobar una opción que pierde conocimiento, o una que automatiza y le quita criterio a alguien. Lo que el método no permite es aprobarlas sin saberlo.
 
 !! Pregunta abierta. ¿Cinco preguntas son demasiadas? | Una crítica razonable es que cinco preguntas convierten la puerta en un trámite pesado. Mi respuesta provisional es que, para una iniciativa pequeña, las cinco se responden en media página, y que la que más se resiste a responderse suele ser la que más importa. Pero no lo he contrastado en programas grandes con decenas de iniciativas. Si se demuestra que la puerta se vuelve formulario, habrá que reducirla o graduarla por tamaño de la iniciativa.
 
 ## 12. Fase 3. Piloto
 
-El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño ha decidido. Su error típico es elegir el entorno más fácil, el equipo más motivado o el servicio más sencillo, que funciona muy bien y no representa al resto. Un piloto que no representa no prueba nada.
+El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño ha decidido. Su error típico es elegir el entorno más fácil, el equipo más motivado o el servicio más sencillo, que funciona muy bien y no representa al resto.
 
 {{img:fig-piloto.png|16}}
 
 >> Un piloto que no representa no prueba nada.
 
-**Cómo elegir el entorno.** Con al menos una de las condiciones difíciles del resto de la organización: un equipo con rotación, un volumen alto, casos raros, sistemas antiguos. La pregunta útil no es dónde va a funcionar, sino dónde va a fallar primero si tiene que fallar.
+**Cómo elegir el entorno.** Con al menos una de las condiciones difíciles del resto de la organización: un equipo con rotación, un volumen alto, casos raros, sistemas antiguos. La pregunta útil es dónde va a fallar primero, si tiene que fallar.
 
 **Con qué se compara.** Siempre que se pueda, con un equipo o un periodo de comparación que no tenga el cambio, además de con la línea base. La línea base trae la variación normal de cada indicador, y un cambio menor que esa variación no cuenta ni como mejora ni como retroceso. Si no hay con qué comparar, los resultados lo dicen por escrito.
 
@@ -171,7 +171,7 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 
 **Despliegue por etapas.** Nunca de golpe. Cada etapa tiene su propia mini puerta: los indicadores tienen que aguantar al ampliar. La decide el dueño operativo con los datos que certifica medición. Si la mejora del piloto se diluye al pasar a más equipos, para, lo lleva al comité de puertas y se entiende por qué antes de seguir.
 
-**Formación en el puesto.** No un curso de un día, sino acompañamiento mientras se trabaja. Lo que funciona en la escala casi siempre es lo que aprendieron quienes usaron la herramienta en el piloto, no lo que estaba en el manual. La tabla dice qué tiene que saber cada perfil y quién se lo enseña. Las horas las fija cada programa (anexo G), y cómo se comprueba que se sabe lo decide la persona responsable de la adopción.
+**Formación en el puesto.** Se da acompañando mientras se trabaja; un curso de un día no basta. Lo que funciona en la escala casi siempre es lo que aprendieron quienes usaron la herramienta en el piloto, no lo que estaba en el manual. La tabla dice qué tiene que saber cada perfil y quién se lo enseña. Las horas las fija cada programa (anexo G), y cómo se comprueba que se sabe lo decide la persona responsable de la adopción.
 
 | Perfil | Qué tiene que saber antes del piloto | Qué tiene que saber antes de la escala | Quién lo imparte |
 |---|---|---|---|
@@ -193,7 +193,7 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 
 ## 14. Fase 5. Sostenimiento
 
-El sostenimiento asegura que la mejora siga cuando el equipo del programa se vaya. Es la fase que menos se planifica, porque el programa ya ha declarado su éxito. John Kotter lo identificó en 1995 como una de las causas clásicas del fracaso: declarar la victoria demasiado pronto.
+El sostenimiento tiene que conseguir que la mejora siga cuando el equipo del programa se vaya. Es la fase que menos se planifica, porque el programa ya ha declarado su éxito. John Kotter lo identificó en 1995 como una de las causas clásicas del fracaso: declarar la victoria demasiado pronto.
 
 {{img:fig-sostenimiento.png|16}}
 
@@ -205,4 +205,4 @@ El sostenimiento asegura que la mejora siga cuando el equipo del programa se vay
 
 **Quién la convoca y quién decide.** La puerta de sostenimiento la convoca el dueño operativo ante el patrocinador, que decide y firma como en las demás puertas (capítulo 18). Pasarla cierra el programa para ese ámbito. Ajustar y repetir significa aquí que el equipo vuelve a lo que falló y los dos periodos empiezan a contar de nuevo. Retirar algo que ya está en sostenimiento pide las cinco preguntas completas (capítulo 12).
 
-**El retorno al diagnóstico.** Lo aprendido en el sostenimiento alimenta el diagnóstico del siguiente ciclo. Es el punto en el que el tronco se cierra sobre sí mismo y el método se convierte en ciclo.
+**El retorno al diagnóstico.** Lo aprendido en el sostenimiento alimenta el diagnóstico del siguiente ciclo. Aquí el tronco se cierra sobre sí mismo y pasa a ser un ciclo.

@@ -43,7 +43,7 @@ Si el método pide a una organización que mire lo que no quiere mirar, tiene qu
 
 **"La metáfora del girasol es decorativa."** Es un riesgo real. Un símil que gusta mucho puede acabar sustituyendo al argumento. Por eso el capítulo 7 dice lo que el símil no dice, y por eso el método debe poder explicarse entero sin él. Si alguna vez solo se sostiene con la imagen, habrá que quitarla.
 
-**"Crecer a la vez es imposible."** En la práctica, los tres elementos nunca crecen exactamente al mismo ritmo, y a veces uno tiene que ir por delante. La promesa no es la simultaneidad exacta, sino que ninguno crezca a costa de los otros. Aun así, la frase puede leerse como una exigencia irreal. Conviene explicarla siempre como regla (ninguno a costa de otro) y no como foto (todos a la vez y por igual).
+**"Crecer a la vez es imposible."** En la práctica, los tres elementos nunca crecen exactamente al mismo ritmo, y a veces uno tiene que ir por delante. La promesa es que ninguno crezca a costa de los otros, aunque no lo hagan al mismo ritmo exacto. Aun así, la frase puede leerse como una exigencia irreal. Hay que explicarla siempre como regla (ninguno a costa de otro) y no como foto (todos a la vez y por igual).
 
 **"El autor tiene un sesgo."** Llevo treinta años del lado de quien diseña y propone transformaciones. Veo bien lo que falla en el diseño y peor lo que falla en la operación diaria de quien recibe el cambio. El método intenta compensarlo poniendo a quien hace el trabajo en el centro del diagnóstico, pero un método escrito por un consultor siempre corre el riesgo de parecerse a un consultor. Por eso necesita que lo usen y lo critiquen otros.
 
@@ -100,6 +100,6 @@ La versión actual recoge el método tal como lo entiendo hoy, ordenado y con su
 
 Mientras tanto, el método se publica por partes, cada semana una pieza, en una serie que recorre los tres elementos y el orden por vueltas, bajando un nivel de profundidad en cada una. La serie es también una forma de supervisión: lo que la gente pregunta, discute o rebate entra en la siguiente versión.
 
-Crecer a la vez vale también para el método. Si un día el método crece más que la evidencia que lo sostiene, estará cometiendo el mismo error que intenta evitar.
+Si un día el método crece más que la evidencia que lo sostiene, estará cometiendo el mismo error que intenta evitar.
 
 >> Crecer a la vez vale también para el método.

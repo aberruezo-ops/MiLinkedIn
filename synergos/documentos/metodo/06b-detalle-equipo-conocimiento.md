@@ -26,7 +26,7 @@ Un equipo de transformación Synergós tiene siete funciones. En un programa aco
 | Medición | Línea base, indicadores, delta, cuadro; certifica los datos de cada puerta | Nadie sabe si se avanza | Un tercio del tiempo, si el programa la declara crítica |
 | Voz de quien hace el trabajo | Personas del equipo que va a cambiar, con tiempo asignado | Se diseña para el procedimiento, no para la realidad | Una parte de la jornada liberada, que fija cada programa |
 
-La séptima función es la que más se olvida y la que más distingue al método. No es un representante que asiste a una reunión mensual. Son personas que hacen el trabajo, con una parte de su jornada liberada para el programa, que participan en el diagnóstico, prueban los diseños y son oídas, por escrito, antes de cada puerta (capítulo 18).
+La séptima función es la que más se olvida y la que más distingue al método. La cubren personas que hacen el trabajo, con una parte de su jornada liberada para el programa, que participan en el diagnóstico, prueban los diseños y son oídas, por escrito, antes de cada puerta (capítulo 18). Un representante que asiste a una reunión mensual no la cubre.
 
 ### Dedicación
 
@@ -88,7 +88,7 @@ Colaborar no es reunirse más. En muchas organizaciones el problema es el contra
 
 ### Lo que dicen las fuentes
 
-Amy Edmondson propuso en 2012 el término *teaming* para describir algo que ocurre cada vez más: equipos que se forman y se deshacen alrededor de un problema, con personas que no han trabajado juntas antes. Lo que hace que funcionen no es la estabilidad del grupo, sino prácticas concretas: hablar claro, colaborar, experimentar y reflexionar sobre lo que pasa.
+Amy Edmondson propuso en 2012 el término *teaming* para describir algo que ocurre cada vez más: equipos que se forman y se deshacen alrededor de un problema, con personas que no han trabajado juntas antes. Lo que hace que funcionen son prácticas concretas más que la estabilidad del grupo: hablar claro, colaborar, experimentar y reflexionar sobre lo que pasa.
 
 Anita Woolley y sus coautores publicaron en 2010 en *Science* un hallazgo llamativo: los grupos tienen una especie de inteligencia colectiva, medible, que predice su rendimiento en tareas muy distintas. No dependía mucho de la inteligencia individual de sus miembros. Dependía de la sensibilidad social del grupo, de que los turnos de palabra estuvieran repartidos y, en su muestra, de la proporción de mujeres, que estaba asociada a la sensibilidad social. Estudios posteriores no siempre han replicado el hallazgo, así que lo tomo como una pista y no como una ley.
 
@@ -108,7 +108,7 @@ La tercera de las preguntas por las grietas (a quién llamas cuando algo se atas
 
 **Comunidades de práctica.** Etienne Wenger las describió en 1998: grupos de personas que comparten una práctica y aprenden juntas haciéndola. En un programa con IA, la comunidad de quienes la usan de verdad en su trabajo es la mejor fuente de mejoras y el mejor sitio para detectar malos usos. Existe desde antes del primer piloto, como parte del entorno (capítulo 17), y en la escala se amplía con los referentes de cada área (capítulo 13).
 
-**Colaboración con proveedores.** El proveedor tecnológico forma parte del sistema de colaboración, no está fuera. El método pide que tenga acceso a quien hace el trabajo durante el piloto, y que la salida pactada esté escrita desde el principio.
+**Colaboración con proveedores.** El proveedor tecnológico forma parte del sistema de colaboración. El método pide que tenga acceso a quien hace el trabajo durante el piloto, y que la salida pactada esté escrita desde el principio.
 
 ### Señales de que va mal
 
@@ -122,7 +122,7 @@ La tercera de las preguntas por las grietas (a quién llamas cuando algo se atas
 
 ### El ciclo completo
 
-El método no trata el conocimiento como un repositorio, sino como un ciclo con cinco momentos: se descubre, se captura, se cura, se usa y se retira. La mayoría de las organizaciones solo hacen bien el segundo, y lo hacen sin los demás, y por eso acaban con bases de documentos que nadie consulta.
+El método trata el conocimiento como un ciclo con cinco momentos: se descubre, se captura, se cura, se usa y se retira. La mayoría de las organizaciones solo hacen bien el segundo, y lo hacen sin los demás, y por eso acaban con bases de documentos que nadie consulta.
 
 ### Lo que dicen las fuentes
 
@@ -144,7 +144,7 @@ Thomas Davenport y Laurence Prusak insistieron en 1998 en algo más prosaico: el
 
 ### El conocimiento de quien se va
 
-Cuando alguien sale del equipo, se jubila o cambia de puesto, se hace una conversación estructurada con las preguntas por las grietas (anexo B), en su último mes y no en su último día. El objetivo no es vaciar su cabeza en un documento, que es imposible, sino saber qué filas del mapa se quedan sin nadie y decidir quién las asume.
+Cuando alguien sale del equipo, se jubila o cambia de puesto, se hace una conversación estructurada con las preguntas por las grietas (anexo B), en su último mes y no en su último día. Vaciar su cabeza en un documento es imposible; el objetivo es saber qué filas del mapa se quedan sin nadie y decidir quién las asume.
 
 ### La dependencia silenciosa
 
@@ -170,7 +170,7 @@ El capítulo 15 planteó una pregunta incómoda: si la tarea que formaba a los n
 
 ### Cómo se aprende un oficio
 
-Jean Lave y Etienne Wenger estudiaron en 1991 cómo aprenden los aprendices en comunidades muy distintas: comadronas mayas de Yucatán, sastres de Liberia, especialistas en navegación de la Marina estadounidense, carniceros de supermercado y miembros de Alcohólicos Anónimos. Encontraron un patrón al que llamaron participación periférica legítima. El aprendiz empieza haciendo tareas reales pero periféricas, de bajo riesgo, dentro de la comunidad de quienes saben. Observa, prueba, se equivoca en lo pequeño y va pasando al centro. Lo que aprende no es solo la técnica; es cómo se ve el mundo desde el oficio.
+Jean Lave y Etienne Wenger estudiaron en 1991 cómo aprenden los aprendices en comunidades muy distintas: comadronas mayas de Yucatán, sastres de Liberia, especialistas en navegación de la Marina estadounidense, carniceros de supermercado y miembros de Alcohólicos Anónimos. Encontraron un patrón al que llamaron participación periférica legítima. El aprendiz empieza haciendo tareas reales pero periféricas, de bajo riesgo, dentro de la comunidad de quienes saben. Observa, prueba, se equivoca en lo pequeño y va pasando al centro. Aprende la técnica y, con ella, cómo se ve el mundo desde el oficio.
 
 Hubert y Stuart Dreyfus propusieron en 1986 un modelo de cinco etapas para el paso de novato a experto: novato, principiante avanzado, competente, diestro y experto. Lo que cambia en el camino es la relación con las reglas. El novato sigue reglas sin contexto. El experto ya no las sigue: ve la situación y sabe qué hacer, muchas veces sin poder explicar por qué. Es Polanyi otra vez.
 
@@ -183,7 +183,7 @@ Son los cinco diseños a los que remite el capítulo 15. Ninguno está probado l
 1. **Aprender corrigiendo.** El novato revisa lo que hace la IA en lugar de hacerlo desde cero. Aprende viendo muchos casos y razonando por qué la propuesta es buena o mala. Riesgo: se aprende a validar, no a hacer.
 2. **Tareas reservadas para formar.** Algunas tareas se dejan a propósito en manos de los novatos, aunque la IA las haría mejor. Es un coste consciente, como el de una escuela.
 3. **La IA como tutora.** El novato hace la tarea y la IA le explica, le pregunta y le corrige. Brynjolfsson, Li y Raymond interpretan que la IA transmitía parte del saber de los mejores a los que empezaban. Riesgo: que la tutora transmita también sus errores.
-4. **Tiempo reconocido para enseñar.** Los veteranos tienen horas asignadas para acompañar a los nuevos, y esas horas cuentan en su evaluación. No como favor.
+4. **Tiempo reconocido para enseñar.** Los veteranos tienen horas asignadas para acompañar a los nuevos, y esas horas cuentan en su evaluación, así que enseñar deja de ser un favor.
 5. **Rotación por el caso difícil.** Los novatos participan, acompañados, en los casos fuera de patrón que la IA no resuelve. Es donde más se aprende y donde menos riesgo hay de que la IA ocupe el sitio.
 
 ### Cómo se mide

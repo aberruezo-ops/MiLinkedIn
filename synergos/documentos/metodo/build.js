@@ -137,12 +137,24 @@ function portadilla(title) {
     new Paragraph({ spacing: { before: 360, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: HF, size: 32, color: 'C9D2CD', italics: true })] }),
   ] };
 }
+const EPI = {};
+['epigrafes-capitulos.json', 'epigrafes-modulos.json'].forEach(f => { const fp = path.join(dir, f); if (fs.existsSync(fp)) JSON.parse(fs.readFileSync(fp, 'utf8')).forEach(e => { if (e.estado !== 'descartada' && e.texto) EPI[e.clave] = e; }); });
+function epigrafe(t) {
+  let m, key = null; if ((m = /^(\d+)\. /.exec(t))) key = 'C' + m[1]; else if ((m = /^Módulo (\d+)\./.exec(t))) key = 'M' + m[1];
+  const e = key && EPI[key]; if (!e) return [];
+  const col = TXT[curPart];
+  const who = [new TextRun({ text: e.autor.toUpperCase(), font: BOLD, size: 15, color: col, characterSpacing: 50 })];
+  if (e.obra) who.push(new TextRun({ text: '   ' + e.obra + (e.anio ? ' (' + (e.anio < 0 ? Math.abs(e.anio) + ' a. C.' : e.anio) + ')' : ''), font: HF, size: 22, color: GREY, italics: true }));
+  if (e.traduccion_libre) who.push(new TextRun({ text: '   traducción libre', font: SF, size: 14, color: 'A9B0AD' }));
+  return [new Paragraph({ keepNext: true, spacing: { before: 60, after: 80, line: 380 }, indent: { left: 0, right: 900 }, children: [new TextRun({ text: '\u00AB' + e.texto + '\u00BB', font: HF, size: 31, color: '45423E', italics: true })] }),
+    new Paragraph({ spacing: { before: 0, after: 360 }, children: who })];
+}
 function pilar(t) { if (/^15\. /.test(t)) return TERRA; if (/^16\. /.test(t)) return GREEN; if (/^17\. /.test(t)) return ALBT; const c = PCOL[curPart]; return c === ALBERO ? ALBT : c; }
 function kicker(t) {
   let k = null, m;
   if ((m = /^(\d+)\. /.exec(t))) k = 'Capítulo ' + m[1]; else if ((m = /^Módulo (\d+)\./.exec(t))) k = 'Módulo ' + m[1]; else if ((m = /^Anexo ([A-Z])\./.exec(t))) k = 'Anexo ' + m[1];
   if (!k) return null;
-  return [new Paragraph({ keepNext: true, pageBreakBefore: true, spacing: { before: 0, after: 200, line: 40, lineRule: 'exact' }, indent: { right: TEXT_W - 1100 }, border: { top: { style: BorderStyle.SINGLE, size: 36, color: PCOL[curPart], space: 0 } }, children: [new TextRun({ text: '', size: 2 })] }),
+  return [new Paragraph({ keepNext: true, spacing: { before: 0, after: 200, line: 40, lineRule: 'exact' }, indent: { right: TEXT_W - 1100 }, border: { top: { style: BorderStyle.SINGLE, size: 36, color: PCOL[curPart], space: 0 } }, children: [new TextRun({ text: '', size: 2 })] }),
     new Paragraph({ keepNext: true, spacing: { before: 0, after: 60 }, children: [new TextRun({ text: k.toUpperCase(), font: BOLD, size: 16, color: pilar(t), characterSpacing: 70 })] })];
 }
 function cita(text) {
@@ -163,11 +175,12 @@ function parse(md) {
     if (l.startsWith('# ')) {
       heads.push([1, l.slice(2)]);
       if (/^Parte [IVX]+\. /.test(l.slice(2))) { out.push(portadilla(l.slice(2))); i++; continue; }
+      if (l.slice(2) === 'Anexos') out.push({ setPart: 'ANEXOS' });
       out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: [new TextRun({ text: l.slice(2) })] }));
       out.push(new Paragraph({ spacing: { before: 0, after: 240 }, border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: GREEN, space: 1 } }, children: [] }));
       i++; continue;
     }
-    if (l.startsWith('## ')) { const t = l.slice(3); heads.push([2, t]); const k = kicker(t); if (k) out.push(...k); out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: k ? { before: 60, after: 160 } : undefined, children: [new TextRun({ text: t })] })); i++; continue; }
+    if (l.startsWith('## ')) { const t = l.slice(3); heads.push([2, t]); const k = kicker(t); if (k) { out.push({ unit: t }); out.push(...k); } out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: k ? { before: 60, after: 100 } : undefined, children: [new TextRun({ text: t })] })); if (k) out.push(...epigrafe(t)); i++; continue; }
     if (l.startsWith('### ')) { out.push(new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun({ text: l.slice(4) })] })); i++; continue; }
     if (l.startsWith('>> ')) { out.push(...cita(l.slice(3))); i++; continue; }
     if (l.trim() === '{{firma}}') { out.push(...firma()); i++; continue; }
@@ -201,31 +214,52 @@ const toc = [
 
 function sectionsOf() {
   const mainProps = { page: { margin: { top: MARGIN, bottom: MARGIN, left: MARGIN, right: MARGIN } } };
-  const hair = { style: BorderStyle.SINGLE, size: 4, color: LINE };
-  const pnum = part => { const m = /^PARTE ([IVX]+)/.exec(part || ''); return m ? m[1] : 'I'; };
-  const hdrOf = part => { const n = pnum(part), nm = (part || '').split(' · ')[1] || '';
-    return { default: new Header({ children: [new Paragraph({ border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: PCOL[n], space: 8 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }],
-      children: [new TextRun({ text: 'SYNERGÓS', font: BOLD, size: 15, color: INK, characterSpacing: 80 }), new TextRun({ text: '  EL MÉTODO', font: SF, size: 14, color: GREY, characterSpacing: 60 }),
-        new TextRun({ text: '\t', font: SF, size: 14 }), new TextRun({ text: part ? 'PARTE ' + n + '  ' : '', font: BOLD, size: 14, color: TXT[n], characterSpacing: 60 }), new TextRun({ text: nm, font: SF, size: 14, color: GREY, characterSpacing: 60 })] })] }) }; };
-  const ftrOf = part => { const n = pnum(part), dark = PCOL[n] === ALBERO, nb = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' }, top = { style: BorderStyle.SINGLE, size: 4, color: LINE };
+  const nb = { style: BorderStyle.NONE, size: 0, color: 'FFFFFF' };
+  const pnum = part => part === 'ANEXOS' ? 'VI' : (m => m ? m[1] : 'I')(/^PARTE ([IVX]+)/.exec(part || ''));
+  const unitInfo = u => { let m; if (!u) return null;
+    if ((m = /^(\d+)\. (.*)$/.exec(u))) return { kind: 'CAPÍTULO ' + m[1], name: m[2], ch: +m[1] };
+    if ((m = /^Módulo (\d+)\. (.*)$/.exec(u))) return { kind: 'MÓDULO ' + m[1], name: m[2] };
+    if ((m = /^Anexo ([A-Z])\. (.*)$/.exec(u))) return { kind: 'ANEXO ' + m[1], name: m[2] };
+    return null; };
+  const short = (t, n) => t.length <= n ? t : t.slice(0, t.lastIndexOf(' ', n)).replace(/[,:;]$/, '') + '…';
+  // migas: parte > capitulo, modulo o anexo > nombre
+  const hdrOf = (part, unit) => { const n = pnum(part), nm = (part || '').split(' · ')[1] || '', ui = unitInfo(unit), sep = () => new TextRun({ text: '   ›   ', font: SF, size: 14, color: 'A9B0AD' });
+    const kids = [new TextRun({ text: 'SYNERGÓS', font: BOLD, size: 15, color: INK, characterSpacing: 80 }), new TextRun({ text: '  EL MÉTODO', font: SF, size: 14, color: GREY, characterSpacing: 60 }), new TextRun({ text: '\t', font: SF, size: 14 })];
+    if (part === 'ANEXOS') kids.push(new TextRun({ text: 'ANEXOS', font: BOLD, size: 14, color: TXT[n], characterSpacing: 60 }));
+    else if (part) kids.push(new TextRun({ text: 'PARTE ' + n, font: BOLD, size: 14, color: TXT[n], characterSpacing: 60 }));
+    if (ui) { kids.push(sep(), new TextRun({ text: ui.kind, font: BOLD, size: 14, color: INK, characterSpacing: 40 }), sep(), new TextRun({ text: short(ui.name, 30), font: SF, size: 14, color: GREY, characterSpacing: 30 })); }
+    else if (part && part !== 'ANEXOS') kids.push(sep(), new TextRun({ text: short(nm, 40), font: SF, size: 14, color: GREY, characterSpacing: 40 }));
+    return { default: new Header({ children: [new Paragraph({ border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: PCOL[n], space: 8 } }, tabStops: [{ type: TabStopType.RIGHT, position: TEXT_W }], children: kids })] }) }; };
+  // flujo: en el tronco (capitulos 9 a 14) las cinco fases; en el resto las seis partes y los anexos
+  const PARTS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'ANEXOS'], FASES = ['DIAGNÓSTICO', 'DISEÑO', 'PILOTO', 'ESCALA', 'SOSTENIMIENTO'], FASE_DE = { 9: 0, 10: 1, 11: 1, 12: 2, 13: 3, 14: 4 };
+  const flowOf = (part, unit) => { if (!part) return [];
+    const n = pnum(part), pc = PCOL[n], dark = pc === ALBERO, ui = unitInfo(unit), runs = [];
+    const seg = (t, st) => new TextRun({ text: ' ' + t + ' ', font: BOLD, size: 13, characterSpacing: 30, color: st === 'c' ? (dark ? INK : 'FFFFFF') : (st === 'p' ? '66706C' : 'A9B0AD'), shading: { type: ShadingType.CLEAR, fill: st === 'c' ? pc : (st === 'p' ? 'DFE5E2' : 'F1F3F2'), color: 'auto' } });
+    const gap = () => new TextRun({ text: ' ', size: 8 });
+    if (ui && ui.ch !== undefined && FASE_DE[ui.ch] !== undefined) { const k = FASE_DE[ui.ch]; FASES.forEach((f, i) => { if (i) runs.push(gap()); runs.push(seg(f, i < k ? 'p' : (i === k ? 'c' : 'f'))); }); }
+    else { const k = part === 'ANEXOS' ? 6 : PARTS.indexOf(n); PARTS.forEach((f, i) => { if (i) runs.push(gap()); runs.push(seg(i === 6 ? 'ANEXOS' : f, i < k ? 'p' : (i === k ? 'c' : 'f'))); }); }
+    return runs; };
+  const ftrOf = (part, unit) => { const n = pnum(part), dark = PCOL[n] === ALBERO, top = { style: BorderStyle.SINGLE, size: 4, color: LINE }, W1 = 2100, W3 = 760, W2 = TEXT_W - W1 - W3;
     const mark = new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'marca-agua.png')), transformation: { width: 420, height: 420 }, floating: { horizontalPosition: { relative: D.HorizontalPositionRelativeFrom.PAGE, align: D.HorizontalPositionAlign.RIGHT }, verticalPosition: { relative: D.VerticalPositionRelativeFrom.PAGE, align: D.VerticalPositionAlign.BOTTOM }, behindDocument: true, allowOverlap: true, lockAnchor: true } });
+    const cell = (w, kids, extra = {}) => new TableCell({ width: { size: w, type: WidthType.DXA }, margins: { top: 100, bottom: 0, left: 0, right: 0 }, borders: { top, bottom: nb, left: nb, right: nb }, ...extra, children: kids });
     return { default: new Footer({ children: [
-      new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [TEXT_W - 760, 760], rows: [new TableRow({ children: [
-        new TableCell({ width: { size: TEXT_W - 760, type: WidthType.DXA }, margins: { top: 100, bottom: 0, left: 0, right: 0 }, borders: { top, bottom: nb, left: nb, right: nb },
-          children: [new Paragraph({ spacing: { before: 0, after: 0 }, children: [new TextRun({ text: 'Crecer a la vez.', font: HF, size: 26, color: GREEN, italics: true })] })] }),
-        new TableCell({ width: { size: 760, type: WidthType.DXA }, margins: { top: 90, bottom: 0, left: 0, right: 0 }, borders: { top: { style: BorderStyle.SINGLE, size: 24, color: PCOL[n] }, bottom: nb, left: nb, right: nb },
-          children: [new Paragraph({ alignment: AlignmentType.RIGHT, spacing: { before: 0, after: 0 }, children: [new TextRun({ children: [PageNumber.CURRENT], font: HF, size: 30, color: INK })] })] }),
+      new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [W1, W2, W3], rows: [new TableRow({ children: [
+        cell(W1, [new Paragraph({ spacing: { before: 0, after: 0 }, children: [new TextRun({ text: 'Crecer a la vez.', font: HF, size: 26, color: GREEN, italics: true })] })]),
+        cell(W2, [new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 20, after: 0 }, children: flowOf(part, unit) })]),
+        cell(W3, [new Paragraph({ alignment: AlignmentType.RIGHT, spacing: { before: 0, after: 0 }, children: [new TextRun({ children: [PageNumber.CURRENT], font: HF, size: 30, color: INK })] })], { margins: { top: 90, bottom: 0, left: 0, right: 0 }, borders: { top: { style: BorderStyle.SINGLE, size: 24, color: PCOL[n] }, bottom: nb, left: nb, right: nb } }),
       ] })] }),
       new Paragraph({ spacing: { before: 0, after: 0, line: 20, lineRule: 'exact' }, children: [mark] }),
     ] }) }; };
   const empty = { default: new Header({ children: [new Paragraph({ children: [] })] }) }, emptyF = { default: new Footer({ children: [new Paragraph({ children: [] })] }) };
   const secs = [{ properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } }, titlePage: true }, children: cover }];
-  let cur = [...toc], first = true, part = '';
-  const push = (children, withStart) => secs.push({ properties: withStart ? { ...mainProps, page: { ...mainProps.page, pageNumbers: { start: 2 } } } : mainProps, headers: hdrOf(part), footers: ftrOf(part), children });
+  let cur = [...toc], first = true, part = '', unit = '';
+  const push = (children, withStart) => { if (!children.length) return; secs.push({ properties: withStart ? { ...mainProps, page: { ...mainProps.page, pageNumbers: { start: 2 } } } : mainProps, headers: hdrOf(part, unit), footers: ftrOf(part, unit), children }); };
   for (const el of bodyAll) {
     if (el && el.portadilla) {
-      push(cur, first); first = false; cur = []; part = el.part;
+      push(cur, first); first = false; cur = []; part = el.part; unit = '';
       secs.push({ properties: mainProps, headers: empty, footers: emptyF, children: el.portadilla });
+    } else if (el && el.setPart) { push(cur, first); first = false; cur = []; part = el.setPart; unit = '';
+    } else if (el && el.unit) { push(cur, first); first = false; cur = []; unit = el.unit;
     } else cur.push(el);
   }
   push(cur, first);

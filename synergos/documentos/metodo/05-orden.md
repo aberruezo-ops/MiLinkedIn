@@ -27,7 +27,7 @@ Un comité de puertas con criterios previos, derechos de decisión escritos y un
 | El patrocinador | Decide y firma |
 | El dueño operativo | Decide con el patrocinador |
 | El responsable de medición | Certifica los datos, no la decisión |
-| Una persona ajena al equipo del programa (segunda línea o finanzas) | Contrafirma |
+| Una persona ajena al equipo del programa (sin interés en la iniciativa: segunda línea o finanzas) | Contrafirma |
 | Quien hace el trabajo | Oído antes, por escrito |
 | El mando intermedio del ámbito | Oído antes, por escrito |
 | Quien defiende a quien recibe el servicio | Oído antes, por escrito |
@@ -65,7 +65,7 @@ El dueño de la solución es el dueño operativo, el del agente y quien figura e
 
 **Gobierno dentro de cada función.** Un comité central no ve lo que pasa en compras, en atención o en recursos humanos. Cada función que usa IA tiene una persona que responde de sus casos, que conoce el inventario de su área y que trae al comité lo que el comité no puede ver. Sin esa persona, el gobierno es un documento que la función no ha leído.
 
-**El uso informal.** En casi todas las organizaciones hay gente usando herramientas de IA que nadie ha aprobado. Prohibirlo sin ofrecer alternativa lo esconde. Desde la versión 1.8 esto es regla; solo sigue abierto cómo preguntar sin que la consulta parezca una auditoría (capítulo 17). El método pide cuatro cosas: averiguar en el diagnóstico qué se usa de verdad, con una consulta anónima; ofrecer herramientas aprobadas que sirvan para lo que la gente hace con las otras; un canal para pedir herramientas nuevas con respuesta en plazo; y la garantía de que contar un uso para que se evalúe no trae sanción (módulo 23). La garantía cubre haber probado la herramienta; no exime de comunicar y tratar una posible fuga de datos. Qué datos pueden usarse con cada herramienta lo dice el módulo 11. Lo que la gente usa a escondidas dice dónde está la necesidad.
+**El uso informal.** En casi todas las organizaciones hay gente usando herramientas de IA que nadie ha aprobado. Prohibirlo sin ofrecer alternativa lo esconde. Desde la versión 1.8 esto es regla; solo sigue abierto cómo preguntar sin que la consulta parezca una auditoría (capítulo 17). El método pide cuatro cosas: averiguar en el diagnóstico qué se usa de verdad, con una consulta anónima; ofrecer herramientas aprobadas que sirvan para lo que la gente hace con las otras; un canal para pedir herramientas nuevas con respuesta en plazo; y la garantía de que contar un uso para que se evalúe no trae sanción (módulo 23). La garantía cubre haber probado la herramienta; no exime de comunicar y tratar una posible fuga de datos. Qué datos pueden usarse con cada herramienta lo dice el módulo 11.
 
 {{img:fig-uso-informal.png|16}}
 
@@ -73,7 +73,7 @@ El dueño de la solución es el dueño operativo, el del agente y quien figura e
 
 **Herramientas de uso general.** Un asistente para toda la plantilla no ataca una restricción concreta ni tiene un flujo que mapear, así que no puede recorrer el tronco. Se aprueba por una vía corta, con cuatro condiciones escritas: reglas de uso, datos permitidos, formación mínima e indicadores de uso y de capacidad. Cada uso que entre en un servicio pasa después por el tronco.
 
-*Señal de fallo:* las puertas se aprueban por calendario y no por evidencias. Cuando la puerta se pasa porque toca, deja de ser una puerta. Otra señal: hay sistemas o agentes en uso que no están en el inventario.
+*Señal de fallo:* las puertas se aprueban por calendario y no por evidencias. Otra señal: hay sistemas o agentes en uso que no están en el inventario.
 
 >> Cuando la puerta se pasa porque toca, deja de ser una puerta.
 
@@ -151,7 +151,7 @@ La escala de madurez tiene cuatro niveles y se aplica a cada uno de los tres ele
 
 El anexo D desarrolla qué significa cada nivel para cada uno de los tres elementos y para el gobierno.
 
-**La regla de entrada.** Un acelerador entra en el servicio solo si las condiciones que necesita, en los tres elementos y en el gobierno, están en nivel 2 de madurez en el ámbito. La regla se aplica a la tecnología dentro del servicio. La IA como herramienta del equipo que transforma solo exige reglas de uso y datos autorizados. La regla no pide perfección: el nivel 2 solo pide que algo se haga de forma acordada y repetible. Pero sin eso, el acelerador multiplica lo que encuentra.
+**La regla de entrada.** Un acelerador entra en el servicio solo si las condiciones que necesita, en los tres elementos y en el gobierno, están en nivel 2 de madurez en el ámbito. La regla se aplica a la tecnología dentro del servicio. La IA como herramienta del equipo que transforma solo exige reglas de uso y datos autorizados. La exigencia es baja: el nivel 2 solo pide que algo se haga de forma acordada y repetible. Pero sin eso, el acelerador multiplica lo que encuentra.
 
 ### Dimensionamiento
 

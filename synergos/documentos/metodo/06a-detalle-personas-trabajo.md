@@ -8,17 +8,17 @@ El hilo que los une es una pregunta que la arquitectura plantea y no responde: e
 
 ### Por qué empezar por aquí
 
-Casi todos los proyectos de IA empiezan preguntando qué puede hacer la máquina. Synergós empieza al revés: qué aporta hoy la persona que hace el trabajo, y qué parte de eso no debería perderse. No por romanticismo. Porque la evidencia sobre tecnología y productividad dice, una y otra vez, que el valor sale de la combinación y no de la sustitución.
+Casi todos los proyectos de IA empiezan preguntando qué puede hacer la máquina. Synergós empieza al revés: qué aporta hoy la persona que hace el trabajo, y qué parte de eso no debería perderse. No lo hago por romanticismo: la evidencia sobre tecnología y productividad dice, una y otra vez, que el valor sale de combinar a las personas con la máquina más que de sustituirlas.
 
 ### Lo que dicen las fuentes
 
-Ajay Agrawal, Joshua Gans y Avi Goldfarb propusieron en 2018 una forma muy útil de mirar la IA: es una tecnología que abarata la predicción. Predecir qué cliente va a reclamar, qué expediente tiene un error, qué palabra viene después. Cuando algo se abarata, lo que lo complementa se vuelve más valioso. Y el complemento de la predicción es el juicio: decidir qué hacer con ella, qué riesgo se acepta, qué importa en este caso concreto. La IA no elimina la necesidad de juicio; la aumenta, porque genera más predicciones sobre las que alguien tiene que decidir.
+Ajay Agrawal, Joshua Gans y Avi Goldfarb propusieron en 2018 una forma muy útil de mirar la IA: es una tecnología que abarata la predicción. Predecir qué cliente va a reclamar, qué expediente tiene un error, qué palabra viene después. Cuando algo se abarata, lo que lo complementa gana valor. Y el complemento de la predicción es el juicio: decidir qué hacer con ella, qué riesgo se acepta, qué importa en este caso concreto. La IA no elimina la necesidad de juicio; la aumenta, porque genera más predicciones sobre las que alguien tiene que decidir.
 
 Daron Acemoglu y Pascual Restrepo mostraron en 2019 que la historia de la automatización tiene dos fuerzas. Una desplaza a las personas de tareas que pasan a hacer las máquinas. La otra crea tareas nuevas en las que las personas tienen ventaja, y devuelve trabajo. Cuando solo opera la primera, el empleo y los salarios se resienten. El resultado depende de cuántas tareas nuevas se crean, y eso no ocurre solo: es en gran parte una decisión de diseño.
 
 Paul Daugherty y James Wilson describieron en 2018 lo que llamaron el medio que falta: el espacio en el que personas y máquinas trabajan juntas. Las personas entrenan a los sistemas, explican sus resultados y vigilan que se usen bien. Las máquinas amplían la capacidad de las personas, interactúan a escala y hacen trabajo físico o repetitivo. Las organizaciones que más ganaban no eran las que más automatizaban, sino las que rediseñaban los procesos alrededor de esa colaboración.
 
-David Autor, David Mindell y Elisabeth Reynolds llegaron a una conclusión parecida en el estudio del MIT sobre el futuro del trabajo, publicado como libro en 2022: la tecnología no determina por sí sola el resultado, lo determinan las instituciones y las decisiones que la rodean.
+David Autor, David Mindell y Elisabeth Reynolds llegaron a una conclusión parecida en el estudio del MIT sobre el futuro del trabajo, publicado como libro en 2022: el resultado de la tecnología depende de las instituciones y de las decisiones que la rodean.
 
 ### Qué aporta una persona: un inventario
 
@@ -34,7 +34,7 @@ En el trabajo real, lo que una persona aporta y una máquina hoy no aporta, o ap
 | Sentido | Saber para qué se hace algo y cuándo deja de tener sentido | Proponer eliminar un trámite que ya no sirve a nadie |
 | Enseñar | Transmitir el oficio a quien llega | El veterano que explica por qué ese caso es distinto |
 
-La tabla no es una lista de virtudes humanas en abstracto. Es una plantilla de diagnóstico. En la fase 1, para cada rol que va a cambiar, se pregunta cuáles de estas siete aportaciones hace hoy esa persona, con qué frecuencia y qué pasaría si dejara de hacerlas. Se cruza con el mapa de lo que nadie escribió, porque buena parte de esas aportaciones viven en lo tácito.
+La tabla es una plantilla de diagnóstico. En la fase 1, para cada rol que va a cambiar, se pregunta cuáles de estas siete aportaciones hace hoy esa persona, con qué frecuencia y qué pasaría si dejara de hacerlas. Se cruza con el mapa de lo que nadie escribió, porque buena parte de esas aportaciones viven en lo tácito.
 
 ### Cómo se usa en el método
 
@@ -64,13 +64,13 @@ Lisanne Bainbridge publicó en 1983 un artículo breve que sigue siendo de lo m�
 
 Raja Parasuraman y Victor Riley distinguieron en 1997 cuatro maneras de relacionarse con la automatización. El uso, que es activarla cuando conviene, y tres problemas: el mal uso, que es confiar demasiado en ella (el llamado sesgo de automatización); el desuso, que es desconfiar tanto que se ignora cuando acierta; y el abuso, que es automatizar sin pensar en las consecuencias para quien tiene que convivir con ella, una decisión de quien diseña y dirige, no del operador. Los tres problemas aparecen hoy con la IA generativa. El estudio de la frontera dentada de 2023 encontró que, en las tareas que quedaban fuera de la frontera, los consultores con IA lo hacían peor que sin ella. Mi lectura es que confiaban en la IA justo donde se equivocaba, y por eso lo tomo como ejemplo del primero.
 
-Para Synergós, la consecuencia es concreta: "poner a una persona en el bucle" no es una solución por sí misma. Es el punto de partida de un problema de diseño.
+Para Synergós, la consecuencia es concreta: "poner a una persona en el bucle" es el punto de partida de un problema de diseño, y por sí misma no resuelve nada.
 
 ### El diseño del trabajo
 
 J. Richard Hackman y Greg Oldham propusieron en 1976 el modelo de las características del puesto, uno de los más contrastados de la psicología del trabajo. Un puesto motiva y rinde cuando tiene cinco cosas: variedad de habilidades, identidad de la tarea (hacer algo completo y reconocible, no una pieza suelta), significado (que importe a alguien), autonomía y retroalimentación sobre el resultado.
 
-El modelo es una herramienta excelente para evaluar un rediseño con IA. Si la IA hace las partes variadas y deja a la persona las repetitivas, baja la variedad. Si fragmenta el trabajo y la persona ya no ve el caso completo, baja la identidad. Si la persona solo valida lo que propone la máquina, baja la autonomía. Un rediseño que empeora las cinco características producirá peores resultados aunque la herramienta sea excelente, porque la gente dejará de implicarse.
+El modelo sirve para evaluar un rediseño con IA. Si la IA hace las partes variadas y deja a la persona las repetitivas, baja la variedad. Si fragmenta el trabajo y la persona ya no ve el caso completo, baja la identidad. Si la persona solo valida lo que propone la máquina, baja la autonomía. Un rediseño que empeora las cinco características producirá peores resultados aunque la herramienta sea excelente, porque la gente dejará de implicarse.
 
 Amy Wrzesniewski y Jane Dutton describieron en 2001 algo complementario: las personas rediseñan su propio trabajo desde dentro, cambiando tareas, relaciones y la manera de entenderlo. Lo llamaron *job crafting*. Un rediseño que deja margen para eso aprovecha lo que la gente sabe de su trabajo. Uno que lo cierra todo lo desperdicia.
 

@@ -2,9 +2,9 @@
 
 ### Cambio y transición no son lo mismo
 
-William Bridges propuso en 1991 una distinción que cambia la manera de comunicar una transformación. El cambio es lo que ocurre fuera: una herramienta nueva, una estructura distinta, un proceso rediseñado. La transición es lo que ocurre dentro de las personas mientras se adaptan. Y la transición no empieza con lo nuevo, sino con un final: lo primero que hace alguien ante un cambio es perder algo (una forma de trabajar, una identidad, una relación, una seguridad). Después viene una zona neutra, incómoda, en la que lo viejo ya no sirve y lo nuevo todavía no funciona. Solo después llega el nuevo comienzo.
+William Bridges propuso en 1991 una distinción que cambia la manera de comunicar una transformación. El cambio es lo que ocurre fuera: una herramienta nueva, una estructura distinta, un proceso rediseñado. La transición es lo que ocurre dentro de las personas mientras se adaptan. Y la transición empieza con un final, antes que con lo nuevo: lo primero que hace alguien ante un cambio es perder algo (una forma de trabajar, una identidad, una relación, una seguridad). Después viene una zona neutra, incómoda, en la que lo viejo ya no sirve y lo nuevo todavía no funciona. Solo después llega el nuevo comienzo.
 
-Victor Turner, desde la antropología, había descrito en 1969 ese mismo espacio intermedio en los ritos de paso, a partir de una idea de Arnold van Gennep (1909): la fase liminal, en la que alguien ya no es lo que era y todavía no es lo que será. Y en ella, el vínculo entre quienes la atraviesan juntos, la *communitas*.
+Victor Turner, desde la antropología, había descrito en 1969 ese mismo espacio intermedio en los ritos de paso, a partir de una idea de Arnold van Gennep (1909): la fase liminal, en la que alguien ya no es lo que era y todavía no es lo que será, y el vínculo entre quienes la atraviesan juntos, la *communitas*.
 
 ### Lo que el método pide
 
@@ -14,7 +14,7 @@ Victor Turner, desde la antropología, había descrito en 1969 ese mismo espacio
 
 **Contar con escenas, no solo con argumentos.** Un argumento convence a quien ya estaba de acuerdo. Una escena llega a más gente. Por eso espero que el mapa funcione en los comités: una fila que dice "una persona" se ve. En la comunicación del programa, los casos concretos de quien hace el trabajo valen más que cualquier presentación.
 
-**Comunicar en las dos direcciones.** El canal de propuestas con respuesta en plazo (capítulo 15) es parte de la comunicación, no un buzón aparte. Una propuesta sin respuesta comunica que nadie escucha.
+**Comunicar en las dos direcciones.** El canal de propuestas con respuesta en plazo (capítulo 15) es parte de la comunicación. Una propuesta sin respuesta comunica que nadie escucha.
 
 ### Señales de que va mal
 
@@ -26,7 +26,7 @@ Victor Turner, desde la antropología, había descrito en 1969 ese mismo espacio
 
 ### El proveedor dentro del sistema
 
-Casi todas las transformaciones con tecnología dependen de proveedores. El método los trata como parte del sistema de colaboración y del de riesgo, no como un asunto de compras.
+Casi todas las transformaciones con tecnología dependen de proveedores. El método los trata como parte del sistema de colaboración y del de riesgo.
 
 **Contratar resultados, no horas.** Cuando se puede, el contrato con el proveedor se vincula a los indicadores del programa (el delta), con una parte del pago condicionada. No siempre es posible, pero cuando lo es alinea los incentivos.
 
@@ -90,7 +90,7 @@ Casi todos los programas de transformación acumulan iniciativas. Cada área pro
 
 ## Cómo encajan los catorce primeros módulos
 
-Los módulos no son capítulos independientes. Se cruzan en cada fase del tronco. Los ocho siguientes, nacidos de las tres miradas, se integran en las puertas con la tabla "Lo que cambia en el método con las tres miradas", que va tras el módulo 22. La tabla "Cómo encajan los veinticuatro módulos", al cierre de esta parte, tras el módulo 24, cubre los veinticuatro y dice a qué causa del capítulo 2 responde cada uno. La tabla siguiente indica en qué fase pesa más cada uno de los catorce primeros.
+Los módulos se cruzan en cada fase del tronco. Los ocho siguientes, nacidos de las tres miradas, se integran en las puertas con la tabla "Lo que cambia en el método con las tres miradas", que va tras el módulo 22. La tabla "Cómo encajan los veinticuatro módulos", al cierre de esta parte, tras el módulo 24, cubre los veinticuatro y dice a qué causa del capítulo 2 responde cada uno. La tabla siguiente indica en qué fase pesa más cada uno de los catorce primeros.
 
 | Módulo | Diagnóstico | Diseño | Piloto | Escala | Sostenimiento |
 |---|---|---|---|---|---|

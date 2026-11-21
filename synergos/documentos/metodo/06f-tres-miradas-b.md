@@ -24,7 +24,7 @@ El capítulo 15 trató lo que no encaja en el patrón dentro del trabajo. Este m
 
 ### Dentro de la organización
 
-**La brecha digital no es solo de edad.** Hay personas muy jóvenes con poca soltura en herramientas profesionales y personas mayores con mucha. El diagnóstico pregunta por la soltura real, no la supone por la edad.
+**La brecha digital.** La edad no la explica: hay personas muy jóvenes con poca soltura en herramientas profesionales y personas mayores con mucha. El diagnóstico pregunta por la soltura real y no la supone por la edad.
 
 **El conocimiento de los veteranos.** Los veteranos suelen concentrar las filas críticas del mapa. Si el diseño los trata como el colectivo al que hay que convencer, en lugar de como la fuente principal del conocimiento, los pierde dos veces: como personas y como saber.
 
@@ -50,7 +50,7 @@ En el sector público hay dos referencias que cambian la perspectiva. Michael Li
 
 **Un mapa del recorrido, junto al mapa de lo que nadie escribió.** En el diagnóstico, además de mirar el trabajo desde dentro, se sigue el recorrido de quien recibe el servicio: por dónde entra, dónde espera, dónde se pierde, dónde abandona, qué le explican y qué no. Se hace con personas reales que lo recorren, no con un diagrama.
 
-**Un canal humano garantizado.** Para todo servicio en el que se ponga IA, existe una forma de hablar con una persona, clara y sin laberinto. No es nostalgia: es la salida para los casos que no encajan, que el sistema no resolverá, y para las personas que no pueden o no quieren usar el canal digital.
+**Un canal humano garantizado.** Para todo servicio en el que se ponga IA, existe una forma de hablar con una persona, clara y sin laberinto. Es la salida para los casos que no encajan, que el sistema no resolverá, y para las personas que no pueden o no quieren usar el canal digital.
 
 **Explicación y reclamación.** Si una decisión afecta a alguien, esa persona puede saber por qué se tomó, en un lenguaje que entienda, y a quién reclamar. El Reglamento general de protección de datos ya lo exige en muchos casos de decisiones automatizadas; el método lo exige en todos.
 
@@ -60,7 +60,7 @@ En el sector público hay dos referencias que cambian la perspectiva. Michael Li
 
 ### El valor que crea la persona para quien recibe el servicio
 
-Lo que una persona aporta desde el punto de vista de quien recibe el servicio es, muchas veces, lo que la organización menos mide: que alguien escuche, que alguien entienda que su caso es distinto, que alguien responda con nombre. En servicios sensibles (salud, servicios sociales, prestaciones, educación) eso es el servicio, no un adorno. El módulo 3 lo recoge como criterio para no poner IA, o para ponerla solo detrás de la persona.
+Lo que una persona aporta desde el punto de vista de quien recibe el servicio es, muchas veces, lo que la organización menos mide: que alguien escuche, que alguien entienda que su caso es distinto, que alguien responda con nombre. En servicios sensibles (salud, servicios sociales, prestaciones, educación) eso es el servicio. El módulo 3 lo recoge como criterio para no poner IA, o para ponerla solo detrás de la persona.
 
 !! Pregunta abierta. ¿Quién representa a quien recibe el servicio en las puertas? | Los usuarios no están en los comités. Se les pregunta, se les observa y se miden sus resultados, pero no deciden. Desde la versión 1.8 es regla que el comité de puertas oiga antes de decidir, por escrito, a una persona con la función explícita de defender la mirada de quien recibe el servicio, con datos del recorrido (capítulo 18). Lo que sigue abierto es si una función interna basta, o si en algunos servicios haría falta una representación externa.
 
@@ -84,7 +84,7 @@ La IA parece inmaterial y no lo es. Funciona en centros de datos que consumen el
 
 ## Lo que cambia en el método con las tres miradas
 
-Las tres miradas no añaden fases ni puertas. Añaden preguntas y voces dentro de las que ya existen. Ninguna de las personas que la tabla nombra se suma a los cuatro que deciden en el comité de puertas: se las oye antes, por escrito (capítulo 18). Las líneas que van al anexo a la decisión solo son obligatorias en el alcance que marca la tabla "Qué es obligatorio según alcance", al cierre de esta parte.
+Las tres miradas añaden preguntas y voces dentro de las fases y puertas que ya existen. Ninguna de las personas que la tabla nombra se suma a los cuatro que deciden en el comité de puertas: se las oye antes, por escrito (capítulo 18). Las líneas que van al anexo a la decisión solo son obligatorias en el alcance que marca la tabla "Qué es obligatorio según alcance", al cierre de esta parte.
 
 | Mirada | Qué se añade a las puertas |
 |---|---|

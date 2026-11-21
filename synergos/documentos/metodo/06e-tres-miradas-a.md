@@ -23,7 +23,7 @@ Cambia más porque buena parte de su trabajo consiste en lo que la IA hace cada 
 
 ### Lo que dicen las fuentes
 
-Quy Huy publicó en 2001 un artículo titulado precisamente "En defensa de los mandos intermedios". Frente a la idea dominante de que son una capa de burocracia que conviene adelgazar, mostró que en las transformaciones que funcionaban eran ellos quienes mantenían la continuidad, atendían el lado emocional del cambio en sus equipos y aportaban ideas que la dirección no veía porque estaban más cerca del trabajo. Steven Floyd y Bill Wooldridge habían descrito en los años noventa sus papeles estratégicos: no solo ejecutan la estrategia, también la alimentan desde abajo y la reinterpretan.
+Quy Huy publicó en 2001 un artículo titulado precisamente "En defensa de los mandos intermedios". Frente a la idea dominante de que son una capa de burocracia que conviene adelgazar, mostró que en las transformaciones que funcionaban eran ellos quienes mantenían la continuidad, atendían el lado emocional del cambio en sus equipos y aportaban ideas que la dirección no veía porque estaban más cerca del trabajo. Steven Floyd y Bill Wooldridge habían descrito en los años noventa sus papeles estratégicos: ejecutan la estrategia, pero además la alimentan desde abajo y la reinterpretan.
 
 ### Lo que pide el método
 
@@ -47,7 +47,7 @@ Quy Huy publicó en 2001 un artículo titulado precisamente "En defensa de los m
 
 Edgar Schein propuso en 1985 una forma de entender la cultura de una organización en tres niveles. Arriba, lo visible: los artefactos, cómo son las oficinas, cómo se viste la gente, qué documentos se producen. En medio, los valores declarados: lo que la organización dice que le importa. Abajo, los supuestos básicos: lo que nadie dice porque se da por hecho, y que es lo que de verdad orienta el comportamiento. Una transformación que solo cambia los artefactos (las herramientas) y los valores declarados (el discurso) choca con los supuestos y pierde.
 
-Un ejemplo de supuesto básico que bloquea muchos programas con IA: "equivocarse aquí se paga caro". Ninguna organización lo escribe. Muchas lo viven. Con ese supuesto, ningún piloto informará con honestidad de lo que falla.
+Un ejemplo de supuesto básico que bloquea muchos programas con IA: "equivocarse aquí se paga caro". Ninguna organización lo escribe, pero muchas lo viven. Con ese supuesto, ningún piloto informará con honestidad de lo que falla.
 
 ### La estrella de Galbraith
 
@@ -55,11 +55,11 @@ Jay Galbraith propuso un modelo, conocido como el modelo de la estrella, que sig
 
 ### Lo que pide el método
 
-**Leer los supuestos en el diagnóstico.** Tres preguntas a quien hace el trabajo y a los mandos intermedios: ¿qué pasa aquí cuando alguien se equivoca? ¿Qué se premia de verdad, aunque no se diga? ¿Qué no se puede decir en una reunión? Las respuestas no se convierten en un informe de cultura; se usan para decidir qué puede fallar en el piloto.
+**Leer los supuestos en el diagnóstico.** Tres preguntas a quien hace el trabajo y a los mandos intermedios: ¿qué pasa aquí cuando alguien se equivoca? ¿Qué se premia de verdad, aunque no se diga? ¿Qué no se puede decir en una reunión? Las respuestas se usan para decidir qué puede fallar en el piloto, sin montar con ellas un informe de cultura.
 
 **Revisar las cinco puntas en cada diseño.** El anexo a la decisión de puerta lleva una línea por punta: qué cambia en estrategia, estructura, procesos, recompensas y personas. Es obligatorio en las iniciativas de sistema y recomendado en las de flujo (tabla "Qué es obligatorio según alcance", al cierre de esta parte). Si cuatro no cambian, el diseño probablemente no se sostendrá.
 
-**Cambiar primero lo que se premia.** De las cinco puntas, la que más rápido mueve el comportamiento suele ser la recompensa. No solo la económica: lo que se reconoce en público, quién asciende, qué se celebra.
+**Cambiar primero lo que se premia.** De las cinco puntas, la que más rápido mueve el comportamiento suele ser la recompensa. Cuenta la económica y también lo que se reconoce en público, quién asciende y qué se celebra.
 
 !! Pregunta abierta. ¿Se puede cambiar un supuesto básico en un programa de dieciocho meses? | Schein diría que la cultura cambia despacio y casi siempre por experiencia, no por discurso: la gente cambia sus supuestos cuando ve, repetidas veces, que lo nuevo funciona. El método apuesta por eso (los pilotos visibles, las puertas que de verdad retiran, el error que no se castiga). No sé si dieciocho meses bastan en organizaciones con culturas muy asentadas.
 
@@ -99,7 +99,7 @@ La tabla no dice cuántas personas hacen falta en cada fase. Ese dato tengo que 
 
 ### La mirada de quien trabaja
 
-Para quien hace el trabajo, la IA no es solo una herramienta. Es, cada vez más, algo que reparte su trabajo, mide su rendimiento y propone decisiones sobre él. Katherine Kellogg, Melissa Valentine y Angèle Christin describieron en 2020 cómo los algoritmos se han convertido en un nuevo terreno de disputa sobre el control del trabajo: dirigen, evalúan y disciplinan, a menudo de forma menos visible que un jefe. Monideepa Tarafdar y sus coautores habían documentado en 2007 el tecnoestrés: la sobrecarga, la invasión del tiempo personal, la complejidad, la inseguridad y la incertidumbre que la tecnología puede producir en quien trabaja con ella.
+Para quien hace el trabajo, la IA es una herramienta y, cada vez más, algo que reparte su trabajo, mide su rendimiento y propone decisiones sobre él. Katherine Kellogg, Melissa Valentine y Angèle Christin describieron en 2020 cómo los algoritmos se han convertido en un nuevo terreno de disputa sobre el control del trabajo: dirigen, evalúan y disciplinan, a menudo de forma menos visible que un jefe. Monideepa Tarafdar y sus coautores habían documentado en 2007 el tecnoestrés: la sobrecarga, la invasión del tiempo personal, la complejidad, la inseguridad y la incertidumbre que la tecnología puede producir en quien trabaja con ella.
 
 ### El marco legal en España
 
@@ -115,7 +115,7 @@ Estas referencias no sustituyen al análisis jurídico de cada caso, y su aplica
 
 ### Lo que pide el método
 
-**Representación legal en el diagnóstico.** No como trámite, sino como fuente. La representación de los trabajadores suele conocer problemas del trabajo real que no llegan a la dirección. Informarla pronto evita conflictos y mejora el diseño. Cuando una decisión de puerta toca condiciones de trabajo, la representación legal es además una de las partes a las que el comité de puertas oye antes de decidir, por escrito (capítulo 18).
+**Representación legal en el diagnóstico.** La representación de los trabajadores suele conocer problemas del trabajo real que no llegan a la dirección, así que se le pregunta por lo que sabe y no por cumplir un trámite. Informarla pronto evita conflictos y mejora el diseño. Cuando una decisión de puerta toca condiciones de trabajo, la representación legal es además una de las partes a las que el comité de puertas oye antes de decidir, por escrito (capítulo 18).
 
 **Separar asistir de vigilar.** Una IA que ayuda a una persona a hacer su trabajo no es lo mismo que una que mide cómo lo hace. Si un sistema hace las dos cosas, el diseño lo dice y lo justifica en el anexo a la decisión de puerta, y la persona sabe qué se mide de ella.
 

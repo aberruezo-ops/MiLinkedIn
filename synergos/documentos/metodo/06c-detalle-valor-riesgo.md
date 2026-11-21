@@ -55,7 +55,7 @@ Robert Kaplan y David Norton propusieron en los años noventa el cuadro de mando
 
 ### La capacidad liberada
 
-La mayoría de los casos de negocio de IA prometen horas ahorradas. Pero una hora ahorrada no es un euro ganado hasta que alguien decide qué se hace con ella. Si nadie lo decide, la organización la absorbe: la gente hace más de lo mismo, o lo mismo más despacio, o cosas que nadie ha pedido. El método exige que la capacidad liberada tenga un destino. Se escribe en el diseño, al responder a la segunda pregunta de la puerta, y se confirma antes de aprobar la escala: se reinvierte en el caso difícil, en la calidad, en la relación con quien recibe el servicio, en mejorar el proceso, en formar, o se reduce coste de una forma concreta. Cada destino tiene su indicador.
+La mayoría de los casos de negocio de IA prometen horas ahorradas. Sin una decisión sobre qué se hace con ellas, la organización las absorbe: la gente hace más de lo mismo, o lo mismo más despacio, o cosas que nadie ha pedido. El método exige que la capacidad liberada tenga un destino. Se escribe en el diseño, al responder a la segunda pregunta de la puerta, y se confirma antes de aprobar la escala: se reinvierte en el caso difícil, en la calidad, en la relación con quien recibe el servicio, en mejorar el proceso, en formar, o se reduce coste de una forma concreta. Cada destino tiene su indicador.
 
 >> Una hora ahorrada no es un euro ganado hasta que alguien decide qué se hace con ella.
 
@@ -63,7 +63,7 @@ La mayoría de los casos de negocio de IA prometen horas ahorradas. Pero una hor
 
 ### El valor que generan las personas
 
-El método pide que el modelo económico incluya lo que aportan las personas en el diseño elegido, no solo lo que se ahorra en ellas. Hay al menos cuatro fuentes de valor que casi nunca se cuentan:
+El método pide que el modelo económico incluya lo que aportan las personas en el diseño elegido, además de lo que se ahorra en ellas. Hay al menos cuatro fuentes de valor que casi nunca se cuentan:
 
 - **Los errores que se evitan.** Los casos raros que una persona detecta y un sistema no. Se miden por muestreo en el piloto.
 - **La confianza de quien recibe el servicio.** Se refleja en reclamaciones, en recurrencia o en recaudación voluntaria, según el servicio.
@@ -82,7 +82,7 @@ El método pide que el modelo económico incluya lo que aportan las personas en 
 
 ### Por qué un módulo propio
 
-La IA ha devuelto a los datos un protagonismo que nunca debieron perder. Pero el método no los trata como un asunto técnico, sino como conocimiento explícito con dueño.
+La IA ha devuelto a los datos un protagonismo que nunca debieron perder. El método los trata como conocimiento explícito con dueño, más que como un asunto técnico.
 
 ### Lo que pide el método
 
@@ -92,7 +92,7 @@ La IA ha devuelto a los datos un protagonismo que nunca debieron perder. Pero el
 
 **Lo que los datos no dicen.** Los datos registran lo que el sistema anterior permitía registrar. Lo que la gente hacía por fuera (las llamadas, las notas en papel, los arreglos) no está. El mapa de lo que nadie escribió es, entre otras cosas, el mapa de lo que falta en los datos.
 
-**Plataforma antes que piezas.** Los sistemas de información se diseñan como una plataforma común, con componentes reutilizables, antes que como soluciones a medida para cada caso. La fuente está en el capítulo 17. La razón no es estética: cada solución a medida es una deuda técnica que alguien pagará. Elegir la plataforma y la arquitectura lo decide el área de tecnología, con el comité de puertas como consultado (capítulo 18).
+**Plataforma antes que piezas.** Los sistemas de información se diseñan como una plataforma común, con componentes reutilizables, antes que como soluciones a medida para cada caso. La fuente está en el capítulo 17. La razón es que cada solución a medida es una deuda técnica que alguien pagará. Elegir la plataforma y la arquitectura lo decide el área de tecnología, con el comité de puertas como consultado (capítulo 18).
 
 **Salida pactada.** Con cada proveedor de tecnología se pacta desde el principio cómo se sale: en qué formato se recuperan los datos, quién es dueño de los modelos ajustados con datos propios y cuánto cuesta cambiar.
 
@@ -114,7 +114,7 @@ El Reglamento europeo de inteligencia artificial (Reglamento (UE) 2024/1689) cla
 
 ### Lo que el método añade
 
-**Responsabilidad con nombre.** Para cada sistema de IA en el servicio, una persona responde de lo que hace. No un comité. Una persona, que puede apoyarse en un comité. Es el dueño de la solución, el mismo que figura en el inventario (capítulo 18).
+**Responsabilidad con nombre.** Para cada sistema de IA en el servicio, responde de lo que hace una persona y no un comité, aunque pueda apoyarse en uno. Es el dueño de la solución, el mismo que figura en el inventario (capítulo 18).
 
 **Explicación a quien recibe el servicio.** Si una decisión afecta a alguien, ese alguien tiene que poder saber por qué se tomó y a quién reclamar. Es una exigencia legal en muchos casos y una exigencia de confianza en todos. Esas decisiones tienen además el techo de autonomía del capítulo 17.
 

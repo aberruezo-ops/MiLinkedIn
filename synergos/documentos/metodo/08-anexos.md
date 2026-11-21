@@ -123,7 +123,7 @@ Una página por opción de diseño. Es el núcleo de la decisión y se pide en c
 | Tres necesidades | Para cada rol que cambia, si gana o pierde autonomía, competencia y vínculo. Una línea cada una | Módulo 8 |
 | Cinco puntas | Qué cambia en estrategia, estructura, procesos, recompensas y personas. Una línea por punta | Módulo 16 |
 | Roles que se reducen | Qué roles se reducen con esta opción. Si alguno se reduce, el plan de transición por persona va aparte | Módulo 19 |
-| Asistir o vigilar | Si el sistema, además de ayudar, mide a quien trabaja, se dice, se justifica y se dice qué sabe la persona de lo que se mide | Módulo 18 |
+| Asistir o vigilar | Si el sistema, además de ayudar, mide a quien trabaja, se declara, se justifica y se indica qué sabe la persona de lo que se mide | Módulo 18 |
 | Huella y dependencia | La huella material de la opción y de qué proveedor o modelo depende | Módulo 22 |
 
 ## Anexo D. La escala de madurez por elemento
@@ -355,7 +355,7 @@ Cada fuente aparece con lo que aporta al método y, en las que más pesan, con l
 
 **Consultoras.** Para la versión 1.5 se revisaron publicaciones de McKinsey, BCG, Deloitte y Accenture. Sus encuestas con cifras no se citan, porque no son evidencia independiente y no he podido cotejar las cifras en el documento original. El capítulo 17 las menciona solo como contexto, sin cifras. La versión 1.7 cita un texto de práctica de McKinsey (2025), que conozco por resúmenes y que el módulo 24 usa como lista de comprobación; su entrada está más abajo.
 
-**Revisión de la versión 1.6.** Para llevar al método la implantación y la adopción por los equipos se revisaron experiencias de profesionales de adopción y cambio publicadas en LinkedIn (diez publicaciones). Ninguna se cita: son testimonios de práctica, no estudios, y sirven para contrastar prácticas, no como evidencia. Lo que se añade (cinco propuestas) se presenta como propuesta de la versión 1.6, sin atribuir a nadie, y necesita contraste con casos reales.
+**Revisión de la versión 1.6.** Para llevar al método la implantación y la adopción por los equipos se revisaron experiencias de profesionales de adopción y cambio publicadas en LinkedIn (diez publicaciones). Ninguna se cita: son testimonios de práctica y no cuentan como evidencia, pero sirven para contrastar prácticas. Lo que se añade (cinco propuestas) se presenta como propuesta de la versión 1.6, sin atribuir a nadie, y necesita contraste con casos reales.
 
 **Revisión de la versión 1.7.** Para ampliar el método en innovación con IA, estrategia, gobierno y adopción se revisaron informes de 2025 y 2026, temarios de unos treinta programas para directivos, textos de autores de gestión y treinta y dos publicaciones de LinkedIn (las notas están en el cuaderno). Tres reglas. Las publicaciones de LinkedIn no se citan: sirvieron para ver qué preocupa a quien implanta. Los temarios se usaron como lista de comprobación de lo que el método no cubría. Y ninguna cifra de esos informes entra en el documento, porque la mayoría solo pude consultarla en resúmenes y varias se contradicen entre sí; lo que entra son prácticas, presentadas como propuestas de la versión 1.7. La parte legal de esa revisión (calendarios y normas) se dejó fuera: el gobierno del que habla el método es el de la organización sobre su IA. Las normas que el texto sí cita vienen de versiones anteriores y están en "Normas citadas".
 
@@ -409,7 +409,7 @@ Cada fuente aparece con lo que aporta al método y, en las que más pesan, con l
 
 ## Anexo F. Registro de versiones
 
-La tabla dice qué cambió en cada versión. Cuando un cambio responde a algo aprendido, la misma celda lo dice. No hay una columna aparte para el porqué.
+Cada fila dice qué cambió en esa versión. Cuando el cambio responde a algo aprendido, la misma celda lo dice, porque no hay una columna aparte para el porqué.
 
 | Versión | Fecha | Qué cambia |
 |---|---|---|
