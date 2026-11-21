@@ -268,7 +268,7 @@ function sectionsOf() {
   return secs;
 }
 const doc = new Document({
-  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 1.8', description: 'Método Synergós, documento de trabajo',
+  creator: 'Alejandro Berruezo', title: 'Synergós. El método. Versión 2.0', description: 'Método Synergós, documento de trabajo',
   features: { updateFields: true },
   styles: {
     default: { document: { run: { font: BF, size: 21, color: INK } } },
@@ -289,4 +289,4 @@ const doc = new Document({
   ],
   sections: sectionsOf()
 });
-Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v1.8.docx'), b); console.log('ok', files.length, 'ficheros'); });
+Packer.toBuffer(doc).then(b => { fs.writeFileSync(path.join(dir, 'Synergos-El-metodo-v2.0.docx'), b); console.log('ok', files.length, 'ficheros'); });

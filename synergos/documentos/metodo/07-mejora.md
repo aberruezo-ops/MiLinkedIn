@@ -90,9 +90,9 @@ Son cuatro datos que el documento necesita y que solo puedo poner yo. La versió
 - **El tamaño de un área.** El capítulo 13 pide varios referentes por área y no dice cuántas personas tiene un área.
 - **Los valores numéricos de partida.** El anexo G lista las expresiones sin número del documento (suficiente, baja y estable, pocos) y quién fija cada una en un programa. Solo lleva valor donde el documento ya daba uno.
 
-## 22. Hoja de ruta: hacia la versión 2.0
+## 22. Hoja de ruta: hacia la versión 3.0
 
-La versión actual recoge el método tal como lo entiendo hoy, ordenado y con sus dudas a la vista. La 2.0 tendría que cambiar sobre todo en tres frentes.
+Esta versión se llama 2.0 por lo mucho que cambia desde la 1.8: dos auditorías de coherencia, más de cincuenta fuentes nuevas, varias reglas propuestas y otra forma de presentar el documento. No ha cumplido lo que la hoja de ruta anterior pedía a una 2.0. Aquella pedía evidencia, herramientas y comunidad, y los tres frentes siguen abiertos: a la fecha ningún programa ha aplicado el método completo. Pasan, tal cual, a ser la condición de la 3.0.
 
 **Evidencia.** Aplicar el método completo en al menos un programa y sustituir casos compuestos por casos reales, anonimizados y con permiso, en las piezas que más los necesitan: el mapa, la retirada del piloto y el indicador de criterio. Es también el momento de dar valor a los cuatro datos que solo puedo poner yo y que el capítulo 21 deja pendientes.
 

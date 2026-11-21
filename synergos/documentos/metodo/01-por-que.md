@@ -1,6 +1,6 @@
 # Cómo leer este documento
 
-Este documento describe el método Synergós en su versión 1.8. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
+Este documento describe el método Synergós en su versión 2.0. Lo escribo para tenerlo entero en un solo sitio, para discutirlo con quien quiera mejorarlo y para que sirva de base al libro, al curso o al trabajo que venga después. No es un folleto. Está escrito para quien dirige una transformación dentro de una organización y quiere saber qué hacer el lunes, pero también para quien quiera desmontarlo.
 
 Antes de empezar, tres avisos.
 
@@ -82,4 +82,4 @@ La idea sociotécnica de Trist y Bamforth tiene continuidad reciente. Barley (19
 
 **No es una garantía.** Ningún método lo es. Lo que Synergós promete es más modesto y, creo, más útil: que las decisiones importantes se tomen sabiendo lo que se arriesga, y que el programa tenga formas baratas de equivocarse y de dar marcha atrás.
 
-**No es un producto cerrado.** Va por la versión 1.8, tiene preguntas abiertas que reconozco en muchos capítulos y a la fecha ningún programa lo ha aplicado completo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.
+**No es un producto cerrado.** Va por la versión 2.0, tiene preguntas abiertas que reconozco en muchos capítulos y a la fecha ningún programa lo ha aplicado completo. Un método que no admite sus propias dudas no puede pedir a una organización que admita las suyas.

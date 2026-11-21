@@ -55,7 +55,7 @@ La regla de decisión es una: decide el patrocinador oído el comité, y las obj
 | Buscar sesgos y casos que no encajan antes de pasar a producción | Quien hace el trabajo escribe los casos de prueba, incluidos los raros, con el mapa de lo que nadie escribió como punto de partida. La segunda línea revisa y puede objetar |
 | Decidir qué datos pueden usarse con qué herramienta | El dueño de los datos, con la segunda línea. Los datos personales tienen además su propio paso (módulo 11) |
 
-Las cuatro últimas filas, sobre incidentes, vigilancia, sesgos y datos, son una propuesta de la versión 1.8 sin probar. No traen reglas nuevas: reúnen lo que dicen otros capítulos para que cada una tenga responsable en la misma tabla.
+Las cuatro últimas filas, sobre incidentes, vigilancia, sesgos y datos, son una propuesta de la versión 2.0 sin probar. No traen reglas nuevas: reúnen lo que dicen otros capítulos para que cada una tenga responsable en la misma tabla.
 
 El dueño de la solución es el dueño operativo, el del agente y quien figura en el inventario: una sola persona. Cuando el documento habla de otro dueño (de los datos, del beneficio, de la estrategia), lo nombra con su apellido.
 
