@@ -63,7 +63,7 @@ En el documento hay muchos recuadros de pregunta abierta. Este capítulo no los 
 
 **Con regla ya escrita y una parte abierta:**
 
-- **¿Quién firma la retirada de un piloto con nombre propio?** Ya es regla (capítulo 18): firma el patrocinador, contrafirma alguien sin interés en la iniciativa y quien propone la retirada queda protegido por escrito. Queda abierto si funciona en organizaciones muy jerárquicas.
+- **¿Quién firma la retirada de un piloto que tiene padrino?** Ya es regla (capítulo 18): firma el patrocinador, contrafirma una persona ajena al equipo del programa (sin interés en la iniciativa) y quien propone la retirada queda protegido por escrito. Queda abierto si funciona en organizaciones muy jerárquicas.
 - **¿Qué pasa cuando una iniciativa tiene que tapar a otra?** A veces lo correcto es retirar algo para que lo demás crezca. Ya es regla (módulo 14 y capítulo 18): retirar algo que está en escala o en sostenimiento pasa por las cinco preguntas, y retirar en la puerta del piloto solo exige anotar qué pasa con las filas del mapa y con las personas. Queda abierto si esa diferencia abarata de verdad la retirada temprana.
 - **¿Cómo se integra la IA que ya se usa sin permiso?** Ya es regla (capítulo 18, "El uso informal"), con una vía corta para las herramientas de uso general. Queda abierto cómo preguntar por ese uso sin que la consulta se convierta en una auditoría.
 - **¿Qué pasa con el conocimiento que vive en la tecnología?** El método trata bien el conocimiento que pasa de las personas al sistema. Trata peor el caso contrario: lo que el sistema sabe (o parece saber) y las personas dejan de saber. Es la dependencia silenciosa. El módulo 6 le dedica dos piezas: anotar en el mapa quién mantiene la capacidad de hacer sin el sistema cada fila que pasa a él, y revisar de forma periódica qué capacidades se han perdido. Queda abierto si bastan, porque ninguna de las dos está probada.
@@ -92,7 +92,7 @@ Son cuatro datos que el documento necesita y que solo puedo poner yo. La versió
 
 La versión actual recoge el método tal como lo entiendo hoy, ordenado y con sus dudas a la vista. La 2.0 tendría que cambiar sobre todo en tres frentes.
 
-**Evidencia.** Aplicar el método completo en al menos un programa y sustituir casos compuestos por casos reales, anonimizados y con permiso, en las piezas que más los necesitan: el mapa, la retirada del piloto y el indicador de criterio.
+**Evidencia.** Aplicar el método completo en al menos un programa y sustituir casos compuestos por casos reales, anonimizados y con permiso, en las piezas que más los necesitan: el mapa, la retirada del piloto y el indicador de criterio. Es también el momento de dar valor a los cuatro datos que solo puedo poner yo y que el capítulo 21 deja pendientes.
 
 **Herramientas.** Convertir las plantillas de los anexos en herramientas que se puedan usar sin el autor delante: el mapa, la decisión de puerta, la evaluación de madurez y el cálculo del delta.
 

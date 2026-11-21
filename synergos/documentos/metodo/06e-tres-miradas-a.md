@@ -79,7 +79,7 @@ Estos son órdenes de magnitud orientativos para una iniciativa en un equipo y u
 | Diseño | De cuatro a ocho semanas | Muchas opciones abiertas; contratación |
 | Piloto | De ocho a dieciséis semanas, con una revisión intermedia a los noventa días si dura más | Integración con sistemas antiguos; entorno representativo difícil |
 | Escala | De tres a nueve meses | Roles e incentivos; formación en el puesto |
-| Sostenimiento | Dos periodos de medición sin el equipo del programa, al menos (por defecto, un trimestre cada uno) | Falta de dueño |
+| Sostenimiento | Al menos dos periodos de medición sin el equipo del programa (por defecto, un trimestre cada uno) | Falta de dueño |
 
 El programa acotado del capítulo 18 se define hasta la puerta del piloto: un equipo que recorre diagnóstico, diseño y piloto en menos de seis meses. Las tres primeras filas suman entre quince y treinta semanas, así que un programa acotado no puede agotar el máximo de las tres. La escala y el sostenimiento vienen después y quedan fuera de ese plazo. La revisión a noventa días del piloto está en el capítulo 12.
 

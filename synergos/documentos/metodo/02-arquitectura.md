@@ -37,9 +37,9 @@ Los principios son las reglas que se aplican cuando el método no dice nada conc
 
 ### Principio 1. Diagnóstico antes que solución
 
-Nada entra en diseño sin una restricción nombrada y una línea base medida. Richard Rumelt lo explicó en 2011: una buena estrategia empieza por un diagnóstico que simplifica la realidad hasta encontrar el problema crítico. La mayoría de lo que se llama estrategia es una lista de objetivos sin diagnóstico. Eliyahu Goldratt añadió en 1984 la idea de restricción: en todo sistema hay un punto que limita el rendimiento del conjunto, y mejorar cualquier otro punto no mejora nada.
+Nada entra en diseño sin una restricción nombrada y una línea base medida. Richard Rumelt lo explicó en 2011: una buena estrategia empieza por un diagnóstico que simplifica la realidad hasta encontrar el problema crítico. Mi observación, que no es de Rumelt, es que la mayoría de lo que se llama estrategia es una lista de objetivos sin diagnóstico. Eliyahu Goldratt añadió en 1984 la idea de restricción: en todo sistema hay un punto que limita el rendimiento del conjunto, y mejorar cualquier otro punto no mejora nada.
 
-En la práctica, este principio choca con algo muy humano: casi todos los proyectos llegan con la solución ya decidida. En treinta años de trabajo, la mayoría de las conversaciones que he tenido sobre transformación empezaban con una herramienta en la mesa. Tener una idea de solución desde el principio está permitido; lo que el principio prohíbe es aprobarla antes de saber qué problema resuelve.
+En la práctica, este principio choca con algo muy humano: muchos proyectos llegan con la solución ya decidida. En treinta años de trabajo, la mayoría de las conversaciones que he tenido sobre transformación empezaban con una herramienta en la mesa. Tener una idea de solución desde el principio está permitido; lo que el principio prohíbe es aprobarla antes de saber qué problema resuelve.
 
 *Riesgo del principio:* convertirse en una excusa para no actuar. Un diagnóstico que dura seis meses es otra forma de no decidir. Por eso el diagnóstico tiene entregables cerrados y una puerta, no un plazo indefinido.
 
@@ -51,7 +51,7 @@ Un acelerador entra en el servicio solo si las condiciones que necesita, en los 
 
 ### Principio 3. Pocas cosas a la vez
 
-El límite se refiere a los aceleradores: la IA, cuando entra en el servicio, y uno o dos más por ciclo, los que atacan la restricción. Un ciclo es el recorrido de las cinco fases en un ámbito. Lo que el método pide siempre (rediseño del trabajo, medición, gobierno) no cuenta en ese límite. Un programa que activa a la vez, en el mismo ámbito, la IA, una plataforma nueva y varias herramientas de automatización genera un ruido que nadie puede atribuir.
+El límite se refiere a los aceleradores: la IA, cuando entra en el servicio, y uno o dos más por ciclo, según el tamaño del programa (capítulo 18, Dimensionamiento), los que atacan la restricción. Un ciclo es el recorrido de las cinco fases en un ámbito. Lo que el método pide siempre (rediseño del trabajo, medición, gobierno) no cuenta en ese límite. Un programa que activa a la vez, en el mismo ámbito, la IA, una plataforma nueva y varias herramientas de automatización genera un ruido que nadie puede atribuir.
 
 La IA tiene dos papeles y el principio los trata distinto. La IA como herramienta del equipo que transforma se considera en todas las fases. La IA dentro del servicio entra solo si el diagnóstico lo justifica, y un programa Synergós puede terminar sin ella. Así el principio 1 vale también para la IA.
 

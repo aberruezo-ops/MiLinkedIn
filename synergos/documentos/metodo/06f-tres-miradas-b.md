@@ -18,7 +18,7 @@ Todo el método está orientado a ampliar a las personas en lugar de sustituirla
 
 ## Módulo 20. Inclusión: quien no encaja en el diseño
 
-### La normalidad ficticia, otra vez
+### La normalidad, otra vez
 
 El capítulo 15 trató lo que no encaja en el patrón dentro del trabajo. Este módulo lo extiende a las personas que, por edad, por formación, por discapacidad o por cualquier otra razón, encajan peor en el diseño que imagina un programa. Casi todos los programas diseñan para una persona tipo: con soltura digital, sin limitaciones, en la mitad de su carrera. Quien no se parece a esa persona paga el coste de la transformación sin que nadie lo haya decidido.
 
@@ -44,7 +44,7 @@ Se trata en el módulo siguiente, porque es la mirada de quien recibe el servici
 
 Todo el método mira la transformación desde la organización. Pero el resultado lo vive alguien de fuera: un cliente, un paciente, un ciudadano, un alumno. Marc Stickdorn y sus coautores recogieron en 2018 la práctica del diseño de servicios, cuya regla principal es sencilla y casi siempre se incumple: el servicio se diseña desde el recorrido real de quien lo recibe, con esa persona, y no desde el organigrama de quien lo presta.
 
-En el sector público hay dos referencias que cambian la perspectiva. Michael Lipsky describió en 1980 a los burócratas a pie de calle: los funcionarios que tratan directamente con los ciudadanos y que, por la naturaleza de su trabajo, ejercen una discrecionalidad que nadie les ha delegado formalmente. Es conocimiento tácito con consecuencias para los derechos de las personas. Mark Bovens y Stavros Zouridis mostraron en 2002 qué pasa cuando esa discrecionalidad pasa a los sistemas: de la burocracia a pie de calle a la burocracia de sistema, en la que las decisiones las toman programas diseñados por personas que nunca ven al ciudadano. Y Mark Moore propuso en 1995 que la medida del éxito de un servicio público no es la eficiencia, sino el valor público que crea.
+En el sector público hay tres referencias que cambian la perspectiva. Michael Lipsky describió en 1980 a los burócratas a pie de calle: los funcionarios que tratan directamente con los ciudadanos y que, por la naturaleza de su trabajo, ejercen una discrecionalidad que nadie les ha delegado formalmente. Es conocimiento tácito con consecuencias para los derechos de las personas. Mark Bovens y Stavros Zouridis mostraron en 2002 qué pasa cuando esa discrecionalidad pasa a los sistemas: de la burocracia a pie de calle a la burocracia de sistema, en la que las decisiones las toman programas diseñados por personas que nunca ven al ciudadano. Y Mark Moore propuso en 1995 que la medida del éxito de un servicio público no es la eficiencia, sino el valor público que crea.
 
 ### Lo que pide el método
 
@@ -84,7 +84,7 @@ La IA parece inmaterial y no lo es. Funciona en centros de datos que consumen el
 
 ## Lo que cambia en el método con las tres miradas
 
-Las tres miradas añaden preguntas y voces dentro de las fases y puertas que ya existen. Ninguna de las personas que la tabla nombra se suma a los cuatro que deciden en el comité de puertas: se las oye antes, por escrito (capítulo 18). Las líneas que van al anexo a la decisión solo son obligatorias en el alcance que marca la tabla "Qué es obligatorio según alcance", al cierre de esta parte.
+Las tres miradas añaden preguntas y voces dentro de las fases y puertas que ya existen. Ninguna de las personas que la tabla nombra se suma a las cuatro personas que intervienen en el comité de puertas: se las oye antes, por escrito (capítulo 18). Las líneas que van al anexo a la decisión solo son obligatorias en el alcance que marca la tabla "Qué es obligatorio según alcance", al cierre de esta parte.
 
 | Mirada | Qué se añade a las puertas |
 |---|---|

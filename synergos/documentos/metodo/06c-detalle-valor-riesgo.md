@@ -32,7 +32,7 @@ Un rediseño con IA toca las tres necesidades a la vez. Puede quitar autonomía 
 
 ### La paradoja de partida
 
-Robert Solow escribió en 1987, en una reseña, una frase que se ha citado miles de veces: se ven ordenadores por todas partes menos en las estadísticas de productividad. La explicación tardó años en llegar, y es el respaldo empírico más sólido que tiene Synergós, aunque solo cubre una parte de su promesa.
+Robert Solow escribió en 1987, en una reseña, una frase que se ha citado miles de veces: se ven ordenadores por todas partes menos en las estadísticas de productividad. La explicación tardó años en llegar, y es, a mi juicio, el respaldo empírico más sólido que tiene Synergós, aunque solo cubre una parte de su promesa.
 
 ### Lo que dicen las fuentes
 

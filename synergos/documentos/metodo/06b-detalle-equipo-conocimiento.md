@@ -19,18 +19,18 @@ Un equipo de transformación Synergós tiene siete funciones. En un programa aco
 | Función | Qué hace | Error si falta | Dedicación mínima |
 |---|---|---|---|
 | Patrocinio | Decide y firma en las puertas, protege | Las decisiones difíciles se aplazan | Unas pocas horas fijas cada semana |
-| Dirección del programa | Coordina fases, cartera y puertas | Cada iniciativa va por su lado | Un tercio del tiempo, si el programa la declara crítica |
-| Diseño del trabajo | Rediseña tareas y roles con las personas | Se diseña la herramienta y el trabajo queda igual | Un tercio del tiempo, si el programa la declara crítica |
-| Conocimiento | Levanta el mapa, cura la base, registra decisiones | Lo tácito se pierde sin que nadie lo note | Un tercio del tiempo, si el programa la declara crítica |
-| Tecnología y datos | Propone, integra y prueba la tecnología con el área de tecnología | Las soluciones no se sostienen | Un tercio del tiempo, si el programa la declara crítica |
-| Medición | Línea base, indicadores, delta, cuadro; certifica los datos de cada puerta | Nadie sabe si se avanza | Un tercio del tiempo, si el programa la declara crítica |
+| Dirección del programa | Coordina fases, cartera y puertas | Cada iniciativa va por su lado | Regla general, más abajo |
+| Diseño del trabajo | Rediseña tareas y roles con las personas | Se diseña la herramienta y el trabajo queda igual | Regla general, más abajo |
+| Conocimiento | Levanta el mapa, cura la base, registra decisiones | Lo tácito se pierde sin que nadie lo note | Regla general, más abajo |
+| Tecnología y datos | Propone, integra y prueba la tecnología con el área de tecnología | Las soluciones no se sostienen | Regla general, más abajo |
+| Medición | Línea base, indicadores, delta, cuadro; certifica los datos de cada puerta | Nadie sabe si se avanza | Regla general, más abajo |
 | Voz de quien hace el trabajo | Personas del equipo que va a cambiar, con tiempo asignado | Se diseña para el procedimiento, no para la realidad | Una parte de la jornada liberada, que fija cada programa |
 
-La séptima función es la que más se olvida y la que más distingue al método. La cubren personas que hacen el trabajo, con una parte de su jornada liberada para el programa, que participan en el diagnóstico, prueban los diseños y son oídas, por escrito, antes de cada puerta (capítulo 18). Un representante que asiste a una reunión mensual no la cubre.
+La séptima función es, a mi juicio, la que más se olvida y la que más distingue al método. La cubren personas que hacen el trabajo, con una parte de su jornada liberada para el programa, que participan en el diagnóstico, prueban los diseños y son oídas, por escrito, antes de cada puerta (capítulo 18). Un representante que asiste a una reunión mensual no la cubre.
 
 ### Dedicación
 
-Una regla práctica: ninguna función crítica puede estar cubierta por alguien con menos de un tercio de su tiempo. Por debajo de eso, el programa compite con el trabajo diario y siempre pierde. El patrocinio es la excepción en horas, pero no en compromiso: unas pocas horas fijas cada semana, no "cuando haga falta".
+La regla general de la tabla es esta: ninguna función crítica puede estar cubierta por alguien con menos de un tercio de su tiempo. Por debajo de eso, el programa compite con el trabajo diario y siempre pierde. El patrocinio es la excepción en horas, pero no en compromiso: unas pocas horas fijas cada semana, no "cuando haga falta".
 
 No tengo más cifras que esas, y la columna de dedicación de la tabla no añade ninguna. Qué funciones son críticas en un programa, cuántas horas se liberan a quien hace el trabajo y qué funciones acumula una misma persona lo propone quien dirige el programa en el diseño y lo aprueba el patrocinador. Queda anotado entre los valores que fija cada programa (anexo G). El texto solo pone dos límites a la acumulación. Quien mide no firma la decisión, así que el patrocinio y la medición no recaen en la misma persona. Y la voz de quien hace el trabajo la llevan personas que hacen ese trabajo, no alguien del programa en su nombre. Sigue pendiente un orden de magnitud del esfuerzo del equipo por fase.
 
@@ -152,7 +152,7 @@ Hay un movimiento del conocimiento que el método trataba mal hasta la versión 
 
 ### Cómo se mide
 
-El capítulo 18 pide al menos un indicador para el elemento conocimiento. Este módulo propone dos: la concentración (cuántas filas críticas del mapa siguen en una sola persona; la definición que manda es la del capítulo 18) y la revisabilidad (qué parte del conocimiento que ha pasado al sistema se puede consultar, explicar y corregir). Un tercero, opcional: la vigencia de la base (qué parte tiene la revisión al día). Cuál es obligatorio y de qué clase es cada uno, de avance o de guarda, lo dice la tabla de indicadores del capítulo 18.
+El capítulo 18 pide al menos un indicador para el elemento conocimiento. Este módulo propone tres: la concentración (cuántas filas críticas del mapa siguen en una sola persona; la definición que manda es la del capítulo 18), la revisabilidad (qué parte del conocimiento que ha pasado al sistema se puede consultar, explicar y corregir) y la vigencia de la base (qué parte tiene la revisión al día). Cuál es obligatorio y de qué clase es cada uno, de avance o de guarda, lo dice la tabla de indicadores del capítulo 18: la concentración es obligatoria, y la revisabilidad y la vigencia, que la tabla reúne en una sola fila, son opcionales.
 
 ### Señales de que va mal
 

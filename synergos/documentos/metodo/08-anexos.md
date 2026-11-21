@@ -177,7 +177,7 @@ Cada fuente aparece con lo que aporta al método y, en las que más pesan, con l
 
 **Brynjolfsson, E. (2022).** "The Turing Trap: The Promise and Peril of Human-Like Artificial Intelligence". *Daedalus.* La balanza inclinada hacia sustituir. No dice que automatizar sea malo.
 
-**Brynjolfsson, E., Chandar, B. y Chen, R. (2025).** "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence". Stanford Digital Economy Lab, agosto de 2025, revisado en noviembre de 2025 y en agosto de 2026. Brecha relativa del 13 %, el 16 % y el 19 % para quienes tienen entre 22 y 25 años, sobre todo por menos contratación. Menos empleo joven en las ocupaciones más expuestas, donde la IA automatiza. Datos de Estados Unidos, descriptivos, no causales; los propios autores matizan la causalidad. Verificada por fuentes secundarias.
+**Brynjolfsson, E., Chandar, B. y Chen, R. (2025).** "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence". Stanford Digital Economy Lab, agosto de 2025, revisado en noviembre de 2025 y en agosto de 2026. Brecha relativa para quienes tienen entre 22 y 25 años, sobre todo por menos contratación: el 13 % en la primera versión (agosto de 2025), el 16 % en la revisión de noviembre de 2025 y el 19 % en la de agosto de 2026. El capítulo 15 da la primera y la última cifra. Menos empleo joven en las ocupaciones más expuestas, donde la IA automatiza. Datos de Estados Unidos, descriptivos, no causales; los propios autores matizan la causalidad. Verificada por fuentes secundarias.
 
 **Brynjolfsson, E., Li, D. y Raymond, L. (2025).** "Generative AI at Work". *Quarterly Journal of Economics*, 140(2), 889-942 (versión previa del NBER, 2023). Unos cinco mil agentes de atención al cliente: un 15 % más de casos resueltos por hora de media y en torno a un 30 % para los menos expertos. Que la IA transmita el saber de los mejores es interpretación de los autores.
 
@@ -197,7 +197,7 @@ Cada fuente aparece con lo que aporta al método y, en las que más pesan, con l
 
 **Douglas, M. (1966).** *Purity and Danger.* La suciedad como materia fuera de su sitio, una definición antigua que Douglas recoge y desarrolla, no que acuña.
 
-**Edmondson, A. (1999).** "Psychological Safety and Learning Behavior in Work Teams". *Administrative Science Quarterly.* **Edmondson, A. (2018).** *The Fearless Organization.* Wiley (salió a finales de 2018 con fecha de copyright de 2019). La seguridad psicológica. El texto cita su trabajo sin año, salvo en la tabla de causas, que remite al libro de 2018.
+**Edmondson, A. (1999).** "Psychological Safety and Learning Behavior in Work Teams". *Administrative Science Quarterly.* **Edmondson, A. (2018).** *The Fearless Organization.* Wiley (salió a finales de 2018 con fecha de copyright de 2019). La seguridad psicológica. El texto cita estos dos trabajos sin año, salvo en la tabla de causas, que remite al libro de 2018.
 
 **Forsgren, N., Humble, J. y Kim, G. (2018).** *Accelerate.* Prácticas de entrega y rendimiento de los equipos tecnológicos.
 
@@ -401,7 +401,9 @@ Cada fuente aparece con lo que aporta al método y, en las que más pesan, con l
 
 **Revisión de la versión 1.8.** Es una versión de consolidación y no añade fuentes nuevas. En este anexo se funden entradas repetidas, se completan las que no decían qué aportaban y entran dos referencias que el texto ya citaba sin entrada, Deming y la Ley 9/2017. Las cuatro filas que la versión 1.8 añade a la tabla de causas del capítulo 2 se apoyan en fuentes que ya estaban aquí.
 
-**Leídas, no usadas.** Se revisaron para la versión 1.5, salvo la última entrada, y el texto no las cita. Se conservan para que se sepa qué se leyó. Ninguna sostiene una afirmación del documento.
+**Leídas, no usadas.** Se revisaron para la versión 1.5, salvo la Directiva (UE) 2024/2831, que es la última entrada y no procede de esa revisión. El texto no cita ninguna. Se conservan para que se sepa qué se leyó. Ninguna sostiene una afirmación del documento.
+
+**Daugherty, P. y Wilson, H. J. (2022).** *Radically Human.* De los mismos autores que *Human + Machine* (2018), que sí se cita.
 
 **Gillespie, N. y otros (2025).** *Trust, attitudes and use of artificial intelligence: a global study 2025.* Universidad de Melbourne y KPMG; 48.340 personas en 47 países. Uso sin comprobar, uso oculto y pocas políticas internas. Cifras pendientes de cotejo en el informe completo.
 
@@ -413,9 +415,7 @@ Cada fuente aparece con lo que aporta al método y, en las que más pesan, con l
 
 **World Economic Forum (2025).** *The Future of Jobs Report 2025.* Cotejado con página en el cuaderno. Intenciones declaradas por empleadores, no resultados.
 
-**Daugherty, P. y Wilson, H. J. (2022).** *Radically Human.* De los mismos autores que *Human + Machine*, que sí se cita.
-
-**Directiva (UE) 2024/2831**, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Figuraba entre las normas citadas y ningún módulo la cita.
+**Directiva (UE) 2024/2831**, de trabajo en plataformas, con plazo de transposición hasta el 2 de diciembre de 2026. Figuraba entre las normas citadas de una versión anterior; el texto actual no la cita.
 
 ## Anexo F. Registro de versiones
 

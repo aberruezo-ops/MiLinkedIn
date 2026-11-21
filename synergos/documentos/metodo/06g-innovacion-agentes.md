@@ -24,7 +24,7 @@ Ethan Mollick propuso en 2025 una forma de organizarlo en tres piezas: una direc
 
 **Un laboratorio pequeño.** Dos o tres personas con tiempo reconocido, una de ellas alguien que hace hoy el trabajo. Sus experimentos duran días o pocas semanas y cuestan poco. Cada uno empieza con una frase escrita: qué supuesto se prueba y qué resultado lo daría por bueno o por caído. El laboratorio no opera el servicio ni decide sobre él. Cada experimento que usa IA figura en el inventario único con el estado "en experimento" (capítulo 18).
 
-**Clasificar cada idea por su alcance.** Puntual, si mejora una tarea. De flujo, si obliga a rediseñar un proceso de principio a fin. De sistema, si cambia lo que la organización ofrece o cómo se organiza. La clasificación decide dos cosas: cuánto del método hay que activar (una mejora puntual no necesita los veinticuatro módulos; la tabla "Qué es obligatorio según alcance", al cierre de esta parte, dice qué se pide en cada alcance) y con qué vara se mide. Una apuesta de sistema medida con los indicadores del trimestre se cancela siempre.
+**Clasificar cada idea por su alcance.** Puntual, si mejora una tarea. De flujo, si obliga a rediseñar un proceso de principio a fin. De sistema, si cambia lo que la organización ofrece o cómo se organiza. La clasificación decide dos cosas: cuánto del método hay que activar (una mejora puntual no necesita los veinticuatro módulos; la tabla "Qué es obligatorio según alcance", al cierre de esta parte, dice qué se pide en cada alcance) y con qué vara se mide. Una apuesta de sistema medida con los indicadores del trimestre suele cancelarse.
 
 **Primero las personas, después la IA.** En las sesiones de ideas, cada persona escribe las suyas sin asistencia. Después se usa la IA para ampliarlas, combinarlas y buscarles pegas. El orden es una precaución mía a partir de Doshi y Hauser, que trabajaron con relatos breves y no probaron este orden. Y se mira la variedad del conjunto, además de la calidad de cada idea.
 
@@ -32,7 +32,7 @@ Ethan Mollick propuso en 2025 una forma de organizarlo en tres piezas: una direc
 
 **Del experimento a la cartera.** Un experimento termina de una de tres maneras. Se descarta y se anota lo aprendido. Se repite con otro supuesto. O entra en la cartera como candidata y vuelve al diagnóstico de su ámbito, respetando el límite de iniciativas en curso del módulo 14. Si el ámbito ya tiene diagnóstico, la candidata se contrasta con él y sigue por el diseño como cualquier iniciativa. Si no lo tiene, se hace. No hay cuarta salida: un experimento que funciona no se queda en producción por la puerta de atrás.
 
-**La línea base de lo que todavía no existe.** Una apuesta de sistema puede proponer un servicio que hoy no se presta, y la puerta del diagnóstico pide línea base y mapa. Para una apuesta de sistema, la línea base es la del servicio o la necesidad más parecida que hoy se atiende, y el mapa se hace sobre el trabajo que cambiaría. Si no existe ninguno, la puerta lo dice por escrito.
+**La línea base de lo que todavía no existe.** Una apuesta de sistema puede proponer un servicio que hoy no se presta, y la puerta del diagnóstico pide línea base y mapa. En ese caso, la línea base es la del servicio o la necesidad más parecida que hoy se atiende, y el mapa se hace sobre el trabajo que cambiaría. Si no existe ninguno, la puerta lo dice por escrito.
 
 **Proteger a quien prueba y no acierta.** Es la misma lógica del espacio para fallar del piloto, llevada un paso antes. La encuesta anual de Microsoft a usuarios de IA de 2026 recoge que pocos sienten que se les reconozca reinventar su trabajo cuando el resultado no llega. Si el sistema de evaluación solo premia el objetivo del año, nadie explora.
 
@@ -67,7 +67,11 @@ Los marcos de gobierno de agentes publicados entre finales de 2025 y 2026, entre
 
 ### La base de la organización, antes de ningún agente
 
-Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas, que no son las tres capas de responsabilidad del capítulo 18: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás. El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo (la tabla "Qué es obligatorio según alcance", al cierre de esta parte), y no como una etapa previa que haya que terminar entera. Eso no quita lo que pide el capítulo 17: el primer piloto con IA dentro del servicio no empieza sin poder responder las tres preguntas del entorno. La tercera capa está casi entera en este módulo. Las dos de abajo ya estaban repartidas por el documento, y las reúno aquí en una lista para comprobar de un vistazo que la base existe. Solo una pieza es nueva del todo, y otra lleva una pequeña adición. Las dos están marcadas en la tabla.
+Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas, que no son las tres capas de responsabilidad del capítulo 18: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás.
+
+El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo (la tabla "Qué es obligatorio según alcance", al cierre de esta parte), y no como una etapa previa que haya que terminar entera. Eso no quita lo que pide el capítulo 17: el primer piloto con IA dentro del servicio no empieza sin poder responder las tres preguntas del entorno.
+
+La tercera capa está casi entera en este módulo. Las dos de abajo ya estaban repartidas por el documento, y las reúno aquí en una lista para comprobar de un vistazo que la base existe. Solo una pieza es nueva del todo, y otra lleva una pequeña adición. Las dos están marcadas en la tabla.
 
 | Qué tiene que existir | Dónde está en el método |
 |---|---|
@@ -189,7 +193,7 @@ El método no se aplica entero a todo. Desde la versión 1.8 esta tabla dice qu�
 | Módulo 23. Innovar con IA | No aplica | No aplica | Recomendado |
 | Módulo 24. Los agentes | Obligatorio si hay un agente | Obligatorio si hay un agente | Obligatorio si hay un agente |
 
-En una iniciativa puntual sin agente, lo obligatorio son las ocho primeras filas. Casi todas se escriben en la decisión de puerta de una página (anexo C). Fuera de esa página quedan la línea base medida y las filas del mapa que la iniciativa toca. Si con eso no cabe en pocas páginas, se está pidiendo de más.
+En una iniciativa puntual sin agente y sin ninguna de las condiciones de la tabla (IA dentro del servicio, un rol que se reduce, un sistema que mide a quien trabaja), lo obligatorio son las ocho primeras filas. Casi todas se escriben en la decisión de puerta de una página (anexo C). Fuera de esa página quedan la línea base medida y las filas del mapa que la iniciativa toca. Si con eso no cabe en pocas páginas, se está pidiendo de más.
 
 Quitar una pieza obligatoria en un programa lo decide el patrocinador y se anota en el registro de decisiones, con el motivo. La tabla recoge lo que pide el método. Lo que exige la ley (clasificación de riesgo, protección de datos, información a la representación legal, accesibilidad) se cumple en cualquier alcance y no depende de ella.
 
