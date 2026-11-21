@@ -42,6 +42,8 @@ La evidencia económica de veinticinco años apoya la mitad de la promesa de Syn
 
 La curva J de Brynjolfsson, Rock y Syverson, que el capítulo 18 usa en el modelo económico, es la continuación de esa línea: el cambio organizativo es una inversión invisible en la contabilidad, y durante un tiempo hace bajar la productividad medida antes de subirla. La fuente describe el efecto a nivel de empresa y de economía. Aplicarlo a un programa concreto es una analogía mía, y la duración del valle se estima como dice el capítulo 18.
 
+Babina y otros (2024), que conozco por su resumen, midieron la inversión en IA de las empresas (la IA previa a la generativa) con currículos de empleados y hallaron que las que invierten crecen más, y que buena parte de ese crecimiento pasa por el producto y no solo por el coste. Es un resultado de empresas de Estados Unidos con datos accesibles, y no una ley: por eso el caso de negocio no mira solo el coste.
+
 ### Del problema a la cuenta de resultados
 
 El método construye el impacto en negocio con un árbol que va de la restricción a los resultados, en cuatro pasos.
@@ -111,6 +113,8 @@ La IA trae su propio marco de riesgos y una regulación que cambia rápido. El m
 ### Las referencias
 
 El Reglamento europeo de inteligencia artificial (Reglamento (UE) 2024/1689) clasifica los sistemas por niveles de riesgo y fija obligaciones distintas para cada uno, con prohibiciones para algunos usos y exigencias fuertes para los de alto riesgo. Su aplicación es escalonada y el calendario cambió en 2026. Este párrafo es el único sitio del documento que da el calendario; los demás remiten aquí. Las prohibiciones rigen desde el 2 de febrero de 2025 y las obligaciones de los modelos de uso general, desde el 2 de agosto de 2025. El Reglamento (UE) 2026/1744, el llamado ómnibus digital, en vigor desde el 27 de julio de 2026, retrasó las de alto riesgo: al 2 de diciembre de 2027 para los usos del anexo III, entre ellos el empleo, y al 2 de agosto de 2028 para los productos del anexo I. Son las fechas que anoté en la verificación de fuentes de la versión 1.3 (6 de noviembre de 2026) y no las he vuelto a contrastar después. Como el calendario ya se ha movido una vez, quien vaya a usar una fecha en una decisión la comprueba antes en el Diario Oficial de la Unión Europea. La norma ISO/IEC 42001, publicada en 2023, define un sistema de gestión para la IA en una organización, al estilo de las normas de gestión de calidad o de seguridad. El marco de gestión de riesgos de la IA del NIST estadounidense, de 2023, organiza el trabajo en cuatro funciones: gobernar, mapear, medir y gestionar. Las tres referencias son compatibles y el método usa la del NIST como lista de comprobación práctica.
+
+Junto a ellas hay tres más, que conozco por fichas y resúmenes. NIST AI 600-1 (2024) es el perfil de IA generativa de ese marco, una guía voluntaria que añade los riesgos propios de la IA generativa a la lista de comprobación. ISO/IEC 42005:2025 orienta la evaluación del impacto de un sistema de IA sobre las personas y la sociedad a lo largo de su ciclo de vida; creo que encaja con la puerta de diseño, y esa correspondencia es mía. Los principios de IA de la OCDE (2019, revisados en 2024) son un marco de valores no vinculante, reconocido por la Unión Europea y los Estados miembros.
 
 ### Lo que el método añade
 
