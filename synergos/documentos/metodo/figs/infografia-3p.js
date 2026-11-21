@@ -1,4 +1,4 @@
-// Infografía del método en tres páginas (A4). NODE_PATH=$(npm root -g) node figs/infografia-3p.js
+// Infografía del método en cuatro páginas (A4). NODE_PATH=$(npm root -g) node figs/infografia-3p.js
 const { chromium } = require('playwright'); const fs = require('fs'); const path = require('path');
 const dir = __dirname, out = path.join(dir, '..'), IM = path.join(dir, '../../../imagenes/');
 const FONTDIR = '/tmp/claude-0/-home-user-MiLinkedIn/8b3653e3-6315-50f3-96b3-ad0bde922485/scratchpad/ttf/';
@@ -23,7 +23,7 @@ ${face('Sans', 'public-sans-400-normal.ttf')}${face('Sans', 'public-sans-600-nor
 @page{size:${W}px ${H}px;margin:0}
 html,body{width:${W}px;background:${INK};font-family:'Sans',sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .page{position:relative;width:${W}px;height:${H}px;overflow:hidden;padding:70px 80px 64px;page-break-after:always;break-after:page}
-.dark{background:${INK};color:#F4F6F6}.light{background:${PAPER};color:${INK}}
+.dark{background:${INK};color:#F4F6F6}.green{background:#1F4A2C;color:#F4F6F6}.green .top span{color:#A9D9B8}.green .foot{color:#CFE3D5}.green .foot i{color:#A9D9B8}.light{background:${PAPER};color:${INK}}
 .sun{position:absolute;left:0;top:0;pointer-events:none}
 .z{position:relative;z-index:2}
 .top{display:flex;justify-content:space-between;align-items:center;font-size:15px;letter-spacing:5px;text-transform:uppercase;font-weight:600}
@@ -41,7 +41,7 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 .tri{display:flex;height:8px;width:260px}.tri b{flex:1}
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
-const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en tres páginas · versión 2.0</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 3</span></span></div>`;
+const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en cuatro páginas · versión 2.0</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 4</span></span></div>`;
 const foot = t => `<div class="foot"><i>Crecer a la vez.</i><span>${t}</span></div>`;
 
 // ---------- Página 1: por qué y con qué ----------
@@ -91,7 +91,65 @@ ${top(1, true)}
 ${foot('Por qué y con qué')}
 </section>`;
 
-// ---------- Página 2: el tronco ----------
+// ---------- Página 2: lo que nadie escribió ----------
+const PG = '#A9D9B8', GD = '#173A22';
+const pm = `<section class="page green">
+${girasol({ cx: 1262, cy: 400, n: 480, c: 13, rot: 3.1, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
+${top(2, true)}
+<div class="z" style="margin-top:42px;width:940px">
+  <div class="k" style="color:${AV}">Personas y conocimiento</div>
+  <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Antes de decidir,<br><span style="font-style:italic;color:${AV}">mirar lo que nadie escribió.</span></h1>
+  <p style="font-size:21px;line-height:1.42;color:#DCEBE1;width:690px;margin-top:20px">El conocimiento vive en las personas, en la organización y en la tecnología. Lo que decide una transformación es a dónde va.</p>
+</div>
+
+<div class="z leaf" style="margin-top:30px;background:${PAPER};color:${INK};padding:22px 28px 26px">
+  <div style="display:flex;justify-content:space-between;align-items:baseline"><div><span class="k" style="color:${G}">El entregable del diagnóstico</span><div class="ser" style="font-size:44px;line-height:1.05;margin-top:4px">El mapa de lo que nadie escribió</div></div><div style="font-size:14px;color:${GREY};text-align:right;width:230px;line-height:1.35">Ejemplo compuesto e ilustrativo, por perfiles y sin nombres.</div></div>
+  <div style="display:grid;grid-template-columns:1.55fr 1fr .8fr .9fr;gap:6px;margin-top:14px;font-size:17px;line-height:1.32">
+    ${['Qué se sabe', 'Quién lo sabe', 'Dónde se usa', 'Concentración'].map(t => `<div class="k" style="font-size:12.5px;letter-spacing:3.5px;color:${G};padding:8px 12px;background:#E3EEE6">${t}</div>`).join('')}
+    ${[['Qué peticiones acabarán en reclamación', 'Perfil A y perfil B', 'Triaje', 'Dos personas', 0], ['A quién llamar en otra unidad cuando algo se atasca', 'Perfil A', 'Excepciones', 'Una persona', 1]]
+      .map(([a, b, c, d, hot]) => [a, b, c, d].map((t, j) => `<div style="padding:12px 12px;background:${hot ? (j === 3 ? T : '#F7E4DA') : '#EFEDE6'};color:${hot && j === 3 ? '#fff' : INK};font-weight:${j === 3 || j === 0 ? 600 : 400}">${t}</div>`).join('')).join('')}
+  </div>
+  <div style="font-size:16.5px;line-height:1.4;margin-top:12px;color:${GREY}">Una fila que dice «una persona» se ve. Y con cada opción de diseño se responde, fila a fila, qué le pasa a ese conocimiento.</div>
+</div>
+
+<div class="z" style="margin-top:30px;display:grid;grid-template-columns:1.08fr 1fr;gap:44px">
+  <div>
+    <div class="k" style="color:${AV}">Cómo se levanta</div>
+    <h2 style="margin:8px 0 10px;font-size:40px">Cinco preguntas por las grietas</h2>
+    ${['¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?', '¿Cuándo no sigues el procedimiento, y por qué?', '¿A quién llamas cuando algo se atasca? ¿Y a quién te llaman a ti?', '¿Qué sabes de un caso antes de leerlo entero?', '¿Qué pasaría mañana si tú no vinieras?']
+      .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:8.5px 0;border-top:1px solid rgba(244,246,246,.28)"><span class="ser" style="font-size:32px;line-height:.9;color:${AV};flex:0 0 24px">${i + 1}</span><span style="font-size:18px;line-height:1.34">${t}</span></div>`).join('')}
+  </div>
+  <div>
+    <div class="k" style="color:${AV}">Con cada opción de diseño</div>
+    <h2 style="margin:8px 0 12px;font-size:40px">Tres destinos para cada fila</h2>
+    ${[['Se queda en la persona', 'y la tecnología la ayuda.', '#7CC090', INK], ['Pasa al sistema', 'de forma revisable.', AV, INK], ['Se pierde', 'y se decide sabiéndolo.', TV, '#fff']]
+      .map(([a, b, c, fg], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${c};color:${fg};padding:11px 22px 14px;margin-bottom:8px"><span class="ser" style="font-size:30px;line-height:1.05">${a}</span> <span style="font-size:17px">${b}</span></div>`).join('')}
+    <div style="font-size:16.5px;line-height:1.42;color:#DCEBE1;margin-top:12px;border-left:6px solid ${AV};padding-left:14px"><b style="font-weight:700;color:#fff">El compromiso de uso.</b> Antes de empezar, el patrocinador firma que el mapa no se usará para evaluar a nadie ni para decidir despidos. Sin esa firma, el mapa no se hace.</div>
+  </div>
+</div>
+
+<div class="z" style="margin-top:30px">
+  <div class="k" style="color:${AV}">La cuarta pregunta de la puerta</div>
+  <h2 style="margin:8px 0 12px;font-size:40px">¿Quién enseña lo que la tarea enseñaba?</h2>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px">
+    ${['Aprender corrigiendo', 'Tareas reservadas para formar', 'La IA como tutora', 'Tiempo reconocido para enseñar', 'Rotación por el caso difícil']
+      .map((t, i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${GD};padding:12px 14px 18px;min-height:112px"><div class="ser" style="font-size:34px;line-height:.9;color:${AV}">${i + 1}</div><div style="font-size:16.5px;font-weight:600;line-height:1.25;margin-top:6px">${t}</div></div>`).join('')}
+  </div>
+  <div style="font-size:15.5px;line-height:1.4;color:#CFE3D5;margin-top:8px">Cinco diseños posibles. Ninguno está probado lo bastante: se eligen en el diseño, no se dan por receta.</div>
+</div>
+
+<div class="z" style="margin-top:26px">
+  <div class="k" style="color:${AV}">Quién decide en una puerta</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:10px">
+    ${[['El patrocinador', 'Decide y firma.'], ['El dueño operativo', 'Decide con el patrocinador.'], ['El responsable de medición', 'Certifica los datos, no la decisión.'], ['Una persona ajena al equipo', 'Contrafirma.']]
+      .map(([a, b]) => `<div style="border-top:5px solid ${AV};padding-top:9px"><div class="ser" style="font-size:27px;line-height:1.05">${a}</div><div style="font-size:16px;line-height:1.36;color:#DCEBE1;margin-top:4px">${b}</div></div>`).join('')}
+  </div>
+  <div style="font-size:15.5px;line-height:1.4;color:#CFE3D5;margin-top:10px">Y quien trabaja con la herramienta cada día puede parar, por escrito y sin represalias.</div>
+</div>
+${foot('Personas y conocimiento')}
+</section>`;
+
+// ---------- Página 3: el tronco ----------
 const F = [
   ['Diagnóstico', T, '#fff', 'Entender dónde se pierden tiempo, calidad o dinero, y por qué.', 'Restricción nombrada, línea base medida y mapa de lo que nadie escribió.'],
   ['Diseño', G, '#fff', 'Decidir qué se cambia, cómo y con qué aceleradores.', 'Cada iniciativa ataca la restricción y responde por escrito a las cinco preguntas.'],
@@ -101,7 +159,7 @@ const F = [
 ];
 const p2 = `<section class="page light">
 ${girasol({ cx: 1262, cy: 420, n: 480, c: 13, rot: 1.3, s0: 3.2, sk: .02, cols: [T, G, A], op: .55 })}
-${top(2, false)}
+${top(3, false)}
 <div class="z" style="margin-top:42px;width:900px">
   <div class="k" style="color:${T}">El tronco</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Cinco fases.<br>Cada una acaba en<br><span style="font-style:italic;color:${G}">una puerta.</span></h1>
@@ -134,11 +192,11 @@ ${top(2, false)}
 ${foot('El tronco: fases y puertas')}
 </section>`;
 
-// ---------- Página 3: IA e innovación ----------
+// ---------- Página 4: IA e innovación ----------
 const N = [['Sugiere', 'La persona decide y hace todo.'], ['Propone', 'La persona revisa cada propuesta y decide.'], ['Actúa con revisión', 'Revisión por muestreo y de todo lo que se sale del patrón.'], ['Actúa e informa', 'La persona supervisa indicadores y atiende excepciones.']];
 const p3 = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 2.2, s0: 3.2, sk: .02 })}
-${top(3, true)}
+${top(4, true)}
 <div class="z" style="margin-top:42px">
   <div class="k" style="color:${AV}">IA e innovación</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">La IA entra<br><span style="font-style:italic;color:${AV}">por la puerta.</span></h1>
@@ -198,11 +256,11 @@ ${foot('IA e innovación')}
 
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 2 });
-  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${p2}${p3}</body></html>`);
+  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pm}${p2}${p3}</body></html>`);
   await p.goto('file://' + f); await p.waitForTimeout(900);
   const over = await p.evaluate(() => [...document.querySelectorAll('.page')].map(s => s.scrollHeight));
   console.log('alturas', over.join(' '));
-  for (let i = 0; i < 3; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
-  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-tres-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
+  for (let i = 0; i < 4; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
+  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-cuatro-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
   fs.unlinkSync(f); await b.close(); console.log('ok');
 })();
