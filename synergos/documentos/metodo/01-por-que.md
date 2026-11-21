@@ -66,6 +66,8 @@ Si se mira la tabla con calma aparecen tres patrones que explican casi todo lo d
 
 **El orden.** La mayoría de las causas describen algo hecho en el momento equivocado: elegir la solución antes del diagnóstico, comprar la tecnología antes de rediseñar el trabajo, formar a la gente después de decidir, medir cuando ya no se puede comparar. Por eso el orden es un componente entero de Synergós, aunque parezca un asunto de logística.
 
+La idea sociotécnica de Trist y Bamforth tiene continuidad reciente. Barley (1986) vio que el mismo escáner dio organizaciones distintas en dos hospitales, Orlikowski (2000) sitúa la estructura en el uso que hacen las personas y Pasmore y otros (2019), en un artículo de reflexión de autores de consultoría, sostienen que el diseño sociotécnico reaparece porque la tecnología avanza más deprisa que el diseño de las organizaciones. Las conozco por resúmenes y no por el texto completo.
+
 **Lo que no se ve.** Varias causas tienen que ver con algo que existe y nadie mira: el conocimiento que no está escrito, el incentivo que sigue premiando lo de antes, el supuesto que nadie cuestiona, el usuario que no estaba en la sala. El método pone entregables concretos para hacer visible cada una de esas cosas antes de decidir.
 
 **La balanza.** La tecnología actual, y la IA más que ninguna, se puede usar para sustituir a las personas o para ampliar lo que pueden hacer. Erik Brynjolfsson llamó trampa de Turing al exceso de incentivos que empuja hacia lo primero. Shoshana Zuboff lo había formulado en 1988 con dos verbos: automatizar o informar. Synergós amplía esa formulación a tres: acelerar, automatizar o aumentar. Lo que se haga con la tecnología es una decisión de diseño, y Synergós obliga a tomarla por escrito.

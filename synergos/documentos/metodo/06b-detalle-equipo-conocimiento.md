@@ -130,6 +130,8 @@ Ikujiro Nonaka e Hirotaka Takeuchi describieron en 1995 cómo se crea conocimien
 
 Thomas Davenport y Laurence Prusak insistieron en 1998 en algo más prosaico: el conocimiento se mueve en un mercado, con compradores, vendedores e intermediarios. Los precios se pagan en reciprocidad, en reputación y a veces en altruismo, y sin confianza el mercado no funciona. La gente comparte lo que sabe cuando espera algo a cambio y lo guarda cuando compartirlo le cuesta. Un programa que pide compartir sin cambiar ese mercado se queda en un repositorio vacío.
 
+Szulanski (1996), que conozco por resúmenes y no por el texto completo, estudió transferencias de buenas prácticas dentro de empresas grandes y halló que los obstáculos principales eran de conocimiento (la capacidad de absorción de quien recibe, la ambigüedad causal, una relación difícil entre origen y destino) y no de motivación. Lo que funcionó en un sitio no se transfiere por decreto. Son datos de los años noventa y de empresas grandes.
+
 ### Cómo se hace, momento a momento
 
 **Descubrir.** Es el mapa de lo que nadie escribió (capítulo 9), más el inventario de aportaciones del módulo 1. Se descubre en el puesto, preguntando por las grietas.
@@ -148,7 +150,7 @@ Cuando alguien sale del equipo, se jubila o cambia de puesto, se hace una conver
 
 ### La dependencia silenciosa
 
-Hay un movimiento del conocimiento que el método trataba mal hasta la versión 1.1: el de las personas hacia la tecnología cuando nadie lo decide. Si una IA hace durante meses una tarea, las personas dejan de saber hacerla, y la organización depende del sistema sin haberlo elegido. Es la segunda ironía de Bainbridge aplicada al conocimiento. El método la trata con dos piezas. En el mapa se añade, para cada fila que pasa al sistema, quién mantiene la capacidad de hacerlo sin él (es una de las columnas del anexo B). Y en la supervisión del programa (capítulo 16), una vez por periodo de medición, se revisa qué capacidades se han perdido. Las dos son propuestas sin probar: el capítulo 21 recoge lo que sigue abierto, que es si bastan.
+Hay un movimiento del conocimiento que el método trataba mal hasta la versión 1.1: el de las personas hacia la tecnología cuando nadie lo decide. Si una IA hace durante meses una tarea, las personas dejan de saber hacerla, y la organización depende del sistema sin haberlo elegido. Es la segunda ironía de Bainbridge aplicada al conocimiento. Fügener y otros (2021) apuntan un coste parecido entre varias personas, en experimentos y simulaciones de laboratorio y no en organizaciones reales: si todos siguen el consejo de la misma IA, sus decisiones convergen y se reduce lo que cada uno sabía y la IA no. El método la trata con dos piezas. En el mapa se añade, para cada fila que pasa al sistema, quién mantiene la capacidad de hacerlo sin él (es una de las columnas del anexo B). Y en la supervisión del programa (capítulo 16), una vez por periodo de medición, se revisa qué capacidades se han perdido. Las dos son propuestas sin probar: el capítulo 21 recoge lo que sigue abierto, que es si bastan.
 
 ### Cómo se mide
 
