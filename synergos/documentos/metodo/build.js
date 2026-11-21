@@ -213,8 +213,8 @@ function sectionsOf() {
       new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [TEXT_W - 760, 760], rows: [new TableRow({ children: [
         new TableCell({ width: { size: TEXT_W - 760, type: WidthType.DXA }, margins: { top: 100, bottom: 0, left: 0, right: 0 }, borders: { top, bottom: nb, left: nb, right: nb },
           children: [new Paragraph({ spacing: { before: 0, after: 0 }, children: [new TextRun({ text: 'Crecer a la vez.', font: HF, size: 26, color: GREEN, italics: true })] })] }),
-        new TableCell({ width: { size: 760, type: WidthType.DXA }, shading: SHADE(PCOL[n]), margins: { top: 70, bottom: 70, left: 0, right: 0 }, borders: { top: nb, bottom: nb, left: nb, right: nb },
-          children: [new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 0, after: 0 }, children: [new TextRun({ children: [PageNumber.CURRENT], font: BOLD, size: 18, color: dark ? INK : 'FFFFFF' })] })] }),
+        new TableCell({ width: { size: 760, type: WidthType.DXA }, margins: { top: 90, bottom: 0, left: 0, right: 0 }, borders: { top: { style: BorderStyle.SINGLE, size: 24, color: PCOL[n] }, bottom: nb, left: nb, right: nb },
+          children: [new Paragraph({ alignment: AlignmentType.RIGHT, spacing: { before: 0, after: 0 }, children: [new TextRun({ children: [PageNumber.CURRENT], font: HF, size: 30, color: INK })] })] }),
       ] })] }),
       new Paragraph({ spacing: { before: 0, after: 0, line: 20, lineRule: 'exact' }, children: [mark] }),
     ] }) }; };
