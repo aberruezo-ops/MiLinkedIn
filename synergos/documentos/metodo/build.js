@@ -241,7 +241,7 @@ function sectionsOf() {
     else { const k = part === 'ANEXOS' ? 6 : PARTS.indexOf(n); PARTS.forEach((f, i) => { if (i) runs.push(gap()); runs.push(seg(i === 6 ? 'ANEXOS' : f, i < k ? 'p' : (i === k ? 'c' : 'f'))); }); }
     return runs; };
   const ftrOf = (part, unit) => { const n = pnum(part), dark = PCOL[n] === ALBERO, top = { style: BorderStyle.SINGLE, size: 4, color: LINE }, W1 = 2100, W3 = 760, W2 = TEXT_W - W1 - W3;
-    const mark = new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'marca-agua.png')), transformation: { width: 420, height: 420 }, floating: { horizontalPosition: { relative: D.HorizontalPositionRelativeFrom.PAGE, align: D.HorizontalPositionAlign.RIGHT }, verticalPosition: { relative: D.VerticalPositionRelativeFrom.PAGE, align: D.VerticalPositionAlign.BOTTOM }, behindDocument: true, allowOverlap: true, lockAnchor: true } });
+    const mark = new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'marca-agua.png')), transformation: { width: 780, height: 780 }, floating: { horizontalPosition: { relative: D.HorizontalPositionRelativeFrom.PAGE, align: D.HorizontalPositionAlign.RIGHT }, verticalPosition: { relative: D.VerticalPositionRelativeFrom.PAGE, align: D.VerticalPositionAlign.BOTTOM }, behindDocument: true, allowOverlap: true, lockAnchor: true } });
     const cell = (w, kids, extra = {}) => new TableCell({ width: { size: w, type: WidthType.DXA }, margins: { top: 100, bottom: 0, left: 0, right: 0 }, borders: { top, bottom: nb, left: nb, right: nb }, ...extra, children: kids });
     return { default: new Footer({ children: [
       new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [W1, W2, W3], rows: [new TableRow({ children: [
