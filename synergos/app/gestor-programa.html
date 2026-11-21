@@ -160,19 +160,19 @@ const O=(arr)=>arr.map(x=>Array.isArray(x)?x:[x,x]);
 const FASEOPT=FASES.map((f,i)=>[String(i+1),(i+1)+'. '+f]);
 const MADOPT=[['1','1. Puntual'],['2','2. Repetible'],['3','3. Integrado'],['4','4. Sistemático']];
 const SCHEMA={
- ambitos:{one:'ámbito',fields:[['nombre','Nombre del ámbito','text'],['restriccion','Restricción principal (una por ámbito, aceptada por el patrocinador)','textarea'],['patrocinador','Patrocinador','text'],['fase','Fase actual','select',FASEOPT],
+ ambitos:{one:'ámbito',fields:[['nombre','Nombre del ámbito','text'],['objetivo','Objetivo de negocio: el resultado que se quiere cambiar, con su horizonte y quién responde de él','textarea'],['restriccion','Restricción principal (la que más limita ese resultado; una por ámbito, aceptada por el patrocinador)','textarea'],['patrocinador','Patrocinador','text'],['fase','Fase actual','select',FASEOPT],
   ['mP','Madurez · Personas','select',MADOPT,'half'],['mC','Madurez · Conocimiento','select',MADOPT,'half'],['mT','Madurez · Tecnología','select',MADOPT,'half'],['mG','Madurez · Gobierno','select',MADOPT,'half'],['evidencia','Evidencia de la madurez','textarea']]},
  iniciativas:{one:'iniciativa',fields:[['nombre','Nombre','text'],['ambitoId','Ámbito','ref','ambitos'],['alcance','Alcance','select',O([['puntual','Puntual'],['flujo','De flujo'],['sistema','De sistema']])],['fase','Fase','select',FASEOPT],
-  ['verbo','Qué hace la tecnología','select',O([['sin','No lleva tecnología'],['acelera','Acelera'],['automatiza','Automatiza'],['aumenta','Aumenta']])],['ataca','¿Ataca la restricción?','select',O([['si','Sí'],['no','No'],['habilitador','Es un habilitador'],['legal','Obligación legal']])],
+  ['verbo','Qué hace la tecnología','select',O([['sin','No lleva tecnología'],['acelera','Acelera'],['automatiza','Automatiza'],['aumenta','Aumenta']])],['ataca','¿Ataca la restricción?','select',O([['si','Sí'],['no','No'],['habilitador','Es un habilitador'],['legal','Obligación legal']])],['valorMin','Valor previsto, mínimo (€)','number','','half'],['valorMax','Valor previsto, máximo (€)','number','','half'],['plazoValor','Plazo del efecto','text','','half'],['duenoBeneficio','Dueño del beneficio (en el negocio, no en el programa)','text','','half'],
   ['dueno','Dueño operativo','text'],['estado','Estado','select',O([['curso','En curso'],['pausada','Pausada'],['retirada','Retirada'],['sostenimiento','En sostenimiento']])],['notas','Notas','textarea']]},
- indicadores:{one:'indicador',fields:[['nombre','Nombre del indicador','text'],['ambitoId','Ámbito','ref','ambitos'],['elemento','Elemento','select',O([['personas','Personas'],['conocimiento','Conocimiento'],['tecnologia','Tecnología']])],['tipo','Clase','select',O([['avance','De avance (tiene objetivo)'],['guarda','De guarda (tiene suelo)']])],
+ indicadores:{one:'indicador',fields:[['nombre','Nombre del indicador','text'],['ambitoId','Ámbito','ref','ambitos'],['elemento','Qué mide','select',O([['objetivo','Objetivo de negocio (resultado)'],['personas','Personas'],['conocimiento','Conocimiento'],['tecnologia','Tecnología (uso)']])],['tipo','Clase','select',O([['avance','De avance (tiene objetivo)'],['guarda','De guarda (tiene suelo)']])],
   ['sentido','Mejor cuando','select',O([['sube','Sube'],['baja','Baja']])],['unidad','Unidad','text','','half'],['base','Línea base','number','','half'],['actual','Valor actual','number','','half'],['objetivo','Objetivo (avance)','number','','half'],['suelo','Suelo o techo (guarda)','number','','half'],['variacion','Variación normal','number','','half'],['peso','Peso (avance)','number','','half']]},
  puertas:{one:'decisión de puerta',fields:[['iniciativaId','Iniciativa','ref','iniciativas'],['puerta','Puerta','select',O([['diagnostico','Diagnóstico'],['diseno','Diseño'],['piloto','Piloto'],['escala','Escala'],['sostenimiento','Sostenimiento'],['autonomia','Subir o bajar autonomía']])],['fecha','Fecha de la decisión','date','','half'],['criteriosFecha','Fecha en que se firmaron los criterios','date','','half'],
   ['salida','Salida','select',O([['pasar','Pasar'],['ajustar','Ajustar y repetir'],['retirar','Retirar']])],['firma','Firma el patrocinador (nombre)','text','','half'],['contrafirma','Contrafirma, persona ajena al equipo','text','','half'],['mide','Medición certifica los datos','check'],
-  ['q1','1. ¿Ataca la restricción?','textarea'],['q2','2. ¿Acelera, automatiza o aumenta? ¿Qué criterio gana o pierde la persona?','textarea'],['q3','3. ¿Qué pasa con el mapa de lo que nadie escribió?','textarea'],['q4','4. ¿Quién responde y quién enseña lo que la tarea enseñaba?','textarea'],['q5','5. ¿Crecen a la vez? ¿Qué indicador mejora y cuál empeora?','textarea'],['notas','Notas','textarea']]},
+  ['q1','1. ¿Ataca la restricción, y cuánto vale resolverla? ¿Qué resultado del negocio cambia, en qué horquilla y quién es el dueño del beneficio?','textarea'],['valorPuerta','Valor: horquilla corregida con lo medido hasta esta puerta','textarea'],['q2','2. ¿Acelera, automatiza o aumenta? ¿Qué criterio gana o pierde la persona?','textarea'],['q3','3. ¿Qué pasa con el mapa de lo que nadie escribió?','textarea'],['q4','4. ¿Quién responde y quién enseña lo que la tarea enseñaba?','textarea'],['q5','5. ¿Crecen a la vez? ¿Qué indicador mejora y cuál empeora?','textarea'],['notas','Notas','textarea']]},
  mapa:{one:'fila del mapa',fields:[['ambitoId','Ámbito','ref','ambitos'],['saber','Qué se sabe','textarea'],['quien','Quién lo sabe','text'],['donde','Dónde se usa','text'],['personas','Personas que lo saben','number','','half'],['critico','Es crítico','check'],['destino','Qué pasa con cada opción de diseño','select',O([['','Sin decidir'],['persona','Se queda en la persona'],['sistema','Pasa al sistema'],['pierde','Se pierde']])]]},
- agentes:{one:'agente',fields:[['nombre','Nombre del agente','text'],['ambitoId','Ámbito','ref','ambitos'],['dueno','Dueño (una persona con nombre)','text'],['finalidad','Finalidad y flujo','textarea'],['acciones','Acciones permitidas (lista cerrada)','textarea'],['datos','Datos a los que llega y cómo se borran','textarea'],
-  ['nivel','Nivel actual','select',NIVELES,'half'],['entrada','Nivel de entrada al piloto','select',NIVELES,'half'],['techo','Nivel máximo fijado en la puerta','select',NIVELES,'half'],['derechos','Decide sobre derechos de las personas','check'],
+ agentes:{one:'agente',fields:[['nombre','Nombre del agente','text'],['tipo','¿Hace falta un agente o basta un flujo fijo?','select',O([['','Sin decidir'],['agente','Agente'],['flujo','Flujo fijo con IA dentro']])],['ambitoId','Ámbito','ref','ambitos'],['dueno','Dueño (una persona con nombre)','text'],['finalidad','Finalidad y flujo','textarea'],['acciones','Acciones permitidas (lista cerrada)','textarea'],['datos','Datos a los que llega y cómo se borran','textarea'],
+  ['nivelFun','Nivel por función si difiere (informar, analizar, decidir, ejecutar)','text'],['nivel','Nivel actual','select',NIVELES,'half'],['entrada','Nivel de entrada al piloto','select',NIVELES,'half'],['techo','Nivel máximo fijado en la puerta','select',NIVELES,'half'],['derechos','Decide sobre derechos de las personas','check'],
   ['aprobacion','Acciones que necesitan visto bueno previo y de quién','textarea'],['parada','Condiciones de parada y cómo se para a mano','textarea'],['registro','Qué se registra de cada acción y cuánto tiempo','textarea'],['coste','Coste por unidad de trabajo resuelta','text'],['personasConoc','Qué criterio gana o pierde quien trabajaba en el flujo y quién enseña lo que la tarea enseñaba','textarea'],['proxRevision','Próxima revisión','date']]}
 };
 const S={ambitos:[],iniciativas:[],indicadores:[],puertas:[],mapa:[],agentes:[],camino:[],aj:{}};
@@ -189,7 +189,8 @@ const umbral=()=>num(S.aj.umbral)||3;
 function delta(i){const b=num(i.base),o=num(i.objetivo),a=num(i.actual);if(b==null||o==null||a==null||o===b)return null;return Math.max(0,Math.min(1,(a-b)/(o-b)))}
 function enVar(i){const v=num(i.variacion),b=num(i.base),a=num(i.actual);return v!=null&&b!=null&&a!=null&&Math.abs(a-b)<=v}
 function guardaOk(i){const s=num(i.suelo),a=num(i.actual);if(s==null||a==null)return null;return i.sentido==='baja'?a<=s:a>=s}
-function deltaAmbito(id){let sw=0,sd=0;S.indicadores.filter(i=>i.ambitoId===id&&i.tipo==='avance').forEach(i=>{let d=delta(i);if(d==null)return;if(enVar(i))d=0;const w=num(i.peso)||1;sw+=w;sd+=d*w});return sw?sd/sw:null}
+function deltaGrupo(id,obj){let sw=0,sd=0;S.indicadores.filter(i=>i.ambitoId===id&&i.tipo==='avance'&&((i.elemento==='objetivo')===obj)).forEach(i=>{let d=delta(i);if(d==null)return;if(enVar(i))d=0;const w=num(i.peso)||1;sw+=w;sd+=d*w});return sw?sd/sw:null}
+const deltaAmbito=id=>deltaGrupo(id,false),deltaObj=id=>deltaGrupo(id,true);
 function regla(a){const bajos=MAD.filter(([k])=>(num(a[k])||1)<2).map(([,n])=>n);return{ok:!bajos.length,bajos}}
 function faltan(ag){const L=num(ag.nivel)||1;return CONTROLES.filter(c=>c[1]<=L&&!(ag.controles||{})[c[0]])}
 function techoAg(ag){let t=num(ag.techo)||4;if(ag.derechos)t=Math.min(t,2);return t}
@@ -197,11 +198,15 @@ function alertas(){
   const A=[];const hoy=new Date().toISOString().slice(0,10);
   S.ambitos.forEach(a=>{
     if((num(a.fase)||1)>=2&&!(a.restriccion||'').trim())A.push(['a','Falta nombrar la restricción de «'+a.nombre+'»','Sin restricción nombrada no se entra en diseño.','ambitos']);
+    if(!(a.objetivo||'').trim())A.push(['m','Falta escribir el objetivo de negocio de «'+a.nombre+'»','Es el resultado que se quiere cambiar. La restricción se nombra respecto a él.','ambitos']);
+    if((num(a.fase)||1)>=2&&!S.indicadores.some(i=>i.ambitoId===a.id&&i.elemento==='objetivo'))A.push(['a','«'+a.nombre+'» no tiene indicador del objetivo de negocio','Sin él no se sabe si el programa sirve al negocio. Un indicador de resultado por ámbito, con su línea base.','indicadores']);
+    {const dp=deltaAmbito(a.id),dob=deltaObj(a.id);if(dp!=null&&dob!=null&&dp>=0.5&&dob<0.2)A.push(['m','Las palancas avanzan y el resultado no se mueve en «'+a.nombre+'»','Delta de las palancas '+Math.round(dp*100)+' %, del objetivo '+Math.round(dob*100)+' %. El programa puede estar ordenado y no servir al negocio.','indicadores']);if(dp!=null&&dob!=null&&dob>=0.5&&dp<0.2)A.push(['m','El resultado mejora y una palanca cae en «'+a.nombre+'»','Delta del objetivo '+Math.round(dob*100)+' %, de las palancas '+Math.round(dp*100)+' %. Lo ganado se queda sin quien lo sostenga.','indicadores'])}
     const r=regla(a);const tec=S.iniciativas.some(i=>i.ambitoId===a.id&&['acelera','automatiza','aumenta'].includes(i.verbo)&&i.estado==='curso'&&(num(i.fase)||1)>=3);
     if(!r.ok&&tec)A.push(['a','Regla de entrada sin cumplir en «'+a.nombre+'»','Hay tecnología en piloto y estos elementos están por debajo del nivel 2: '+r.bajos.join(', ')+'.','ambitos']);
     const crit=S.mapa.filter(m=>m.ambitoId===a.id&&m.critico&&(num(m.personas)||0)<=1).length;
     if(crit>=umbral())A.push(['a','Conocimiento concentrado en «'+a.nombre+'»',crit+' filas críticas dependen de una sola persona (umbral: '+umbral()+').','mapa']);
   });
+  S.iniciativas.forEach(i=>{if(i.estado!=='retirada'&&i.ataca==='si'&&(num(i.fase)||1)>=2&&!((i.duenoBeneficio||'').trim()&&num(i.valorMax)!=null))A.push(['m','«'+i.nombre+'»: falta el valor y su dueño','Cuánto vale resolver la restricción (horquilla) y quién es el dueño del beneficio, en el negocio.','ambitos'])});
   S.indicadores.forEach(i=>{if(i.tipo==='guarda'&&guardaOk(i)===false)A.push(['a','Indicador de guarda bajo su suelo: '+i.nombre,'Ninguno puede bajar de su suelo para pasar una puerta.','indicadores'])});
   S.puertas.forEach(p=>{
     const n=nameOf('iniciativas',p.iniciativaId);
@@ -241,13 +246,13 @@ function vResumen(){
   const SEC={ambitos:'Ámbitos',mapa:'Mapa',indicadores:'Indicadores',puertas:'Puertas',agentes:'Agentes'};
   o+=A.length?'<div class="alist">'+A.slice(0,8).map(a=>'<a class="arow" href="#'+a[3]+'"><span class="sev '+(a[0]==='a'?'':'m')+'"></span><div><b>'+h(a[1])+'</b>'+(a[2]?'<small>'+h(a[2])+'</small>':'')+'</div><span class="go">'+h(SEC[a[3]]||'')+'</span></a>').join('')+'</div>'+(A.length>8?'<p class="muted" style="margin-top:-14px">Y '+(A.length-8)+' más en sus secciones.</p>':''):'<div class="alist"><div class="arow"><span class="sev" style="background:var(--green)"></span><div><b>Nada pendiente según las reglas del método.</b></div><span></span></div></div>';
   o+='<p class="sech">Ámbitos</p><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr))">'+S.ambitos.map((a,ix)=>{
-    const f=num(a.fase)||1,d=deltaAmbito(a.id),r=regla(a),ini=S.iniciativas.filter(i=>i.ambitoId===a.id),ag=S.agentes.filter(x=>x.ambitoId===a.id);
+    const f=num(a.fase)||1,d=deltaAmbito(a.id),dO=deltaObj(a.id),r=regla(a),ini=S.iniciativas.filter(i=>i.ambitoId===a.id),ag=S.agentes.filter(x=>x.ambitoId===a.id);
     const crit=S.mapa.filter(m=>m.ambitoId===a.id&&m.critico&&(num(m.personas)||0)<=1).length;
     return '<div class="card'+(ix%2?' b':'')+'"><div class="amb"><div><div class="k">'+h(a.patrocinador||'Sin patrocinador')+'</div><h3>'+h(a.nombre)+'</h3>'
-    +'<p style="margin:0 0 6px"><span class="muted">Restricción:</span> '+(a.restriccion?h(a.restriccion):'<b class="danger">sin nombrar</b>')+'</p>'
+    +'<p style="margin:0 0 6px"><span class="muted">Objetivo de negocio:</span> '+(a.objetivo?h(a.objetivo):'<b class="danger">sin escribir</b>')+'</p><p style="margin:0 0 6px"><span class="muted">Restricción:</span> '+(a.restriccion?h(a.restriccion):'<b class="danger">sin nombrar</b>')+'</p>'
     +'<div class="steps">'+FASES.map((n,i)=>'<span class="'+(i+1<f?'d':i+1===f?'n':'')+'">'+n+'</span>').join('')+'</div>'
     +'<div class="row" style="gap:6px;margin-top:10px">'+pill(pl(ini.length,'iniciativa','iniciativas'))+pill(pl(ag.length,'agente','agentes'))+(crit?pill(pl(crit,'fila en una persona','filas en una persona'),'t'):'')+'</div></div>'
-    +'<div><div class="row sp"><span class="k">Avance medido</span><b>'+(d==null?'sin datos':Math.round(d*100)+' %')+'</b></div><div class="bar"><i style="width:'+Math.round((d||0)*100)+'%"></i></div>'
+    +'<div><div class="row sp"><span class="k">Objetivo de negocio</span><b>'+(dO==null?'sin datos':Math.round(dO*100)+' %')+'</b></div><div class="bar"><i style="width:'+Math.round((dO||0)*100)+'%"></i></div><div class="row sp" style="margin-top:10px"><span class="k">Palancas</span><b>'+(d==null?'sin datos':Math.round(d*100)+' %')+'</b></div><div class="bar"><i style="width:'+Math.round((d||0)*100)+'%"></i></div>'
     +'<div class="k" style="margin-top:14px">Madurez</div><div class="mad">'+MAD.map(([k,n])=>{const v=num(a[k])||1;return '<div class="'+(v>=2?'ok':'no')+'"><b>'+v+'</b>'+n.slice(0,6)+'.</div>'}).join('')+'</div>'
     +'<p class="muted" style="margin:10px 0 0;font-size:13px">'+(r.ok?'Regla de entrada cumplida: la tecnología puede entrar en el servicio.':'Regla de entrada: falta nivel 2 en '+h(r.bajos.join(', '))+'.')+'</p></div></div></div>'}).join('')+'</div>';
   return o;
@@ -257,9 +262,9 @@ function vAmbitos(){
   if(!S.ambitos.length)return o+vEmpty('Sin ámbitos','Crea el primero para colgar de él las iniciativas.');
   return o+S.ambitos.map(a=>{const ini=S.iniciativas.filter(i=>i.ambitoId===a.id);
     return '<div class="card" style="margin-bottom:16px"><div class="row sp"><div><div class="k">Fase '+(num(a.fase)||1)+' · '+FASES[(num(a.fase)||1)-1]+'</div><h3>'+h(a.nombre)+'</h3></div>'+rowBtns('ambitos',a.id)+'</div>'
-    +'<dl><dt>Restricción</dt><dd>'+h(a.restriccion||'—')+'</dd><dt>Patrocinador</dt><dd>'+h(a.patrocinador||'—')+'</dd><dt>Madurez</dt><dd>'+MAD.map(([k,n])=>n+' '+(num(a[k])||1)).join(' · ')+'</dd>'+(a.evidencia?'<dt>Evidencia</dt><dd>'+h(a.evidencia)+'</dd>':'')+'</dl>'
+    +'<dl><dt>Objetivo de negocio</dt><dd>'+h(a.objetivo||'—')+'</dd><dt>Restricción</dt><dd>'+h(a.restriccion||'—')+'</dd><dt>Patrocinador</dt><dd>'+h(a.patrocinador||'—')+'</dd><dt>Madurez</dt><dd>'+MAD.map(([k,n])=>n+' '+(num(a[k])||1)).join(' · ')+'</dd>'+(a.evidencia?'<dt>Evidencia</dt><dd>'+h(a.evidencia)+'</dd>':'')+'</dl>'
     +'<div class="row sp" style="margin-top:14px"><span class="k">Iniciativas · '+ini.length+'</span><button data-a="new" data-c="iniciativas" data-amb="'+a.id+'">Añadir iniciativa</button></div>'
-    +(ini.length?'<div class="scroll"><table><tr><th>Iniciativa</th><th>Fase</th><th>Tecnología</th><th>Estado</th><th></th></tr>'+ini.map(i=>'<tr><td><b>'+h(i.nombre)+'</b><br><span class="muted">'+h(i.alcance||'')+' · dueño: '+h(i.dueno||'sin dueño')+'</span></td><td>'+h(FASES[(num(i.fase)||1)-1])+'</td><td>'+h(i.verbo||'—')+(i.ataca==='no'?'<br>'+pill('No ataca la restricción','a'):'')+'</td><td>'+pill(i.estado||'curso',i.estado==='retirada'?'t':'g')+'</td><td>'+rowBtns('iniciativas',i.id)+'</td></tr>').join('')+'</table></div>':'<p class="muted">Sin iniciativas todavía.</p>')+'</div>'}).join('');
+    +(ini.length?'<div class="scroll"><table><tr><th>Iniciativa</th><th>Fase</th><th>Tecnología</th><th>Valor previsto</th><th>Estado</th><th></th></tr>'+ini.map(i=>'<tr><td><b>'+h(i.nombre)+'</b><br><span class="muted">'+h(i.alcance||'')+' · dueño: '+h(i.dueno||'sin dueño')+'</span></td><td>'+h(FASES[(num(i.fase)||1)-1])+'</td><td>'+h(i.verbo||'—')+(i.ataca==='no'?'<br>'+pill('No ataca la restricción','a'):'')+'</td><td>'+(num(i.valorMax)!=null?h((num(i.valorMin)!=null?(+i.valorMin).toLocaleString('es-ES')+' a ':'hasta ')+(+i.valorMax).toLocaleString('es-ES'))+' €'+(i.plazoValor?'<br><span class="muted">'+h(i.plazoValor)+'</span>':'')+'<br><span class="muted">dueño: '+h(i.duenoBeneficio||'sin dueño')+'</span>':'—')+'</td><td>'+pill(i.estado||'curso',i.estado==='retirada'?'t':'g')+'</td><td>'+rowBtns('iniciativas',i.id)+'</td></tr>').join('')+'</table></div>':'<p class="muted">Sin iniciativas todavía.</p>')+'</div>'}).join('');
 }
 function vPuertas(){
   let o=head('Puertas','Una decisión por puerta, con los criterios firmados antes de ver el dato. Tres salidas: pasar, ajustar y repetir, o retirar.',addBtn('puertas','Registrar decisión'));
@@ -267,7 +272,7 @@ function vPuertas(){
   return o+[...S.puertas].sort((a,b)=>(b.fecha||'')<(a.fecha||'')?-1:1).map(p=>{const tarde=!p.criteriosFecha||(p.fecha&&p.criteriosFecha>p.fecha);
     return '<div class="card b" style="margin-bottom:14px"><div class="row sp"><div><div class="k">Puerta de '+h((PNOM[p.puerta]||p.puerta||'').toLowerCase())+' · '+h(fmtD(p.fecha))+'</div><h3>'+h(nameOf('iniciativas',p.iniciativaId))+'</h3></div><div class="row">'+salidaChip(p.salida)+rowBtns('puertas',p.id)+'</div></div>'
     +'<div class="row" style="gap:6px;margin-bottom:8px">'+(tarde?pill('Criterios no firmados antes','t'):pill('Criterios firmados antes','g'))+(p.mide?pill('Datos certificados','g'):pill('Sin certificar','a'))+'</div>'
-    +'<dl><dt>Firma</dt><dd>'+h(p.firma||'—')+'</dd><dt>Contrafirma</dt><dd>'+h(p.contrafirma||'—')+'</dd>'+['q1','q2','q3','q4','q5'].filter(q=>p[q]).map((q,i)=>'<dt>Pregunta '+q.slice(1)+'</dt><dd>'+h(p[q])+'</dd>').join('')+(p.notas?'<dt>Notas</dt><dd>'+h(p.notas)+'</dd>':'')+'</dl></div>'}).join('');
+    +'<dl><dt>Firma</dt><dd>'+h(p.firma||'—')+'</dd><dt>Contrafirma</dt><dd>'+h(p.contrafirma||'—')+'</dd>'+['q1','valorPuerta','q2','q3','q4','q5'].filter(q=>p[q]).map((q,i)=>'<dt>'+(q==='valorPuerta'?'Valor corregido':'Pregunta '+q.slice(1))+'</dt><dd>'+h(p[q])+'</dd>').join('')+(p.notas?'<dt>Notas</dt><dd>'+h(p.notas)+'</dd>':'')+'</dl></div>'}).join('');
 }
 function vMapa(){
   let o=head('Mapa de lo que nadie escribió','Qué se sabe, quién lo sabe, dónde se usa y cuán concentrado está. La última columna es la que asusta.',addBtn('mapa','Añadir fila'));
@@ -277,19 +282,19 @@ function vMapa(){
     +f.map(m=>'<tr><td>'+(m.critico?pill('Crítico','t')+' ':'')+h(m.saber)+'</td><td>'+h(m.quien||'')+'</td><td>'+h(m.donde||'')+'</td><td><b>'+h(m.personas==null?'':m.personas)+'</b></td><td>'+h({persona:'Se queda en la persona',sistema:'Pasa al sistema',pierde:'Se pierde'}[m.destino]||'Sin decidir')+'</td><td>'+rowBtns('mapa',m.id)+'</td></tr>').join('')+'</table></div></div>'}).join('');
 }
 function vInd(){
-  let o=head('Indicadores','De avance, con objetivo, entran en el delta. De guarda, con suelo, no entran en la media: se cumplen o no. La línea base se toma antes de cambiar nada.',addBtn('indicadores','Nuevo indicador'));
-  if(!S.indicadores.length)return o+vEmpty('Sin indicadores','Al menos uno por elemento, con su línea base y su variación normal.');
-  return o+S.ambitos.map(a=>{const f=S.indicadores.filter(i=>i.ambitoId===a.id);if(!f.length)return '';const d=deltaAmbito(a.id);
-    return '<div class="card b" style="margin-bottom:16px"><div class="row sp"><h3>'+h(a.nombre)+'</h3><span class="k">Delta del ámbito · '+(d==null?'sin datos':Math.round(d*100)+' %')+'</span></div><div class="scroll"><table><tr><th>Indicador</th><th>Línea base</th><th>Actual</th><th>Objetivo o suelo</th><th>Estado</th><th></th></tr>'
+  let o=head('Indicadores','Uno del objetivo de negocio y al menos uno por elemento. De avance, con objetivo, entran en el delta; el del objetivo y el de las palancas se leen aparte y no se promedian. De guarda, con suelo, no entran en la media. La línea base se toma antes de cambiar nada.',addBtn('indicadores','Nuevo indicador'));
+  if(!S.indicadores.length)return o+vEmpty('Sin indicadores','Un indicador del objetivo de negocio y al menos uno por elemento, con su línea base y su variación normal.');
+  return o+S.ambitos.map(a=>{const f=S.indicadores.filter(i=>i.ambitoId===a.id);if(!f.length)return '';const d=deltaAmbito(a.id),dO=deltaObj(a.id);
+    return '<div class="card b" style="margin-bottom:16px"><div class="row sp"><h3>'+h(a.nombre)+'</h3><span class="k">Delta del objetivo · '+(dO==null?'sin datos':Math.round(dO*100)+' %')+' · Delta de las palancas · '+(d==null?'sin datos':Math.round(d*100)+' %')+'</span></div><div class="scroll"><table><tr><th>Indicador</th><th>Línea base</th><th>Actual</th><th>Objetivo o suelo</th><th>Estado</th><th></th></tr>'
     +f.map(i=>{let est;if(i.tipo==='guarda'){const g=guardaOk(i);est=g==null?pill('Sin datos'):g?pill('Por encima del suelo','g'):pill('Bajo el suelo','t')}else{const dd=delta(i);est=dd==null?pill('Sin datos'):enVar(i)?pill('Dentro de la variación normal','a'):pill(Math.round(dd*100)+' % recorrido','g')}
-    return '<tr><td><b>'+h(i.nombre)+'</b><br><span class="muted">'+h(i.elemento||'')+' · '+(i.tipo==='guarda'?'guarda':'avance')+'</span></td><td>'+h(i.base??'')+' '+h(i.unidad||'')+'</td><td>'+h(i.actual??'')+'</td><td>'+h(i.tipo==='guarda'?i.suelo??'':i.objetivo??'')+'</td><td>'+est+'</td><td>'+rowBtns('indicadores',i.id)+'</td></tr>'}).join('')+'</table></div></div>'}).join('');
+    return '<tr><td><b>'+h(i.nombre)+'</b><br><span class="muted">'+h(i.elemento==='objetivo'?'objetivo de negocio':(i.elemento||''))+' · '+(i.tipo==='guarda'?'guarda':'avance')+'</span></td><td>'+h(i.base??'')+' '+h(i.unidad||'')+'</td><td>'+h(i.actual??'')+'</td><td>'+h(i.tipo==='guarda'?i.suelo??'':i.objetivo??'')+'</td><td>'+est+'</td><td>'+rowBtns('indicadores',i.id)+'</td></tr>'}).join('')+'</table></div></div>'}).join('');
 }
 function vAgentes(){
   let o=head('Agentes','La ficha de cada agente y los controles que tienen que existir para el nivel en que opera. Un límite solo cuenta si lo aplica el sistema.',addBtn('agentes','Nueva ficha'));
   if(!S.agentes.length)return o+vEmpty('Sin agentes en el inventario','Cada agente tiene ficha antes de entrar en un piloto. Un agente que se usa y no está aquí es una señal de que algo va mal.');
   return o+S.agentes.map((g,ix)=>{const L=num(g.nivel)||1,t=techoAg(g),f=faltan(g);
     return '<div class="card'+(ix%2?'':' b')+'" style="margin-bottom:16px"><div class="row sp"><div><div class="k">'+h(nameOf('ambitos',g.ambitoId))+'</div><h3>'+h(g.nombre)+'</h3></div><div class="row">'+pill('Nivel '+L,L>t?'t':'g')+pill('Techo '+t)+rowBtns('agentes',g.id)+'</div></div>'
-    +'<dl><dt>Dueño</dt><dd>'+h(g.dueno||'—')+'</dd><dt>Finalidad</dt><dd>'+h(g.finalidad||'—')+'</dd><dt>Acciones</dt><dd>'+h(g.acciones||'—')+'</dd><dt>Datos</dt><dd>'+h(g.datos||'—')+'</dd><dt>Visto bueno</dt><dd>'+h(g.aprobacion||'—')+'</dd><dt>Parada</dt><dd>'+h(g.parada||'—')+'</dd><dt>Registro</dt><dd>'+h(g.registro||'—')+'</dd><dt>Próxima revisión</dt><dd>'+h(g.proxRevision?fmtD(g.proxRevision):'—')+'</dd></dl>'
+    +'<dl><dt>Dueño</dt><dd>'+h(g.dueno||'—')+'</dd>'+(g.tipo?'<dt>Agente o flujo fijo</dt><dd>'+h(g.tipo==='flujo'?'Flujo fijo con IA dentro':'Agente')+'</dd>':'')+(g.nivelFun?'<dt>Nivel por función</dt><dd>'+h(g.nivelFun)+'</dd>':'')+'<dt>Finalidad</dt><dd>'+h(g.finalidad||'—')+'</dd><dt>Acciones</dt><dd>'+h(g.acciones||'—')+'</dd><dt>Datos</dt><dd>'+h(g.datos||'—')+'</dd><dt>Visto bueno</dt><dd>'+h(g.aprobacion||'—')+'</dd><dt>Parada</dt><dd>'+h(g.parada||'—')+'</dd><dt>Registro</dt><dd>'+h(g.registro||'—')+'</dd><dt>Próxima revisión</dt><dd>'+h(g.proxRevision?fmtD(g.proxRevision):'—')+'</dd></dl>'
     +'<div class="k" style="margin:14px 0 4px">Controles para el nivel '+L+' · faltan '+f.length+'</div>'
     +CONTROLES.filter(c=>c[1]<=L).map(c=>'<label class="ctrl" style="font-weight:400;margin:0"><input type="checkbox" data-a="ctrl" data-id="'+g.id+'" data-k="'+c[0]+'"'+((g.controles||{})[c[0]]?' checked':'')+'> <span>'+h(c[2])+'</span></label>').join('')+'</div>'}).join('');
 }
@@ -309,20 +314,22 @@ function ctx(a){const ini=S.iniciativas.filter(i=>i.ambitoId===a.id),ids=ini.map
   return{a,ini,ind:S.indicadores.filter(i=>i.ambitoId===a.id),mapa:S.mapa.filter(m=>m.ambitoId===a.id),ag:S.agentes.filter(g=>g.ambitoId===a.id),pu:S.puertas.filter(p=>ids.includes(p.iniciativaId)),man:((S.camino.find(c=>c.id===a.id)||{}).items)||{}}}
 const tienePuerta=(c,t)=>c.pu.some(p=>p.puerta===t);
 const CAMINO=[
- {f:1,n:'Diagnóstico',tipo:'diagnostico',crit:'Para pasar al diseño: la restricción está nombrada y el patrocinador la acepta, la línea base está medida y el mapa de lo que nadie escribió existe, con el compromiso de uso firmado.',items:[
+ {f:1,n:'Diagnóstico',tipo:'diagnostico',crit:'Para pasar al diseño: el objetivo de negocio está escrito, la restricción está nombrada y el patrocinador la acepta, la línea base está medida y el mapa de lo que nadie escribió existe, con el compromiso de uso firmado.',items:[
   ['flujo','Mapa del flujo de trabajo real',null],
-  ['restr','Restricción principal nombrada',c=>!!(c.a.restriccion||'').trim()],
-  ['base','Línea base medida, un indicador por elemento',c=>['personas','conocimiento','tecnologia'].every(e=>c.ind.some(i=>i.elemento===e&&num(i.base)!=null))],
+  ['objetivo','Objetivo de negocio escrito, con su horizonte y quién responde',c=>!!(c.a.objetivo||'').trim()],
+  ['restr','Restricción principal nombrada, respecto a ese objetivo',c=>!!(c.a.restriccion||'').trim()],
+  ['base','Línea base medida, un indicador por elemento y uno del objetivo',c=>['objetivo','personas','conocimiento','tecnologia'].every(e=>c.ind.some(i=>i.elemento===e&&num(i.base)!=null))],
   ['actores','Mapa de actores, con la columna de quién sabe',null],
   ['mad','Madurez evaluada, con su evidencia',c=>!!(c.a.evidencia||'').trim()],
   ['mapa','Mapa de lo que nadie escribió',c=>c.mapa.length>0],
   ['compromiso','Compromiso de uso del mapa firmado por el patrocinador',null]]},
- {f:2,n:'Diseño',tipo:'diseno',crit:'Cada opción de diseño contesta por escrito las cinco preguntas antes de aprobar un piloto, y los criterios del piloto quedan firmados.',items:[
+ {f:2,n:'Diseño',tipo:'diseno',crit:'Cada opción de diseño contesta por escrito las cinco preguntas, la primera con su valor y su dueño del beneficio, antes de aprobar un piloto, y los criterios del piloto quedan firmados.',items:[
   ['cartera','Cartera priorizada por la restricción',c=>c.ini.length>0],
   ['trabajo','Nuevo diseño del trabajo',null],
   ['acel','Aceleradores por fase y regla de entrada',null],
   ['crit','Criterios del piloto firmados',c=>c.pu.some(p=>p.puerta==='diseno'&&p.criteriosFecha)],
   ['supuestos','Registro de supuestos',null],
+  ['arbol','Árbol de valor: horquilla y dueño del beneficio por iniciativa',c=>{const v=c.ini.filter(i=>i.estado!=='retirada'&&i.ataca==='si');return v.length?v.every(i=>(i.duenoBeneficio||'').trim()&&num(i.valorMax)!=null):undefined}],
   ['eco','Modelo económico, con el valle previsto',null],
   ['cinco','Decisión escrita con las cinco preguntas',c=>c.pu.some(p=>p.puerta==='diseno'&&['q1','q2','q3','q4','q5'].every(q=>(p[q]||'').trim()))],
   ['ficha','Ficha de cada agente',c=>c.ag.length?c.ag.every(g=>g.finalidad&&g.acciones&&g.dueno&&g.parada&&g.registro):undefined]]},
@@ -335,7 +342,7 @@ const CAMINO=[
   ['guardas','Indicadores de guarda por encima de su suelo',c=>{const g=c.ind.filter(i=>i.tipo==='guarda');return g.length?g.every(i=>guardaOk(i)!==false):undefined}],
   ['dpiloto','Decisión de la puerta registrada',c=>tienePuerta(c,'piloto')]]},
  {f:4,n:'Escala',tipo:'escala',crit:'Los indicadores aguantan al ampliar, y los tres elementos aguantan la carga.',items:[
-  ['etapas','Despliegue por etapas, con mini puertas',null],
+  ['etapas','Despliegue por etapas, con minipuertas',null],
   ['formacion','Formación en el puesto',null],
   ['refer','Varios referentes por área',null],
   ['adop','Responsable de adopción con nombre y tiempo',null],

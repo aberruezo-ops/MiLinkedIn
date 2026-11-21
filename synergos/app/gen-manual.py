@@ -16,9 +16,11 @@ GLOS = {  # id: (término, variantes en minúscula, definición)
  'contrafirma': ('Contrafirma', ['contrafirma'], 'Firma de una persona ajena al equipo del programa, de la segunda línea o de finanzas, que acompaña a la del patrocinador en una puerta.'),
  'controles': ('Controles por nivel', ['controles por nivel', 'control por nivel', 'controles'], 'Lista de lo que tiene que existir para que un agente opere en cada nivel de autonomía, como la parada probada o la lista cerrada de acciones aplicada por el sistema. Es una propuesta del método, sin probar.'),
  'criterio-parada': ('Criterio de parada', ['criterio de parada', 'criterios de parada'], 'Resultado que detiene un piloto antes de tiempo. Se escribe al empezar, junto con una fecha de revisión a noventa días.'),
- 'delta': ('Delta', ['delta'], 'Porcentaje que un indicador de avance ha recorrido desde su línea base hacia su objetivo, con un máximo del cien por cien. El delta de un ámbito es la media ponderada de sus indicadores.'),
+ 'delta': ('Delta', ['delta'], 'Porcentaje que un indicador de avance ha recorrido desde su línea base hacia su objetivo, con un máximo del cien por cien. Desde la versión 2.1 del método el delta se da en dos cifras que no se promedian: la del objetivo de negocio y la de las palancas (personas, conocimiento y tecnología), cada una la media ponderada de sus indicadores.'),
  'dueno': ('Dueño operativo', ['dueño operativo', 'dueños', 'dueño'], 'Persona con nombre, del equipo que opera, que responde de lo que la solución hace cuando el programa se va. Es también el dueño del agente.'),
- 'elementos': ('Tres elementos', ['tres elementos', 'elementos'], 'Personas, conocimiento y tecnología. El método pide que crezcan a la vez y los mide por separado, con al menos un indicador por elemento.'),
+ 'elementos': ('Tres elementos', ['tres elementos', 'elementos'], 'Personas, conocimiento y tecnología. El método pide que crezcan a la vez y los mide por separado, con al menos un indicador por elemento y uno del objetivo de negocio.'),
+ 'objetivo': ('Objetivo de negocio', ['objetivo de negocio'], 'El resultado que la organización quiere cambiar con la transformación. No es un cuarto elemento: es para qué se mueven los tres. Se escribe por ámbito y la restricción se nombra respecto a él.'),
+ 'arbol': ('Árbol de valor', ['árbol de valor'], 'La cadena que une la restricción con la cuenta de resultados: indicadores operativos, indicadores de resultado y efecto económico, con su horquilla y el dueño del beneficio. Se corrige en cada puerta con lo medido.'),
  'ficha': ('Ficha del agente', ['ficha del agente', 'fichas', 'ficha'], 'Los once campos que se escriben de cada agente antes de un piloto: dueño, finalidad, acciones permitidas, datos, nivel y techo, aprobación humana, parada, registro, coste, personas y conocimiento, y revisión.'),
  'fase': ('Fase', ['fases', 'fase'], 'Cada una de las cinco etapas del tronco: diagnóstico, diseño, piloto, escala y sostenimiento. Cada una termina en una puerta.'),
  'guarda': ('Indicador de guarda', ['indicadores de guarda', 'indicador de guarda'], 'Indicador con un suelo que no se puede perforar. No entra en la media: se cumple o no se cumple, y ninguno puede bajar de su suelo para pasar una puerta.'),
@@ -106,7 +108,7 @@ pasos = ''.join([
   'La evaluación se hace en horas, con el equipo afectado y no sobre él. Cuando los rasgos de un nivel no se cumplen todos, vale el nivel más bajo.'],
   'que cualquier elemento por debajo del nivel 2 aparece en rojo en el Resumen. Mientras sea así, la regla de entrada no se cumple y la tecnología no debería entrar en el servicio.', 'Formulario del ámbito'),
  STEP(5, 'Mide la línea base', [
-  'En Indicadores pulsa «Nuevo indicador». Crea al menos uno por elemento. Para cada uno anota la clase, la línea base medida y la variación normal.',
+  'En Indicadores pulsa «Nuevo indicador». Crea uno del objetivo de negocio (el resultado que se quiere cambiar) y al menos uno por elemento. Para cada uno anota la clase, la línea base medida y la variación normal.',
   ['Indicador de avance: tiene objetivo y pesa en el delta. Anota el objetivo y, si quieres que pese más, el peso.',
    'Indicador de guarda: tiene un suelo, o un techo si mejora cuando baja. No entra en la media. Elige en «Mejor cuando» el sentido correcto.'],
   'La línea base se mide antes de cambiar nada. Si no la tienes, no inventes un valor: deja el indicador sin datos.'],
@@ -139,14 +141,19 @@ SECS.append(('tutorial', 'Tu primer programa en diez pasos', pasos))
 SECS.append(('secciones', 'Qué hace cada sección', TBL(['Sección', 'Para qué sirve', 'Qué se guarda'], [
  ['Resumen', 'Ve el estado de cada ámbito de un vistazo y las alertas pendientes.', 'Nada: lo calcula con lo demás.'],
  ['Camino', 'Muestra las cinco fases con su puerta y lo que el documento pide en cada paso, para el ámbito que elijas.', 'Los pasos que marcas a mano. Los demás los comprueba solo con tus datos.'],
- ['Ámbitos e iniciativas', 'Define los ámbitos, su restricción, su madurez y las iniciativas que cuelgan de cada uno.', 'Nombre, restricción, patrocinador, fase, madurez y evidencia. Para cada iniciativa, alcance, fase, tecnología y dueño.'],
+ ['Ámbitos e iniciativas', 'Define los ámbitos, su restricción, su madurez y las iniciativas que cuelgan de cada uno.', 'Nombre, objetivo de negocio, restricción, patrocinador, fase, madurez y evidencia. Para cada iniciativa, alcance, fase, tecnología, dueño, valor previsto (horquilla y plazo) y dueño del beneficio.'],
  ['Puertas', 'Registra cada decisión con sus criterios, firmas y salida.', 'Fechas, salida, cinco preguntas, firma, contrafirma y certificación de datos.'],
  ['Mapa de lo no escrito', 'Lleva el conocimiento que no está escrito y su concentración.', 'Qué se sabe, quién, dónde, número de personas, si es crítico y qué pasa con cada opción.'],
- ['Indicadores', 'Mide con línea base, objetivo o suelo, y calcula el delta.', 'Línea base, valor actual, objetivo o suelo, variación normal y peso.'],
+ ['Indicadores', 'Mide con línea base, objetivo o suelo, y calcula el delta.', 'Qué mide (objetivo de negocio o uno de los tres elementos), línea base, valor actual, objetivo o suelo, variación normal y peso. Los dos deltas se leen aparte.'],
  ['Agentes', 'Mantiene la ficha de cada agente y sus controles por nivel.', 'Los once campos de la ficha, el nivel, el techo y los controles marcados.'],
  ['Ajustes', 'Cambia el nombre, el umbral y exporta los datos.', 'Nombre del programa y umbral.']])))
 
 SECS.append(('alertas', 'Las alertas, una a una', TBL(['Alerta', 'Qué significa', 'Qué hacer'], [
+ ['Falta escribir el objetivo de negocio', 'El ámbito no tiene escrito el resultado que se quiere cambiar.', 'Escríbelo con quien dirige: resultado, horizonte y quién responde. La restricción se nombra respecto a él.'],
+ ['Sin indicador del objetivo de negocio', 'El ámbito está en diseño o más allá y ningún indicador mide el objetivo.', 'Crea un indicador de resultado con su línea base antes de seguir.'],
+ ['Las palancas avanzan y el resultado no se mueve', 'El delta de las palancas pasa del 50 % y el del objetivo no llega al 20 %.', 'Revisa si lo que se mueve es lo que ataca la restricción. Un programa ordenado puede no servir al negocio.'],
+ ['El resultado mejora y una palanca cae', 'El delta del objetivo pasa del 50 % y el de las palancas no llega al 20 %.', 'Lo ganado se queda sin quien lo sostenga. Recupera la palanca antes de escalar.'],
+ ['Falta el valor y su dueño', 'Una iniciativa que ataca la restricción no tiene horquilla en el árbol de valor o dueño del beneficio.', 'Escribe cuánto vale resolverla, aunque sea una horquilla ancha, y quién responde de ese beneficio en el negocio.'],
  ['Falta nombrar la restricción', 'El ámbito está en diseño o más allá y no tiene restricción escrita.', 'Nómbrala con el patrocinador o devuelve el ámbito al diagnóstico.'],
  ['Regla de entrada sin cumplir', 'Hay un acelerador en piloto y algún elemento está por debajo del nivel 2.', 'Sube ese elemento al nivel 2 o saca la tecnología del servicio hasta que lo esté.'],
  ['Conocimiento concentrado', 'Las filas críticas que dependen de una sola persona alcanzan el umbral.', 'Documenta y reparte esas filas antes de seguir, o decide por escrito quién las protege.'],
@@ -244,7 +251,7 @@ PAGE = """<title>Synergós Champion</title>
 <header class="top"><div class="brand">Syner<b>gós</b></div><div class="kick">Manual del gestor y glosario</div><h1>Synergós Champion</h1><p class="sub">Cómo llevar un programa con el método, paso a paso, con el glosario de cada término. Pensado para quien lo usa por primera vez.</p></header>
 <nav class="toc" aria-label="Secciones del manual">%s</nav>
 <main>%s</main>
-<footer>Versión 1.0 · noviembre de 2026 · Alejandro Berruezo. Documento de trabajo del método Synergós.</footer>
+<footer>Versión 1.1, al día con el método 2.1 · noviembre de 2026 · Alejandro Berruezo. Documento de trabajo del método Synergós.</footer>
 </div>
 <script>
 (function(){
