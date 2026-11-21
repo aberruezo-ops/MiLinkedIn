@@ -34,7 +34,7 @@ Un comité de puertas con criterios previos, derechos de decisión escritos y un
 | El área de tecnología | Oída antes, por escrito |
 | La representación legal | Oída antes, por escrito, cuando la decisión toca condiciones de trabajo |
 
-La regla de decisión es una: decide el patrocinador oído el comité, y las objeciones quedan escritas. Toda decisión de puerta se firma así: firma el patrocinador y contrafirma la persona ajena al equipo del programa. La plantilla del anexo C lo recoge. En el programa acotado no hay comité: firma el patrocinador con quien dirige el programa y contrafirma alguien ajeno. Donde este documento dice "comité de puertas", el programa acotado lee esa firma.
+La regla de decisión es una: decide el patrocinador oído el comité, y las objeciones quedan escritas. Toda decisión de puerta se firma así: firma el patrocinador y contrafirma la persona ajena al equipo del programa. La plantilla del anexo C lo recoge. En el programa acotado no hay comité: firma el patrocinador con quien dirige el programa y contrafirma una persona ajena al equipo. Donde este documento dice "comité de puertas", el programa acotado lee esa firma.
 
 **Quién decide qué.** Los derechos de decisión se escriben en una tabla de una página durante los primeros cien días, antes de la primera puerta, y se revisan en cada puerta. Es la única tabla de derechos de decisión del método, y el módulo 5 remite a ella. Como mínimo responde a estas decisiones. Cada organización añade las suyas y dos columnas más: a quién se consulta y a quién se informa.
 
@@ -43,7 +43,7 @@ La regla de decisión es una: decide el patrocinador oído el comité, y las obj
 | Aprobar un caso de uso o un agente nuevo | Comité de puertas |
 | Subir o bajar un nivel de autonomía | Comité de puertas, a propuesta del dueño y con los criterios escritos antes |
 | Parar un sistema en uso y reanudarlo | Cualquier persona de la capa de uso puede dejar de usarlo en su caso y pedir la parada al dueño, que responde en el día. El dueño puede parar el servicio entero. Reanudar lo decide el dueño y lo anota |
-| Retirar una solución | El patrocinador, que firma, con la contrafirma de alguien sin interés en la iniciativa |
+| Retirar una solución | El patrocinador, que firma, con la contrafirma de una persona ajena al equipo del programa |
 | Aceptar un riesgo que queda por encima de lo fijado | El órgano de dirección |
 | Cambiar de versión de modelo dentro de la misma solución | El dueño, con nueva evaluación antes de volver al servicio |
 | Sustituir la solución o el proveedor | Comité de puertas |
@@ -59,7 +59,7 @@ Las cuatro últimas filas, sobre incidentes, vigilancia, sesgos y datos, son una
 
 El dueño de la solución es el dueño operativo, el del agente y quien figura en el inventario: una sola persona. Cuando el documento habla de otro dueño (de los datos, del beneficio, de la estrategia), lo nombra con su apellido.
 
-**Un inventario único.** Casos de uso, sistemas y agentes están en un solo inventario, y esta es su única definición: el capítulo 17, el módulo 11 y el módulo 24 remiten aquí. Cada entrada lleva los campos de la ficha del módulo 24 (dueño, finalidad y flujo, acciones permitidas, datos, nivel y techo de autonomía, aprobación humana, condiciones de parada, registro de acciones, coste, personas y conocimiento, y revisión) y cuatro cosas más: el nivel de riesgo, el proveedor, los incidentes y un campo de estado. El campo de personas y conocimiento se rellena con las seis anotaciones del capítulo 17. El estado tiene cuatro valores: en evaluación, en experimento, aprobado y retirado. Solo lo que figura como aprobado está aprobado para el servicio. Lo que prueba el carril de exploración (módulo 23) figura como experimento. Un uso contado puede seguir en estado "en evaluación", con las reglas generales de datos, hasta que haya respuesta.
+**Un inventario único.** Casos de uso, sistemas y agentes están en un solo inventario, y esta es su única definición: el capítulo 17, el módulo 11 y el módulo 24 remiten aquí. Cada entrada lleva los once campos de la ficha del módulo 24 (dueño, finalidad y flujo, acciones permitidas, datos, nivel y techo de autonomía, aprobación humana, condiciones de parada, registro de acciones, coste, personas y conocimiento, y revisión) y cuatro más: el nivel de riesgo, el proveedor, los incidentes y un campo de estado. El campo de personas y conocimiento se rellena con las seis anotaciones del capítulo 17. El estado tiene cuatro valores: en evaluación, en experimento, aprobado y retirado. Solo lo que figura como aprobado está aprobado para el servicio. Lo que prueba el carril de exploración (módulo 23) figura como experimento. Un uso contado puede seguir en estado "en evaluación", con las reglas generales de datos, hasta que haya respuesta.
 
 **Quien usa, quien controla y quien audita.** El Instituto de Auditores Internos llama a este reparto las tres líneas. La primera es quien posee y opera el sistema. La segunda la forman riesgos, seguridad, protección de datos y cumplimiento, que revisan y pueden objetar. La tercera es la auditoría interna, que comprueba que las otras dos funcionan. En Synergós la segunda línea participa en el diseño y en el piloto, y no se la convoca al final para firmar. La tercera entra en el sostenimiento. Las tres capas descritas más arriba son niveles de responsabilidad; las tres líneas dicen quién vigila a quién. Hacen falta las dos cosas.
 
@@ -73,7 +73,7 @@ El dueño de la solución es el dueño operativo, el del agente y quien figura e
 
 **Herramientas de uso general.** Un asistente para toda la plantilla no ataca una restricción concreta ni tiene un flujo que mapear, así que no puede recorrer el tronco. Se aprueba por una vía corta, con cuatro condiciones escritas: reglas de uso, datos permitidos, formación mínima e indicadores de uso y de capacidad. Cada uso que entre en un servicio pasa después por el tronco.
 
-*Señal de fallo:* las puertas se aprueban por calendario y no por evidencias. Otra señal: hay sistemas o agentes en uso que no están en el inventario.
+*Señal de fallo:* hay sistemas o agentes en uso que no están en el inventario. Otra señal: las puertas se aprueban por calendario y no por evidencias.
 
 >> Cuando la puerta se pasa porque toca, deja de ser una puerta.
 
@@ -157,7 +157,7 @@ El anexo D desarrolla qué significa cada nivel para cada uno de los tres elemen
 
 El método se adapta al tamaño del programa.
 
-**Un programa acotado** (un equipo, hasta la puerta del piloto en menos de seis meses): no hay comité de puertas, y cada puerta la firma el patrocinador con quien dirige el programa y la contrafirma alguien ajeno; un solo ciclo; como máximo dos aceleradores por ciclo, contando la IA dentro del servicio si el diagnóstico la justifica.
+**Un programa acotado** (un equipo, hasta la puerta del piloto en menos de seis meses): no hay comité de puertas, y cada puerta la firma el patrocinador con quien dirige el programa y la contrafirma una persona ajena al equipo; un solo ciclo; como máximo dos aceleradores por ciclo, contando la IA dentro del servicio si el diagnóstico la justifica.
 
 **Un programa amplio** (varias áreas, de uno a tres años): comité de puertas; varios ciclos en paralelo, uno por ámbito; como máximo tres aceleradores por ciclo, contando la IA; una oficina pequeña de medición y conocimiento.
 
@@ -171,4 +171,4 @@ Klarna anunció en febrero de 2024 que su asistente de IA hacía el trabajo equi
 
 Un método serio prevé la marcha atrás antes de necesitarla y la hace barata. En Synergós eso significa tres cosas: la retirada es una de las tres salidas de cada puerta; el diseño dice, para cada opción, cómo se deshace; y la escala de autonomía permite bajar de nivel sin que nadie tenga que justificar un fracaso.
 
-**Lo que cuesta retirar.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma alguien sin interés en la iniciativa. Quien la propone queda protegido por escrito. Cuánto hay que justificar depende de la fase y está en el capítulo 12. Queda abierto si esta regla funciona en organizaciones muy jerárquicas.
+**Lo que cuesta retirar.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma una persona ajena al equipo del programa. Quien la propone queda protegido por escrito. Cuánto hay que justificar depende de la fase y está en el capítulo 12. Queda abierto si esta regla funciona en organizaciones muy jerárquicas.
