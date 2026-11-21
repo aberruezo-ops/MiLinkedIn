@@ -14,9 +14,9 @@ Synergós se corrige con las mismas piezas que pide a una organización. A la fe
 
 **Una tabla de causas como control.** Cada pieza tiene que decir a qué causa de fracaso de la tabla del capítulo 2 responde. Entre las versiones 1.1 y 1.7 no apliqué este control a todo lo que entró. Desde la versión 1.8, las piezas que no responden a ninguna causa están marcadas como extensión sin causa documentada al cierre de la Parte V.
 
-**Doble bucle.** Cada trimestre revisaré si las piezas funcionan y si los supuestos en los que se apoyan siguen siendo ciertos. Todavía no ha habido ninguna de esas revisiones. El supuesto más importante del método, que el conocimiento tácito decide el resultado de una transformación con IA, es también el que más necesita evidencia.
-
 **Un registro de decisiones.** Las decisiones de diseño del método se registran con fecha y motivo. Algunas ya están tomadas: las fases conservan los nombres clásicos (diagnóstico, diseño, piloto, escala, sostenimiento); la supervisión vive en el elemento conocimiento y la medición en el orden; las cifras de mercado no se usan hasta verificarlas en fuente primaria; la frontera se publica con sus nombres y su fuente.
+
+**Doble bucle.** Cada trimestre revisaré si las piezas funcionan y si los supuestos en los que se apoyan siguen siendo ciertos. Todavía no ha habido ninguna de esas revisiones. El supuesto más importante del método, que el conocimiento tácito decide el resultado de una transformación con IA, es también el que más necesita evidencia.
 
 **Interacción con quien lo usa y lo lee.** Una parte de las mejoras de la versión 1.0 vino de conversaciones públicas en las que otras personas plantearon objeciones o preguntas. Un lector propuso el umbral de filas críticas del capítulo 9. Otro distinguió entre lo que las organizaciones leen como resistencia y lo que en realidad es conocimiento operativo no documentado, que es exactamente lo que el mapa busca. Otra preguntó si el mayor freno al compartir conocimiento es el miedo o la falta de espacios, y la respuesta honesta (que a menudo es que la gente no sabe que lo sabe) acabó afinando cómo se pregunta en el mapa. El método no cita nombres de esas conversaciones, pero las incorpora.
 

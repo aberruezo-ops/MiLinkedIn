@@ -2,13 +2,13 @@
 
 ## 8. Cómo funcionan las fases
 
-El tronco del método son cinco fases: diagnóstico, diseño, piloto, escala y sostenimiento. Cada una tiene un propósito, unos entregables, una puerta y un error típico. Llamo ciclo al recorrido de las cinco fases en un ámbito. Un programa grande tiene varios ciclos en paralelo, cada uno en su fase, y lo aprendido en el sostenimiento de uno alimenta el diagnóstico del siguiente. Es el ciclo de mejora de Deming llevado a escala de programa.
+El tronco del método son cinco fases: diagnóstico, diseño, piloto, escala y sostenimiento. Cada una tiene un propósito, unos entregables, una puerta y un error típico. Llamo ciclo al recorrido de las cinco fases en un ámbito. Un programa amplio tiene varios ciclos en paralelo, cada uno en su fase, y lo aprendido en el sostenimiento de uno alimenta el diagnóstico del siguiente. Es el ciclo de mejora de Deming llevado a escala de programa.
 
 {{img:fig-fases.png|16}}
 
 {{img:fig-estructura.png|16}}
 
-**Qué recorre el tronco.** Un programa tiene uno o varios ámbitos. Un ámbito es el servicio o el flujo de trabajo que se va a transformar. Cada ámbito hace un diagnóstico y tiene una restricción. Del diagnóstico salen iniciativas, que forman la cartera. Cada iniciativa compara opciones en el diseño y recorre piloto, escala y sostenimiento. Hay, por tanto, un diagnóstico y un mapa por ámbito, y una puerta de diseño, de piloto, de escala y de sostenimiento por iniciativa.
+**Qué recorre el tronco.** Un programa tiene uno o varios ámbitos. Un ámbito es el servicio o el flujo de trabajo que se va a transformar. Cada ámbito hace un diagnóstico y tiene una restricción. Del diagnóstico salen iniciativas, que forman la cartera. Cada iniciativa compara opciones en el diseño y recorre piloto, escala y sostenimiento. Hay, por tanto, un diagnóstico, un mapa y una puerta de diagnóstico por ámbito, y una puerta de diseño, de piloto, de escala y de sostenimiento por iniciativa.
 
 Cada puerta tiene tres salidas posibles para la iniciativa que llega a ella: pasar, ajustar y repetir, o retirar. La tercera no es un fracaso. Retirar una iniciativa en la puerta del piloto es barato, y es una buena noticia: el método ha hecho su trabajo, que es equivocarse en pequeño antes de equivocarse en grande.
 
@@ -42,7 +42,7 @@ Son los seis entregables básicos. Lo que el capítulo 18 y los módulos añaden
 
 **El mapa de actores.** Quién gana y quién pierde con cada posible cambio, quién decide, quién puede bloquear y quién sabe. La última columna es la que casi nunca se rellena.
 
-**La madurez de los tres elementos.** Una evaluación rápida, con la escala del capítulo 18 y del anexo D, de dónde está la organización en personas, conocimiento, tecnología y gobierno para el ámbito que se va a transformar. Sirve para aplicar la regla de entrada de los aceleradores.
+**La madurez de los tres elementos.** Una evaluación rápida, con la escala del capítulo 18 y del anexo D, de dónde está la organización en personas, conocimiento y tecnología, y en gobierno, para el ámbito que se va a transformar. Sirve para aplicar la regla de entrada de los aceleradores.
 
 **El mapa de lo que nadie escribió.** Es la aportación propia de Synergós al diagnóstico, y la desarrollo en el apartado siguiente.
 
@@ -57,7 +57,7 @@ Son los seis entregables básicos. Lo que el capítulo 18 y los módulos añaden
 | Madurez | Evaluar el ámbito con la escala del anexo D | Medición | El equipo afectado | Un nivel por elemento y uno de gobierno, cada uno con la evidencia en que se apoya |
 | Mapa de lo que nadie escribió | Conversar con quienes hacen el trabajo usando las preguntas por las grietas (anexo B) | Conocimiento | Voz de quien hace el trabajo | El mapa de comité existe y el patrocinador ha firmado el compromiso de uso |
 
-**Lo que añaden el capítulo 18 y los módulos.** Según el alcance del programa, el diagnóstico recoge también el inventario de lo que ya se usa, con consulta anónima, y los derechos de decisión (capítulo 18); el inventario de aportaciones (módulo 1); la calidad de los datos (módulo 10); la lectura de los supuestos de cultura (módulo 16); la información a la representación legal (módulo 18); y el mapa del recorrido de quien recibe el servicio (módulo 21). Cuáles son obligatorios lo dice la tabla «Qué es obligatorio según alcance», al cierre de la Parte V. La puerta del diagnóstico solo exige los tres que nombra.
+**Lo que añaden el capítulo 18 y los módulos.** Según el alcance del programa, el diagnóstico recoge también el inventario de lo que ya se usa, con consulta anónima, y los derechos de decisión (capítulo 18); el inventario de aportaciones (módulo 1); la calidad de los datos (módulo 10); la lectura de los supuestos de cultura (módulo 16); la información a la representación legal (módulo 18); y el mapa del recorrido de quien recibe el servicio (módulo 21). Cuáles son obligatorios lo dice la tabla "Qué es obligatorio según alcance", al cierre de la Parte V. La puerta del diagnóstico solo exige los tres que nombra.
 
 ### El mapa de lo que nadie escribió
 
@@ -67,7 +67,7 @@ El mapa recoge el conocimiento no escrito que sostiene hoy el trabajo que se va 
 2. En quién está.
 3. Qué le pasa a ese conocimiento con cada opción de diseño que hay sobre la mesa.
 
-La segunda se responde ante el comité por perfil, y con nombre solo si la persona lo consiente. La tercera pregunta del comité es la que convierte el mapa en una herramienta de decisión y no en un ejercicio de antropología. Conecta con la segunda pregunta de la puerta de diseño (capítulo 11). Zuboff la formuló con dos verbos, automatizar o informar; el método usa tres, acelerar, automatizar o aumentar, y el mapa permite responderla con datos en lugar de con intenciones.
+La segunda se responde ante el comité por perfil, y con nombre solo si la persona lo consiente. La tercera pregunta del comité es la que convierte el mapa en una herramienta de decisión y no en un ejercicio de antropología. Conecta con la segunda pregunta de la puerta de diseño (capítulo 11). El mapa permite responder a esa pregunta, la de si acelera, automatiza o aumenta, con datos en lugar de con intenciones.
 
 **A quién se pregunta.** No a los responsables del procedimiento. A quienes hacen el trabajo, y en especial a dos perfiles: la persona a la que los demás acuden cuando algo se atasca, y la persona que lleva menos tiempo, porque todavía recuerda lo que nadie le explicó cuando llegó. Mi hipótesis es que entre los dos se dibuja casi todo el mapa. En una organización grande se pregunta por perfil y por centro, y se para cuando dos conversaciones seguidas no añaden filas nuevas.
 
@@ -97,7 +97,7 @@ Un caso compuesto lo ilustra bien. Una organización quiere usar IA para clasifi
 
 ### La puerta del diagnóstico
 
-Para pasar al diseño tienen que ser ciertas tres cosas: la restricción del ámbito está nombrada y el patrocinador la acepta; la línea base está medida; el mapa de lo que nadie escribió existe. Si falta cualquiera, el programa no está listo para diseñar, por mucha prisa que haya. Hay dos casos en que la línea base no se puede medir como pide esta puerta: el programa que ya estaba en marcha, que se trata en el capítulo 18 (Dimensionamiento), y el servicio que todavía no existe, que se trata en el módulo 23.
+Para pasar al diseño tienen que ser ciertas tres cosas: la restricción del ámbito está nombrada y el patrocinador la acepta; la línea base está medida; el mapa de lo que nadie escribió existe, con el compromiso de uso firmado por el patrocinador (anexo B). Si falta cualquiera, el programa no está listo para diseñar, por mucha prisa que haya. Hay dos casos en que la línea base no se puede medir como pide esta puerta: el programa que ya estaba en marcha, que se trata en el capítulo 18 (Dimensionamiento), y el servicio que todavía no existe, que se trata en el módulo 23.
 
 ## 10. Fase 2. Diseño
 
@@ -111,7 +111,7 @@ El diseño decide qué se cambia, cómo y con qué. Su error típico es el más 
 
 **Los aceleradores por fase.** Qué aceleradores entran, cuándo, y cumpliendo la regla de entrada. Cuando el acelerador es un sistema de IA, en la puerta de diseño se fija también con qué nivel de autonomía entra en el piloto y hasta qué nivel puede subir (capítulo 17).
 
-**Los criterios del piloto.** Escritos y firmados antes de empezar: qué tiene que mejorar, cuánto, en qué plazo y qué se hará si no ocurre. Se expresan como delta mínimo respecto a la línea base y, además, en la unidad de cada indicador. Los objetivos, los pesos y los umbrales se fijan y se firman aquí, como dice el capítulo 18. Desde la versión 1.6 el criterio escribe también qué decisión va a cambiar el resultado del piloto: qué se hará distinto si sale bien y qué se hará distinto si sale mal. Un piloto cuyo resultado no cambiaría ninguna decisión solo demuestra, no prueba.
+**Los criterios del piloto.** Escritos y firmados antes de empezar: qué tiene que mejorar, cuánto, en qué plazo y qué se hará si no ocurre. Se expresan como delta mínimo respecto a la línea base y, además, en la unidad de cada indicador. Los objetivos, los pesos y los umbrales se fijan y se firman aquí, como dice el capítulo 18. Desde la versión 1.6 el criterio escribe también qué decisión va a cambiar el resultado del piloto: qué se hará distinto si sale bien y qué se hará distinto si sale mal. Un piloto cuyo resultado no cambiaría ninguna decisión solo hace una demostración, no una prueba.
 
 **El modelo económico.** Cuánto cuesta, cuándo llegan los beneficios y cómo se reparten. Tiene que prever el valle de la curva J, que se explica en el capítulo 18.
 
@@ -147,7 +147,7 @@ El piloto prueba en pequeño, con gente real y datos reales, lo que el diseño h
 
 **Qué produce.** Resultados contra la línea base y contra la comparación elegida, lecciones aprendidas, ajustes al diseño y riesgos descubiertos.
 
-**La puerta.** Tres salidas: pasar si se cumplen los criterios; ajustar y repetir si el resultado es prometedor pero incompleto; retirar si no funciona. Los criterios se escribieron antes, en el diseño, y no se reescriben al ver el resultado. El criterio tipo, cuyas clases de indicador explica el capítulo 18, es este: el delta supera el mínimo firmado, ningún indicador de guarda baja de su suelo, y los indicadores para los que el modelo económico prevé valle no bajan más de lo previsto. Si el resultado queda dentro de la variación normal del indicador respecto al umbral, decide el patrocinador y lo motiva por escrito. La decisión se firma como todas las de puerta (capítulo 18): el patrocinador firma y alguien ajeno al equipo del programa contrafirma. Y desde la versión 1.6 se pregunta, antes de aprobar el piloto, qué decisión va a cambiar su evidencia y quién la toma: si nadie sabe contestar, el piloto todavía no está listo para empezar.
+**La puerta.** Tres salidas: pasar si se cumplen los criterios; ajustar y repetir si el resultado es prometedor pero incompleto; retirar si no funciona. Los criterios se escribieron antes, en el diseño, y no se reescriben al ver el resultado. El criterio tipo, cuyas clases de indicador explica el capítulo 18, es este: el delta supera el mínimo firmado, ningún indicador de guarda baja de su suelo, y los indicadores para los que el modelo económico prevé valle no bajan más de lo previsto. Si el resultado queda dentro de la variación normal del indicador respecto al umbral, decide el patrocinador y lo motiva por escrito. La decisión se firma como todas las de puerta (capítulo 18): el patrocinador firma y alguien ajeno al equipo del programa contrafirma. Y antes de aprobar el piloto se comprueba lo que el criterio dejó escrito en el diseño (capítulo 10): qué decisión va a cambiar su evidencia y quién la toma. Si nadie sabe contestar, el piloto todavía no está listo para empezar.
 
 **Repetir, una vez.** Un piloto se repite una vez como máximo y con los mismos criterios. La segunda vez que no los cumple, se retira o vuelve a diseño.
 
@@ -201,7 +201,7 @@ El sostenimiento asegura que la mejora siga cuando el equipo del programa se vay
 
 **Evaluación que no termina.** Un sistema de IA cambia aunque nadie lo toque: el proveedor actualiza el modelo, cambian los datos, cambia lo que la gente le pide. Desde la versión 1.7, el calendario incluye volver a pasar los casos de prueba en cada periodo de medición y siempre que cambien el modelo, las herramientas o los permisos, y la auditoría interna revisa una vez al año que el inventario y los registros se corresponden con lo que está en uso.
 
-**La puerta.** El dueño acepta la responsabilidad por escrito y los indicadores aguantan dos periodos de medición sin el equipo del programa. El periodo de medición es el intervalo, fijado en el diseño, en que se leen los indicadores; por defecto, un trimestre. Sin el equipo significa que nadie del programa hace trabajo del servicio ni empuja los indicadores; el apoyo del centro, cuando el área lo pide, no cuenta. Si los indicadores caen al irse el equipo, la mejora era del equipo, no de la organización.
+**La puerta.** El dueño acepta la responsabilidad por escrito y los indicadores aguantan dos periodos de medición sin el equipo del programa (el periodo de medición se define en el capítulo 8). Sin el equipo significa que nadie del programa hace trabajo del servicio ni empuja los indicadores; el apoyo del centro, cuando el área lo pide, no cuenta. Si los indicadores caen al irse el equipo, la mejora era del equipo, no de la organización.
 
 **Quién la convoca y quién decide.** La puerta de sostenimiento la convoca el dueño operativo ante el patrocinador, que decide y firma como en las demás puertas (capítulo 18). Pasarla cierra el programa para ese ámbito. Ajustar y repetir significa aquí que el equipo vuelve a lo que falló y los dos periodos empiezan a contar de nuevo. Retirar algo que ya está en sostenimiento pide las cinco preguntas completas (capítulo 12).
 

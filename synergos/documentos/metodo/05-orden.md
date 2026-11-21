@@ -20,7 +20,7 @@ Un comité de puertas con criterios previos, derechos de decisión escritos y un
 
 **Tres capas de responsabilidad.** El gobierno fija los criterios, los derechos de decisión y las puertas. La gestión los aplica, los mide y los corrige. El uso es de quien trabaja con la herramienta cada día, que es quien primero ve cuándo falla. Propuesta de la versión 1.4: la capa de uso tiene derecho a parar, por escrito y sin represalias, y ese derecho se anota en la misma tabla que los demás derechos de decisión. Sin él, que la persona decida se queda en una frase.
 
-**El comité de puertas.** Desde la versión 1.8 su composición está escrita. Deciden cuatro personas y otras son oídas antes, por escrito.
+**El comité de puertas.** Desde la versión 1.8 su composición está escrita. Intervienen cuatro personas y otras son oídas antes, por escrito.
 
 | Quién | Papel en la puerta |
 |---|---|
@@ -53,7 +53,7 @@ La regla de decisión es una: decide el patrocinador oído el comité, y las obj
 | Gestionar un incidente con un sistema de IA | El dueño, que lo anota en el inventario. La segunda línea lo revisa y puede objetar, y el análisis posterior, sin culpables, entra en la supervisión del programa |
 | Vigilar un sistema en servicio y volver a pasar sus casos de prueba | El dueño, con el responsable de medición, que certifica los datos de los indicadores. La auditoría interna comprueba una vez al año que el inventario se corresponde con lo que está en uso |
 | Buscar sesgos y casos que no encajan antes de pasar a producción | Quien hace el trabajo escribe los casos de prueba, incluidos los raros, con el mapa de lo que nadie escribió como punto de partida. La segunda línea revisa y puede objetar |
-| Decidir qué datos pueden usarse con qué herramienta | El dueño de los datos, con la segunda línea. Si hay datos personales, el delegado de protección de datos dice si procede una evaluación de impacto, antes del piloto (módulo 11) |
+| Decidir qué datos pueden usarse con qué herramienta | El dueño de los datos, con la segunda línea. Los datos personales tienen además su propio paso (módulo 11) |
 
 Las cuatro últimas filas, sobre incidentes, vigilancia, sesgos y datos, son una propuesta de la versión 1.8 sin probar. No traen reglas nuevas: reúnen lo que dicen otros capítulos para que cada una tenga responsable en la misma tabla.
 
@@ -65,7 +65,7 @@ El dueño de la solución es el dueño operativo, el del agente y quien figura e
 
 **Gobierno dentro de cada función.** Un comité central no ve lo que pasa en compras, en atención o en recursos humanos. Cada función que usa IA tiene una persona que responde de sus casos, que conoce el inventario de su área y que trae al comité lo que el comité no puede ver. Sin esa persona, el gobierno es un documento que la función no ha leído.
 
-**El uso informal.** En casi todas las organizaciones hay gente usando herramientas de IA que nadie ha aprobado. Prohibirlo sin ofrecer alternativa lo esconde. Desde la versión 1.8 esto es regla y deja de ser pregunta abierta. El método pide cuatro cosas: averiguar en el diagnóstico qué se usa de verdad, con una consulta anónima; ofrecer herramientas aprobadas que sirvan para lo que la gente hace con las otras; un canal para pedir herramientas nuevas con respuesta en plazo; y la garantía de que contar un uso para que se evalúe no trae sanción (módulo 23). La garantía cubre haber probado la herramienta; no exime de comunicar y tratar una posible fuga de datos. Qué datos pueden usarse con cada herramienta lo dice el módulo 11. Lo que la gente usa a escondidas dice dónde está la necesidad.
+**El uso informal.** En casi todas las organizaciones hay gente usando herramientas de IA que nadie ha aprobado. Prohibirlo sin ofrecer alternativa lo esconde. Desde la versión 1.8 esto es regla; solo sigue abierto cómo preguntar sin que la consulta parezca una auditoría (capítulo 17). El método pide cuatro cosas: averiguar en el diagnóstico qué se usa de verdad, con una consulta anónima; ofrecer herramientas aprobadas que sirvan para lo que la gente hace con las otras; un canal para pedir herramientas nuevas con respuesta en plazo; y la garantía de que contar un uso para que se evalúe no trae sanción (módulo 23). La garantía cubre haber probado la herramienta; no exime de comunicar y tratar una posible fuga de datos. Qué datos pueden usarse con cada herramienta lo dice el módulo 11. Lo que la gente usa a escondidas dice dónde está la necesidad.
 
 {{img:fig-uso-informal.png|16}}
 
@@ -87,9 +87,9 @@ Brynjolfsson, Daniel Rock y Chad Syverson describieron en 2021 la curva J de la 
 
 **Coste por tarea completada.** Desde la versión 1.6, el modelo no se queda en lo que cuesta tener la herramienta. Calcula cuánto cuesta cerrar una tarea de principio a fin con ella: licencias o consumo, la revisión humana que exige, el retrabajo cuando falla y el soporte. Se compara con lo que costaba la misma tarea en la línea base. Es una cuenta incómoda, porque la herramienta puede ser barata por uso y cara por tarea cerrada si casi todo hay que revisarlo. Y hay que repetirla cada periodo de medición, porque el uso y el coste cambian.
 
-**El coste que no está en la factura.** Desde la versión 1.7, la cuenta incluye lo que no cobra el proveedor del modelo: integrar la solución con los sistemas, preparar los datos, evaluarla, vigilarla, la revisión humana y el gobierno. Suelen estar en presupuestos distintos, con dueños distintos, y por eso el caso de negocio solo cuenta lo que se ve. La FinOps Foundation propone leer el gasto en IA por unidad de trabajo y no por consumo. En Synergós esa unidad es la que entiende el negocio: el expediente resuelto, la consulta atendida, el caso cerrado. El coste completo por unidad se compara con el de la línea base en cada puerta.
+**El coste que no está en la factura.** Desde la versión 1.7, la cuenta incluye lo que no cobra el proveedor del modelo: integrar la solución con los sistemas, preparar los datos, evaluarla, vigilarla, la revisión humana y el gobierno. Suelen estar en presupuestos distintos, con dueños distintos, y por eso el caso de negocio solo cuenta lo que se ve. La FinOps Foundation propone leer el gasto en IA por unidad de trabajo y no por consumo. En Synergós esa unidad es la que entiende el negocio: el expediente resuelto, la consulta atendida, el caso cerrado. El coste por tarea completada, con todo eso dentro, se compara con el de la línea base en cada puerta.
 
-*Señal de fallo:* cada revisión trimestral reabre la financiación, o el único coste que se presenta es el de las licencias y no el de cerrar la tarea.
+*Señal de fallo:* la revisión de cada periodo de medición reabre la financiación, o el único coste que se presenta es el de las licencias y no el de cerrar la tarea.
 
 ### Medición y el delta
 
@@ -122,7 +122,7 @@ Las reglas de medición de Synergós están todas en este apartado.
 | Resultado en el servicio o en el negocio: tiempo de ciclo, coste por unidad, errores | Tecnología | De avance, con su pareja como indicador de guarda | Obligatorio |
 | Lo que vive quien recibe el servicio (módulo 21) | Tecnología | La fija el diseño | Opcional |
 | Autonomía de las personas, rotación | Personas | De guarda | Opcional. La rotación llega tarde |
-| Tiempo que tarda alguien nuevo en resolver solo los casos difíciles (módulo 7) | Personas | No entra en el delta de un piloto, porque tarda más que el piloto en dar dato | Opcional. Se lee en el sostenimiento |
+| Tiempo que tarda alguien nuevo en resolver solo los casos difíciles (módulo 7) | Personas | De guarda: su suelo es no empeorar respecto a la línea base y no entra en el delta, porque tarda más que el piloto en dar dato | Opcional. Se lee en el sostenimiento |
 
 Con una herramienta dentro del servicio, el mínimo real son seis lecturas: las tres de personas, una de conocimiento y las dos de tecnología. Lo digo así porque "tres indicadores", que era la cifra de versiones anteriores, se quedaba corta.
 
@@ -171,4 +171,4 @@ Klarna anunció en febrero de 2024 que su asistente de IA hacía el trabajo equi
 
 Un método serio prevé la marcha atrás antes de necesitarla y la hace barata. En Synergós eso significa tres cosas: la retirada es una de las tres salidas de cada puerta; el diseño dice, para cada opción, cómo se deshace; y la escala de autonomía permite bajar de nivel sin que nadie tenga que justificar un fracaso.
 
-**Lo que cuesta retirar.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma alguien sin interés en la iniciativa. Quien la propone queda protegido por escrito. Retirar en la puerta del piloto solo exige anotar qué pasa con las filas del mapa y con las personas (preguntas 3 y 4). Las cinco preguntas completas se piden para retirar algo que ya está en escala o en sostenimiento. Queda abierto si esta regla funciona en organizaciones muy jerárquicas.
+**Lo que cuesta retirar.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma alguien sin interés en la iniciativa. Quien la propone queda protegido por escrito. Cuánto hay que justificar depende de la fase y está en el capítulo 12. Queda abierto si esta regla funciona en organizaciones muy jerárquicas.

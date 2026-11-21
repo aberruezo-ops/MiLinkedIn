@@ -31,7 +31,7 @@ No se compra un acelerador para tapar un elemento que falta. Un agente de IA que
 
 ## 6. Los seis principios
 
-Los principios son las reglas que se aplican cuando el método no dice nada concreto. Son seis y cada uno tiene su fuente y su riesgo.
+Los principios son las reglas que se aplican cuando el método no dice nada concreto. Son seis, y cada uno dice de dónde sale y qué se arriesga si se aplica mal.
 
 {{img:fig-principios.png|16}}
 

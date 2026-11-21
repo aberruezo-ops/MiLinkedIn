@@ -47,7 +47,7 @@ const figs = {
      ${card('a', 'Tres', 'La balanza', 'La tecnología puede sustituir a las personas o ampliar lo que pueden hacer. Zuboff lo dijo en 1988 con dos verbos, automatizar o informar. Synergós usa tres.', '<span class="r">Respuesta: acelerar, automatizar o aumentar, tarea por tarea</span>')}
     </div>`),
 
-  'fig-principios.png': page('Los seis principios', 'Se aplican cuando el método no dice nada concreto. Cada uno tiene su fuente y su riesgo.',
+  'fig-principios.png': page('Los seis principios', 'Se aplican cuando el método no dice nada concreto. Cada uno dice de dónde sale y qué se arriesga si se aplica mal.',
     `<div class="g3">
      ${card('', '1', 'Diagnóstico antes que solución', 'Nada entra en diseño sin una restricción nombrada y una línea base medida.')}
      ${card('a b', '2', 'Elemento antes que acelerador', 'Un acelerador entra en el servicio si lo que necesita está en nivel 2 en los tres elementos y en el gobierno.')}

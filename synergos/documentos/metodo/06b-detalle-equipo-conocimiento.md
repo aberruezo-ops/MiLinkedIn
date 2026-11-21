@@ -112,7 +112,7 @@ La tercera de las preguntas por las grietas (a quién llamas cuando algo se atas
 
 ### Señales de que va mal
 
-- Las decisiones se toman en reuniones con más de diez personas. En una puerta deciden cuatro; los demás son oídos antes, por escrito (capítulo 18).
+- Las decisiones se toman en reuniones con más de diez personas. En la puerta de un programa amplio intervienen cuatro; los demás son oídos antes, por escrito (capítulo 18).
 - El programa no sabe quiénes son los conectores centrales del servicio.
 - El proveedor solo habla con el equipo técnico.
 
@@ -122,7 +122,7 @@ La tercera de las preguntas por las grietas (a quién llamas cuando algo se atas
 
 ### El ciclo completo
 
-El método no trata el conocimiento como un repositorio, sino como un ciclo con cinco momentos: se descubre, se captura, se cura, se usa y se retira. La mayoría de las organizaciones solo hacen bien el segundo, y lo hacen sin los demás, por eso acaban con bases de documentos que nadie consulta.
+El método no trata el conocimiento como un repositorio, sino como un ciclo con cinco momentos: se descubre, se captura, se cura, se usa y se retira. La mayoría de las organizaciones solo hacen bien el segundo, y lo hacen sin los demás, y por eso acaban con bases de documentos que nadie consulta.
 
 ### Lo que dicen las fuentes
 

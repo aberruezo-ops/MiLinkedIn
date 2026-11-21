@@ -31,7 +31,7 @@ Quy Huy publicó en 2001 un artículo titulado precisamente "En defensa de los m
 
 **Rediseñar su papel antes que el de sus equipos.** Si la IA asume el reparto y la vigilancia, ¿qué hace el mando? El método propone tres funciones que ganan peso: el caso difícil (decidir y acompañar en lo que se sale del patrón), el desarrollo de las personas (enseñar, el módulo 7) y la mejora del proceso (ser quien detecta que algo ya no tiene sentido). Si ninguna de las tres se le asigna, su resistencia será racional.
 
-**Oírlos antes de cada puerta.** El mando intermedio del ámbito afectado es una de las personas a las que el comité de puertas oye antes de decidir, por escrito (capítulo 18). No está entre los cuatro que deciden, y sus objeciones quedan escritas con la decisión.
+**Oírlos antes de cada puerta.** El mando intermedio del ámbito afectado es una de las personas a las que el comité de puertas oye antes de decidir, por escrito (capítulo 18). No es una de las cuatro personas que intervienen en la puerta, y sus objeciones quedan escritas con la decisión.
 
 ### Señales de que va mal
 
@@ -81,7 +81,7 @@ Estos son órdenes de magnitud orientativos para una iniciativa en un equipo y u
 | Escala | De tres a nueve meses | Roles e incentivos; formación en el puesto |
 | Sostenimiento | Dos periodos de medición sin el equipo del programa, al menos (por defecto, un trimestre cada uno) | Falta de dueño |
 
-El programa acotado del capítulo 18 se define hasta la puerta del piloto: un equipo que recorre diagnóstico, diseño y piloto en menos de seis meses. Las tres primeras filas suman entre quince y treinta semanas, así que un programa acotado no puede agotar el máximo de las tres. La escala y el sostenimiento vienen después y quedan fuera de ese plazo. Cuando el piloto dura más de noventa días, la revisión a noventa días es intermedia y la puerta sigue al final (capítulo 12).
+El programa acotado del capítulo 18 se define hasta la puerta del piloto: un equipo que recorre diagnóstico, diseño y piloto en menos de seis meses. Las tres primeras filas suman entre quince y treinta semanas, así que un programa acotado no puede agotar el máximo de las tres. La escala y el sostenimiento vienen después y quedan fuera de ese plazo. La revisión a noventa días del piloto está en el capítulo 12.
 
 La tabla no dice cuántas personas hacen falta en cada fase. Ese dato tengo que darlo yo a partir de programas reales y queda pendiente (capítulo 21).
 

@@ -72,7 +72,7 @@ Casi todos los programas de transformación acumulan iniciativas. Cada área pro
 
 **Una restricción por ámbito.** Cada ámbito diagnosticado tiene una restricción. Como partida, solo los habilitadores y las obligaciones legales pueden no atacarla, y el motivo se escribe. Una obligación legal entra con el plazo que marca la norma. En cada puerta de escala se comprueba si la restricción sigue siendo la misma. Si se ha movido, la cartera se reordena.
 
-**Clasificar en cada periodo de medición.** Cada iniciativa se clasifica en mantener, priorizar, reorientar o retirar. Es la misma clasificación que se usa para un programa en marcha (capítulo 18), aplicada en cada revisión de la cartera. Desde la versión 1.8 digo "priorizar" donde antes decía "acelerar", para no confundirlo con el verbo de la segunda pregunta de la puerta.
+**Clasificar en cada periodo de medición.** Cada iniciativa se clasifica en mantener, priorizar, reorientar o retirar. Es la misma clasificación que se usa para un programa en marcha (capítulo 18), aplicada en cada revisión de la cartera. Digo "priorizar" y no "acelerar" para no confundirlo con el verbo de la segunda pregunta de la puerta.
 
 **Cada clasificación tiene su objeto.** El método usa cuatro y no se mezclan. Mantener, priorizar, reorientar o retirar se aplica a una iniciativa de la cartera. Pasar, ajustar y repetir, o retirar son las salidas de una puerta, y se aplican a una iniciativa al final de una fase. Mantener, sustituir, construir o retirar se aplica a una solución en uso (capítulo 17). La clasificación del radar se aplica a una tecnología que todavía no ha entrado (capítulo 17). Lo que el radar propone adoptar entra por la cartera, con su límite.
 
@@ -80,7 +80,7 @@ Casi todos los programas de transformación acumulan iniciativas. Cada área pro
 
 **Hacer sitio a los habilitadores.** Hay iniciativas que no dan valor por sí mismas y sin las que las demás no escalan: la calidad del dato, la plataforma común, la formación, el inventario. Si se las mide por su retorno propio, la cartera las expulsa. Se aprueban por las iniciativas que desbloquean, y esa lista se escribe.
 
-**Retirar sin encarecerlo.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma alguien sin interés en la iniciativa. Quien la propone queda protegido por escrito (capítulo 18). Retirar en la puerta del piloto solo exige anotar qué pasa con las filas del mapa y con las personas (preguntas 3 y 4 de la puerta). Las cinco preguntas completas se piden para retirar algo que ya está en escala o en sostenimiento, porque entonces la retirada afecta de lleno a personas, conocimiento y tecnología.
+**Retirar sin encarecerlo.** La retirada se firma como cualquier decisión de puerta: firma el patrocinador y contrafirma alguien sin interés en la iniciativa. Quien la propone queda protegido por escrito (capítulo 18). Cuánto hay que justificar depende de la fase: en la puerta del piloto bastan las preguntas 3 y 4 de la puerta, y en escala o en sostenimiento se piden las cinco, porque entonces la retirada afecta de lleno a personas, conocimiento y tecnología (capítulo 12).
 
 ### Señales de que va mal
 

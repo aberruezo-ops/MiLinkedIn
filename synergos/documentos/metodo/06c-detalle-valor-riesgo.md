@@ -6,7 +6,7 @@ Una transformación pide a las personas que cambien cómo trabajan, a veces qué
 
 ### Lo que dicen las fuentes
 
-Richard Ryan y Edward Deci desarrollaron durante décadas la teoría de la autodeterminación, que resumieron en 2000 en *American Psychologist*: las personas se implican de verdad en lo que hacen cuando se cubren tres necesidades psicológicas básicas. Autonomía (sentir que se elige y se decide), competencia (sentir que se hace bien algo que cuesta) y vínculo (sentirse parte de un grupo que importa). Cuando el trabajo las frustra, la motivación se vuelve externa: se hace lo que se pide porque se vigila o se paga, y en cuanto la vigilancia baja, baja el esfuerzo.
+Richard Ryan y Edward Deci desarrollaron durante décadas la teoría de la autodeterminación, que resumieron en 2000 en *American Psychologist*: las personas se implican de verdad en lo que hacen cuando se cubren tres necesidades psicológicas básicas: autonomía (sentir que se elige y se decide), competencia (sentir que se hace bien algo que cuesta) y vínculo (sentirse parte de un grupo que importa). Cuando el trabajo las frustra, la motivación se vuelve externa: se hace lo que se pide porque se vigila o se paga, y en cuanto la vigilancia baja, baja el esfuerzo.
 
 Un rediseño con IA toca las tres necesidades a la vez. Puede quitar autonomía (la máquina decide), competencia (lo difícil lo hace otro) y vínculo (el equipo se fragmenta). O puede darlas: más tiempo para el caso que de verdad exige pericia, más información para decidir, más contacto con quien recibe el servicio. Es el mismo argumento de Zuboff visto desde dentro de la persona.
 
@@ -76,7 +76,7 @@ El método pide que el modelo económico incluya lo que aportan las personas en 
 - Nadie en el negocio es dueño de los beneficios.
 - La financiación se discute de nuevo cada trimestre.
 
-!! Pregunta abierta. ¿Cómo se convence a un comité financiero de que espere el valle? | La curva J está descrita a nivel de empresa y de economía, y trasladarla a un programa es una analogía mía. En mi experiencia, un comité que ve caer los indicadores durante dos periodos de medición tiende a cancelar. Una parte ya es regla: el criterio tipo del piloto admite el valle que el modelo económico ha previsto (capítulo 18). Mi propuesta para lo demás: pactar desde el diseño los indicadores tempranos que muestran que se va por buen camino aunque el resultado no llegue (adopción real, calidad de los casos difíciles, propuestas de mejora), y escribir cuánto valle se tolera antes de revisar. No sé si es suficiente cuando hay presión de resultados a corto plazo.
+!! Pregunta abierta. ¿Cómo se convence a un comité financiero de que espere el valle? | El valle de la curva J es, como se dijo arriba, una analogía mía a nivel de programa. En mi experiencia, un comité que ve caer los indicadores durante dos periodos de medición tiende a cancelar. Una parte ya es regla: el criterio tipo del piloto admite el valle que el modelo económico ha previsto (capítulo 18). Mi propuesta para lo demás: pactar desde el diseño los indicadores tempranos que muestran que se va por buen camino aunque el resultado no llegue (adopción real, calidad de los casos difíciles, propuestas de mejora), y escribir cuánto valle se tolera antes de revisar. No sé si es suficiente cuando hay presión de resultados a corto plazo.
 
 ## Módulo 10. Datos y sistemas de información
 
@@ -92,7 +92,7 @@ La IA ha devuelto a los datos un protagonismo que nunca debieron perder. Pero el
 
 **Lo que los datos no dicen.** Los datos registran lo que el sistema anterior permitía registrar. Lo que la gente hacía por fuera (las llamadas, las notas en papel, los arreglos) no está. El mapa de lo que nadie escribió es, entre otras cosas, el mapa de lo que falta en los datos.
 
-**Plataforma antes que piezas.** Los sistemas de información se diseñan como una plataforma común, con componentes reutilizables, antes que como soluciones a medida para cada caso. Ross, Beath y Mocker lo documentaron en 2019. La razón no es estética: cada solución a medida es una deuda técnica que alguien pagará. Elegir la plataforma y la arquitectura lo decide el área de tecnología, con el comité de puertas como consultado (capítulo 18).
+**Plataforma antes que piezas.** Los sistemas de información se diseñan como una plataforma común, con componentes reutilizables, antes que como soluciones a medida para cada caso. La fuente está en el capítulo 17. La razón no es estética: cada solución a medida es una deuda técnica que alguien pagará. Elegir la plataforma y la arquitectura lo decide el área de tecnología, con el comité de puertas como consultado (capítulo 18).
 
 **Salida pactada.** Con cada proveedor de tecnología se pacta desde el principio cómo se sale: en qué formato se recuperan los datos, quién es dueño de los modelos ajustados con datos propios y cuánto cuesta cambiar.
 
@@ -130,7 +130,7 @@ Desde la versión 1.8, este es el sitio del documento que trata la seguridad de 
 - **Quién lo decide.** El dueño de los datos (módulo 10), con la segunda línea, que revisa y puede objetar.
 - **Datos personales.** El delegado de protección de datos dice si procede una evaluación de impacto. Si procede, se hace antes del piloto.
 - **Riesgos propios de un sistema con IA.** Seguridad revisa, antes del piloto, por dónde puede salir información y cómo se puede manipular lo que entra al sistema.
-- **Uso informal.** La garantía de no sanción del capítulo 18 cubre haber probado una herramienta. No exime de comunicar y tratar una posible fuga de datos.
+- **Uso informal.** La garantía de no sanción tiene un límite con las fugas de datos, y está en el capítulo 18 (el uso informal).
 
 El método no sustituye a las normas de seguridad ni de protección de datos de la organización. Fija cuándo se hacen estas preguntas y quién las responde.
 

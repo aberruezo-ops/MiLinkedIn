@@ -95,8 +95,8 @@ function callout(title, body, color = TERRA, label = null) {
   const left = [new Paragraph({ spacing: { before: 0, after: 80 }, children: [new TextRun({ text: lab.toUpperCase(), font: BOLD, size: 15, color, characterSpacing: 50 })] })];
   if (head) left.push(new Paragraph({ spacing: { before: 0, after: 0, line: 280 }, children: [new TextRun({ text: head, font: HF, size: 27, color: INK })] }));
   return new Table({ width: { size: TEXT_W, type: WidthType.DXA }, columnWidths: [W1, W2], rows: [new TableRow({ cantSplit: true, children: [
-    new TableCell({ width: { size: W1, type: WidthType.DXA }, margins: { top: 140, bottom: 140, left: 0, right: 280 }, borders: { top: hair, bottom: hair, left: noB, right: noB }, children: left }),
-    new TableCell({ width: { size: W2, type: WidthType.DXA }, margins: { top: 140, bottom: 140, left: 0, right: 0 }, borders: { top: hair, bottom: hair, left: noB, right: noB }, children: [new Paragraph({ spacing: { before: 0, after: 0, line: 300 }, children: runs(body, { font: BF, size: 19, color: GREY }) })] }),
+    new TableCell({ width: { size: W1, type: WidthType.DXA }, shading: SHADE(color === TERRA ? TERRAPALE : PALE), margins: { top: 200, bottom: 200, left: 240, right: 280 }, borders: { top: noB, bottom: noB, left: noB, right: noB }, children: left }),
+    new TableCell({ width: { size: W2, type: WidthType.DXA }, shading: SHADE(color === TERRA ? TERRAPALE : PALE), margins: { top: 200, bottom: 200, left: 0, right: 240 }, borders: { top: noB, bottom: noB, left: noB, right: noB }, children: [new Paragraph({ spacing: { before: 0, after: 0, line: 300 }, children: runs(body, { font: BF, size: 19, color: GREY }) })] }),
   ] })] });
 }
 const spacer = (after = 120) => new Paragraph({ spacing: { before: 0, after }, children: [] });
@@ -116,25 +116,34 @@ function tricolor(h = 60) {
     rows: [new TableRow({ height: { value: h, rule: 'exact' }, children: [TERRA, GREEN, ALBERO].map((c, i) => new TableCell({ width: { size: i < 2 ? w : TEXT_W - 2 * w, type: WidthType.DXA },
       shading: { type: ShadingType.CLEAR, color: 'auto', fill: c }, borders: { top: nb, bottom: nb, left: nb, right: nb }, children: [new Paragraph({ spacing: { before: 0, after: 0, line: 40 }, children: [] })] })) })] });
 }
+const ROMAN = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6 };
+const ACC = { I: 'E0693A', II: '58B27A', III: 'E6B53C', IV: 'E0693A', V: '58B27A', VI: 'E6B53C' };    // acento sobre fondo oscuro
+const PCOL = { I: TERRA, II: GREEN, III: ALBERO, IV: TERRA, V: GREEN, VI: ALBERO };                    // acento sobre fondo claro
+let curPart = 'I';
 function portadilla(title) {
-  const m = /^Parte ([IVX]+)\. (.*)$/.exec(title); const num = m[1];
+  const m = /^Parte ([IVX]+)\. (.*)$/.exec(title); const num = m[1]; curPart = num;
+  const bg = new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'portadilla-fondo-' + ROMAN[num] + '.png')), transformation: { width: 794, height: 1123 },
+    floating: { horizontalPosition: { relative: D.HorizontalPositionRelativeFrom.PAGE, offset: 0 }, verticalPosition: { relative: D.VerticalPositionRelativeFrom.PAGE, offset: 0 }, behindDocument: true, allowOverlap: true, lockAnchor: true } });
   return { part: 'PARTE ' + num + ' · ' + m[2].split(':')[0].toUpperCase(), portadilla: [
-    new Paragraph({ pageBreakBefore: true, spacing: { before: 2200, after: 0 }, children: [new TextRun({ text: 'PARTE ' + num, font: BOLD, size: 20, color: GREEN, characterSpacing: 90 })] }),
-    new Paragraph({ spacing: { before: 500, after: 300 }, children: [new TextRun({ text: num, font: HF, size: 260, color: INK })] }),
-    new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 360, line: 880 }, children: [new TextRun({ text: title, font: HF, size: 80, color: INK })] }),
+    new Paragraph({ pageBreakBefore: true, spacing: { before: 2200, after: 0 }, children: [bg, new TextRun({ text: 'PARTE ' + num, font: BOLD, size: 20, color: ACC[num], characterSpacing: 90 })] }),
+    new Paragraph({ spacing: { before: 500, after: 300 }, children: [new TextRun({ text: num, font: HF, size: 260, color: ACC[num] })] }),
+    new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 360, line: 880 }, children: [new TextRun({ text: title, font: HF, size: 80, color: 'FFFFFF' })] }),
     tricolor(40),
-    new Paragraph({ spacing: { before: 360, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: HF, size: 32, color: GREY, italics: true })] }),
+    new Paragraph({ spacing: { before: 360, after: 0, line: 420 }, children: [new TextRun({ text: ESENCIA[num] || '', font: HF, size: 32, color: 'C9D2CD', italics: true })] }),
   ] };
 }
-function pilar(t) { if (/^15\. /.test(t)) return TERRA; if (/^16\. /.test(t)) return GREEN; if (/^17\. /.test(t)) return ALBT; return GREEN; }
+function pilar(t) { if (/^15\. /.test(t)) return TERRA; if (/^16\. /.test(t)) return GREEN; if (/^17\. /.test(t)) return ALBT; const c = PCOL[curPart]; return c === ALBERO ? ALBT : c; }
 function kicker(t) {
   let k = null, m;
   if ((m = /^(\d+)\. /.exec(t))) k = 'Capítulo ' + m[1]; else if ((m = /^Módulo (\d+)\./.exec(t))) k = 'Módulo ' + m[1]; else if ((m = /^Anexo ([A-Z])\./.exec(t))) k = 'Anexo ' + m[1];
   if (!k) return null;
-  return new Paragraph({ keepNext: true, spacing: { before: 520, after: 40 }, children: [new TextRun({ text: k.toUpperCase(), font: BOLD, size: 15, color: pilar(t), characterSpacing: 70 })] });
+  return [new Paragraph({ keepNext: true, pageBreakBefore: true, spacing: { before: 0, after: 200, line: 40, lineRule: 'exact' }, indent: { right: TEXT_W - 1100 }, border: { top: { style: BorderStyle.SINGLE, size: 36, color: PCOL[curPart], space: 0 } }, children: [new TextRun({ text: '', size: 2 })] }),
+    new Paragraph({ keepNext: true, spacing: { before: 0, after: 60 }, children: [new TextRun({ text: k.toUpperCase(), font: BOLD, size: 16, color: pilar(t), characterSpacing: 70 })] })];
 }
 function cita(text) {
-  return new Paragraph({ spacing: { before: 240, after: 360, line: 460 }, indent: { left: 0, right: 600 }, children: [new TextRun({ text, font: HF, size: 38, color: INK, italics: true })] });
+  const c = PCOL[curPart] === ALBERO ? ALBERO : PCOL[curPart];
+  return [new Paragraph({ keepNext: true, spacing: { before: 280, after: 0, line: 520, lineRule: 'exact' }, children: [new TextRun({ text: '\u201C', font: HF, size: 150, color: c })] }),
+    new Paragraph({ spacing: { before: 0, after: 380, line: 460 }, indent: { left: 0, right: 600 }, children: [new TextRun({ text, font: HF, size: 38, color: INK, italics: true })] })];
 }
 function firma() {
   return [new Paragraph({ alignment: AlignmentType.RIGHT, spacing: { before: 300, after: 0 }, children: [new TextRun({ text: 'Alejandro Berruezo', font: HF, size: 30, italics: true, color: INK })] }),
@@ -153,9 +162,9 @@ function parse(md) {
       out.push(new Paragraph({ spacing: { before: 0, after: 240 }, border: { bottom: { style: BorderStyle.SINGLE, size: 18, color: GREEN, space: 1 } }, children: [] }));
       i++; continue;
     }
-    if (l.startsWith('## ')) { const t = l.slice(3); heads.push([2, t]); const k = kicker(t); if (k) out.push(k); out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: k ? { before: 60, after: 160 } : undefined, children: [new TextRun({ text: t })] })); i++; continue; }
+    if (l.startsWith('## ')) { const t = l.slice(3); heads.push([2, t]); const k = kicker(t); if (k) out.push(...k); out.push(new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: k ? { before: 60, after: 160 } : undefined, children: [new TextRun({ text: t })] })); i++; continue; }
     if (l.startsWith('### ')) { out.push(new Paragraph({ heading: HeadingLevel.HEADING_3, children: [new TextRun({ text: l.slice(4) })] })); i++; continue; }
-    if (l.startsWith('>> ')) { out.push(cita(l.slice(3))); i++; continue; }
+    if (l.startsWith('>> ')) { out.push(...cita(l.slice(3))); i++; continue; }
     if (l.trim() === '{{firma}}') { out.push(...firma()); i++; continue; }
     if (/^\*Señal de fallo:\*/.test(l)) { out.push(spacer(60)); out.push(callout('', l.replace(/^\*Señal de fallo:\*\s*/, '').replace(/^./, c => c.toUpperCase()), TERRA, 'Señal de fallo')); out.push(spacer(160)); i++; continue; }
     if (l.startsWith('{{img:')) { const [f, w] = l.slice(6, -2).split('|'); out.push(image(f, +w)); i++; continue; }
@@ -201,6 +210,7 @@ function sectionsOf() {
     } else cur.push(el);
   }
   push(cur, first);
+  secs.push({ properties: { page: { margin: { top: 0, bottom: 0, left: 0, right: 0, header: 0, footer: 0 } } }, headers: empty, footers: emptyF, children: [new Paragraph({ spacing: { before: 0, after: 0 }, children: [new ImageRun({ type: 'png', data: fs.readFileSync(path.join(dir, 'contraportada.png')), transformation: { width: 793, height: 1122 } })] })] });
   return secs;
 }
 const doc = new Document({

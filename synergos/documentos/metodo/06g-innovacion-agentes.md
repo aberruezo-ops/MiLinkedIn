@@ -28,7 +28,7 @@ Ethan Mollick propuso en 2025 una forma de organizarlo en tres piezas: una direc
 
 **Primero las personas, después la IA.** En las sesiones de ideas, cada persona escribe las suyas sin asistencia. Después se usa la IA para ampliarlas, combinarlas y buscarles pegas. El orden es una precaución mía a partir de Doshi y Hauser, que trabajaron con relatos breves y no probaron este orden. Y se mira la variedad del conjunto, además de la calidad de cada idea.
 
-**Un cauce para lo que la gente ya ha descubierto.** En casi cualquier organización hay personas que usan la IA por su cuenta y han encontrado algo útil. Si contarlo trae problemas, lo esconden. El método pide un cauce con dos garantías escritas: quien cuenta un uso no autorizado para que se evalúe no es sancionado por haberlo probado, y recibe respuesta en plazo. La regla completa está en "El uso informal" del capítulo 18. Mientras llega la respuesta, el uso contado figura en el inventario con el estado "en evaluación" y puede seguir con las reglas generales de datos. La garantía cubre haber probado la herramienta. No exime de comunicar y tratar una posible fuga de datos.
+**Un cauce para lo que la gente ya ha descubierto.** En casi cualquier organización hay personas que usan la IA por su cuenta y han encontrado algo útil. Si contarlo trae problemas, lo esconden. El método pide un cauce con dos garantías escritas: quien cuenta un uso no autorizado para que se evalúe no es sancionado por haberlo probado, y recibe respuesta en plazo. La regla completa, con sus límites y con el estado que lleva en el inventario mientras llega la respuesta, está en "El uso informal" del capítulo 18.
 
 **Del experimento a la cartera.** Un experimento termina de una de tres maneras. Se descarta y se anota lo aprendido. Se repite con otro supuesto. O entra en la cartera como candidata y vuelve al diagnóstico de su ámbito, respetando el límite de iniciativas en curso del módulo 14. Si el ámbito ya tiene diagnóstico, la candidata se contrasta con él y sigue por el diseño como cualquier iniciativa. Si no lo tiene, se hace. No hay cuarta salida: un experimento que funciona no se queda en producción por la puerta de atrás.
 
@@ -67,19 +67,19 @@ Los marcos de gobierno de agentes publicados entre finales de 2025 y 2026, entre
 
 ### La base de la organización, antes de ningún agente
 
-Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás. El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo que figura al final de este módulo, y no antes. La tercera capa está casi entera en este módulo. Las dos de abajo ya estaban repartidas por el documento, y las reúno aquí en una lista para comprobar de un vistazo que la base existe. Solo una pieza es nueva.
+Un agente se gobierna bien si la organización ya gobierna el uso corriente de la IA. Un esquema de madurez que circula por LinkedIn, de autor sin identificar, ordena el gobierno en tres capas, que no son las tres capas de responsabilidad del capítulo 18: una base para toda la organización, controles para las herramientas de IA de cada equipo y controles para los agentes. No lo reproduzco ni cito cifras suyas. Lo uso como lista de comprobación. Su autor insiste en que son capas sobre una base común y no etapas que haya que completar una tras otra, y en que el gobierno ni debe frenar la innovación ni quedarse permanentemente un paso por detrás. El método coincide: la base se construye a la vez que el primer piloto, con el núcleo mínimo (la tabla "Qué es obligatorio según alcance", al cierre de esta parte), y no como una etapa previa que haya que terminar entera. Eso no quita lo que pide el capítulo 17: el primer piloto con IA dentro del servicio no empieza sin poder responder las tres preguntas del entorno. La tercera capa está casi entera en este módulo. Las dos de abajo ya estaban repartidas por el documento, y las reúno aquí en una lista para comprobar de un vistazo que la base existe. Solo una pieza es nueva del todo, y otra lleva una pequeña adición. Las dos están marcadas en la tabla.
 
 | Qué tiene que existir | Dónde está en el método |
 |---|---|
 | Inventario del uso real, también de lo que nadie aprobó | Consulta anónima en el diagnóstico (capítulo 18, el uso informal) |
 | Regla escrita de qué datos entran en cada herramienta | Módulo 11 |
 | Lista de herramientas aprobadas y un canal para pedir otras | Capítulo 18, el uso informal. Se añade una fecha de revisión de la lista |
-| Cuentas de la organización, no personales, para trabajar con IA | Nuevo en esta versión. El módulo 11 dice qué datos entran, no desde qué cuenta |
+| Cuentas de la organización, no personales, para trabajar con IA | Pieza nueva. El módulo 11 dice qué datos entran, no desde qué cuenta |
 | Evaluación de proveedores: uso, seguridad y contrato antes de aprobar | Módulo 13 |
-| Política corta, quién decide qué entra y quién responde del uso | Capítulo 18, la tabla «Quién decide qué» |
-| Formación de quien usa cada herramienta | Los capítulos de adopción y el papel de quien enseña |
+| Política corta, quién decide qué entra y quién responde del uso | Capítulo 18, la tabla "Quién decide qué" |
+| Formación de quien usa cada herramienta | Capítulo 13 (formación por perfil y referentes) y módulo 7 |
 
-Lo que ese esquema no pregunta es lo que el método añade: qué criterio gana o pierde quien trabaja, quién enseña lo que la tarea enseñaba, con qué indicador se comprueba el resultado y en qué puerta se decide subir de nivel. Además pide revisión humana antes de usar cualquier resultado. En los niveles 3 y 4 revisar todo no funciona (Bainbridge, módulo 2), y por eso aquí se pide aprobación previa en lo irreversible y muestreo en lo demás.
+Lo que ese esquema no pregunta es lo que el método añade: qué criterio gana o pierde quien trabaja, quién enseña lo que la tarea enseñaba, con qué indicador se comprueba el resultado y en qué puerta se decide subir de nivel. Además pide revisión humana antes de usar cualquier resultado. En los niveles 3 y 4 revisar todo no funciona, y por eso aquí se pide otra cosa (véase "Supervisión que supervise", más abajo).
 
 ### La ficha del agente
 
@@ -95,7 +95,7 @@ Cada agente tiene una ficha antes de entrar en un piloto. La ficha es la base de
 | Aprobación humana | Qué acciones necesitan visto bueno previo y de quién |
 | Condiciones de parada | Qué señales lo detienen solo y cómo se para a mano. Quién puede parar y quién reanuda lo dice la tabla "Quién decide qué" del capítulo 18 |
 | Registro | Qué queda anotado de cada acción y durante cuánto tiempo |
-| Coste | Coste por unidad de trabajo resuelta (capítulo 18) |
+| Coste | Coste por tarea completada (capítulo 18) |
 | Personas y conocimiento | Qué criterio gana o pierde quien trabajaba en ese flujo y quién enseña lo que la tarea enseñaba |
 | Revisión | Fecha de la última y de la próxima |
 
@@ -116,7 +116,7 @@ Es una propuesta de la versión 1.7, sin probar. Los límites se aplican en el s
 
 **Un presupuesto no es una autorización.** Que un agente pueda gastar hasta cierta cantidad en cómputo no le da permiso para comprometer a la organización por esa cantidad ni por ninguna otra. La ficha separa las dos cosas: cuánto puede consumir y qué puede decidir.
 
-**Supervisión que supervise.** En el nivel 2 la persona revisa cada propuesta y decide. En los niveles 3 y 4, revisar todo lo que hace un agente no funciona, por lo que Bainbridge explicó sobre vigilar a una máquina que casi siempre acierta (módulo 2). Para esos dos niveles el método pide aprobación previa en lo irreversible o de alto impacto, revisión por muestreo en lo demás, y dos medidas de la propia revisión humana: cuántas veces se corrige o se anula, y cuánto se tarda en revisar. Las dos se leen agregadas por equipo. Una lectura individual se pacta antes con el equipo y con la representación legal y se anota como vigilancia en el inventario (capítulo 18). Si todo se aprueba en segundos, la supervisión existe solo en el papel. Una tasa de corrección baja puede significar que el agente acierta o que nadie mira. Por eso, para subir del nivel 2, una muestra revisada a ciegas por otra persona tiene que confirmar la tasa de error (capítulo 17).
+**Supervisión que supervise.** En el nivel 2 la persona revisa cada propuesta y decide. En los niveles 3 y 4, revisar todo lo que hace un agente no funciona, por lo que Bainbridge explicó sobre vigilar a una máquina que casi siempre acierta (módulo 2). Para esos dos niveles el método pide aprobación previa en lo irreversible o de alto impacto, revisión por muestreo en lo demás, y dos medidas de la propia revisión humana: cuántas veces se corrige o se anula, y cuánto se tarda en revisar. Las dos se leen agregadas por equipo, con la regla de lectura agregada del capítulo 18. Si todo se aprueba en segundos, la supervisión existe solo en el papel. Una tasa de corrección baja puede significar que el agente acierta o que nadie mira. Por eso, para subir del nivel 2, una muestra revisada a ciegas por otra persona tiene que confirmar la tasa de error (capítulo 17).
 
 **La evaluación como práctica de gestión.** Quien hace el trabajo escribe un conjunto de casos de prueba, con los casos raros incluidos, y decide qué cuenta como una respuesta buena. El agente lo pasa antes del piloto, en cada puerta y cada vez que cambia el modelo que hay debajo, sus herramientas o sus permisos. Si el cambio llega durante el piloto, los casos se repiten y se anota en los resultados. La pregunta de la puerta de escala es cómo sabemos que sigue funcionando, y la respuesta tiene que ser ese conjunto y su último resultado.
 
