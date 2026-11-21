@@ -60,7 +60,7 @@ Es el que está escrito o registrado: datos, documentos, procedimientos, decisio
 
 **Un registro de decisiones y de sus motivos.** Qué se decidió, cuándo, quién y por qué. Es la pieza más barata del método y una de las más útiles, porque evita repetir discusiones y permite revisar supuestos.
 
-**La captura del conocimiento de quien se va.** Cuando alguien sale del equipo o de la organización, una conversación estructurada con las preguntas por las grietas del anexo B recoge lo que sabe. Ikujiro Nonaka e Hirotaka Takeuchi describieron en 1995 cómo el conocimiento pasa de tácito a explícito y vuelve: esta captura es uno de esos pasos, hecho a propósito.
+**La captura del conocimiento de quien se va.** Cuando alguien sale del equipo o de la organización, una conversación estructurada con las preguntas por las grietas del anexo B recoge lo que sabe. Ikujiro Nonaka y Hirotaka Takeuchi describieron en 1995 cómo el conocimiento pasa de tácito a explícito y vuelve: esta captura es uno de esos pasos, hecho a propósito.
 
 ### El conocimiento tácito
 

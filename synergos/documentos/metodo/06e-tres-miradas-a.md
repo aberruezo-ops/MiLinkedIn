@@ -109,7 +109,7 @@ Hay tres piezas que cualquier programa en España debe conocer y que el método 
 
 **El Reglamento europeo de IA.** Clasifica como de alto riesgo los sistemas usados en el empleo y la gestión de trabajadores (selección, asignación de tareas, evaluación, promoción o despido), con obligaciones exigentes cuyo calendario, aplazado en 2026, está en el módulo 11. Y prohíbe desde febrero de 2025 el reconocimiento de emociones en el lugar de trabajo, salvo por razones médicas o de seguridad.
 
-**Las decisiones automatizadas.** El Reglamento general de protección de datos reconoce el derecho a no ser objeto de una decisión basada únicamente en un tratamiento automatizado que produzca efectos jurídicos o afecte de forma significativa, con excepciones y garantías. Por eso el techo del capítulo 17 deja estas decisiones, como máximo, en el nivel 2 de autonomía, salvo que el análisis jurídico del caso permita otra cosa.
+**Las decisiones automatizadas.** El Reglamento General de Protección de Datos reconoce el derecho a no ser objeto de una decisión basada únicamente en un tratamiento automatizado que produzca efectos jurídicos o afecte de forma significativa, con excepciones y garantías. Por eso el techo del capítulo 17 deja estas decisiones, como máximo, en el nivel 2 de autonomía, salvo que el análisis jurídico del caso permita otra cosa.
 
 Estas referencias no sustituyen al análisis jurídico de cada caso, y su aplicación concreta debe comprobarse con quien tenga competencia.
 
@@ -121,7 +121,7 @@ Estas referencias no sustituyen al análisis jurídico de cada caso, y su aplica
 
 **Leer las medidas por equipo.** El propio método pide medir la capacidad y la supervisión (capítulo 18 y módulo 24). Esas medidas se leen agregadas por equipo. Una lectura individual se pacta antes con el equipo y con la representación legal y se anota como vigilancia en el inventario.
 
-**El tecnoestrés como indicador.** En los pilotos con IA se mide la carga y la intrusión percibidas, con el acuerdo del equipo y con lectura agregada. Es un indicador de guarda: tiene un límite que no debe pasarse y no entra en el delta (capítulo 18).
+**El tecnoestrés como indicador.** En los pilotos con IA se miden la carga y la intrusión percibidas, con el acuerdo del equipo y con lectura agregada. Es un indicador de guarda: tiene un límite que no debe pasarse y no entra en el delta (capítulo 18).
 
 ### Señales de que va mal
 

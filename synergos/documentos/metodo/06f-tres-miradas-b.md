@@ -52,7 +52,7 @@ En el sector público hay tres referencias que cambian la perspectiva. Michael L
 
 **Un canal humano garantizado.** Para todo servicio en el que se ponga IA, existe una forma de hablar con una persona, clara y sin laberinto. Es la salida para los casos que no encajan, que el sistema no resolverá, y para las personas que no pueden o no quieren usar el canal digital.
 
-**Explicación y reclamación.** Si una decisión afecta a alguien, esa persona puede saber por qué se tomó, en un lenguaje que entienda, y a quién reclamar. El Reglamento general de protección de datos ya lo exige en muchos casos de decisiones automatizadas; el método lo exige en todos.
+**Explicación y reclamación.** Si una decisión afecta a alguien, esa persona puede saber por qué se tomó, en un lenguaje que entienda, y a quién reclamar. El Reglamento General de Protección de Datos ya lo exige en muchos casos de decisiones automatizadas; el método lo exige en todos.
 
 **Accesibilidad.** Los servicios digitales del sector público tienen obligaciones de accesibilidad desde la Directiva (UE) 2016/2102, y la Directiva (UE) 2019/882, que se aplica desde 2025, extiende exigencias a muchos productos y servicios privados. El método lo trata como criterio de puerta, no como revisión final.
 

@@ -36,7 +36,7 @@ Un comité de puertas con criterios previos, derechos de decisión escritos y un
 | El área de tecnología | Oída antes, por escrito |
 | La representación legal | Oída antes, por escrito, cuando la decisión toca condiciones de trabajo |
 
-La regla de decisión es una: decide el patrocinador oído el comité, y las objeciones quedan escritas. Toda decisión de puerta se firma así: firma el patrocinador y contrafirma la persona ajena al equipo del programa. La plantilla del anexo C lo recoge. En el programa acotado no hay comité: firma el patrocinador con quien dirige el programa y contrafirma una persona ajena al equipo. Donde este documento dice "comité de puertas", el programa acotado lee esa firma.
+La regla de decisión es una: decide el patrocinador, oído el comité, y las objeciones quedan escritas. Toda decisión de puerta se firma así: firma el patrocinador y contrafirma la persona ajena al equipo del programa. La plantilla del anexo C lo recoge. En el programa acotado no hay comité: firma el patrocinador con quien dirige el programa y contrafirma una persona ajena al equipo. Donde este documento dice "comité de puertas", el programa acotado lee esa firma.
 
 **Quién decide qué.** Los derechos de decisión se escriben en una tabla de una página durante los primeros cien días, antes de la primera puerta, y se revisan en cada puerta. Es la única tabla de derechos de decisión del método, y el módulo 5 remite a ella. Como mínimo responde a estas decisiones. Cada organización añade las suyas y dos columnas más: a quién se consulta y a quién se informa.
 

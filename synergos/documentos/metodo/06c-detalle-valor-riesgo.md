@@ -18,7 +18,7 @@ Un rediseño con IA toca las tres necesidades a la vez. Puede quitar autonomía 
 
 **Que las carreras tengan sentido.** Si la tarea de entrada desaparece y los puestos intermedios se vacían, ¿hacia dónde crece alguien en ese oficio? Cada programa de escala necesita una respuesta escrita, aunque sea provisional.
 
-**Que el miedo se trate como información.** El miedo a perder el empleo o el sitio es razonable y, en muchos casos, está fundado. Negarlo destruye la confianza. El método pide decir con claridad qué se sabe, qué no se sabe y qué compromisos asume la organización. Si la respuesta honesta es que algunos puestos van a desaparecer, hay que decirlo y decir qué se va a hacer con las personas, antes de pedirles que enseñen lo que saben al sistema que los sustituirá.
+**Que el miedo se trate como información.** El miedo a perder el empleo o el sitio es razonable y, en muchos casos, está fundado. Negarlo destruye la confianza. El método pide decir con claridad qué se sabe, qué no se sabe y qué compromisos asume la organización. Si la respuesta honesta es que algunos puestos van a desaparecer, hay que decirlo y decir qué se va a hacer con las personas, antes de pedirles que enseñen lo que saben al sistema que las sustituirá.
 
 ### Señales de que va mal
 

@@ -36,7 +36,7 @@ Son los seis entregables básicos. Lo que el capítulo 18 y los módulos añaden
 
 **El mapa del flujo de trabajo real.** Se dibuja el flujo que se hace, y la diferencia con el del procedimiento es la primera información útil del programa. Se construye observando en el puesto, no en una sala con los responsables. Las herramientas de minería de procesos ayudan cuando hay registros, pero solo ven lo que deja huella en el sistema, y lo más interesante suele ocurrir fuera.
 
-**La restricción principal.** El punto que limita el resultado del conjunto. Ese resultado es el que fija el objetivo de negocio (capítulo 5); si todavía no está escrito, lo primero que hace el diagnóstico es conseguir que quien dirige la organización lo escriba. Tiene que ser una por ámbito diagnosticado, nombrada, y aceptada por el patrocinador. Una lista de diez problemas no es un diagnóstico. Si el equipo no consigue ponerse de acuerdo en cuál es la restricción, el programa todavía no sabe qué está transformando. Para nombrarla se hacen dos preguntas sobre el mapa del flujo: dónde se acumula la cola de trabajo, y qué pasaría con el resultado del conjunto si se duplicara la capacidad en ese punto. Si el resultado no cambiaría, la restricción está en otro sitio. Se escribe en una frase que diga el punto del flujo, lo que limita y a qué resultado del negocio afecta.
+**La restricción principal.** El punto que limita el resultado del conjunto. Ese resultado es el que fija el objetivo de negocio (capítulo 5); si todavía no está escrito, lo primero que hace el diagnóstico es conseguir que quien dirige la organización lo escriba. Tiene que ser una por ámbito diagnosticado, nombrada, y aceptada por el patrocinador. Una lista de diez problemas no es un diagnóstico. Si el equipo no consigue ponerse de acuerdo en cuál es la restricción, el programa todavía no sabe qué está transformando. Para nombrarla se hacen dos preguntas sobre el mapa del flujo: dónde se acumula la cola de trabajo, y qué pasaría con el resultado del conjunto si se duplicara la capacidad en ese punto. Si el resultado no cambiara, la restricción está en otro sitio. Se escribe en una frase que diga el punto del flujo, lo que limita y a qué resultado del negocio afecta.
 
 **La línea base.** Medida, no estimada. Sin línea base no hay forma de saber si el programa mejora algo, y cualquier resultado posterior se podrá defender o atacar según convenga. Es el entregable más aburrido y uno de los más decisivos. Lleva al menos un indicador por elemento y uno del objetivo de negocio (capítulo 18) y, para cada uno, su variación normal: el mínimo y el máximo de los últimos meses. Durante cuánto tiempo se mide lo fija el responsable de medición (anexo G).
 
@@ -71,11 +71,11 @@ La segunda se responde ante el comité por perfil, y con nombre solo si la perso
 
 **A quién se pregunta.** A quienes hacen el trabajo, no a los responsables del procedimiento, y en especial a dos perfiles: la persona a la que los demás acuden cuando algo se atasca, y la persona que lleva menos tiempo, porque todavía recuerda lo que nadie le explicó cuando llegó. Mi hipótesis es que entre los dos se dibuja casi todo el mapa. En una organización grande se pregunta por perfil y por centro, y se para cuando dos conversaciones seguidas no añaden filas nuevas.
 
-**Qué se pregunta.** "Qué haces" no sirve, porque la respuesta es el procedimiento; se pregunta por las grietas. Son cinco, y en todo el documento las llamo las preguntas por las grietas:
+**Qué se pregunta.** "¿Qué haces?" no sirve, porque la respuesta es el procedimiento; se pregunta por las grietas. Son cinco, y en todo el documento las llamo las preguntas por las grietas:
 
 - ¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?
 - ¿Cuándo no sigues el procedimiento, y por qué?
-- ¿A quién llamas cuando algo se atasca? ¿Y a quién te llaman a ti?
+- ¿A quién llamas cuando algo se atasca? ¿Y quién te llama a ti?
 - ¿Qué sabes de un caso antes de leerlo entero?
 - ¿Qué pasaría mañana si tú no vinieras?
 
@@ -171,7 +171,7 @@ La escala extiende lo que ha funcionado. Su error típico es escalar la herramie
 
 {{img:fig-escala.png|16}}
 
-**Despliegue por etapas.** Nunca de golpe. Cada etapa tiene su propia mini puerta: los indicadores tienen que aguantar al ampliar. La decide el dueño operativo con los datos que certifica medición. Si la mejora del piloto se diluye al pasar a más equipos, para, lo lleva al comité de puertas y se entiende por qué antes de seguir.
+**Despliegue por etapas.** Nunca de golpe. Cada etapa tiene su propia minipuerta: los indicadores tienen que aguantar al ampliar. La decide el dueño operativo con los datos que certifica medición. Si la mejora del piloto se diluye al pasar a más equipos, para, lo lleva al comité de puertas y se entiende por qué antes de seguir.
 
 **Formación en el puesto.** Se da acompañando mientras se trabaja; un curso de un día no basta. Lo que funciona en la escala casi siempre es lo que aprendieron quienes usaron la herramienta en el piloto, no lo que estaba en el manual. La tabla dice qué tiene que saber cada perfil y quién se lo enseña. Las horas las fija cada programa (anexo G), y cómo se comprueba que se sabe lo decide la persona responsable de la adopción.
 

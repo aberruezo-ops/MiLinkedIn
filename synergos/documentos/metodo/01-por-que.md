@@ -4,11 +4,11 @@ Este documento describe el método Synergós en su versión 2.1. Lo escribo para
 
 Antes de empezar, tres avisos.
 
-La primera: el método está en construcción y lo digo en muchos capítulos. A la fecha ningún programa ha aplicado el método completo. Lo que cuento sale de mi experiencia dirigiendo transformaciones, de las fuentes y de diseño propio que todavía no se ha probado. Todavía tengo pendiente decir, pieza a pieza, cuáles usé yo en programas reales antes de que el método existiera; eso está anotado en el capítulo 21. Mientras tanto, las propuestas sin probar se llaman propuestas. Y donde no tengo respuesta, dejo la pregunta abierta en un recuadro, a veces con una solución provisional y a veces sin ella. Esas preguntas me interesan más que cualquier otra parte del método, porque son las que lo hacen mejorar.
+El primero: el método está en construcción y lo digo en muchos capítulos. A la fecha ningún programa ha aplicado el método completo. Lo que cuento sale de mi experiencia dirigiendo transformaciones, de las fuentes y de diseño propio que todavía no se ha probado. Todavía tengo pendiente decir, pieza a pieza, cuáles usé yo en programas reales antes de que el método existiera; eso está anotado en el capítulo 21. Mientras tanto, las propuestas sin probar se llaman propuestas. Y donde no tengo respuesta, dejo la pregunta abierta en un recuadro, a veces con una solución provisional y a veces sin ella. Esas preguntas me interesan más que cualquier otra parte del método, porque son las que lo hacen mejorar.
 
-La segunda: lo que cito está en la lista de fuentes del final (anexo E), con lo que cada autor aporta y, en las que más pesan, con lo que no dice. El anexo marca también las fuentes que conozco solo por resúmenes y las que están pendientes de ficha propia. He procurado no hacer decir a nadie más de lo que escribió. Los casos que aparecen son de dos tipos: casos públicos verificados (las marchas atrás de Klarna y de Commonwealth Bank, por ejemplo) y casos compuestos, construidos a partir de varias situaciones reales y sin corresponder a ninguna. Los compuestos se dicen compuestos cada vez que aparecen, y sus cifras son ilustrativas: nadie las ha medido.
+El segundo: lo que cito está en la lista de fuentes del final (anexo E), con lo que cada autor aporta y, en las que más pesan, con lo que no dice. El anexo marca también las fuentes que conozco solo por resúmenes y las que están pendientes de ficha propia. He procurado no hacer decir a nadie más de lo que escribió. Los casos que aparecen son de dos tipos: casos públicos verificados (las marchas atrás de Klarna y de Commonwealth Bank, por ejemplo) y casos compuestos, construidos a partir de varias situaciones reales y sin corresponder a ninguna. Los compuestos se dicen compuestos cada vez que aparecen, y sus cifras son ilustrativas: nadie las ha medido.
 
-La tercera: este es un documento de trabajo del autor. Recoge el cómo operativo del método (las plantillas, la escala de madurez, las puertas detalladas), que no se publica en abierto. En LinkedIn se cuenta el porqué y el qué; aquí está también el cómo.
+El tercero: este es un documento de trabajo del autor. Recoge el cómo operativo del método (las plantillas, la escala de madurez, las puertas detalladas), que no se publica en abierto. En LinkedIn se cuenta el porqué y el qué; aquí está también el cómo.
 
 !! Cómo están marcadas las preguntas abiertas | Cada recuadro como este recoge una pregunta que el método todavía no ha cerrado. Si lleva una propuesta, es provisional y se dice. Si no la lleva, es porque no la tengo, y prefiero decirlo a inventarla.
 
@@ -18,7 +18,7 @@ La tercera: este es un documento de trabajo del autor. Recoge el cómo operativo
 
 ## 1. Una transformación rota que todavía no lo sabe
 
-Hay una frase que he oído en casi todas las organizaciones en las que he trabajado, con distintas palabras: "eso lo sabe Marta". Marta es la persona a la que todo el mundo llama cuando el procedimiento no cubre el caso. No aparece en el organigrama con ese papel, no cobra por ello y ningún plan de proyecto la menciona. Hasta que se va, o hasta que alguien decide que lo que hace Marta lo puede hacer un sistema.
+Hay una frase que he oído en casi todas las organizaciones en las que he trabajado, con distintas palabras: "Eso lo sabe Marta". Marta es la persona a la que todo el mundo llama cuando el procedimiento no cubre el caso. No aparece en el organigrama con ese papel, no cobra por ello y ningún plan de proyecto la menciona. Hasta que se va, o hasta que alguien decide que lo que hace Marta lo puede hacer un sistema.
 
 Synergós nace de ver muchas veces la misma secuencia. Se decide una tecnología, se fija un plazo, se prepara una demo que funciona y, dos meses después, alguien escribe un plan de formación para que el equipo adopte lo que ya está hecho. Entonces aparece lo que no estaba en ningún documento: quién sabe distinguir dos expedientes que parecen iguales, a quién hay que llamar para que algo salga en un día y no en tres semanas, qué excepción no cubre ninguna regla. El piloto funciona en la demo, que la prepara quien conoce la herramienta, y falla en el uso, que lo hace quien conocía el trabajo.
 
@@ -62,13 +62,13 @@ Tres filas piden un comentario más largo del que cabe en la tabla. La primera e
 
 ## 3. Tres cosas que tienen en común las causas
 
-Si se mira la tabla con calma aparecen tres patrones que explican casi todo lo demás.
+Si se mira la tabla con calma, aparecen tres patrones que explican casi todo lo demás.
 
 {{img:fig-causas.png|16}}
 
 **El orden.** La mayoría de las causas describen algo hecho en el momento equivocado: elegir la solución antes del diagnóstico, comprar la tecnología antes de rediseñar el trabajo, formar a la gente después de decidir, medir cuando ya no se puede comparar. Por eso el orden es un componente entero de Synergós, aunque parezca un asunto de logística.
 
-La idea sociotécnica de Trist y Bamforth tiene continuidad reciente. Barley (1986) vio que el mismo escáner dio organizaciones distintas en dos hospitales, Orlikowski (2000) sitúa la estructura en el uso que hacen las personas y Pasmore y otros (2019), en un artículo de reflexión de autores de consultoría, sostienen que el diseño sociotécnico reaparece porque la tecnología avanza más deprisa que el diseño de las organizaciones. Las conozco por resúmenes y no por el texto completo.
+La idea sociotécnica de Trist y Bamforth tiene continuidad reciente. Barley (1986) vio que el mismo escáner dio organizaciones distintas en dos hospitales, Orlikowski (2000) sitúa la estructura en el uso que hacen las personas y Pasmore y otros (2019), en un artículo de reflexión de autores de consultoría, sostienen que el diseño sociotécnico reaparece porque la tecnología avanza más deprisa que el diseño de las organizaciones. Conozco estas fuentes por resúmenes y no por el texto completo.
 
 **Lo que no se ve.** Varias causas tienen que ver con algo que existe y nadie mira: el conocimiento que no está escrito, el incentivo que sigue premiando lo de antes, el supuesto que nadie cuestiona, el usuario que no estaba en la sala. El método pone entregables concretos para hacer visible cada una de esas cosas antes de decidir.
 

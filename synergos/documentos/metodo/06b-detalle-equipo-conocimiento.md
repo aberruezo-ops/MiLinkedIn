@@ -126,7 +126,7 @@ El método trata el conocimiento como un ciclo con cinco momentos: se descubre, 
 
 ### Lo que dicen las fuentes
 
-Ikujiro Nonaka e Hirotaka Takeuchi describieron en 1995 cómo se crea conocimiento en una organización mediante cuatro conversiones: de tácito a tácito, compartiendo experiencia (socialización); de tácito a explícito, poniéndolo en palabras y modelos (exteriorización); de explícito a explícito, combinando lo escrito (combinación); y de explícito a tácito, aprendiéndolo al usarlo (interiorización). El ciclo no se recorre una vez; da vueltas, y en cada vuelta el conocimiento crece.
+Ikujiro Nonaka y Hirotaka Takeuchi describieron en 1995 cómo se crea conocimiento en una organización mediante cuatro conversiones: de tácito a tácito, compartiendo experiencia (socialización); de tácito a explícito, poniéndolo en palabras y modelos (exteriorización); de explícito a explícito, combinando lo escrito (combinación); y de explícito a tácito, aprendiéndolo al usarlo (interiorización). El ciclo no se recorre una vez; da vueltas, y en cada vuelta el conocimiento crece.
 
 Thomas Davenport y Laurence Prusak insistieron en 1998 en algo más prosaico: el conocimiento se mueve en un mercado, con compradores, vendedores e intermediarios. Los precios se pagan en reciprocidad, en reputación y a veces en altruismo, y sin confianza el mercado no funciona. La gente comparte lo que sabe cuando espera algo a cambio y lo guarda cuando compartirlo le cuesta. Un programa que pide compartir sin cambiar ese mercado se queda en un repositorio vacío.
 
@@ -136,7 +136,7 @@ Szulanski (1996), que conozco por resúmenes y no por el texto completo, estudi�
 
 **Descubrir.** Es el mapa de lo que nadie escribió (capítulo 9), más el inventario de aportaciones del módulo 1. Se descubre en el puesto, preguntando por las grietas.
 
-**Capturar.** No todo debe capturarse. Lo que se puede escribir sin perder lo esencial, se escribe. Lo que no (el juicio del caso raro, el oído para el cliente difícil), se protege dejándolo en la persona y diseñando para que se transmita por práctica compartida. La decisión de qué capturar y qué proteger es la tercera pregunta de la puerta.
+**Capturar.** No todo debe capturarse. Lo que se puede escribir sin perder lo esencial se escribe. Lo que no (el juicio del caso raro, el oído para el cliente difícil), se protege dejándolo en la persona y diseñando para que se transmita por práctica compartida. La decisión de qué capturar y qué proteger es la tercera pregunta de la puerta.
 
 **Curar.** Cada pieza de conocimiento explícito tiene un dueño del contenido, fecha de revisión y estado. Una base sin curar es peor que no tener base, porque mezcla lo vigente con lo obsoleto y nadie se fía.
 
