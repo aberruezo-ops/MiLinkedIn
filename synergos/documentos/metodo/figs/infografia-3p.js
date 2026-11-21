@@ -1,4 +1,4 @@
-// Infografía del método en cuatro páginas (A4). NODE_PATH=$(npm root -g) node figs/infografia-3p.js
+// Infografía del método en cinco páginas (A4). NODE_PATH=$(npm root -g) node figs/infografia-3p.js
 const { chromium } = require('playwright'); const fs = require('fs'); const path = require('path');
 const dir = __dirname, out = path.join(dir, '..'), IM = path.join(dir, '../../../imagenes/');
 const FONTDIR = '/tmp/claude-0/-home-user-MiLinkedIn/8b3653e3-6315-50f3-96b3-ad0bde922485/scratchpad/ttf/';
@@ -24,6 +24,7 @@ ${face('Sans', 'public-sans-400-normal.ttf')}${face('Sans', 'public-sans-600-nor
 html,body{width:${W}px;background:${INK};font-family:'Sans',sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .page{position:relative;width:${W}px;height:${H}px;overflow:hidden;padding:70px 80px 64px;page-break-after:always;break-after:page}
 .dark{background:${INK};color:#F4F6F6}.green{background:#1F4A2C;color:#F4F6F6}.green .top span{color:#A9D9B8}.green .foot{color:#CFE3D5}.green .foot i{color:#A9D9B8}.light{background:${PAPER};color:${INK}}
+.earth{background:#5C2613;color:#FBF3EC}.earth .top span{color:#F0C3A4}.earth .foot{color:#EBD3C4}.earth .foot i{color:#F0C3A4}
 .sun{position:absolute;left:0;top:0;pointer-events:none}
 .z{position:relative;z-index:2}
 .top{display:flex;justify-content:space-between;align-items:center;font-size:15px;letter-spacing:5px;text-transform:uppercase;font-weight:600}
@@ -41,7 +42,7 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 .tri{display:flex;height:8px;width:260px}.tri b{flex:1}
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
-const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en cuatro páginas · versión 2.0</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 4</span></span></div>`;
+const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en cinco páginas · versión 2.0</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 5</span></span></div>`;
 const foot = t => `<div class="foot"><i>Crecer a la vez.</i><span>${t}</span></div>`;
 
 // ---------- Página 1: por qué y con qué ----------
@@ -192,11 +193,69 @@ ${top(3, false)}
 ${foot('El tronco: fases y puertas')}
 </section>`;
 
-// ---------- Página 4: IA e innovación ----------
+// ---------- Página 4: tres miradas, madurez y alcance ----------
+const ED = '#451A0B', EL = '#F0C3A4', ET = '#EBD3C4';
+const MIR = [
+  ['Quien dirige', AV, [['Mandos intermedios', 'Su papel se rediseña antes que el de sus equipos.'], ['Cultura y estructura', 'Se cambia primero lo que se premia.'], ['Plazos', 'Se compromete la fecha de la siguiente puerta, no la del final.']], 'El mando intermedio del ámbito.'],
+  ['Quien hace el trabajo', '#7CC090', [['Ante los algoritmos', 'Asistir no es vigilar. La persona sabe qué se mide de ella.'], ['Si un puesto desaparece', 'Se escribe en el diseño y hay un plan de transición por persona.'], ['Inclusión', 'Se mira la cola: el diez por ciento con peor experiencia.']], 'La representación legal, si la decisión toca condiciones de trabajo.'],
+  ['Quien recibe el servicio', TV, [['El recorrido', 'Se sigue con personas reales, junto al mapa de lo que nadie escribió.'], ['Canal humano', 'Garantizado, claro y sin laberinto.'], ['Explicación y reclamación', 'En toda decisión que afecte a alguien.']], 'Una persona con la función de defender su mirada.'],
+];
+const MAD = [['Puntual', 'Depende de quien se ofrece. Lo que se sabe no está escrito.'], ['Repetible', 'Está escrito quién decide, qué se usa y qué sabe una sola persona.'], ['Integrado', 'Los criterios se escriben antes de decidir. Riesgos y datos entran desde el diseño.'], ['Sistemático', 'Se mide, se revisa y se retira lo que no aporta.']];
+const pv = `<section class="page earth">
+${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 4.0, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
+${top(4, true)}
+<div class="z" style="margin-top:42px;width:900px">
+  <div class="k" style="color:${AV}">Tres miradas, madurez y alcance</div>
+  <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Un cambio se mira<br><span style="font-style:italic;color:${AV}">desde tres sitios.</span></h1>
+  <p style="font-size:21px;line-height:1.42;color:${ET};width:830px;margin-top:18px">Un método tiende a ver la transformación desde donde se diseña. Releído desde quien hace el trabajo y desde quien recibe el servicio, faltaban cosas.</p>
+</div>
+
+<div class="z" style="margin-top:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px">
+  ${MIR.map(([t, c, its, voz], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};overflow:hidden;display:flex;flex-direction:column">
+    <div style="background:${c};color:${c === TV ? '#fff' : INK};padding:12px 20px 13px"><div class="k" style="font-size:12px;letter-spacing:4px;opacity:.8">Mirada ${i + 1}</div><div class="ser" style="font-size:33px;line-height:1.02;margin-top:2px">${t}</div></div>
+    <div style="padding:6px 20px 4px;flex:1">${its.map(([a, b], j) => `<div style="padding:7px 0;${j ? 'border-top:1px solid #DDD8CC' : ''}"><div style="font-size:17px;font-weight:700;line-height:1.25">${a}</div><div style="font-size:16px;line-height:1.36;color:#3F423F;margin-top:2px">${b}</div></div>`).join('')}</div>
+    <div style="background:#EAE6DA;padding:10px 20px 20px"><div class="k" style="font-size:11.5px;letter-spacing:3.5px;color:${T}">Se oye antes de cada puerta</div><div style="font-size:15.5px;line-height:1.34;margin-top:3px">${voz}</div></div>
+  </div>`).join('')}
+</div>
+<div class="z" style="margin-top:14px;display:grid;grid-template-columns:1fr 1.05fr;gap:26px;font-size:16.5px;line-height:1.4">
+  <div style="border-left:6px solid ${AV};padding-left:14px;color:${ET}"><b style="font-weight:700;color:#fff">Las tres comparten una pregunta.</b> La huella material de la tecnología y la dependencia de un proveedor, escritas en la decisión.</div>
+  <div style="border-left:6px solid ${TV};padding-left:14px;color:${ET}"><b style="font-weight:700;color:#fff">La línea roja.</b> A nadie se le pide que enseñe al sistema que lo sustituye sin decírselo.</div>
+</div>
+
+<div class="z" style="margin-top:22px">
+  <div style="display:grid;grid-template-columns:1fr 400px;gap:34px;align-items:end">
+    <div><div class="k" style="color:${AV}">Madurez · la regla de entrada pide el nivel 2</div><h2 style="margin-top:8px;font-size:40px">Cuatro niveles, de puntual a sistemático</h2></div>
+    <div style="font-size:15px;line-height:1.4;color:${ET}">Se evalúa en personas, conocimiento, tecnología y gobierno, en horas y con evidencia. Si falta algún rasgo, vale el nivel más bajo. Madurez no es autonomía.</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px">
+    ${MAD.map(([t, d], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${i === 1 ? AV : ED};color:${i === 1 ? INK : '#FBF3EC'};padding:10px 16px 18px 20px;min-height:112px"><div style="display:flex;align-items:baseline;gap:10px"><span class="ser" style="font-size:40px;line-height:.9;color:${i === 1 ? INK : AV}">${i + 1}</span><span class="ser" style="font-size:27px;line-height:1">${t}</span></div><div style="font-size:15.5px;line-height:1.34;margin-top:7px;${i === 1 ? 'font-weight:600' : `color:${ET}`}">${d}</div></div>`).join('')}
+  </div>
+  <div style="display:grid;grid-template-columns:150px repeat(4,1fr);gap:14px;margin-top:12px;font-size:15px;line-height:1.36;color:${ET}">
+    <div class="k" style="font-size:12px;letter-spacing:3.5px;color:${AV};line-height:1.5">Lo mínimo para el nivel 2, por escrito</div>
+    ${[['Personas', 'Patrocinador con tiempo fijo cada semana y participación acordada de quien hace el trabajo.'], ['Conocimiento', 'Lista de lo crítico que sabe una sola persona y registro de decisiones en uso.'], ['Tecnología', 'Reglas de uso, lista de lo que se usa y un responsable con nombre por solución.'], ['Gobierno', 'Tabla de quién decide qué, con nombre de quien firma y de quien contrafirma.']]
+      .map(([a, b]) => `<div style="border-top:3px solid ${AV};padding-top:7px"><b style="font-weight:700;color:#fff">${a}.</b> ${b}</div>`).join('')}
+  </div>
+</div>
+
+<div class="z" style="margin-top:22px">
+  <div class="k" style="color:${AV}">Proporcionalidad · propuesta sin probar</div>
+  <h2 style="margin:6px 0 10px;font-size:40px">El método no se aplica entero a todo</h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;align-items:stretch">
+    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción nombrada, línea base, mapa del trabajo afectado, decisión de puerta de una página, un indicador por elemento, criterio de parada, cómo se deshace y dueño.', 0],
+       ['De flujo', 'Rediseña un proceso de principio a fin.', 'Se añaden el rediseño del trabajo, los casos de prueba, el registro de supuestos, el responsable de adopción y el destino del tiempo.', 8],
+       ['De sistema', 'Cambia lo que la organización ofrece o cómo se organiza.', 'Se añaden el modelo económico con valle, el gobierno completo y los módulos 1 a 22.', 16]]
+      .map(([t, d, q, up], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};padding:12px 18px 20px;border-top:8px solid ${[AV, '#7CC090', TV][i]}"><div class="ser" style="font-size:32px;line-height:1">${t}</div><div style="font-size:16px;font-weight:700;line-height:1.3;margin-top:4px">${d}</div><div style="font-size:15px;line-height:1.36;color:#3F423F;margin-top:6px">${q}</div></div>`).join('')}
+  </div>
+  <div style="font-size:15px;line-height:1.4;color:${ET};margin-top:10px">Con un agente, su ficha. Con IA dentro del servicio, su techo de autonomía. Si lo puntual no cabe en pocas páginas, se está pidiendo de más.</div>
+</div>
+${foot('Tres miradas, madurez y alcance')}
+</section>`;
+
+// ---------- Página 5: IA e innovación ----------
 const N = [['Sugiere', 'La persona decide y hace todo.'], ['Propone', 'La persona revisa cada propuesta y decide.'], ['Actúa con revisión', 'Revisión por muestreo y de todo lo que se sale del patrón.'], ['Actúa e informa', 'La persona supervisa indicadores y atiende excepciones.']];
 const p3 = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 2.2, s0: 3.2, sk: .02 })}
-${top(4, true)}
+${top(5, true)}
 <div class="z" style="margin-top:42px">
   <div class="k" style="color:${AV}">IA e innovación</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">La IA entra<br><span style="font-style:italic;color:${AV}">por la puerta.</span></h1>
@@ -256,11 +315,11 @@ ${foot('IA e innovación')}
 
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 2 });
-  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pm}${p2}${p3}</body></html>`);
+  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pm}${p2}${pv}${p3}</body></html>`);
   await p.goto('file://' + f); await p.waitForTimeout(900);
   const over = await p.evaluate(() => [...document.querySelectorAll('.page')].map(s => s.scrollHeight));
   console.log('alturas', over.join(' '));
-  for (let i = 0; i < 4; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
-  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-cuatro-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
+  for (let i = 0; i < 5; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
+  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-cinco-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
   fs.unlinkSync(f); await b.close(); console.log('ok');
 })();
