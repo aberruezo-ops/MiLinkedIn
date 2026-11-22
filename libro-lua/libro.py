@@ -3,14 +3,14 @@ import os
 from lib import *
 import animales as A
 from animales import *
-from escenas import SCENES, TEXTOS
+from escenas import SCENES, TEXTOS, HIDDEN
 
 # ---- datos editables ---------------------------------------------------
 TITULO = 'Lúa, la gatita gris'
 SUBTITULO = 'Un cuento para colorear sobre ser como eres'
 AUTOR = 'TU NOMBRE'
 ANIO = '2026'
-PAGINAS_TOTAL = 36            # debe coincidir con el interior generado
+PAGINAS_TOTAL = 44            # debe coincidir con el interior generado
 GROSOR_PAPEL = 0.002252       # pulgadas por pagina, papel blanco KDP (verificar con la calculadora de KDP)
 # -------------------------------------------------------------------------
 
@@ -31,8 +31,8 @@ html,body{margin:0;padding:0;background:#fff;color:#111;font-family:'Nunito',san
 .txt p{margin:0;font-family:'Fredoka';font-weight:600;font-size:27pt;line-height:1.25}
 h1,h2,h3{font-family:'Fredoka';font-weight:700;margin:0}
 .note h2{font-size:26pt;margin-bottom:.2in}
-.note h3{font-size:16pt;margin:.22in 0 .06in}
-.note p,.note li{font-size:12.5pt;line-height:1.45;margin:.05in 0}
+.note h3{font-size:17pt;margin:.2in 0 .05in}
+.note p,.note li{font-size:14pt;line-height:1.45;margin:.06in 0}
 .note ul,.note ol{margin:.04in 0;padding-left:.28in}
 .note .legal{position:absolute;left:.5in;right:.5in;bottom:.5in;font-size:9.5pt;line-height:1.4;border-top:2px solid #111;padding-top:.1in}
 .center{text-align:center}
@@ -66,26 +66,50 @@ def pagina_titulo():
 <p class="center" style="position:absolute;bottom:.5in;left:0;right:0;font-family:Fredoka;font-weight:600;font-size:15pt">Texto e ilustraciones: {AUTOR}</p>''')
 
 
-def pagina_nota():
+def pagina_guia1():
     return pag(f'''<div class="note">
-<h2>Nota para madres, padres y docentes</h2>
-<p>Lúa es una gatita gris a la que sus amigos dejan fuera porque no tiene colores vivos. Una noche, la que más rechazaron es la única que puede ayudar a un pajarito perdido. Está pensado para niñas y niños de 4 a 8 años y sirve para hablar de aceptación, empatía y valor propio mientras se colorea. Tiene muy poco texto a propósito: el dibujo cuenta la historia y deja sitio para que el niño la cuente con sus palabras.</p>
-<h3>Cómo usarlo</h3>
-<ol>
-<li>Leed una página cada vez y mirad el dibujo antes de colorear.</li>
-<li>Dejad que elijan los colores. Lúa puede ser gris, rosa o a rayas: no hay respuesta incorrecta.</li>
-<li>Preguntad y escuchad la respuesta sin corregirla.</li>
-</ol>
-<h3>Ideas para conversar</h3>
+<h2>Para las familias</h2>
+<p>Casi todos los niños viven alguna vez lo que le pasa a Lúa: sentirse dejados fuera por ser distintos. Hablar de ello directamente suele costar. Mientras colorean y escuchan un cuento, les resulta más fácil contarte lo que sienten sin tener que mirarte a los ojos.</p>
+<h3>Qué hay detrás de la historia</h3>
 <ul>
-<li>¿Por qué crees que los amigos dijeron que Lúa era muy gris? ¿Era justo?</li>
-<li>¿Cómo se sentía Lúa cuando se fue sola?</li>
-<li>¿Qué hizo Lúa cuando alguien necesitaba ayuda, aunque la habían tratado mal?</li>
-<li>¿Qué cosas tuyas te hacen especial?</li>
-<li>¿Qué puedes hacer si ves que dejan a alguien fuera?</li>
+<li><b>Poco texto.</b> El niño completa la historia con sus palabras, y lo que dice te da pistas de cómo se siente.</li>
+<li><b>La tristeza se acompaña, no se arregla.</b> Lúa está triste y nadie le dice que no llore. Poner nombre a lo que sentimos es el primer paso para calmarnos.</li>
+<li><b>Se vale por ser, no por servir.</b> Lúa no gana su sitio por ayudar: ya valía antes. Los niños necesitan saber que se les quiere sin condiciones.</li>
+<li><b>Hay un adulto seguro.</b> La escena de mamá no es un adorno. Saber que hay alguien a quien volver es lo que más protege a un niño.</li>
+<li><b>Hay reparación.</b> Los amigos se equivocan, piden perdón y se arregla. Así aprenden que un error no es el final de una amistad.</li>
 </ul>
-<h3>Antes de empezar</h3>
-<p>La parte de atrás de cada dibujo está en blanco para que los rotuladores no estropeen la página siguiente.</p>
+<h3>Cómo usarlo, con 5 minutos al día</h3>
+<ol>
+<li>Mirad el dibujo y preguntad: ¿qué crees que siente? Escuchad sin corregir.</li>
+<li>Dejad que coloreen como quieran. Lúa puede ser gris, rosa o de rayas.</li>
+<li>Terminad con la página "Respira con Lúa". Cerrar en calma ayuda a irse a dormir mejor.</li>
+</ol>
+<p>En cada escena se esconde Mora, la mariquita. Buscarla invita a mirar con atención y a releer.</p>
+</div>''')
+
+
+def pagina_guia2():
+    return pag(f'''<div class="note">
+<h2>Frases que ayudan</h2>
+<h3>Si tu hijo o hija cuenta que lo han dejado fuera</h3>
+<ul>
+<li>"Debe doler. Cuéntame más." Funciona mejor que "no pasa nada" o "ignóralos", que sin querer le dicen que su emoción sobra.</li>
+<li>"¿Qué necesitas ahora de mí?" A veces es un abrazo y a veces, solo que escuches.</li>
+<li>Evita "algo habrás hecho". Primero acompaña y luego, si hace falta, buscad soluciones juntos.</li>
+</ul>
+<h3>Si es tu hijo o hija quien deja fuera a otros</h3>
+<ul>
+<li>Mantén la calma y sin etiquetas: "A veces nos equivocamos. ¿Cómo crees que se sintió? ¿Cómo lo podemos arreglar?"</li>
+<li>Recuerda que Lúa no hizo nada para merecer el rechazo, y que sus amigos también aprendieron. Se puede cambiar.</li>
+</ul>
+<h3>Para el día a día</h3>
+<ul>
+<li>"Eres importante para mí tal como eres."</li>
+<li>"Todas las emociones están bien. Lo que hacemos con ellas, a veces hay que mejorarlo."</li>
+<li>"Ser diferente no es un defecto. Es lo que te hace tú."</li>
+</ul>
+<h3>Cuándo buscar ayuda</h3>
+<p>Este libro es un apoyo para conversar en casa, no un tratamiento. Si tu hijo lleva semanas triste o muy retraído, no quiere ir al colegio, o sufre burlas o agresiones repetidas, habla con su tutor o tutora y con su pediatra o un psicólogo infantil.</p>
 <div class="legal">© {ANIO} {AUTOR}. Todos los derechos reservados. Prohibida la reproducción total o parcial de esta obra sin permiso del autor. Primera edición.</div>
 </div>''')
 
@@ -99,11 +123,50 @@ def pagina_personajes():
     for n, d, x, y in nombres:
         s += f'<text x="{x}" y="{y}" {font(36, 700)} fill="#111">{n}</text><text x="{x}" y="{y + 30}" {font(22, 600)} fill="#111">{d}</text>'
     return pag(f'<div class="art">{svg(s, "0 0 750 720")}</div>'
-               f'<div class="txt"><p style="font-size:17pt">Pinta a cada amigo como quieras. ¿Quién es tu favorito?</p></div>')
+               f'<div class="txt"><p style="font-size:17pt">Pinta a cada amigo como quieras. Mora se esconde en cada escena: ¡búscala!</p></div>')
 
 
 def pagina_escena(i):
-    return pag(f'<div class="art">{svg(SCENES[i](), "0 0 750 780")}</div><div class="txt"><p>{TEXTOS[i]}</p></div>')
+    mora = ladybug(*HIDDEN[i], 0.3) if i in HIDDEN else ''
+    return pag(f'<div class="art">{svg(SCENES[i]() + mora, "0 0 750 780")}</div><div class="txt"><p>{TEXTOS[i]}</p></div>')
+
+
+def pagina_emociones():
+    s = f'<text x="375" y="55" {font(40, 700)} fill="#111">¿Cómo se siente Lúa?</text>'
+    datos = [('joy', 'Alegría'), ('sad', 'Tristeza'), ('worried', 'Miedo'), ('angry', 'Enfado'), ('open', 'Sorpresa'), ('smile', 'Calma')]
+    for i, (m, nom) in enumerate(datos):
+        x, y = 125 + (i % 3) * 250, 210 + (i // 3) * 290
+        s += f'<g transform="translate({x},{y}) scale(0.8)">{cat_head(0.8, m, 0, m == "sad")}</g>'
+        s += f'<text x="{x}" y="{y + 120}" {font(32, 700)} fill="#111">{nom}</text>'
+    return pag(f'<div class="art">{svg(s, "0 0 750 700")}</div>'
+               f'<div class="txt"><p style="font-size:17pt">Colorea cada cara y cuenta cuándo te has sentido así. Todas las emociones están bien.</p></div>')
+
+
+def pagina_respira():
+    s = f'<text x="375" y="55" {font(42, 700)} fill="#111">Respira con Lúa</text>'
+    # panel 1: huele la flor
+    s += f'<g transform="translate(190,250) scale(0.9)">{cat_head(0.9, "joy")}</g>'
+    s += flower(190, 470, 2.6)
+    s += f'<text x="190" y="640" {font(30, 700)} fill="#111">1. Huele la flor</text>'
+    s += f'<path d="M80,150 q20,-30 50,-20 M90,110 q20,-30 50,-20" fill="none" {ST} stroke-width="4"/>'
+    # panel 2: apaga la vela
+    s += f'<g transform="translate(560,250) scale(0.9)">{cat_head(0.9, "open")}</g>'
+    s += f'<rect x="520" y="440" width="70" height="140" rx="10" fill="#fff" {ST}/>'
+    s += f'<path d="M555,440 L555,425" {ST}/>'
+    s += f'<path d="M555,420 q-22,-30 0,-70 q22,40 0,70 Z" fill="#fff" {ST}/>'
+    s += f'<path d="M455,350 L500,355 M450,375 L495,375 M455,400 L500,395" fill="none" {ST} stroke-width="4"/>'
+    s += f'<text x="560" y="640" {font(30, 700)} fill="#111">2. Apaga la vela</text>'
+    return pag(f'<div class="art">{svg(s, "0 0 750 700")}</div>'
+               f'<div class="txt"><p style="font-size:17pt">Coge aire despacio por la nariz. Suéltalo poco a poco por la boca. Repite tres veces.</p></div>')
+
+
+def pagina_superpoder():
+    s = f'<text x="375" y="55" {font(36, 700)} fill="#111">Lúa ve en la oscuridad. ¿Y tú?</text>'
+    s += f'<rect x="60" y="100" width="630" height="520" rx="30" fill="#fff" {ST} stroke-dasharray="2 14"/>'
+    s += star(95, 135, 20) + star(655, 135, 20) + star(95, 585, 20) + star(655, 585, 20)
+    s += f'<text x="375" y="380" {font(26, 600)} fill="#111">Dibuja aquí tu superpoder</text>'
+    return pag(f'<div class="art">{svg(s, "0 0 750 700")}</div>'
+               f'<div class="txt" style="text-align:left"><p style="font-size:15pt;font-family:Nunito;font-weight:700">Mi superpoder es:</p><div class="line"></div></div>')
 
 
 def pagina_amigo():
@@ -129,15 +192,16 @@ def pagina_diploma():
         s += star(130, 400 + i * 50, 14) + f'<text x="165" y="{407 + i * 50}" {font(26, 600, "start")} fill="#111">{p}</text>'
     s += f'<g transform="translate(140,575) scale(.3)">{cat_head(.3, "happy")}</g>'
     s += f'<g transform="translate(610,575) scale(.3)">{cat_head(.3, "joy")}</g>'
-    s += f'<path d="M300,610 L450,610" {ST} stroke-width="4"/><text x="375" y="640" {font(20, 600)} fill="#111">Firma</text>'
+    s += f'<path d="M230,610 L370,610 M390,610 L530,610" {ST} stroke-width="4"/><text x="300" y="640" {font(18, 600)} fill="#111">Mi firma</text><text x="460" y="640" {font(18, 600)} fill="#111">Un adulto que me quiere</text>'
     return pag(f'<div style="margin-top:.35in">{svg(s, "0 0 750 700")}</div>')
 
 
 def interior():
-    p = [pagina_titulo(), BLANCO, pagina_nota(), BLANCO, pagina_personajes(), BLANCO]
+    p = [pagina_titulo(), BLANCO, pagina_guia1(), pagina_guia2(), pagina_personajes(), BLANCO]
     for i in range(len(SCENES)):
         p += [pagina_escena(i), BLANCO]
-    p += [pagina_amigo(), BLANCO, pagina_diploma(), BLANCO]
+    p += [pagina_emociones(), BLANCO, pagina_respira(), BLANCO, pagina_superpoder(), BLANCO,
+          pagina_amigo(), BLANCO, pagina_diploma(), BLANCO]
     assert len(p) == PAGINAS_TOTAL, len(p)
     return f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>{TITULO}</title><style>{CSS}</style></head><body>{"".join(p)}</body></html>'
 
@@ -177,7 +241,7 @@ def cubierta():
     s += (f'<text x="{cx0}" y="215" {font(150, 700)} fill="#ffd23f" stroke="#23232b" stroke-width="12" paint-order="stroke" stroke-linejoin="round">LÚA</text>'
           f'<text x="{cx0}" y="320" {font(72, 700)} fill="#fff" stroke="#23232b" stroke-width="10" paint-order="stroke" stroke-linejoin="round">la gatita gris</text>')
     s += f'<rect x="{cx0 - 290}" y="352" width="580" height="54" rx="27" fill="#fff" stroke="#23232b" stroke-width="4"/>'
-    s += f'<text x="{cx0}" y="391" {font(27, 700)} fill="#23232b">Libro para colorear · 4 a 8 años</text>'
+    s += f'<text x="{cx0}" y="391" {font(25, 700)} fill="#23232b">Para colorear · 4 a 8 años · Con guía para familias</text>'
     s += cat_sit(cx0, 620, 1.3, 'happy', tail='up')
     s += squirrel(cx0 - 300, 1000, 0.95, 'happy') + rabbit(cx0 + 300, 1005, 0.9, 'happy', flip=-1)
     s += butterfly(cx0 + 270, 520, 0.75) + butterfly(cx0 - 260, 560, 0.6, flip=-1)
@@ -185,8 +249,8 @@ def cubierta():
     # reverso
     bx0 = 12 + 425
     s += f'<rect x="{bx0 - 330}" y="140" width="660" height="470" rx="30" fill="#fff" fill-opacity=".94" stroke="#23232b" stroke-width="5"/>'
-    lineas = ['Lúa es una gatita gris a la que sus', 'amigos no dejan jugar porque no tiene', 'colores vivos. Hasta que una noche',
-              'descubren todo lo que vale.', '', 'Un cuento para colorear, con muy poco', 'texto, sobre aceptarnos tal como somos.']
+    lineas = ['A Lúa no la dejan jugar porque no', 'tiene colores vivos. Hasta que una noche', 'descubre todo lo que vale, y lo que',
+              'ya valía antes.', '', 'Cuento para colorear con muy poco texto,', 'emociones, calma y guía para familias.']
     for i, l in enumerate(lineas):
         s += f'<text x="{bx0}" y="{215 + i * 48}" {font(30, 600)} fill="#23232b">{l}</text>'
     s += cat_sit(bx0 - 130, 790, 0.6, 'joy', tail='up') + bird(bx0 + 130, 955, 0.9, 'happy', flip=-1)

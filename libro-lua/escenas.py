@@ -145,6 +145,17 @@ def e12():
 
 
 def e13():
+    s = f'<path d="M-10,700 L760,700" {ST}/>'
+    s += f'<rect x="520" y="60" width="190" height="190" rx="14" fill="#fff" {ST}/><path d="M615,60 L615,250 M520,155 L710,155" {ST}/>'
+    s += moon(566, 108, 28) + star(668, 106, 10) + star(662, 205, 9) + star(560, 205, 9)
+    s += cat_sit(330, 380, 1.05, 'smile', tail='curl')
+    s += cat_sit(335, 545, 0.55, 'joy', tail='up')
+    s += tube2('M247,470 Q200,580 300,615', 36, '#fff', 1) + tube2('M413,470 Q462,580 366,615', 36, '#fff', 1)
+    s += heart(330, 200, 0.55) + heart(220, 250, 0.3) + heart(440, 250, 0.3)
+    return s
+
+
+def e14():
     s = heart(375, 330, 5.4)
     s += cat_sit(375, 300, 0.62, 'joy', tail='up')
     s += star(80, 80, 22) + star(680, 90, 22) + star(60, 420, 14) + star(700, 430, 14) + twinkle(120, 200, 1) + twinkle(640, 220, 1)
@@ -153,20 +164,24 @@ def e13():
     return s
 
 
-SCENES = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13]
+SCENES = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14]
+
+# Mora, la mariquita escondida, en las escenas donde no sale ya a la vista (indice de escena: x, y)
+HIDDEN = {0: (140, 655), 3: (185, 705), 4: (110, 645), 5: (110, 705), 6: (405, 705), 7: (205, 705), 8: (650, 705), 9: (520, 748)}
 
 TEXTOS = [
     "Lúa era una gatita gris.",
     "Sus amigos tenían colores muy vivos.",
     "«Tú eres muy gris», le dijeron.",
     "Lúa se fue sola.",
-    "Llegó la noche y Lúa estaba triste.",
+    "Llegó la noche. Lúa estaba triste, y estar triste está bien.",
     "De pronto, alguien lloraba muy bajito.",
     "Era Pipa, un pajarito perdido.",
     "Lúa veía muy bien en la oscuridad y lo llevó a cuestas.",
     "Juntos llegaron hasta su nido.",
     "«¡Gracias, Lúa!», dijo la mamá de Pipa.",
-    "Al día siguiente, sus amigos le pidieron perdón.",
+    "Sus amigos le pidieron perdón. Debieron quererla desde el principio.",
     "Lúa sonrió: «¿Jugamos?».",
-    "Todos somos especiales, tal como somos.",
+    "Esa noche, mamá la abrazó: «Te quiero tal como eres».",
+    "Lúa valía igual antes que después. Todos valemos tal como somos.",
 ]

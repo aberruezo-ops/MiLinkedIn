@@ -47,14 +47,21 @@ def cat_head(s=1.0, mood='happy', look=0, tear=False):
     if mood in ('sad', 'worried'):
         for sd in (-1, 1):
             o += f'<path d="M{sd * 62},-30 L{sd * 28},-47" fill="none" {L(s)}/>'
+    if mood == 'angry':
+        for sd in (-1, 1):
+            o += f'<path d="M{sd * 64},-52 L{sd * 24},-34" fill="none" {L(s, 1.2)}/>'
     o += f'<path d="M-10,16 L10,16 L0,29 Z" fill="{nose}" {L(s, .85)}/>'
     if mood in ('happy', 'joy'):
         o += f'<path d="M-25,38 Q0,82 25,38 Z" fill="{fc("mouth")}" {L(s, .85)}/>'
         o += f'<path d="M0,29 L0,38" fill="none" {L(s, .85)}/>'
     elif mood == 'smile':
         o += f'<path d="M0,29 L0,38 M0,38 Q-12,53 -26,41 M0,38 Q12,53 26,41" fill="none" {L(s, .85)}/>'
-    elif mood in ('sad', 'worried'):
+    elif mood == 'sad':
         o += f'<path d="M0,29 L0,38 M-22,58 Q0,38 22,58" fill="none" {L(s, .85)}/>'
+    elif mood == 'worried':
+        o += f'<path d="M0,29 L0,38 M-26,56 q8,-12 17,0 t17,0 t17,0" fill="none" {L(s, .85)}/>'
+    elif mood == 'angry':
+        o += f'<path d="M0,29 L0,38 M-20,56 Q0,46 20,56" fill="none" {L(s, .85)}/>'
     elif mood == 'open':
         o += f'<ellipse cx="0" cy="50" rx="11" ry="15" fill="{fc("mouth")}" {L(s, .85)}/>'
         o += f'<path d="M0,29 L0,35" fill="none" {L(s, .85)}/>'
