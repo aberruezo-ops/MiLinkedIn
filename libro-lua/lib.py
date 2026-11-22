@@ -2,7 +2,7 @@
 import math
 
 INK = '#111'
-ST = f'stroke="{INK}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"'
+ST = f'stroke="{INK}" stroke-width="4.2" stroke-linejoin="round" stroke-linecap="round"'
 
 
 def tube(path, w, fill='#fff'):
@@ -204,8 +204,10 @@ def grass(x, y, k=1.0):
 
 
 def hill(g, w=750, h=700, wave=18):
+    back = f'M-10,{g - 38} Q{w * .35},{g - 95} {w * .7},{g - 48} T{w + 10},{g - 40}'
     top = f'M-10,{g} Q{w * .25},{g - wave} {w * .5},{g} T{w + 10},{g - 4}'
-    return (f'<path d="{top} L{w + 10},{h + 10} L-10,{h + 10} Z" fill="#fff"/>'
+    return (f'<path d="{back} L{w + 10},{h + 10} L-10,{h + 10} Z" fill="#fff"/><path d="{back}" fill="none" {ST} stroke-width="3.2"/>'
+            f'<path d="{top} L{w + 10},{h + 10} L-10,{h + 10} Z" fill="#fff"/>'
             f'<path d="{top}" fill="none" {ST}/>')
 
 

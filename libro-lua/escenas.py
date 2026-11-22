@@ -92,22 +92,25 @@ def e7():
 
 
 def e8():
-    s = moon(110, 110, 65) + stars_night(NIGHT[1:]) + hill(650, W, H, 20) + tree(645, 660, 0.95)
-    s += nest_front(640, 455)
-    s += cat_side(320, 725, 1.0, 'happy', flip=1, tail='up')
-    s += bird(300, 565, 0.5, 'happy', wings='down')
-    s += twinkle(520, 560, 0.7) + twinkle(560, 520, 0.5) + grass(120, 770)
+    s = moon(110, 110, 65) + stars_night(NIGHT[1:]) + hill(650, W, H, 20)
+    nx, ny = nest_pos(570, 705, 1.4)
+    s += tree(570, 705, 1.4, branch=True)
+    s += nest_back(nx, ny) + bird(nx, ny + 6, 0.6, 'sad', flip=-1) + nest_front(nx, ny)
+    s += bubble(170, 190, 170, 62, '¡Pipa!', nx - 20, ny - 112, 32)
+    s += cat_side(255, 745, 1.05, 'happy', flip=1, tail='up')
+    s += bird(245, 572, 0.5, 'happy')
+    s += twinkle(120, 520, 0.5) + grass(90, 770) + flower(680, 765, 0.7)
     return s
 
 
 def e9():
     s = moon(110, 100, 60) + star(250, 90, 14) + star(420, 70, 12) + hill(715, W, H, 15)
-    s += tree(540, 725, 1.55)
-    s += bird(545, 385, 0.7, 'happy', flip=-1, wings='up') + nest_front(545, 372)
-    s += bird(385, 340, 0.5, 'happy', wings='up')
-    s += f'<path d="M330,360 l-40,8 M335,330 l-44,-4 M345,392 l-34,16" {ST} stroke-width="4"/>'
-    s += cat_sit(185, 430, 0.95, 'smile', look=1)
-    s += heart(470, 260, 0.35) + grass(300, 770) + flower(80, 740, 0.8)
+    nx, ny = nest_pos(570, 725, 1.4)
+    s += tree(570, 725, 1.4, branch=True)
+    s += nest_back(nx, ny) + bird(nx + 24, ny + 6, 0.62, 'happy', flip=-1) + bird(nx - 28, ny + 8, 0.42, 'happy') + nest_front(nx, ny)
+    s += cat_sit(110, 480, 0.9, 'joy', look=1)
+    s += heart(nx, ny - 160, 0.4) + heart(nx - 75, ny - 120, 0.25) + heart(nx + 75, ny - 120, 0.25)
+    s += grass(300, 775) + flower(60, 755, 0.8)
     return s
 
 
@@ -167,7 +170,7 @@ def e14():
 SCENES = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14]
 
 # Mora, la mariquita escondida, en las escenas donde no sale ya a la vista (indice de escena: x, y)
-HIDDEN = {0: (140, 655), 3: (185, 705), 4: (110, 645), 5: (110, 705), 6: (405, 705), 7: (205, 705), 8: (650, 705), 9: (520, 748)}
+HIDDEN = {0: (140, 655), 3: (185, 705), 4: (110, 645), 5: (110, 705), 6: (405, 705), 7: (430, 750), 8: (660, 740), 9: (520, 748)}
 
 TEXTOS = [
     "Lúa era una gatita gris.",

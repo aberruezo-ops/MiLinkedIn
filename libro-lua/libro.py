@@ -40,8 +40,12 @@ h1,h2,h3{font-family:'Fredoka';font-weight:700;margin:0}
 """
 
 
-def svg(inner, vb, wpx=750):
+def svg(inner, vb, marco=False):
     w, h = [float(v) for v in vb.split()[2:]]
+    if marco:
+        r = f'x="8" y="8" width="{w - 16:.0f}" height="{h - 16:.0f}" rx="28"'
+        inner = (f'<defs><clipPath id="c"><rect {r}/></clipPath></defs><g clip-path="url(#c)">{inner}</g>'
+                 f'<rect {r} fill="none" stroke="#111" stroke-width="4.2"/>')
     return f'<svg viewBox="{vb}" xmlns="http://www.w3.org/2000/svg" style="height:{7.7 * h / w:.3f}in">{inner}</svg>'
 
 
@@ -50,6 +54,9 @@ def pag(html, cls=''):
 
 
 BLANCO = pag('')
+PAW = ('<svg viewBox="0 0 60 50" style="height:.3in;display:block;margin:0 auto .03in"><g fill="#fff" stroke="#111" stroke-width="3">'
+       '<ellipse cx="30" cy="34" rx="14" ry="11"/><ellipse cx="12" cy="20" rx="6" ry="8"/><ellipse cx="25" cy="10" rx="6" ry="8"/>'
+       '<ellipse cx="38" cy="10" rx="6" ry="8"/><ellipse cx="50" cy="20" rx="6" ry="8"/></g></svg>')
 
 
 def pagina_titulo():
@@ -128,7 +135,7 @@ def pagina_personajes():
 
 def pagina_escena(i):
     mora = ladybug(*HIDDEN[i], 0.3) if i in HIDDEN else ''
-    return pag(f'<div class="art">{svg(SCENES[i]() + mora, "0 0 750 780")}</div><div class="txt"><p>{TEXTOS[i]}</p></div>')
+    return pag(f'<div class="art">{svg(SCENES[i]() + mora, "0 0 750 780", marco=True)}</div><div class="txt">{PAW}<p>{TEXTOS[i]}</p></div>')
 
 
 def pagina_emociones():

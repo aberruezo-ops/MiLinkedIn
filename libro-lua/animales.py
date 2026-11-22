@@ -10,12 +10,12 @@ def fc(n, d='#fff'):
 
 
 def L(s, k=1.0):
-    return f'stroke="{INK}" stroke-width="{5 * k / s:.2f}" stroke-linejoin="round" stroke-linecap="round"'
+    return f'stroke="{INK}" stroke-width="{4.2 * k / s:.2f}" stroke-linejoin="round" stroke-linecap="round"'
 
 
 def tube2(path, w, fill, s):
     return (f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="{w:.1f}" stroke-linecap="round"/>'
-            f'<path d="{path}" fill="none" stroke="{fill}" stroke-width="{w - 9 / s:.1f}" stroke-linecap="round"/>')
+            f'<path d="{path}" fill="none" stroke="{fill}" stroke-width="{w - 8.4 / s:.1f}" stroke-linecap="round"/>')
 
 
 def grp(cx, cy, s, flip=1):
@@ -267,12 +267,65 @@ def moon(cx, cy, r):
             f'fill="#fff" {ST}/>')
 
 
-def nest_front(cx, cy):
-    s = f'<path d="M{cx - 72},{cy - 8} Q{cx},{cy + 82} {cx + 72},{cy - 8} Z" fill="{fc("nest", "#fff")}" {ST}/>'
-    s += (f'<path d="M{cx - 54},{cy + 12} Q{cx},{cy + 40} {cx + 54},{cy + 12} M{cx - 36},{cy + 34} Q{cx},{cy + 56} {cx + 36},{cy + 34}" '
-          f'fill="none" {ST} stroke-width="3.5"/>')
+def twinkle(x, y, k=1.0):
+    return f'<path d="M{x},{y - 16 * k} L{x},{y + 16 * k} M{x - 16 * k},{y} L{x + 16 * k},{y}" {ST} stroke-width="4"/>'
+
+
+def tree(x, g, k=1.0, branch=False):
+    """Arbol con raices, corteza y hojas. Con branch=True lleva una rama larga a la izquierda para el nido."""
+    k *= 0.9
+    s = ''
+    if branch:
+        s += tube2(f'M{x - 18 * k:.1f},{g - 205 * k:.1f} Q{x - 110 * k:.1f},{g - 190 * k:.1f} {x - 205 * k:.1f},{g - 225 * k:.1f}', 26 * k, '#fff', 1)
+        s += tube2(f'M{x - 175 * k:.1f},{g - 222 * k:.1f} Q{x - 200 * k:.1f},{g - 250 * k:.1f} {x - 190 * k:.1f},{g - 275 * k:.1f}', 14 * k, '#fff', 1)
+    s += (f'<path d="M{x - 40 * k:.1f},{g} Q{x - 22 * k:.1f},{g - 35 * k:.1f} {x - 24 * k:.1f},{g - 150 * k:.1f} '
+          f'L{x + 24 * k:.1f},{g - 150 * k:.1f} Q{x + 22 * k:.1f},{g - 35 * k:.1f} {x + 40 * k:.1f},{g} Z" fill="#fff" {ST}/>')
+    s += (f'<path d="M{x - 6 * k:.1f},{g - 10 * k:.1f} Q{x - 10 * k:.1f},{g - 70 * k:.1f} {x - 4 * k:.1f},{g - 130 * k:.1f} '
+          f'M{x + 10 * k:.1f},{g - 20 * k:.1f} Q{x + 14 * k:.1f},{g - 70 * k:.1f} {x + 8 * k:.1f},{g - 120 * k:.1f}" fill="none" {ST} stroke-width="3"/>')
+    P = lambda dx, dy: f'{x + dx * k:.1f},{g + dy * k:.1f}'
+    d = (f'M{P(-95, -150)} Q{P(-135, -215)} {P(-85, -250)} Q{P(-80, -325)} {P(-10, -310)} Q{P(50, -345)} {P(90, -285)} '
+         f'Q{P(140, -250)} {P(105, -195)} Q{P(135, -150)} {P(80, -140)} Q{P(0, -120)} {P(-95, -150)} Z')
+    s += f'<path d="{d}" fill="#fff" {ST}/>'
+    for dx, dy in ((-70, -200), (-25, -255), (30, -205), (75, -250), (-92, -170), (0, -165), (62, -170), (-45, -290), (22, -300), (-10, -215)):
+        s += (f'<path d="M{x + dx * k:.1f},{g + dy * k:.1f} q{7 * k:.1f},{-12 * k:.1f} {16 * k:.1f},0 '
+              f'M{x + (dx + 8) * k:.1f},{g + (dy - 2) * k:.1f} q{-3 * k:.1f},{-9 * k:.1f} {2 * k:.1f},{-14 * k:.1f}" fill="none" {ST} stroke-width="3"/>')
     return s
 
 
-def twinkle(x, y, k=1.0):
-    return f'<path d="M{x},{y - 16 * k} L{x},{y + 16 * k} M{x - 16 * k},{y} L{x + 16 * k},{y}" {ST} stroke-width="4"/>'
+def nest_pos(x, g, k):
+    return x - 205 * 0.9 * k, g - 225 * 0.9 * k
+
+
+def nest_back(cx, cy):
+    s = ''
+    for dx in (-84, -58, 56, 86):
+        s += f'<path d="M{cx + dx},{cy - 2} l{dx * .18:.0f},-20" fill="none" {ST} stroke-width="3.5"/>'
+    s += f'<ellipse cx="{cx}" cy="{cy}" rx="82" ry="20" fill="{fc("nest", "#fff")}" {ST}/>'
+    return s
+
+
+def nest_front(cx, cy):
+    s = f'<path d="M{cx - 82},{cy} Q{cx},{cy + 98} {cx + 82},{cy} Q{cx},{cy + 22} {cx - 82},{cy} Z" fill="{fc("nest", "#fff")}" {ST}/>'
+    s += (f'<path d="M{cx - 60},{cy + 22} Q{cx},{cy + 52} {cx + 60},{cy + 22} M{cx - 40},{cy + 44} Q{cx},{cy + 68} {cx + 40},{cy + 44} '
+          f'M{cx - 18},{cy + 14} L{cx - 30},{cy + 62} M{cx + 22},{cy + 16} L{cx + 34},{cy + 60}" fill="none" {ST} stroke-width="3"/>')
+    return s
+
+
+def flower(x, y, k=1.0):
+    v = (int(x) // 10) % 3
+    s = f'<path d="M{x},{y} L{x},{y + 55 * k}" {ST}/>'
+    s += f'<path d="M{x},{y + 40 * k} q{16 * k},{-14 * k} {26 * k},{-4 * k} q{-12 * k},{14 * k} {-26 * k},{4 * k} z" fill="#fff" {ST}/>'
+    if v == 0:  # tulipan
+        s += (f'<path d="M{x - 14 * k},{y + 6 * k} Q{x - 18 * k},{y - 26 * k} {x - 7 * k},{y - 34 * k} L{x},{y - 20 * k} L{x + 7 * k},{y - 34 * k} '
+              f'Q{x + 18 * k},{y - 26 * k} {x + 14 * k},{y + 6 * k} Q{x},{y + 18 * k} {x - 14 * k},{y + 6 * k} Z" fill="{fc("fl_petal")}" {ST}/>')
+    elif v == 1:  # margarita
+        for i in range(8):
+            a = i * 45
+            s += f'<ellipse cx="{x}" cy="{y - 15 * k}" rx="{5.5 * k}" ry="{13 * k}" transform="rotate({a} {x} {y})" fill="{fc("fl_petal")}" {ST} stroke-width="3"/>'
+        s += f'<circle cx="{x}" cy="{y}" r="{7 * k}" fill="{fc("fl_mid")}" {ST}/>'
+    else:
+        for i in range(5):
+            a = math.radians(i * 72 - 90)
+            s += f'<circle cx="{x + math.cos(a) * 15 * k:.1f}" cy="{y + math.sin(a) * 15 * k:.1f}" r="{11 * k:.1f}" fill="{fc("fl_petal")}" {ST}/>'
+        s += f'<circle cx="{x}" cy="{y}" r="{9 * k:.1f}" fill="{fc("fl_mid")}" {ST}/>'
+    return s
