@@ -173,15 +173,15 @@ SCENES = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14]
 HIDDEN = {0: (140, 655), 3: (185, 705), 4: (110, 645), 5: (110, 705), 6: (405, 705), 7: (430, 750), 8: (660, 740), 9: (520, 748)}
 
 TEXTOS = [
-    "Lúa era una gatita gris.",
+    "Lúa era una gatita gris, y le encantaba jugar.",
     "Sus amigos tenían colores muy vivos.",
     "«Tú eres muy gris», le dijeron.",
-    "Lúa se fue sola.",
+    "Lúa se fue sola, con el rabo caído.",
     "Llegó la noche. Lúa estaba triste, y estar triste está bien.",
     "De pronto, alguien lloraba muy bajito.",
-    "Era Pipa, un pajarito perdido.",
-    "Lúa veía muy bien en la oscuridad y lo llevó a cuestas.",
-    "Juntos llegaron hasta su nido.",
+    "Era Pipa, un pajarito que se había perdido.",
+    "Lúa veía muy bien en la oscuridad. «Súbete», le dijo.",
+    "Juntos llegaron hasta su nido, despacito.",
     "«¡Gracias, Lúa!», dijo la mamá de Pipa.",
     "Sus amigos le pidieron perdón. Debieron quererla desde el principio.",
     "Lúa sonrió: «¿Jugamos?».",

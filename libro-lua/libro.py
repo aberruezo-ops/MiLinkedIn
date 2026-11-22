@@ -44,7 +44,10 @@ def svg(inner, vb, marco=False):
     w, h = [float(v) for v in vb.split()[2:]]
     if marco:
         r = f'x="8" y="8" width="{w - 16:.0f}" height="{h - 16:.0f}" rx="28"'
-        inner = (f'<defs><clipPath id="c"><rect {r}/></clipPath></defs><g clip-path="url(#c)">{inner}</g>'
+        inner = (f'<defs><clipPath id="c"><rect {r}/></clipPath>'
+                 f'<filter id="w" x="-2%" y="-2%" width="104%" height="104%"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>'
+                 f'<feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs>'
+                 f'<g clip-path="url(#c)"><g filter="url(#w)">{inner}</g></g>'
                  f'<rect {r} fill="none" stroke="#111" stroke-width="4.2"/>')
     return f'<svg viewBox="{vb}" xmlns="http://www.w3.org/2000/svg" style="height:{7.7 * h / w:.3f}in">{inner}</svg>'
 
