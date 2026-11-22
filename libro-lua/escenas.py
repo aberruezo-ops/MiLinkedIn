@@ -54,7 +54,7 @@ def e_buho():
     s += tree(570, 705, 1.4, branch=True)
     s += owl(nx, ny + 6, 0.6, look=-1)
     s += bubble(60, 150, 250, 66, '¿Quién anda ahí?', nx - 40, ny - 150, 28)
-    s += cloud(20, 600, 240) + cloud(455, 615, 210)
+    s += bush(10, 690, 250) + bush(470, 700, 230)
     s += cat_side(290, 742, 0.95, 'smile', flip=1, tail='up')
     s += bird(280, 588, 0.45, 'happy')
     s += f'<path d="M110,758 l50,0 M200,765 l60,0 M360,760 l50,0" {ST} stroke-width="3"/>'

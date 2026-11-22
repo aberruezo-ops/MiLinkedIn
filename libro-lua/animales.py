@@ -358,3 +358,16 @@ def petal_head(x, y, k=1.0):
         ang = math.radians(i * 72 - 90)
         o += f'<circle cx="{x + math.cos(ang) * 15 * k:.1f}" cy="{y + math.sin(ang) * 15 * k:.1f}" r="{11 * k:.1f}" fill="{fc("fl_petal")}" {ST} stroke-width="3.4"/>'
     return o + f'<circle cx="{x}" cy="{y}" r="{8 * k:.1f}" fill="{fc("fl_mid")}" {ST} stroke-width="3.4"/>'
+
+
+def bush(x, g, w=220):
+    d = (f'M{x},{g} C{x - .05 * w:.0f},{g - .35 * w:.0f} {x + .1 * w:.0f},{g - .58 * w:.0f} {x + .28 * w:.0f},{g - .46 * w:.0f} '
+         f'C{x + .34 * w:.0f},{g - .74 * w:.0f} {x + .64 * w:.0f},{g - .74 * w:.0f} {x + .7 * w:.0f},{g - .46 * w:.0f} '
+         f'C{x + .92 * w:.0f},{g - .52 * w:.0f} {x + 1.04 * w:.0f},{g - .2 * w:.0f} {x + .96 * w:.0f},{g} Z')
+    s = f'<path d="{d}" fill="#fff" {ST}/>'
+    for fx, fy in ((.18, -.2), (.4, -.4), (.62, -.38), (.8, -.2), (.5, -.15), (.3, -.5)):
+        px, py = x + fx * w, g + fy * w
+        s += f'<path d="M{px:.0f},{py:.0f} q{.04 * w:.0f},{-.07 * w:.0f} {.09 * w:.0f},0 M{px + .045 * w:.0f},{py - .01 * w:.0f} q{-.02 * w:.0f},{-.06 * w:.0f} {.01 * w:.0f},{-.09 * w:.0f}" fill="none" {ST} stroke-width="3"/>'
+    for bx, by in ((.25, -.3), (.55, -.52), (.78, -.32)):
+        s += f'<circle cx="{x + bx * w:.0f}" cy="{g + by * w:.0f}" r="{.028 * w:.1f}" fill="#fff" {ST} stroke-width="3"/>'
+    return s
