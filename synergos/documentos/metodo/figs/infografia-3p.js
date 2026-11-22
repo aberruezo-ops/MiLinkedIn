@@ -43,7 +43,12 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
 const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en seis páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 6</span></span></div>`;
-const foot = t => `<div class="foot"><i>Crecer a la vez.</i><span>${t}</span></div>`;
+const TRAIL = [['Por qué y con qué', 'Por qué'], ['Personas y conocimiento', 'Conocimiento'], ['El tronco: fases y puertas', 'Fases'], ['Los roles del método', 'Roles'], ['Tres miradas, madurez y alcance', 'Miradas'], ['IA e innovación', 'IA']];
+const foot = t => { const cur = TRAIL.findIndex(x => x[0] === t);
+  const crumb = (txt, state, last) => `<span style="display:inline-flex;align-items:center;gap:6px"><span style="${state === 'now' ? 'font-weight:700;color:var(--nc);border-bottom:3px solid var(--tc)' : state === 'done' ? 'opacity:.9' : 'opacity:.5'}">${txt}</span>${last ? '' : '<span style="opacity:.4">›</span>'}</span>`;
+  const items = [['Inicio', 'done']].concat(TRAIL.map((x, i) => [x[1], i === cur ? 'now' : i < cur ? 'done' : 'todo'])).concat([['Impacto en el negocio', cur === TRAIL.length - 1 ? 'goal' : 'todo']]);
+  const html = items.map(([txt, st], i) => st === 'goal' ? `<span style="display:inline-flex;align-items:center;gap:6px"><span style="font-weight:700;color:${AV}">${txt}</span></span>` : crumb(txt, st, i === items.length - 1)).join(' ');
+  return `<div class="foot" style="--tc:${AV};--nc:${t === TRAIL[2][0] ? INK : '#fff'}"><i>Crecer a la vez.</i><span style="display:flex;gap:8px;align-items:center;font-size:12.5px;letter-spacing:2px">${html}</span></div>`; };
 
 // ---------- Página 1: por qué y con qué ----------
 const p1 = `<section class="page dark">
