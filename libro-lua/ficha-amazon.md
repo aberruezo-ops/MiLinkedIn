@@ -7,7 +7,7 @@ Descripcion (editar y ajustar a tu gusto):
 A Lúa no la dejan jugar porque no tiene colores vivos. Hasta que una noche descubre todo lo que vale, y lo que ya valía antes.
 Un cuento para colorear con muy poco texto, pensado para leer y pintar en familia.
 Dentro encontrarás:
-- 14 escenas para colorear con una historia de final feliz
+- 17 escenas para colorear con una historia de final feliz
 - Páginas de emociones, de respiración y de superpoderes
 - Una mariquita escondida en cada escena para buscar
 - Guía para madres, padres y docentes con frases para conversar

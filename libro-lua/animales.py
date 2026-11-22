@@ -329,3 +329,32 @@ def flower(x, y, k=1.0):
             s += f'<circle cx="{x + math.cos(a) * 15 * k:.1f}" cy="{y + math.sin(a) * 15 * k:.1f}" r="{11 * k:.1f}" fill="{fc("fl_petal")}" {ST}/>'
         s += f'<circle cx="{x}" cy="{y}" r="{9 * k:.1f}" fill="{fc("fl_mid")}" {ST}/>'
     return s
+
+
+def owl(cx, g, s=1.0, look=0, flip=1):
+    body, light = fc('ow_body'), fc('ow_light')
+    o = grp(cx, g, s, flip)
+    o += f'<path d="M-26,-6 L-26,0 M-34,0 L-18,0 M26,-6 L26,0 M18,0 L34,0" fill="none" {L(s)}/>'
+    o += f'<ellipse cx="0" cy="-82" rx="64" ry="82" fill="{body}" {L(s)}/>'
+    o += f'<ellipse cx="0" cy="-66" rx="40" ry="56" fill="{light}" {L(s, .75)}/>'
+    for y in (-100, -76, -52):
+        o += f'<path d="M-24,{y} q12,12 24,0 q12,12 24,0" fill="none" {L(s, .7)}/>'
+    for sd in (-1, 1):
+        o += f'<path d="M{sd * 62},-130 Q{sd * 98},-70 {sd * 58},-14 Q{sd * 48},-70 {sd * 62},-130 Z" fill="{body}" {L(s)}/>'
+    o += f'<ellipse cx="0" cy="-168" rx="68" ry="52" fill="{body}" {L(s)}/>'
+    for sd in (-1, 1):
+        o += f'<path d="M{sd * 34},-208 L{sd * 52},-252 L{sd * 64},-198 Z" fill="{body}" {L(s)}/>'
+        o += f'<circle cx="{sd * 28}" cy="-170" r="30" fill="{light}" {L(s, .75)}/>'
+        o += f'<circle cx="{sd * 28}" cy="-170" r="18" fill="#fff" {L(s, .9)}/>'
+        o += f'<circle cx="{sd * 28 + look * 5}" cy="-170" r="9" fill="#111"/><circle cx="{sd * 28 + look * 5 + 3}" cy="-174" r="3" fill="#fff"/>'
+        o += f'<path d="M{sd * 52},-198 L{sd * 10},-188" fill="none" {L(s, 1.1)}/>'
+    o += f'<path d="M-9,-160 L9,-160 L0,-140 Z" fill="{fc("beak")}" {L(s, .85)}/>'
+    return o + '</g>'
+
+
+def petal_head(x, y, k=1.0):
+    o = ''
+    for i in range(5):
+        ang = math.radians(i * 72 - 90)
+        o += f'<circle cx="{x + math.cos(ang) * 15 * k:.1f}" cy="{y + math.sin(ang) * 15 * k:.1f}" r="{11 * k:.1f}" fill="{fc("fl_petal")}" {ST} stroke-width="3.4"/>'
+    return o + f'<circle cx="{x}" cy="{y}" r="{8 * k:.1f}" fill="{fc("fl_mid")}" {ST} stroke-width="3.4"/>'
