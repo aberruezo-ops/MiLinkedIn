@@ -9,11 +9,11 @@
  },
  {
   "n": 3,
-  "decision": "Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 28. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
+  "decision": "Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 29 nov. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
  },
  {
   "n": 4,
-  "decision": "Comentarios en posts ajenos: el 19 y el 20 publiqué seis con tus recomendaciones (Julia Díaz, Javier Cruz, Pedro J. Moreno, Maica Enrique Valencia, Nacho Bellosta y Pedro Cardona-Vilaplana). Mira si responden y decide si contestas a mano"
+  "decision": "Comentarios en posts ajenos: el 19, el 20 y el 21 se han publicado doce con tus recomendaciones. Los tres del 21: Carlos Augusto Carrasco, Claudia Alexandra Torres Ospina y Miguel Ángel Pascual Verd. Mira si responden y decide si contestas a mano. Y el post de Jorge García sobre la burbuja de la IA tiene dos variantes preparadas (recomiendo la b); dime «publica la b» y la subo"
  },
  {
   "n": 5,
@@ -21,11 +21,11 @@
  },
  {
   "n": 6,
-  "decision": "Método 1.8: 162 páginas. Desde el 19 nov se añadieron al anexo A política, gobierno y cumplimiento, alucinación y conector; al anexo D el paso del nivel 2 al 3; al capítulo 21 una pregunta abierta sobre las filas de madurez; y cuatro filas a la tabla «Quién decide qué» del capítulo 18. En esas filas la gestión del incidente la asigné al dueño, y el documento no lo decía: revísalo. Falta la comprobación independiente de las correcciones y cuatro datos que solo tú puedes dar: piezas usadas en programas reales, esfuerzo por fase, tamaño de un área y valores de partida"
+  "decision": "Método 2.1: 218 páginas. Nombra el impacto en el negocio como objetivo (no como cuarto elemento), la primera pregunta de la puerta pasa a «¿Ataca la restricción, y cuánto vale resolverla?» y el delta se da en dos cifras. Auditoría de ortografía hecha el 21 nov. Revisa la infografía de cinco páginas y los cuatro datos que solo puedes dar tú"
  },
  {
   "n": 7,
-  "decision": "Gestor Synergós y manual Synergós Champion: revísalos y dime qué sobra (la revisión quedó a medias). Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta"
+  "decision": "Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta"
  },
  {
   "n": 8,
@@ -34,5 +34,9 @@
  {
   "n": 9,
   "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar"
+ },
+ {
+  "n": 10,
+  "decision": "Panel de agentes del método (ronda 1, 22 nov): cuatro roles han leído el método 2.1 y hay quince propuestas en panel/ronda-1/00-sintesis.md. Decide cuatro cosas: lista de piezas no retirables, dos deltas con regla del mínimo o media, declaración de intención de plantilla, y si hago una 2.2 con las propuestas 1 a 8 o esperamos a un programa real y a un jurista"
  }
 ]

@@ -1,6 +1,6 @@
 # Parrilla LinkedIn
 
-Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 21 nov 2026, 9:00. La columna Material enlaza el texto, el vídeo, la portada y la publicación en LinkedIn de cada pieza; los mismos enlaces están en la página (datos-parrilla/gen-enlaces.py los genera). Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 22 nov 2026, 8:30. La columna Material enlaza el texto, el vídeo, la portada y la publicación en LinkedIn de cada pieza; los mismos enlaces están en la página (datos-parrilla/gen-enlaces.py los genera). Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Cómo se llama cada pieza (regla del 15 nov 2026): tipo, un punto y el título tal como lo leerá la gente, por ejemplo «Artículo · La bola negra: quién decide quién cabe». La fecha va en su columna. Los códigos internos del cuaderno (AR3, B11, C4...) no se usan en esta página; la equivalencia está en la tabla de abajo.
 
@@ -8,7 +8,7 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 
 ## Hoy y lo que viene
 
-Hoy es sábado 21 nov y mañana domingo: no hay nada previsto. La semana empieza el lunes.
+Hoy es domingo 22 nov: no hay nada previsto. Mañana, lunes 23, es el artículo que pegas tú a mano.
 
 | Día | Pieza | Pilar | Estado | Qué falta y quién | Material |
 |---|---|---|---|---|---|
@@ -68,21 +68,22 @@ Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov, con s
 
 ## Cupo de Publora
 
-Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto. Horizonte de programación: hasta el 28 nov.
+Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto. Horizonte de programación: hasta el 29 nov.
 
-**Noviembre no llega por 2.** A 21 nov, Publora cuenta 13 posts usados y 0 programados; quedan 2 del límite de 15. Hasta fin de mes el calendario pide 4 más para Publora (posts del 24, 25 y 26 y cierre del 27), sin contar Hestía. Faltan 2. El horizonte llega al 27 nov, así que se pueden programar. Los posts del 1 al 3 de diciembre caen en el cupo de diciembre, que se repone el 1. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan.
+**Noviembre no llega por 2.** A 22 nov, Publora cuenta 13 posts usados y 0 programados; quedan 2 del límite de 15. Hasta fin de mes el calendario pide 4 más para Publora (posts del 24, 25 y 26 y cierre del 27), sin contar Hestía. Faltan 2. El horizonte llega al 27 nov, así que se pueden programar. Los posts del 1 al 3 de diciembre caen en el cupo de diciembre, que se repone el 1. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan.
 
 ## Decisiones pendientes de Alejandro
 
 1. Artículo del lunes 23, «Diagnóstico antes que solución»: aprobado. Lo pegas tú a mano y me pasas la URL. Pendiente: decidir si redacto un post de presentación como en los dos artículos anteriores
 2. Posts del martes 24 y jueves 26: martes, propuesta de quién enseña lo que la tarea enseñaba (conocimiento); jueves, cambiar Zuboff por la escala de autonomía (B21). Dime si te valen y los redacto
-3. Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 28. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan
-4. Comentarios en posts ajenos: el 19 y el 20 publiqué seis con tus recomendaciones (Julia Díaz, Javier Cruz, Pedro J. Moreno, Maica Enrique Valencia, Nacho Bellosta y Pedro Cardona-Vilaplana). Mira si responden y decide si contestas a mano
+3. Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 29 nov. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan
+4. Comentarios en posts ajenos: el 19, el 20 y el 21 se han publicado doce con tus recomendaciones. Los tres del 21: Carlos Augusto Carrasco, Claudia Alexandra Torres Ospina y Miguel Ángel Pascual Verd. Mira si responden y decide si contestas a mano. Y el post de Jorge García sobre la burbuja de la IA tiene dos variantes preparadas (recomiendo la b); dime «publica la b» y la subo
 5. Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras
-6. Método 1.8: 162 páginas. Desde el 19 nov se añadieron al anexo A política, gobierno y cumplimiento, alucinación y conector; al anexo D el paso del nivel 2 al 3; al capítulo 21 una pregunta abierta sobre las filas de madurez; y cuatro filas a la tabla «Quién decide qué» del capítulo 18. En esas filas la gestión del incidente la asigné al dueño, y el documento no lo decía: revísalo. Falta la comprobación independiente de las correcciones y cuatro datos que solo tú puedes dar: piezas usadas en programas reales, esfuerzo por fase, tamaño de un área y valores de partida
-7. Gestor Synergós y manual Synergós Champion: revísalos y dime qué sobra (la revisión quedó a medias). Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta
+6. Método 2.1: 218 páginas. Nombra el impacto en el negocio como objetivo (no como cuarto elemento), la primera pregunta de la puerta pasa a «¿Ataca la restricción, y cuánto vale resolverla?» y el delta se da en dos cifras. Auditoría de ortografía hecha el 21 nov. Revisa la infografía de cinco páginas y los cuatro datos que solo puedes dar tú
+7. Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta
 8. Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)
 9. Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar
+10. Panel de agentes del método (ronda 1, 22 nov): cuatro roles han leído el método 2.1 y hay quince propuestas en panel/ronda-1/00-sintesis.md. Decide cuatro cosas: lista de piezas no retirables, dos deltas con regla del mínimo o media, declaración de intención de plantilla, y si hago una 2.2 con las propuestas 1 a 8 o esperamos a un programa real y a un jurista
 
 ## Equivalencia con los códigos internos
 
