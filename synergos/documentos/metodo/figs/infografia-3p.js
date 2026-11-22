@@ -59,7 +59,7 @@ ${top(1, true)}
 <div class="z" style="margin-top:40px">
   <div class="k" style="color:${GV}">1 · ¿Para qué sirve este método?</div>
   <h1 style="font-size:150px;margin:12px 0 0 -6px">Crecer<br><span style="font-style:italic;color:${GV}">a la vez.</span></h1>
-  <p style="font-size:24px;line-height:1.42;color:${MUT};width:600px;margin-top:18px">Para que una transformación mejore el negocio, de verdad, y se mantenga cuando el equipo del programa se vaya.</p>
+  <p style="font-size:24px;line-height:1.42;color:${MUT};width:600px;margin-top:18px">El destino es el resultado del negocio; el camino, que personas, conocimiento y tecnología avancen en el mismo orden.</p>
 </div>
 
 <div class="z" style="margin-top:44px">
@@ -67,9 +67,9 @@ ${top(1, true)}
   ${ARR('Por eso el método fija')}
   ${STEP(2, 'El objetivo', AV, `<div class="ser" style="font-size:42px;line-height:1.05">Impacto en el negocio</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">Ingresar más, gastar menos, servir mejor o poder hacer algo que antes no se podía. Es para qué se mueve todo lo demás.</div>`)}
   ${ARR('Y lo busca moviendo tres palancas a la vez')}
-  ${STEP(3, 'Las palancas', GV, `<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px"><div class="leaf" style="background:${TV};color:#fff;padding:12px 16px 14px"><div class="ser" style="font-size:32px">Personas</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">Liderazgo, roles, incentivos y quién enseña el oficio.</div></div><div class="leafb" style="background:${GV};color:${INK};padding:12px 16px 14px"><div class="ser" style="font-size:32px">Conocimiento</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">Lo escrito, lo que nadie escribió y lo que aprende el programa.</div></div><div class="leaf" style="background:${AV};color:${INK};padding:12px 16px 14px"><div class="ser" style="font-size:32px">Tecnología</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">La IA entra cuando lo demás está listo.</div></div></div><div style="font-size:19px;line-height:1.4;color:${MUT};margin-top:10px">Ninguna crece a costa de las otras.</div>`)}
+  ${STEP(3, 'Las palancas', GV, `<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px"><div class="leaf" style="background:${TV};color:#fff;padding:12px 16px 14px"><div class="ser" style="font-size:32px">Personas</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">Liderazgo, roles e incentivos. Interacción entre quien ejecuta el trabajo y quien enseña cómo se realiza la tarea.</div></div><div class="leafb" style="background:${GV};color:${INK};padding:12px 16px 14px"><div class="ser" style="font-size:32px">Conocimiento</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">Lo escrito, lo que nadie escribió y lo que aprende el programa.</div></div><div class="leaf" style="background:${AV};color:${INK};padding:12px 16px 14px"><div class="ser" style="font-size:32px">Tecnología</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">La IA entra cuando lo demás está listo.</div></div></div><div style="font-size:19px;line-height:1.4;color:${MUT};margin-top:10px">Ninguna crece a costa de las otras.</div>`)}
   ${ARR('Con un orden')}
-  ${STEP(4, 'El orden', '#E8DFC9', `<div class="ser" style="font-size:42px;line-height:1.05">Cinco fases, cada una con una puerta</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">En cada puerta se decide por escrito: pasar, ajustar y repetir, o retirar. Así un error cuesta poco y se puede deshacer.</div>`)}
+  ${STEP(4, 'El orden', '#E8DFC9', `<div class="ser" style="font-size:42px;line-height:1.05">Un orden con puertas</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">Cinco fases con una puerta al final de cada una, y los elementos que las sostienen: estrategia, gobierno, modelo económico, medición, madurez y dimensionamiento.</div>`)}
 </div>
 <div class="z" style="margin-top:34px;font-size:18px;line-height:1.4;color:${MUT}">En las páginas siguientes: qué se mira primero, cómo se avanza, quién interviene, cómo se sabe que funciona y dónde entra la IA.</div>
 ${foot('Para qué')}
@@ -93,14 +93,14 @@ ${top(2, true)}
     ${[['Qué peticiones acabarán en reclamación', 'Perfil A y perfil B', 'Triaje', 'Dos personas', 0], ['A quién llamar en otra unidad cuando algo se atasca', 'Perfil A', 'Excepciones', 'Una persona', 1]]
       .map(([a, b, c, d, hot]) => [a, b, c, d].map((t, j) => `<div style="padding:12px 12px;background:${hot ? (j === 3 ? T : '#F7E4DA') : '#EFEDE6'};color:${hot && j === 3 ? '#fff' : INK};font-weight:${j === 3 || j === 0 ? 600 : 400}">${t}</div>`).join('')).join('')}
   </div>
-  <div style="font-size:16.5px;line-height:1.4;margin-top:12px;color:${GREY}">Una fila que dice "una persona" se ve. Y con cada opción de diseño se responde, fila a fila, qué le pasa a ese conocimiento.</div>
+  <div style="font-size:16.5px;line-height:1.4;margin-top:12px;color:${GREY}">Una fila que dice "una persona" se ve, y con cada opción de diseño fila a fila se va respondiendo qué le pasa a ese conocimiento.</div>
 </div>
 
 <div class="z" style="margin-top:30px;display:grid;grid-template-columns:1.08fr 1fr;gap:44px">
   <div>
     <div class="k" style="color:${AV}">Cómo se levanta</div>
     <h2 style="margin:8px 0 10px;font-size:40px">Cinco preguntas por las grietas</h2>
-    ${['¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?', '¿Cuándo no sigues el procedimiento, y por qué?', '¿A quién llamas cuando algo se atasca? ¿Y quién te llama a ti?', '¿Qué sabes de un caso antes de leerlo entero?', '¿Qué pasaría mañana si tú no vinieras?']
+    ${['¿Qué casos parecen iguales y no lo son? ¿Cómo los distingues?', '¿Cuándo no sigues el procedimiento y por qué?', '¿A quién llamas cuando algo se atasca? ¿Y quién te llama a ti?', '¿Qué sabes de un caso antes de leerlo entero?', '¿Qué pasaría mañana si tú no vinieras?']
       .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:8.5px 0;border-top:1px solid rgba(244,246,246,.28)"><span class="ser" style="font-size:32px;line-height:.9;color:${AV};flex:0 0 24px">${i + 1}</span><span style="font-size:18px;line-height:1.34">${t}</span></div>`).join('')}
   </div>
   <div>
@@ -119,7 +119,7 @@ ${top(2, true)}
     ${['Aprender corrigiendo', 'Tareas reservadas para formar', 'La IA como tutora', 'Tiempo reconocido para enseñar', 'Rotación por el caso difícil']
       .map((t, i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${GD};padding:12px 14px 18px;min-height:112px"><div class="ser" style="font-size:34px;line-height:.9;color:${AV}">${i + 1}</div><div style="font-size:16.5px;font-weight:600;line-height:1.25;margin-top:6px">${t}</div></div>`).join('')}
   </div>
-  <div style="font-size:15.5px;line-height:1.4;color:#CFE3D5;margin-top:8px">Cinco diseños posibles. Ninguno está probado lo bastante: se eligen en el diseño, no se dan por receta.</div>
+  <div style="font-size:15.5px;line-height:1.4;color:#CFE3D5;margin-top:8px">Son cinco formas posibles de resolverlo. Ninguna está probada todavía: se elige una al diseñar, no se aplica como una receta.</div>
 </div>
 
 ${foot('Personas y conocimiento')}
@@ -170,10 +170,10 @@ ${foot('El tronco: fases y puertas')}
 
 // ---------- Página 4: los roles ----------
 const FAM = [
-  ['Quien dirige y decide', AV, INK, [['Órgano de dirección', 'Escribe el objetivo y acepta el riesgo'], ['Patrocinador', 'Decide y firma en las puertas'], ['Dirección del programa', 'Coordina fases, cartera y puertas'], ['Comité de puertas', 'Los cuatro que intervienen en cada puerta']]],
-  ['Quien opera y adopta', '#7CC090', INK, [['Dueño operativo', 'Responde de lo que hace la solución'], ['Responsable de adopción', 'Nombra y coordina a los referentes'], ['Quien hace el trabajo', 'Oído antes. Puede dejar de usar y pedir parada'], ['Mando intermedio', 'Oído antes. Fuente del diagnóstico']]],
-  ['Quien mide y controla', TV, '#fff', [['Responsable de medición', 'Certifica los datos, no la decisión'], ['Quien contrafirma', 'Ajeno al equipo del programa'], ['Segunda línea', 'Revisa y puede objetar desde el diseño'], ['Dueño de los datos', 'En el negocio, no en sistemas']]],
-  ['Quien es oído o recibe el beneficio', '#E8DFC9', INK, [['Dueño del beneficio', 'En el negocio, no en el programa'], ['Representación legal', 'Oída cuando se tocan condiciones de trabajo'], ['Quien defiende a quien recibe el servicio', 'Oída antes, no decide'], ['Quien recibe el servicio', 'Se le pregunta y se miden sus resultados']]],
+  ['Quién dirige y decide', AV, INK, [['Órgano de dirección', 'Escribe el objetivo y acepta el riesgo'], ['Patrocinador', 'Decide y firma en las puertas'], ['Dirección del programa', 'Coordina fases, cartera y puertas'], ['Comité de puertas', 'Los cuatro que intervienen en cada puerta']]],
+  ['Quién opera y adopta', '#7CC090', INK, [['Dueño operativo', 'Responde de lo que hace la solución'], ['Responsable de adopción', 'Nombra y coordina a los referentes'], ['Quien hace el trabajo', 'Oído antes. Puede dejar de usar y pedir parada'], ['Mando intermedio', 'Oído antes. Fuente del diagnóstico']]],
+  ['Quién mide y controla', TV, '#fff', [['Responsable de medición', 'Certifica los datos, no la decisión'], ['Quien contrafirma', 'Ajeno al equipo del programa'], ['Segunda línea', 'Revisa y puede objetar desde el diseño'], ['Dueño de los datos', 'En el negocio, no en sistemas']]],
+  ['Quién es oído o recibe el beneficio', '#E8DFC9', INK, [['Dueño del beneficio', 'En el negocio, no en el programa'], ['Representación legal', 'Oída cuando se tocan condiciones de trabajo'], ['Quien defiende a quien recibe el servicio', 'Oída antes, no decide'], ['Quien recibe el servicio', 'Se le pregunta y se miden sus resultados']]],
 ];
 const NOP = ['El patrocinador no contrafirma su propia decisión.', 'El responsable de medición certifica los datos y no firma la decisión.', 'El responsable de adopción no es quien despliega la herramienta.', 'El dueño del beneficio está en el negocio, no en el programa.', 'El dueño de los datos está en el negocio, no en sistemas.', 'Quien defiende a quien recibe el servicio no decide en la puerta.'];
 const pr = `<section class="page dark">
@@ -199,6 +199,7 @@ ${top(4, true)}
   </div>
 </div>
 <div class="z" style="margin-top:16px;font-size:16px;line-height:1.42;color:${MUT}">En un programa acotado varios roles recaen en la misma persona, pero la firma del patrocinador y la contrafirma de alguien ajeno siguen siendo dos personas distintas.</div>
+<div class="z" style="margin-top:10px;font-size:16px;line-height:1.42;color:${MUT}">Y quien trabaja con la herramienta a diario puede parar o avisar de un fallo, por escrito, sin miedo a represalias.</div>
 ${foot('Los roles del método')}
 </section>`;
 
@@ -235,7 +236,7 @@ ${top(5, true)}
 <div class="z" style="margin-top:28px">
   <div class="k" style="color:${AV}">Cuánto se pide según el tamaño</div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:10px">
-    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción, línea base, mapa, decisión de una página, un indicador por elemento y uno del objetivo, criterio de parada, cómo se deshace y dueño.'], ['De flujo', 'Rediseña un proceso de principio a fin.', 'Se añaden el rediseño del trabajo, los casos de prueba, los supuestos, el responsable de adopción y el destino del tiempo.'], ['De sistema', 'Cambia lo que la organización ofrece o cómo se organiza.', 'Se añaden el modelo económico con valle, el gobierno completo y los módulos 1 a 22.']]
+    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción, línea base, mapa, decisión de una página, un indicador por elemento y uno por objetivo, criterio de parada, cómo se deshace y dueño.'], ['De flujo', 'Rediseña un proceso de principio a fin.', 'Se añaden el rediseño del trabajo, los casos de prueba, los supuestos, el responsable de adopción y el destino del tiempo.'], ['De sistema', 'Cambia lo que la organización ofrece o cómo se organiza.', 'Se añaden el modelo económico con valle, el gobierno completo y los módulos 1 a 22.']]
       .map(([t, d, q], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};padding:12px 18px 18px;border-top:8px solid ${[AV, '#7CC090', TV][i]}"><div class="ser" style="font-size:30px;line-height:1">${t}</div><div style="font-size:15.5px;font-weight:700;line-height:1.3;margin-top:4px">${d}</div><div style="font-size:14.5px;line-height:1.36;color:#3F423F;margin-top:6px">${q}</div></div>`).join('')}
   </div>
   <div style="font-size:15px;line-height:1.4;color:${ET};margin-top:8px">Propuesta sin probar. Si lo puntual no cabe en pocas páginas, se está pidiendo de más.</div>
