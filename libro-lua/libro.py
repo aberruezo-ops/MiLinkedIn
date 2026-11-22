@@ -8,7 +8,7 @@ from escenas import SCENES, TEXTOS, HIDDEN
 # ---- datos editables ---------------------------------------------------
 TITULO = 'Lúa, la gatita gris'
 SUBTITULO = 'Un cuento para colorear sobre ser como eres'
-AUTOR = 'TU NOMBRE'
+AUTOR = 'Alex Berruezo'
 ANIO = '2026'
 PAGINAS_TOTAL = 56            # debe coincidir con el interior generado
 GROSOR_PAPEL = 0.002252       # pulgadas por pagina, papel blanco KDP (verificar con la calculadora de KDP)
