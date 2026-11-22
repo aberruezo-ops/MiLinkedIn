@@ -76,15 +76,46 @@ El modelo sirve para evaluar un rediseño con IA. Si la IA hace las partes varia
 
 Amy Wrzesniewski y Jane Dutton describieron en 2001 algo complementario: las personas rediseñan su propio trabajo desde dentro, cambiando tareas, relaciones y la manera de entenderlo. Lo llamaron *job crafting*. Un rediseño que deja margen para eso aprovecha lo que la gente sabe de su trabajo. Uno que lo cierra todo lo desperdicia.
 
+### Antes de clasificar: ¿debe existir la tarea?
+
+La pregunta es más vieja que la IA. La ingeniería de métodos lleva décadas preguntando por cada paso de un trabajo por qué se hace, qué se hace, dónde, cuándo, quién y cómo, y la ordena en cuatro acciones que se suelen resumir en inglés como ECRS: eliminar, combinar, reordenar y simplificar. Conozco el método por resúmenes y no por un texto concreto, y no he podido confirmar quién lo formuló primero (las fuentes lo atribuyen a Barnes, a los cursos de métodos de trabajo de la Segunda Guerra Mundial y a la práctica de Toyota). Lo que importa para Synergós es el orden: eliminar se pregunta primero, porque es lo único que no deja nada que mejorar.
+
+**Los cinco porqués.** Taiichi Ohno, que dirigió el desarrollo del sistema de producción de Toyota, describe en su libro (1988, edición inglesa de un original japonés de 1978) la costumbre de preguntar por qué hasta cinco veces para llegar a la causa de un problema y no quedarse en el síntoma. Aplicada a un paso de un flujo, la pregunta es por qué existe, y cada respuesta abre otra. Suele acabar en una razón que ya no existe (un error de hace años, un sistema que se retiró, una persona que se fue) o en una razón que sí, y entonces el paso se queda. Es una idea que conozco por resúmenes. No sustituye a la restricción del diagnóstico (capítulo 9): la restricción dice dónde duele el conjunto, y los cinco porqués dicen por qué existe un paso concreto.
+
+**Los desperdicios.** El Lean llama muda a lo que consume tiempo o recursos y no añade valor para quien recibe el resultado. Ohno describió siete tipos para la producción, y Jeffrey Liker (2004) añadió un octavo, el talento no aprovechado, que no estaba en la lista original. Las fuentes secundarias no coinciden del todo en cómo nombran y ordenan los siete, y no he leído el capítulo de Ohno, así que doy la lista como la usa la práctica del Lean. Trasladada a un flujo de trabajo de oficina, sirve de lista de comprobación al dibujar el mapa del flujo real (capítulo 9):
+
+| Desperdicio | Cómo se ve en un flujo de trabajo | Ejemplo en un servicio de expedientes (caso compuesto) |
+|---|---|---|
+| Sobreproducción | Se hace más, o antes, de lo que se pide | Informes que nadie lee; resolver antes de que haga falta |
+| Esperas | El trabajo parado esperando algo | Un expediente detenido a la espera de una firma |
+| Transporte | El trabajo cambia de sitio sin cambiar de estado | Reenviar el mismo archivo por correo entre dos bandejas |
+| Sobreprocesamiento | Se hace más de lo que el resultado necesita | Validar dos veces el mismo dato |
+| Inventario | Trabajo acumulado sin avanzar | Solicitudes en cola sin abrir |
+| Movimiento | La persona se mueve para hacer el trabajo | Saltar entre cuatro pantallas para un mismo trámite |
+| Defectos | Hay que repetir lo hecho | Datos mal introducidos que obligan a volver atrás |
+| Talento no aprovechado | Se pierde lo que la persona sabe o puede aportar | Personas con criterio dedicadas a copiar datos |
+
+El octavo es el que más conecta con el método. Si lo que sobra son personas con criterio dedicadas a tareas que no lo necesitan, eliminar o automatizar esas tareas libera talento, y aumentar lo emplea. Por eso el destino del tiempo (módulo 9) se escribe antes de aprobar la escala.
+
+**Qué añade Synergós: preguntar qué sostenía el paso.** El Lean mira lo que sobra desde fuera del trabajo, y desde ahí un paso que no añade valor parece un desperdicio. Pero un paso que parece innecesario a veces es un control que nació de un error, una obligación legal que nadie recuerda o el modo en que una persona nueva aprende el oficio (capítulo 15). Antes de eliminar, tres comprobaciones, por escrito, en el anexo a la decisión:
+
+1. **Qué sostenía la tarea.** Si era un control, una obligación o un aprendizaje, y cuál. La fila del mapa de lo que nadie escribió que la tarea toca dice si sostiene conocimiento que solo tiene una persona.
+2. **Quién depende de ella aguas abajo.** El dato que nadie parece usar puede alimentar el paso siguiente. Se mira con el indicador de retrabajo aguas abajo, que es de guarda (capítulo 18).
+3. **Cómo se deshace.** Qué haría falta para volver a hacerla y cuánto cuesta. Una tarea eliminada se prueba en el piloto como cualquier otra opción, con su criterio de parada.
+
+Si eliminar reduce un rol, se trata como cualquier reducción de puesto (módulo 19), y no se pide a nadie que enseñe lo que sabe sin decirle para qué. Y si lo que se busca es recortar costes, se dice como objetivo (capítulo 5) y no se esconde en un paso innecesario. Eliminar y recortar son cosas distintas, y el método no las confunde.
+
+!! Pregunta abierta. ¿Basta con preguntar qué sostenía el paso? | Es una comprobación que propongo yo, sin respaldo empírico. No sé si lo atrapa todo, porque lo que sostiene un paso suele ser justo lo que nadie escribió. El mapa ayuda, pero un paso que sostiene conocimiento que ninguna fila recoge se elimina sin saberlo. Mientras no se pruebe en un programa, la protección real es el criterio de parada del piloto y el indicador de retrabajo.
+
 ### Cómo se hace: cinco pasos
 
 1. **Descomponer el trabajo en tareas.** No en funciones ni en procesos, sino en tareas concretas que alguien hace. Es el enfoque que usan los economistas del trabajo desde Autor, y es el único que permite ver qué cambia de verdad.
-2. **Clasificar cada tarea con las cuatro categorías.** Delegar, centauro, cíborg o reservar, según el capítulo 17. Para cada una, la pregunta es a qué lado de la frontera dentada cae: dónde mejora la IA el resultado y dónde lo empeora. Se responde probando con casos reales, no con la ficha del proveedor. La frontera se mueve con cada modelo, así que la clasificación se revisa con los casos de prueba cada vez que cambia el modelo.
+2. **Clasificar cada tarea con las cuatro categorías.** Delegar, centauro, cíborg o reservar, según el capítulo 17. Son las categorías de la frontera, que no hay que confundir con los cuatro verbos de la puerta (eliminar, acelerar, automatizar o aumentar). Las tareas que sobreviven a la pregunta de si deben existir son las únicas que se clasifican. Para cada una, la pregunta es a qué lado de la frontera dentada cae: dónde mejora la IA el resultado y dónde lo empeora. Se responde probando con casos reales, no con la ficha del proveedor. La frontera se mueve con cada modelo, así que la clasificación se revisa con los casos de prueba cada vez que cambia el modelo.
 3. **Recomponer el puesto.** Con las tareas reasignadas, se vuelve a montar el puesto y se evalúa con las cinco características de Hackman y Oldham. Si alguna cae mucho, se rediseña (cuánto es mucho lo fija cada programa en el diseño; anexo G): se devuelve a la persona una tarea completa, se le da la decisión final, se le muestra el resultado de su trabajo.
 4. **Diseñar la intervención humana.** Para cada tarea en la que la persona vigila o corrige a la IA: cuándo interviene, con qué información, cada cuánto practica el caso difícil y qué poder tiene para cambiar el sistema. Es la respuesta directa a Bainbridge.
 5. **Crear las tareas nuevas.** Qué hará la persona con el tiempo que libera. Si la respuesta es "más de lo mismo", no se han creado tareas nuevas; se ha aumentado la carga. Las tareas nuevas con más valor suelen estar en las aportaciones del módulo 1: más tiempo para el caso difícil, para la relación, para mejorar el proceso y para enseñar.
 
-**El flujo entero, antes que la tarea suelta.** Desde la versión 1.7, los cinco pasos se aplican al flujo de principio a fin: desde que entra la petición hasta que alguien recibe el resultado. Mejorar una tarea deja intactas las esperas, los traspasos y las revisiones duplicadas que hay alrededor, y la ganancia se pierde en la siguiente cola. Antes de poner IA en un paso conviene preguntar si ese paso tiene que existir. A lo que se arrastra sin motivo lo llamo deuda de proceso: aprobaciones que nadie recuerda por qué se pusieron, datos que se piden dos veces, controles que duplican otro control. Automatizarla la hace más rápida y más difícil de quitar.
+**El flujo entero, antes que la tarea suelta.** Desde la versión 1.7, los cinco pasos se aplican al flujo de principio a fin: desde que entra la petición hasta que alguien recibe el resultado. Mejorar una tarea deja intactas las esperas, los traspasos y las revisiones duplicadas que hay alrededor, y la ganancia se pierde en la siguiente cola. Antes de poner IA en un paso conviene preguntar si ese paso tiene que existir, y la sección anterior dice cómo. A lo que se arrastra sin motivo lo llamo deuda de proceso: aprobaciones que nadie recuerda por qué se pusieron, datos que se piden dos veces, controles que duplican otro control. Automatizarla la hace más rápida y más difícil de quitar.
 
 ### Un caso compuesto
 

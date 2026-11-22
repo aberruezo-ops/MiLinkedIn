@@ -192,7 +192,7 @@ ${top(3, false)}
 
 <div class="z leaf" style="margin-top:22px;background:${INK};color:#F4F6F6;padding:22px 34px 28px;display:grid;grid-template-columns:330px 1fr;gap:38px;align-items:start">
   <div><div class="k" style="color:${AV}">La puerta de diseño</div><div class="ser" style="font-size:46px;line-height:1;margin-top:8px">Cinco preguntas, por escrito</div><div style="font-size:15.5px;line-height:1.4;color:${MUT};margin-top:10px">Los criterios se escriben antes de ver el resultado. Se puede aprobar una opción que pierde conocimiento, pero no sin saberlo.</div></div>
-  <div>${['¿Ataca la restricción, y cuánto vale resolverla?', '¿Acelera, automatiza o aumenta?', '¿Qué le pasa a cada fila del mapa de lo que nadie escribió?', '¿Quién responde de los errores, y quién enseña lo que la tarea enseñaba?', '¿Hace crecer a la vez a los tres elementos, o abarata uno a costa de los otros?']
+  <div>${['¿Ataca la restricción, y cuánto vale resolverla?', '¿Elimina, acelera, automatiza o aumenta?', '¿Qué le pasa a cada fila del mapa de lo que nadie escribió?', '¿Quién responde de los errores, y quién enseña lo que la tarea enseñaba?', '¿Hace crecer a la vez a los tres elementos, o abarata uno a costa de los otros?']
     .map((t, i) => `<div style="display:flex;gap:18px;align-items:baseline;padding:7px 0;${i ? 'border-top:1px solid rgba(244,246,246,.22)' : ''}"><span class="ser" style="font-size:34px;line-height:.9;color:${[TV, GV, AV][i % 3]};flex:0 0 26px">${i + 1}</span><span style="font-size:18.5px;line-height:1.3">${t}</span></div>`).join('')}</div>
 </div>
 
@@ -307,11 +307,12 @@ ${top(6, true)}
 
 <div class="z" style="margin-top:30px">
   <div class="k" style="color:${MUT}">La segunda pregunta, por tarea</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:14px">
-  ${[['Acelera', TV, '#fff', 'La misma tarea, más rápido, con la misma persona.', 'Se escribe a dónde va el tiempo que se gana.', 'leaf'],
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-top:14px">
+  ${[['Elimina', '#E8DFC9', INK, 'La tarea deja de existir porque no hacía falta.', 'Antes se escribe qué sostenía el paso.', 'leafb'],
+     ['Acelera', TV, '#fff', 'La misma tarea, más rápido, con la misma persona.', 'Se escribe a dónde va el tiempo que se gana.', 'leaf'],
      ['Automatiza', AV, INK, 'La tarea la hace el sistema y la persona sale del circuito.', 'La tarea se entiende bien y el criterio se puede escribir.', 'leafb'],
      ['Aumenta', GV, INK, 'La persona hace algo que antes no podía, o lo hace mejor.', 'Se dice con qué indicador se va a ver.', 'leaf']]
-    .map(([t, c, fg, d, cond, sh]) => `<div class="${sh}" style="background:${c};color:${fg};padding:18px 24px 26px"><div class="ser" style="font-size:46px;line-height:1">${t}</div><div style="font-size:17px;line-height:1.38;margin-top:8px">${d}</div><div style="font-size:15.5px;line-height:1.38;margin-top:12px;padding-top:10px;border-top:1.5px solid ${fg === INK ? 'rgba(31,29,26,.35)' : 'rgba(255,255,255,.5)'}"><b style="font-weight:700">Condición.</b> ${cond}</div></div>`).join('')}
+    .map(([t, c, fg, d, cond, sh]) => `<div class="${sh}" style="background:${c};color:${fg};padding:16px 16px 22px"><div class="ser" style="font-size:38px;line-height:1">${t}</div><div style="font-size:16px;line-height:1.36;margin-top:8px">${d}</div><div style="font-size:14.5px;line-height:1.36;margin-top:10px;padding-top:10px;border-top:1.5px solid ${fg === INK ? 'rgba(31,29,26,.35)' : 'rgba(255,255,255,.5)'}"><b style="font-weight:700">Condición.</b> ${cond}</div></div>`).join('')}
   </div>
 </div>
 

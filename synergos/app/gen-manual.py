@@ -42,7 +42,7 @@ GLOS = {  # id: (término, variantes en minúscula, definición)
  'umbral': ('Umbral de concentración', ['umbral'], 'Número de filas críticas del mapa que dependen de una sola persona a partir del cual se para a repartir el conocimiento. Tres es un punto de partida propuesto por un lector, sin probar.'),
  'valle': ('Valle', ['valle'], 'Caída previsible del resultado medido antes de que suba, cuando se cambia la forma de trabajar. El modelo económico lo dice de antemano.'),
  'variacion': ('Variación normal', ['variación normal'], 'Cuánto se mueve un indicador sin que nada haya cambiado. Un cambio menor que esa variación no cuenta ni como mejora ni como retroceso.'),
- 'verbos': ('Acelerar, automatizar o aumentar', ['acelerar, automatizar o aumentar', 'tres verbos'], 'Los tres verbos con que se responde, tarea por tarea, qué hace la tecnología: acelera lo mismo, automatiza sacando a la persona del circuito, o aumenta lo que la persona hace.'),
+ 'verbos': ('Eliminar, acelerar, automatizar o aumentar', ['eliminar, acelerar, automatizar o aumentar', 'acelerar, automatizar o aumentar', 'cuatro verbos'], 'Los cuatro verbos con que se responde, tarea por tarea, qué se hace con ella. Elimina: la tarea deja de existir, y antes se escribe qué sostenía. Acelera lo mismo, automatiza sacando a la persona del circuito, o aumenta lo que la persona hace.'),
 }
 
 VAR = {}
@@ -89,7 +89,7 @@ SECS.append(('ideas', 'Cuatro ideas antes de empezar', UL([
  'Cada ámbito tiene una sola restricción principal: el punto que limita el resultado. Todo lo demás se ordena en torno a ella.',
  'Cada iniciativa recorre las cinco fases del tronco, y cada fase acaba en una puerta. Los criterios de la puerta se escriben antes de empezar la fase.',
  'Los tres elementos, personas, conocimiento y tecnología, crecen a la vez y se miden por separado. Por eso el gestor te pide al menos un indicador de cada uno.',
- 'La tecnología se explica tarea por tarea con los tres verbos: acelerar, automatizar o aumentar. Cada uno pide cosas distintas a quien lo diseña.',
+ 'La tecnología se explica tarea por tarea con los cuatro verbos: eliminar, acelerar, automatizar o aumentar. Cada uno pide cosas distintas a quien lo diseña.',
  'Al llegar al sostenimiento se cierra un ciclo, y lo aprendido alimenta el siguiente diagnóstico.'])))
 
 pasos = ''.join([

@@ -48,7 +48,7 @@ Lo que sí está descrito, con distinto grado de solidez, son los motivos por lo
 | Se corrigen errores sin cuestionar los supuestos | Argyris y Schön 1978 | Concepto teórico | Supervisión del programa, de doble bucle, con calendario |
 | Se diseña de espaldas a quien usa el servicio | Von Hippel 2005; Christensen y otros 2016 | Libro de investigación y texto de práctica | Interacción: visitas al puesto, cocreación, canal de propuestas |
 | Se declara la victoria demasiado pronto | Kotter 1995 | Texto de práctica | Fase de sostenimiento con dueño y presupuesto propios |
-| La balanza está inclinada hacia sustituir en vez de ampliar | Brynjolfsson 2022; Zuboff 1988 | Ensayo y estudio de casos | Segunda pregunta de la puerta: ¿acelera, automatiza o aumenta? |
+| La balanza está inclinada hacia sustituir en vez de ampliar | Brynjolfsson 2022; Zuboff 1988 | Ensayo y estudio de casos | Segunda pregunta de la puerta: ¿elimina, acelera, automatiza o aumenta? |
 | Se deja fuera a los mandos intermedios, que son quienes llevan el cambio al trabajo diario | Floyd y Wooldridge 1994; Huy 2001 | Artículos académicos y de práctica | Un mando intermedio del ámbito es oído antes de cada puerta (módulo 15) |
 | Los plazos y los costes se estiman mirando solo el propio plan | Kahneman y Tversky 1979; Flyvbjerg y Gardner 2023 | Estudio sobre el juicio y libro basado en datos de grandes proyectos | Clase de referencia antes del plan (módulo 17) |
 | El trabajo diario deja sin sitio a la exploración | March 1991; O'Reilly y Tushman 2004 | Concepto teórico y texto de práctica | Carril de exploración con reglas y presupuesto propios (módulo 23) |
@@ -72,7 +72,7 @@ La idea sociotécnica de Trist y Bamforth tiene continuidad reciente. Barley (19
 
 **Lo que no se ve.** Varias causas tienen que ver con algo que existe y nadie mira: el conocimiento que no está escrito, el incentivo que sigue premiando lo de antes, el supuesto que nadie cuestiona, el usuario que no estaba en la sala. El método pone entregables concretos para hacer visible cada una de esas cosas antes de decidir.
 
-**La balanza.** La tecnología actual, y la IA más que ninguna, se puede usar para sustituir a las personas o para ampliar lo que pueden hacer. Erik Brynjolfsson llamó trampa de Turing al exceso de incentivos que empuja hacia lo primero. Shoshana Zuboff lo había formulado en 1988 con dos verbos: automatizar o informar. Synergós amplía esa formulación a tres: acelerar, automatizar o aumentar. Lo que se haga con la tecnología es una decisión de diseño, y Synergós obliga a tomarla por escrito.
+**La balanza.** La tecnología actual, y la IA más que ninguna, se puede usar para sustituir a las personas o para ampliar lo que pueden hacer. Erik Brynjolfsson llamó trampa de Turing al exceso de incentivos que empuja hacia lo primero. Shoshana Zuboff lo había formulado en 1988 con dos verbos: automatizar o informar. Synergós amplía esa formulación a cuatro: eliminar, acelerar, automatizar o aumentar. Los tres últimos dicen qué hace la tecnología con una tarea. El primero dice que a veces la tarea no debería existir, y viene de la ingeniería de métodos y del Lean (módulo 2). Lo que se haga con la tecnología es una decisión de diseño, y Synergós obliga a tomarla por escrito.
 
 ## 4. Lo que Synergós no es
 

@@ -44,7 +44,7 @@ const figs = {
     `<div class="row">
      ${card('i', 'Uno', 'El orden', 'Casi nunca se hace algo mal. Se hace en el momento equivocado: elegir la solución antes del diagnóstico, comprar la tecnología antes de rediseñar el trabajo, formar a la gente después de decidir.', '<span class="r">Respuesta: el orden y las puertas</span>')}
      ${card('t b', 'Dos', 'Lo que no se ve', 'Existe y nadie lo mira: el conocimiento que no está escrito, el incentivo que sigue premiando lo de antes, el supuesto que nadie cuestiona, el usuario que no estaba en la sala.', '<span class="r">Respuesta: entregables que lo hacen visible, como el mapa de lo que nadie escribió</span>')}
-     ${card('a', 'Tres', 'La balanza', 'La tecnología puede sustituir a las personas o ampliar lo que pueden hacer. Zuboff lo dijo en 1988 con dos verbos, automatizar o informar. Synergós usa tres.', '<span class="r">Respuesta: acelerar, automatizar o aumentar, tarea por tarea</span>')}
+     ${card('a', 'Cuatro', 'La balanza', 'La tecnología puede sustituir a las personas o ampliar lo que pueden hacer. Zuboff lo dijo en 1988 con dos verbos, automatizar o informar. Synergós usa cuatro.', '<span class="r">Respuesta: eliminar, acelerar, automatizar o aumentar, tarea por tarea</span>')}
     </div>`),
 
   'fig-principios.png': page('Los seis principios', 'Se aplican cuando el método no dice nada concreto. Cada uno dice de dónde sale y qué se arriesga si se aplica mal.',
