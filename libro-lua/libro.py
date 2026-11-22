@@ -82,8 +82,8 @@ def pagina_guia1():
 <li><b>Poco texto.</b> El niño completa la historia con sus palabras, y lo que dice te da pistas de cómo se siente.</li>
 <li><b>La tristeza se acompaña, no se arregla.</b> Lúa está triste y nadie le dice que no llore. Poner nombre a lo que sentimos es el primer paso para calmarnos.</li>
 <li><b>Se vale por ser, no por servir.</b> Lúa no gana su sitio por ayudar: ya valía antes. Los niños necesitan saber que se les quiere sin condiciones.</li>
-<li><b>Hay un adulto seguro.</b> La escena de mamá no es un adorno. Saber que hay alguien a quien volver es lo que más protege a un niño.</li>
-<li><b>Hay reparación.</b> Los amigos se equivocan, piden perdón y se arregla. Así aprenden que un error no es el final de una amistad.</li>
+<li><b>Hay un adulto seguro.</b> La escena de mamá está ahí a propósito: un niño aguanta mucho mejor un mal día si sabe que tiene a quién volver.</li>
+<li><b>Hay reparación.</b> Los amigos se equivocan, piden perdón y todo se arregla. Así aprenden que un error no acaba con una amistad.</li>
 </ul>
 <h3>Cómo usarlo, con 5 minutos al día</h3>
 <ol>

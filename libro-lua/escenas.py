@@ -25,7 +25,7 @@ def flowers(pts):
 
 def e1():
     s = sun(95, 100, 42) + cloud(500, 50, 160) + cloud(300, 160, 110)
-    s += hill(700, W, H, 20) + tree(655, 715, 0.85)
+    s += hill(700, W, H, 20) + tree(615, 718, 1.15)
     s += cat_sit(375, 395, 1.15, 'happy')
     s += butterfly(555, 330, 0.55)
     s += flowers([(110, 725, 1.0), (205, 750, 0.9), (560, 735, 1.0), (470, 752, 0.8)]) + grass(280, 770) + grass(520, 775)
@@ -65,7 +65,7 @@ def e4():
 
 
 def e5():
-    s = moon(590, 160, 85) + stars_night(NIGHT) + hill(640, W, H, 25) + tree(650, 650, 0.95)
+    s = moon(590, 160, 85) + stars_night(NIGHT) + hill(640, W, H, 25) + tree(610, 655, 1.2)
     s += cat_sit(290, 400, 1.0, 'sad', tail='curl')
     s += firefly(130, 470) + firefly(470, 600) + firefly(520, 400) + firefly(90, 580)
     s += grass(430, 750) + flower(60, 700, 0.8)
