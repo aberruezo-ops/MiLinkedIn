@@ -43,63 +43,36 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
 const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en seis páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 6</span></span></div>`;
-const TRAIL = [['Por qué y con qué', 'Por qué'], ['Personas y conocimiento', 'Conocimiento'], ['El tronco: fases y puertas', 'Fases'], ['Los roles del método', 'Roles'], ['Tres miradas, madurez y alcance', 'Miradas'], ['IA e innovación', 'IA']];
+const TRAIL = [['Para qué', 'Para qué'], ['Personas y conocimiento', 'Qué mirar'], ['El tronco: fases y puertas', 'Camino'], ['Los roles del método', 'Quién'], ['Cómo se mide', 'Medir'], ['IA e innovación', 'IA']];
 const foot = t => { const cur = TRAIL.findIndex(x => x[0] === t);
   const crumb = (txt, state, last) => `<span style="display:inline-flex;align-items:center;gap:6px"><span style="${state === 'now' ? 'font-weight:700;color:var(--nc);border-bottom:3px solid var(--tc)' : state === 'done' ? 'opacity:.9' : 'opacity:.5'}">${txt}</span>${last ? '' : '<span style="opacity:.4">›</span>'}</span>`;
   const items = [['Inicio', 'done']].concat(TRAIL.map((x, i) => [x[1], i === cur ? 'now' : i < cur ? 'done' : 'todo'])).concat([['Impacto en el negocio', cur === TRAIL.length - 1 ? 'goal' : 'todo']]);
   const html = items.map(([txt, st], i) => st === 'goal' ? `<span style="display:inline-flex;align-items:center;gap:6px"><span style="font-weight:700;color:${AV}">${txt}</span></span>` : crumb(txt, st, i === items.length - 1)).join(' ');
   return `<div class="foot" style="--tc:${AV};--nc:${t === TRAIL[2][0] ? INK : '#fff'}"><i>Crecer a la vez.</i><span style="display:flex;gap:8px;align-items:center;font-size:12.5px;letter-spacing:2px">${html}</span></div>`; };
 
-// ---------- Página 1: por qué y con qué ----------
+// ---------- Página 1: para qué ----------
+const STEP = (n, t, c, body, fg = '#F4F6F6') => `<div style="display:grid;grid-template-columns:170px 1fr;gap:26px;align-items:stretch"><div class="${n % 2 ? 'leaf' : 'leafb'}" style="background:${c};color:${INK};display:flex;flex-direction:column;justify-content:center;padding:22px 20px"><span class="ser" style="font-size:64px;line-height:.9">${n}</span><span class="k" style="font-size:13px;letter-spacing:3px;margin-top:8px">${t}</span></div><div style="padding:4px 0">${body}</div></div>`;
+const ARR = (t) => `<div style="display:flex;align-items:center;gap:14px;margin:30px 0 30px 70px;color:${MUT};font-size:17px;letter-spacing:3px;text-transform:uppercase;font-weight:600"><span style="font-size:24px;color:${GV}">↓</span>${t}</div>`;
 const p1 = `<section class="page dark">
-${girasol({ cx: 1075, cy: 492, n: 800, c: 13, rot: .5, s0: 3.4, sk: .02 })}
+${girasol({ cx: 1100, cy: 330, n: 420, c: 10, rot: .5, s0: 3, sk: .02 })}
 ${top(1, true)}
-<div class="z" style="margin-top:36px">
-  <div class="k" style="color:${GV}">Un método para transformar con impacto en el negocio</div>
-  <h1 style="font-size:146px;margin:10px 0 0 -6px">Crecer<br><span style="font-style:italic;color:${GV}">a la vez.</span></h1>
-  <p style="font-size:23px;line-height:1.4;color:${MUT};width:560px;margin-top:16px">El destino es el resultado del negocio. El camino, que personas, conocimiento y tecnología avancen en el mismo orden.</p>
+<div class="z" style="margin-top:40px">
+  <div class="k" style="color:${GV}">1 · ¿Para qué sirve este método?</div>
+  <h1 style="font-size:150px;margin:12px 0 0 -6px">Crecer<br><span style="font-style:italic;color:${GV}">a la vez.</span></h1>
+  <p style="font-size:24px;line-height:1.42;color:${MUT};width:600px;margin-top:18px">Para que una transformación mejore el negocio, de verdad, y se mantenga cuando el equipo del programa se vaya.</p>
 </div>
 
-<div class="z leafb" style="margin-top:26px;background:${PAPER};color:${INK};padding:13px 28px 16px;display:grid;grid-template-columns:370px 1fr;gap:26px;align-items:center">
-  <div><div class="k" style="color:${T}">El objetivo</div><div class="ser" style="font-size:40px;line-height:1.02;margin-top:2px">Impacto en el negocio</div></div>
-  <div style="font-size:18px;line-height:1.4">Ingresar más, gastar menos, servir mejor o poder hacer algo que antes no se podía. No es un cuarto elemento: es para qué se mueven los tres.</div>
+<div class="z" style="margin-top:44px">
+  ${STEP(1, 'El problema', TV, `<div class="ser" style="font-size:42px;line-height:1.05">Las transformaciones se rompen</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">Casi siempre por una de tres causas: se elige la solución antes de entender el problema, la tecnología llega antes que el cambio en la forma de trabajar, o se sustituye a quien sabía sin haberlo mirado.</div>`)}
+  ${ARR('Por eso el método fija')}
+  ${STEP(2, 'El objetivo', AV, `<div class="ser" style="font-size:42px;line-height:1.05">Impacto en el negocio</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">Ingresar más, gastar menos, servir mejor o poder hacer algo que antes no se podía. Es para qué se mueve todo lo demás.</div>`)}
+  ${ARR('Y lo busca moviendo tres palancas a la vez')}
+  ${STEP(3, 'Las palancas', GV, `<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px"><div class="leaf" style="background:${TV};color:#fff;padding:12px 16px 14px"><div class="ser" style="font-size:32px">Personas</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">Liderazgo, roles, incentivos y quién enseña el oficio.</div></div><div class="leafb" style="background:${GV};color:${INK};padding:12px 16px 14px"><div class="ser" style="font-size:32px">Conocimiento</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">Lo escrito, lo que nadie escribió y lo que aprende el programa.</div></div><div class="leaf" style="background:${AV};color:${INK};padding:12px 16px 14px"><div class="ser" style="font-size:32px">Tecnología</div><div style="font-size:16.5px;line-height:1.35;margin-top:4px">La IA entra cuando lo demás está listo.</div></div></div><div style="font-size:19px;line-height:1.4;color:${MUT};margin-top:10px">Ninguna crece a costa de las otras.</div>`)}
+  ${ARR('Con un orden')}
+  ${STEP(4, 'El orden', '#E8DFC9', `<div class="ser" style="font-size:42px;line-height:1.05">Cinco fases, cada una con una puerta</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">En cada puerta se decide por escrito: pasar, ajustar y repetir, o retirar. Así un error cuesta poco y se puede deshacer.</div>`)}
 </div>
-<div class="z" style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
-  ${[['Personas', TV, '#fff', 'Liderazgo, roles e incentivos, interacción con quien hace el trabajo y quién enseña lo que la tarea enseñaba.', 'leaf'],
-     ['Conocimiento', GV, INK, 'Lo que está escrito, lo que nadie escribió y lo que aprende el propio programa.', 'leafb'],
-     ['Tecnología', AV, INK, 'La capacidad de gobernar y usar tecnología. La IA entra como acelerador, cuando lo demás está listo.', 'leaf']]
-    .map(([t, c, fg, d, sh]) => `<div class="${sh}" style="background:${c};color:${fg};padding:16px 26px 22px;min-height:160px">
-      <div class="k" style="opacity:.8">Elemento</div><div class="ser" style="font-size:46px;line-height:1.05;margin:4px 0 10px">${t}</div><div style="font-size:17.5px;line-height:1.4">${d}</div></div>`).join('')}
-</div>
-<div class="z leaf" style="margin-top:12px;border:2px solid rgba(244,246,246,.45);padding:13px 26px 16px;display:flex;gap:34px;align-items:center;background:rgba(31,29,26,.72)">
-  <div style="flex:0 0 250px"><div class="k" style="color:${MUT}">El cuarto componente</div><div class="ser" style="font-size:46px;line-height:1.05;margin-top:4px">El orden</div></div>
-  <div style="font-size:19px;line-height:1.45;color:#E7EBE9">Cinco fases con una puerta al final de cada una, y lo que las sostiene: estrategia, gobierno, modelo económico, medición, madurez y dimensionamiento.</div>
-</div>
-
-<div class="z" style="margin-top:24px;display:grid;grid-template-columns:1.02fr 1fr;gap:54px">
-  <div>
-    <div class="k" style="color:${TV}">Transformaciones rotas</div>
-    <h2 style="margin:6px 0 10px;font-size:40px">Tres causas que se repiten</h2>
-    ${['Se elige la solución antes de entender el problema.', 'La tecnología llega antes que el cambio en la forma de trabajar.', 'Se sustituye a quien sabía sin haberlo mirado.']
-      .map((t, i) => `<div style="display:flex;gap:18px;align-items:flex-start;padding:11px 0;border-top:1px solid rgba(244,246,246,.22)"><span class="ser" style="font-size:40px;line-height:.9;color:${[TV, GV, AV][i]};flex:0 0 34px">${i + 1}</span><span style="font-size:19.5px;line-height:1.36">${t}</span></div>`).join('')}
-  </div>
-  <div>
-    <div class="k" style="color:${AV}">Las reglas de fondo</div>
-    <h2 style="margin:6px 0 10px;font-size:40px">Seis principios</h2>
-    ${['Diagnóstico antes que solución', 'Elemento antes que acelerador', 'Pocas cosas a la vez', 'Puertas con criterios fijados antes', 'Nada nuevo encima de lo no mirado', 'El método se supervisa a sí mismo']
-      .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:5px 0;border-top:1px solid rgba(244,246,246,.22)"><span style="font-weight:700;font-size:14px;letter-spacing:2px;color:${[TV, GV, AV][i % 3]};flex:0 0 28px">0${i + 1}</span><span class="ser" style="font-size:24px;line-height:1.1">${t}</span></div>`).join('')}
-  </div>
-</div>
-
-<div class="z" style="margin-top:20px">
-  <div class="k" style="color:${GV}">Del problema a la cuenta de resultados</div>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px">
-    ${[['La restricción', 'El punto del flujo que más limita el resultado.', TV, '#fff'], ['Indicadores operativos', 'Tiempo, trabajo que vuelve, carga.', '#2A2824', '#F4F6F6'], ['Indicadores de resultado', 'Para quien recibe el servicio y para la organización.', '#2A2824', '#F4F6F6'], ['Efecto económico', 'En euros, con su horizonte y el valle previsto.', AV, INK]]
-      .map(([a, b, c, fg], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${c};color:${fg};padding:12px 18px 18px;min-height:116px"><div style="display:flex;gap:10px;align-items:baseline"><span class="ser" style="font-size:36px;line-height:.9;opacity:.75">${i + 1}</span><span class="ser" style="font-size:27px;line-height:1.05">${a}</span></div><div style="font-size:16.5px;line-height:1.34;margin-top:7px;opacity:.92">${b}</div></div>`).join('')}
-  </div>
-  <div style="font-size:17.5px;line-height:1.42;color:${MUT};margin-top:12px">El árbol de valor se corrige en cada puerta con lo medido, y cada beneficio tiene un dueño en el negocio. <span class="ser" style="font-style:italic;font-size:23px;color:#F4F6F6">Una hora ahorrada no es un euro ganado hasta que alguien decide qué se hace con ella.</span></div>
-</div>
-${foot('Por qué y con qué')}
+<div class="z" style="margin-top:34px;font-size:18px;line-height:1.4;color:${MUT}">En las páginas siguientes: qué se mira primero, cómo se avanza, quién interviene, cómo se sabe que funciona y dónde entra la IA.</div>
+${foot('Para qué')}
 </section>`;
 
 // ---------- Página 2: lo que nadie escribió ----------
@@ -108,7 +81,7 @@ const pm = `<section class="page green">
 ${girasol({ cx: 1262, cy: 400, n: 480, c: 13, rot: 3.1, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
 ${top(2, true)}
 <div class="z" style="margin-top:42px;width:940px">
-  <div class="k" style="color:${AV}">Personas y conocimiento</div>
+  <div class="k" style="color:${AV}">2 · ¿Qué se mira primero?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Antes de decidir,<br><span style="font-style:italic;color:${AV}">mirar lo que nadie escribió.</span></h1>
   <p style="font-size:21px;line-height:1.42;color:#DCEBE1;width:690px;margin-top:20px">El conocimiento vive en las personas, en la organización y en la tecnología. Lo que decide una transformación es a dónde va.</p>
 </div>
@@ -149,14 +122,6 @@ ${top(2, true)}
   <div style="font-size:15.5px;line-height:1.4;color:#CFE3D5;margin-top:8px">Cinco diseños posibles. Ninguno está probado lo bastante: se eligen en el diseño, no se dan por receta.</div>
 </div>
 
-<div class="z" style="margin-top:26px">
-  <div class="k" style="color:${AV}">Quién decide en una puerta</div>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:10px">
-    ${[['El patrocinador', 'Decide y firma.'], ['El dueño operativo', 'Decide con el patrocinador.'], ['El responsable de medición', 'Certifica los datos, no la decisión.'], ['Una persona ajena al equipo', 'Contrafirma.']]
-      .map(([a, b]) => `<div style="border-top:5px solid ${AV};padding-top:9px"><div class="ser" style="font-size:27px;line-height:1.05">${a}</div><div style="font-size:16px;line-height:1.36;color:#DCEBE1;margin-top:4px">${b}</div></div>`).join('')}
-  </div>
-  <div style="font-size:15.5px;line-height:1.4;color:#CFE3D5;margin-top:10px">Y quien trabaja con la herramienta cada día puede parar, por escrito y sin represalias.</div>
-</div>
 ${foot('Personas y conocimiento')}
 </section>`;
 
@@ -172,7 +137,7 @@ const p2 = `<section class="page light">
 ${girasol({ cx: 1262, cy: 420, n: 480, c: 13, rot: 1.3, s0: 3.2, sk: .02, cols: [T, G, A], op: .55 })}
 ${top(3, false)}
 <div class="z" style="margin-top:42px;width:900px">
-  <div class="k" style="color:${T}">El tronco</div>
+  <div class="k" style="color:${T}">3 · ¿Cómo se avanza?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Cinco fases.<br>Cada una acaba en<br><span style="font-style:italic;color:${G}">una puerta.</span></h1>
 </div>
 
@@ -215,7 +180,7 @@ const pr = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 5.1, s0: 3.2, sk: .02 })}
 ${top(4, true)}
 <div class="z" style="margin-top:42px;width:900px">
-  <div class="k" style="color:${GV}">Los roles del método</div>
+  <div class="k" style="color:${GV}">4 · ¿Quién interviene?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Quién es quién<br><span style="font-style:italic;color:${GV}">en una puerta.</span></h1>
   <p style="font-size:21px;line-height:1.42;color:${MUT};width:780px;margin-top:20px">Una misma persona puede tener varios roles. Lo que el método no admite es que el control de una puerta quede en las mismas manos.</p>
 </div>
@@ -237,62 +202,45 @@ ${top(4, true)}
 ${foot('Los roles del método')}
 </section>`;
 
-// ---------- Página 5: tres miradas, madurez y alcance ----------
+// ---------- Página 5: cómo se mide ----------
 const ED = '#451A0B', EL = '#F0C3A4', ET = '#EBD3C4';
-const MIR = [
-  ['Quien dirige', AV, [['Mandos intermedios', 'Su papel se rediseña antes que el de sus equipos.'], ['Cultura y estructura', 'Se cambia primero lo que se premia.'], ['Plazos', 'Se compromete la fecha de la siguiente puerta, no la del final.']], 'El mando intermedio del ámbito.'],
-  ['Quien hace el trabajo', '#7CC090', [['Ante los algoritmos', 'Asistir no es vigilar. La persona sabe qué se mide de ella.'], ['Si un puesto desaparece', 'Se escribe en el diseño y hay un plan de transición por persona.'], ['Inclusión', 'Se mira la cola: el diez por ciento con peor experiencia.']], 'La representación legal, si la decisión toca condiciones de trabajo.'],
-  ['Quien recibe el servicio', TV, [['El recorrido', 'Se sigue con personas reales, junto al mapa de lo que nadie escribió.'], ['Canal humano', 'Garantizado, claro y sin laberinto.'], ['Explicación y reclamación', 'En toda decisión que afecte a alguien.']], 'Una persona con la función de defender su mirada.'],
-];
-const MAD = [['Puntual', 'Depende de quien se ofrece. Lo que se sabe no está escrito.'], ['Repetible', 'Está escrito quién decide, qué se usa y qué sabe una sola persona.'], ['Integrado', 'Los criterios se escriben antes de decidir. Riesgos y datos entran desde el diseño.'], ['Sistemático', 'Se mide, se revisa y se retira lo que no aporta.']];
 const pv = `<section class="page earth">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 4.0, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
 ${top(5, true)}
 <div class="z" style="margin-top:42px;width:900px">
-  <div class="k" style="color:${AV}">Tres miradas, madurez y alcance</div>
-  <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Un cambio se mira<br><span style="font-style:italic;color:${AV}">desde tres sitios.</span></h1>
-  <p style="font-size:21px;line-height:1.42;color:${ET};width:830px;margin-top:18px">Un método tiende a ver la transformación desde donde se diseña. Releído desde quien hace el trabajo y desde quien recibe el servicio, faltaban cosas.</p>
+  <div class="k" style="color:${AV}">5 · ¿Cómo se sabe que funciona?</div>
+  <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Se mide antes,<br><span style="font-style:italic;color:${AV}">durante y después.</span></h1>
+  <p style="font-size:21px;line-height:1.42;color:${ET};width:800px;margin-top:20px">No vale la impresión de la gente ni lo que declara el proveedor. Vale lo que se midió contra lo que había antes.</p>
 </div>
 
-<div class="z" style="margin-top:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px">
-  ${MIR.map(([t, c, its, voz], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};overflow:hidden;display:flex;flex-direction:column">
-    <div style="background:${c};color:${c === TV ? '#fff' : INK};padding:12px 20px 13px"><div class="k" style="font-size:12px;letter-spacing:4px;opacity:.8">Mirada ${i + 1}</div><div class="ser" style="font-size:33px;line-height:1.02;margin-top:2px">${t}</div></div>
-    <div style="padding:6px 20px 4px;flex:1">${its.map(([a, b], j) => `<div style="padding:7px 0;${j ? 'border-top:1px solid #DDD8CC' : ''}"><div style="font-size:17px;font-weight:700;line-height:1.25">${a}</div><div style="font-size:16px;line-height:1.36;color:#3F423F;margin-top:2px">${b}</div></div>`).join('')}</div>
-    <div style="background:#EAE6DA;padding:10px 20px 20px"><div class="k" style="font-size:11.5px;letter-spacing:3.5px;color:${T}">Se oye antes de cada puerta</div><div style="font-size:15.5px;line-height:1.34;margin-top:3px">${voz}</div></div>
-  </div>`).join('')}
-</div>
-<div class="z" style="margin-top:14px;display:grid;grid-template-columns:1fr 1.05fr;gap:26px;font-size:16.5px;line-height:1.4">
-  <div style="border-left:6px solid ${AV};padding-left:14px;color:${ET}"><b style="font-weight:700;color:#fff">Las tres comparten una pregunta.</b> La huella material de la tecnología y la dependencia de un proveedor, escritas en la decisión.</div>
-  <div style="border-left:6px solid ${TV};padding-left:14px;color:${ET}"><b style="font-weight:700;color:#fff">La línea roja.</b> A nadie se le pide que enseñe al sistema que lo sustituye sin decírselo.</div>
+<div class="z" style="margin-top:34px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px">
+  ${[['1', 'Antes', 'La línea base', 'Se mide antes de cambiar nada, con lo que se mueve el indicador sin que pase nada.'], ['2', 'Durante', 'Criterios escritos antes', 'Se firma qué resultado hace pasar la puerta, antes de ver ningún dato.'], ['3', 'Después', 'El delta', 'Cuánto camino se ha recorrido desde la línea base hacia el objetivo.']]
+    .map(([n, k, t, d], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};padding:14px 20px 20px"><div style="display:flex;gap:12px;align-items:baseline"><span class="ser" style="font-size:44px;line-height:.9;color:${T}">${n}</span><span class="k" style="font-size:12px;letter-spacing:4px;color:${T}">${k}</span></div><div class="ser" style="font-size:29px;line-height:1.05;margin-top:4px">${t}</div><div style="font-size:16px;line-height:1.38;color:#3F423F;margin-top:6px">${d}</div></div>`).join('')}
 </div>
 
-<div class="z" style="margin-top:22px">
-  <div style="display:grid;grid-template-columns:1fr 400px;gap:34px;align-items:end">
-    <div><div class="k" style="color:${AV}">Madurez · la regla de entrada pide el nivel 2</div><h2 style="margin-top:8px;font-size:40px">Cuatro niveles, de puntual a sistemático</h2></div>
-    <div style="font-size:15px;line-height:1.4;color:${ET}">Se evalúa en personas, conocimiento, tecnología y gobierno, en horas y con evidencia. Si falta algún rasgo, vale el nivel más bajo. Madurez no es autonomía.</div>
+<div class="z" style="margin-top:30px">
+  <div class="k" style="color:${AV}">Qué se mide: del problema a la cuenta de resultados</div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:10px">
+    ${[['La restricción', 'El punto del flujo que más limita el resultado.', TV, '#fff'], ['Indicadores operativos', 'Tiempo, trabajo que vuelve, carga.', '#2A2824', '#F4F6F6'], ['Indicadores de resultado', 'Para quien recibe el servicio y para la organización.', '#2A2824', '#F4F6F6'], ['Efecto económico', 'En euros, con su horizonte y el valle previsto.', AV, INK]]
+      .map(([a, b, c, fg], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${c};color:${fg};padding:12px 16px 16px;min-height:112px"><div style="display:flex;gap:10px;align-items:baseline"><span class="ser" style="font-size:34px;line-height:.9;opacity:.75">${i + 1}</span><span class="ser" style="font-size:25px;line-height:1.05">${a}</span></div><div style="font-size:15.5px;line-height:1.34;margin-top:6px;opacity:.92">${b}</div></div>`).join('')}
   </div>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px">
-    ${MAD.map(([t, d], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${i === 1 ? AV : ED};color:${i === 1 ? INK : '#FBF3EC'};padding:10px 16px 18px 20px;min-height:112px"><div style="display:flex;align-items:baseline;gap:10px"><span class="ser" style="font-size:40px;line-height:.9;color:${i === 1 ? INK : AV}">${i + 1}</span><span class="ser" style="font-size:27px;line-height:1">${t}</span></div><div style="font-size:15.5px;line-height:1.34;margin-top:7px;${i === 1 ? 'font-weight:600' : `color:${ET}`}">${d}</div></div>`).join('')}
-  </div>
-  <div style="display:grid;grid-template-columns:150px repeat(4,1fr);gap:14px;margin-top:12px;font-size:15px;line-height:1.36;color:${ET}">
-    <div class="k" style="font-size:12px;letter-spacing:3.5px;color:${AV};line-height:1.5">Lo mínimo para el nivel 2, por escrito</div>
-    ${[['Personas', 'Patrocinador con tiempo fijo cada semana y participación acordada de quien hace el trabajo.'], ['Conocimiento', 'Lista de lo crítico que sabe una sola persona y registro de decisiones en uso.'], ['Tecnología', 'Reglas de uso, lista de lo que se usa y un responsable con nombre por solución.'], ['Gobierno', 'Tabla de quién decide qué, con nombre de quien firma y de quien contrafirma.']]
-      .map(([a, b]) => `<div style="border-top:3px solid ${AV};padding-top:7px"><b style="font-weight:700;color:#fff">${a}.</b> ${b}</div>`).join('')}
-  </div>
+  <div style="font-size:16.5px;line-height:1.42;color:${ET};margin-top:10px">Cada beneficio tiene un dueño en el negocio, y el árbol se corrige en cada puerta con lo medido.</div>
 </div>
 
-<div class="z" style="margin-top:22px">
-  <div class="k" style="color:${AV}">Proporcionalidad · propuesta sin probar</div>
-  <h2 style="margin:6px 0 10px;font-size:40px">El método no se aplica entero a todo</h2>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;align-items:stretch">
-    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción nombrada, línea base, mapa del trabajo afectado, decisión de puerta de una página, un indicador por elemento y uno del objetivo, criterio de parada, cómo se deshace y dueño.', 0],
-       ['De flujo', 'Rediseña un proceso de principio a fin.', 'Se añaden el rediseño del trabajo, los casos de prueba, el registro de supuestos, el responsable de adopción y el destino del tiempo.', 8],
-       ['De sistema', 'Cambia lo que la organización ofrece o cómo se organiza.', 'Se añaden el modelo económico con valle, el gobierno completo y los módulos 1 a 22.', 16]]
-      .map(([t, d, q, up], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};padding:12px 18px 20px;border-top:8px solid ${[AV, '#7CC090', TV][i]}"><div class="ser" style="font-size:32px;line-height:1">${t}</div><div style="font-size:16px;font-weight:700;line-height:1.3;margin-top:4px">${d}</div><div style="font-size:15px;line-height:1.36;color:#3F423F;margin-top:6px">${q}</div></div>`).join('')}
-  </div>
-  <div style="font-size:15px;line-height:1.4;color:${ET};margin-top:10px">Con un agente, su ficha. Con IA dentro del servicio, su techo de autonomía. Si lo puntual no cabe en pocas páginas, se está pidiendo de más.</div>
+<div class="z" style="margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px">
+  <div class="leaf" style="background:#5B2D18;padding:16px 22px 20px"><div class="k" style="color:${AV}">Dos lecturas, no una</div><div class="ser" style="font-size:30px;line-height:1.05;margin:6px 0 8px">Resultado y palancas</div><div style="font-size:16.5px;line-height:1.4;color:${ET}">El delta del objetivo y el de las palancas se leen aparte y cada uno tiene su umbral. Si las palancas avanzan y el resultado no se mueve, no se ha servido al negocio. Si el resultado mejora y una palanca cae, lo ganado se queda sin quien lo sostenga.</div></div>
+  <div class="leafb" style="background:#5B2D18;padding:16px 22px 20px"><div class="k" style="color:${AV}">Lo que no puede empeorar</div><div class="ser" style="font-size:30px;line-height:1.05;margin:6px 0 8px">Indicadores de guarda</div><div style="font-size:16.5px;line-height:1.4;color:${ET}">Tienen un suelo y no entran en la media: se cumplen o no. La calidad que acompaña a una mejora de velocidad es el ejemplo. Ninguno puede bajar de su suelo para pasar una puerta.</div></div>
 </div>
-${foot('Tres miradas, madurez y alcance')}
+
+<div class="z" style="margin-top:28px">
+  <div class="k" style="color:${AV}">Cuánto se pide según el tamaño</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:10px">
+    ${[['Puntual', 'Mejora una tarea.', 'Ocho piezas: restricción, línea base, mapa, decisión de una página, un indicador por elemento y uno del objetivo, criterio de parada, cómo se deshace y dueño.'], ['De flujo', 'Rediseña un proceso de principio a fin.', 'Se añaden el rediseño del trabajo, los casos de prueba, los supuestos, el responsable de adopción y el destino del tiempo.'], ['De sistema', 'Cambia lo que la organización ofrece o cómo se organiza.', 'Se añaden el modelo económico con valle, el gobierno completo y los módulos 1 a 22.']]
+      .map(([t, d, q], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${PAPER};color:${INK};padding:12px 18px 18px;border-top:8px solid ${[AV, '#7CC090', TV][i]}"><div class="ser" style="font-size:30px;line-height:1">${t}</div><div style="font-size:15.5px;font-weight:700;line-height:1.3;margin-top:4px">${d}</div><div style="font-size:14.5px;line-height:1.36;color:#3F423F;margin-top:6px">${q}</div></div>`).join('')}
+  </div>
+  <div style="font-size:15px;line-height:1.4;color:${ET};margin-top:8px">Propuesta sin probar. Si lo puntual no cabe en pocas páginas, se está pidiendo de más.</div>
+</div>
+${foot('Cómo se mide')}
 </section>`;
 
 // ---------- Página 6: IA e innovación ----------
@@ -301,8 +249,9 @@ const p3 = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 2.2, s0: 3.2, sk: .02 })}
 ${top(6, true)}
 <div class="z" style="margin-top:42px">
-  <div class="k" style="color:${AV}">IA e innovación</div>
+  <div class="k" style="color:${AV}">6 · ¿Y dónde entra la IA?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">La IA entra<br><span style="font-style:italic;color:${AV}">por la puerta.</span></h1>
+  <p style="font-size:21px;line-height:1.42;color:${MUT};width:800px;margin-top:18px">Como cualquier otra tecnología: por tarea, con criterios escritos y sin pasar de nivel sin que lo decida una puerta.</p>
 </div>
 
 <div class="z" style="margin-top:30px">
@@ -333,18 +282,12 @@ ${top(6, true)}
   </div>
 </div>
 
-<div class="z" style="margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:44px">
+<div class="z" style="margin-top:40px">
   <div>
     <div class="k" style="color:${AV}">Innovar con IA</div>
     <h2 style="margin:8px 0 10px;font-size:40px">Explorar tiene su carril</h2>
     ${['Un laboratorio pequeño, con experimentos de días y el supuesto escrito antes.', 'La IA amplía, combina y critica ideas. Elige una persona, con criterios escritos.', 'Nada pasa al servicio sin entrar en la cartera y recorrer las puertas.']
       .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:9px 0;border-top:1px solid rgba(244,246,246,.22)"><span class="ser" style="font-size:32px;line-height:.9;color:${AV};flex:0 0 24px">${i + 1}</span><span style="font-size:17.5px;line-height:1.36">${t}</span></div>`).join('')}
-  </div>
-  <div>
-    <div class="k" style="color:${GV}">Medir</div>
-    <h2 style="margin:8px 0 10px;font-size:40px">La percepción no es medida</h2>
-    ${['Línea base antes de cambiar nada.', 'El resultado de negocio se mide aparte de las palancas: dos deltas y dos umbrales.', 'Indicadores de avance, con objetivo, e indicadores de guarda, con suelo.', 'El resultado se lee por nivel de pericia y no solo por la media.']
-      .map((t, i) => `<div style="display:flex;gap:16px;align-items:baseline;padding:9px 0;border-top:1px solid rgba(244,246,246,.22)"><span class="ser" style="font-size:32px;line-height:.9;color:${GV};flex:0 0 24px">${i + 1}</span><span style="font-size:17.5px;line-height:1.36">${t}</span></div>`).join('')}
   </div>
 </div>
 
