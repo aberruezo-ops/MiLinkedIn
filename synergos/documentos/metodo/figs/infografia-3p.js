@@ -78,7 +78,7 @@ ${top(1, true)}
 
 <div class="z" style="margin-top:24px;display:grid;grid-template-columns:1.02fr 1fr;gap:54px">
   <div>
-    <div class="k" style="color:${TV}">Por qué se rompen</div>
+    <div class="k" style="color:${TV}">Transformaciones rotas</div>
     <h2 style="margin:6px 0 10px;font-size:40px">Tres causas que se repiten</h2>
     ${['Se elige la solución antes de entender el problema.', 'La tecnología llega antes que el cambio en la forma de trabajar.', 'Se sustituye a quien sabía sin haberlo mirado.']
       .map((t, i) => `<div style="display:flex;gap:18px;align-items:flex-start;padding:11px 0;border-top:1px solid rgba(244,246,246,.22)"><span class="ser" style="font-size:40px;line-height:.9;color:${[TV, GV, AV][i]};flex:0 0 34px">${i + 1}</span><span style="font-size:19.5px;line-height:1.36">${t}</span></div>`).join('')}
