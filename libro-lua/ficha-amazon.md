@@ -4,10 +4,10 @@ Titulo: Lúa, la gatita gris
 Subtitulo: Cuento para colorear sobre aceptación, emociones y autoestima. Con guía para madres y padres. Niños de 4 a 8 años
 
 Descripcion (editar y ajustar a tu gusto):
-A Lúa no la dejan jugar porque no tiene colores vivos. Hasta que una noche descubre todo lo que vale, y lo que ya valía antes.
+Ágil, veloz y valiente, a Lúa no la dejan jugar porque no tiene colores vivos. Hasta que una noche descubre todo lo que vale, y lo que ya valía antes.
 Un cuento para colorear con muy poco texto, pensado para leer y pintar en familia.
 Dentro encontrarás:
-- 17 escenas para colorear con una historia de final feliz
+- 20 escenas para colorear con una historia de final feliz
 - Páginas de emociones, de respiración y de superpoderes
 - Una mariquita escondida en cada escena para buscar
 - Guía para madres, padres y docentes con frases para conversar

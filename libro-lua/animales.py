@@ -73,7 +73,7 @@ def cat_head(s=1.0, mood='happy', look=0, tear=False):
     return o
 
 
-def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False):
+def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False, claws=False):
     """Gata sentada de frente. (cx,cy) = centro de la cabeza; los pies quedan en cy+272*s."""
     body, belly = fc('cat_body'), fc('cat_belly')
     o = grp(cx, cy, s, flip)
@@ -94,9 +94,17 @@ def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False
     o += f'<ellipse cx="0" cy="182" rx="44" ry="70" fill="{belly}" {L(s, .75)}/>'
     for sd in (-1, 1):
         x = sd * 38
-        o += tube2(f'M{x},205 L{x},248', 34, body, s)
-        o += f'<ellipse cx="{x + sd * 2}" cy="257" rx="30" ry="16" fill="{body}" {L(s)}/>'
-        o += f'<path d="M{x - 6},250 L{x - 6},262 M{x + 8},250 L{x + 8},262" fill="none" {L(s, .6)}/>'
+        if claws:
+            o += tube2(f'M{sd * 52},170 L{sd * 118},96', 34, body, s)
+            px, py = sd * 124, 84
+            o += f'<ellipse cx="{px}" cy="{py}" rx="30" ry="24" fill="{body}" {L(s)}/>'
+            for dx in (-16, 0, 16):
+                o += f'<path d="M{px + dx - 6},{py - 18} L{px + dx * 1.4:.0f},{py - 52} L{px + dx + 6},{py - 18} Z" fill="#fff" {L(s, .8)}/>'
+            o += f'<ellipse cx="{x}" cy="257" rx="30" ry="16" fill="{body}" {L(s)}/>'
+        else:
+            o += tube2(f'M{x},205 L{x},248', 34, body, s)
+            o += f'<ellipse cx="{x + sd * 2}" cy="257" rx="30" ry="16" fill="{body}" {L(s)}/>'
+            o += f'<path d="M{x - 6},250 L{x - 6},262 M{x + 8},250 L{x + 8},262" fill="none" {L(s, .6)}/>'
     o += cat_head(s, mood, look, tear)
     return o + '</g>'
 
@@ -371,3 +379,54 @@ def bush(x, g, w=220):
     for bx, by in ((.25, -.3), (.55, -.52), (.78, -.32)):
         s += f'<circle cx="{x + bx * w:.0f}" cy="{g + by * w:.0f}" r="{.028 * w:.1f}" fill="#fff" {ST} stroke-width="3"/>'
     return s
+
+
+def cat_action(cx, g, s=1.0, pose='leap', mood='happy', flip=1, look=0):
+    """Gata saltando o corriendo, de perfil con la cara de frente."""
+    body = fc('cat_body')
+    if pose == 'leap':
+        far = [((95, -75), (188, -108)), ((-52, -82), (-168, -48))]
+        near = [((70, -82), (172, -128)), ((-82, -88), (-178, -70))]
+        tail, rot = 'M-104,-118 Q-175,-150 -240,-128', -14
+    else:
+        far = [((95, -70), (165, -50)), ((-52, -78), (-135, -30))]
+        near = [((70, -78), (150, -28)), ((-80, -84), (-160, -52))]
+        tail, rot = 'M-104,-112 Q-180,-120 -245,-108', 0
+
+    def limb(p, q):
+        return (tube2(f'M{p[0]},{p[1]} L{q[0]},{q[1]}', 28, body, s) +
+                f'<ellipse cx="{q[0]}" cy="{q[1]}" rx="24" ry="12" fill="{body}" {L(s)}/>')
+    o = grp(cx, g, s, flip) + f'<g transform="rotate({rot} 0 -100)">'
+    for p, q in far:
+        o += limb(p, q)
+    o += tube2(tail, 28, body, s)
+    o += f'<ellipse cx="0" cy="-102" rx="112" ry="60" fill="{body}" {L(s)}/>'
+    for x in (-50, -20, 10):
+        o += f'<path d="M{x},-158 q8,22 2,44" fill="none" {L(s)}/>'
+    for p, q in near:
+        o += limb(p, q)
+    o += f'<g transform="translate(128,-138) scale(0.62)">' + cat_head(s * 0.62, mood, look) + '</g>'
+    return o + '</g></g>'
+
+
+def fox(cx, g, s=1.0, mood='worried', flip=1):
+    body, light = fc('fox_body'), fc('fox_light')
+    o = grp(cx, g, s, flip)
+    o += f'<path d="M-40,-60 C-135,-70 -160,-175 -95,-195 C-62,-155 -52,-112 -30,-95 Z" fill="{body}" {L(s)}/>'
+    o += f'<path d="M-95,-195 C-125,-190 -148,-170 -138,-146 C-120,-166 -104,-176 -95,-195 Z" fill="{light}" {L(s, .8)}/>'
+    for sd in (-1, 1):
+        o += tube2(f'M{sd * 34},-52 L{sd * 34},-8', 26, body, s)
+        o += f'<ellipse cx="{sd * 36}" cy="-5" rx="24" ry="11" fill="{body}" {L(s)}/>'
+    o += f'<ellipse cx="0" cy="-88" rx="58" ry="52" fill="{body}" {L(s)}/>'
+    o += f'<ellipse cx="0" cy="-76" rx="34" ry="36" fill="{light}" {L(s, .75)}/>'
+    d = 'M-70,-160 L-62,-238 L-28,-206 Q0,-214 28,-206 L62,-238 L70,-160 Q60,-112 0,-94 Q-60,-112 -70,-160 Z'
+    o += f'<path d="{d}" fill="{body}" {L(s)}/>'
+    for sd in (-1, 1):
+        o += f'<path d="M{sd * 54},-208 L{sd * 56},-228 L{sd * 42},-210 Z" fill="{fc("cat_inner")}" {L(s, .6)}/>'
+    o += f'<path d="M-40,-150 Q0,-128 40,-150 Q32,-108 0,-94 Q-32,-108 -40,-150 Z" fill="{light}" {L(s, .75)}/>'
+    for sd in (-1, 1):
+        o += f'<ellipse cx="{sd * 28}" cy="-162" rx="8" ry="11" fill="#111"/><circle cx="{sd * 28 + 2}" cy="-166" r="3" fill="#fff"/>'
+        o += f'<path d="M{sd * 44},-182 L{sd * 16},-176" fill="none" {L(s, .9)}/>'
+    o += f'<circle cx="0" cy="-104" r="8" fill="#111"/>'
+    o += f'<path d="M-12,-92 Q0,-100 12,-92" fill="none" {L(s, .9)}/>'
+    return o + '</g>'

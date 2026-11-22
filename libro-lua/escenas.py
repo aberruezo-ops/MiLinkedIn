@@ -141,6 +141,46 @@ def e8():
     return s
 
 
+def e_zorro():
+    s = moon(110, 100, 60) + stars_night(NIGHT[2:]) + hill(660, W, H, 20)
+    s += cat_sit(240, 420, 1.0, 'angry', tail='up', claws=True)
+    s += bird(95, 712, 0.5, 'sad', flip=-1)
+    s += bubble(40, 160, 270, 66, '¡Aquí no se pasa!', 200, 320, 28)
+    s += fox(610, 715, 1.05, 'worried', flip=-1)
+    s += bubble(520, 330, 110, 58, '¡Uy!', 590, 440, 30)
+    s += f'<path d="M480,640 l-60,0 M490,670 l-70,0 M480,700 l-55,0" {ST} stroke-width="4"/>'
+    return s
+
+
+def e_rio():
+    s = moon(600, 110, 60) + stars_night(NIGHT[:5]) 
+    s += f'<path d="M-10,650 Q120,610 265,655 L265,790 L-10,790 Z" fill="#fff" {ST}/>'
+    s += f'<path d="M485,655 Q620,610 760,650 L760,790 L485,790 Z" fill="#fff" {ST}/>'
+    for y in (690, 715, 740, 765):
+        s += f'<path d="M270,{y} q20,-10 40,0 t40,0 t40,0 t40,0 t40,0 t40,0" fill="none" {ST} stroke-width="3.4"/>'
+    s += f'<path d="M150,600 Q375,300 600,600" fill="none" {ST} stroke-width="3.5" stroke-dasharray="3 14"/>'
+    s += cat_action(375, 520, 0.95, 'leap', 'happy')
+    s += bird(350, 395, 0.42, 'happy', wings='up')
+    for dx, dy in ((300, 640), (318, 610), (440, 650), (424, 618)):
+        s += f'<circle cx="{dx}" cy="{dy}" r="7" fill="#fff" {ST} stroke-width="3"/>'
+    s += tree(660, 660, 0.9) + grass(80, 700)
+    return s
+
+
+def e_correr():
+    s = cloud(80, 90, 150) + cloud(500, 110, 130) + hill(660, W, H, 18)
+    s += f'<path d="M280,560 A95,95 0 0 1 470,560" fill="#fff" {ST}/>'
+    for i in range(-4, 5):
+        ang = math.radians(270 + i * 20)
+        s += f'<path d="M375,560 m{math.cos(ang) * 120:.0f},{math.sin(ang) * 120:.0f} l{math.cos(ang) * 30:.0f},{math.sin(ang) * 30:.0f}" {ST} stroke-width="5"/>'
+    s += tree(660, 650, 0.8)
+    s += f'<path d="M60,610 l130,0 M20,650 l170,0 M80,690 l110,0 M40,730 l150,0" {ST} stroke-width="4"/>'
+    s += cloud(120, 700, 70) + cloud(40, 740, 50)
+    s += cat_action(340, 740, 1.0, 'run', 'happy')
+    s += bird(330, 578, 0.45, 'happy', wings='up')
+    return s
+
+
 def e9():
     s = moon(110, 100, 60) + star(250, 90, 14) + star(420, 70, 12) + hill(715, W, H, 15)
     nx, ny = nest_pos(570, 725, 1.4)
@@ -205,13 +245,13 @@ def e14():
     return s
 
 
-SCENES = [e1, e2, e3, e_flores, e4, e5, e6, e7, e_luna, e8, e_buho, e9, e10, e11, e12, e13, e14]
+SCENES = [e1, e2, e3, e_flores, e4, e5, e6, e7, e_luna, e8, e_buho, e_zorro, e_rio, e_correr, e9, e10, e11, e12, e13, e14]
 
 # Mora, la mariquita escondida, en las escenas donde no sale ya a la vista (indice de escena: x, y)
 HIDDEN = {0: (140, 655), 3: (110, 705), 4: (185, 705), 5: (110, 645), 6: (110, 705), 7: (405, 705), 8: (130, 700), 9: (430, 750), 10: (690, 705), 11: (660, 740), 12: (520, 748), 15: (620, 690)}
 
 TEXTOS = [
-    "Lúa era una gatita gris, y le encantaba jugar.",
+    "Lúa era una gatita gris, ágil y veloz, y le encantaba jugar.",
     "Sus amigos tenían colores muy vivos y siempre andaban juntos.",
     "«Tú eres muy gris», le dijeron. «No eres como nosotros».",
     "Lúa probó a cubrirse de flores. Pero al mirarse en el charco, no se reconoció.",
@@ -222,10 +262,13 @@ TEXTOS = [
     "Bajo la luna, el pelo de Lúa brillaba como plata. Pipa dejó de llorar.",
     "Lúa veía muy bien en la oscuridad. «Súbete», le dijo.",
     "Un búho vigilaba el camino. Pero el gris de Lúa se mezclaba con las sombras, y no la vio.",
-    "Juntos llegaron hasta su nido, despacito.",
+    "Un zorro salió de los arbustos. Lúa sacó las uñas: «¡Aquí no se pasa!». El zorro se fue con el rabo entre las patas.",
+    "Un río les cortaba el paso. Lúa tomó carrerilla y saltó de orilla a orilla, sin mojarse ni una pata.",
+    "Lúa corrió más rápido que el viento. Ya clareaba cuando vieron el árbol.",
+    "Juntos llegaron hasta su nido, sanos y salvos.",
     "«¡Gracias, Lúa!», dijo la mamá de Pipa.",
-    "Pipa lo contó todo. Los amigos de Lúa le pidieron perdón. Debieron quererla desde el principio.",
-    "Lúa sonrió: «¿Jugamos?».",
+    "Pipa lo contó todo. Los amigos de Lúa la miraron con asombro y le pidieron perdón. Debieron quererla desde el principio.",
+    "Lúa sonrió: «¿Jugamos? ¡A que no me pilláis!».",
     "Esa noche, mamá la abrazó: «Te quiero tal como eres».",
     "Lúa valía igual antes que después. Todos valemos tal como somos.",
 ]
