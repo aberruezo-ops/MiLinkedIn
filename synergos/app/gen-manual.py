@@ -19,6 +19,7 @@ GLOS = {  # id: (término, variantes en minúscula, definición)
  'delta': ('Delta', ['delta'], 'Porcentaje que un indicador de avance ha recorrido desde su línea base hacia su objetivo, con un máximo del cien por cien. Desde la versión 2.1 del método el delta se da en dos cifras que no se promedian: la del objetivo de negocio y la de las palancas (personas, conocimiento y tecnología), cada una la media ponderada de sus indicadores.'),
  'dueno': ('Dueño operativo', ['dueño operativo', 'dueños', 'dueño'], 'Persona con nombre, del equipo que opera, que responde de lo que la solución hace cuando el programa se va. Es también el dueño del agente.'),
  'elementos': ('Tres elementos', ['tres elementos', 'elementos'], 'Personas, conocimiento y tecnología. El método pide que crezcan a la vez y los mide por separado, con al menos un indicador por elemento y uno del objetivo de negocio.'),
+ 'roles': ('Roles', ['roles', 'rol'], 'Los papeles que intervienen cuando se aplica el método, en cuatro familias: quien dirige y decide, quien opera y adopta, quien mide y controla, y quien es oído o recibe el beneficio. Una misma persona puede tener varios, salvo las combinaciones que anulan el control de una puerta (anexo I del método).'),
  'objetivo': ('Objetivo de negocio', ['objetivo de negocio'], 'El resultado que la organización quiere cambiar con la transformación. No es un cuarto elemento: es para qué se mueven los tres. Se escribe por ámbito y la restricción se nombra respecto a él.'),
  'arbol': ('Árbol de valor', ['árbol de valor'], 'La cadena que une la restricción con la cuenta de resultados: indicadores operativos, indicadores de resultado y efecto económico, con su horquilla y el dueño del beneficio. Se corrige en cada puerta con lo medido.'),
  'ficha': ('Ficha del agente', ['ficha del agente', 'fichas', 'ficha'], 'Los once campos que se escriben de cada agente antes de un piloto: dueño, finalidad, acciones permitidas, datos, nivel y techo, aprobación humana, parada, registro, coste, personas y conocimiento, y revisión.'),
@@ -144,11 +145,14 @@ SECS.append(('secciones', 'Qué hace cada sección', TBL(['Sección', 'Para qué
  ['Ámbitos e iniciativas', 'Define los ámbitos, su restricción, su madurez y las iniciativas que cuelgan de cada uno.', 'Nombre, objetivo de negocio, restricción, patrocinador, fase, madurez y evidencia. Para cada iniciativa, alcance, fase, tecnología, dueño, valor previsto (horquilla y plazo) y dueño del beneficio.'],
  ['Puertas', 'Registra cada decisión con sus criterios, firmas y salida.', 'Fechas, salida, cinco preguntas, firma, contrafirma y certificación de datos.'],
  ['Mapa de lo no escrito', 'Lleva el conocimiento que no está escrito y su concentración.', 'Qué se sabe, quién, dónde, número de personas, si es crítico y qué pasa con cada opción.'],
+ ['Roles', 'Dice quién es quién en cada ámbito y avisa de las combinaciones que no se admiten.', 'Nombres del patrocinador, la dirección del programa, la medición, la contrafirma, la segunda línea, la adopción, quien despliega, el dueño de los datos y quien defiende a quien recibe el servicio, y si la representación legal está informada.'],
  ['Indicadores', 'Mide con línea base, objetivo o suelo, y calcula el delta.', 'Qué mide (objetivo de negocio o uno de los tres elementos), línea base, valor actual, objetivo o suelo, variación normal y peso. Los dos deltas se leen aparte.'],
  ['Agentes', 'Mantiene la ficha de cada agente y sus controles por nivel.', 'Los once campos de la ficha, el nivel, el techo y los controles marcados.'],
  ['Ajustes', 'Cambia el nombre, el umbral y exporta los datos.', 'Nombre del programa y umbral.']])))
 
 SECS.append(('alertas', 'Las alertas, una a una', TBL(['Alerta', 'Qué significa', 'Qué hacer'], [
+ ['Combinación de roles que no se admite', 'El patrocinador contrafirma su propia decisión, es también el responsable de medición, el responsable de adopción es quien despliega la herramienta, o el dueño del beneficio es el de la solución.', 'Cambia una de las dos personas. El control de una puerta no puede quedar en las mismas manos.'],
+ ['Faltan roles con nombre', 'El ámbito está en diseño o más allá y no tiene responsable de medición o persona que contrafirma. En escala, también responsable de adopción.', 'Nómbralos en el formulario del ámbito. Sin ellos no se pueden dar las firmas que pide el método.'],
  ['Falta escribir el objetivo de negocio', 'El ámbito no tiene escrito el resultado que se quiere cambiar.', 'Escríbelo con quien dirige: resultado, horizonte y quién responde. La restricción se nombra respecto a él.'],
  ['Sin indicador del objetivo de negocio', 'El ámbito está en diseño o más allá y ningún indicador mide el objetivo.', 'Crea un indicador de resultado con su línea base antes de seguir.'],
  ['Las palancas avanzan y el resultado no se mueve', 'El delta de las palancas pasa del 50 % y el del objetivo no llega al 20 %.', 'Revisa si lo que se mueve es lo que ataca la restricción. Un programa ordenado puede no servir al negocio.'],
@@ -251,7 +255,7 @@ PAGE = """<title>Synergós Champion</title>
 <header class="top"><div class="brand">Syner<b>gós</b></div><div class="kick">Manual del gestor y glosario</div><h1>Synergós Champion</h1><p class="sub">Cómo llevar un programa con el método, paso a paso, con el glosario de cada término. Pensado para quien lo usa por primera vez.</p></header>
 <nav class="toc" aria-label="Secciones del manual">%s</nav>
 <main>%s</main>
-<footer>Versión 1.1, al día con el método 2.1 · noviembre de 2026 · Alejandro Berruezo. Documento de trabajo del método Synergós.</footer>
+<footer>Versión 1.2, al día con el método 2.1 y su anexo de roles · noviembre de 2026 · Alejandro Berruezo. Documento de trabajo del método Synergós.</footer>
 </div>
 <script>
 (function(){

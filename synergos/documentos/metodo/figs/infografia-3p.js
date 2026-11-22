@@ -1,4 +1,4 @@
-// Infografía del método en cinco páginas (A4). NODE_PATH=$(npm root -g) node figs/infografia-3p.js
+// Infografía del método en seis páginas (A4). NODE_PATH=$(npm root -g) node figs/infografia-3p.js
 const { chromium } = require('playwright'); const fs = require('fs'); const path = require('path');
 const dir = __dirname, out = path.join(dir, '..'), IM = path.join(dir, '../../../imagenes/');
 const FONTDIR = '/tmp/claude-0/-home-user-MiLinkedIn/8b3653e3-6315-50f3-96b3-ad0bde922485/scratchpad/ttf/';
@@ -42,7 +42,7 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 .tri{display:flex;height:8px;width:260px}.tri b{flex:1}
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
-const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en cinco páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 5</span></span></div>`;
+const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en seis páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 6</span></span></div>`;
 const foot = t => `<div class="foot"><i>Crecer a la vez.</i><span>${t}</span></div>`;
 
 // ---------- Página 1: por qué y con qué ----------
@@ -198,7 +198,41 @@ ${top(3, false)}
 ${foot('El tronco: fases y puertas')}
 </section>`;
 
-// ---------- Página 4: tres miradas, madurez y alcance ----------
+// ---------- Página 4: los roles ----------
+const FAM = [
+  ['Quien dirige y decide', AV, INK, [['Órgano de dirección', 'Escribe el objetivo y acepta el riesgo'], ['Patrocinador', 'Decide y firma en las puertas'], ['Dirección del programa', 'Coordina fases, cartera y puertas'], ['Comité de puertas', 'Los cuatro que intervienen en cada puerta']]],
+  ['Quien opera y adopta', '#7CC090', INK, [['Dueño operativo', 'Responde de lo que hace la solución'], ['Responsable de adopción', 'Nombra y coordina a los referentes'], ['Quien hace el trabajo', 'Oído antes. Puede dejar de usar y pedir parada'], ['Mando intermedio', 'Oído antes. Fuente del diagnóstico']]],
+  ['Quien mide y controla', TV, '#fff', [['Responsable de medición', 'Certifica los datos, no la decisión'], ['Quien contrafirma', 'Ajeno al equipo del programa'], ['Segunda línea', 'Revisa y puede objetar desde el diseño'], ['Dueño de los datos', 'En el negocio, no en sistemas']]],
+  ['Quien es oído o recibe el beneficio', '#E8DFC9', INK, [['Dueño del beneficio', 'En el negocio, no en el programa'], ['Representación legal', 'Oída cuando se tocan condiciones de trabajo'], ['Quien defiende a quien recibe el servicio', 'Oída antes, no decide'], ['Quien recibe el servicio', 'Se le pregunta y se miden sus resultados']]],
+];
+const NOP = ['El patrocinador no contrafirma su propia decisión.', 'El responsable de medición certifica los datos y no firma la decisión.', 'El responsable de adopción no es quien despliega la herramienta.', 'El dueño del beneficio está en el negocio, no en el programa.', 'El dueño de los datos está en el negocio, no en sistemas.', 'Quien defiende a quien recibe el servicio no decide en la puerta.'];
+const pr = `<section class="page dark">
+${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 5.1, s0: 3.2, sk: .02 })}
+${top(4, true)}
+<div class="z" style="margin-top:42px;width:900px">
+  <div class="k" style="color:${GV}">Los roles del método</div>
+  <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Quién es quién<br><span style="font-style:italic;color:${GV}">en una puerta.</span></h1>
+  <p style="font-size:21px;line-height:1.42;color:${MUT};width:780px;margin-top:20px">Una misma persona puede tener varios roles. Lo que el método no admite es que el control de una puerta quede en las mismas manos.</p>
+</div>
+
+<div class="z" style="margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+  ${FAM.map(([t, c, fg, rs], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:#2A2824;overflow:hidden;display:flex;flex-direction:column">
+    <div style="background:${c};color:${fg};padding:13px 22px 14px"><div class="k" style="font-size:12px;letter-spacing:4px;opacity:.8">Familia ${i + 1}</div><div class="ser" style="font-size:32px;line-height:1.02;margin-top:2px">${t}</div></div>
+    <div style="padding:4px 22px 12px">${rs.map(([a, b], j) => `<div style="padding:9px 0;${j ? 'border-top:1px solid rgba(244,246,246,.18)' : ''}"><div class="ser" style="font-size:25px;line-height:1.1">${a}</div><div style="font-size:16px;line-height:1.35;color:${MUT};margin-top:2px">${b}</div></div>`).join('')}</div>
+  </div>`).join('')}
+</div>
+
+<div class="z leaf" style="margin-top:20px;border:2px solid rgba(244,246,246,.45);padding:16px 26px 18px">
+  <div class="k" style="color:${AV}">Combinaciones que no se admiten</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 34px;margin-top:10px;font-size:17px;line-height:1.38">
+    ${NOP.map((t, i) => `<div style="display:flex;gap:12px;align-items:baseline"><span class="ser" style="font-size:26px;line-height:.9;color:${[TV, GV, AV][i % 3]};flex:0 0 22px">${i + 1}</span><span>${t}</span></div>`).join('')}
+  </div>
+</div>
+<div class="z" style="margin-top:16px;font-size:16px;line-height:1.42;color:${MUT}">En un programa acotado varios roles recaen en la misma persona, pero la firma del patrocinador y la contrafirma de alguien ajeno siguen siendo dos personas distintas.</div>
+${foot('Los roles del método')}
+</section>`;
+
+// ---------- Página 5: tres miradas, madurez y alcance ----------
 const ED = '#451A0B', EL = '#F0C3A4', ET = '#EBD3C4';
 const MIR = [
   ['Quien dirige', AV, [['Mandos intermedios', 'Su papel se rediseña antes que el de sus equipos.'], ['Cultura y estructura', 'Se cambia primero lo que se premia.'], ['Plazos', 'Se compromete la fecha de la siguiente puerta, no la del final.']], 'El mando intermedio del ámbito.'],
@@ -208,7 +242,7 @@ const MIR = [
 const MAD = [['Puntual', 'Depende de quien se ofrece. Lo que se sabe no está escrito.'], ['Repetible', 'Está escrito quién decide, qué se usa y qué sabe una sola persona.'], ['Integrado', 'Los criterios se escriben antes de decidir. Riesgos y datos entran desde el diseño.'], ['Sistemático', 'Se mide, se revisa y se retira lo que no aporta.']];
 const pv = `<section class="page earth">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 4.0, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
-${top(4, true)}
+${top(5, true)}
 <div class="z" style="margin-top:42px;width:900px">
   <div class="k" style="color:${AV}">Tres miradas, madurez y alcance</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Un cambio se mira<br><span style="font-style:italic;color:${AV}">desde tres sitios.</span></h1>
@@ -256,11 +290,11 @@ ${top(4, true)}
 ${foot('Tres miradas, madurez y alcance')}
 </section>`;
 
-// ---------- Página 5: IA e innovación ----------
+// ---------- Página 6: IA e innovación ----------
 const N = [['Sugiere', 'La persona decide y hace todo.'], ['Propone', 'La persona revisa cada propuesta y decide.'], ['Actúa con revisión', 'Revisión por muestreo y de todo lo que se sale del patrón.'], ['Actúa e informa', 'La persona supervisa indicadores y atiende excepciones.']];
 const p3 = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 2.2, s0: 3.2, sk: .02 })}
-${top(5, true)}
+${top(6, true)}
 <div class="z" style="margin-top:42px">
   <div class="k" style="color:${AV}">IA e innovación</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">La IA entra<br><span style="font-style:italic;color:${AV}">por la puerta.</span></h1>
@@ -320,11 +354,11 @@ ${foot('IA e innovación')}
 
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 2 });
-  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pm}${p2}${pv}${p3}</body></html>`);
+  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pm}${p2}${pr}${pv}${p3}</body></html>`);
   await p.goto('file://' + f); await p.waitForTimeout(900);
   const over = await p.evaluate(() => [...document.querySelectorAll('.page')].map(s => s.scrollHeight));
   console.log('alturas', over.join(' '));
-  for (let i = 0; i < 5; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
-  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-cinco-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
+  for (let i = 0; i < 6; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
+  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-seis-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
   fs.unlinkSync(f); await b.close(); console.log('ok');
 })();

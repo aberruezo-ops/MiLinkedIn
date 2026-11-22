@@ -147,7 +147,7 @@ header{border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:2px
 <script>
 (function(){
 const FASES=['Diagnóstico','Diseño','Piloto','Escala','Sostenimiento'];
-const TABS=[['resumen','Resumen'],['camino','Camino'],['ambitos','Ámbitos e iniciativas'],['puertas','Puertas'],['mapa','Mapa de lo no escrito'],['indicadores','Indicadores'],['agentes','Agentes'],['ajustes','Ajustes']];
+const TABS=[['resumen','Resumen'],['camino','Camino'],['ambitos','Ámbitos e iniciativas'],['puertas','Puertas'],['mapa','Mapa de lo no escrito'],['roles','Roles'],['indicadores','Indicadores'],['agentes','Agentes'],['ajustes','Ajustes']];
 const CONTROLES=[
  ['c_casos',0,'Casos de prueba superados antes del piloto'],['c_reeval',0,'Nueva evaluación tras cada cambio de modelo, herramientas o permisos'],
  ['c_ficha',1,'Ficha del agente escrita'],['c_inv',1,'Anotado en el inventario'],['c_datos',1,'Datos acotados a la finalidad'],
@@ -160,7 +160,7 @@ const O=(arr)=>arr.map(x=>Array.isArray(x)?x:[x,x]);
 const FASEOPT=FASES.map((f,i)=>[String(i+1),(i+1)+'. '+f]);
 const MADOPT=[['1','1. Puntual'],['2','2. Repetible'],['3','3. Integrado'],['4','4. Sistemático']];
 const SCHEMA={
- ambitos:{one:'ámbito',fields:[['nombre','Nombre del ámbito','text'],['objetivo','Objetivo de negocio: el resultado que se quiere cambiar, con su horizonte y quién responde de él','textarea'],['restriccion','Restricción principal (la que más limita ese resultado; una por ámbito, aceptada por el patrocinador)','textarea'],['patrocinador','Patrocinador','text'],['fase','Fase actual','select',FASEOPT],
+ ambitos:{one:'ámbito',fields:[['nombre','Nombre del ámbito','text'],['objetivo','Objetivo de negocio: el resultado que se quiere cambiar, con su horizonte y quién responde de él','textarea'],['restriccion','Restricción principal (la que más limita ese resultado; una por ámbito, aceptada por el patrocinador)','textarea'],['patrocinador','Patrocinador (nombre)','text'],['direccion','Dirección del programa (nombre)','text','','half'],['medicion','Responsable de medición (nombre)','text','','half'],['contrafirma','Persona que contrafirma, ajena al equipo (nombre)','text','','half'],['segunda','Segunda línea: quién revisa riesgos, seguridad y datos','text','','half'],['adopcion','Responsable de adopción (nombre)','text','','half'],['despliega','Quien despliega la herramienta (nombre)','text','','half'],['datos','Dueño de los datos, en el negocio (nombre)','text','','half'],['defiende','Quien defiende a quien recibe el servicio (nombre)','text','','half'],['legal','La representación legal está informada y se la oye cuando se tocan condiciones de trabajo','check'],['fase','Fase actual','select',FASEOPT],
   ['mP','Madurez · Personas','select',MADOPT,'half'],['mC','Madurez · Conocimiento','select',MADOPT,'half'],['mT','Madurez · Tecnología','select',MADOPT,'half'],['mG','Madurez · Gobierno','select',MADOPT,'half'],['evidencia','Evidencia de la madurez','textarea']]},
  iniciativas:{one:'iniciativa',fields:[['nombre','Nombre','text'],['ambitoId','Ámbito','ref','ambitos'],['alcance','Alcance','select',O([['puntual','Puntual'],['flujo','De flujo'],['sistema','De sistema']])],['fase','Fase','select',FASEOPT],
   ['verbo','Qué hace la tecnología','select',O([['sin','No lleva tecnología'],['acelera','Acelera'],['automatiza','Automatiza'],['aumenta','Aumenta']])],['ataca','¿Ataca la restricción?','select',O([['si','Sí'],['no','No'],['habilitador','Es un habilitador'],['legal','Obligación legal']])],['valorMin','Valor previsto, mínimo (€)','number','','half'],['valorMax','Valor previsto, máximo (€)','number','','half'],['plazoValor','Plazo del efecto','text','','half'],['duenoBeneficio','Dueño del beneficio (en el negocio, no en el programa)','text','','half'],
@@ -201,6 +201,9 @@ function alertas(){
     if(!(a.objetivo||'').trim())A.push(['m','Falta escribir el objetivo de negocio de «'+a.nombre+'»','Es el resultado que se quiere cambiar. La restricción se nombra respecto a él.','ambitos']);
     if((num(a.fase)||1)>=2&&!S.indicadores.some(i=>i.ambitoId===a.id&&i.elemento==='objetivo'))A.push(['a','«'+a.nombre+'» no tiene indicador del objetivo de negocio','Sin él no se sabe si el programa sirve al negocio. Un indicador de resultado por ámbito, con su línea base.','indicadores']);
     {const dp=deltaAmbito(a.id),dob=deltaObj(a.id);if(dp!=null&&dob!=null&&dp>=0.5&&dob<0.2)A.push(['m','Las palancas avanzan y el resultado no se mueve en «'+a.nombre+'»','Delta de las palancas '+Math.round(dp*100)+' %, del objetivo '+Math.round(dob*100)+' %. El programa puede estar ordenado y no servir al negocio.','indicadores']);if(dp!=null&&dob!=null&&dob>=0.5&&dp<0.2)A.push(['m','El resultado mejora y una palanca cae en «'+a.nombre+'»','Delta del objetivo '+Math.round(dob*100)+' %, de las palancas '+Math.round(dp*100)+' %. Lo ganado se queda sin quien lo sostenga.','indicadores'])}
+    conflictos(a).forEach(c=>A.push(['a','Combinación de roles que no se admite en «'+a.nombre+'»',c,'roles']));
+    if((num(a.fase)||1)>=2){const f=[['medicion','responsable de medición'],['contrafirma','persona que contrafirma']].filter(([k])=>!(a[k]||'').trim()).map(x=>x[1]);if(f.length)A.push(['m','Faltan roles con nombre en «'+a.nombre+'»','Sin '+f.join(' ni ')+' no se puede pasar una puerta con las firmas que pide el método.','roles'])}
+    if((num(a.fase)||1)>=4&&!(a.adopcion||'').trim())A.push(['m','«'+a.nombre+'» está en escala sin responsable de adopción','Una persona con nombre y con tiempo, distinta de quien despliega la herramienta.','roles']);
     const r=regla(a);const tec=S.iniciativas.some(i=>i.ambitoId===a.id&&['acelera','automatiza','aumenta'].includes(i.verbo)&&i.estado==='curso'&&(num(i.fase)||1)>=3);
     if(!r.ok&&tec)A.push(['a','Regla de entrada sin cumplir en «'+a.nombre+'»','Hay tecnología en piloto y estos elementos están por debajo del nivel 2: '+r.bajos.join(', ')+'.','ambitos']);
     const crit=S.mapa.filter(m=>m.ambitoId===a.id&&m.critico&&(num(m.personas)||0)<=1).length;
@@ -243,7 +246,7 @@ function vResumen(){
   let o=head('Resumen','El estado de cada ámbito y lo que el método marca como pendiente.');
   o+='<div class="kpis"><div class="kpi"><b>'+S.ambitos.length+'</b><span>Ámbitos</span></div><div class="kpi"><b>'+enCurso+'</b><span>Iniciativas en curso</span></div><div class="kpi"><b>'+pasadas+'<small style="font-size:18px;color:var(--muted)"> / '+S.puertas.length+'</small></b><span>Puertas pasadas</span></div><div class="kpi '+(altas?'warn':'good')+'"><b>'+A.length+'</b><span>'+(altas?altas+' urgentes':'Pendientes')+'</span></div></div>';
   o+='<p class="sech">Pendiente según el método</p>';
-  const SEC={ambitos:'Ámbitos',mapa:'Mapa',indicadores:'Indicadores',puertas:'Puertas',agentes:'Agentes'};
+  const SEC={ambitos:'Ámbitos',mapa:'Mapa',roles:'Roles',indicadores:'Indicadores',puertas:'Puertas',agentes:'Agentes'};
   o+=A.length?'<div class="alist">'+A.slice(0,8).map(a=>'<a class="arow" href="#'+a[3]+'"><span class="sev '+(a[0]==='a'?'':'m')+'"></span><div><b>'+h(a[1])+'</b>'+(a[2]?'<small>'+h(a[2])+'</small>':'')+'</div><span class="go">'+h(SEC[a[3]]||'')+'</span></a>').join('')+'</div>'+(A.length>8?'<p class="muted" style="margin-top:-14px">Y '+(A.length-8)+' más en sus secciones.</p>':''):'<div class="alist"><div class="arow"><span class="sev" style="background:var(--green)"></span><div><b>Nada pendiente según las reglas del método.</b></div><span></span></div></div>';
   o+='<p class="sech">Ámbitos</p><div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr))">'+S.ambitos.map((a,ix)=>{
     const f=num(a.fase)||1,d=deltaAmbito(a.id),dO=deltaObj(a.id),r=regla(a),ini=S.iniciativas.filter(i=>i.ambitoId===a.id),ag=S.agentes.filter(x=>x.ambitoId===a.id);
@@ -298,6 +301,27 @@ function vAgentes(){
     +'<div class="k" style="margin:14px 0 4px">Controles para el nivel '+L+' · faltan '+f.length+'</div>'
     +CONTROLES.filter(c=>c[1]<=L).map(c=>'<label class="ctrl" style="font-weight:400;margin:0"><input type="checkbox" data-a="ctrl" data-id="'+g.id+'" data-k="'+c[0]+'"'+((g.controles||{})[c[0]]?' checked':'')+'> <span>'+h(c[2])+'</span></label>').join('')+'</div>'}).join('');
 }
+function rolesDe(a){const ini=S.iniciativas.filter(i=>i.ambitoId===a.id&&i.estado!=='retirada');const uniq=k=>[...new Set(ini.map(i=>(i[k]||'').trim()).filter(Boolean))].join(', ');
+  return [
+   ['Quien dirige y decide',[['Patrocinador',a.patrocinador,'Decide y firma en las puertas'],['Dirección del programa',a.direccion,'Coordina fases, cartera y puertas']]],
+   ['Quien opera y adopta',[['Dueño operativo',uniq('dueno'),'Responde de lo que hace la solución. Sale de las iniciativas'],['Responsable de adopción',a.adopcion,'Nombra y coordina a los referentes'],['Quien despliega la herramienta',a.despliega,'No puede ser el responsable de adopción']]],
+   ['Quien mide y controla',[['Responsable de medición',a.medicion,'Certifica los datos, no la decisión'],['Persona que contrafirma',a.contrafirma,'Ajena al equipo del programa'],['Segunda línea',a.segunda,'Revisa y puede objetar desde el diseño'],['Dueño de los datos',a.datos,'En el negocio, no en sistemas']]],
+   ['Quien es oído o recibe el beneficio',[['Dueño del beneficio',uniq('duenoBeneficio'),'En el negocio, no en el programa. Sale de las iniciativas'],['Quien defiende a quien recibe el servicio',a.defiende,'Oído antes de cada puerta, no decide'],['Representación legal',a.legal?'Informada y oída':'','Oída cuando se tocan condiciones de trabajo']]]];
+}
+function conflictos(a){const C=[];const n=x=>(x||'').trim().toLowerCase();
+  if(n(a.patrocinador)&&n(a.patrocinador)===n(a.contrafirma))C.push('El patrocinador contrafirma su propia decisión.');
+  if(n(a.medicion)&&n(a.medicion)===n(a.patrocinador))C.push('El patrocinador y el responsable de medición son la misma persona: quien certifica los datos no firma la decisión.');
+  if(n(a.adopcion)&&n(a.adopcion)===n(a.despliega))C.push('El responsable de adopción es quien despliega la herramienta.');
+  S.iniciativas.filter(i=>i.ambitoId===a.id).forEach(i=>{if(n(i.duenoBeneficio)&&n(i.duenoBeneficio)===n(i.dueno))C.push('En «'+i.nombre+'» el dueño del beneficio es también el dueño de la solución.')});
+  return C}
+function vRoles(){
+  let o=head('Roles','Quién es quién en cada ámbito. Una misma persona puede tener varios roles, salvo en las combinaciones que anulan el control de una puerta. Se rellenan en el formulario del ámbito.',S.ambitos.length?'':addBtn('ambitos','Crear el primer ámbito'));
+  if(!S.ambitos.length)return o+vEmpty('Sin ámbitos','Los roles se asignan por ámbito.');
+  return o+S.ambitos.map(a=>{const C=conflictos(a),fam=rolesDe(a);
+    return '<div class="card" style="margin-bottom:16px"><div class="row sp"><h3>'+h(a.nombre)+'</h3>'+rowBtns('ambitos',a.id)+'</div>'
+    +(C.length?'<div class="alert" style="margin:8px 0">'+'<div><b>Combinación que no se admite</b>'+C.map(x=>'<small>'+h(x)+'</small>').join('')+'</div></div>':'')
+    +'<div class="scroll"><table><tr><th>Rol</th><th>Quién</th><th>Qué hace</th></tr>'+fam.map(([f,rs])=>'<tr><td colspan="3" class="k" style="padding-top:14px">'+h(f)+'</td></tr>'+rs.map(([r,q,d])=>'<tr><td><b>'+h(r)+'</b></td><td>'+(q?h(q):'<span class="danger">sin nombrar</span>')+'</td><td class="muted">'+h(d)+'</td></tr>').join('')).join('')+'</table></div></div>'}).join('');
+}
 function vAjustes(){
   const hay=S.ambitos.length+S.iniciativas.length+S.indicadores.length+S.puertas.length+S.mapa.length+S.agentes.length;
   const ej=[...S.ambitos,...S.iniciativas,...S.indicadores,...S.puertas,...S.mapa,...S.agentes].some(x=>x.ejemplo);
@@ -305,7 +329,7 @@ function vAjustes(){
   +'<div class="card" style="max-width:640px"><label for="aj-nombre">Nombre del programa</label><input id="aj-nombre" value="'+h(S.aj.nombre||'')+'"><label for="aj-umbral">Filas críticas en una sola persona que obligan a repartir el conocimiento</label><input id="aj-umbral" type="number" min="1" value="'+umbral()+'"><p class="muted" style="font-size:13px">Tres es un punto de partida propuesto por un lector del método, sin probar con números reales.</p><div class="row" style="margin-top:12px"><button class="pri" data-a="saveaj">Guardar ajustes</button></div></div>'
   +'<div class="card b" style="max-width:640px;margin-top:16px"><h3>Datos</h3><p class="muted">'+hay+' registros en el programa.</p><div class="row"><button data-a="export">Exportar en JSON</button>'+(ej?'<button class="danger" data-a="clearej">Quitar los datos de ejemplo</button>':'')+'</div></div>';
 }
-const VIEWS={resumen:vResumen,ambitos:vAmbitos,puertas:vPuertas,mapa:vMapa,indicadores:vInd,agentes:vAgentes,ajustes:vAjustes};
+const VIEWS={resumen:vResumen,ambitos:vAmbitos,puertas:vPuertas,mapa:vMapa,roles:vRoles,indicadores:vInd,agentes:vAgentes,ajustes:vAjustes};
 
 
 /* ---------- camino: infografía del avance, alineada con el documento ---------- */
@@ -317,6 +341,7 @@ const CAMINO=[
  {f:1,n:'Diagnóstico',tipo:'diagnostico',crit:'Para pasar al diseño: el objetivo de negocio está escrito, la restricción está nombrada y el patrocinador la acepta, la línea base está medida y el mapa de lo que nadie escribió existe, con el compromiso de uso firmado.',items:[
   ['flujo','Mapa del flujo de trabajo real',null],
   ['objetivo','Objetivo de negocio escrito, con su horizonte y quién responde',c=>!!(c.a.objetivo||'').trim()],
+  ['roles','Roles con nombre: patrocinador, medición y contrafirma',c=>['patrocinador','medicion','contrafirma'].every(k=>(c.a[k]||'').trim())],
   ['restr','Restricción principal nombrada, respecto a ese objetivo',c=>!!(c.a.restriccion||'').trim()],
   ['base','Línea base medida, un indicador por elemento y uno del objetivo',c=>['objetivo','personas','conocimiento','tecnologia'].every(e=>c.ind.some(i=>i.elemento===e&&num(i.base)!=null))],
   ['actores','Mapa de actores, con la columna de quién sabe',null],
