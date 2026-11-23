@@ -1,7 +1,7 @@
 [
  {
   "n": 1,
-  "decision": "Artículo del lunes 23, «Diagnóstico antes que solución»: aprobado. Lo pegas tú a mano y me pasas la URL. Pendiente: decidir si redacto un post de presentación como en los dos artículos anteriores"
+  "decision": "Artículo de hoy, lunes 23, «Diagnóstico antes que solución»: lo pegas tú a mano y me pasas la URL. Pendiente: decidir si redacto un post de presentación como en los dos artículos anteriores"
  },
  {
   "n": 2,
@@ -9,11 +9,11 @@
  },
  {
   "n": 3,
-  "decision": "Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 29 nov. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
+  "decision": "Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 30 nov. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
  },
  {
   "n": 4,
-  "decision": "Comentarios en posts ajenos: el 19, el 20 y el 21 se han publicado doce con tus recomendaciones. Los tres del 21: Carlos Augusto Carrasco, Claudia Alexandra Torres Ospina y Miguel Ángel Pascual Verd. Mira si responden y decide si contestas a mano. Y el post de Jorge García sobre la burbuja de la IA tiene dos variantes preparadas (recomiendo la b); dime «publica la b» y la subo"
+  "decision": "Comentarios en posts ajenos: del 19 al 22 se han publicado quince con tus recomendaciones (los tres del 22: Diego López Abellán, Laura Lamprea y Gabriel Alejandro T.), y el de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano"
  },
  {
   "n": 5,
@@ -21,7 +21,7 @@
  },
  {
   "n": 6,
-  "decision": "Método 2.1: 218 páginas. Nombra el impacto en el negocio como objetivo (no como cuarto elemento), la primera pregunta de la puerta pasa a «¿Ataca la restricción, y cuánto vale resolverla?» y el delta se da en dos cifras. Auditoría de ortografía hecha el 21 nov. Revisa la infografía de cinco páginas y los cuatro datos que solo puedes dar tú"
+  "decision": "Método 2.1: 229 páginas. Suma el objetivo de negocio, los roles (anexo I) y Eliminar como cuarto verbo, con el Lean (cinco porqués, ocho desperdicios, ECRS, referencias sin leer). Infografía en ocho páginas, en lenguaje llano, con la página «Ahora el método se aplica a sí mismo». Revísala y dime qué no se entiende"
  },
  {
   "n": 7,
@@ -37,6 +37,6 @@
  },
  {
   "n": 10,
-  "decision": "Panel de agentes del método (ronda 1, 22 nov): cuatro roles han leído el método 2.1 y hay quince propuestas en panel/ronda-1/00-sintesis.md. Decide cuatro cosas: lista de piezas no retirables, dos deltas con regla del mínimo o media, declaración de intención de plantilla, y si hago una 2.2 con las propuestas 1 a 8 o esperamos a un programa real y a un jurista"
+  "decision": "Paneles del método: la ronda 1 (cuatro roles) y la 2 (seis empresas) están en panel/. Decide cuatro cosas de la ronda 1 (piezas no retirables, dos deltas con regla del mínimo o media, declaración de plantilla, 2.2 con las propuestas 1 a 8) y si preparo un borrador de la versión de una página con una horquilla de esfuerzo, que piden tres empresas de las seis"
  }
 ]
