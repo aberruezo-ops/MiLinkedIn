@@ -24,7 +24,7 @@ Seis agentes con perfiles de empresa distintos leyeron la versión 2.1 y respond
 ## Lo que añade a la ronda 1
 
 - La versión corta ya no es una petición de finanzas: es lo que haría adoptable el método fuera de una organización grande con comité y segunda línea.
-- Salud y banca piden la columna de órgano competente y las piezas no retirables, como el panel de cumplimiento.
+- Salud pide la columna de órgano competente y banca las piezas no retirables, como ya hizo el panel de cumplimiento.
 - Aparecen huecos que la ronda 1 no vio: ejemplos de industria y comercio (todos los casos compuestos son de oficina), la rotación alta, la facturación por horas y la dependencia del proveedor de tecnología.
 
 ## Propuestas nuevas, por orden de aporte

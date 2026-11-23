@@ -45,9 +45,10 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 .tri{display:flex;height:8px;width:260px}.tri b{flex:1}
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
-const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en siete páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 7</span></span></div>`;
+const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en ocho páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 8</span></span></div>`;
 const TRAIL = [['Para qué', 'Para qué'], ['El itinerario', 'Itinerario'], ['Personas y conocimiento', 'Qué mirar'], ['El tronco: fases y puertas', 'Camino'], ['Los roles del método', 'Quién'], ['Cómo se mide', 'Medir'], ['IA e innovación', 'IA']];
 const foot = t => { const cur = TRAIL.findIndex(x => x[0] === t);
+  if (cur < 0) return `<div class="foot"><i>Crecer a la vez.</i><span>Anexo · El método se aplica a sí mismo</span></div>`;
   const crumb = (txt, state, last) => `<span style="display:inline-flex;align-items:center;gap:6px"><span style="${state === 'now' ? 'font-weight:700;color:var(--nc);border-bottom:3px solid var(--tc)' : state === 'done' ? 'opacity:.9' : 'opacity:.5'}">${txt}</span>${last ? '' : '<span style="opacity:.4">›</span>'}</span>`;
   const items = [['Inicio', 'done']].concat(TRAIL.map((x, i) => [x[1], i === cur ? 'now' : i < cur ? 'done' : 'todo'])).concat([['Impacto en el negocio', cur === TRAIL.length - 1 ? 'goal' : 'todo']]);
   const html = items.map(([txt, st], i) => st === 'goal' ? `<span style="display:inline-flex;align-items:center;gap:6px"><span style="font-weight:700;color:${AV}">${txt}</span></span>` : crumb(txt, st, i === items.length - 1)).join(' ');
@@ -354,13 +355,60 @@ ${top(7, true)}
 ${foot('IA e innovación')}
 </section>`;
 
+// ---------- Página 8: ahora ----------
+const CAJA = (t, c, fg, extra = '') => `<div style="background:${c};color:${fg};padding:10px 10px;font-size:17px;line-height:1.25;font-weight:600;text-align:center;display:flex;align-items:center;justify-content:center;min-height:84px;${extra}">${t}</div>`;
+const EMP = [
+  ['Banco grande', ['El mapa de lo que nadie escribió, la decisión en una página y eliminar antes de acelerar.', 'Enlazar con la validación de modelos y los proveedores críticos.']],
+  ['Pyme industrial', ['El atasco, la foto de partida y cinco preguntas en una página.', 'Versión corta, ejemplos de taller y qué hacer sin finanzas ni segunda firma.']],
+  ['Hospital público', ['El uso informal de la IA, el mapa y poder parar.', 'Seguridad del paciente, datos de salud y quién decide de verdad.']],
+  ['Distribución y comercio', ['Las cuatro opciones por tarea y los límites que no pueden empeorar.', 'Calendario de campaña, tiendas de control y rotación alta.']],
+  ['Software en crecimiento', ['El diagnóstico, la decisión en una página y poder parar.', 'Una versión de una página. Sobran comité y escala de madurez.']],
+  ['Servicios profesionales', ['El mapa, la foto de partida y quién enseña el oficio.', 'Cómo encaja con la facturación por horas y qué hace el júnior.']],
+];
+const pe = `<section class="page dark">
+${SUN(5.6)}
+${top(8, true)}
+<div class="z" style="margin-top:34px;width:860px">
+  <div class="k" style="color:${GV}">8 · ¿Y qué hacemos ahora?</div>
+  <h1 style="font-size:72px;letter-spacing:-2px;margin-top:8px;line-height:.98">Ahora el método <span style="font-style:italic;color:${GV}">se aplica a sí mismo.</span></h1>
+  <p style="font-size:19px;line-height:1.4;color:${MUT};width:760px;margin-top:12px">Es el mismo itinerario, un nivel más arriba. Primero se escucha, luego se decide y después se prueba en un programa real.</p>
+</div>
+
+<div class="z" style="margin-top:28px">
+  <div class="k" style="color:${AV}">Dos niveles, el mismo recorrido</div>
+  <div style="display:grid;grid-template-columns:120px repeat(5,1fr);gap:6px;margin-top:10px;align-items:stretch">
+    <div style="font-size:14px;line-height:1.3;color:${MUT};align-self:center">Nivel 1<br><b style="color:#F4F6F6">En una empresa</b></div>
+    ${CAJA('Diagnóstico', T, '#fff')}${CAJA('Diseño', G, '#fff')}${CAJA('Piloto', A, INK)}${CAJA('Escala', T, '#fff')}${CAJA('Sostenimiento', G, '#fff')}
+    <div style="font-size:14px;line-height:1.3;color:${MUT};align-self:center">Nivel 2<br><b style="color:#F4F6F6">En el método</b></div>
+    ${CAJA('Dos revisiones: cuatro roles y seis empresas', '#2A2824', '#F4F6F6', 'border:2px solid ' + GV)}${CAJA('Decisión de Alejandro y versión 2.2', '#2A2824', '#F4F6F6', 'border:2px dashed ' + AV)}${CAJA('Primer programa real', '#2A2824', '#F4F6F6', 'border:2px dashed ' + MUT)}${CAJA('Aplicarlo en más empresas', '#2A2824', '#F4F6F6', 'border:2px dashed ' + MUT)}${CAJA('Versión 3.0', '#2A2824', '#F4F6F6', 'border:2px dashed ' + MUT)}
+  </div>
+  <div style="display:grid;grid-template-columns:120px repeat(5,1fr);gap:6px;margin-top:6px"><div></div><div style="grid-column:2 / span 1;text-align:center;font-size:13px;color:${GV};font-weight:700;letter-spacing:2px;text-transform:uppercase">Hecho</div><div style="text-align:center;font-size:13px;color:${AV};font-weight:700;letter-spacing:2px;text-transform:uppercase">Estamos aquí</div><div style="grid-column:4 / span 3;text-align:left;font-size:13px;color:${MUT};letter-spacing:2px;text-transform:uppercase">Falta</div></div>
+</div>
+
+<div class="z" style="margin-top:30px">
+  <div class="k" style="color:${AV}">Seis empresas lo han evaluado ${EJ}</div>
+  <div style="font-size:16px;color:${MUT};margin-top:4px">Perfiles inventados: son lecturas plausibles, no clientes reales. Ninguna lo adoptaría entero.</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:10px">
+    ${EMP.map(([n, [q, f]], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:#2A2824;padding:14px 18px 18px"><div class="ser" style="font-size:29px;line-height:1.05">${n}</div><div style="font-size:16px;line-height:1.38;margin-top:8px"><b style="color:${GV}">Se quedaría con</b> ${q}</div><div style="font-size:16px;line-height:1.38;margin-top:8px"><b style="color:${AV}">Le falta</b> ${f}</div></div>`).join('')}
+  </div>
+</div>
+
+<div class="z" style="margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:16px">
+  <div class="leaf" style="border:2px solid rgba(244,246,246,.4);padding:16px 22px 20px"><div class="k" style="color:${GV}">Lo que coincide</div>
+    ${['Las seis se quedan con la decisión escrita en una página, con criterios fijados antes.', 'Cinco de seis, con el mapa de lo que nadie escribió y con poder parar y deshacer.', 'Tres piden una versión de una página con un orden de magnitud de esfuerzo.'].map((t, i) => `<div style="display:flex;gap:10px;align-items:baseline;font-size:17px;line-height:1.38;margin-top:8px"><span class="ser" style="font-size:28px;line-height:.9;color:${[TV, GV, AV][i]}">${i + 1}</span><span>${t}</span></div>`).join('')}</div>
+  <div class="leafb" style="border:2px solid rgba(244,246,246,.4);padding:16px 22px 20px"><div class="k" style="color:${AV}">Lo que viene</div>
+    ${['Decidir qué entra: las propuestas de las dos rondas.', 'Escribir la versión de una página, con ejemplos por sector.', 'Probarla en un primer programa real.'].map((t, i) => `<div style="display:flex;gap:10px;align-items:baseline;font-size:17px;line-height:1.38;margin-top:8px"><span class="ser" style="font-size:28px;line-height:.9;color:${[TV, GV, AV][i]}">${i + 1}</span><span>${t}</span></div>`).join('')}</div>
+</div>
+${foot('Ahora')}
+</section>`;
+
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 2 });
-  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pi}${pm}${p2}${pr}${pv}${p3}</body></html>`);
+  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pi}${pm}${p2}${pr}${pv}${p3}${pe}</body></html>`);
   await p.goto('file://' + f); await p.waitForTimeout(900);
   const over = await p.evaluate(() => [...document.querySelectorAll('.page')].map(s => s.scrollHeight));
   console.log('alturas', over.join(' '));
-  for (let i = 0; i < 7; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
-  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-siete-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
+  for (let i = 0; i < 8; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
+  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-ocho-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
   fs.unlinkSync(f); await b.close(); console.log('ok');
 })();
