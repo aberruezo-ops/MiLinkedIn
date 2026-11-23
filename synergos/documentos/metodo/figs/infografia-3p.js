@@ -42,13 +42,13 @@ h2{font-family:'Garamond',serif;font-weight:400;font-size:46px;line-height:1.05;
 .tri{display:flex;height:8px;width:260px}.tri b{flex:1}
 `;
 const tri = (a = TV, b = GV, c = AV) => `<div class="tri"><b style="background:${a}"></b><b style="background:${b}"></b><b style="background:${c}"></b></div>`;
-const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en seis páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 6</span></span></div>`;
-const TRAIL = [['Para qué', 'Para qué'], ['Personas y conocimiento', 'Qué mirar'], ['El tronco: fases y puertas', 'Camino'], ['Los roles del método', 'Quién'], ['Cómo se mide', 'Medir'], ['IA e innovación', 'IA']];
+const top = (n, dark) => `<div class="top z"><img src="file://${IM}${dark ? 'logo-synergos-dark.svg' : 'logo-synergos.svg'}"><span>El método en siete páginas · versión 2.1</span><span class="pg" style="color:inherit">${n} <span style="opacity:.45">/ 7</span></span></div>`;
+const TRAIL = [['Para qué', 'Para qué'], ['El itinerario', 'Itinerario'], ['Personas y conocimiento', 'Qué mirar'], ['El tronco: fases y puertas', 'Camino'], ['Los roles del método', 'Quién'], ['Cómo se mide', 'Medir'], ['IA e innovación', 'IA']];
 const foot = t => { const cur = TRAIL.findIndex(x => x[0] === t);
   const crumb = (txt, state, last) => `<span style="display:inline-flex;align-items:center;gap:6px"><span style="${state === 'now' ? 'font-weight:700;color:var(--nc);border-bottom:3px solid var(--tc)' : state === 'done' ? 'opacity:.9' : 'opacity:.5'}">${txt}</span>${last ? '' : '<span style="opacity:.4">›</span>'}</span>`;
   const items = [['Inicio', 'done']].concat(TRAIL.map((x, i) => [x[1], i === cur ? 'now' : i < cur ? 'done' : 'todo'])).concat([['Impacto en el negocio', cur === TRAIL.length - 1 ? 'goal' : 'todo']]);
   const html = items.map(([txt, st], i) => st === 'goal' ? `<span style="display:inline-flex;align-items:center;gap:6px"><span style="font-weight:700;color:${AV}">${txt}</span></span>` : crumb(txt, st, i === items.length - 1)).join(' ');
-  return `<div class="foot" style="--tc:${AV};--nc:${t === TRAIL[2][0] ? INK : '#fff'}"><i>Crecer a la vez.</i><span style="display:flex;gap:8px;align-items:center;font-size:12.5px;letter-spacing:2px">${html}</span></div>`; };
+  return `<div class="foot" style="--tc:${AV};--nc:${(t === TRAIL[1][0] || t === TRAIL[3][0]) ? INK : '#fff'}"><i>Crecer a la vez.</i><span style="display:flex;gap:8px;align-items:center;font-size:12.5px;letter-spacing:2px">${html}</span></div>`; };
 
 // ---------- Página 1: para qué ----------
 const STEP = (n, t, c, body, fg = '#F4F6F6') => `<div style="display:grid;grid-template-columns:170px 1fr;gap:26px;align-items:stretch"><div class="${n % 2 ? 'leaf' : 'leafb'}" style="background:${c};color:${INK};display:flex;flex-direction:column;justify-content:center;padding:22px 20px"><span class="ser" style="font-size:64px;line-height:.9">${n}</span><span class="k" style="font-size:13px;letter-spacing:3px;margin-top:8px">${t}</span></div><div style="padding:4px 0">${body}</div></div>`;
@@ -71,17 +71,58 @@ ${top(1, true)}
   ${ARR('Con un orden')}
   ${STEP(4, 'El orden', '#E8DFC9', `<div class="ser" style="font-size:42px;line-height:1.05">Un orden con puertas</div><div style="font-size:20px;line-height:1.42;color:${MUT};margin-top:8px">Cinco fases con una puerta al final de cada una, y los elementos que las sostienen: estrategia, gobierno, modelo económico, medición, madurez y dimensionamiento.</div>`)}
 </div>
-<div class="z" style="margin-top:34px;font-size:18px;line-height:1.4;color:${MUT}">En las páginas siguientes: qué se mira primero, cómo se avanza, quién interviene, cómo se sabe que funciona y dónde entra la IA.</div>
+<div class="z" style="margin-top:34px;font-size:18px;line-height:1.4;color:${MUT}">En las páginas siguientes: el itinerario completo, qué se mira primero, cómo se avanza, quién interviene, cómo se sabe que funciona y dónde entra la IA.</div>
 ${foot('Para qué')}
 </section>`;
 
-// ---------- Página 2: lo que nadie escribió ----------
+// ---------- Página 2: el itinerario ----------
+const IT = [
+  ['Diagnóstico', T, '#fff', ['Se escucha a quien hace el trabajo y a sus jefes directos.', 'Se apunta en una tabla lo que nadie escribió.', 'Todavía no entra en el servicio. Se anota lo que ya se usa.', 'Se toma la foto de partida.'], 'Se sabe cuál es el atasco principal y cómo está hoy.'],
+  ['Diseño', G, '#fff', ['Se rediseña el trabajo: qué hace cada uno y quién enseña el oficio.', 'Se decide qué pasa con cada cosa que se sabe.', 'Se elige tarea a tarea: eliminar, acelerar, automatizar o mejorar.', 'Se firma qué resultado se da por bueno y cuánto vale.'], 'Cinco preguntas respondidas por escrito.'],
+  ['Piloto', A, INK, ['Prueban quienes hacen el trabajo, con casos reales.', 'Se comprueba que no se ha perdido nada importante.', 'Entra en pequeño y con poca autonomía.', 'Se compara con la foto de partida.'], 'Se cumple lo firmado. Si no: ajustar y repetir, o retirar.'],
+  ['Escala', T, '#fff', ['Formación en el puesto y alguien que se ocupa de que se use.', 'Lo que se sabe pasa a procedimientos y a formación.', 'Se amplía por etapas. Más autonomía solo si se decide.', 'Se vigila que los resultados se mantienen al ampliar.'], 'Los resultados aguantan con más gente y más casos.'],
+  ['Sostenimiento', G, '#fff', ['La operación se hace responsable. El equipo del programa se va.', 'Lo aprendido queda escrito y al día.', 'Se revisa cada año: mantener, cambiar o retirar.', 'Dos periodos seguidos sin el equipo del programa.'], 'La mejora se mantiene sola.'],
+];
+const pi = `<section class="page light">
+${top(2, false)}
+<div class="z" style="margin-top:30px;display:grid;grid-template-columns:1fr 430px;gap:30px;align-items:end">
+  <div><div class="k" style="color:${T}">2 · ¿De dónde a dónde vamos?</div>
+  <h1 style="font-size:78px;letter-spacing:-2px;margin-top:8px;line-height:.98">El itinerario, <span style="font-style:italic;color:${G}">de un vistazo.</span></h1></div>
+  <div style="font-size:16.5px;line-height:1.4;color:${GREY}">Se lee de arriba abajo. Las fases van una detrás de otra. Dentro de cada fase, las cuatro columnas ocurren a la vez.</div>
+</div>
+
+<div class="z leaf" style="margin-top:20px;background:${INK};color:#F4F6F6;padding:14px 24px 16px;display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:center">
+  <div><div class="k" style="color:${AV};font-size:12.5px">Punto de partida</div><div class="ser" style="font-size:30px;line-height:1.05;margin-top:2px">Dónde estamos</div></div>
+  <div style="font-size:17px;line-height:1.4">Un servicio con un atasco, un objetivo de negocio escrito y un directivo que responde del programa.</div>
+</div>
+
+<div class="z" style="margin-top:12px;display:grid;grid-template-columns:150px repeat(4,1fr);gap:6px">
+  <div></div>
+  ${[['Personas', T, '#fff'], ['Conocimiento', G, '#fff'], ['Tecnología', A, INK], ['Medición', INK, '#F4F6F6']].map(([t, c, fg]) => `<div style="background:${c};color:${fg};padding:7px 12px;font-size:13px;letter-spacing:3px;text-transform:uppercase;font-weight:700;text-align:center">${t}</div>`).join('')}
+</div>
+${IT.map(([n, c, fg, cells, gate], i) => `<div class="z" style="margin-top:6px;display:grid;grid-template-columns:150px repeat(4,1fr);gap:6px;align-items:stretch">
+  <div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${c};color:${fg};padding:10px 12px;display:flex;flex-direction:column;justify-content:center"><span class="ser" style="font-size:44px;line-height:.9">${i + 1}</span><span class="ser" style="font-size:21px;line-height:1.05;margin-top:4px">${n}</span></div>
+  ${cells.map(t => `<div style="background:#fff;border:1.5px solid #D9D6CC;padding:12px 14px;font-size:17px;line-height:1.34;min-height:142px">${t}</div>`).join('')}
+</div>
+<div class="z" style="margin-top:6px;display:grid;grid-template-columns:150px 1fr;gap:6px;align-items:center">
+  <div style="text-align:center;font-size:22px;color:${G};line-height:1">↓</div>
+  <div style="background:#ECE8DC;padding:9px 14px;font-size:16.5px;line-height:1.3;display:flex;gap:12px;align-items:baseline"><span class="k" style="font-size:12px;letter-spacing:3px;color:${c === A ? AT : c};white-space:nowrap">Puerta ${i + 1} · se decide</span><span>${gate}</span></div>
+</div>`).join('')}
+
+<div class="z leafb" style="margin-top:10px;background:${G};color:#fff;padding:14px 24px 18px;display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:center">
+  <div><div class="k" style="color:#E3EEE6;font-size:12.5px">Destino</div><div class="ser" style="font-size:30px;line-height:1.05;margin-top:2px">A dónde llegamos</div></div>
+  <div style="font-size:17px;line-height:1.4">El resultado del negocio ha mejorado y se mantiene sin el equipo del programa. Lo aprendido sirve para empezar el siguiente diagnóstico.</div>
+</div>
+${foot('El itinerario')}
+</section>`;
+
+// ---------- Página 3: lo que nadie escribió ----------
 const PG = '#A9D9B8', GD = '#173A22';
 const pm = `<section class="page green">
 ${girasol({ cx: 1262, cy: 400, n: 480, c: 13, rot: 3.1, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
-${top(2, true)}
+${top(3, true)}
 <div class="z" style="margin-top:42px;width:940px">
-  <div class="k" style="color:${AV}">2 · ¿Qué se mira primero?</div>
+  <div class="k" style="color:${AV}">3 · ¿Qué se mira primero?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Antes de decidir,<br><span style="font-style:italic;color:${AV}">mirar lo que nadie escribió.</span></h1>
   <p style="font-size:21px;line-height:1.42;color:#DCEBE1;width:690px;margin-top:20px">En toda organización hay cosas que solo saben una o dos personas y que no están en ningún manual. Antes de cambiar nada, se apuntan en una tabla.</p>
 </div>
@@ -135,9 +176,9 @@ const F = [
 ];
 const p2 = `<section class="page light">
 ${girasol({ cx: 1262, cy: 420, n: 480, c: 13, rot: 1.3, s0: 3.2, sk: .02, cols: [T, G, A], op: .55 })}
-${top(3, false)}
+${top(4, false)}
 <div class="z" style="margin-top:42px;width:900px">
-  <div class="k" style="color:${T}">3 · ¿Cómo se avanza?</div>
+  <div class="k" style="color:${T}">4 · ¿Cómo se avanza?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Cinco fases.<br>Cada una acaba en<br><span style="font-style:italic;color:${G}">una puerta.</span></h1>
   <p style="font-size:20px;line-height:1.4;color:${GREY};width:640px;margin-top:14px">Una puerta es una decisión por escrito, con los criterios fijados de antemano.</p>
 </div>
@@ -179,9 +220,9 @@ const FAM = [
 const NOP = ['Quien decide no pone también la segunda firma.', 'Quien da fe de los datos no firma la decisión.', 'Quien se ocupa de que se use no es quien instala la herramienta.', 'Quien responde de la mejora es del negocio, no del programa.', 'El responsable de los datos es del negocio, no de informática.', 'La voz del cliente opina, pero no decide.'];
 const pr = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 5.1, s0: 3.2, sk: .02 })}
-${top(4, true)}
+${top(5, true)}
 <div class="z" style="margin-top:42px;width:900px">
-  <div class="k" style="color:${GV}">4 · ¿Quién interviene?</div>
+  <div class="k" style="color:${GV}">5 · ¿Quién interviene?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Quién es quién<br><span style="font-style:italic;color:${GV}">en cada decisión.</span></h1>
   <p style="font-size:21px;line-height:1.42;color:${MUT};width:780px;margin-top:20px">Una misma persona puede tener varios roles. Lo que el método no admite es que quien decide sea también quien controla.</p>
 </div>
@@ -208,9 +249,9 @@ ${foot('Los roles del método')}
 const ED = '#451A0B', EL = '#F0C3A4', ET = '#EBD3C4';
 const pv = `<section class="page earth">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 4.0, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
-${top(5, true)}
+${top(6, true)}
 <div class="z" style="margin-top:42px;width:900px">
-  <div class="k" style="color:${AV}">5 · ¿Cómo se sabe que funciona?</div>
+  <div class="k" style="color:${AV}">6 · ¿Cómo se sabe que funciona?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">Se mide antes,<br><span style="font-style:italic;color:${AV}">durante y después.</span></h1>
   <p style="font-size:21px;line-height:1.42;color:${ET};width:800px;margin-top:20px">No vale la impresión de la gente ni lo que declara el proveedor. Vale lo que se midió contra lo que había antes.</p>
 </div>
@@ -249,9 +290,9 @@ ${foot('Cómo se mide')}
 const N = [['Sugiere', 'La persona decide y hace todo.'], ['Propone', 'La persona revisa cada propuesta y decide.'], ['Actúa con revisión', 'La persona revisa una muestra y todo lo raro.'], ['Actúa e informa', 'La persona vigila los resultados y atiende las excepciones.']];
 const p3 = `<section class="page dark">
 ${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 2.2, s0: 3.2, sk: .02 })}
-${top(6, true)}
+${top(7, true)}
 <div class="z" style="margin-top:42px">
-  <div class="k" style="color:${AV}">6 · ¿Y dónde entra la IA?</div>
+  <div class="k" style="color:${AV}">7 · ¿Y dónde entra la IA?</div>
   <h1 style="font-size:94px;letter-spacing:-2px;margin-top:10px;line-height:.98">La IA entra<br><span style="font-style:italic;color:${AV}">por la puerta.</span></h1>
   <p style="font-size:21px;line-height:1.42;color:${MUT};width:800px;margin-top:18px">Como cualquier otra tecnología: tarea a tarea, con criterios escritos y sin darle más autonomía sin decidirlo antes.</p>
 </div>
@@ -305,11 +346,11 @@ ${foot('IA e innovación')}
 
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H }, deviceScaleFactor: 2 });
-  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pm}${p2}${pr}${pv}${p3}</body></html>`);
+  const f = path.join(dir, '_inf.html'); fs.writeFileSync(f, `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>${css}</style></head><body>${p1}${pi}${pm}${p2}${pr}${pv}${p3}</body></html>`);
   await p.goto('file://' + f); await p.waitForTimeout(900);
   const over = await p.evaluate(() => [...document.querySelectorAll('.page')].map(s => s.scrollHeight));
   console.log('alturas', over.join(' '));
-  for (let i = 0; i < 6; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
-  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-seis-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
+  for (let i = 0; i < 7; i++) await p.screenshot({ path: path.join(out, `infografia-metodo-${i + 1}.png`), clip: { x: 0, y: i * H, width: W, height: H }, fullPage: true });
+  await p.pdf({ path: path.join(out, 'Synergos-El-metodo-en-siete-paginas.pdf'), width: W + 'px', height: H + 'px', printBackground: true, margin: { top: 0, bottom: 0, left: 0, right: 0 } });
   fs.unlinkSync(f); await b.close(); console.log('ok');
 })();
