@@ -273,3 +273,4 @@ Registro cronológico de cómo evoluciona la idea. Entradas breves: qué se disc
 
 - 23 nov: infografía esencial de tres páginas (`figs/infografia-esencial.js`, `Synergos-Lo-esencial-del-metodo.pdf`): la idea, el camino y cuatro ideas. Petición del autor: menos conceptos, más vistosa. La de ocho páginas queda como versión completa.
 - 23 nov 2026: rutina de posts hijos. Borrador del martes 24 (B24, conocimiento: quién enseña lo que la tarea enseñaba) con vídeo, presentado a Alejandro y pendiente de aprobación. Sin post programado en Publora; cupo 13 de 15. Falta la URL del AR5 para el primer comentario.
+- 23 nov 2026 (tarde): rutina de comentarios. Candidatos presentados a Alejandro, pendientes de aprobación: Oscar Viniegra Lira (marco común de IA, masterclass), Daniel Peña García (contratar a alguien de IA en plantilla), Victor Fairen (efecto Ringelmann y equipos con agentes). Descartados por repetir semana: Aldanondo, Tayar, Torralbo, Julia Díaz. Nada publicado.
