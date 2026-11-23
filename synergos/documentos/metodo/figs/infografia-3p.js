@@ -15,6 +15,9 @@ function girasol({ cx, cy, n, c, rot = 0, s0 = 4, sk = 0.018, cols = [TV, GV, AV
   }
   return `<svg class="sun" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="opacity:${op}">${g}</svg>`;
 }
+// Un solo tamaño y una sola posición para el girasol en todas las páginas
+const SUN = (rot, cols, op) => girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot, s0: 3.2, sk: .02, ...(cols ? { cols } : {}), ...(op ? { op } : {}) });
+const EJ = `<span style="display:inline-block;background:${AV};color:${INK};padding:3px 10px;font-size:11px;letter-spacing:3px;text-transform:uppercase;font-weight:700;border-radius:0 8px 0 3px">Ejemplo</span>`;
 const face = (fam, file, wt = 400, st = 'normal') => `@font-face{font-family:'${fam}';src:url('file://${FONTDIR}${file}');font-weight:${wt};font-style:${st}}`;
 const css = `
 ${face('Garamond', 'eb-garamond-400-normal.ttf')}${face('Garamond', 'eb-garamond-500-normal.ttf', 500)}${face('Garamond', 'eb-garamond-400-italic.ttf', 400, 'italic')}
@@ -54,7 +57,7 @@ const foot = t => { const cur = TRAIL.findIndex(x => x[0] === t);
 const STEP = (n, t, c, body, fg = '#F4F6F6') => `<div style="display:grid;grid-template-columns:170px 1fr;gap:26px;align-items:stretch"><div class="${n % 2 ? 'leaf' : 'leafb'}" style="background:${c};color:${INK};display:flex;flex-direction:column;justify-content:center;padding:22px 20px"><span class="ser" style="font-size:64px;line-height:.9">${n}</span><span class="k" style="font-size:13px;letter-spacing:3px;margin-top:8px">${t}</span></div><div style="padding:4px 0">${body}</div></div>`;
 const ARR = (t) => `<div style="display:flex;align-items:center;gap:14px;margin:30px 0 30px 70px;color:${MUT};font-size:17px;letter-spacing:3px;text-transform:uppercase;font-weight:600"><span style="font-size:24px;color:${GV}">↓</span>${t}</div>`;
 const p1 = `<section class="page dark">
-${girasol({ cx: 1100, cy: 330, n: 420, c: 10, rot: .5, s0: 3, sk: .02 })}
+${SUN(0.5)}
 ${top(1, true)}
 <div class="z" style="margin-top:40px">
   <div class="k" style="color:${GV}">1 · ¿Para qué sirve este método?</div>
@@ -83,17 +86,19 @@ const IT = [
   ['Escala', T, '#fff', ['Formación en el puesto y alguien que se ocupa de que se use.', 'Lo que se sabe pasa a procedimientos y a formación.', 'Se amplía por etapas. Más autonomía solo si se decide.', 'Se vigila que los resultados se mantienen al ampliar.'], 'Los resultados aguantan con más gente y más casos.'],
   ['Sostenimiento', G, '#fff', ['La operación se hace responsable. El equipo del programa se va.', 'Lo aprendido queda escrito y al día.', 'Se revisa cada año: mantener, cambiar o retirar.', 'Dos periodos seguidos sin el equipo del programa.'], 'La mejora se mantiene sola.'],
 ];
+const TRACK = (cur, label) => `<div style="display:flex;align-items:center;gap:8px;margin-top:6px">${[1, 2, 3, 4, 5].map(i => `<span style="width:26px;height:26px;border-radius:50%;background:${i < cur ? G : i === cur ? T : '#E3E0D6'};color:${i <= cur ? '#fff' : GREY};font-size:13px;font-weight:700;display:flex;align-items:center;justify-content:center">${i}</span>${i < 5 ? `<span style="flex:0 0 14px;height:3px;background:${i < cur ? G : '#D9D6CC'}"></span>` : ''}`).join('')}<span style="font-size:14px;color:${GREY};margin-left:6px">${label}</span></div>`;
 const pi = `<section class="page light">
+${SUN(0.9)}
 ${top(2, false)}
-<div class="z" style="margin-top:30px;display:grid;grid-template-columns:1fr 430px;gap:30px;align-items:end">
-  <div><div class="k" style="color:${T}">2 · ¿De dónde a dónde vamos?</div>
-  <h1 style="font-size:78px;letter-spacing:-2px;margin-top:8px;line-height:.98">El itinerario, <span style="font-style:italic;color:${G}">de un vistazo.</span></h1></div>
-  <div style="font-size:16.5px;line-height:1.4;color:${GREY}">Se lee de arriba abajo. Las fases van una detrás de otra. Dentro de cada fase, las cuatro columnas ocurren a la vez.</div>
+<div class="z" style="margin-top:30px;width:880px">
+  <div class="k" style="color:${T}">2 · ¿De dónde a dónde vamos?</div>
+  <h1 style="font-size:70px;letter-spacing:-2px;margin-top:8px;line-height:.98">El itinerario, <span style="font-style:italic;color:${G}">de un vistazo.</span></h1>
+  <div style="font-size:17px;line-height:1.4;color:${GREY};margin-top:10px;width:760px">Se lee de arriba abajo. Las fases van una detrás de otra. Dentro de cada fase, las cuatro columnas ocurren a la vez.</div>
 </div>
 
 <div class="z leaf" style="margin-top:20px;background:${INK};color:#F4F6F6;padding:14px 24px 16px;display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:center">
   <div><div class="k" style="color:${AV};font-size:12.5px">Punto de partida</div><div class="ser" style="font-size:30px;line-height:1.05;margin-top:2px">Dónde estamos</div></div>
-  <div style="font-size:17px;line-height:1.4">Un servicio con un atasco, un objetivo de negocio escrito y un directivo que responde del programa.</div>
+  <div style="font-size:16.5px;line-height:1.4">Un servicio con un atasco, un objetivo de negocio escrito y un directivo que responde del programa. ${EJ} Un servicio de expedientes donde los casos complejos tardan 40 días porque dependen de tres personas.</div>
 </div>
 
 <div class="z" style="margin-top:12px;display:grid;grid-template-columns:150px repeat(4,1fr);gap:6px">
@@ -102,7 +107,7 @@ ${top(2, false)}
 </div>
 ${IT.map(([n, c, fg, cells, gate], i) => `<div class="z" style="margin-top:6px;display:grid;grid-template-columns:150px repeat(4,1fr);gap:6px;align-items:stretch">
   <div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${c};color:${fg};padding:10px 12px;display:flex;flex-direction:column;justify-content:center"><span class="ser" style="font-size:44px;line-height:.9">${i + 1}</span><span class="ser" style="font-size:21px;line-height:1.05;margin-top:4px">${n}</span></div>
-  ${cells.map(t => `<div style="background:#fff;border:1.5px solid #D9D6CC;padding:12px 14px;font-size:17px;line-height:1.34;min-height:142px">${t}</div>`).join('')}
+  ${cells.map(t => `<div style="background:#fff;border:1.5px solid #D9D6CC;padding:12px 14px;font-size:16.5px;line-height:1.34;min-height:116px">${t}</div>`).join('')}
 </div>
 <div class="z" style="margin-top:6px;display:grid;grid-template-columns:150px 1fr;gap:6px;align-items:center">
   <div style="text-align:center;font-size:22px;color:${G};line-height:1">↓</div>
@@ -111,7 +116,11 @@ ${IT.map(([n, c, fg, cells, gate], i) => `<div class="z" style="margin-top:6px;d
 
 <div class="z leafb" style="margin-top:10px;background:${G};color:#fff;padding:14px 24px 18px;display:grid;grid-template-columns:230px 1fr;gap:24px;align-items:center">
   <div><div class="k" style="color:#E3EEE6;font-size:12.5px">Destino</div><div class="ser" style="font-size:30px;line-height:1.05;margin-top:2px">A dónde llegamos</div></div>
-  <div style="font-size:17px;line-height:1.4">El resultado del negocio ha mejorado y se mantiene sin el equipo del programa. Lo aprendido sirve para empezar el siguiente diagnóstico.</div>
+  <div style="font-size:16.5px;line-height:1.4">El resultado del negocio ha mejorado y se mantiene sin el equipo del programa. Lo aprendido sirve para el siguiente diagnóstico. ${EJ} Los casos complejos tardan 28 días y los resuelve más de una persona.</div>
+</div>
+<div class="z" style="margin-top:10px;display:grid;grid-template-columns:1fr 1.25fr;gap:10px">
+  <div style="background:#fff;border:1.5px solid #D9D6CC;padding:10px 16px 12px"><div class="k" style="font-size:12px;letter-spacing:3px;color:${T}">Nivel 1 · cada cambio propuesto</div>${TRACK(5, 'Recorre las cinco fases con sus puertas')}</div>
+  <div style="background:#fff;border:1.5px solid #D9D6CC;padding:10px 16px 12px"><div class="k" style="font-size:12px;letter-spacing:3px;color:${G}">Nivel 2 · el programa, con varios ámbitos a la vez</div>${TRACK(4, 'Ámbito A')}${TRACK(2, 'Ámbito B')}${TRACK(1, 'Ámbito C')}</div>
 </div>
 ${foot('El itinerario')}
 </section>`;
@@ -119,7 +128,7 @@ ${foot('El itinerario')}
 // ---------- Página 3: lo que nadie escribió ----------
 const PG = '#A9D9B8', GD = '#173A22';
 const pm = `<section class="page green">
-${girasol({ cx: 1262, cy: 400, n: 480, c: 13, rot: 3.1, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
+${SUN(3.1, [AV, '#7CC090', TV], .95)}
 ${top(3, true)}
 <div class="z" style="margin-top:42px;width:940px">
   <div class="k" style="color:${AV}">3 · ¿Qué se mira primero?</div>
@@ -128,7 +137,7 @@ ${top(3, true)}
 </div>
 
 <div class="z leaf" style="margin-top:30px;background:${PAPER};color:${INK};padding:22px 28px 26px">
-  <div style="display:flex;justify-content:space-between;align-items:baseline"><div><span class="k" style="color:${G}">Lo primero que se hace</span><div class="ser" style="font-size:44px;line-height:1.05;margin-top:4px">El mapa de lo que nadie escribió</div></div><div style="font-size:14px;color:${GREY};text-align:right;width:230px;line-height:1.35">Ejemplo inventado, sin nombres.</div></div>
+  <div style="display:flex;justify-content:space-between;align-items:baseline"><div><span class="k" style="color:${G}">Lo primero que se hace</span><div class="ser" style="font-size:44px;line-height:1.05;margin-top:4px">El mapa de lo que nadie escribió</div></div><div style="text-align:right;width:230px">${EJ}<div style="font-size:14px;color:${GREY};line-height:1.35;margin-top:4px">Caso inventado, por perfiles y sin nombres.</div></div></div>
   <div style="display:grid;grid-template-columns:1.55fr 1fr .8fr .9fr;gap:6px;margin-top:14px;font-size:17px;line-height:1.32">
     ${['Qué se sabe', 'Quién lo sabe', 'Dónde se usa', 'Cuántos lo saben'].map(t => `<div class="k" style="font-size:12.5px;letter-spacing:3.5px;color:${G};padding:8px 12px;background:#E3EEE6">${t}</div>`).join('')}
     ${[['Qué peticiones acabarán en reclamación', 'Perfil A y perfil B', 'Al clasificar', 'Dos personas', 0], ['A quién llamar en otra unidad cuando algo se atasca', 'Perfil A', 'Excepciones', 'Una persona', 1]]
@@ -175,7 +184,7 @@ const F = [
   ['Sostenimiento', G, '#fff', 'Que la mejora siga cuando el equipo del programa se vaya.', 'Alguien de la operación se hace responsable y los resultados se mantienen dos periodos seguidos.'],
 ];
 const p2 = `<section class="page light">
-${girasol({ cx: 1262, cy: 420, n: 480, c: 13, rot: 1.3, s0: 3.2, sk: .02, cols: [T, G, A], op: .55 })}
+${SUN(1.3, [T, G, A], .55)}
 ${top(4, false)}
 <div class="z" style="margin-top:42px;width:900px">
   <div class="k" style="color:${T}">4 · ¿Cómo se avanza?</div>
@@ -219,7 +228,7 @@ const FAM = [
 ];
 const NOP = ['Quien decide no pone también la segunda firma.', 'Quien da fe de los datos no firma la decisión.', 'Quien se ocupa de que se use no es quien instala la herramienta.', 'Quien responde de la mejora es del negocio, no del programa.', 'El responsable de los datos es del negocio, no de informática.', 'La voz del cliente opina, pero no decide.'];
 const pr = `<section class="page dark">
-${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 5.1, s0: 3.2, sk: .02 })}
+${SUN(5.1)}
 ${top(5, true)}
 <div class="z" style="margin-top:42px;width:900px">
   <div class="k" style="color:${GV}">5 · ¿Quién interviene?</div>
@@ -248,7 +257,7 @@ ${foot('Los roles del método')}
 // ---------- Página 5: cómo se mide ----------
 const ED = '#451A0B', EL = '#F0C3A4', ET = '#EBD3C4';
 const pv = `<section class="page earth">
-${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 4.0, s0: 3.2, sk: .02, cols: [AV, '#7CC090', TV], op: .95 })}
+${SUN(4.0, [AV, '#7CC090', TV], .95)}
 ${top(6, true)}
 <div class="z" style="margin-top:42px;width:900px">
   <div class="k" style="color:${AV}">6 · ¿Cómo se sabe que funciona?</div>
@@ -268,6 +277,7 @@ ${top(6, true)}
       .map(([a, b, c, fg], i) => `<div class="${i % 2 ? 'leafb' : 'leaf'}" style="background:${c};color:${fg};padding:12px 16px 16px;min-height:112px"><div style="display:flex;gap:10px;align-items:baseline"><span class="ser" style="font-size:34px;line-height:.9;opacity:.75">${i + 1}</span><span class="ser" style="font-size:25px;line-height:1.05">${a}</span></div><div style="font-size:15.5px;line-height:1.34;margin-top:6px;opacity:.92">${b}</div></div>`).join('')}
   </div>
   <div style="font-size:16.5px;line-height:1.42;color:${ET};margin-top:10px">Cada mejora tiene un responsable en el negocio, y la cuenta se corrige en cada decisión con lo medido.</div>
+  <div style="background:#5B2D18;padding:10px 18px 12px;margin-top:10px;font-size:15.5px;line-height:1.4;color:${ET}">${EJ} <b style="color:#fff">Expedientes complejos:</b> el atasco son tres personas de las que todo depende; cada día de espera genera reclamaciones y repetición de trabajo; el efecto previsto es de 80.000 a 150.000 euros al año, tras unos meses en los que se empeora antes de mejorar.</div>
 </div>
 
 <div class="z" style="margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:18px">
@@ -289,7 +299,7 @@ ${foot('Cómo se mide')}
 // ---------- Página 6: IA e innovación ----------
 const N = [['Sugiere', 'La persona decide y hace todo.'], ['Propone', 'La persona revisa cada propuesta y decide.'], ['Actúa con revisión', 'La persona revisa una muestra y todo lo raro.'], ['Actúa e informa', 'La persona vigila los resultados y atiende las excepciones.']];
 const p3 = `<section class="page dark">
-${girasol({ cx: 1262, cy: 392, n: 480, c: 13, rot: 2.2, s0: 3.2, sk: .02 })}
+${SUN(2.2)}
 ${top(7, true)}
 <div class="z" style="margin-top:42px">
   <div class="k" style="color:${AV}">7 · ¿Y dónde entra la IA?</div>
