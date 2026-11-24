@@ -437,7 +437,7 @@
   "pieza": "lun 23 nov · Artículo · Diagnóstico antes que solución",
   "pilar": "El orden",
   "estado": "aprobado",
-  "falta": "Aprobado el 21 nov. Lo pegas tú a mano el lunes y me pasas la URL. Falta redactar el post de presentación si lo quieres",
+  "falta": "Sigue sin publicar. Lo pegas tú a mano con la cabecera y me pasas la URL. El post de presentación ya está redactado, con cinco hashtags, pendiente de tu visto bueno",
   "enlaces": [
    {
     "t": "Texto del artículo",
@@ -446,6 +446,10 @@
    {
     "t": "Notas del borrador",
     "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion.md"
+   },
+   {
+    "t": "Post de presentación",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-23-AR5-post.md"
    },
    {
     "t": "Portada",
@@ -460,11 +464,19 @@
  {
   "fecha": "2026-11-24",
   "tipo": "Post",
-  "pieza": "mar 24 nov · Post · Tema por elegir (conocimiento)",
+  "pieza": "mar 24 nov · Post · Quién enseña lo que la tarea enseñaba",
   "pilar": "Conocimiento",
   "estado": "por decidir",
-  "falta": "Propuesta: quién enseña lo que la tarea enseñaba. Falta tu elección",
+  "falta": "Borrador y vídeo listos. Falta tu aprobación y la URL del artículo para el primer comentario. Cupo: quedan 2 posts en Publora",
   "enlaces": [
+   {
+    "t": "Texto del post",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-24-B24.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B24.mp4"
+   },
    {
     "t": "Banco y calendario de posts",
     "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
