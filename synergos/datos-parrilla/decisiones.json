@@ -1,42 +1,38 @@
 [
  {
   "n": 1,
-  "decision": "Artículo «Diagnóstico antes que solución»: sigue sin publicar. Lo pegas tú a mano (cabecera, vídeo y texto enviados el 23 nov) y me pasas la URL. El post de presentación está redactado y lleva cinco hashtags; dime si lo apruebas"
+  "decision": "Post del jueves 26 (escala de autonomía, tecnología): borrador y vídeo listos. Apruébalo o cámbialo, y decide si lo pegas tú a mano o pasa al 1 dic. Sin cupo en Publora"
  },
  {
   "n": 2,
-  "decision": "Post de hoy, martes 24 (quién enseña lo que la tarea enseñaba): borrador y vídeo listos, falta tu aprobación para programarlo a las 8:30. Jueves 26: cambiar Zuboff por la escala de autonomía (B21); dime si te vale y lo redacto"
+  "decision": "Cupo de Publora: 15 de 15 en noviembre (el post de hoy es el último). Faltan el jueves 26 y el cierre del viernes 27. Opciones: a mano, saltarlos o subir de plan. El cupo de diciembre se repone el 1"
  },
  {
   "n": 3,
-  "decision": "Cupo de Publora: llevas 13 de 15 y quedan 2. Hasta fin de mes el calendario pide 4 más (24, 25, 26 y el cierre del 27), así que faltan 2. El horizonte llega al 30 nov. Opciones: publicar a mano dos de ellos, quitar un día o subir de plan"
+  "decision": "Comentarios en posts ajenos: del 19 al 24 nov se han publicado veintiuno con tus recomendaciones (el 24: Fairen, Zurek, Tayar y Moya). El de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano"
  },
  {
   "n": 4,
-  "decision": "Comentarios en posts ajenos: del 19 al 23 nov se han publicado dieciocho con tus recomendaciones (el 23: Oscar Viniegra, Daniel Peña y Victor Fairen, este último el 24 tras el reinicio del límite). El de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano"
- },
- {
-  "n": 5,
   "decision": "Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras"
  },
  {
-  "n": 6,
-  "decision": "Método 2.1: 229 páginas. Suma el objetivo de negocio, los roles (anexo I) y Eliminar como cuarto verbo, con el Lean (cinco porqués, ocho desperdicios, ECRS, referencias sin leer). Infografía en ocho páginas, en lenguaje llano, con la página «Ahora el método se aplica a sí mismo». Revísala y dime qué no se entiende"
+  "n": 5,
+  "decision": "Método 2.1: 229 páginas. El consejo de seis perspectivas (25 nov) dice que no se lleva tal cual a un primer programa: núcleo corto, un ámbito, cliente real, fecha y horquilla de esfuerzo. Pregunta clave: ¿hay ya un cliente real dispuesto? Decide si empiezo por la versión de una página con la horquilla (synergos/consejo/2026-11-25-metodo-2.1.md)"
  },
  {
-  "n": 7,
+  "n": 6,
   "decision": "Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta"
  },
  {
-  "n": 8,
+  "n": 7,
   "decision": "Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)"
  },
  {
-  "n": 9,
+  "n": 8,
   "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar"
  },
  {
-  "n": 10,
+  "n": 9,
   "decision": "Paneles del método: la ronda 1 (cuatro roles) y la 2 (seis empresas) están en panel/. Decide cuatro cosas de la ronda 1 (piezas no retirables, dos deltas con regla del mínimo o media, declaración de plantilla, 2.2 con las propuestas 1 a 8) y si preparo un borrador de la versión de una página con una horquilla de esfuerzo, que piden tres empresas de las seis"
  }
 ]

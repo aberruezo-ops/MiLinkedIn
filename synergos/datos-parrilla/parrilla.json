@@ -436,9 +436,13 @@
   "tipo": "Artículo",
   "pieza": "lun 23 nov · Artículo · Diagnóstico antes que solución",
   "pilar": "El orden",
-  "estado": "aprobado",
-  "falta": "Sigue sin publicar. Lo pegas tú a mano con la cabecera y me pasas la URL. El post de presentación ya está redactado, con cinco hashtags, pendiente de tu visto bueno",
+  "estado": "publicado",
+  "falta": "",
   "enlaces": [
+   {
+    "t": "Artículo en LinkedIn",
+    "u": "https://www.linkedin.com/pulse/diagn%C3%B3stico-antes-que-soluci%C3%B3n-la-puerta-por-pasa-berruezo-m%C3%A1rquez-qdige/"
+   },
    {
     "t": "Texto del artículo",
     "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion-para-pegar.md"
@@ -466,20 +470,20 @@
   "tipo": "Post",
   "pieza": "mar 24 nov · Post · Quién enseña lo que la tarea enseñaba",
   "pilar": "Conocimiento",
-  "estado": "por decidir",
-  "falta": "Borrador y vídeo listos. Falta tu aprobación y la URL del artículo para el primer comentario. Cupo: quedan 2 posts en Publora",
+  "estado": "publicado",
+  "falta": "",
   "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7530906818252836864"
+   },
    {
     "t": "Texto del post",
     "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-24-B24.md"
    },
    {
     "t": "Vídeo",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B24.mp4"
-   },
-   {
-    "t": "Banco y calendario de posts",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+    "u": "https://media.publora.com/videos/1795506300223-anim-infografia-B24.mp4"
    }
   ]
  },
@@ -488,8 +492,8 @@
   "tipo": "Post",
   "pieza": "mié 25 nov · Post comunidad · El liderazgo empieza donde termina el ego",
   "pilar": "Personas",
-  "estado": "aprobado",
-  "falta": "Regenerar el vídeo girasol con su pregunta. Se programa en Publora",
+  "estado": "programado",
+  "falta": "Sale hoy a las 8:30 con vídeo y primer comentario con el enlace al artículo",
   "enlaces": [
    {
     "t": "Texto",
@@ -500,22 +504,26 @@
     "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/tarjeta-comunidad-C11.png"
    },
    {
-    "t": "Vídeo (por regenerar)",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-comunidad-C11.mp4"
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-comunidad-C11b.mp4"
    }
   ]
  },
  {
   "fecha": "2026-11-26",
   "tipo": "Post",
-  "pieza": "jue 26 nov · Post · Escala de autonomía: el borrador sí, el envío no",
+  "pieza": "jue 26 nov · Post · La escala de autonomía: antes de actuar sola, la IA tiene que ganárselo",
   "pilar": "Tecnología",
   "estado": "por decidir",
-  "falta": "Propuesta: B21 en lugar de Zuboff, que ya se ha usado mucho. Decide y lo redacto",
+  "falta": "Borrador y vídeo listos. Falta tu aprobación. Sin cupo en Publora: lo pegas tú a mano o pasa al 1 dic",
   "enlaces": [
    {
-    "t": "Banco y calendario de posts",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+    "t": "Texto",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-26-B21.md"
+   },
+   {
+    "t": "Vídeo",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B21.mp4"
    }
   ]
  },
@@ -525,7 +533,7 @@
   "pieza": "vie 27 nov · Cierre semanal · El orden",
   "pilar": "Cierre",
   "estado": "por redactar",
-  "falta": "Rutina del jueves 26. Ya cabe en el horizonte de Publora (hasta el 27)",
+  "falta": "Sin cupo en Publora: se publica a mano o se salta. Se redacta el jueves 26 si lo quieres",
   "enlaces": [
    {
     "t": "Regla del cierre semanal",
