@@ -1,107 +1,120 @@
-# DESTIEMPO · La trilogía
-### Plan maestro (sustituye al plan de seis libros)
-
-Tres novelas que se publican a la vez. Cada una se puede leer y sentir como completa, y juntas forman una historia con principio, nudo y desenlace. El final de la trilogía cierra el conflicto central y abre una puerta mayor para continuar la saga.
+# DESTIEMPO · La trilogía (versión 2)
+### Plan maestro. Sustituye a todo lo anterior sobre estructura.
 
 ---
 
-## 1. Qué es una trilogía «redonda»
+## 0. Pregunta de la trilogía
 
-Cuatro condiciones que cumple cada libro:
+> **¿Cuánto vale tu tiempo, y a quién se lo das?**
 
-1. **Un arco interno cerrado.** Al terminar, el protagonista ha cambiado de verdad.
-2. **Una pregunta central que se responde.** El lector no se queda con la sensación de que le han estafado.
-3. **Una herida que cuesta.** Alguien o algo importante se pierde.
-4. **Una puerta abierta al final.** Una revelación que reformula lo que creíamos saber.
+Es la columna que une los tres libros. El tiempo es lo único que de verdad nos damos unos a otros: el tiempo de un padre con su hijo, de un abuelo con su nieto, de un amigo que se queda. Y alguien ha descubierto cómo robarlo.
 
-Y tres condiciones para el conjunto:
-- Los tres libros se alimentan: lo que se siembra en el I cobra en el III.
-- El desenlace del III cierra el conflicto de Raúl y del Destiempo.
-- La última página abre una segunda historia (la saga continúa).
+**Tema para adolescentes:** vivimos rodeados de tecnología hecha para ponernos nerviosos, para que miremos más, para quedarnos con nuestro tiempo. Destiempo lo convierte en trama: la app que te pregunta cada noche cómo estás **no es inocente**.
 
 ---
 
-## 2. La trilogía de un vistazo
+## 1. La idea que lo cambia todo
 
-| | **Libro I** | **Libro II** | **Libro III** |
-|---|---|---|---|
-| **Título** | *El segundo de más* | *La hora que nadie mira* | *A tiempo* |
-| **Protagonista** | Edu | Edu y Nora (capítulos alternos) | Todos |
-| **Pregunta** | ¿Qué me está pasando? | ¿Dónde está mi padre y quién nos vigila? | ¿Cómo se cierra el Destiempo sin perder a nadie? |
-| **Tono** | Descubrimiento y duelo | Investigación y traición | Cuenta atrás y sacrificio |
-| **Pérdida** | Muere Tomás | Muere la doctora Ibarra | Se paga el precio final (ver abajo) |
-| **Final** | «Hola, papá» | Sale del Destiempo un Edu de treinta años | A tiempo... y el reloj marca siete |
+**Cada segundo que un intervalo toma prestado no desaparece: alguien lo cobra.**
+
+Los «apagones» de Edu no son lagunas. Son **visitas**: ese tiempo lo pasa en el Destiempo, un Madrid congelado a las 4:17, con alguien que lo espera. Cada vez que Edu abre su puerta, **le cuesta vida a su padre**, y su padre lo sabe y lo permite porque es la única forma de verlo.
+
+Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 
 ---
 
-## 3. Arco de cada libro
+## 2. Mitología: la Cuenta
 
-### LIBRO I · El segundo de más (Edu)
-**Arco de Edu:** de huir a estar presente. Aprende que calmarse no es esconderse y que el don se gobierna con calma.
-**Se cierra:** qué es el don, cuál es su coste, quién es la doctora Ibarra, la amistad con Bruno, la verdad de que su padre no se fue.
-**Se abre:** el Destiempo existe. Edu habló once minutos con su padre y no lo recuerda.
-**Pérdida:** Tomás.
-**Final:** el audio «Hola, papá» y el reloj en las 4:18.
+**La Cuenta.** Cada persona nace con una cantidad finita de tiempo. Se gasta a un segundo por segundo. Casi nadie puede tocarla.
 
-### LIBRO II · La hora que nadie mira (Edu y Nora)
-**Arco de Edu:** de buscar a su padre a aceptar lo que cuesta encontrarlo.
-**Arco de Nora:** de aislarse a dejarse acompañar. Su don crece: ahora oye las emociones un instante antes de que ocurran.
-**Se cierra:** quién es Marcos, el pasado de Tomás (el primer intervalo), qué quiere realmente el Instituto, la historia de los dos amigos que Nora perdió, el verdadero origen de los apagones de Edu.
-**Se abre:** el Destiempo no es una cárcel, es una puerta. Y alguien la mantiene abierta desde dentro.
-**Pérdida:** la doctora Ibarra, que se interpone para que su hijo Marcos pueda escapar.
-**Final:** se abre la puerta de la hora oculta y sale un Edu de treinta años, agotado, que dice: «Lo hice todo mal. Escuchadme con atención».
+**Los intervalos.** Personas cuyo cuerpo «gotea» tiempo. Pueden estirar, regalar o pedir prestados segundos. Se despiertan entre los 11 y los 14 años tras un susto muy grande. Cada uno gotea por una emoción distinta.
 
-### LIBRO III · A tiempo (todos)
-**Arco de Edu:** de cargar con la deuda a devolver el tiempo que no era suyo.
-**Se cierra:** el destino de Raúl, el Destiempo, el Instituto, el origen de los intervalos, Iván y Lía se suman al grupo, el reloj de Tomás.
-**Pérdida / precio:** Edu devuelve a su padre todos los segundos que le debía. A cambio, pierde su don para siempre. Raúl regresa envejecido veinte años de golpe, sin recuerdos de los tres últimos, y con un secreto: no estaba solo allí.
-**Final:** el reloj de bolsillo de Tomás, ya sin función, se abre. Dentro, en lugar de agujas, hay un marcador con siete números que bajan. Uno acaba de despertar en un lugar que no es Madrid. Edu ya no tiene don, pero Nora lo oye.
+**La deuda.** Todo segundo prestado se carga a una cuenta. Si es la del propio intervalo, se paga al cuadrado en apagones: el primer segundo cuesta 1 minuto, el segundo 4, el tercero 9. Esos minutos no se pierden: se viven en el Destiempo.
+
+**El Destiempo.** Es el almacén. Un Madrid reflejado y congelado donde cada reloj marca las 4:17, con el Metro parado entre estaciones, la gente quieta en mitad de un gesto y el aire tibio como el de una habitación cerrada. Allí van a parar todos los segundos que se dejan de vivir. Se entra por **la hora que nadie mira**: los sesenta segundos entre las 4:17 y las 4:18 que ningún reloj cuenta.
+
+**El Consejo de la Cuenta.** Fundado en 1971 por **Aurelio Quintana**, que descubrió que el tiempo almacenado en el Destiempo se puede **extraer** y usar para alargar vidas. Hoy tiene más de noventa años y parece de cincuenta. El Consejo, con sedes en varias capitales, cosecha a niños intervalo: les provoca estrés para que usen el don, y recoge sus deudas.
+
+**El Programa Cronos.** La tapadera en Madrid: psicólogas amables, una app, una pulsera.
+
+**Bienestar+ y Pulso.** No miden el bienestar: lo **fabrican**. Las notificaciones nocturnas, las preguntas, las alertas de «has estado en tensión 4 minutos»... están diseñadas para subir la ansiedad de los chicos justo lo suficiente para que el don se abra. Cronos, la IA, aprende qué mensaje asusta a cada uno. Es la parte que reconoce todo adolescente.
+
+**Los Siete.** Los primeros intervalos de la historia. Tomás fue el primero. El reloj de bolsillo no mide la hora: cuenta cuántos quedan por despertar.
 
 ---
 
-## 4. Puertas abiertas para la saga
+## 3. Las verdades ocultas (quién sabe qué)
 
-Lo que queda sin resolver a propósito:
-
-1. **Los siete.** El reloj cuenta siete intervalos por despertar en el mundo. Uno se acaba de despertar fuera de España.
-2. **El Consejo.** El Instituto de Madrid depende de una organización internacional que solo se ha insinuado. La doctora Ibarra tenía una jefa.
-3. **La otra orilla del Destiempo.** Raúl no estaba solo: había otros adultos desaparecidos. Alguien más sigue dentro.
-4. **Los amigos de Nora.** Pablo y Leyre no aparecieron. Nora ahora sabe que siguen vivos.
-5. **El origen.** Por qué Tomás fue el primero en 1971 y qué le pasó a su familia entonces.
-6. **El Edu del futuro.** Quién era y de qué futuro venía. En el libro III se ve que no era exactamente él.
-
-Cada una es la semilla de un posible segundo ciclo.
+| Verdad | Quién la sabe al empezar |
+|---|---|
+| Los apagones son visitas al Destiempo | Raúl |
+| Cada segundo de Edu se carga a la cuenta de Raúl | Raúl y Tomás |
+| El Consejo cosecha el tiempo de los niños | Aurelio, Ibarra (en parte) |
+| Marcos no está olvidado: está atrapado en la hora oculta | Ibarra |
+| Tomás fue el primer intervalo y ayudó sin querer a Aurelio | Tomás |
+| El Edu del futuro no viene a salvar | El propio Edu del futuro |
 
 ---
 
-## 5. Distribución de revelaciones
+## 4. Estructura de la trilogía
 
-| Revelación | Libro | Capítulo aprox. |
-|---|---|---|
-| Existe el don y tiene coste | I | 1 a 3 |
-| La madre mintió y el padre no se fue | I | 12 |
-| La doctora busca a su hijo | I | 21 |
-| Muere Tomás | I | 22 |
-| «Hola, papá» | I | 24 |
-| Marcos es el hijo de la doctora | II | 6 |
-| Tomás fue el primer intervalo | II | 11 |
-| Edu usa el tiempo de su padre | II | 18 |
-| Muere la doctora Ibarra | II | 21 |
-| Sale el Edu del futuro | II | 24 |
-| El Edu del futuro no era Edu | III | 8 |
-| El Destiempo es una puerta, no una cárcel | III | 14 |
-| Edu renuncia al don y Raúl regresa | III | 22 |
-| El marcador de siete | III | 24 |
+### LIBRO I · *El segundo de más* (Edu)
+**Pregunta:** ¿qué me pasa? **Tono:** descubrimiento y duelo.
+**Arco de Edu:** de huir a estar presente.
+**Se cierra:** qué es el don, cuánto cuesta, quién es Ibarra, la amistad con Bruno, que su padre no se fue.
+**Pérdida:** muere Tomás, que presta su tiempo para salvarlos.
+**Giro final:** en la grabación de su cocina se oye «Hola, papá». Los doce minutos que perdió **no se perdieron**: habló con su padre. Y la letra de «NO MÁS» en su cuaderno de laboratorio (capítulo 9) **es la de Raúl**.
+**Puerta abierta:** el reloj marca las 4:18 y Nora oye el latido del Destiempo.
+
+### LIBRO II · *La hora que nadie mira* (Edu y Nora, capítulos alternos)
+**Pregunta:** ¿dónde está mi padre y qué quieren? **Tono:** investigación y traición.
+**Arco de Nora:** de aislarse a liderar. Su don evoluciona: oye las emociones **tres segundos antes** de que ocurran.
+**Revelaciones:**
+- Madrid existe doble. Entran en el Destiempo por primera vez.
+- Bienestar+ fabrica la ansiedad: **lo descubre Bruno** leyendo el código.
+- Edu comprende que cada vez que usa el don **mata un poco a su padre**, y que su padre lo permite.
+- Marcos es hijo de Ibarra y lleva cinco años atrapado en la hora oculta.
+- Tomás fue el primero de los Siete.
+**Pérdida:** muere la doctora Ibarra al romper el cerco para que su hijo escape.
+**Giro final:** se abre la puerta y sale un Edu de treinta años: «Lo hice todo mal. Escuchadme con atención».
+
+### LIBRO III · *A tiempo* (todos)
+**Pregunta:** ¿cómo se cierra el Destiempo sin perder a nadie? **Tono:** cuenta atrás y sacrificio.
+**Revelaciones:**
+- **El Edu del futuro miente.** Lo hizo todo mal, sí, pero porque se convirtió en el brazo derecho de Aurelio. Vuelve para cambiar de cuerpo con su yo joven y salvarse a sí mismo. **El enemigo final es él mismo.**
+- **El Gran Cobro:** el Consejo prepara una cosecha masiva a través de Bienestar+, sincronizada para el día en que 40.000 alumnos de Madrid reciban a la vez la misma notificación.
+- Segundero, la paloma, es el primer segundo que Tomás prestó, hecho carne. Se va cuando se salda su deuda.
+**Resolución:** Bruno filtra todo y su canal, por fin, llega a millones. Los chicos paran el Cobro. Edu **renuncia al don** y devuelve a su padre el tiempo que le debía. Aurelio envejece noventa años en un minuto. Raúl vuelve, envejecido veinte años, y abraza a su hijo.
+**Final:** el reloj de Tomás, ya sin función de reloj, se abre. Dentro, un marcador con siete números que bajan. Uno acaba de cambiar. En un lugar que no es Madrid. Edu ya no tiene don, pero Nora lo oye.
 
 ---
 
-## 6. Plan de escritura y publicación
+## 5. Cómo se refuerzan los tres libros
+
+- **I** deja una semilla que **II** convierte en ruptura y **III** en elección.
+- Cada libro tiene un golpe que cambia el significado del anterior: «Hola, papá» (I), «mi don mata a mi padre» (II), «el que vuelve soy yo» (III).
+- El narrador es el propio Edu, en pasado, y sus «luego supe» anuncian lo que viene sin destripar.
+- Tecnología y emoción van juntas: el problema de fondo no es magia, es una app.
+
+---
+
+## 6. Puertas abiertas para la saga
+
+1. **Los Siete.** Uno acaba de despertar fuera de España.
+2. **El Consejo.** Aurelio muere, pero tiene sedes y herederos.
+3. **Pablo y Leyre.** Los amigos perdidos de Nora estaban en el Destiempo. Vuelve uno; el otro, no.
+4. **La otra orilla.** Raúl vio algo en el fondo del Destiempo: una puerta que no es la de Madrid.
+5. **Segundero.** Al irse, deja una pluma con un número.
+
+---
+
+## 7. Plan de escritura y publicación
 
 | Fase | Contenido | Estado |
 |---|---|---|
-| 1 | Biblia, estructura, trilogía | Hecho |
-| 2 | Libro I: capítulos 1 a 6 | Hecho |
-| 3 | Libro I: capítulos 7 a 24 | En curso |
+| 1 | Biblia, estructura, esqueleto v2 | Hecho |
+| 2 | Libro I: capítulos 1 a 12 | Hecho |
+| 3 | Libro I: capítulos 13 a 24 | Pendiente |
 | 4 | Libro II completo | Pendiente |
 | 5 | Libro III completo | Pendiente |
 | 6 | Revisión de continuidad de los tres | Pendiente |
