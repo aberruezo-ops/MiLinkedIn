@@ -41,7 +41,7 @@ Cada libro destapa una pieza de ese lugar. La saga acaba cuando los chicos llega
 
 **Cuándo aparece.** Entre los 11 y los 14 años, con el primer gran sobresalto emocional.
 
-**El coste.** Todo uso deja una deuda. En el caso de Edu, cada segundo que "estira" se le descuenta después en forma de **apagón**: un tramo en que se queda en blanco sin darse cuenta. Cuanto más usa el don, más tiempo de su vida le falta sin saber dónde fue.
+**El coste.** Todo uso deja una deuda, y la deuda puede matar: Tomás, que lleva medio siglo prestando tiempo, muestra hasta dónde llega. En el caso de Edu, cada segundo que "estira" se le descuenta después en forma de **apagón**: un tramo en que se queda en blanco sin darse cuenta. Cuanto más usa el don, más tiempo de su vida le falta sin saber dónde fue.
 
 **Cómo se reconocen entre ellos.** Los relojes les fallan cerca. Y cada intervalo nota en los demás un "ruido" distinto.
 
@@ -110,10 +110,12 @@ Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sa
 - **Lo que revela:** una madre que quiere ser perfecta y no puede. Edu aprende a verla como persona.
 
 ### Tomás Valdés, 74 años, abuelo
-- Relojero jubilado, viudo, con las manos llenas de callos. Habla poco y se refugia en arreglar relojes.
-- **Su secreto:** fue el primer intervalo que se conoció (se revelará en el libro 3). Construyó el reloj de Edu para medir sus propios apagones.
-- **Su culpa:** ayudó sin saberlo a quien después se llevó a su hijo.
-- **Frase suya:** «Las cosas que llegan a destiempo no llegan mal, llegan cuando les toca».
+- Relojero jubilado, viudo, con las manos llenas de callos. Habla poco y se refugia en arreglar relojes. Tose por las mañanas y dice que es el polvo de la tienda.
+- **Su don:** presta tiempo. Puede regalar segundos propios a otra persona, y esos segundos se le restan de la vida. Fue el primer intervalo que existió y lleva cincuenta años usándolo en secreto, de uno en uno, con mucho cuidado.
+- **Su culpa:** años atrás ayudó sin saberlo a quien después se llevó a su hijo Raúl.
+- **Su papel en el libro 1:** es el ancla de Edu. Su muerte, en el capítulo 22, es el golpe que cambia a todos los personajes. Se entrega para que Edu y Nora salgan vivos: les presta diez segundos a cada uno y su cuerpo envejece cuarenta años en un instante.
+- **Frase suya:** «Las cosas que llegan a destiempo no llegan mal, llegan cuando les toca». Es lo último que le dice a Edu, junto a otra: «No uses el segundo de más. No es tuyo».
+- **Después de su muerte:** su tienda, su paloma *Segundero* y sus relojes quedan como herencia y como mapa. Su secreto (que fue el primero y dónde está su foto de 1971) se revela en el libro 3.
 
 ### Raúl Valdés, 41 años, padre
 - Ingeniero. Brillante, cariñoso, torpe en lo cotidiano. Hacía reír a Edu midiendo cosas absurdas con un cronómetro.
@@ -171,13 +173,14 @@ Pistas fijas que se repiten: el reloj de bolsillo de Tomás, parado en las 4:17,
 - **Ansiedad y control.** Edu aprende que el don solo se maneja con calma. Calmarse es la habilidad central, no el poder.
 - **Técnica de los cinco sentidos (grounding).** Ejercicio real para volver al presente. Aparece como herramienta, nunca como truco mágico.
 - **Apego y pérdida ambigua.** La desaparición del padre sin certeza es una pérdida difícil de elaborar. Es el corazón emocional que pueden sentir los adultos.
+- **Duelo adolescente.** La muerte de Tomás no se resuelve en un capítulo. Se muestra con sus fases reales: negación, culpa («fue por mi culpa»), rabia con quien queda y humor que sale en mal momento. Los personajes reaccionan distinto: Edu se bloquea, Bruno bromea, Nora se calla, Marta trabaja turnos dobles. Se evita la moraleja y la frase hecha.
 - **Patologizar la diferencia.** La psicóloga plantea una pregunta incómoda: ¿tratar lo distinto o aceptarlo?
 
 ## 12. Los finales: de boca abierta y con la puerta abierta
 
 Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítulo debe cambiar lo que el lector creía saber.
 
-**I. El segundo de más.** Edu escapa del Instituto sin usar el don: se calma, y eso lo salva. Parece el final. Entonces Bruno, que ha descargado las grabaciones de las cámaras de la cocina de Edu, le enseña lo que pasó en sus doce minutos perdidos del capítulo 2. No estaba parado: caminó hasta una puerta que no existe en la pared y habló once minutos con alguien. El audio, limpiado, dice una sola frase: «Hola, papá». El reloj de bolsillo marca por fin las 4:18 y Nora oye un latido lejano.
+**I. El segundo de más.** En el clímax, en el Instituto, Edu no estira el tiempo: se calma, y eso salva a Nora de una trampa. Pero los hombres de la doctora los acorralan. Entonces aparece Tomás, el abuelo, que ha seguido a su nieto con su bastón. Les presta diez segundos a cada uno, los suficientes para escapar, y su cuerpo envejece cuarenta años delante de Edu. Muere en sus brazos a las 4:17 de la tarde, en el mismo minuto en que su hijo desapareció hace tres años, diciéndole: «No uses el segundo de más. No es tuyo». Es el golpe. El funeral, la madre rota, el barrio entero. Dos semanas después, Bruno, que ha descargado las grabaciones de la cocina de Edu, le enseña lo que ocurrió en sus doce minutos perdidos del capítulo 2. No estaba parado: caminó hasta una puerta que no existe en la pared y habló once minutos con alguien. El audio, limpiado, dice una sola frase: «Hola, papá». Y en ese instante el reloj de bolsillo, que había vuelto a pararse con la muerte de Tomás, marca las 4:18. Nora oye un latido lejano. Y Edu entiende que su abuelo no se llevó el secreto a la tumba: se lo dejó a él.
 
 **II. El eco que llega antes.** Nora, que ahora oye las emociones un instante antes de que ocurran, empieza a sentir una señal que viene del Destiempo. Cuando por fin la entiende, es una voz pidiendo ayuda. Es la voz de Edu, pero de dentro de tres días. Y dice: «No abráis la puerta».
 
