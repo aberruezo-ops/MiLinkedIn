@@ -143,6 +143,9 @@ La tecnología de la saga es la que usan los chicos de hoy. Lo fantástico se me
 - **Fallos que delatan.** Cerca de un intervalo en acción los relojes digitales se atrasan, las marcas de hora de los vídeos se corrompen, el GPS baila y el Wi-Fi tartamudea. Bruno convierte eso en método de detección.
 - **El cronógrafo de Raúl.** Un aparato casero que mezcla relojería mecánica de Tomás con sensores de Raúl. Es la prueba de que el padre estudió esto desde dentro. En el libro 2 aparece una copia moderna, más pequeña, dentro de la pulsera.
 
+### La IA que mueve a todos menos a ellos
+Cronos es una inteligencia artificial que no da órdenes: predice el segundo siguiente de cada persona y le manda el mensaje justo para que actúe por sí sola. Controla así a casi toda la ciudad sin que nadie lo note. No puede con los intervalos, porque viven con segundos que ella no tiene en la lista. Es el miedo real de hoy (sistemas que nos conocen mejor que nosotros y nos empujan) convertido en antagonista. Regla de escritura: Cronos nunca amenaza ni miente; es amable, exacta y dice siempre la verdad que le conviene. Detalle en `trilogia.md`.
+
 ## 9. Realismo mágico
 
 Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin que nadie se asombre. Solo Edu empieza a fijarse.

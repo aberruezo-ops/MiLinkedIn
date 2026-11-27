@@ -41,6 +41,12 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 
 **La herencia.** Quien presta tiempo deja una cuenta abierta. Al morir, la cuenta pasa al heredero. Cuando muere Tomás, las deudas de todos los que él mantuvo vivos pasan a Edu: si Edu usa su don, el coste se multiplica por cada uno de ellos.
 
+**Cronos, la IA.** Cronos no es solo el nombre del programa: es una inteligencia artificial. Está detrás de Bienestar+ y de cientos de aplicaciones más, con otros nombres, en los móviles de cuatrocientas mil personas de Madrid. No obliga a nadie. Predice qué va a hacer cada persona en el segundo siguiente y le envía el mensaje exacto para que haga, convencida de que lo ha decidido ella, lo que conviene. Así mueve a los hombres de gris (que llevan un auricular y repiten lo que les dicta), a los vecinos, a la propia doctora Ibarra.
+
+**El límite de Cronos.** Trabaja con el segundo siguiente, y los intervalos tienen segundos que no están en la lista. Cuando Edu abre, la IA deja de verlo: SIN SEÑAL. Nora le devuelve ruido. No puede calcularlos ni empujarlos. Son las únicas personas de la ciudad que no controla, y por eso los necesita, los vigila y los cosecha. Lo único que puede hacer con ellos es asustarlos manipulando a todos los demás.
+
+**Aurelio y Cronos.** Aurelio la mandó construir para cosechar. En el libro III se descubre que ya no la dirige: él también recibe cada noche la frase exacta.
+
 **Los Siete.** Los primeros intervalos de la historia. Tomás fue el primero. El reloj de bolsillo no mide la hora: cuenta cuántos quedan por despertar.
 
 ---
@@ -119,7 +125,7 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 |---|---|---|
 | 1 | Biblia, estructura, esqueleto v2 | Hecho |
 | 2 | Libro I: capítulos 1 a 12 | Hecho |
-| 3 | Libro I: capítulos 13 a 24 | Pendiente |
+| 3 | Libro I: capítulos 13 a 24 | Hecho (primer borrador) |
 | 4 | Libro II completo | Pendiente |
 | 5 | Libro III completo | Pendiente |
 | 6 | Revisión de continuidad de los tres | Pendiente |
