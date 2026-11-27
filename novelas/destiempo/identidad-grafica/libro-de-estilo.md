@@ -168,3 +168,7 @@ En el libro I esto delata a Nora desde su primera ilustración sin que el texto 
 
 Añadir a los prompts: *irises drawn as tiny watch dials with twelve minute tick marks, catchlight is a thin amber clock hand, the two eyes slightly out of sync, crescent dark circles in halftone dots.*
 Pruebas: `ilustraciones/caras/`. Jobs: 34fa3734-77a7-4623-9fda-5904d275da80 (Edu), 6dfb0e56-917a-42ee-b68f-238f82a9bef9 (reparto).
+
+## 14. Personajes españoles (rige sobre la sección 7 en lo que choque)
+Estilo de novela gráfica española con un punto de manga, no manga puro. Proporciones europeas, ojos de tamaño real pero algo grandes para que se lea el iris. Rasgos mediterráneos: piel morena sugerida con rayado cálido, cejas oscuras marcadas, nariz con carácter, pecas. Ropa y detalles de barrio de Madrid: chándal, sudadera, cadenita, aros pequeños, camisa de cuadros abotonada, rebeca. Sin bufandas ni escudos de ningún equipo.
+Añadir a los prompts: *Spanish graphic-novel ink style with a light manga influence, natural European proportions, unmistakably Spanish, Mediterranean features, olive skin suggested with warm hatching, thick dark eyebrows.*
