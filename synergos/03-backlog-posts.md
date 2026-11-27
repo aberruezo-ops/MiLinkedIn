@@ -33,7 +33,7 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 ## Calendario previsto (desde el 9 nov: lunes artículo del pilar de la semana; martes y miércoles los otros dos pilares; jueves el orden; ver A12 y A14)
 
-Desde el 30 nov (A24, estrategia de alcance): sin post de presentación el lunes y sin cierre el viernes. Cada semana quedan el artículo del lunes y tres posts (martes opinión, miércoles pregunta fácil, jueves opinión). Donde la tabla dice "Vie ... cierre de semana" o "post de presentación", ya no se hace.
+Desde el 30 nov (A24, estrategia de alcance): sin post de presentación el lunes y sin cierre el viernes. El artículo es quincenal (7 dic, 21 dic, 4 ene, 18 ene) y los posts son dos por semana: martes y jueves, de opinión, cada uno con pregunta fácil de cierre. Sin miércoles de pregunta, sin post de presentación y sin cierre de viernes. La vuelta 2 se ha desplazado: AR6 el 7 dic, AR7 el 21 dic, AR8 (tecnología) el 4 ene y AR9 (el orden) el 18 ene.
 
 La serie recorre el método por vueltas: cada semana el artículo es de un pilar distinto (conocimiento, personas, tecnología, el orden) y cada vuelta baja un nivel. Regla de reparto: martes y miércoles son los otros dos pilares entre conocimiento, personas y tecnología (en ese orden, saltando el del artículo); jueves siempre el orden; en las semanas del orden, martes a jueves son conocimiento, personas y tecnología. Los ítems del banco se reasignan al pilar que les toca. Las vueltas 3 y 4 se cierran en la sesión del índice del método con Alejandro.
 
@@ -50,10 +50,10 @@ La serie recorre el método por vueltas: cada semana el artículo es de un pilar
 
 | Semana | Elemento | Artículo del lunes | Hijos |
 |---|---|---|---|
-| 30 nov | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando (PENDIENTE DE REDACTAR: la rutina del jueves 26 nov no se ejecutó por el fallo del chat anterior) | Mar 1 dic personas / Mié 2 dic tecnología: C16 ¿cuántos pilotos has visto escalar? / Jue 3 dic el orden: B10 ángulo áureo |
-| 7 dic | Personas | AR7 Lo que preguntasteis: participar, liderar, el miedo (sin nombres) | Mar 8 dic conocimiento: B2 minas de carbón y pilotos de IA / Mié 9 dic tecnología / Jue 10 dic el orden |
-| 14 dic | Tecnología | AR8 De la demo al uso: por qué el piloto funciona y el despliegue no | Mar 15 dic conocimiento: C14 ¿qué sabe hacer tu equipo junto que nadie sabe por separado? / Mié 16 dic personas: C9 el miedo a que se haga sin mí / Jue 17 dic el orden |
-| 21 dic | Crecer a la vez | AR9 El orden importa: 137,5 grados, nada nuevo encima de lo no mirado | B10 ángulo áureo / C17 pregunta de cierre de año / B17 el método en una página (adelanto) |
+| 30 nov (sin artículo) | Sin artículo | Descanso del lunes (AR6 pasa al 7 dic; no estaba redactado) | Mar 1 dic tecnología: C16 ¿cuántos pilotos has visto escalar?, en versión opinión con pregunta fácil (A18: qué aporta la IA y qué tiene que ser cierto) / Jue 3 dic el orden: B10 ángulo áureo |
+| 7 dic | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando (se redacta el jueves 3 dic) | Mar 8 dic personas / Jue 10 dic el orden |
+| 14 dic (sin artículo) | Sin artículo | Descanso del lunes | Mar 15 dic conocimiento: B2 minas de carbón y pilotos de IA o C14 ¿qué sabe hacer tu equipo junto que nadie sabe por separado? / Jue 17 dic el orden (ese día, a las 17:41, balance de A24) |
+| 21 dic | Personas | AR7 Lo que preguntasteis: participar, liderar, el miedo (sin nombres) | Mar 22 dic tecnología / Jue 24 dic el orden (Nochebuena: decidir en la semana del 14 dic si se mueve al 23 o se omite) |
 
 **Vuelta 3 (enero, por cerrar en la sesión del índice):** Conocimiento en la tecnología (qué tiene de nuevo la IA generativa, B9); Personas: quién enseña lo que la tarea enseñaba (Stanford); Tecnología: lo que la tecnología aprende de nosotros; Crecer a la vez: gobierno y medida.
 
