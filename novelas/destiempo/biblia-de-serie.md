@@ -47,22 +47,17 @@ Cada libro destapa una pieza de ese lugar. La saga acaba cuando los chicos llega
 
 **Qué no pueden.** Cambiar el pasado, curar a nadie, ni ocultar la deuda. Y no pueden controlar el don si están en pánico, solo si logran calmarse un instante.
 
-## 5. Los libros de la saga y sus títulos
+## 5. La trilogía y sus títulos
 
-Todos los títulos llevan la palabra *Destiempo* delante y cada subtítulo habla del tiempo desde el poder de cada protagonista.
+El plan vigente es una **trilogía** que se publica entera (ver `trilogia.md`). Los títulos de la serie siempre llevan *Destiempo* delante.
 
-| N.º | Título | Protagonista | Qué altera | Pieza del Destiempo que se descubre |
-|---|---|---|---|---|
-| I | **Destiempo I: El segundo de más** | Edu | Estira su tiempo con el miedo | Los segundos prestados tienen una deuda, y esa deuda va a algún sitio |
-| II | **Destiempo II: El eco que llega antes** | Nora | Oye la emoción de los demás, y cada vez antes de que ocurra | Los intervalos se oyen: hay una señal que viene del Destiempo |
-| III | **Destiempo III: La hora que nadie mira** | Marcos | Se esconde de la atención de los demás | Existe una hora oculta que ningún reloj cuenta: es la puerta |
-| IV | **Destiempo IV: Lo que el reloj olvidó** | Lía | Recuerda lo que los demás olvidan | Los minutos perdidos de Edu: qué hizo allí y a quién vio |
-| V | **Destiempo V: Demasiado deprisa** | Iván | Acelera todo lo que toca | La puerta se rompe: el Destiempo empieza a invadir el mundo |
-| VI | **Destiempo VI: A tiempo** | Todos | Se juntan | Rescatar a Raúl y cerrar el Destiempo sin perder a nadie |
+| N.º | Título | Protagonista | Pérdida |
+|---|---|---|---|
+| I | **Destiempo I: El segundo de más** | Edu | Muere Tomás |
+| II | **Destiempo II: La hora que nadie mira** | Edu y Nora | Muere la doctora Ibarra |
+| III | **Destiempo III: A tiempo** | Todos | Edu renuncia al don para devolver el tiempo de su padre |
 
-El juego del título: la saga empieza **a destiempo** y termina **a tiempo**.
-
-Todos acaban relacionándose con el mismo hecho oculto: la desaparición de Raúl Valdés, el padre de Edu.
+El juego del título: la saga empieza **a destiempo** y termina **a tiempo**. Los poderes que antes iban en libros separados (la memoria de Lía y la aceleración de Iván) se incorporan como nuevos personajes al grupo en los libros II y III.
 
 ## 6. Escenario: Madrid, hoy
 
@@ -158,14 +153,13 @@ Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin qu
 
 ## 10. Hilo de misterio de la serie
 
-1. **Libro I.** Edu descubre que estira el tiempo y que le cuesta. Nora le dice que lo perdido «va a algún sitio» y que alguien lo llama el Destiempo.
-2. **Libro II.** Nora oye una señal que viene de ese lugar: un latido regular, como un reloj muy lejano. Cada intervalo que despierta lo hace sonar más fuerte.
-3. **Libro III.** Marcos conoce la puerta: una hora que existe entre las 4:17 y las 4:18 y que nadie ve, porque nadie la mira.
-4. **Libro IV.** Lía recupera el recuerdo de los doce minutos que Edu perdió en el libro I. Estuvo allí. Vio a alguien. Era su padre.
-5. **Libro V.** Iván acelera algo que no debía y la puerta se rompe. El Destiempo se filtra: relojes que se atrasan, gente que se queda sin horas.
-6. **Libro VI.** Se juntan los cinco para entrar a rescatar a Raúl. La doctora Ibarra tiene que decidir de qué lado está.
+El hilo completo, con las revelaciones por libro y por capítulo, está en `trilogia.md` (apartados 3 y 5). Resumen:
 
-Pistas fijas que se repiten: el reloj de bolsillo de Tomás, parado en las 4:17, y la frase que se oye en cada libro: *las cosas que llegan a destiempo no llegan mal, llegan cuando les toca.*
+1. **Libro I.** Edu descubre el don y su coste. Muere Tomás. Un audio dice «Hola, papá».
+2. **Libro II.** Buscan la hora oculta. Se revela quién es Marcos, el pasado de Tomás y que Edu gasta el tiempo de su padre. Muere la doctora. Sale un Edu del futuro.
+3. **Libro III.** Cierran el Destiempo. Edu renuncia al don y Raúl vuelve. El reloj marca siete.
+
+Pistas fijas: el reloj de bolsillo de Tomás y la frase *las cosas que llegan a destiempo no llegan mal, llegan cuando les toca.*
 
 ## 11. Fundamento psicológico (para el autor)
 
@@ -182,15 +176,9 @@ Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítu
 
 **I. El segundo de más.** En el clímax, en el Instituto, Edu no estira el tiempo: se calma, y eso salva a Nora de una trampa. Pero los hombres de la doctora los acorralan. Entonces aparece Tomás, el abuelo, que ha seguido a su nieto con su bastón. Les presta diez segundos a cada uno, los suficientes para escapar, y su cuerpo envejece cuarenta años delante de Edu. Muere en sus brazos a las 4:17 de la tarde, en el mismo minuto en que su hijo desapareció hace tres años, diciéndole: «No uses el segundo de más. No es tuyo». Es el golpe. El funeral, la madre rota, el barrio entero. Dos semanas después, Bruno, que ha descargado las grabaciones de la cocina de Edu, le enseña lo que ocurrió en sus doce minutos perdidos del capítulo 2. No estaba parado: caminó hasta una puerta que no existe en la pared y habló once minutos con alguien. El audio, limpiado, dice una sola frase: «Hola, papá». Y en ese instante el reloj de bolsillo, que había vuelto a pararse con la muerte de Tomás, marca las 4:18. Nora oye un latido lejano. Y Edu entiende que su abuelo no se llevó el secreto a la tumba: se lo dejó a él.
 
-**II. El eco que llega antes.** Nora, que ahora oye las emociones un instante antes de que ocurran, empieza a sentir una señal que viene del Destiempo. Cuando por fin la entiende, es una voz pidiendo ayuda. Es la voz de Edu, pero de dentro de tres días. Y dice: «No abráis la puerta».
+**II. La hora que nadie mira.** Encuentran la puerta de la hora oculta. La doctora Ibarra, que ha buscado a su hijo Marcos durante cuatro años, se interpone para que él pueda escapar y muere. En ese momento la puerta se abre del todo y sale alguien: un Edu de unos treinta años, cansado, que dice: «Lo hice todo mal. Escuchadme con atención».
 
-**III. La hora que nadie mira.** Encuentran la puerta: la hora oculta entre las 4:17 y las 4:18. Marcos sale. La doctora Ibarra llora al verlo. Pero lo que deja a todos helados es otra cosa: en la pared de la hora oculta, grabadas, hay fotografías de intervalos de todas las épocas. La más antigua es de 1971 y tiene a Tomás, el abuelo de Edu, a los 21 años. Él es el primero. Y no se lo había contado a nadie.
-
-**IV. Lo que el reloj olvidó.** Lía recupera los doce minutos de Edu y los comparte. Raúl no desapareció: cuando Edu tenía nueve años iba a morir en un accidente y su padre cambió su tiempo por el de su hijo. El segundo de más que usa Edu es el tiempo de su padre. Cada vez que lo estira, Raúl se acorta. Y Edu lo ha usado muchas veces.
-
-**V. Demasiado deprisa.** Iván acelera algo que no debía y la puerta se rompe. El Destiempo se derrama sobre Madrid: los relojes se paran, el Metro se detiene entre estaciones, la gente se queda congelada. Solo los cinco se mueven. De la grieta sale alguien, y no es Raúl: es un Edu de unos treinta años, cansado, que les dice: «Lo hice todo mal. Escuchadme con atención».
-
-**VI. A tiempo.** Se resuelve la trama central. Pero en la última página, Tomás, ya anciano, abre el reloj de bolsillo y descubre que no mide tiempo: cuenta cuántos intervalos quedan por despertar. Marca 7. Y empieza a moverse.
+**III. A tiempo.** Se resuelve la trama central. Edu devuelve a su padre el tiempo que le debía, a cambio de su don. Raúl regresa. El Edu del futuro no era Edu, sino algo que el Destiempo había construido con su aspecto. En la última página, el reloj de Tomás ya no marca la hora: es un marcador con siete números, y uno acaba de bajar.
 
 ## 13. Cosas que evitar
 

@@ -1,6 +1,8 @@
 # DESTIEMPO I: EL SEGUNDO DE MÁS
 ### Libro 1 de Destiempo · Esquema de 24 capítulos
 
+**Primer libro de la trilogía Destiempo** (ver `../trilogia.md`). Debe ser redondo: cierra el arco de Edu y deja la puerta abierta al libro II.
+
 Narrador: Edu Valdés, 12 años. Lugar: el barrio de Usera, en Madrid, con el aire de la sierra siempre de fondo. Extensión prevista: 65.000 palabras.
 
 ## Parte I. El segundo de más
@@ -18,7 +20,7 @@ Narrador: Edu Valdés, 12 años. Lugar: el barrio de Usera, en Madrid, con el ai
 8. **Nora no habla.** Nora explica qué son los intervalos y que ella oye las emociones de los demás como ruido.
 9. **La deuda.** Edu mide cuánto le cuesta usar el don. Pierde cuarenta minutos y su madre lo encuentra en el suelo del baño.
 10. **El tercero.** Aparece Marcos, un chico mayor que nadie recuerda haber visto. Se esconde de la atención de la gente.
-11. **Lo que escondía la relojería.** En la tienda cerrada del abuelo, Edu halla un cuaderno de su padre con fechas, ecuaciones y la hora 4:17.
+11. **Lo que escondía la relojería.** En la tienda del abuelo, Edu halla detrás del gran reloj de estación (que alguien ha adelantado a las 4:18) el cuaderno de su padre, con el nombre «Marcos I.» y el acuerdo del Programa Cronos firmado por su madre. *Pista abierta:* ¿quién adelantó el reloj de estación?
 12. **4:17.** Recuerda el día en que su padre se fue. Descubre que su madre le mintió.
 
 ## Parte III. La doctora
