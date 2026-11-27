@@ -54,7 +54,7 @@ Todos los títulos llevan la palabra *Destiempo* delante y cada subtítulo habla
 | N.º | Título | Protagonista | Qué altera | Pieza del Destiempo que se descubre |
 |---|---|---|---|---|
 | I | **Destiempo I: El segundo de más** | Edu | Estira su tiempo con el miedo | Los segundos prestados tienen una deuda, y esa deuda va a algún sitio |
-| II | **Destiempo II: El eco que llega antes** | Nora | Oye la emoción de los demás, y cada vez antes de que ocurra | Los desfases se oyen: hay una señal que viene del Destiempo |
+| II | **Destiempo II: El eco que llega antes** | Nora | Oye la emoción de los demás, y cada vez antes de que ocurra | Los intervalos se oyen: hay una señal que viene del Destiempo |
 | III | **Destiempo III: La hora que nadie mira** | Marcos | Se esconde de la atención de los demás | Existe una hora oculta que ningún reloj cuenta: es la puerta |
 | IV | **Destiempo IV: Lo que el reloj olvidó** | Lía | Recuerda lo que los demás olvidan | Los minutos perdidos de Edu: qué hizo allí y a quién vio |
 | V | **Destiempo V: Demasiado deprisa** | Iván | Acelera todo lo que toca | La puerta se rompe: el Destiempo empieza a invadir el mundo |
