@@ -152,3 +152,19 @@ Estructura fija: logotipo arriba, subtítulo del libro en ámbar, ilustración c
 
 ## 12. Firma visual propuesta: la cronofotografia manga
 Cada personaje deja detras copias fantasma en secuencia (como las placas de Marey), con marcas de regla en ambar sobre cada exposicion. El tiempo de la historia se lee en la propia imagen: en I el movimiento de Edu en un instante, en II el reflejo que se adelanta un paso, en III cinco edades de una misma persona (12 a 30) caminando hacia la derecha. Carpeta: ilustraciones/cronofotografia/.
+
+## 13. Firma de las caras: ojos de esfera
+Lo que distingue una cara de Destiempo de cualquier otro manga está en los ojos.
+
+1. **Iris de esfera.** El iris es una esfera de reloj: un anillo de doce marcas de minuto, sin números.
+2. **El brillo es una aguja.** En vez del brillo redondo habitual, el reflejo del ojo es una aguja fina en ámbar.
+3. **Ojos a destiempo.** En los intervalos (Edu, Nora, Tomás, Marcos, Lía, Iván) las dos agujas no coinciden: un ojo va un punto por detrás del otro. Es la única pista visual de quién tiene don.
+4. **Personas sin don** (Bruno, Marta, Dani): iris de esfera con brillo blanco redondo normal, sin ámbar.
+5. **Aurelio:** ojos vacíos, sin marcas ni brillo. Vive de tiempo ajeno, no tiene hora propia.
+6. **Ojeras de trama.** Todas las caras llevan la ojera como media luna de puntos de trama, nunca sombreado liso.
+7. **Evolución.** Tomás al morir: las agujas se paran en 4:17. Edu al renunciar al don (libro III): las dos agujas coinciden por primera vez y pasan de ámbar a blanco.
+
+En el libro I esto delata a Nora desde su primera ilustración sin que el texto lo diga. Es coherente con el final: el lector atento puede haberlo visto.
+
+Añadir a los prompts: *irises drawn as tiny watch dials with twelve minute tick marks, catchlight is a thin amber clock hand, the two eyes slightly out of sync, crescent dark circles in halftone dots.*
+Pruebas: `ilustraciones/caras/`. Jobs: 34fa3734-77a7-4623-9fda-5904d275da80 (Edu), 6dfb0e56-917a-42ee-b68f-238f82a9bef9 (reparto).
