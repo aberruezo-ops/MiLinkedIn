@@ -20,6 +20,8 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Su familia:** su padre es gay y se lo contaron a los seis años, sin drama. Sus padres dejaron de ser pareja y no dejaron de ser familia. Edu no lo vive como algo que explicar ni que defender: se siente especial por ello. Cree que en su casa la gente se quiere mejor que en las demás, porque ha visto quererse a dos personas que ya no tenían ninguna obligación de hacerlo.
 - **La ironía que le duele:** en su casa se podía hablar de todo. Por eso tardó tanto en ver de qué no se hablaba.
 - **Lo que no soporta:** que en el barrio den por hecho que su padre «se fue con otro». Es la explicación fácil y es mentira. Eso nunca fue el problema.
+- **En el colegio no le dan tregua.** Cuando Edu tenía ocho años, unos compañeros vieron a su padre por Madrid Río de la mano de otro hombre. Desde entonces lo lleva colgado: motes, imitaciones, pintadas en la mesa, el «¿y tu padre con quién se fue?» cada vez que hay público. Pasó con él del colegio al instituto porque los mismos chicos pasaron con él. En casa se siente especial; en clase aprendió a hacerse pequeño. Las dos cosas son verdad a la vez, y esa distancia entre su casa y el pasillo es de donde sale su deseo de que nadie le mire.
+- **Lo que nunca hace:** avergonzarse de su padre. Se avergüenza de no contestar.
 
 ### BRUNO FERRER · 12 años
 - **Quiere:** ser alguien. Tiene un canal, *Bruno Glitch*, con 43 suscriptores.
@@ -69,8 +71,10 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 
 ### DANI ROCA · 12 años
 - Lanzó la pelota del capítulo 1. Hijo de un entrenador que le grita desde la grada. Se ríe alto para que no se le note el nudo.
+- Es el que más usa lo del padre de Edu. Fue uno de los que lo vieron aquel día. Lo que repite son frases de su propio padre en la grada.
 - **Arco:** de bruto a aliado. En el libro I no cuenta lo que vio. En el III hace de escudo humano.
 - **Detalle:** cuando suena el móvil y pone PAPÁ, la cara le cambia como una persiana que baja.
+- **Su disculpa (libro III):** no pide perdón por el balón. Pide perdón por lo del padre, con nombre y fecha.
 
 ---
 
@@ -134,6 +138,11 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 
 ### DON ERNESTO (82) y ROSA (45)
 - Otros dos que viven de segundos prestados por Tomás. Aparecen en el funeral.
+
+### ÍÑIGO (39 años) · *propuesta, por confirmar*
+- El hombre al que vieron de la mano de Raúl. Su pareja durante dos años. Profesor de dibujo técnico. A él también le dijeron que Raúl se había ido, y se lo creyó porque era lo más fácil de creer.
+- Marta y él se cayeron bien desde el primer día, cosa que nadie del barrio entendió.
+- **Uso posible:** aparece en el funeral de Tomás, al fondo. En el libro II es un adulto más buscando a Raúl, y la prueba para Edu de que su padre no dejó a nadie por nadie.
 
 ---
 

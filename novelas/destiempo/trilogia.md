@@ -99,7 +99,7 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 - Cada libro tiene un golpe que cambia el significado del anterior: «Hola, papá» (I), «mi don mata a mi padre» (II), «el que vuelve soy yo» (III).
 - El narrador es el propio Edu, en pasado, y sus «luego supe» anuncian lo que viene sin destripar.
 - Tecnología y emoción van juntas: el problema de fondo no es magia, es una app.
-- **La familia de Edu.** Raúl es gay y Marta y él son una familia que no cabe en las palabras habituales. Se cuenta con naturalidad en el libro I (capítulos 5 y 12). Refuerza la pregunta de la trilogía: ellos ya saben a quién le dan su tiempo aunque nada les obligue. Y da filo a la mentira del libro I: la única cosa de la que no se habla en una casa donde se habla de todo.
+- **La familia de Edu.** Raúl es gay y Marta y él son una familia que no cabe en las palabras habituales. Se cuenta con naturalidad en el libro I (capítulos 5 y 12). Refuerza la pregunta de la trilogía: ellos ya saben a quién le dan su tiempo aunque nada les obligue. Y da filo a la mentira del libro I: la única cosa de la que no se habla en una casa donde se habla de todo. En el colegio es lo contrario: a Edu no le dan tregua desde que vieron a su padre de la mano de otro hombre. Esa distancia entre su casa y el pasillo explica por qué quiere que nadie le mire.
 
 ---
 

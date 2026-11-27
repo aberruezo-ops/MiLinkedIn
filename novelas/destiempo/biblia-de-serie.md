@@ -187,6 +187,7 @@ Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítu
 ## 13. Cosas que evitar
 
 - No usar la orientación de Raúl como giro, secreto, trauma ni explicación de su desaparición. Se cuenta pronto y con naturalidad. La familia de Edu es distinta y funciona.
+- La homofobia existe en la saga solo donde existe de verdad: en el patio. A Edu no le dan tregua en el colegio desde que vieron a su padre de la mano de otro hombre. Se muestra con dureza y sin sermón. Nunca la castiga la trama con un discurso: la desmonta Dani, tarde y por sí mismo.
 - No copiar mecánicas, nombres ni estructuras de otras sagas.
 - No resolver el misterio del padre antes del último libro.
 - No convertir a los adultos en tontos.
