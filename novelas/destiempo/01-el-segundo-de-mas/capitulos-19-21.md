@@ -66,7 +66,7 @@ Me pasó un brazo por los hombros. Pesaba poco. Olía a aceite de máquina y a c
 
 «Se llamaba Julia».
 
-Mi abuela. Yo la conocía por una foto en blanco y negro que hay en el pasillo de abajo: una chica riéndose con la boca muy abierta delante de un Seiscientos.
+Mi abuela. Yo la conocía por una foto en blanco y negro que hay en el pasillo de abajo: una chica riéndose con la boca muy abierta delante de un Seiscientos. Mi padre decía que se daba un aire a Penélope Cruz. Mi abuelo decía que era al revés.
 
 «Se puso enferma con treinta y cuatro años. Del corazón. Los médicos le dieron meses. Yo no quise entenderlo. Yo era un hombre que arreglaba cosas, ¿comprendes? Venía la gente con un reloj muerto y se lo llevaba andando. No me cabía en la cabeza que hubiera algo que no tuviera arreglo si uno le echaba horas».
 

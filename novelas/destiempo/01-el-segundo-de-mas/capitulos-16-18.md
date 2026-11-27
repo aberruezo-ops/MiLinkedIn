@@ -202,7 +202,7 @@ Ya no era un mechoncito. Era un mechón entero, ancho como un dedo, blanco de ar
 
 Bruno vive en un tercero sin ascensor de la calle Marcelo Usera, y su habitación es exactamente lo que uno espera, hasta que abre el armario.
 
-Fuera: pósteres, un aro de luz para el canal, una silla de gamer que le queda grande. Dentro del armario, donde otros tienen abrigos: un portátil viejo con la tapa llena de pegatinas, una Raspberry con los cables fuera, un router que no era el de su casa y un cartel escrito a mano que decía NO TOCAR, MAMÁ, ES PARA CLASE.
+Fuera: un aro de luz para el canal, una silla de gamer que le queda grande, un póster de Ibai y otro de Rosalía que él jura que es de su hermana. Bruno no tiene hermana. Dentro del armario, donde otros tienen abrigos: un portátil viejo con la tapa llena de pegatinas, una Raspberry con los cables fuera, un router que no era el de su casa y un cartel escrito a mano que decía NO TOCAR, MAMÁ, ES PARA CLASE.
 
 «No es para clase», aclaró.
 
@@ -322,7 +322,7 @@ La pantalla siguió encendida un rato largo. Luego, debajo de las tres palabras,
 
 Llegué a casa a las nueve de la noche con el móvil apagado, metido en una bolsa de patatas vacía que Bruno había forrado con papel de aluminio. Dijo que no servía para nada, pero que a él le dejaba más tranquilo.
 
-Mi madre estaba en la cocina. No tenía turno. Había hecho tortilla, que es lo que hace cuando quiere hablar, y había puesto dos platos y dos vasos y una servilleta doblada en triángulo, como cuando yo era pequeño.
+Mi madre estaba en la cocina. No tenía turno. Tenía a Estopa bajito en el móvil, que es lo que pone desde que yo nací cuando necesita valor. Había hecho tortilla, que es lo que hace cuando quiere hablar, y había puesto dos platos y dos vasos y una servilleta doblada en triángulo, como cuando yo era pequeño.
 
 «Siéntate, anda. Que llevamos días cruzándonos por el pasillo como dos inquilinos».
 

@@ -463,7 +463,7 @@ Soltó el aire. Asintió muchas veces, muy rápido.
 
 La señora Pilar se había acercado al borde de la tumba. Se asomó. Chascó la lengua.
 
-«Cincuenta y cuatro años me ha tenido viva este hombre», dijo. «Yo tengo ciento doce, hijo. No me mires así, que ya sé que no los aparento: aparento setenta, que tampoco es para tirar cohetes. Tu abuelo me daba un segundo cada mañana, al pasar por mi puerta. Uno. "Para los geranios, Pilar". Y a Ernesto, cuando lo del pulmón. Y a Rosa, que tenía que haberse ido de cría».
+«Cincuenta y cuatro años me ha tenido viva este hombre», dijo. «Yo tengo ciento doce, hijo. Yo he visto cantar a la Piquer en un teatro, para que te hagas una idea. No me mires así, que ya sé que no los aparento: aparento setenta, que tampoco es para tirar cohetes. Tu abuelo me daba un segundo cada mañana, al pasar por mi puerta. Uno. "Para los geranios, Pilar". Y a Ernesto, cuando lo del pulmón. Y a Rosa, que tenía que haberse ido de cría».
 
 «Nos prestaba tiempo», dijo Rosa, entre hipos. «A los tres. Y a otros que ya no están».
 

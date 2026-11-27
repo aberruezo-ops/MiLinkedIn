@@ -146,6 +146,31 @@ La tecnología de la saga es la que usan los chicos de hoy. Lo fantástico se me
 ### La IA que mueve a todos menos a ellos
 Cronos es una inteligencia artificial que no da órdenes: predice el segundo siguiente de cada persona y le manda el mensaje justo para que actúe por sí sola. Controla así a casi toda la ciudad sin que nadie lo note. No puede con los intervalos, porque viven con segundos que ella no tiene en la lista. Es el miedo real de hoy (sistemas que nos conocen mejor que nosotros y nos empujan) convertido en antagonista. Regla de escritura: Cronos nunca amenaza ni miente; es amable, exacta y dice siempre la verdad que le conviene. Detalle en `trilogia.md`.
 
+### Referencias al mundo real (para que no caduquen)
+
+El libro tiene que oler a hoy sin quedarse viejo en tres años. Cómo se consigue:
+
+1. **Edu cuenta en pasado.** Narra unos años después. Lo que suena en la historia es «lo que sonaba aquel otoño», y eso no caduca: es memoria, igual que una novela ambientada en los noventa no está desfasada por citar a los Héroes.
+2. **Solo nombres con carrera larga.** Se cita a quien seguirá siendo reconocible dentro de quince años. Rosalía, Estopa, Mecano, Penélope Cruz, Bardem, Almodóvar, Ibai. No se cita al éxito de un verano, ni un reto de redes, ni un meme.
+3. **La referencia retrata al personaje, no a la época.** Cada uno tiene su música y sus ídolos, y dicen quién es.
+4. **Nunca cotilleo ni opinión sobre la persona real.** Se nombra la obra o la figura, de pasada y con cariño. Nada que el aludido pudiera considerar ofensivo.
+5. **No se copian letras de canciones.** Tienen derechos de autor. Se puede decir el título o quién canta, no reproducir versos.
+6. **Tecnología por función, no por marca.** «Un directo», «un vídeo corto», «el grupo de clase». Las aplicaciones de la trama (Bienestar+, Pulso) son inventadas a propósito.
+7. **Dosis.** Una o dos por capítulo como mucho. Si al quitarla la frase pierde gracia o verdad, se queda; si no, sobra.
+
+| Personaje | Su mundo |
+|---|---|
+| **Edu** | No tiene ídolos propios: escucha lo que ponen los demás. Es parte de su problema |
+| **Bruno** | Ibai y los streamers. Un póster de Rosalía que dice que no es suyo |
+| **Nora** | Auriculares sin música. Cuando por fin ponga algo, en el libro II, será importante qué pone |
+| **Marta** | Estopa, Amaral, lo que sonaba cuando tenía quince años |
+| **Raúl e Íñigo** | Mecano y Alaska cantados a gritos en la cocina. Cine de Almodóvar |
+| **Tomás** | La radio: copla, Raphael, los partidos del domingo |
+| **Señora Pilar** | Vio en persona a la Piquer. Sus referencias tienen un siglo y son las que mejor aguantan |
+| **Dani** | Fútbol, y lo que diga su padre |
+
+Hecho en el libro I: Mecano (cap. 5), Ibai y Rosalía (cap. 17), Estopa (cap. 18), Penélope Cruz (cap. 19), la Piquer (cap. 23).
+
 ## 9. Realismo mágico
 
 Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin que nadie se asombre. Solo Edu empieza a fijarse.
