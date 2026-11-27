@@ -4,7 +4,7 @@ Para ilustrar la saga Destiempo con coherencia. Pega la descripción fija del pe
 
 ## Estilo general
 
-Ilustración editorial para novela juvenil: trazo limpio con textura de tinta, paleta contenida con un color de acento por libro, luz de otoño en Zaragoza, atmósfera de misterio sin terror. Nada de caricatura infantil, ni de estética de videojuego.
+Ilustración editorial para novela juvenil: trazo limpio con textura de tinta, paleta contenida con un color de acento por libro, luz de otoño en Madrid, barrio de Usera, atmósfera de misterio sin terror. Nada de caricatura infantil, ni de estética de videojuego.
 
 - Formato de cubierta: vertical, 2:3.
 - Interior: una ilustración por parte, en blanco y negro con un único tono de acento.
@@ -26,7 +26,8 @@ Ilustración editorial para novela juvenil: trazo limpio con textura de tinta, p
 
 - Relojes parados.
 - Polvo en un rayo de luz, como suspendido.
-- El cierzo: papeles, hojas y pelo siempre en movimiento.
+- El aire de la sierra: papeles, hojas y pelo siempre en movimiento.
+- El Metro de Madrid, la línea 6 y el tren de las 4:17.
 - Un segundo de más: la misma escena con una gota o una hoja flotando donde no debería.
 
 ## Prompt de cubierta del libro 1 (punto de partida)

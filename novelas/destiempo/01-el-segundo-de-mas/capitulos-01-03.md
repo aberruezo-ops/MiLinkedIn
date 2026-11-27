@@ -81,6 +81,22 @@ Todos se rieron, y la clase continuó, y a la media hora nadie hablaba de ello p
 
 «Eso no es apartarse. Eso es… un glitch. Como en los videojuegos cuando el personaje se queda pillado».
 
+Sacó el móvil a escondidas, porque en el instituto no se puede, y me puso la pantalla delante de la cara. Bruno tiene un canal de vídeos que se llama *Bruno Glitch*. Tiene cuarenta y tres suscriptores y la mitad son primos suyos. Esa mañana había dejado el móvil apoyado en una espaldera, grabando la clase por si pasaba algo gracioso.
+
+Pasó.
+
+En la pantalla me vi a mí, quieto, con el balón a medio metro de la cara. Un fotograma después estaba tres metros más allá. Entre los dos fotogramas, la imagen se deshacía en cuadraditos, como cuando un vídeo se comprime mal y el mundo se convierte en un mosaico.
+
+«No lo subas», dije.
+
+«¿Cómo que no lo suba? Esto es oro, Edu».
+
+«Bruno».
+
+Me miró. Vi que dudaba, y que le dolía dudar. «Vale», dijo al final. «Esta noche lo pienso».
+
+No me gustó cómo dijo «pienso».
+
 No contesté. Tenía la boca seca. Y en el bolsillo del pantalón, junto al lugar donde Bruno guardaba el inhalador y yo guardaba algo mucho más viejo, notaba una vibración muy leve, un cosquilleo contra la pierna.
 
 Saqué el reloj de mi abuelo.
@@ -97,7 +113,7 @@ Pero la fina, la del segundero, esa que llevaba tres años clavada junto al diec
 
 Una sola vez. Después se detuvo.
 
-Bruno me miraba. Yo miraba el reloj. En el vestuario olía a calcetines y a desinfectante, y fuera el viento de la ciudad, el cierzo, golpeaba las ventanas como si quisiera entrar.
+Bruno me miraba. Yo miraba el reloj. En el vestuario olía a calcetines y a desinfectante, y fuera el aire frío de la sierra golpeaba las ventanas como si quisiera entrar.
 
 «Edu», dijo Bruno, muy bajito. «¿Qué es eso?».
 
@@ -109,9 +125,9 @@ No supe contestarle.
 
 Lo intenté esa misma noche.
 
-Mi madre trabajaba de enfermera en el turno de noche del hospital, así que a las nueve y media ya se había ido, dejándome una cena en el microondas, una nota con tres corazones y la orden de siempre: «Si te asustas, llama al abuelo». El abuelo vive en el piso de abajo y nunca ha oído un teléfono desde su sillón, pero la intención era buena.
+Mi madre trabajaba de enfermera en el turno de noche del Doce de Octubre, así que a las nueve y media ya se había ido, dejándome una cena en el microondas, una nota con tres corazones y la orden de siempre: «Si te asustas, llama al abuelo». El abuelo vive en el piso de abajo y nunca ha oído un teléfono desde su sillón, pero la intención era buena.
 
-Cené de pie, mirando el patio de luces. En Zaragoza muchas casas se construyeron alrededor de un patio así, un pozo cuadrado de ventanas donde ves las vidas de los vecinos en pequeño: una televisión azul, una señora que riega geranios a las diez de la noche, un hombre que discute con alguien que no está. Esa noche el viento silbaba por el pozo igual que por el cuello de una botella.
+Cené de pie, mirando el patio de luces. En Madrid muchas casas se construyeron alrededor de un patio así, un pozo cuadrado de ventanas donde ves las vidas de los vecinos en pequeño: una televisión azul, una señora, la señora Pilar, que riega geranios a las diez de la noche (florecen de noche, y en el barrio nadie lo comenta), un hombre que discute con alguien que no está. Esa noche el viento silbaba por el pozo igual que por el cuello de una botella.
 
 Fui a mi cuarto y me planté en medio.
 
@@ -148,6 +164,10 @@ Entonces miré el reloj del microondas.
 Cuando me serví la leche eran las 23:14. Lo recordaba, porque me había fijado en que parecía una hora de película de miedo. Ahora eran las 23:26.
 
 Doce minutos.
+
+El móvil vibró sobre la encimera. Era Bienestar+, la aplicación del instituto que cada noche nos pregunta cómo nos sentimos, con una fila de caritas para elegir. Esa noche tenía una línea nueva: «Edu, hoy no has respondido. ¿Todo bien?». Y debajo, en letra gris pequeña: «Última actividad: 23:14».
+
+Mi móvil marcaba las 23:26. Pero la aplicación seguía convencida de que yo había hecho algo a las 23:14. Como si la pantalla se hubiera quedado esperándome.
 
 Me quedé mirando los números verdes con una sensación fría que subía desde el estómago. Habían pasado doce minutos y yo no los había vivido. No me acordaba de nada entre soltar el vaso y cogerlo. Y sin embargo tenía las rodillas flojas, como después de una carrera, y tenía la nevera abierta de par en par, con la luz iluminando el suelo y una corriente de frío que me había puesto la piel de gallina.
 
@@ -246,6 +266,12 @@ La asamblea fue en el salón de actos, un cuarto con olor a polvo y sillas de pl
 Allí estaba el director, que parecía un globo con corbata. Estaban dos señores con traje gris, sentados al fondo, que no sonreían. Y en el centro, de pie junto al micrófono, estaba una mujer de unos cuarenta años, con el pelo rizado recogido, un jersey verde y unas gafas pequeñas que se colocaba sobre la cabeza cuando hablaba.
 
 «Hola a todos. Me llamo Elena Ibarra», dijo. «Soy psicóloga y vengo a quedarme unas semanas con vosotros. Lo que hago no da miedo: charlamos, jugamos, os escucho. Eso es todo».
+
+Mientras hablaba, los dos señores del traje gris recorrieron las filas repartiendo pulseras negras, finas como una goma de pelo, con una pantalla del tamaño de una uña. «Pulso», decían. «Para que veáis cómo estáis. Se sincroniza con la aplicación Bienestar+ y ya está». Todos las probaron entre risas. Dani se puso tres.
+
+Yo me abroché la mía. La pantalla marcó 78. Después 0. Después una palabra que no entendí: SIN SEÑAL.
+
+Detrás de mí, Nora no se puso la suya. La dejó encima de las rodillas, apagada, como quien guarda una serpiente.
 
 Tenía una voz buena. Esa fue mi primera impresión, y por eso me asusté. Era una de esas voces que parecen un sillón calentito: te dan ganas de sentarte y contarle toda tu vida.
 

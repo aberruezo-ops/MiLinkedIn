@@ -1,7 +1,7 @@
 # DESTIEMPO I: EL SEGUNDO DE MÁS
 ### Libro 1 de Destiempo · Esquema de 24 capítulos
 
-Narrador: Edu Valdés, 12 años. Lugar: un barrio de Zaragoza, con su viento, el cierzo, siempre de fondo. Extensión prevista: 65.000 palabras.
+Narrador: Edu Valdés, 12 años. Lugar: el barrio de Usera, en Madrid, con el aire de la sierra siempre de fondo. Extensión prevista: 65.000 palabras.
 
 ## Parte I. El segundo de más
 
@@ -26,7 +26,7 @@ Narrador: Edu Valdés, 12 años. Lugar: un barrio de Zaragoza, con su viento, el
 13. **Preguntas buenas.** Segunda sesión. Ibarra le habla de su padre sin que Edu haya dicho nada.
 14. **El expediente.** Edu ve una carpeta con su nombre y una fecha anterior a su primer uso del don.
 15. **Bruno se entera.** Bruno lo sigue y lo ve desaparecer un segundo. Discuten y se separan.
-16. **Persecución en el cierzo.** Una tarde de viento, alguien los persigue. Edu usa el don y paga caro. Nora lo salva.
+16. **Persecución en el Metro.** Dos hombres con traje gris los siguen por la línea 6. Edu usa el don y paga caro. Nora lo salva.
 17. **El segundo que sobraba.** Descubren el mecanismo de la deuda: cada segundo robado se descuenta de su futuro cercano y se guarda en el Destiempo, un lugar fuera del reloj.
 18. **Lo que no se dice en casa.** Su madre confiesa una parte de la verdad. Su padre no se fue: "lo llevaron a ayudar".
 19. **La ayuda de Tomás.** El abuelo arregla el reloj de bolsillo y ocurre algo que no tiene explicación.

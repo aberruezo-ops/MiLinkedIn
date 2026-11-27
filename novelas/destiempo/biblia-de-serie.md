@@ -64,25 +64,97 @@ El juego del título: la saga empieza **a destiempo** y termina **a tiempo**.
 
 Todos acaban relacionándose con el mismo hecho oculto: la desaparición de Raúl Valdés, el padre de Edu.
 
-## 6. Personajes del libro 1
+## 6. Escenario: Madrid, hoy
 
-**Edu (Eduardo) Valdés.** 12 años, a punto de cumplir 13. Vive en un barrio de Zaragoza. Se muerde las uñas y cuenta cosas para calmarse: baldosas, pasos, farolas. Es observador y callado, pero le sale una ironía rápida cuando está cómodo. Quiere pasar desapercibido y, en el fondo, que alguien le vea de verdad. Lleva un reloj de bolsillo roto de su abuelo, parado en las 4:17.
+La saga ocurre en el Madrid de ahora, en el barrio de **Usera**, al sur de la ciudad: bloques de ladrillo con patio de luces, bazares abiertos hasta tarde, olor a pan de varias cocinas, el Metro a cinco minutos y el hospital Doce de Octubre al fondo, donde trabaja la madre de Edu. El aire frío que baja de la sierra entra por las ventanas en otoño y es el viento de fondo de la saga. Madrid Río, el Matadero y el Metro (sobre todo la línea 6, la circular) sirven de escenarios clave.
 
-**Marta Valdés.** Su madre, enfermera de noche en un hospital. Cariñosa y agotada. Le enseñó la técnica de los cinco sentidos para calmarse (cinco cosas que ves, cuatro que tocas, tres que oyes, dos que hueles, una que saboreas). Evita hablar de su marido.
+Madrid permite lo que la saga necesita: una ciudad enorme donde un chico puede perderse, donde convive todo el mundo y donde nadie se sorprende de nada. Eso encaja con el realismo mágico.
 
-**Tomás Valdés.** Su abuelo, relojero jubilado, vive en el piso de abajo. Habla poco y arregla relojes que nadie le pide. Sabe más de lo que cuenta.
+## 7. Personajes con profundidad
 
-**Raúl Valdés.** Su padre. Desapareció hace tres años sin explicación. En casa se dice que se fue. Edu no se lo cree.
+Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sabe que necesita. Los adolescentes se reconocen en lo que sienten, no en el poder.
 
-**Bruno Ferrer.** Su mejor amigo. Divertido, leal, con asma y un inhalador que lleva como un talismán. Nunca deja de bromear y por eso nadie nota cuánto le importa la gente.
+### Edu (Eduardo) Valdés, 12 años
+- **Quiere:** que nadie le mire, y a la vez que alguien le vea de verdad.
+- **Necesita:** estar presente, dejar de controlarlo todo con números.
+- **Herida:** su padre se fue sin explicación cuando él tenía 9 años. Edu cree que fue por algo que hizo o dejó de hacer.
+- **Mentira que se cuenta:** «Si soy tranquilo, no molesto y lo hago bien, nadie se va».
+- **Defecto:** evita. Evita conversaciones, miradas, preguntas incómodas. Y miente por omisión para proteger a quien quiere.
+- **Detalles de verdad:** se muerde las uñas hasta hacerse sangre, cuenta cosas (baldosas, pasos, farolas), no sube nada a redes sociales y mira las de los demás sin atreverse a comentar. Piensa más rápido de lo que habla. Cuando se ríe de verdad, se tapa la boca.
+- **Por qué se identifican:** ansiedad social, miedo a destacar, sentirse invisible entre gente que parece tenerlo todo claro.
+- **Arco:** de controlar el tiempo a estar presente en él. Aprende que calmarse no es esconderse.
 
-**Nora Ibáñez.** Nueva en el instituto. Siempre con auriculares, aunque no escucha música. Seria, directa, protectora. Sabe quién es Edu antes de que él se lo diga.
+### Bruno Ferrer, 12 años
+- **Quiere:** ser alguien. Tiene un canal de vídeo, *Bruno Glitch*, con 43 suscriptores (la mitad son sus primos).
+- **Necesita:** saber que vale aunque nadie le aplauda.
+- **Herida:** sus padres se están separando y en casa lo tratan como «el que no da problemas». Bruno hace reír para que nadie vea cuánto se aburre de ser invisible.
+- **Mentira:** «Si me hago famoso, dejaré de sentirme de más».
+- **Defecto:** la necesidad de validación. Ha grabado el «salto» de Edu y duda entre subirlo y proteger a su amigo.
+- **Talento:** programa, trastea con electrónica y sabe abrir las pulseras de Pulso. Es el técnico de la banda.
+- **Por qué se identifican:** la necesidad de likes, la risa como máscara, el miedo a quedarse atrás cuando los amigos cambian.
+- **Arco:** de buscar público a elegir a su gente.
 
-**Dani Roca.** Compañero algo bruto, no malvado. Lanzó la pelota que desencadena todo. Tiene su propia historia.
+### Nora Ibáñez, 12 años
+- **Quiere:** silencio y que nadie más salga herido por su culpa.
+- **Necesita:** confiar en alguien sin leerle las emociones antes.
+- **Herida:** sus dos amigos anteriores, también intervalos, desaparecieron después de que ella les avisara de lo que eran. Se culpa. Se ha mudado cuatro veces en tres años.
+- **Mentira:** «Si me aíslo, protejo a los demás».
+- **Defecto:** decide por los demás «por su bien» y no cuenta lo que sabe. Eso casi cuesta una vida en el libro 1.
+- **Detalles:** auriculares sin música (cancelación de ruido), se comunica más por mensajes que hablando, apunta los «colores» de las emociones en una libreta, no soporta los sitios llenos y desarrolla un humor negro muy seco.
+- **Por qué se identifican:** hipersensibilidad, agotamiento social, sensación de que el mundo es demasiado ruidoso.
+- **Arco:** de protegerse con muros a dejarse acompañar.
 
-**Doctora Elena Ibarra.** Psicóloga del Programa de Bienestar Emocional que llega al instituto. Cálida, atenta, hace las preguntas justas. ¿Aliada o amenaza? Esa duda recorre todo el libro.
+### Marta Valdés, 38 años, madre de Edu
+- Enfermera de urgencias en turno de noche. Divertida cuando duerme, agotada cuando no.
+- **Su mentira:** sabe que Raúl no se fue. Firmó un papel hace tres años con una promesa: «os lo devolveremos». Cree que ocultárselo a Edu lo protege.
+- **Lo que revela:** una madre que quiere ser perfecta y no puede. Edu aprende a verla como persona.
 
-## 7. Hilo de misterio de la serie
+### Tomás Valdés, 74 años, abuelo
+- Relojero jubilado, viudo, con las manos llenas de callos. Habla poco y se refugia en arreglar relojes.
+- **Su secreto:** fue el primer intervalo que se conoció (se revelará en el libro 3). Construyó el reloj de Edu para medir sus propios apagones.
+- **Su culpa:** ayudó sin saberlo a quien después se llevó a su hijo.
+- **Frase suya:** «Las cosas que llegan a destiempo no llegan mal, llegan cuando les toca».
+
+### Raúl Valdés, 41 años, padre
+- Ingeniero. Brillante, cariñoso, torpe en lo cotidiano. Hacía reír a Edu midiendo cosas absurdas con un cronómetro.
+- Desapareció hace tres años, un día a las 4:17 de la tarde. No «se fue»: se ofreció a entrar en el Destiempo a cambio de algo que protegía a su hijo (se revela en el libro 4).
+
+### Doctora Elena Ibarra, 43 años
+- Psicóloga clínica. Cálida, atenta, buena escuchando. Es la mejor terapeuta que ha tenido cualquiera de estos chicos y por eso es peligrosa.
+- **Su herida:** su hijo Marcos desapareció hace cuatro años. Nadie lo recuerda excepto ella. Cree que sus poderes lo han borrado del mundo.
+- **Su mentira:** «Todo lo que hago es para salvar a los niños». Es cierto, y también es una excusa.
+- **Dilema:** ¿ayudar es arreglar? ¿Hasta dónde llega proteger? No es un monstruo, y ese es su peligro.
+
+### Dani Roca, 12 años
+- Torpe y fuerte, hijo de un entrenador que le grita desde la grada. Se ríe alto para que no se le note el nudo. Descubre la bondad al final del libro 1, cuando ve de qué es capaz Edu y no lo cuenta.
+
+### Marcos (aparece en el libro 1, protagoniza el 3)
+- 16 años. Nadie lo recuerda. En el libro 1 solo se le ve de refilón: una cara que nadie nota, un chico apoyado en la pared del patio.
+
+## 8. Tecnología real
+
+La tecnología de la saga es la que usan los chicos de hoy. Lo fantástico se mezcla con lo cotidiano.
+
+- **Móviles y redes.** Un grupo de WhatsApp de clase (*1ºB Los Supervivientes*), vídeos cortos, mensajes de voz, notificaciones a deshora. Bruno sube a su canal lo que no debería.
+- **Pulso.** Pulseras finas con pantalla pequeña que reparten en el instituto «para el bienestar». Miden frecuencia cardíaca y sueño. En realidad buscan intervalos: cerca de uno, la lectura marca 0 o «SIN SEÑAL».
+- **Bienestar+.** La app del instituto que pregunta cada noche «¿cómo te sientes?». Almacena emociones, horas y ubicaciones. Una IA llamada **Cronos** busca patrones que delaten a un intervalo. Plantea una pregunta real: ¿quién tiene tus datos emocionales?
+- **Lumi.** El asistente de voz de las tabletas del instituto. Amable, con respuestas perfectas. En un punto del libro 3 empieza a decir cosas que nadie le ha enseñado.
+- **Fallos que delatan.** Cerca de un intervalo en acción los relojes digitales se atrasan, las marcas de hora de los vídeos se corrompen, el GPS baila y el Wi-Fi tartamudea. Bruno convierte eso en método de detección.
+- **El cronógrafo de Raúl.** Un aparato casero que mezcla relojería mecánica de Tomás con sensores de Raúl. Es la prueba de que el padre estudió esto desde dentro. En el libro 2 aparece una copia moderna, más pequeña, dentro de la pulsera.
+
+## 9. Realismo mágico
+
+Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin que nadie se asombre. Solo Edu empieza a fijarse.
+
+- La señora Pilar, la vecina del patio, riega unos geranios que solo florecen de noche. Nadie lo comenta.
+- El aire de la sierra «trae lo que el tiempo pierde»: aparecen en los balcones cosas olvidadas (una llave, un guante, un cumpleaños que nadie recordaba).
+- El **tren de las 4:17.** El Metro de Madrid cierra a la 1:30 y abre a las 6:00. Pero en la línea 6, cada madrugada a las 4:17, pasa un tren que no aparece en ningún plano. Los que lo conocen no hablan de él.
+- El reloj de la iglesia da trece campanadas los viernes. Los vecinos hacen una pausa y siguen con lo suyo.
+- En la tienda del abuelo hay una paloma, *Segundero*, que llega cada día a la misma hora aunque el reloj de la tienda no funcione.
+
+**Reglas.** Lo mágico nunca se explica del todo. Nadie dice «¡es magia!». Los adultos lo tratan como normal. Y siempre tiene relación con el tiempo.
+
+## 10. Hilo de misterio de la serie
 
 1. **Libro I.** Edu descubre que estira el tiempo y que le cuesta. Nora le dice que lo perdido «va a algún sitio» y que alguien lo llama el Destiempo.
 2. **Libro II.** Nora oye una señal que viene de ese lugar: un latido regular, como un reloj muy lejano. Cada intervalo que despierta lo hace sonar más fuerte.
@@ -93,7 +165,7 @@ Todos acaban relacionándose con el mismo hecho oculto: la desaparición de Raú
 
 Pistas fijas que se repiten: el reloj de bolsillo de Tomás, parado en las 4:17, y la frase que se oye en cada libro: *las cosas que llegan a destiempo no llegan mal, llegan cuando les toca.*
 
-## 8. Fundamento psicológico (para el autor)
+## 11. Fundamento psicológico (para el autor)
 
 - **Percepción del tiempo bajo miedo.** Mucha gente describe que el tiempo "va más lento" en un peligro. La investigación indica que no vemos más rápido, sino que el cerebro graba más detalle y, al recordarlo, parece más largo. En la novela, el poder convierte esa ilusión en realidad, y ese es su misterio.
 - **Ansiedad y control.** Edu aprende que el don solo se maneja con calma. Calmarse es la habilidad central, no el poder.
@@ -101,14 +173,30 @@ Pistas fijas que se repiten: el reloj de bolsillo de Tomás, parado en las 4:17,
 - **Apego y pérdida ambigua.** La desaparición del padre sin certeza es una pérdida difícil de elaborar. Es el corazón emocional que pueden sentir los adultos.
 - **Patologizar la diferencia.** La psicóloga plantea una pregunta incómoda: ¿tratar lo distinto o aceptarlo?
 
-## 9. Cosas que evitar
+## 12. Los finales: de boca abierta y con la puerta abierta
+
+Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítulo debe cambiar lo que el lector creía saber.
+
+**I. El segundo de más.** Edu escapa del Instituto sin usar el don: se calma, y eso lo salva. Parece el final. Entonces Bruno, que ha descargado las grabaciones de las cámaras de la cocina de Edu, le enseña lo que pasó en sus doce minutos perdidos del capítulo 2. No estaba parado: caminó hasta una puerta que no existe en la pared y habló once minutos con alguien. El audio, limpiado, dice una sola frase: «Hola, papá». El reloj de bolsillo marca por fin las 4:18 y Nora oye un latido lejano.
+
+**II. El eco que llega antes.** Nora, que ahora oye las emociones un instante antes de que ocurran, empieza a sentir una señal que viene del Destiempo. Cuando por fin la entiende, es una voz pidiendo ayuda. Es la voz de Edu, pero de dentro de tres días. Y dice: «No abráis la puerta».
+
+**III. La hora que nadie mira.** Encuentran la puerta: la hora oculta entre las 4:17 y las 4:18. Marcos sale. La doctora Ibarra llora al verlo. Pero lo que deja a todos helados es otra cosa: en la pared de la hora oculta, grabadas, hay fotografías de intervalos de todas las épocas. La más antigua es de 1971 y tiene a Tomás, el abuelo de Edu, a los 21 años. Él es el primero. Y no se lo había contado a nadie.
+
+**IV. Lo que el reloj olvidó.** Lía recupera los doce minutos de Edu y los comparte. Raúl no desapareció: cuando Edu tenía nueve años iba a morir en un accidente y su padre cambió su tiempo por el de su hijo. El segundo de más que usa Edu es el tiempo de su padre. Cada vez que lo estira, Raúl se acorta. Y Edu lo ha usado muchas veces.
+
+**V. Demasiado deprisa.** Iván acelera algo que no debía y la puerta se rompe. El Destiempo se derrama sobre Madrid: los relojes se paran, el Metro se detiene entre estaciones, la gente se queda congelada. Solo los cinco se mueven. De la grieta sale alguien, y no es Raúl: es un Edu de unos treinta años, cansado, que les dice: «Lo hice todo mal. Escuchadme con atención».
+
+**VI. A tiempo.** Se resuelve la trama central. Pero en la última página, Tomás, ya anciano, abre el reloj de bolsillo y descubre que no mide tiempo: cuenta cuántos intervalos quedan por despertar. Marca 7. Y empieza a moverse.
+
+## 13. Cosas que evitar
 
 - No copiar mecánicas, nombres ni estructuras de otras sagas.
 - No resolver el misterio del padre antes del último libro.
 - No convertir a los adultos en tontos.
 - No usar el poder como solución fácil: siempre debe costar algo.
 
-## 10. Formato previsto
+## 14. Formato previsto
 
 - Novelas de 60.000 a 75.000 palabras. En KDP, tapa blanda de 5,5 x 8,5 pulgadas o 6 x 9.
 - Cubierta ilustrada e interior con una ilustración por parte, a generar después con Higgsfield (ver guía visual en `guia-visual.md`).
