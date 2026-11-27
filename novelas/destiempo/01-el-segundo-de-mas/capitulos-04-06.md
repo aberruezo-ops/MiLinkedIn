@@ -50,6 +50,8 @@ Yo me quedé helado. Mi abuelo ni parpadeó.
 
 Me senté en el taburete de las visitas, que cojea de la pata izquierda desde que tengo memoria. Mi abuelo cogió el reloj con las dos manos, como se coge un pájaro caído, y lo giró bajo la luz. Abrió la tapa trasera con la uña. Dentro había un enjambre de ruedas dentadas minúsculas, doradas, limpias, mucho más limpias de lo que debería estar un reloj que lleva tres años en un bolsillo.
 
+En la cara interior de la tapa había algo grabado. Una K pequeña, hecha a mano, con el pulso de alguien que sabe grabar. Pensé que sería la marca del fabricante. Luego me fijé en el reloj que mi abuelo tenía a medio arreglar sobre el banco, uno de señora, con la tapa también abierta, y dentro había otra señal: dos palos con un techo encima, como una puerta. Eso no era de ningún abecedario que yo conociera. Iba a preguntar. Mi abuelo cerró el reloj de señora con un dedo, sin mirarlo, como quien aparta una miga.
+
 «Está intacto», dijo.
 
 «¿Qué?».

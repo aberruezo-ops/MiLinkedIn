@@ -180,7 +180,7 @@ Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítu
 
 **II. La hora que nadie mira.** Encuentran la puerta de la hora oculta. La doctora Ibarra, que ha buscado a su hijo Marcos durante cuatro años, se interpone para que él pueda escapar y muere. En ese momento la puerta se abre del todo y sale alguien: un Edu de unos treinta años, cansado, que dice: «Lo hice todo mal. Escuchadme con atención».
 
-**III. A tiempo.** Se resuelve la trama central. Edu devuelve a su padre el tiempo que le debía, a cambio de su don. Raúl regresa. El Edu del futuro no era Edu, sino algo que el Destiempo había construido con su aspecto. En la última página, el reloj de Tomás ya no marca la hora: es un marcador con siete números, y uno acaba de bajar.
+**III. A tiempo.** Se resuelve la trama central. Edu devuelve a su padre el tiempo que le debía, a cambio de su don. Raúl regresa. El Edu del futuro sí era Edu, pero mentía: en su línea de tiempo acabó siendo la mano derecha de Aurelio, y ha vuelto para cambiar de cuerpo con su yo joven. El enemigo final es él mismo. En la última página, el reloj de Tomás ya no marca la hora: es un marcador con siete números, y uno acaba de bajar.
 
 ## 13. Cosas que evitar
 
@@ -202,7 +202,7 @@ Detalle completo en `identidad-grafica/codigo-kairos.md`. Resumen de lo que afec
 - **Las letras.** En las tres portadas y en 22 ilustraciones interiores hay una letra griega semiescondida, con una hora diminuta debajo. Leídas en orden de publicación no dicen nada. Ordenadas por su hora dan ΚΑΙΡΟΣ (portadas) y «El tiempo no se guarda, se da» (interior, en castellano con letras griegas).
 - **Origen dentro de la historia.** Tomás grababa una letra griega en el reloj de cada persona a la que prestaba tiempo, y llevaba la cuenta en una pared del taller.
 - **Siembras obligatorias.**
-  - Libro I, capítulo 4: Edu ve una letra rara grabada en el fondo de un reloj del taller y no pregunta.
+  - Libro I, capítulo 4 (hecho): Edu ve una K grabada en la tapa de su reloj y, en otro reloj del banco, una señal «como una puerta» (la Π de Pilar). No pregunta.
   - Libro I, capítulo 23: Pilar, don Ernesto y Rosa llevan cada uno un reloj con una letra.
   - Libro II: aparece la pared del taller con el alfabeto completo y un nombre junto a algunas letras. Es donde el lector puede aprender el alfabeto.
   - Libro III, última escena: el reloj de Tomás se abre y en la tapa pone «Léelas a su hora».
@@ -218,5 +218,3 @@ Lo que implica al escribir:
 - El texto **no describe nunca** los ojos así. Es un lenguaje solo de la imagen. Edu, como mucho, nota que a alguien «le miran los ojos cada uno a su hora» sin saber qué quiere decir.
 - En el libro I las ilustraciones de Nora ya la delatan. El texto mantiene el secreto hasta el capítulo 23.
 - Momentos que la ilustración debe recoger: las agujas de Tomás paradas en 4:17 (I, capítulo 22), los ojos vacíos de Aurelio (II), las agujas de Edu coincidiendo y pasando a blanco cuando renuncia al don (III).
-
-> Nota de coherencia: el apartado 12 de esta biblia dice que el Edu del futuro «no era Edu». El plan vigente es el de `trilogia.md`: sí es Edu, y miente.
