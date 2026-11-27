@@ -149,3 +149,6 @@ Estructura fija: logotipo arriba, subtítulo del libro en ámbar, ilustración c
 3. Pega siempre el prompt maestro y el negativo.
 4. En cada imagen, comprueba: ¿hay un segundo de más en ámbar? ¿hay trama? ¿hay como máximo dos acentos de color?
 5. No pidas «al estilo de» ningún autor ni obra concreta: describe las cualidades (tinta, trama, chiaroscuro).
+
+## 12. Firma visual propuesta: la cronofotografia manga
+Cada personaje deja detras copias fantasma en secuencia (como las placas de Marey), con marcas de regla en ambar sobre cada exposicion. El tiempo de la historia se lee en la propia imagen: en I el movimiento de Edu en un instante, en II el reflejo que se adelanta un paso, en III cinco edades de una misma persona (12 a 30) caminando hacia la derecha. Carpeta: ilustraciones/cronofotografia/.
