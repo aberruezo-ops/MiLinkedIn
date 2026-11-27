@@ -1,6 +1,6 @@
 # Guía visual para Higgsfield
 
-Para ilustrar la saga con coherencia. Pega la descripción fija del personaje en cada prompt y guarda la primera imagen buena como referencia.
+Para ilustrar la saga Destiempo con coherencia. Pega la descripción fija del personaje en cada prompt y guarda la primera imagen buena como referencia.
 
 ## Estilo general
 
