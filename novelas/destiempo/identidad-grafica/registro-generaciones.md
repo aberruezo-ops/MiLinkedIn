@@ -14,3 +14,6 @@ Fichas de cuerpo entero (referencias): Edu 5875009d-1e0c-48bf-b43a-004302975abd 
 ## Retratos españolizados (1k, versión vigente)
 Edu 0b4c9715-6f43-4c3e-96c0-a46748f61b98 · Nora 9093cacc-2610-4062-9e5f-5253ff49db68 · Bruno 9884c810-a5c2-4f27-8aa2-ac4a46cdd412 · Marcos 25bad455-a58a-41c9-ad65-ead4f1e6ffda · Marta 0c680874-4dd0-4d39-aeec-93535d82837b · Raúl ca0556ae-68ba-458e-abf5-9c444bddf844 · Ibarra 76ad0c72-75a5-4e9f-892f-ca3127b822a5 · Aurelio be38a813-85d3-4722-b44b-20764b2edc74 · Dani c80d8c3f-36b5-4626-a436-d3b057004d72 · Edu del futuro d0d41fa4-831a-4f1e-885f-db2f815a99c6 · Tomás 5dded537-8894-4e0b-9653-36811b66c3d4
 Se mantienen de tandas anteriores: Íñigo f1679947…, Pilar, Ernesto, Rosa, Lía, Iván, Segundero, Cronos y hombres de gris be2f102d….
+
+## Portadas v3 españolizadas (2k)
+I 36d61b3f-b390-45a8-be6d-4eaeb7e56271 · II b6917552-fb3c-4171-9a35-7106082c0d61 · III 0a9b52fe-5ecb-4d3c-b054-01fe0a2d447c
