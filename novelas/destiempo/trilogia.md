@@ -39,6 +39,8 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 
 **Bienestar+ y Pulso.** No miden el bienestar: lo **fabrican**. Las notificaciones nocturnas, las preguntas, las alertas de «has estado en tensión 4 minutos»... están diseñadas para subir la ansiedad de los chicos justo lo suficiente para que el don se abra. Cronos, la IA, aprende qué mensaje asusta a cada uno. Es la parte que reconoce todo adolescente.
 
+**La herencia.** Quien presta tiempo deja una cuenta abierta. Al morir, la cuenta pasa al heredero. Cuando muere Tomás, las deudas de todos los que él mantuvo vivos pasan a Edu: si Edu usa su don, el coste se multiplica por cada uno de ellos.
+
 **Los Siete.** Los primeros intervalos de la historia. Tomás fue el primero. El reloj de bolsillo no mide la hora: cuenta cuántos quedan por despertar.
 
 ---
@@ -59,14 +61,16 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 ## 4. Estructura de la trilogía
 
 ### LIBRO I · *El segundo de más* (Edu)
-**Pregunta:** ¿qué me pasa? **Tono:** descubrimiento y duelo.
+**Regla de oro: Edu cree que es el único.** No conoce a nadie con un don como el suyo. Piensa que está enfermo o loco. Esa soledad es el motor emocional. Solo en el final descubre que hay más.
+**Pregunta:** ¿qué me pasa? **Tono:** soledad, descubrimiento y duelo.
 **Arco de Edu:** de huir a estar presente.
-**Se cierra:** qué es el don, cuánto cuesta, quién es Ibarra, la amistad con Bruno, que su padre no se fue.
-**Pérdida:** muere Tomás, que presta su tiempo para salvarlos.
-**Giro final:** en la grabación de su cocina se oye «Hola, papá». Los doce minutos que perdió **no se perdieron**: habló con su padre. Y la letra de «NO MÁS» en su cuaderno de laboratorio (capítulo 9) **es la de Raúl**.
-**Puerta abierta:** el reloj marca las 4:18 y Nora oye el latido del Destiempo.
+**Se cierra:** qué es el don y cuánto cuesta, quién es Ibarra, la amistad con Bruno, que su padre no se fue.
+**Pérdida:** muere Tomás, que presta su tiempo para salvarlos. Es la primera vez que Edu ve a otra persona con un don.
+**Golpe final (capítulos 23 y 24):** en el funeral el mundo se para y se mueven siete personas: Nora, Marcos, Lía, Iván, la señora Pilar, don Ernesto y Rosa. **Edu descubre que nunca estuvo solo.** Y entonces llega a todos la notificación: la cuenta de Tomás pasa a nombre de Edu. Hereda el tiempo prestado de ocho personas, con veintiún días para resolverlo. Después, «Hola, papá» y la letra de su padre en el cuaderno.
+**Puerta abierta:** los siete, la herencia, Nora que ocultó lo que era, el latido del Destiempo.
 
 ### LIBRO II · *La hora que nadie mira* (Edu y Nora, capítulos alternos)
+**Arranque:** los veintiún días. Edu debe el tiempo de siete personas. Nora y él tienen que reconstruir la confianza.
 **Pregunta:** ¿dónde está mi padre y qué quieren? **Tono:** investigación y traición.
 **Arco de Nora:** de aislarse a liderar. Su don evoluciona: oye las emociones **tres segundos antes** de que ocurran.
 **Revelaciones:**

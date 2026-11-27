@@ -24,7 +24,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Herida:** sus padres se están separando y en casa es «el que no da problemas».
 - **Mentira:** «Si me hago famoso, dejaré de ser de más».
 - **Secreto:** sabe programar mejor de lo que dice. Está en foros de hackers con un nombre falso.
-- **Papel:** el técnico del grupo.
+- **Papel:** el técnico del grupo. En el libro I es **la única persona normal** que acompaña a Edu y que decide creerle.
 - **Arco:** de buscar público a elegir a su gente. **En el libro II lee el código de Bienestar+** y descubre que fabrica ansiedad. En el III filtra todo al mundo y su canal llega a millones. Consigue lo que quería y lo usa para algo que importa.
 - **Escena que no se olvida:** en el libro III, en directo ante dos millones de personas, dice: «Me llamo Bruno, tengo 13 años, y esto me pasó a mí».
 - **Detalle:** su inhalador, que lleva como talismán, y un nombre falso de hacker: *Glitch_0*.
@@ -35,6 +35,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Herida:** dos amigos, Pablo y Leyre, desaparecieron después de que ella les contara lo que eran. Se mudó cuatro veces en tres años.
 - **Mentira:** «Si me aíslo, protejo a los demás».
 - **Don:** oye las emociones de los demás. **En el libro II las oye tres segundos antes de que ocurran.**
+- **En el libro I:** es la chica rara y amable que no se ríe. **Esconde que es como Edu**, y se lo calla por culpa y por miedo. Lo revela en el funeral (capítulo 23). En el libro II, Edu tendrá que perdonarle ocho meses de silencio.
 - **Arco:** de protegerse con muros a liderar. Aprende que hay cosas que no se pueden prever y que fiarse no es debilidad.
 - **Escena que no se olvida:** en el libro II, entra por primera vez al Destiempo y **oye a Leyre**, viva, desde el fondo del silencio.
 - **Detalles:** libreta de colores, auriculares sin música, humor negro seco, mensajes de texto en vez de voz.
@@ -45,6 +46,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Herida:** lleva cuatro años y once meses en el borde de la hora oculta y nadie lo recuerda. Es hijo de Ibarra.
 - **Don:** se pierde de la atención de los demás.
 - **Secreto:** sabe dónde está la puerta.
+- **En el libro I:** solo se ve de refilón. Edu no sabe qué es. Cree que está viendo fantasmas. Es una de las razones por las que teme volverse loco.
 - **Arco:** de la invisibilidad a decir su nombre en voz alta. **Su madre muere para que él pueda hacerlo.**
 - **Escena que no se olvida:** en el libro II, la última frase de su madre es su nombre. Él lo repite.
 
@@ -75,7 +77,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Quiere:** proteger a su nieto sin tener que contárselo todo.
 - **Herida:** su esposa, Julia, murió joven. Le prestó todos los segundos que tenía y no fueron suficientes.
 - **Secreto:** fue el primer intervalo (1971). Ayudó sin saberlo a Aurelio a descubrir el Destiempo.
-- **Don:** presta tiempo. Cada segundo que regala se le resta de la vida.
+- **Don:** presta tiempo. **Edu no lo sabe hasta el capítulo 22.** Cada segundo que regala se le resta de la vida.
 - **Arco:** muere en el libro I salvando a Edu y a Nora. Su última frase: «No uses el segundo de más. No es tuyo».
 - **Legado:** su tienda, su reloj, su paloma. En el libro II, su fotografía de 1971. En el III, se descubre que Segundero es el primer segundo que prestó.
 - **Frase:** «Las cosas que llegan a destiempo no llegan mal. Llegan cuando les toca».
@@ -116,6 +118,15 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Plan:** cambiar de cuerpo con su yo joven. Para eso necesita que Edu siga usando el don hasta igualar la deuda.
 - **Frase:** «Lo hice todo mal. Escuchadme con atención».
 - **Tragedia:** no es un monstruo. Es lo que Edu sería si se quedara sin nadie.
+
+---
+
+### LA SEÑORA PILAR (112 años, aparenta 70) · *aparece desde el capítulo 2*
+- La vecina de los geranios que florecen de noche. Tomás le prestó tiempo durante cincuenta años. Es la guardiana de los secretos de Tomás y la que reúne a los demás en el funeral.
+- **Frase:** «Tu abuelo me debía una merienda. Ahora me la debes tú».
+
+### DON ERNESTO (82) y ROSA (45)
+- Otros dos que viven de segundos prestados por Tomás. Aparecen en el funeral.
 
 ---
 

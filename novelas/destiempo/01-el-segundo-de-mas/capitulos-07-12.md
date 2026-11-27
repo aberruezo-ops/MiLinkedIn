@@ -117,87 +117,69 @@ El primer mensaje me llegó en medio de una clase de Lengua, con el móvil bocab
 
 **Número desconocido:** *no respondas en voz alta*
 **Número desconocido:** *ni con la cara*
-**Número desconocido:** *banco de madrid río, bajo el puente de toledo, a las cinco. ve solo. no te sigue nadie, lo he mirado*
+**Número desconocido:** *banco de madrid río, bajo el puente de toledo, a las cinco. ve solo*
 
 Levanté la vista. Dos filas más atrás, con los auriculares colgados del cuello y la cabeza inclinada sobre un cuaderno, Nora escribía algo con un lápiz muy fino, sin mirarme. Ni un gesto. Si yo hubiera sido espía, habría dicho que era mejor que yo.
 
-A las cinco menos diez estaba bajando por la rampa del paseo de Madrid Río, con la mochila al hombro y el corazón en el cuello. Es un parque largo y estrecho que corre a los lados del Manzanares, y en octubre, a esa hora, tiene todo lo que tiene Madrid: ciclistas furiosos, viejos con dominó, gente corriendo con cara de arrepentimiento y un olor a pan, a río y a otoño de ciudad. Las hojas de los plátanos caían despacio. Un niño le tiraba migas a unas palomas y una paloma gris con la pata torcida le miraba.
+A las cinco menos diez bajaba por la rampa del paseo de Madrid Río con la mochila al hombro. Es un parque largo y estrecho que corre junto al Manzanares, y en octubre, a esa hora, tiene todo lo que tiene Madrid: ciclistas furiosos, viejos con dominó, gente corriendo con cara de arrepentimiento y un olor a pan, a río y a otoño de ciudad. Las hojas de los plátanos caían despacio. Un niño le tiraba migas a unas palomas, y una de ellas, gris, con la pata torcida, me miró.
 
 Me paré en seco.
 
 Era Segundero. O una paloma igual, pero no creí que hubiera dos.
 
-Pasó rozándome el zapato y se fue andando con la cabeza adelante, sin ninguna prisa, y yo, que he visto cosas mucho más raras ese mes, no dije ni pío.
+Pasó rozándome el zapato y siguió andando con la cabeza adelantada, sin prisa, y yo, que ya había visto cosas bastante más raras ese mes, no dije ni pío.
 
-Nora me esperaba debajo del puente, sentada en el respaldo de un banco con los pies en el asiento y los auriculares puestos. Tenía una libreta en las rodillas y un termo.
+Nora me esperaba debajo del puente, sentada en el respaldo de un banco con los pies en el asiento. Tenía una libreta en las rodillas y un termo.
 
-«Llegas pronto», dijo, y me sorprendió oírla: tenía la voz ronca, como de no usarla. «Siéntate. Hablo poco. Si me callo, no es que me haya enfadado».
+«Llegas pronto», dijo. Me sorprendió oírla: tenía la voz ronca, de no usarla. «Siéntate. Hablo poco. Si me callo, no es que me haya enfadado».
 
-Me senté. Se quedó mirando el río un rato. Entendí que no era una pausa dramática: era que le costaba empezar.
+Me senté. Se quedó mirando el río un rato largo. Entendí que no era una pausa dramática: le costaba empezar. Y a mí también. Porque yo llevaba una semana con una cosa dentro que ya no me cabía, y de pronto, con aquella chica callada, el agua del río y el olor a chocolate del termo, noté que iba a reventar.
 
-«Te voy a decir lo que sé», dijo al fin. «No es mucho. Y no sé si es verdad. Es lo que me contó el primero que encontré y lo que he visto yo».
+«Tengo que contarte una cosa», dije. «Y vas a pensar que estoy loco».
 
-Abrió la libreta. Estaba llena de dibujos pequeños, manchas de color, flechas, números. Una página con la palabra INTERVALO escrita muy grande.
+«Vale».
 
-«Un reloj hace tic. Y hace tac. Entre el tic y el tac hay un hueco. Un segundo muy pequeño que nadie ve. Un intervalo». Señaló el dibujo con el lápiz: dos rayas, y en medio, una mancha. «Hay gente que vive en ese hueco. No toda: una parte. Un poco desfasada del resto, ¿sabes? Como si fuéramos con el reloj atrasado por dentro».
+«No te estoy diciendo que me creas».
 
-«¿Por qué?».
+«Vale».
 
-«No lo sé. Pero siempre empieza igual: un susto muy grande, entre los once y los catorce años. Algo se rompe y de pronto hay una puerta». Me miró de reojo. «Tú la notas, ¿verdad? Como un picaporte».
+Se lo conté. No sé cómo me salió. Le conté el balón, el aire espeso, el silencio, el latido. Le conté el vaso de leche. Le conté lo del reloj del abuelo, lo de los doce minutos, lo de la puerta con picaporte. Me temblaba la voz y me mordía las uñas, y esperé la risa, o la cara de pena, o la frase de «tienes que ir a un médico». Esperé todo lo que había oído mil veces, o creía que había oído, en mi cabeza.
 
-Me quedé con la boca abierta.
+Nora escuchó con los ojos cerrados.
 
-«Yo también», dijo. «Pero la mía es hacia dentro. La tuya, hacia fuera. Cada uno tiene la suya».
+Cuando terminé, abrió uno.
 
-«¿Qué haces tú?».
+«Gracias por contármelo», dijo.
 
-«Oigo». Se tocó un auricular, sin quitárselo. «Lo que sienten los demás. No lo que piensan: lo que sienten. Hace ruido. Y color. Y si estoy mucho rato con mucha gente…». No terminó la frase. Hizo un gesto vago con la mano. «Por eso los auriculares. No oigo música. Me bajan el volumen del resto».
+Fue todo. Y fue lo mejor que me han dicho nunca.
 
-Le pregunté por los otros dos. Los que había encontrado antes que a mí. Se quedó muy quieta.
+«¿No me crees?».
 
-«Pablo y Leyre», dijo.
+«No he dicho eso». Abrió el otro ojo. «¿Y después pierdes algo? Cuando lo haces».
 
-Se le puso la cara de alguien que abre una caja que no quería abrir.
+Se me paró la respiración.
 
-«Pablo tenía doce años y sabía lo que iba a pasar un segundo antes. Siempre llegaba el primero a todo y no sabía por qué. Leyre era la única persona que no me dolía: tenía el ruido más suave que he oído nunca». Tragó saliva. «Se lo conté a los dos. Les expliqué lo que eran. Les dije que había más. Que podíamos ayudarnos».
+«Doce minutos. Como si me hubiera dormido, pero sin dormir». Tragué saliva. «¿Cómo sabías que pierdo algo?».
 
-«¿Y?».
+«No lo sabía. Me lo imagino». Miró el río. «Todo cuesta algo».
 
-«Y a los tres meses, los dos se habían ido. Un día estaban y al otro, no. Sus padres decían que se habían ido a otra ciudad. Pero nadie sabía cuál». Apretó el lápiz hasta que se le quedaron blancos los nudillos. «Y en las dos ciudades, justo antes, aparecieron dos señores con traje gris que no hablaban con nadie».
+No me quedé tranquilo. Era una respuesta que se parecía mucho a una excusa. Pero Nora ya estaba hablando de otra cosa, del termo, de si quería chocolate, de que en la ciudad de la que venía las palomas eran más grandes. Y lo dejé estar. Porque estaba tan aliviado de que no se hubiera reído que no quise darle más vueltas.
 
-El río llevaba hojas amarillas. Una pareja de ancianos pasó cogida de la mano.
+Entonces cambió el aire.
 
-«Yo se lo dije», repitió Nora, casi sin voz. «Es mi culpa».
-
-«No lo sabes».
-
-«Lo sé, Edu. Lo sé como sé que llueve». Cerró la libreta. «Y por eso te lo cuento a ti ahora. Porque ya me da igual que sea peligroso. Prefiero que lo sepas a que te pase a ti».
-
-No supe qué decir. Así que dije lo único que sabía:
-
-«Yo no me voy a ir».
-
-Ella me miró con unos ojos enormes y cansados.
-
-«No se puede prometer eso».
-
-«No, pero lo digo igual».
-
-Soltó algo parecido a una risa. Fue la primera vez que la oí reír, y duró un segundo. Y entonces la risa se cortó. Le cambió la cara.
-
-Se llevó las dos manos a las orejas. Se dobló sobre sí misma.
+Fue un segundo. Nora se quedó muy quieta, con la tapa del termo a medio camino de la boca. Se llevó las dos manos a las orejas. Se dobló sobre sí misma.
 
 «Nora».
 
-«No… espera…». Jadeaba. «Hay alguien. Allí, en aquel banco. Una señora…».
+«No… espera…». Jadeaba. «Allí. En aquel banco. Una señora…».
 
-Miré. A unos cien metros, en un banco más allá del puente, una mujer mayor con un abrigo oscuro lloraba sin hacer ruido, con un pañuelo en la boca. Nada raro. Gente que llora en parques hay mucha.
+Miré. A unos cien metros, más allá del puente, una mujer mayor con un abrigo oscuro lloraba sin hacer ruido, con un pañuelo en la boca. Nada raro. Gente que llora en un parque hay siempre.
 
-«Acaba de perder a alguien», susurró Nora. «Hoy. Esta mañana. Es como… como un grito. Me está… me duele…». Le bajó un hilo de sangre por la nariz.
+«Me pasa a veces con la gente», dijo Nora, y tenía los ojos llenos de lágrimas y un hilo de sangre en la nariz. «Cuando hay mucho… mucho de algo… me duele aquí». Se tocó la frente. «Es como estar en un sitio donde todos gritan y nadie se entera».
 
-Me asusté. Lo normal. Y cuando me asusto, se me acelera todo.
+Me asusté. Lo normal. Y cuando me asusto, se me acelera todo, y entonces vi en su cara el miedo de que me pasara a mí delante de ella.
 
-Entonces vi la pregunta en su cara, el miedo de que yo lo hiciera, de que yo sintiera el hueco abrirse, de que el aire se pusiera espeso. Y se me ocurrió una cosa muy tonta, o muy buena, no lo sé.
+Y se me ocurrió una cosa muy tonta o muy buena, no lo sé.
 
 «Nora. Mírame».
 
@@ -211,11 +193,11 @@ No me miró.
 
 «No… no puedo…».
 
-«Un banco», dije yo, en su lugar, bajito. «Una hoja amarilla. Un termo. Tu libreta. Un río».
+«Un banco», dije yo en su lugar, bajito. «Una hoja amarilla. Un termo. Tu libreta. Un río».
 
-Me miró. Con los ojos llenos de lágrimas y la nariz sangrando, me miró, y por primera vez fue a mí.
+Me miró. Con los ojos llenos de lágrimas y la nariz sangrando, me miró.
 
-«Cuatro cosas que toques», dije. Y ella repitió, con la voz hecha trizas: «La madera… del banco. Mis… pantalones. El lápiz. Tu mano».
+«Cuatro cosas que toques», dije. Y ella repitió, con la voz hecha trizas: «La madera del banco. Mis pantalones. El lápiz. Tu mano».
 
 Le había cogido la mano sin darme cuenta. Estaba helada.
 
@@ -225,21 +207,19 @@ Le había cogido la mano sin darme cuenta. Estaba helada.
 
 «Dos que huelas».
 
-«Pan. Y… el termo. Chocolate».
+«Pan. Y chocolate».
 
 «Una que saborees».
 
-Ella respiró. Un aire muy hondo, tembloroso, de esos que parecen venir de muy lejos.
-
-Y se le quitó. Se le fue quitando poco a poco, como una ola que se retira. Se sentó recta. Se limpió la sangre de la nariz con la manga, con cara de cabreo, y me dijo, con la voz todavía rota:
+Respiró. Un aire muy hondo, tembloroso, de esos que parecen venir de muy lejos. Y se le fue quitando, poco a poco, como una ola que se retira. Se sentó recta. Se limpió la sangre con la manga, con cara de cabreo, y me dijo, con la voz todavía rota:
 
 «Eso no es justo».
 
 «¿El qué?».
 
-«Que tú no suenes tan fuerte cuando cuentas». Me miró de lado. «Eres el único que no me duele».
+«Que contigo se me calle todo». Me miró de lado. «Nadie me había hecho eso nunca».
 
-No supe qué contestar. Me ardían las orejas. Para disimular, serví chocolate del termo en la tapa, que estaba espeso y casi demasiado dulce, y se lo di. Bebió con las dos manos.
+Me ardían las orejas. Para disimular, serví chocolate en la tapa del termo, espeso y casi demasiado dulce, y se lo di. Bebió con las dos manos.
 
 Estuvimos un rato así, mirando cómo se oscurecía el río. Y entonces, sin soltar la tapa, Nora dijo en voz muy baja, sin mirarme:
 
@@ -249,15 +229,13 @@ Se me paró el estómago.
 
 «¿Qué pasa con mi abuelo?».
 
-«Lo vi esta mañana, cuando me dejaron en el barrio. Estaba en la puerta de la tienda, tosiendo». Hizo una pausa muy larga. «Es dorado. Un dorado muy brillante, muy bonito. Pero tiembla, Edu. Tiembla como…».
+«Lo vi esta mañana, cuando me dejaron en el barrio. Estaba en la puerta de la tienda, tosiendo». Hizo una pausa muy larga. «Me da una pena que no sé explicar. Como cuando una vela se está acabando y todavía alumbra mucho».
 
-No terminó.
+«¿Cómo sabes tú eso?».
 
-«¿Como qué?», pregunté.
+«No lo sé». Dejó la tapa sobre el banco con mucho cuidado. «A veces me pasa. No me hagas caso».
 
-Nora dejó la tapa sobre el banco, con mucho cuidado.
-
-«Como cuando algo se está acabando».
+Pero se lo hice. Esa noche me quedé despierto pensando en la vela.
 
 ---
 
@@ -265,9 +243,9 @@ Nora dejó la tapa sobre el banco, con mucho cuidado.
 
 A los científicos de verdad no los fotografían nunca el sábado por la noche, solos en su habitación, con un cronómetro de móvil y una libreta de pastas rojas, intentando averiguar cuánto cuesta una cosa que no deberían estar haciendo. Pero la ciencia es así de ingrata.
 
-Mi libreta se llamaba CUADERNO DE LABORATORIO (nº 1), con letras de rotulador, y en la primera página había escrito: *Hipótesis: la puerta se puede abrir sin miedo.* Debajo, con otra letra: *Preguntas: 1) ¿cuánto cuesta? 2) ¿se puede controlar? 3) ¿a quién le pasa lo mismo?*
+Mi libreta se llamaba CUADERNO DE LABORATORIO (nº 1), con letras de rotulador, y en la primera página había escrito: *Hipótesis: la puerta se puede abrir sin miedo.* Debajo, con otra letra: *Preguntas: 1) ¿cuánto cuesta? 2) ¿se puede controlar? 3) ¿a quién más le pasa?*
 
-La tercera ya tenía dos respuestas: a Nora, y a un chico fantasma de dieciséis años.
+La tercera no tenía respuesta. Era la que más me dolía. En todo el mundo, hasta donde yo sabía, no había una sola persona a la que le pasara lo mismo que a mí.
 
 Mi madre estaba de guardia. Mi abuelo, abajo, con la radio puesta. En el patio de luces, la señora Pilar regaba sus geranios, que florecían a la luz de la farola con ese rosa fosforito que tienen solo por la noche. Cerré la ventana.
 
@@ -373,7 +351,7 @@ Blanco como el de una persona de setenta años.
 
 ---
 
-### 10. El tercero
+### 10. El chico de la escalera
 
 Estuve dos días sin ir. Mi madre pidió cita con el médico y yo dije que sí a todo, con cara de pan. El tercer día volví al instituto con un gorro de lana hasta las cejas, que no tuve que justificar porque estábamos en octubre y a todo el mundo le daba igual.
 
@@ -381,97 +359,69 @@ Bruno y yo no nos hablábamos.
 
 Es un tipo de silencio muy especial: no es de pelea, es de dos personas que se quieren y no se atreven. Pasaba a su lado en el pasillo y se quedaba muy interesado en su taquilla. Yo me interesaba muchísimo en mis zapatos. Nos habíamos hecho invisibles el uno para el otro con una eficacia que daba hasta pena.
 
-Pero eso me dio una idea.
+Pero tenía otro problema, más grande, que no le había contado a nadie ni siquiera a Nora: llevaba dos semanas con la sospecha de que se me estaba yendo la cabeza.
 
-*Si miras directamente, se va*, había dicho Nora de pasada, cuando le conté lo del chico de la puerta. *Si ya lo has visto una vez, a lo mejor puedes verlo otra sin mirarlo.*
+Porque yo había visto a ese chico en el vídeo. Y Bruno también lo había visto. Pero nadie más. Y a las cosas que ven dos personas y no ve nadie más, los médicos les tienen un nombre. Pensé en pedir cita con la doctora Ibarra y se me hizo un nudo en el estómago. Pensé en contárselo a mi madre y me di cuenta de que prefería comerme el gorro.
 
-Así que en el recreo me fui al rincón de la escalera de atrás, el de la puerta del gimnasio, y me quedé quieto con el bocadillo en la mano. Mirando el suelo. Mirando un charco. Mirando una hormiga que cargaba una miga como una mudanza.
+Así que en el recreo me fui al rincón de la escalera de atrás, junto a la puerta del gimnasio. Me quedé quieto con el bocadillo en la mano, mirando el suelo. Mirando un charco. Mirando una hormiga que cargaba una miga como una mudanza.
 
-Y fui girando la vista muy despacio, sin decidir nada. Dejando que el ojo se fuera solo, hacia arriba y hacia un lado, como cuando intentas ver una estrella muy pequeña.
+Y fui girando la vista muy despacio, sin decidir nada, hacia arriba y hacia un lado, igual que cuando intentas ver una estrella muy pequeña.
 
 Y allí estaba.
 
-Sentado en el último escalón, con las manos en los bolsillos de una sudadera gris y la espalda apoyada en la barandilla. El pelo oscuro, un poco largo. Dieciséis años. Una cara de esas que parecen de otra persona cada vez que las miras.
+Sentado en el último escalón, con las manos en los bolsillos de una sudadera gris y la espalda apoyada en la barandilla. El pelo oscuro, un poco largo. Dieciséis años, quizá. Una cara de esas que parecen de otra persona cada vez que las miras.
 
-«No me mires de frente», dijo, sin volver la cabeza. Tenía una voz tranquila, grave, algo oxidada. «Háblame de lado. Mira la pared».
+Giré la cabeza de golpe para verlo de frente.
 
-Miré la pared. Él también. Nos quedamos así, como dos espías en un banco, con los ojos fijos en un trozo de ladrillo, hablándonos a la altura del hombro.
+Se había ido. El escalón estaba vacío.
 
-«Llevo dos semanas esperando a que me vieras», dijo.
+Volví a mirar de lado, hacia el charco, hacia la hormiga. Y allí estaba otra vez, con el mismo gesto tranquilo. Como si lo único que hiciera falta para verlo fuera no querer verlo.
 
-«¿Cómo sabías que iba a verte?».
+No me atreví a hablar. No creo que hubiera podido. Me quedé con el bocadillo a medio camino y el corazón haciendo ruido en el pecho. El chico giró la cabeza, muy despacio, y me miró.
 
-«Porque estás roto como yo. Por el mismo sitio». Casi sonrió. «Solo nos ven los que se han roto por el mismo sitio».
+No con curiosidad. No con miedo.
 
-No supe qué contestar. Esperé a que se me pasara la sensación en el pecho, que era una mezcla de alivio y de miedo, como cuando encuentras a alguien que habla tu idioma en un país donde nadie lo habla.
+Con alivio.
 
-«¿Cómo te llamas?».
+Se llevó un dedo a los labios.
 
-Tardó mucho en contestar.
+*Shhh.*
 
-«Dime tú el tuyo».
+Después, con ese mismo dedo, escribió algo en el polvo del escalón. Letras grandes, torcidas, con prisa. Me acerqué sin mirarle, de costado, como un cangrejo.
 
-«Edu».
+*MÍRAME.*
 
-«Edu». Lo repitió despacio, como quien prueba una cosa nueva. «Ya está. Si me lo preguntas mañana, me acordaré. Es lo único que necesito: que alguien me recuerde un día entero».
+«Te miro», dije en voz baja, hablándole al charco.
 
-«¿Y tu nombre?».
+Vi, con el rabillo del ojo, cómo los ojos del chico se llenaban de agua.
 
-Se quedó callado. Después, muy bajito:
+Y entonces oí tacones en el pasillo.
 
-«Todavía no».
+Él también los oyó. Se puso tenso de golpe, como un gato. Giró la cabeza hacia el corredor, y yo, mirando la pared, vi con el rabillo del ojo lo que él veía. La doctora Ibarra venía caminando con una carpeta contra el pecho y las gafas encima del pelo rizado, hablando por el móvil con esa voz de sillón calentito.
 
-Lo dijo sin enfado. Lo dijo con miedo. Aquel chico, que tenía cuatro años más que yo y la espalda de un nadador, tenía miedo de pronunciar su propio nombre, y no entendí por qué hasta mucho después.
+El chico se levantó sin hacer ruido y se pegó a la sombra del pilar, a un metro, justo detrás de mí. Dejó de existir. No es que se escondiera: es que dejó de estar. Había un chico en las escaleras, y de pronto había un hueco.
 
-«Cuatro años y once meses», dijo. «Es lo que llevo sin que nadie me diga mi nombre. No es que me olviden. Es que no… se quedan. Me ven y se les resbala. Como cuando miras un anuncio y no lo lees». Se encogió de hombros. «Mi poder es que me pasan por alto. No lo elegí. Es lo que me tocó».
-
-Lo que me tocó. Había oído esa frase de mi madre cuando hablaba de mi padre. De mi abuelo cuando se refería a su espalda. De Nora cuando hablaba de sus oídos.
-
-«¿Qué quieres de mí?», pregunté.
-
-«Dos cosas». Levantó dos dedos sin sacar la mano del bolsillo, y no supe cómo. «Una: que me mires todos los días. Aunque sea cinco segundos. Si alguien me ve todos los días, me quedo un poco más. Si no, me deshago».
-
-Se me hizo un nudo en la garganta que no vi venir. Era lo más triste que me habían pedido nunca, y lo había pedido sin dramatismo, como quien pide la sal.
-
-«Vale».
-
-«Y dos: cuidado con la doctora».
-
-«¿La doctora Ibarra?».
-
-«Es la que mejor me conoce». Tardó un segundo. «Y por eso no quiero que me vea».
-
-«¿Por qué?».
-
-Pero no contestó. Se había puesto tenso, de golpe, como un gato. Giró la cabeza muy despacio, por primera vez, hacia el pasillo del fondo. Y yo, que seguía mirando la pared, vi con el rabillo del ojo lo que él veía.
-
-La doctora Ibarra venía caminando por el corredor, con una carpeta contra el pecho y las gafas encima del pelo rizado. Hablaba con alguien por el móvil, sonriendo, con esa voz de sillón calentito.
-
-Marcos (que todavía no se llamaba así para mí) se levantó sin hacer ruido y se pegó a la sombra del pilar, a un metro, justo detrás de mí. Dejó de existir. No es que se escondiera: es que dejó de estar. Había un chico en las escaleras, y de pronto había un hueco.
-
-La doctora pasó por delante de mí. Me saludó con la mano libre, con ese guiño de «nos vemos el jueves».
+La doctora pasó por delante de mí. Me saludó con la mano libre, con un guiño de «nos vemos el jueves».
 
 Y se detuvo.
 
 Se quedó un paso más allá, con el móvil todavía pegado a la oreja, sin oír ya lo que le decían. Miraba el pilar. Un pilar cualquiera, de hormigón. Pero lo miraba con los ojos muy abiertos y muy brillantes, como si hubiera visto algo que lleva años esperando.
 
-Bajó el móvil. Susurró, tan bajo que casi no lo oí, con un hilo de voz que no era de doctora, sino de otra persona más antigua que habitaba dentro de ella:
+Bajó el móvil. Susurró, tan bajo que casi no lo oí, con un hilo de voz que no era de doctora sino de otra persona más antigua que habitaba dentro de ella:
 
 «Marcos».
 
 Después se dio la vuelta y se fue, rápido, sin mirar atrás, con una mano en la boca.
 
-Cuando el corredor volvió a quedarse vacío, el pilar se movió.
+Cuando el corredor volvió a quedarse vacío, miré el pilar. Nadie. En el escalón, junto al polvo donde había escrito su nombre, alguien había dejado un papel doblado en cuatro.
 
-«Gracias», dijo la voz del chico fantasma, desde la sombra. «Por no haberlo dicho».
+Lo desdoblé con los dedos temblorosos.
 
-Yo no había dicho nada. Pero me quedé mirando el sitio por donde se había ido la doctora, con los ojos de alguien que ha entendido por fin una pieza de un puzle sin saber todavía qué imagen forma.
+*GRACIAS POR MIRARME.*
 
-«Marcos», dije.
+Me quedé allí, de pie, mucho rato, con el papel en la mano. Porque si estaba loco, al menos estaba loco acompañado. Y eso no era lo que me quitaba el aliento.
 
-Y el chico fantasma, el que lleva cuatro años y once meses sin que nadie le diga su nombre, se quedó muy quieto detrás de mi hombro.
-
-Después, muy despacio, empezó a llorar.
+Lo que me quitaba el aliento era otra cosa: que la doctora Ibarra sabía cómo se llamaba un chico que, para el resto del mundo, no existía.
 
 ---
 

@@ -205,59 +205,47 @@ No lo hizo adrede, me dije. Era el único sitio libre. Pero llevaba los auricula
 
 No quería mirarla. Pero la miré, de reojo, y comprendí que Bruno tenía razón a su manera: Nora nos miraba a todos con la cara muy quieta y el ceño apenas fruncido, como quien oye un ruido que no puede apagar.
 
-Aguanté tres horas. En el recreo, intenté perderme entre los de primero, que son muchos y no te miran, y me fui al fondo de la pista, junto a la valla donde nadie va porque está llena de chicles pegados. Estaba contando las rejillas cuando una sombra se puso a mi lado.
+Aguanté tres horas. En el recreo intenté perderme entre los de primero, que son muchos y no te miran, y me fui al fondo de la pista, junto a la valla, donde nadie va porque está llena de chicles pegados. Estaba contando las rejillas cuando una sombra se puso a mi lado.
 
-«No grites», dijo una voz.
+«No te asustes», dijo una voz. «A mí me pasa cuando alguien se me acerca por la espalda. Perdona».
 
-No grité. Estaba tan asustado que ni siquiera me salió aire.
+No me asusté. Estaba demasiado ocupado en no existir.
 
 Nora estaba a un metro. Se había quitado los auriculares y los llevaba en la mano, y sin ellos parecía más pequeña y más cansada. Tenía los ojos oscuros, con una arruga entre las cejas que no era de su edad.
 
-«Lo digo porque me duele», añadió. «Cuando alguien se asusta cerca de mí, me duele. Es como si me gritaran en el oído, pero por dentro».
+«Vi lo del jueves», dijo. «Lo del gimnasio. No me lo cuentes, ¿vale? Solo quería decirte que no me pareció gracioso. Se rieron todos y a mí me pareció que no tenía gracia nada».
 
-«¿Qué?».
+«Fue un reflejo».
 
-«Ayer. En tu cocina. Te asustaste y se paró». Hizo un gesto con la mano, como cortando algo en el aire. «Lo oí desde mi casa. Hace un ruido, ¿sabes? Un clac. Como un reloj que se detiene de golpe. Y luego un silencio muy grande, de unos doce minutos. Eso no lo había oído nunca».
+«Claro». No lo dijo con retintín. Lo dijo como quien deja una cosa sobre la mesa sin tocarla. «Me he mudado cuatro veces en tres años. He aprendido a mirar quién se queda solo en los recreos. Casi siempre es el que más ve».
 
-Me quedé blanco. Lo noté en la cara.
+No supe qué decir. Era la frase más amable y más rara que me habían dicho en mucho tiempo.
 
-«No sé de qué hablas».
+«¿Y esos auriculares?», pregunté por decir algo. «No suena nada».
 
-«Sí lo sabes». Lo dijo sin rabia, con un cansancio enorme. «Edu, tú eres el tercero que encuentro este año. Y eres el primero que no sabe nada. Los otros dos lo sabían. Y los dos… bueno».
+Los miró. Sonrió muy poco, sin alegría.
 
-«¿Los dos qué?».
+«Me bajan el volumen del resto», dijo. «¿Tú no tienes días en que todo suena demasiado?».
 
-Nora no contestó. Se colocó los auriculares en el cuello, despacio, como quien se pone una bufanda.
+Tardé un segundo en entender que no hablaba de ruido.
 
-«Escúchame bien, porque tengo poco tiempo y no me sale explicarlo bonito», dijo. «Lo que haces tiene un precio. Cada vez que lo usas, te cobran. Doce minutos, ayer. No te acuerdas de ellos, ¿a que no? No te acuerdas de nada. Es como si alguien te los hubiera quitado de la vida».
+«Algunos», admití.
 
-«¿Y adónde van?».
+«Pues eso». Se encogió de hombros. «Si alguna vez quieres hablar de algo raro, yo no me río. Lo digo por si acaso».
 
-«No lo sé. Pero no desaparecen. Se van a algún sitio». Se mordió el labio. «Una vez oí a alguien llamarlo el Destiempo».
+Sonó la sirena del fin del recreo. Los chicos corrían hacia las puertas. A lo lejos, Bruno me buscaba con la mano levantada, riendo de algo que acababa de decir Dani Roca.
 
-«¿Quién?».
+«Una cosa más», dijo Nora, y su voz se hizo más baja y más rápida. «Esta tarde hay asamblea. Han venido de la Consejería. Hay una psicóloga, la doctora Ibarra».
 
-«No lo sé».
+«¿La conoces?».
 
-«¿Y cómo sabes tú que…?».
-
-«Porque oigo lo que sienten los demás», dijo. «No lo que piensan, ¿vale? Lo que sienten. Para mí es ruido, y color, y a veces olor. Tú ahora mismo eres un zumbido naranja con un borde azul de miedo. Y hace dos días eras un silencio blanco con un tic en el medio». Sonrió muy poco, sin alegría. «Por eso llevo los auriculares. Aunque no suene nada. Es para que el mundo no me grite».
-
-Me temblaban las manos. Las escondí en los bolsillos.
-
-«Yo no soy… eso. Lo que tú dices».
-
-«Se llama intervalo», dijo ella. «Lo oí por primera vez en boca de otro chico, en otra ciudad. Es el hueco que queda entre un tic y el siguiente, y ahí caben cosas que los demás no ven. No es una enfermedad. Pero hay quien la trata como si lo fuera».
-
-Se oyó la sirena que anunciaba el fin del recreo. Los chicos corrían hacia las puertas. A lo lejos, Bruno me buscaba con la mano levantada, riendo de algo que acababa de decir Dani Roca.
-
-«Ahora te llaman a una asamblea», dijo Nora, y su voz se hizo más baja y más rápida. «Han venido unos señores de la Consejería. Hay una psicóloga, la doctora Ibarra. Es amable, muy amable. Cuando te hable, no le cuentes nada».
+«No. Pero conozco a las psicólogas que son tan amables. En el otro colegio vino una con el mismo jersey verde». Hizo una pausa. «Si te habla, no le cuentes nada».
 
 «¿Por qué?».
 
-Nora se quedó callada un segundo. Parecía escuchar algo que yo no podía oír.
+«No lo sé explicar». Se colocó los auriculares. «Ya te lo he dicho: a veces me suena todo demasiado».
 
-«Porque no hace falta que se lo cuentes», dijo. «Ella ya lo sabe».
+Se fue sin esperar respuesta. La vi alejarse hacia las puertas, pequeña, con la cabeza gacha, y pensé que aquella chica era la persona más rara que había conocido en mi vida. Y que, por alguna razón, me había caído bien.
 
 ---
 

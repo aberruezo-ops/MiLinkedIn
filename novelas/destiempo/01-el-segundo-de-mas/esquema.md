@@ -1,51 +1,52 @@
 # DESTIEMPO I: EL SEGUNDO DE MÁS
-### Libro 1 de Destiempo · Esquema de 24 capítulos
+### Libro 1 de la trilogía Destiempo · Esquema de 24 capítulos
 
-**Primer libro de la trilogía Destiempo** (ver `../trilogia.md`). Debe ser redondo: cierra el arco de Edu y deja la puerta abierta al libro II.
+**Regla de oro del libro I: Edu cree que es el único.** No conoce a nadie con un don como el suyo. Se lo cuestiona todo: ¿estoy enfermo, estoy loco? Esa soledad es el motor emocional. **Solo en el final descubre que hay más, y ese descubrimiento desencadena el golpe que abre el libro II.**
 
-Narrador: Edu Valdés, 12 años. Lugar: el barrio de Usera, en Madrid, con el aire de la sierra siempre de fondo. Extensión prevista: 65.000 palabras.
+Narrador: Edu Valdés, 12 años. Lugar: barrio de Usera, Madrid, con el aire de la sierra de fondo. Extensión prevista: 65.000 palabras.
 
-## Parte I. El segundo de más
+## Parte I. El segundo de más (cap. 1 a 6)
 
-1. **La pelota.** En clase de Educación Física, un balón vuela hacia la cara de Edu y el tiempo se estira. Se aparta. Todos ven un "salto" imposible. *Gancho:* el reloj de su abuelo, parado desde hace tres años, da un tic.
-2. **Cuatro minutos.** Esa noche intenta repetirlo y no puede. Hasta que un vaso resbala y vuelve a pasar. Después descubre que faltan doce minutos de su vida. *Gancho:* una chica con auriculares lo observa desde la ventana de enfrente.
-3. **La chica de los auriculares.** Nora, la nueva, le dice que no es el único, que cada uso se paga y que lo perdido «va a algún sitio»: alguien lo llama el Destiempo. Aparece la doctora Ibarra y su programa. *Gancho:* la doctora dice el nombre de Edu sin que nadie se lo haya dado.
-4. **El reloj de Tomás.** Edu enseña el reloj a su abuelo. Se le ve más cansado de lo normal y tose. El abuelo se queda blanco, le dice que no lo enseñe a nadie y suelta la frase que recorre la saga: «Las cosas que llegan a destiempo no llegan mal, llegan cuando les toca».
-5. **Cinco, cuatro, tres, dos, uno.** Su madre, sin saber nada, le enseña a calmarse con los cinco sentidos. Edu descubre que esa calma es la llave.
-6. **Lo que Bruno vio.** Bruno graba un vídeo del "salto". Edu miente a su mejor amigo por primera vez.
+1. **La pelota.** En clase de Educación Física, el tiempo se estira. Se aparta. Todos ven un «salto» imposible. *Gancho:* el reloj de su abuelo, parado desde hace tres años, da un tic.
+2. **Cuatro minutos.** Esa noche intenta repetirlo y no puede. Hasta que un vaso resbala. Después faltan doce minutos de su vida. *Gancho:* una chica con auriculares lo observa desde la ventana de enfrente.
+3. **La chica de los auriculares.** Nora, la nueva, es rara y amable. No le explica nada, solo le dice que no se ría de nadie por sentirse «demasiado». Le avisa de la psicóloga. *Gancho:* la doctora dice su nombre sin que nadie se lo haya dado.
+4. **El reloj de Tomás.** El abuelo se queda blanco al ver que el reloj se mueve. Tose. *Gancho:* «¿Cuántos minutos?».
+5. **Cinco, cuatro, tres, dos, uno.** Su madre le enseña a calmarse. *Gancho:* la madre sabe de la psicóloga.
+6. **Lo que Bruno vio.** El vídeo. Edu miente a su mejor amigo. *Gancho:* un chico que nadie ve en el fondo.
 
-## Parte II. Fuera de hora
+## Parte II. Fuera de hora (cap. 7 a 12)
 
-7. **El Programa de Bienestar.** Primera sesión con la doctora Ibarra. Es cálida y hace las preguntas justas. Demasiado justas.
-8. **Nora no habla.** Nora explica qué son los intervalos y que ella oye las emociones de los demás como ruido.
-9. **La deuda.** Edu mide cuánto le cuesta usar el don. Pierde cuarenta minutos y su madre lo encuentra en el suelo del baño.
-10. **El tercero.** Aparece Marcos, un chico mayor que nadie recuerda haber visto. Se esconde de la atención de la gente.
-11. **Lo que escondía la relojería.** En la tienda del abuelo, Edu halla detrás del gran reloj de estación (que alguien ha adelantado a las 4:18) el cuaderno de su padre, con el nombre «Marcos I.» y el acuerdo del Programa Cronos firmado por su madre. *Pista abierta:* ¿quién adelantó el reloj de estación?
-12. **4:17.** Recuerda el día en que su padre se fue. Descubre que su madre le mintió.
+7. **El Programa de Bienestar.** Primera sesión con la doctora. *Gancho:* sabe que su padre contaba segundos.
+8. **Nora no habla.** Edu se lo cuenta todo a Nora. Ella no se ríe. Pero esconde algo. *Gancho:* «Tu abuelo me da una pena que no sé explicar».
+9. **La deuda.** Edu mide solo cuánto cuesta. Se pregunta a quién más le pasa y la respuesta es: a nadie. *Gancho:* un pelo blanco.
+10. **El chico de la escalera.** Edu ve a Marcos sin hablar con él. Teme volverse loco. *Gancho:* la doctora susurra «Marcos».
+11. **Lo que escondía la relojería.** El cuaderno de su padre y la firma de su madre.
+12. **4:17.** Flashback del día que desapareció Raúl. **Punto medio:** «No se fue nunca, Edu».
 
-## Parte III. La doctora
+## Parte III. La doctora (cap. 13 a 19)
 
-13. **Preguntas buenas.** Segunda sesión. Ibarra deja caer la palabra «Cronos» en voz alta y Edu la ve en el lazo de su tableta: el reloj de arena dentro de un círculo del acuerdo de su madre. Ibarra le ofrece algo: «Si me ayudas a entender lo que te pasa, puedo ayudarte a encontrar a tu padre».
-14. **El expediente.** Nora y Edu se cuelan en el despacho cuando Ibarra no está. Ven la carpeta: **fecha de apertura, tres años atrás**, el día que Raúl desapareció. No empezó con el balón. Llevan tres años esperando a Edu.
-15. **Bruno se entera.** Bruno sigue a Edu y lo ve usar el don con calma, sin miedo. Discuten: «Llevas semanas mintiéndome. No sé quién eres». Se separan.
-16. **Persecución en el Metro.** Dos hombres de gris los siguen por la línea 6. Edu gira el picaporte con calma y escapa, pero su apagón lo deja inconsciente en un andén. Antes de caer, ve un instante el Metro quieto, un Madrid detrás de Madrid. Nora lo saca.
-17. **El segundo que sobraba.** Con el cuaderno de Raúl y las libretas de Nora descubren la regla: **los segundos prestados no desaparecen: alguien los cobra.** Y Cronos manda a Edu una notificación que no debería poder mandar: «Hola, Edu. Sabemos que lo sabes».
-18. **Lo que no se dice en casa.** Su madre confiesa lo que falta: firmó, cobra una «ayuda» mensual y creyó que lo ayudaban. Edu, furioso, se va de casa. Sin amigos, sin madre y con una confianza rota con todos los adultos: es su noche más oscura.
-19. **La ayuda de Tomás.** El abuelo lo encuentra en la tienda y le enseña su don por primera vez: regala un segundo a un cristal que se iba a romper. Tose sangre. «Esto es lo que cuesta, Edu. Y aun así».
+13. **Preguntas buenas.** Segunda sesión. Ibarra deja caer la palabra «Cronos» y le ofrece ayuda para encontrar a su padre.
+14. **El expediente.** Edu y Nora se cuelan en el despacho. La carpeta lleva fecha de hace tres años: llevan tres años esperando a Edu. Nora no se sorprende. Edu lo nota.
+15. **Bruno.** Bruno ve desaparecer a Edu, discuten, y Bruno decide creerle: «Tío, lo sabía». Entra al equipo como técnico.
+16. **Persecución en el Metro.** Dos hombres de gris los siguen. Edu usa el don y paga caro. Antes de desmayarse, un vistazo a un Madrid congelado. Nora lo saca.
+17. **El segundo que sobraba.** Con el cuaderno de Raúl y el código de Bienestar+, Bruno y Edu descubren que los segundos prestados se cobran. *Gancho:* Cronos le manda una notificación: «Sabemos que lo sabes».
+18. **Lo que no se dice en casa.** Su madre confiesa que cobra una «ayuda» mensual. Edu se va de casa. Es su noche más oscura.
+19. **La ayuda de Tomás.** El abuelo lo encuentra y le habla de Julia, su mujer. No le revela ningún don. Le da la llave del taller de su padre y le dice: «Si me pasa algo, ve a ver a Pilar».
 
-## Parte IV. Todo a su hora
+## Parte IV. Todo a su hora (cap. 20 a 24)
 
-20. **El Instituto.** Siguen a la doctora hasta un edificio sin carteles junto a Madrid Río. Bruno, que ha vuelto sin pedir permiso, desactiva las pulseras de Pulso para entrar.
-21. **Lo que Ibarra quería.** La doctora no es un monstruo. Les cuenta que Marcos es su hijo y que el Programa dice poder traerlo de vuelta. Ofrece a Edu un trato: «Tu padre y mi hijo, a cambio de ti». Edu duda.
-22. **No usar el don.** Se activa una trampa. Edu **no gira el picaporte**: se calma con los cinco sentidos y salva a Nora. Los hombres de gris los acorralan. Aparece Tomás, les presta diez segundos a cada uno y su cuerpo envejece cuarenta años. **Muere en brazos de Edu a las 4:17.** Última frase: «No uses el segundo de más. No es tuyo».
-23. **Lo que queda.** El funeral. Marta, rota. Dani, sin que nadie se lo pida, no cuenta lo que vio. Bruno no ha subido el vídeo. Edu no habla durante cuatro días. La paloma Segundero llega a la tienda cerrada y se queda dentro.
-24. **4:18.** Dos semanas después, Bruno le enseña la grabación de la cocina del capítulo 2. Una voz de hombre, limpiada, dice: «Hola, papá». Edu compara la letra de «NO MÁS» en su cuaderno de laboratorio con la del cuaderno de Raúl: es la misma. Y el reloj de bolsillo, parado desde la muerte de Tomás, avanza un minuto. Nora oye un latido lejano.
+20. **El Instituto.** Siguen a la doctora hasta un edificio sin carteles. Bruno desactiva las pulseras.
+21. **Lo que Ibarra quería.** Marcos es su hijo. Le ofrece un trato: «Tu padre y mi hijo, a cambio de ti».
+22. **No usar el don.** Edu no gira el picaporte: se calma y salva a Nora. Los hombres de gris los acorralan. Aparece Tomás, les presta diez segundos a cada uno y su cuerpo envejece cuarenta años. **Es la primera vez que Edu ve a otra persona con un don.** Muere en sus brazos a las 4:17. Última frase: «No uses el segundo de más. No es tuyo».
+23. **El funeral.** Dos días después, en el cementerio. Cuando bajan el ataúd, a las 16:17, el mundo se para. Edu no ha hecho nada. Y se mueven siete personas: **la señora Pilar, don Ernesto, Rosa, Nora, Marcos, Lía e Iván.** Nora se quita los auriculares: «Soy como tú. Llevo meses queriendo decírtelo». Pilar: «Tu abuelo nos mantuvo vivos cincuenta años. Prestándonos tiempo». Edu comprende que no estaba solo. Nunca lo estuvo.
+24. **4:18.** El mundo reanuda su marcha. Dos semanas después, Bruno le enseña la grabación de la cocina del capítulo 2. Una voz de hombre dice: «Hola, papá». La letra de «NO MÁS» es la de su padre. Y justo entonces, **en el móvil de Edu y en el de los siete, llega la misma notificación de Cronos: «CUENTA DE TOMÁS VALDÉS CERRADA. TRANSFERENCIA PENDIENTE A: EDUARDO VALDÉS».** El reloj de bolsillo marca las 4:18 y Nora oye un latido lejano. Edu acaba de heredar el tiempo prestado de ocho personas, y le quedan veintiún días.
 
 ## Cabos para el libro II
 
+- La herencia: Edu debe el tiempo de siete personas y de Tomás.
+- Nora ocultó que era como él. Edu tendrá que perdonarla.
+- Los siete se reúnen por primera vez.
 - El reloj de estación adelantado a las 4:18 lo adelantó Raúl desde el Destiempo.
-- Marcos y la doctora Ibarra, un nombre pronunciado en voz alta.
-- La «ayuda» mensual que cobra Marta.
-- La notificación de Cronos: «Sabemos que lo sabes».
+- Marcos y la doctora, un nombre pronunciado en voz alta.
 - La paloma Segundero, dentro de la tienda cerrada.
-- El latido que solo oye Nora.
+- La notificación de Cronos: «Sabemos que lo sabes».

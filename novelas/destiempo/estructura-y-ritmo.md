@@ -25,6 +25,8 @@ Aprendemos de la técnica, no de las historias.
 
 ## 2. Arquitectura del libro 1 (24 capítulos)
 
+**Principio de soledad.** Edu cree que es el único. Los aliados que le ayudan, Bruno y Nora, no comparten su don, o eso cree. La soledad es lo que hace que el final golpee: en el capítulo 23 descubre que nunca estuvo solo.
+
 ### Parte I. El segundo de más (cap. 1 a 6) · Despertar
 Establecer el mundo normal de Edu, su herida y la primera chispa. Termina con tres preguntas abiertas: ¿qué sabe el abuelo?, ¿por qué conoce la madre a la doctora?, ¿quién es el chico que aparece en el vídeo?
 
@@ -90,6 +92,9 @@ Regla: nunca más de dos capítulos seguidos al mismo nivel. Después de un pico
 | Los cinco sentidos de la madre | 5 | Edu los usa en el clímax | 22 |
 | La madre sabe de la psicóloga | 5 | Su confesión | 23 |
 | El chico del vídeo que nadie conoce (Marcos) | 6 | Es el hijo de la doctora | 21 |
+| La señora Pilar y su secreto | 2 | Pilar reúne a los siete en el funeral | 23 |
+| «Si me pasa algo, ve a ver a Pilar» | 19 | Pilar | 23 |
+| Nora que se nota demasiado sensible y no explica | 3 y 8 | «Soy como tú» | 23 |
 | El inhalador de Bruno | 1 | Por decidir: su crisis de asma en el clímax | 22 |
 
 ---
