@@ -105,6 +105,7 @@ Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sa
 - Enfermera de urgencias en turno de noche. Divertida cuando duerme, agotada cuando no.
 - **Su mentira:** sabe que Raúl no se fue. Firmó un papel hace tres años con una promesa: «os lo devolveremos». Cree que ocultárselo a Edu lo protege.
 - **Lo que revela:** una madre que quiere ser perfecta y no puede. Edu aprende a verla como persona.
+- **Raúl y ella:** dejaron de ser pareja cuando él le contó que era gay, y no dejaron de ser familia. Siguen casados y se llaman «mi persona». Ver `personajes.md`.
 
 ### Tomás Valdés, 74 años, abuelo
 - Relojero jubilado, viudo, con las manos llenas de callos. Habla poco y se refugia en arreglar relojes. Tose por las mañanas y dice que es el polvo de la tienda.
@@ -116,6 +117,7 @@ Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sa
 
 ### Raúl Valdés, 41 años, padre
 - Ingeniero. Brillante, cariñoso, torpe en lo cotidiano. Hacía reír a Edu midiendo cosas absurdas con un cronómetro.
+- Es gay, lo vive en paz y su familia lo aceptó sin drama, Tomás incluido. Vivía en el piso de abajo, con su padre, y cenaba arriba cada noche. No es un conflicto de la trama ni explica su desaparición.
 - Desapareció hace tres años, un día a las 4:17 de la tarde. No «se fue»: se ofreció a entrar en el Destiempo a cambio de algo que protegía a su hijo (se revela en el libro 4).
 
 ### Doctora Elena Ibarra, 43 años
@@ -184,6 +186,7 @@ Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítu
 
 ## 13. Cosas que evitar
 
+- No usar la orientación de Raúl como giro, secreto, trauma ni explicación de su desaparición. Se cuenta pronto y con naturalidad. La familia de Edu es distinta y funciona.
 - No copiar mecánicas, nombres ni estructuras de otras sagas.
 - No resolver el misterio del padre antes del último libro.
 - No convertir a los adultos en tontos.

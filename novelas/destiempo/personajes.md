@@ -17,6 +17,9 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Arco:** I, de huir a estar presente. II, de buscar a su padre a aceptar lo que cuesta. III, de cargar la deuda a **renunciar al don** para devolver el tiempo que no era suyo.
 - **Escena que no se olvida:** en el libro III, frente a su yo del futuro, Edu se calma con los cinco sentidos y **no gira el picaporte**.
 - **Detalles de verdad:** se muerde las uñas, cuenta cosas, se tapa la boca cuando se ríe. Tiene un pelo blanco desde los 12 años.
+- **Su familia:** su padre es gay y se lo contaron a los seis años, sin drama. Sus padres dejaron de ser pareja y no dejaron de ser familia. Edu no lo vive como algo que explicar ni que defender: se siente especial por ello. Cree que en su casa la gente se quiere mejor que en las demás, porque ha visto quererse a dos personas que ya no tenían ninguna obligación de hacerlo.
+- **La ironía que le duele:** en su casa se podía hablar de todo. Por eso tardó tanto en ver de qué no se hablaba.
+- **Lo que no soporta:** que en el barrio den por hecho que su padre «se fue con otro». Es la explicación fácil y es mentira. Eso nunca fue el problema.
 
 ### BRUNO FERRER · 12 años
 - **Quiere:** ser alguien. Tiene un canal, *Bruno Glitch*, con 43 suscriptores.
@@ -85,6 +88,8 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 ### MARTA VALDÉS · 38 años · madre
 - **Quiere:** ser buena madre y no poder.
 - **Herida:** su marido desapareció y ella lo permitió.
+- **Raúl y ella:** se casaron a los veinticinco. Cuando Edu tenía cinco años, Raúl le dijo que era gay. Lloraron los dos una noche entera y por la mañana desayunaron juntos. Raúl bajó a vivir al piso de Tomás, un tramo de escalera, y siguió cenando arriba cada noche. Nunca se divorciaron: ninguno encontró un motivo. Se presentan como «mi persona». No es un matrimonio ni una amistad, es algo que casi nadie de fuera entiende y que ellos dejaron de explicar.
+- **Por qué importa:** Marta no perdió a un marido, perdió a la persona que mejor la conocía. Y firmó el acuerdo sola.
 - **Secreto:** firmó el Acuerdo de Colaboración con el Programa Cronos. Durante tres años ha cobrado una «ayuda» mensual sin querer saber de dónde venía.
 - **Arco:** de la mentira piadosa a la alianza. En el libro II descubre que ha estado cobrando por el tiempo de su hijo y se rompe.
 - **Escena que no se olvida:** en el libro III se planta delante de Aurelio con su uniforme de enfermera y dice: «Yo cuido gente. Usted la gasta».
@@ -92,6 +97,8 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 ### RAÚL VALDÉS · 41 años · padre
 - **Quiere:** estar con su hijo.
 - **Herida:** trabajó para el Consejo sin saber lo que cosechaba. Cuando lo supo, ya era tarde.
+- **Quién es:** gay, y en paz con ello. Lo dijo tarde, a los treinta y uno, y lo dijo primero a Marta, después a su padre y después a su hijo. Tomás tardó una tarde entera en contestar y contestó arreglándole un reloj: «A mí me da igual la hora que marques, con tal de que andes». La relación con Marta se convirtió en algo distinto y más fuerte. Su orientación no es un conflicto de la trama ni la causa de nada: es parte de quién es, igual que ser ingeniero o contar segundos.
+- **Lo que enseñó a Edu sin proponérselo:** que se puede decir la verdad tarde y que llegue bien. Es la frase de Tomás hecha vida.
 - **Secreto:** se ofreció a entrar en el Destiempo para ser el ancla que protege a Edu. Ve a su hijo en cada apagón. Sabe que cada segundo de Edu le acorta la vida. Se lo ha callado por amor.
 - **Don:** ninguno. Es un hombre normal que construyó una máquina.
 - **Arco:** de culpable a padre. Vuelve en el libro III, envejecido veinte años.
@@ -143,6 +150,7 @@ La paloma gris de la tienda. Llega a las 16:50 cada día aunque el reloj marque 
 - **Nora y Marcos:** dos formas de invisibilidad. Se entienden sin hablar.
 - **Edu y Marta:** madre e hijo con secretos mutuos. Se reconcilian.
 - **Edu y Raúl:** el eje emocional de la trilogía. Se ven doce minutos sin saberlo, y luego, de verdad.
+- **Marta y Raúl:** dejaron de ser pareja y se hicieron imprescindibles. La relación más adulta de la saga. Su reencuentro en el libro III no es romántico y es el más emocionante: dos personas que se eligieron dos veces.
 - **Edu y su yo del futuro:** el enemigo final es la versión de ti que se quedó sola.
 - **Ibarra y Marcos:** el amor que mata.
 - **Tomás y Segundero:** un segundo que nunca volvió.
