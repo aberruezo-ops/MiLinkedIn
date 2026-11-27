@@ -3,7 +3,7 @@
 
 > **Documentos vigentes.** Para estructura, mitología, revelaciones y reparto, mandan `trilogia.md` y `personajes.md` (versión 2). Esta biblia sigue vigente para **tono y voz, escenario de Madrid, tecnología, realismo mágico, fundamento psicológico y formato**. Las secciones 5 (libros), 7 (personajes), 10 (hilo de misterio) y 12 (finales) están sustituidas por los dos documentos anteriores.
 
-*Lema: «Hay niños que viven a otra hora.»*
+*Lema: «Hay personas que viven a otra hora.»*
 
 Novelas de misterio y poderes para lectores de 12 años en adelante, escritas para que también las disfruten los adultos. Cada libro sigue a un chico o una chica distintos. Todos arrancan con Edu.
 
