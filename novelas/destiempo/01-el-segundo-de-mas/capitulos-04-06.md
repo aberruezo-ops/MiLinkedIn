@@ -260,6 +260,14 @@ Esa tarde mi madre ya estaba despierta, sentada en la cocina con el uniforme azu
 
 Me quedé quieto en el pasillo.
 
+En el instituto me preguntan por mi padre todas las semanas, pero mi madre no hablaba de eso. De eso nunca hemos necesitado hablar en voz baja.
+
+Lo cuento ya, porque es corto. Mi padre es gay. Se lo dijo a mi madre cuando yo tenía cinco años, y a mí me lo contaron los dos juntos a los seis, en esta misma cocina, con un bizcocho en medio por si la cosa se torcía. No se torció. Pregunté si eso quería decir que papá se iba y me dijeron que bajaba un piso, a casa del abuelo, y que subiría a cenar todas las noches. Subió todas las noches. Algunas subía también Íñigo, que traía el postre y perdía al parchís a propósito.
+
+Mis padres no se divorciaron. Una vez le pregunté a mi madre por qué y me dijo: «Porque no hemos encontrado un motivo». Cuando tienen que presentarse no dicen «mi marido» ni «mi ex». Dicen «mi persona». La gente pone cara de no entender y ellos hace mucho que no lo explican. Yo tampoco. He estado en casa de Bruno, donde sus padres siguen juntos y no se hablan, y he pensado muchas veces que lo raro era lo suyo. Mis padres se eligieron dos veces, y la segunda no les obligaba nadie. Con eso me he sentido toda la vida un poco mejor que los demás, y no pienso pedir perdón.
+
+En mi casa se podía hablar de todo. Por eso me quedé clavado: era la primera vez que mi madre me pedía que no hablara de algo.
+
 «¿Qué?».
 
 «Que si te preguntan. Los de la Consejería, la gente nueva, la psicóloga esa que ha venido… No contestes. Di que no sabes nada. Y si insisten, me llamas».

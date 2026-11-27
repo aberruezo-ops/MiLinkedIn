@@ -21,9 +21,13 @@ Bruno me eligió el quinto. No porque fuera bueno, sino porque era mi mejor amig
 
 Esa era mi táctica desde primero de ESO. Quedarme atrás, hacer como que corría y contar. Contaba las baldosas del suelo del gimnasio, que son trescientas doce en la mitad en que jugábamos. Contaba los pasos hasta la pared, que son nueve. Contaba cualquier cosa. Contar me tranquilizaba, igual que a mi abuelo le tranquiliza limpiar un reloj, y por motivos parecidos: si hay números, nada puede salir demasiado mal.
 
+Lo de quedarme atrás no empezó en el instituto. Empezó en tercero de primaria, un domingo, cuando Dani Roca y otros dos me vieron en Madrid Río con mi padre. Mi padre iba de la mano de Íñigo. Yo iba delante, en patinete, y ni me enteré de que nos habían visto. Me enteré el lunes. Me lo llevan recordando desde entonces: cuatro años, dos colegios y un mote que no pienso escribir aquí. Cuando mi padre desapareció le añadieron la pregunta. «Oye, Valdés, ¿y tu padre con quién se fue?». Siempre cuando hay gente.
+
+En mi casa aquello nunca fue un problema. Era lo mejor que teníamos, y ya lo contaré. Pero el pasillo de un instituto no es mi casa, y allí aprendí pronto la única defensa que conozco: hacerme pequeño y contar baldosas.
+
 El profesor Salcedo sopló el silbato. Dani Roca, del otro equipo, cogió el balón.
 
-Dani no es malo. Quiero dejarlo claro desde el principio porque después de lo que pasó se contaron muchas cosas y casi todas eran falsas. Dani es solo un chico al que le sobra cuerpo, que lanza fuerte porque no sabe lanzar de otra manera y que, cuando algo le sale mal, se ríe alto para que nadie vea que le importa. Pero aquel día tenía los ojos puestos en mí. Yo estaba demasiado quieto y los animales como Dani huelen la quietud.
+Dani no es un monstruo. Quiero dejarlo claro desde el principio porque después de lo que pasó se contaron muchas cosas y casi todas eran falsas, y porque durante años me habría gustado que lo fuera: a un monstruo se le odia más fácil. Dani es un chico al que le sobra cuerpo, que lanza fuerte porque no sabe lanzar de otra manera y que, cuando algo le sale mal, se ríe alto para que nadie vea que le importa. Pero aquel día tenía los ojos puestos en mí. Yo estaba demasiado quieto y los animales como Dani huelen la quietud.
 
 Lo vi tomar impulso.
 

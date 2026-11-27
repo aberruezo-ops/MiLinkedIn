@@ -139,7 +139,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 ### DON ERNESTO (82) y ROSA (45)
 - Otros dos que viven de segundos prestados por Tomás. Aparecen en el funeral.
 
-### ÍÑIGO (39 años) · *propuesta, por confirmar*
+### ÍÑIGO (39 años)
 - El hombre al que vieron de la mano de Raúl. Su pareja durante dos años. Profesor de dibujo técnico. A él también le dijeron que Raúl se había ido, y se lo creyó porque era lo más fácil de creer.
 - Marta y él se cayeron bien desde el primer día, cosa que nadie del barrio entendió.
 - **Uso posible:** aparece en el funeral de Tomás, al fondo. En el libro II es un adulto más buscando a Raúl, y la prueba para Edu de que su padre no dejó a nadie por nadie.

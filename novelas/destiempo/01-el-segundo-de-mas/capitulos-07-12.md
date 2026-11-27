@@ -551,6 +551,10 @@ Mi madre llegó una hora más tarde, empapada, con el móvil en la mano y la car
 
 No me lo creí ni un día.
 
+El barrio sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Valdés se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana.
+
+Yo sabía que era mentira por una razón muy sencilla. A los quince días, Íñigo llamó a nuestra puerta. No traía postre. Traía la cara de no haber dormido y un juego de llaves de mi padre que no sabía a quién devolver. Mi madre lo hizo pasar, cerró la cocina y estuvieron dentro dos horas. Cuando salió, me revolvió el pelo sin mirarme y bajó las escaleras como un señor mayor. No se había ido con nadie. Nos había dejado a los tres en el mismo rellano.
+
 ---
 
 Esperé a mi madre sentado en la cocina, con el cuaderno de mi padre y el papel doblado sobre la mesa.
