@@ -1,6 +1,6 @@
 # EL SEGUNDO DE MÁS
 
-*Los Desfasados, libro 1*
+*Destiempo, libro 1*
 
 ---
 
@@ -223,7 +223,7 @@ Me temblaban las manos. Las escondí en los bolsillos.
 
 «Yo no soy… eso. Lo que tú dices».
 
-«Se llama desfasado», dijo ella. «Lo oí por primera vez en boca de otro chico, en otra ciudad. Quiere decir que estás un poco fuera de hora con el resto del mundo. No es una enfermedad. Pero hay quien la trata como si lo fuera».
+«Se llama intervalo», dijo ella. «Lo oí por primera vez en boca de otro chico, en otra ciudad. Es el hueco que queda entre un tic y el siguiente, y ahí caben cosas que los demás no ven. No es una enfermedad. Pero hay quien la trata como si lo fuera».
 
 Se oyó la sirena que anunciaba el fin del recreo. Los chicos corrían hacia las puertas. A lo lejos, Bruno me buscaba con la mano levantada, riendo de algo que acababa de decir Dani Roca.
 

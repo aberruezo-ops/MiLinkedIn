@@ -1,5 +1,7 @@
-# LOS DESFASADOS
+# DESTIEMPO
 ### Biblia de la serie
+
+*Lema: «Hay niños que viven a otra hora.»*
 
 Novelas de misterio y poderes para lectores de 12 años en adelante, escritas para que también las disfruten los adultos. Cada libro sigue a un chico o una chica distintos. Todos arrancan con Edu.
 
@@ -7,7 +9,7 @@ Novelas de misterio y poderes para lectores de 12 años en adelante, escritas pa
 
 ## 1. La idea en una frase
 
-Hay personas cuyo cuerpo funciona un poco "fuera de hora" respecto al resto del mundo. Les llaman **desfasados**. Cada uno desfasa algo distinto, casi siempre ligado a una emoción difícil. Nadie sabe por qué empezaron a aparecer, y alguien lleva años estudiándolos sin decirles la verdad.
+Hay personas cuyo cuerpo funciona un poco "fuera de hora" respecto al resto del mundo. Les llaman **intervalos**, como el hueco que queda entre un tic y el siguiente. Cada uno rompe algo distinto, casi siempre ligado a una emoción difícil. Nadie sabe por qué empezaron a aparecer, y alguien lleva años estudiándolos sin decirles la verdad.
 
 ## 2. Qué nos hace diferentes de otras sagas
 
@@ -27,19 +29,19 @@ Hay personas cuyo cuerpo funciona un poco "fuera de hora" respecto al resto del 
 
 ## 4. Reglas del mundo
 
-**Qué es el desfase.** Una desviación del cuerpo respecto al "tiempo común". No es magia: es una percepción y una respuesta física que rompe lo normal. Se activa casi siempre con una emoción fuerte y se puede aprender a gobernar con calma y práctica.
+**Qué es un intervalo.** Una desviación del cuerpo respecto al "tiempo común". No es magia: es una percepción y una respuesta física que rompe lo normal. Se activa casi siempre con una emoción fuerte y se puede aprender a gobernar con calma y práctica.
 
 **Cuándo aparece.** Entre los 11 y los 14 años, con el primer gran sobresalto emocional.
 
 **El coste.** Todo uso deja una deuda. En el caso de Edu, cada segundo que "estira" se le descuenta después en forma de **apagón**: un tramo en que se queda en blanco sin darse cuenta. Cuanto más usa el don, más tiempo de su vida le falta sin saber dónde fue.
 
-**Cómo se reconocen entre ellos.** Los relojes les fallan cerca. Y cada desfasado nota en los demás un "ruido" distinto.
+**Cómo se reconocen entre ellos.** Los relojes les fallan cerca. Y cada intervalo nota en los demás un "ruido" distinto.
 
 **Qué no pueden.** Cambiar el pasado, curar a nadie, ni ocultar la deuda. Y no pueden controlar el don si están en pánico, solo si logran calmarse un instante.
 
-## 5. Los desfasados conocidos (planificados)
+## 5. Los intervalos conocidos (planificados)
 
-| Libro | Protagonista | Qué desfasa | Emoción de fondo |
+| Libro | Protagonista | Qué altera | Emoción de fondo |
 |---|---|---|---|
 | 1 | **Edu** | El tiempo propio (lo estira) | Miedo y ansiedad |
 | 2 | **Nora** | La emoción ajena (la oye como ruido y color) | Hipersensibilidad |
@@ -73,8 +75,8 @@ Todos acaban relacionándose con el mismo hecho oculto: la desaparición de Raú
 2. Descubre que no es el único: Nora, y otros.
 3. La doctora Ibarra parece interesarse por ellos antes de que ellos mismos se conozcan.
 4. El reloj de su abuelo se mueve por primera vez en tres años.
-5. Aparece la pista de que Raúl era desfasado y que no se fue: lo "retuvieron".
-6. En el último libro, el origen del desfase y qué quería de ellos quien lo estudia.
+5. Aparece la pista de que Raúl era un intervalo y que no se fue: lo "retuvieron".
+6. En el último libro, el origen de los intervalos y qué quería de ellos quien lo estudia.
 
 ## 8. Fundamento psicológico (para el autor)
 

@@ -1,5 +1,5 @@
 # EL SEGUNDO DE MÁS
-### Libro 1 de Los Desfasados · Esquema de 24 capítulos
+### Libro 1 de Destiempo · Esquema de 24 capítulos
 
 Narrador: Edu Valdés, 12 años. Lugar: un barrio de Zaragoza, con su viento, el cierzo, siempre de fondo. Extensión prevista: 65.000 palabras.
 
@@ -15,7 +15,7 @@ Narrador: Edu Valdés, 12 años. Lugar: un barrio de Zaragoza, con su viento, el
 ## Parte II. Fuera de hora
 
 7. **El Programa de Bienestar.** Primera sesión con la doctora Ibarra. Es cálida y hace las preguntas justas. Demasiado justas.
-8. **Nora no habla.** Nora explica qué son los desfasados y que ella oye las emociones de los demás como ruido.
+8. **Nora no habla.** Nora explica qué son los intervalos y que ella oye las emociones de los demás como ruido.
 9. **La deuda.** Edu mide cuánto le cuesta usar el don. Pierde cuarenta minutos y su madre lo encuentra en el suelo del baño.
 10. **El tercero.** Aparece Marcos, un chico mayor que nadie recuerda haber visto. Se esconde de la atención de la gente.
 11. **Lo que escondía la relojería.** En la tienda cerrada del abuelo, Edu halla un cuaderno de su padre con fechas, ecuaciones y la hora 4:17.
@@ -41,7 +41,7 @@ Narrador: Edu Valdés, 12 años. Lugar: un barrio de Zaragoza, con su viento, el
 
 ## Cabos para la saga
 
-- El reloj de Tomás avanza solo cuando un nuevo desfasado se despierta en algún lugar.
+- El reloj de Tomás avanza solo cuando un nuevo intervalo se despierta en algún lugar.
 - Raúl está vivo, pero no sabe que Edu lo busca.
 - Ibarra tiene una jefa y un motivo personal.
 - Marcos sabe algo que no ha contado.
