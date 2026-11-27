@@ -33,6 +33,8 @@ Pilares: Autoridad (martes, Synergós), Comunidad (miércoles), Narrativa (jueve
 
 ## Calendario previsto (desde el 9 nov: lunes artículo del pilar de la semana; martes y miércoles los otros dos pilares; jueves el orden; ver A12 y A14)
 
+Desde el 30 nov (A24, estrategia de alcance): sin post de presentación el lunes y sin cierre el viernes. Cada semana quedan el artículo del lunes y tres posts (martes opinión, miércoles pregunta fácil, jueves opinión). Donde la tabla dice "Vie ... cierre de semana" o "post de presentación", ya no se hace.
+
 La serie recorre el método por vueltas: cada semana el artículo es de un pilar distinto (conocimiento, personas, tecnología, el orden) y cada vuelta baja un nivel. Regla de reparto: martes y miércoles son los otros dos pilares entre conocimiento, personas y tecnología (en ese orden, saltando el del artículo); jueves siempre el orden; en las semanas del orden, martes a jueves son conocimiento, personas y tecnología. Los ítems del banco se reasignan al pilar que les toca. Las vueltas 3 y 4 se cierran en la sesión del índice del método con Alejandro.
 
 **Vuelta 1**
@@ -48,7 +50,7 @@ La serie recorre el método por vueltas: cada semana el artículo es de un pilar
 
 | Semana | Elemento | Artículo del lunes | Hijos |
 |---|---|---|---|
-| 30 nov | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando | Mar 1 dic personas / Mié 2 dic tecnología: C16 ¿cuántos pilotos has visto escalar? / Jue 3 dic el orden: B10 ángulo áureo |
+| 30 nov | Conocimiento | AR6 El conocimiento que vive en los equipos: Trist y Bamforth, 75 años avisando (PENDIENTE DE REDACTAR: la rutina del jueves 26 nov no se ejecutó por el fallo del chat anterior) | Mar 1 dic personas / Mié 2 dic tecnología: C16 ¿cuántos pilotos has visto escalar? / Jue 3 dic el orden: B10 ángulo áureo |
 | 7 dic | Personas | AR7 Lo que preguntasteis: participar, liderar, el miedo (sin nombres) | Mar 8 dic conocimiento: B2 minas de carbón y pilotos de IA / Mié 9 dic tecnología / Jue 10 dic el orden |
 | 14 dic | Tecnología | AR8 De la demo al uso: por qué el piloto funciona y el despliegue no | Mar 15 dic conocimiento: C14 ¿qué sabe hacer tu equipo junto que nadie sabe por separado? / Mié 16 dic personas: C9 el miedo a que se haga sin mí / Jue 17 dic el orden |
 | 21 dic | Crecer a la vez | AR9 El orden importa: 137,5 grados, nada nuevo encima de lo no mirado | B10 ángulo áureo / C17 pregunta de cierre de año / B17 el método en una página (adelanto) |
