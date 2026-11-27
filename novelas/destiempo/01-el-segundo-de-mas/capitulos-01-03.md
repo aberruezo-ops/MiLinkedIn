@@ -211,6 +211,10 @@ Nora no contestó. Se colocó los auriculares en el cuello, despacio, como quien
 
 «Escúchame bien, porque tengo poco tiempo y no me sale explicarlo bonito», dijo. «Lo que haces tiene un precio. Cada vez que lo usas, te cobran. Doce minutos, ayer. No te acuerdas de ellos, ¿a que no? No te acuerdas de nada. Es como si alguien te los hubiera quitado de la vida».
 
+«¿Y adónde van?».
+
+«No lo sé. Pero no desaparecen. Se van a algún sitio». Se mordió el labio. «Una vez oí a alguien llamarlo el Destiempo».
+
 «¿Quién?».
 
 «No lo sé».

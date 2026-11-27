@@ -11,6 +11,14 @@ Novelas de misterio y poderes para lectores de 12 años en adelante, escritas pa
 
 Hay personas cuyo cuerpo funciona un poco "fuera de hora" respecto al resto del mundo. Les llaman **intervalos**, como el hueco que queda entre un tic y el siguiente. Cada uno rompe algo distinto, casi siempre ligado a una emoción difícil. Nadie sabe por qué empezaron a aparecer, y alguien lleva años estudiándolos sin decirles la verdad.
 
+## 1 bis. Por qué se llama *Destiempo*
+
+«A destiempo» es llegar fuera de hora. Y eso es literalmente lo que le pasa a los intervalos: viven un poco a destiempo del mundo.
+
+Pero el título guarda el gran secreto de la saga. **El Destiempo es un lugar.** Cada segundo que un intervalo "pide prestado" a su don no desaparece: se acumula en un espacio fuera del reloj, donde el tiempo no corre igual. Los apagones de Edu, esos minutos que no recuerda, los ha pasado allí. El padre de Edu, Raúl, está en el Destiempo, y quien lo estudia desde fuera necesita a los chicos para abrir la puerta.
+
+Cada libro destapa una pieza de ese lugar. La saga acaba cuando los chicos llegan **a tiempo**: el último título.
+
 ## 2. Qué nos hace diferentes de otras sagas
 
 - **El poder nace de una emoción real**, no de una herencia mágica. Es una metáfora honesta de cosas que viven los chicos: ansiedad, hipersensibilidad, no saber parar la mente, miedo a perder el control.
@@ -39,15 +47,20 @@ Hay personas cuyo cuerpo funciona un poco "fuera de hora" respecto al resto del 
 
 **Qué no pueden.** Cambiar el pasado, curar a nadie, ni ocultar la deuda. Y no pueden controlar el don si están en pánico, solo si logran calmarse un instante.
 
-## 5. Los intervalos conocidos (planificados)
+## 5. Los libros de la saga y sus títulos
 
-| Libro | Protagonista | Qué altera | Emoción de fondo |
-|---|---|---|---|
-| 1 | **Edu** | El tiempo propio (lo estira) | Miedo y ansiedad |
-| 2 | **Nora** | La emoción ajena (la oye como ruido y color) | Hipersensibilidad |
-| 3 | **Marcos** | La atención (se vuelve invisible al foco de los demás) | Ganas de desaparecer |
-| 4 | **Lía** | La memoria (recuerda lo que otros olvidan) | Duelo |
-| 5 | **Iván** | La energía (acelera todo lo que toca) | Rabia |
+Todos los títulos llevan la palabra *Destiempo* delante y cada subtítulo habla del tiempo desde el poder de cada protagonista.
+
+| N.º | Título | Protagonista | Qué altera | Pieza del Destiempo que se descubre |
+|---|---|---|---|---|
+| I | **Destiempo I: El segundo de más** | Edu | Estira su tiempo con el miedo | Los segundos prestados tienen una deuda, y esa deuda va a algún sitio |
+| II | **Destiempo II: El eco que llega antes** | Nora | Oye la emoción de los demás, y cada vez antes de que ocurra | Los desfases se oyen: hay una señal que viene del Destiempo |
+| III | **Destiempo III: La hora que nadie mira** | Marcos | Se esconde de la atención de los demás | Existe una hora oculta que ningún reloj cuenta: es la puerta |
+| IV | **Destiempo IV: Lo que el reloj olvidó** | Lía | Recuerda lo que los demás olvidan | Los minutos perdidos de Edu: qué hizo allí y a quién vio |
+| V | **Destiempo V: Demasiado deprisa** | Iván | Acelera todo lo que toca | La puerta se rompe: el Destiempo empieza a invadir el mundo |
+| VI | **Destiempo VI: A tiempo** | Todos | Se juntan | Rescatar a Raúl y cerrar el Destiempo sin perder a nadie |
+
+El juego del título: la saga empieza **a destiempo** y termina **a tiempo**.
 
 Todos acaban relacionándose con el mismo hecho oculto: la desaparición de Raúl Valdés, el padre de Edu.
 
@@ -71,12 +84,14 @@ Todos acaban relacionándose con el mismo hecho oculto: la desaparición de Raú
 
 ## 7. Hilo de misterio de la serie
 
-1. Edu descubre que puede estirar el tiempo y que le cuesta.
-2. Descubre que no es el único: Nora, y otros.
-3. La doctora Ibarra parece interesarse por ellos antes de que ellos mismos se conozcan.
-4. El reloj de su abuelo se mueve por primera vez en tres años.
-5. Aparece la pista de que Raúl era un intervalo y que no se fue: lo "retuvieron".
-6. En el último libro, el origen de los intervalos y qué quería de ellos quien lo estudia.
+1. **Libro I.** Edu descubre que estira el tiempo y que le cuesta. Nora le dice que lo perdido «va a algún sitio» y que alguien lo llama el Destiempo.
+2. **Libro II.** Nora oye una señal que viene de ese lugar: un latido regular, como un reloj muy lejano. Cada intervalo que despierta lo hace sonar más fuerte.
+3. **Libro III.** Marcos conoce la puerta: una hora que existe entre las 4:17 y las 4:18 y que nadie ve, porque nadie la mira.
+4. **Libro IV.** Lía recupera el recuerdo de los doce minutos que Edu perdió en el libro I. Estuvo allí. Vio a alguien. Era su padre.
+5. **Libro V.** Iván acelera algo que no debía y la puerta se rompe. El Destiempo se filtra: relojes que se atrasan, gente que se queda sin horas.
+6. **Libro VI.** Se juntan los cinco para entrar a rescatar a Raúl. La doctora Ibarra tiene que decidir de qué lado está.
+
+Pistas fijas que se repiten: el reloj de bolsillo de Tomás, parado en las 4:17, y la frase que se oye en cada libro: *las cosas que llegan a destiempo no llegan mal, llegan cuando les toca.*
 
 ## 8. Fundamento psicológico (para el autor)
 
