@@ -193,3 +193,30 @@ Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítu
 
 - Novelas de 60.000 a 75.000 palabras. En KDP, tapa blanda de 5,5 x 8,5 pulgadas o 6 x 9.
 - Cubierta ilustrada e interior con una ilustración por parte, a generar después con Higgsfield (ver guía visual en `guia-visual.md`).
+
+## 15. El código de la saga (secreto de autor)
+
+Detalle completo en `identidad-grafica/codigo-kairos.md`. Resumen de lo que afecta a la escritura:
+
+- **La oposición de fondo.** Los griegos tenían dos palabras para el tiempo: *chronos*, el que se mide, y *kairós*, el momento oportuno. El enemigo es el Programa Cronos. La respuesta de la saga es kairós, que es lo que significa el título del libro III, *A tiempo*, y la frase de Tomás: «Las cosas que llegan a destiempo no llegan mal. Llegan cuando les toca». La palabra kairós no aparece nunca en el texto hasta el final.
+- **Las letras.** En las tres portadas y en 22 ilustraciones interiores hay una letra griega semiescondida, con una hora diminuta debajo. Leídas en orden de publicación no dicen nada. Ordenadas por su hora dan ΚΑΙΡΟΣ (portadas) y «El tiempo no se guarda, se da» (interior, en castellano con letras griegas).
+- **Origen dentro de la historia.** Tomás grababa una letra griega en el reloj de cada persona a la que prestaba tiempo, y llevaba la cuenta en una pared del taller.
+- **Siembras obligatorias.**
+  - Libro I, capítulo 4: Edu ve una letra rara grabada en el fondo de un reloj del taller y no pregunta.
+  - Libro I, capítulo 23: Pilar, don Ernesto y Rosa llevan cada uno un reloj con una letra.
+  - Libro II: aparece la pared del taller con el alfabeto completo y un nombre junto a algunas letras. Es donde el lector puede aprender el alfabeto.
+  - Libro III, última escena: el reloj de Tomás se abre y en la tapa pone «Léelas a su hora».
+- **El final por niveles.** Tras el último capítulo del libro III las páginas llevan hora en vez de número, de la 4:12 a la 4:18. Edu pide ayuda al lector y cada página da una pista más. La 4:17 lo desvela todo. La 4:18, el minuto que ningún reloj cuenta, es el súper final, escrito en castellano con letras griegas.
+- **Regla de escritura.** Ningún personaje explica el código antes de la página 4:12. El narrador puede mencionar las letras, nunca interpretarlas.
+
+## 16. Los ojos de esfera (regla visual que afecta al texto)
+
+Detalle en el libro de estilo, sección 13. En las ilustraciones, el iris de todos los personajes es una esfera de reloj y el brillo del ojo de quien tiene don es una aguja ámbar. En los intervalos las dos agujas no coinciden.
+
+Lo que implica al escribir:
+
+- El texto **no describe nunca** los ojos así. Es un lenguaje solo de la imagen. Edu, como mucho, nota que a alguien «le miran los ojos cada uno a su hora» sin saber qué quiere decir.
+- En el libro I las ilustraciones de Nora ya la delatan. El texto mantiene el secreto hasta el capítulo 23.
+- Momentos que la ilustración debe recoger: las agujas de Tomás paradas en 4:17 (I, capítulo 22), los ojos vacíos de Aurelio (II), las agujas de Edu coincidiendo y pasando a blanco cuando renuncia al don (III).
+
+> Nota de coherencia: el apartado 12 de esta biblia dice que el Edu del futuro «no era Edu». El plan vigente es el de `trilogia.md`: sí es Edu, y miente.

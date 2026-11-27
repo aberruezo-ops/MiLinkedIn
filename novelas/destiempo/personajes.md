@@ -157,3 +157,30 @@ La paloma gris de la tienda. Llega a las 16:50 cada día aunque el reloj marque 
 - Las frases del capítulo 10: Marcos dice que «solo nos ven los que nos hemos roto por el mismo sitio».
 - Los doce minutos de la cocina (capítulo 2): la visita a su padre.
 - La notificación de Bienestar+ a las 23:14 (capítulo 2): Cronos ya lo había detectado.
+
+---
+
+## Ojos y letra de cada personaje
+
+Regla visual de la saga (libro de estilo, sección 13) y código de las letras (`identidad-grafica/codigo-kairos.md`). El texto nunca describe los ojos así; es lenguaje de las ilustraciones.
+
+| Personaje | Ojos | Letra en su reloj |
+|---|---|---|
+| **Edu** | Esfera con agujas ámbar a destiempo. Al renunciar al don (III), coinciden y pasan a blanco | Κ, la única letra de la pared sin nombre al lado |
+| **Nora** | Agujas a destiempo desde su primera ilustración. Es la pista que la delata en el libro I | Ninguna |
+| **Marcos** | Agujas a destiempo, muy tenues, como el resto de su figura | Ninguna |
+| **Lía** | Agujas a destiempo | Ninguna |
+| **Iván** | Agujas a destiempo, la más adelantada del grupo | Ninguna |
+| **Tomás** | Agujas a destiempo. Se paran en 4:17 al morir | Es quien las graba |
+| **Señora Pilar** | Agujas ámbar que coinciden: vive de tiempo prestado, no tiene don | Π |
+| **Don Ernesto** | Igual que Pilar | Ε |
+| **Rosa** | Igual que Pilar | Ρ |
+| **Julia** (esposa de Tomás, fallecida) | Solo en fotografía | Ι, tachada en la pared |
+| **Bruno, Marta, Dani** | Esfera con brillo blanco normal, sin ámbar | Ninguna |
+| **Raúl** | Brillo blanco. En el Destiempo, medio rostro en sombra y un solo ojo visible | Ninguna |
+| **Doctora Ibarra** | Brillo blanco, apagado | Ninguna |
+| **Aurelio** | Vacíos: sin marcas y sin brillo | Ninguna |
+| **Edu del futuro** | Una sola aguja, en un ojo. El otro, vacío como los de Aurelio | La misma Κ, gastada |
+| **Segundero** | Anillo ámbar en el ojo, sin aguja | Ninguna |
+
+Las letras de Pilar, Ernesto, Rosa y Julia son su inicial en griego. La Κ sin nombre es la que Tomás reservó para Edu, y es la primera letra de la palabra que resuelve el código.
