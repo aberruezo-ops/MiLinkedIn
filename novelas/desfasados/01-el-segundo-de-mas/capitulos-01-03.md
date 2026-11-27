@@ -1,0 +1,268 @@
+# EL SEGUNDO DE MÁS
+
+*Los Desfasados, libro 1*
+
+---
+
+## PARTE I
+## El segundo de más
+
+---
+
+### 1. La pelota
+
+En Educación Física hay dos clases de personas: las que quieren que las elijan y las que rezan para que no las elijan. Yo era de una tercera clase, la de los que quieren que se los trague el suelo.
+
+Aquel jueves de octubre jugábamos a balón prisionero, que es un deporte inventado por alguien que odiaba a los niños. Lo digo con conocimiento de causa. Las reglas son sencillas: dos equipos, un balón que dicen que es de espuma pero que tiene la dureza de una piedra con ambiciones, y la obligación de darle al contrario en cualquier parte del cuerpo. La cabeza no vale. En teoría.
+
+Bruno me eligió el quinto. No porque fuera bueno, sino porque era mi mejor amigo y le daba vergüenza dejarme para el final.
+
+«Tú tranquilo, Edu», me susurró mientras se colocaba el inhalador en el bolsillo de los pantalones, como hacía siempre, igual que otros llevan una medalla. «Te quedas atrás, haces como que corres y ya está».
+
+Esa era mi táctica desde primero de ESO. Quedarme atrás, hacer como que corría y contar. Contaba las baldosas del suelo del gimnasio, que son trescientas doce en la mitad en que jugábamos. Contaba los pasos hasta la pared, que son nueve. Contaba cualquier cosa. Contar me tranquilizaba, igual que a mi abuelo le tranquiliza limpiar un reloj, y por motivos parecidos: si hay números, nada puede salir demasiado mal.
+
+El profesor Salcedo sopló el silbato. Dani Roca, del otro equipo, cogió el balón.
+
+Dani no es malo. Quiero dejarlo claro desde el principio porque después de lo que pasó se contaron muchas cosas y casi todas eran falsas. Dani es solo un chico al que le sobra cuerpo, que lanza fuerte porque no sabe lanzar de otra manera y que, cuando algo le sale mal, se ríe alto para que nadie vea que le importa. Pero aquel día tenía los ojos puestos en mí. Yo estaba demasiado quieto y los animales como Dani huelen la quietud.
+
+Lo vi tomar impulso.
+
+Escribo «lo vi» y me quedo corto. Lo vi todo, con una claridad que aún me da un poco de mareo.
+
+Primero se apagó el ruido. No es que bajara el volumen: se fue, de golpe, como cuando metes la cabeza bajo el agua en una piscina y el mundo se convierte en un zumbido muy lejano. Después el aire se puso espeso. Notaba el pecho como si me estuvieran empujando con una mano enorme y tibia, y entendí con una exactitud extraña que mi corazón estaba latiendo, pero muy despacio, tan despacio que entre un latido y otro cabía un pensamiento entero.
+
+El balón venía hacia mi cara.
+
+Lo vi girar. Lo vi girar *despacio*, igual que gira un planeta pequeño y feo. Tenía una costura medio despegada y un pelo, un solo pelo castaño, pegado al caucho, que debía de ser de Dani. Vi cómo el aire se curvaba delante de él. Vi las motas de polvo del gimnasio quietas en un rayo de sol, cada una en su sitio, como si alguien las hubiera clavado con alfileres.
+
+Y pensé, con una calma que no era mía: *Me va a dar en la nariz. Y si me da en la nariz sangraré y todos me mirarán.*
+
+Di un paso a la izquierda.
+
+Fue el paso más fácil de mi vida. Quizá porque no tuve que apresurarme: tuve todo el tiempo que quise para decidir dónde poner el pie, cómo girar el hombro, cuánto separar la cabeza. El balón pasó junto a mi oreja, tan cerca que noté su aire frío. Se llevó un mechón de pelo. No le di importancia.
+
+Entonces miré alrededor.
+
+Dani estaba con la boca abierta en medio de una palabra que no llegó a decir. De su labio colgaba una gota de saliva que brillaba como una perla. Me dio asco y me dio la risa a la vez, y fue horrible, porque aquella risa sonó dentro de mi cabeza y no fuera. Bruno estaba a mi lado con la cara torcida de preocupación. Le puse la mano delante de los ojos. No parpadeó. Le toqué la mejilla con un dedo. Estaba caliente y quieta, igual que una estatua que alguien hubiera sacado un segundo antes del horno.
+
+Fue entonces cuando oí mi propio corazón. *Pum.* Un latido enorme, solitario. Y tuve miedo de verdad, no del balón, sino de aquello: de ser el único que se movía en un mundo que se había parado.
+
+Algo hizo clic.
+
+No sé decirlo mejor. Hizo clic, como cuando se suelta el pedal de un freno. El ruido volvió de golpe, con un estallido que me atravesó los oídos, y el balón dio contra la pared del fondo con un «PAM» seco que rebotó por todo el gimnasio.
+
+Silencio.
+
+Después, lo contrario del silencio: todos hablando a la vez.
+
+«¡¿Cómo ha hecho eso?!».
+
+«¡Estaba ahí y de repente estaba ahí!».
+
+«¡Se ha movido a lo tonto, como un vídeo cortado!».
+
+Yo seguía de pie. Pero ya no estaba donde había estado. Había tres metros de baldosas entre el sitio donde me había quedado y el sitio donde estaba ahora. Eso, ya lo he dicho, se me da bien: contar baldosas. Eran tres metros y ocho baldosas.
+
+El profesor Salcedo se acercó con el ceño fruncido.
+
+«Valdés. ¿Qué ha sido eso?».
+
+«Me he apartado», dije, y me salió una voz que no reconocí, ronca y pequeña.
+
+«Nadie se aparta así».
+
+«Buenos reflejos», dijo Dani, que tenía la cara de quien acaba de ver pasar un tren por su salón. Después se rio, alto, demasiado alto, y le dio un codazo a otro. «¡Buenos reflejos, Valdés!».
+
+Todos se rieron, y la clase continuó, y a la media hora nadie hablaba de ello porque los chicos tienen una capacidad enorme para dejar de hablar de lo que no entienden. Pero Bruno no se rio. Bruno me cogió del brazo, con fuerza, en el vestuario, mientras yo intentaba que las manos dejaran de temblarme y me mordía las uñas, que es lo que hago cuando no puedo contar.
+
+«Tío», susurró. «Te he visto. Estabas ahí, y luego ahí. Sin nada en medio».
+
+«Me he apartado, Bruno».
+
+«Eso no es apartarse. Eso es… un glitch. Como en los videojuegos cuando el personaje se queda pillado».
+
+No contesté. Tenía la boca seca. Y en el bolsillo del pantalón, junto al lugar donde Bruno guardaba el inhalador y yo guardaba algo mucho más viejo, notaba una vibración muy leve, un cosquilleo contra la pierna.
+
+Saqué el reloj de mi abuelo.
+
+Era un reloj de bolsillo de latón gastado, con la tapa grabada con una flor que ya no se distinguía. Llevaba tres años parado en las 4:17. Tres años exactos, desde el día en que mi padre se fue y mi abuelo me lo puso en la mano sin decir una palabra. Yo lo llevaba conmigo a todas partes, igual que Bruno su inhalador. No lo había abierto ni una vez. No hacía falta: estaba parado, y yo lo sabía.
+
+Lo abrí.
+
+La aguja pequeña seguía en las cuatro. La grande seguía en el tres.
+
+Pero la fina, la del segundero, esa que llevaba tres años clavada junto al diecisiete como una mosca pegada al cristal, se estaba moviendo.
+
+*Tic.*
+
+Una sola vez. Después se detuvo.
+
+Bruno me miraba. Yo miraba el reloj. En el vestuario olía a calcetines y a desinfectante, y fuera el viento de la ciudad, el cierzo, golpeaba las ventanas como si quisiera entrar.
+
+«Edu», dijo Bruno, muy bajito. «¿Qué es eso?».
+
+No supe contestarle.
+
+---
+
+### 2. Cuatro minutos
+
+Lo intenté esa misma noche.
+
+Mi madre trabajaba de enfermera en el turno de noche del hospital, así que a las nueve y media ya se había ido, dejándome una cena en el microondas, una nota con tres corazones y la orden de siempre: «Si te asustas, llama al abuelo». El abuelo vive en el piso de abajo y nunca ha oído un teléfono desde su sillón, pero la intención era buena.
+
+Cené de pie, mirando el patio de luces. En Zaragoza muchas casas se construyeron alrededor de un patio así, un pozo cuadrado de ventanas donde ves las vidas de los vecinos en pequeño: una televisión azul, una señora que riega geranios a las diez de la noche, un hombre que discute con alguien que no está. Esa noche el viento silbaba por el pozo igual que por el cuello de una botella.
+
+Fui a mi cuarto y me planté en medio.
+
+«Vale», me dije. «A ver».
+
+No pasó nada. Claro.
+
+Probé con lo que haría cualquiera. Contuve la respiración. Cerré los puños. Me concentré en el reloj de pared, a ver si la aguja se arrastraba, a ver si el tiempo se ponía espeso como sopa. Nada. Probé a pensar «quiero que se pare» y me sentí tonto. Probé a saltar de la cama y me di en la rodilla con el escritorio.
+
+Luego tiré un estuche de lápices al aire para reaccionar a tiempo, y no reaccioné a tiempo, y el estuche me dio justo en la frente.
+
+Me dolió bastante. Y me di cuenta de algo que me enfadó mucho: que el don, o lo que fuera, no era un grifo. No se abría cuando yo quería. Se abría cuando le daba la gana. Y en el gimnasio, de las dos cosas que podían haberlo abierto, una era muy clara. Había tenido miedo. Un miedo enorme, de los que te aprietan la garganta.
+
+Lo malo es que no sabía fabricar miedo a voluntad.
+
+Me fui a la cocina a beber algo, derrotado, y me serví un vaso de leche. Era un vaso grande de cristal, de los de duralex, de los que no se rompen nunca. Eso dicen. Estaba abriendo la nevera con la otra mano cuando oí un ruido en el patio: un portazo, un golpe seco de ventana.
+
+Di un respingo. El vaso se me resbaló de los dedos.
+
+Y volvió.
+
+El ruido se fue. El aire se espesó. Noté aquel latido enorme y lento, y vi el vaso caer, o no caer, más bien flotar, girando sobre sí mismo igual que una burbuja, con la leche formando una media luna blanca que salía por el borde. Podía contar las gotas. Eran once. Vi cómo la primera tocaba la baldosa de la cocina, abierta como una corona minúscula, y vi cómo se detenía a medio camino.
+
+Alargué la mano, cogí el vaso por la base, lo enderecé, y recogí las gotas con el fondo, una por una, con la ridícula delicadeza de un niño que no quiere que le descubran.
+
+Clic.
+
+Ruido. Aire. Mi corazón recuperando su ritmo normal, como un caballo que arranca.
+
+Tenía el vaso en la mano, derecho, con la leche en su sitio. La baldosa estaba seca. Respiré hondo, sonriendo como un idiota, y pensé: *Lo he hecho. Lo sé hacer.*
+
+Entonces miré el reloj del microondas.
+
+Cuando me serví la leche eran las 23:14. Lo recordaba, porque me había fijado en que parecía una hora de película de miedo. Ahora eran las 23:26.
+
+Doce minutos.
+
+Me quedé mirando los números verdes con una sensación fría que subía desde el estómago. Habían pasado doce minutos y yo no los había vivido. No me acordaba de nada entre soltar el vaso y cogerlo. Y sin embargo tenía las rodillas flojas, como después de una carrera, y tenía la nevera abierta de par en par, con la luz iluminando el suelo y una corriente de frío que me había puesto la piel de gallina.
+
+Era como cuando te duermes en el autobús y te despiertas en otra parada. Solo que yo no me había dormido. Yo había estado despierto, de pie, con un vaso en la mano, doce minutos, sin enterarme.
+
+Cerré la nevera. El vaso seguía intacto.
+
+Y entonces, con el rabillo del ojo, vi algo que no era mío.
+
+En el otro lado del patio, tres pisos más arriba, en una ventana que hasta esa semana había estado a oscuras, había luz. Una chica de mi edad, o un poco mayor, con una camiseta enorme y unos auriculares grandes colgados al cuello, estaba apoyada en el alféizar. Me miraba.
+
+No de reojo ni por casualidad. Me miraba a mí, directamente, como quien lleva doce minutos mirando.
+
+Levantó la mano. Dibujó un saludo pequeño en el aire.
+
+Y yo, que me muero de vergüenza ante cualquier persona que no sea Bruno, mi madre o mi abuelo, que cuento baldosas para no hablar con nadie, me quedé quieto con el vaso en la mano, helado de arriba abajo, comprendiendo una cosa que no sabía explicar: que aquella chica sabía *exactamente* qué acababa de pasar en mi cocina.
+
+---
+
+### 3. La chica de los auriculares
+
+Se llamaba Nora Ibáñez y apareció en clase al día siguiente, a las nueve y cuarto, con el mismo aire de quien lleva años llegando tarde a todas partes.
+
+«Chicos, os presento a una compañera nueva», dijo la tutora, la señora Prieto, con su sonrisa de ser humano que ha decidido ser amable aunque nadie se lo haya pedido. «Viene de otra ciudad, así que os pido que seáis majos. Nora, siéntate donde quieras».
+
+Nora se sentó justo detrás de mí.
+
+No lo hizo adrede, me dije. Era el único sitio libre. Pero llevaba los auriculares puestos, aunque estaban desconectados: lo vi cuando se inclinó para dejar la mochila. El cable colgaba suelto. No sonaba nada. Ella los llevaba igual que otros llevan una armadura.
+
+«¿Has visto eso?», me susurró Bruno desde el pupitre de al lado. «La nueva tiene pinta de espía. Seguro que es hija de un agente del CNI».
+
+«Bruno, por favor».
+
+«Te lo digo en serio. Mira cómo nos mira. Como si estuviéramos todos tarareando una canción que no le gusta».
+
+No quería mirarla. Pero la miré, de reojo, y comprendí que Bruno tenía razón a su manera: Nora nos miraba a todos con la cara muy quieta y el ceño apenas fruncido, como quien oye un ruido que no puede apagar.
+
+Aguanté tres horas. En el recreo, intenté perderme entre los de primero, que son muchos y no te miran, y me fui al fondo de la pista, junto a la valla donde nadie va porque está llena de chicles pegados. Estaba contando las rejillas cuando una sombra se puso a mi lado.
+
+«No grites», dijo una voz.
+
+No grité. Estaba tan asustado que ni siquiera me salió aire.
+
+Nora estaba a un metro. Se había quitado los auriculares y los llevaba en la mano, y sin ellos parecía más pequeña y más cansada. Tenía los ojos oscuros, con una arruga entre las cejas que no era de su edad.
+
+«Lo digo porque me duele», añadió. «Cuando alguien se asusta cerca de mí, me duele. Es como si me gritaran en el oído, pero por dentro».
+
+«¿Qué?».
+
+«Ayer. En tu cocina. Te asustaste y se paró». Hizo un gesto con la mano, como cortando algo en el aire. «Lo oí desde mi casa. Hace un ruido, ¿sabes? Un clac. Como un reloj que se detiene de golpe. Y luego un silencio muy grande, de unos doce minutos. Eso no lo había oído nunca».
+
+Me quedé blanco. Lo noté en la cara.
+
+«No sé de qué hablas».
+
+«Sí lo sabes». Lo dijo sin rabia, con un cansancio enorme. «Edu, tú eres el tercero que encuentro este año. Y eres el primero que no sabe nada. Los otros dos lo sabían. Y los dos… bueno».
+
+«¿Los dos qué?».
+
+Nora no contestó. Se colocó los auriculares en el cuello, despacio, como quien se pone una bufanda.
+
+«Escúchame bien, porque tengo poco tiempo y no me sale explicarlo bonito», dijo. «Lo que haces tiene un precio. Cada vez que lo usas, te cobran. Doce minutos, ayer. No te acuerdas de ellos, ¿a que no? No te acuerdas de nada. Es como si alguien te los hubiera quitado de la vida».
+
+«¿Quién?».
+
+«No lo sé».
+
+«¿Y cómo sabes tú que…?».
+
+«Porque oigo lo que sienten los demás», dijo. «No lo que piensan, ¿vale? Lo que sienten. Para mí es ruido, y color, y a veces olor. Tú ahora mismo eres un zumbido naranja con un borde azul de miedo. Y hace dos días eras un silencio blanco con un tic en el medio». Sonrió muy poco, sin alegría. «Por eso llevo los auriculares. Aunque no suene nada. Es para que el mundo no me grite».
+
+Me temblaban las manos. Las escondí en los bolsillos.
+
+«Yo no soy… eso. Lo que tú dices».
+
+«Se llama desfasado», dijo ella. «Lo oí por primera vez en boca de otro chico, en otra ciudad. Quiere decir que estás un poco fuera de hora con el resto del mundo. No es una enfermedad. Pero hay quien la trata como si lo fuera».
+
+Se oyó la sirena que anunciaba el fin del recreo. Los chicos corrían hacia las puertas. A lo lejos, Bruno me buscaba con la mano levantada, riendo de algo que acababa de decir Dani Roca.
+
+«Ahora te llaman a una asamblea», dijo Nora, y su voz se hizo más baja y más rápida. «Han venido unos señores de la Consejería. Hay una psicóloga, la doctora Ibarra. Es amable, muy amable. Cuando te hable, no le cuentes nada».
+
+«¿Por qué?».
+
+Nora se quedó callada un segundo. Parecía escuchar algo que yo no podía oír.
+
+«Porque no hace falta que se lo cuentes», dijo. «Ella ya lo sabe».
+
+---
+
+La asamblea fue en el salón de actos, un cuarto con olor a polvo y sillas de plástico que se pegaban a los muslos.
+
+Allí estaba el director, que parecía un globo con corbata. Estaban dos señores con traje gris, sentados al fondo, que no sonreían. Y en el centro, de pie junto al micrófono, estaba una mujer de unos cuarenta años, con el pelo rizado recogido, un jersey verde y unas gafas pequeñas que se colocaba sobre la cabeza cuando hablaba.
+
+«Hola a todos. Me llamo Elena Ibarra», dijo. «Soy psicóloga y vengo a quedarme unas semanas con vosotros. Lo que hago no da miedo: charlamos, jugamos, os escucho. Eso es todo».
+
+Tenía una voz buena. Esa fue mi primera impresión, y por eso me asusté. Era una de esas voces que parecen un sillón calentito: te dan ganas de sentarte y contarle toda tu vida.
+
+Recorrió la sala con los ojos mientras hablaba. Pasó por los de primero, los de segundo, los profesores. Pasó por Dani. Pasó por Bruno, que se hundió en su silla como una tortuga.
+
+Y se detuvo en mí.
+
+No fue una mirada larga. Ni rara. Fue una mirada de las que se quedan un segundo de más, justo un segundo, ni uno menos: la mirada de quien acaba de encontrar lo que buscaba.
+
+Sonrió. Se colocó las gafas sobre la cabeza.
+
+«Y ahora», dijo con una calidez enorme, sin dejar de mirarme, «sé que muchos tenéis nervios, así que empezaré por quien tenga más. ¿Eduardo Valdés está por aquí?».
+
+Alguien me dio un codazo.
+
+Yo no había dicho mi nombre a nadie en esa sala. Mi nombre no estaba en ninguna lista de bienvenida, porque había sido una asamblea de última hora. El director ni siquiera lo había dicho todavía.
+
+Detrás de mí, muy baja, tan baja que casi no la oí, Nora susurró:
+
+«Te lo he dicho».
+
+---
+
+*(Continuará en el capítulo 4: «El reloj de Tomás».)*
