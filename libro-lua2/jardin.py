@@ -239,3 +239,41 @@ def seed(kind, x, y, k=1.0):
         for dx, dy in ((-30, -10), (-8, 14), (14, -16), (34, 10), (-18, 34), (24, 36), (0, -34)):
             s += f'<circle cx="{x + dx * k:.0f}" cy="{y + dy * k:.0f}" r="{4.5 * k:.1f}" fill="#111"/>'
     return s
+
+
+def bin_(x, g, k=1.0, label=''):
+    w, h = 84 * k, 112 * k
+    s = f'<path d="M{x - w / 2:.0f},{g - h:.0f} L{x + w / 2:.0f},{g - h:.0f} L{x + w * .42:.0f},{g} L{x - w * .42:.0f},{g} Z" fill="{fc("bin", "#fff")}" {ST}/>'
+    s += (f'<path d="M{x - w * .58:.0f},{g - h:.0f} L{x + w * .58:.0f},{g - h:.0f} L{x + w * .58:.0f},{g - h - 14 * k:.0f} '
+          f'Q{x},{g - h - 28 * k:.0f} {x - w * .58:.0f},{g - h - 14 * k:.0f} Z" fill="{fc("bin", "#fff")}" {ST}/>')
+    for sx in (-1, 1):
+        s += f'<circle cx="{x + sx * w * .3:.0f}" cy="{g + 3}" r="{7 * k:.0f}" fill="#fff" {ST} stroke-width="3.2"/>'
+    s += f'<path d="M{x - w * .3:.0f},{g - h * .85:.0f} L{x - w * .25:.0f},{g - h * .12:.0f} M{x + w * .3:.0f},{g - h * .85:.0f} L{x + w * .25:.0f},{g - h * .12:.0f}" fill="none" {ST} stroke-width="2.4"/>'
+    if label:
+        s += f'<text x="{x}" y="{g - h * .5:.0f}" {font(max(11, 15 * k), 700)} fill="#111">{label}</text>'
+    return s
+
+
+def worm(x, y, k=1.0):
+    d = f'M{x},{y} q{10 * k},{-16 * k} {20 * k},0 t{20 * k},0 t{20 * k},0 t{20 * k},0'
+    s = tube2(d, 13 * k, fc('worm', '#fff'), 1)
+    return s + f'<circle cx="{x + 80 * k + 2}" cy="{y - 2 * k}" r="{2.6 * k}" fill="#111"/>'
+
+
+def banana_peel(x, y, k=1.0):
+    d = (f'M{x},{y} Q{x + 22 * k},{y - 40 * k} {x + 62 * k},{y - 20 * k} Q{x + 40 * k},{y - 24 * k} {x + 18 * k},{y + 4 * k} Z')
+    s = f'<path d="{d}" fill="{fc("banana", "#fff")}" {ST} stroke-width="3.4"/>'
+    s += f'<path d="M{x + 62 * k},{y - 20 * k} l{10 * k},{-8 * k}" fill="none" {ST} stroke-width="4"/>'
+    s += f'<path d="M{x + 14 * k},{y - 2 * k} Q{x + 30 * k},{y - 24 * k} {x + 52 * k},{y - 16 * k}" fill="none" {ST} stroke-width="2.4"/>'
+    return s
+
+
+def compost_bin(x, g, k=1.0):
+    w, h = 150 * k, 120 * k
+    s = f'<rect x="{x - w / 2:.0f}" y="{g - h:.0f}" width="{w:.0f}" height="{h:.0f}" rx="{6 * k:.0f}" fill="#fff" {ST}/>'
+    for i in range(1, 6):
+        s += f'<path d="M{x - w / 2 + i * w / 6:.0f},{g - h:.0f} L{x - w / 2 + i * w / 6:.0f},{g:.0f}" fill="none" {ST} stroke-width="3"/>'
+    s += f'<path d="M{x - w / 2 - 8 * k:.0f},{g - h:.0f} L{x + w / 2 + 8 * k:.0f},{g - h - 18 * k:.0f} L{x + w / 2 + 8 * k:.0f},{g - h - 32 * k:.0f} L{x - w / 2 - 8 * k:.0f},{g - h - 14 * k:.0f} Z" fill="#fff" {ST}/>'
+    s += banana_peel(x - 40 * k, g - h - 4 * k, 0.8 * k)
+    s += f'<circle cx="{x + 30 * k:.0f}" cy="{g - h - 8 * k:.0f}" r="{11 * k:.0f}" fill="#fff" {ST} stroke-width="3.2"/>' + leaf(x + 52 * k, g - h - 2 * k, 40 * k, -20)
+    return s

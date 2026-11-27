@@ -3,13 +3,15 @@ import os
 import animales as A
 from jardin import *
 from escenas import SCENES, TEXTOS, HIDDEN, csit, stars_night
+from pasatiempos import build as build_pasatiempos
 
 # ---- datos editables ---------------------------------------------------
 TITULO = 'Lúa y el jardín de todos'
 SUBTITULO = 'Un cuento para colorear sobre ser distintos y crecer juntos'
+VOLUMEN = 'Volumen II'
 AUTOR = 'Alex Berruezo'
 ANIO = '2026'
-PAGINAS_TOTAL = 56            # debe coincidir con el interior generado
+PAGINAS_TOTAL = 80            # debe coincidir con el interior generado
 GROSOR_PAPEL = 0.002252       # pulgadas por pagina, papel blanco KDP (verificar con la calculadora de KDP)
 # -------------------------------------------------------------------------
 
@@ -74,7 +76,8 @@ def pagina_titulo():
     s += csit(215, 715, 1.0, mood='happy') + csit(395, 705, 0.72, mood='mischief', kind='raspi') + hera_sit(530, 722, 0.98, 'smile') + csit(675, 705, 0.62, mood='silly', kind='neu')
     s += bee(330, 270, 0.9, -15) + butterfly(600, 250, 0.7)
     return pag(f'''
-<div class="center" style="margin-top:.1in">
+<div class="center" style="margin-top:.05in">
+  <p style="margin:0 0 .04in;font-family:Fraunces;font-weight:700;font-size:15pt;letter-spacing:.18em;text-transform:uppercase">{VOLUMEN} de la serie Lúa</p>
   <h1 style="font-size:55pt;line-height:1.05;-webkit-text-stroke:2px #111;color:#fff">Lúa y el jardín<br>de todos</h1>
   <p style="font-family:Fraunces;font-weight:600;font-style:italic;font-size:16pt;margin:.14in 0 0">{SUBTITULO}</p>
 </div>
@@ -93,11 +96,12 @@ def pagina_guia1():
 <li><b>Neu</b> es la graciosa. Su humor no es una tontería: calma a quien tiene miedo y une al grupo.</li>
 <li><b>Hera</b> es la mayor. Ser mayor no es ser inútil, es ser raíz: enseña, calma y planta para los que vendrán.</li>
 </ul>
-<h3>Tres ideas que se repiten</h3>
+<h3>Cuatro ideas que se repiten</h3>
 <ul>
 <li><b>Cada uno a su tiempo.</b> Esperar cuesta, y se puede aprender.</li>
 <li><b>Equivocarse es aprender.</b> Lo importante es reparar, no esconderse.</li>
 <li><b>Lo que nos hace distintos es lo que el grupo necesita.</b> En la tormenta, cada uno salva el jardín a su manera.</li>
+<li><b>Cuidar el entorno.</b> El jardín nace de un solar lleno de basura. Separar residuos, reutilizar latas como macetas, hacer compost, regar con agua de lluvia y no usar venenos son hábitos pequeños que se aprenden jugando.</li>
 </ul>
 <h3>Cómo usarlo, con 5 minutos al día</h3>
 <ol>
@@ -105,7 +109,7 @@ def pagina_guia1():
 <li>Dejad que coloreen como quieran. Lúa puede ser gris, rosa o de rayas.</li>
 <li>Haced juntos la actividad de la semilla: es la mejor forma de practicar la espera.</li>
 </ol>
-<p>En cada escena vuela Zum, la abeja. ¡Buscadla!</p>
+<p>En cada escena vuela Zum, la abeja. ¡Buscadla! Al final hay 20 páginas de pasatiempos para hacer solos o en familia. Van impresas por las dos caras: usad lápices o rotuladores finos.</p>
 </div>''')
 
 
@@ -129,7 +133,7 @@ def pagina_guia2():
 </ul>
 <h3>Cuándo buscar ayuda</h3>
 <p>Este libro es un apoyo para conversar en casa, no un tratamiento. Si tu hijo lleva semanas triste o muy retraído, evita ir al colegio o sufre burlas o agresiones repetidas, habla con su tutor o tutora y con su pediatra o un psicólogo infantil.</p>
-<div class="legal">© {ANIO} {AUTOR}. Todos los derechos reservados. Prohibida la reproducción total o parcial de esta obra sin permiso del autor. Primera edición.</div>
+<div class="legal">© {ANIO} {AUTOR}. Todos los derechos reservados. Prohibida la reproducción total o parcial de esta obra sin permiso del autor. Primera edición. {VOLUMEN} de la serie «Lúa».</div>
 </div>''')
 
 
@@ -200,6 +204,32 @@ def pagina_siembra():
                f'<p style="font-size:12pt">Dibuja cómo va creciendo en cada cuadro. Hazlo con un adulto, lávate las manos y no te comas las semillas.</p></div>')
 
 
+def _eco_t(x, y, t):
+    return f'<text x="{x}" y="{y + 8}" {font(20, 600, "start")} fill="#111">{t}</text>'
+
+
+def pagina_eco():
+    s = f'<text x="375" y="46" {font(34, 700)} fill="#111">¿Dónde va cada cosa?</text>'
+    items = ['periódico', 'botella de plástico', 'tarro de cristal', 'cáscara de plátano', 'lata']
+    for i, n in enumerate(items):
+        y = 130 + i * 118
+        if n == 'periódico':
+            s += f'<rect x="90" y="{y - 30}" width="86" height="64" fill="#fff" {ST}/><path d="M100,{y - 14} L166,{y - 14} M100,{y} L166,{y} M100,{y + 14} L150,{y + 14}" fill="none" {ST} stroke-width="3"/>'
+        elif n == 'botella de plástico':
+            s += f'<path d="M120,{y - 38} L146,{y - 38} L146,{y - 22} Q166,{y - 8} 166,{y + 8} L166,{y + 36} L100,{y + 36} L100,{y + 8} Q120,{y - 8} 120,{y - 22} Z" fill="#fff" {ST}/>'
+        elif n == 'tarro de cristal':
+            s += f'<rect x="104" y="{y - 30}" width="56" height="64" rx="10" fill="#fff" {ST}/><rect x="100" y="{y - 40}" width="64" height="14" rx="4" fill="#fff" {ST}/>'
+        elif n == 'cáscara de plátano':
+            s += banana_peel(98, y + 10, 1.0)
+        else:
+            s += tin_can(132, y + 4, 1.3)
+        s += _eco_t(205, y + 4, n) + f'<circle cx="470" cy="{y}" r="9" fill="#fff" {ST}/>'
+    for i, (lab, col) in enumerate((('PAPEL', 'azul'), ('ENVASES', 'amarillo'), ('VIDRIO', 'verde'), ('ORGÁNICO', 'marrón'))):
+        y = 190 + i * 150
+        s += bin_(660, y + 62, 0.8, lab) + f'<circle cx="545" cy="{y + 10}" r="9" fill="#fff" {ST}/>'
+    return pag(f'<div class="art">{svg(s, "0 0 750 720")}</div><div class="txt"><p style="font-size:13pt;font-family:Nunito;font-weight:700">Une cada cosa con su contenedor y coloréalos: azul para papel, amarillo para envases, verde para vidrio y marrón para lo orgánico. En tu ciudad los colores pueden variar. Respuestas para adultos: periódico, azul; botella y lata, amarillo; tarro, verde; cáscara, marrón.</p></div>')
+
+
 def pagina_jardin():
     s = f'<text x="375" y="54" {font(40, 700)} fill="#111">Mi jardín de todos</text>'
     s += f'<rect x="50" y="95" width="650" height="520" rx="30" fill="#fff" {ST} stroke-dasharray="2 14"/>'
@@ -224,11 +254,30 @@ def pagina_diploma():
     return pag(f'<div style="margin-top:.35in">{svg(s, "0 0 750 700")}</div>')
 
 
+def pasatiempos():
+    cast = [dict(name='Lúa', fig=lambda cx, g, s: csit(cx, g, s, mood='happy'), h=402, like='pez'),
+            dict(name='Hera', fig=lambda cx, g, s: hera_sit(cx, g, s, 'smile'), h=335, like='hueso'),
+            dict(name='Raspi', fig=lambda cx, g, s: csit(cx, g, s, mood='mischief', kind='raspi'), h=402, like='ovillo'),
+            dict(name='Neu', fig=lambda cx, g, s: csit(cx, g, s, mood='silly', kind='neu'), h=402, like='pelota')]
+    sombra_cast = [dict(name='Hera', fig=lambda cx, g, s: hera_sit(cx, g, s, 'smile'), h=335),
+                   dict(name='Nuez', fig=lambda cx, g, s: squirrel(cx, g, s, 'happy'), h=300),
+                   dict(name='Trébol', fig=lambda cx, g, s: rabbit(cx, g, s, 'happy'), h=325),
+                   dict(name='Pipa', fig=lambda cx, g, s: bird(cx, g, s, 'happy'), h=150)]
+    cfg = dict(cast=cast, sombra_cast=sombra_cast, hat_name='Neu', words=['LUA', 'HERA', 'RASPI', 'NEU', 'FLOR', 'SEMILLA', 'JARDIN', 'AMIGOS'],
+               head_main=lambda cx, cy, s, mood: f'<g transform="translate({cx},{cy}) scale({s})">{cat_head(s, mood)}</g>',
+               head_hat=lambda cx, cy, s: f'<g transform="translate({cx},{cy}) scale({s})">{cat_head(s, "silly", 0, False, "neu")}</g>',
+               hero_sit=lambda cx, g, s, mood: csit(cx, g, s, mood=mood),
+               story=[SCENES[0], SCENES[7], SCENES[17], SCENES[18]],
+               retos=['Recoge tres cosas del suelo y échalas al contenedor.', 'Cierra el grifo mientras te cepillas los dientes.', 'Convierte un bote o una lata en maceta.', 'Riega una planta con agua que hayas guardado.', 'Apaga la luz de una habitación vacía.', 'Planta una semilla y ponle nombre.', 'Huele tres flores y mira quién las visita.', 'Cuenta cuántos colores de hoja encuentras.', 'Abraza a un árbol, de verdad.', 'Dale las gracias a alguien, mirándole a los ojos.'],
+               extra=dict(bee=bee, snail=snail, tin_can=tin_can, rocks=rocks, sprout=sprout, leaf=leaf))
+    return build_pasatiempos(cfg, TITULO)
+
+
 def interior():
     p = [pagina_titulo(), BLANCO, pagina_guia1(), pagina_guia2(), pagina_personajes(), BLANCO]
     for i in range(len(SCENES)):
         p += [pagina_escena(i), BLANCO]
-    p += [pagina_ciclo(), BLANCO, pagina_aprendizaje(), BLANCO, pagina_siembra(), BLANCO, pagina_jardin(), BLANCO, pagina_diploma(), BLANCO]
+    p += [pagina_ciclo(), BLANCO, pagina_aprendizaje(), BLANCO, pagina_siembra(), BLANCO, pagina_eco(), BLANCO, pagina_jardin(), BLANCO, pagina_diploma(), BLANCO] + pasatiempos()
     assert len(p) == PAGINAS_TOTAL, len(p)
     return f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>{TITULO}</title><style>{CSS}</style></head><body>{"".join(p)}</body></html>'
 
@@ -262,9 +311,11 @@ def cubierta():
     s += f'<path d="M{fx + 520},95 q20,-45 70,-30 q30,-35 70,-5 q40,-5 40,35 q-20,25 -60,15 q-30,20 -70,5 q-45,10 -50,-20z" fill="#fff"/>'
     t = lambda y, txt, sz, col: (f'<text x="{cx0}" y="{y}" font-family="Fraunces" font-weight="700" font-size="{sz}" fill="{col}" stroke="#23232b" '
                                  f'stroke-width="9" paint-order="stroke" stroke-linejoin="round" text-anchor="middle">{txt}</text>')
-    s += t(190, 'Lúa y el', 96, '#fff') + t(290, 'jardín de todos', 96, '#ffd23f')
-    s += f'<rect x="{cx0 - 300}" y="325" width="600" height="54" rx="27" fill="#fff" stroke="#23232b" stroke-width="4"/>'
-    s += f'<text x="{cx0}" y="363" font-family="Fraunces" font-weight="600" font-size="25" text-anchor="middle" fill="#23232b">Para colorear · 4 a 8 años · Con guía para familias</text>'
+    s += (f'<text x="{cx0}" y="125" font-family="Fraunces" font-weight="700" font-size="36" fill="#fff" stroke="#23232b" stroke-width="8" '
+          f'paint-order="stroke" stroke-linejoin="round" text-anchor="middle" letter-spacing="6">VOLUMEN II</text>')
+    s += t(228, 'Lúa y el', 92, '#fff') + t(322, 'jardín de todos', 92, '#ffd23f')
+    s += f'<rect x="{cx0 - 300}" y="338" width="600" height="54" rx="27" fill="#fff" stroke="#23232b" stroke-width="4"/>'
+    s += f'<text x="{cx0}" y="376" font-family="Fraunces" font-weight="600" font-size="25" text-anchor="middle" fill="#23232b">Para colorear · 4 a 8 años · Con guía para familias</text>'
     s += fence(fx + 10, fx + 840, 800, 90)
     for x in (fx + 70, fx + 780):
         s += sunflower(x, 960, 1.15, 230)
@@ -275,11 +326,11 @@ def cubierta():
     s += bee(cx0 - 250, 560, 1.3, -15) + butterfly(cx0 + 250, 560, 0.8)
     s += f'<text x="{cx0}" y="1100" font-family="Fraunces" font-weight="700" font-size="34" text-anchor="middle" fill="#23232b">{AUTOR}</text>'
     bx0 = 12 + 425
-    s += f'<rect x="{bx0 - 330}" y="140" width="660" height="480" rx="30" fill="#fff" fill-opacity=".94" stroke="#23232b" stroke-width="5"/>'
-    lineas = ['Un solar abandonado, cuatro amigos', 'muy distintos y un montón de semillas.', 'Lúa, Hera, Raspi y Neu descubren que',
-              'cada uno crece a su tiempo y que el', 'jardín es más bonito cuando cabe todo', 'el mundo.', '', 'Cuento para colorear con guía para familias.']
+    s += f'<rect x="{bx0 - 330}" y="120" width="660" height="520" rx="30" fill="#fff" fill-opacity=".94" stroke="#23232b" stroke-width="5"/>'
+    lineas = ['Volumen II de la serie Lúa', 'Un solar abandonado, cuatro amigos', 'muy distintos y un montón de semillas.', 'Lúa, Hera, Raspi y Neu descubren que',
+              'cada uno crece a su tiempo y que el', 'jardín es más bonito cuando cabe todo', 'el mundo. Y que cuidar el planeta', 'empieza en un solar.', 'Con guía para familias.']
     for i, l in enumerate(lineas):
-        s += f'<text x="{bx0}" y="{205 + i * 48}" font-family="Fraunces" font-weight="600" font-size="30" text-anchor="middle" fill="#23232b">{l}</text>'
+        s += f'<text x="{bx0}" y="{185 + i * 46}" font-family="Fraunces" font-weight="600" font-size="29" text-anchor="middle" fill="#23232b">{l}</text>'
     s += csit(bx0 - 140, 1000, 0.7, mood='joy') + hera_sit(bx0 + 150, 1005, 0.75, 'smile')
     s += f'<rect x="{round((0.125 + 8.5 - 0.25 - 2) * u)}" y="{round((0.125 + 11 - 0.25 - 1.2) * u)}" width="200" height="120" fill="#fff"/>'
     A.COLORS.clear()

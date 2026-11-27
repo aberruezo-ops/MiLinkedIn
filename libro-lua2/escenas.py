@@ -126,13 +126,15 @@ def e5():
 
 def e6():
     s = sun(100, 90, 36) + cloud(500, 60, 150) + hill(700, W, H, 15)
-    s += hera_sit(110, 720, 0.78, 'smile')
-    s += wheelbarrow(330, 715, 1.4) + tin_can(290, 618, 1, 10) + tin_can(345, 612, 1, -15) + tin_can(400, 622, .9, 25)
-    s += rocks(470, 710, 1.5)
-    s += cat_action(560, 440, 0.62, 'leap', 'happy')
-    s += f'<g transform="translate(490,660) scale(0.34)">{cat_head(0.34, "mischief", 1, False, "raspi")}</g>'
-    s += csit(655, 720, 0.55, mood='silly', kind='neu') + tin_can(655, 520, .7, 12)
-    s += tufts([(20, 748, 1.3), (250, 760, 1.2)])
+    s += hera_sit(100, 720, 0.78, 'smile')
+    s += wheelbarrow(285, 715, 1.2) + tin_can(250, 640, 1, 10) + tin_can(300, 635, 1, -15) + tin_can(350, 645, .9, 25)
+    for x in (230, 330, 405):
+        s += tin_can(x, 735, 0.9, 0) + sprout(x, 713, 0.75)
+    s += bin_(520, 712, 0.78, 'PAPEL') + bin_(600, 712, 0.78, 'ENVASES') + bin_(680, 712, 0.78, 'VIDRIO')
+    s += cat_action(430, 440, 0.55, 'leap', 'happy')
+    s += f'<g transform="translate(160,655) scale(0.32)">{cat_head(0.32, "mischief", 1, False, "raspi")}</g>'
+    s += csit(520, 570, 0.4, mood='silly', kind='neu') + tin_can(520, 470, .55, 12)
+    s += tufts([(20, 748, 1.3), (470, 765, 1.2)])
     return s
 
 
@@ -234,6 +236,18 @@ def e13():
     return s
 
 
+def e_compost():
+    s = sun(660, 90, 36) + cloud(60, 60, 150) + hill(705, W, H, 15)
+    s += compost_bin(440, 712, 1.45)
+    s += hera_sit(95, 718, 0.85, 'open')
+    s += bubble(30, 90, 360, 96, 'Las cáscaras son comida|para la tierra', 120, 380, 29)
+    s += csit(235, 715, 0.5, mood='silly', kind='neu') + banana_peel(205, 600, 0.6)
+    s += csit(615, 715, 0.5, mood='mischief', kind='raspi') + csit(700, 715, 0.42, mood='happy')
+    s += worm(345, 748, 1.0) + worm(520, 765, 0.9) + banana_peel(330, 770, 0.7)
+    s += tufts([(580, 775, 1.2), (180, 770, 1.2)])
+    return s
+
+
 def e14():
     s = storm_cloud(-10, 10, 360) + storm_cloud(330, 20, 400) + hill(690, W, H, 20)
     s += f'<path d="M360,230 L320,330 L360,330 L330,420 L410,300 L368,300 L396,230 Z" fill="#fff" {ST}/>'
@@ -328,11 +342,9 @@ def e20():
     return s
 
 
-SCENES = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16, e17, e18, e19, e20]
+SCENES = [e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e_compost, e14, e15, e16, e17, e18, e19, e20]
 
-HIDDEN = {0: (620, 250), 1: (600, 250), 2: (640, 520), 3: (500, 240), 4: (60, 480), 5: (620, 330), 6: (300, 210),
-          7: (600, 300), 8: (440, 350), 9: (700, 430), 10: (80, 330), 11: (640, 220), 12: (600, 220), 13: (200, 560),
-          14: (700, 470), 15: (100, 420), 16: (650, 330), 17: (400, 380), 18: (620, 480), 19: (460, 330)}
+HIDDEN = {0: (620, 250), 1: (600, 250), 2: (640, 520), 3: (500, 240), 4: (60, 480), 5: (620, 330), 6: (300, 210), 7: (600, 300), 8: (440, 350), 9: (700, 430), 10: (80, 330), 11: (640, 220), 12: (600, 220), 14: (200, 560), 15: (700, 470), 16: (100, 420), 17: (650, 330), 18: (400, 380), 19: (620, 480), 20: (460, 330), 13: (600, 300)}
 
 TEXTOS = [
     "Al final de la calle había un solar lleno de hierbas, piedras y latas viejas. Nadie lo quería. Lúa, que siempre encontraba lo bonito en todas partes, pensó: «Este sitio tiene ganas de ser otra cosa».",
@@ -340,19 +352,20 @@ TEXTOS = [
     "Raspi, la gata parda, no paraba quieta ni dormida. Su cabeza era un nido de ideas y de alguna que otra travesura. «¡Se me ha ocurrido algo!» era su frase favorita.",
     "Neu, la gata blanca, era la payasa del grupo. Rodaba por la hierba, hacía muecas y se caía a propósito. Con ella, hasta el día más aburrido sonaba a risa.",
     "«¿Y si hacemos aquí un jardín?», propuso Lúa. A Raspi le brillaron los ojos. Neu dio una voltereta. Hera sonrió despacito: «Los jardines se hacen entre todos».",
-    "Quitaron piedras, arrancaron hierbas y llenaron una carretilla de latas. Lúa saltaba de un montón a otro, Raspi se colaba por los huecos y Neu se puso una lata de sombrero. Hera lo vigilaba todo, tranquila.",
+    "Quitaron piedras y hierbas y separaron la basura: el papel al contenedor azul, los envases al amarillo y el vidrio al verde. Las latas más bonitas no se tiraron: se convirtieron en macetas.",
     "Lúa quería que todo saliera perfecto, así que intentó hacerlo ella sola. Al caer la tarde estaba agotada. «Se me da bien casi todo», suspiró, «pero no puedo con todo».",
     "Hera abrió un saquito de semillas. Unas eran grandes como garbanzos. Otras, finas como polvo. Otras tenían alas. «Cada semilla es distinta. Unas brotan en días y otras tardan meses. Ninguna es mejor que otra».",
-    "Cada uno eligió su semilla. Lúa hizo un hoyo con mucho cuidado. Raspi hizo seis, por si acaso. Neu regó bailando y mojó a todo el mundo. Hera las tapó una a una, con mimo.",
+    "Cada uno eligió su semilla. Lúa hizo un hoyo con mucho cuidado. Raspi hizo seis, por si acaso. Neu regó con agua de lluvia, bailando, y mojó a todo el mundo. Hera las tapó una a una, con mimo.",
     "Pasó un día. Pasaron dos. Pasaron tres. La tierra seguía quieta y oscura. «¿Y si no crece nada?», se preguntaba Raspi, con los bigotes temblando.",
     "Raspi no aguantó más. Por la noche desenterró las semillas para ver si estaban creciendo. Cuando amaneció, el jardín parecía un campo de batalla.",
     "«¡Raspi, siempre igual!», gritó Lúa. Raspi agachó las orejas. «Siempre me echáis la culpa de todo», murmuró. Y en el jardín se hizo un silencio muy largo.",
     "Hera se sentó entre las dos. «Raspi, eso no estuvo bien, pero tú no eres «el travieso». Eres Raspi. Y tú, Lúa, sabes cuánto pinchan las etiquetas». Se pidieron perdón y volvieron a plantar juntas.",
+    "Hera les enseñó otro secreto: «Las cáscaras y las hojas secas no son basura, son comida para la tierra». Hicieron un montón de compost y las lombrices se pusieron a trabajar.",
     "Esa noche el cielo se puso negro. Llegaron el viento y la lluvia, y el agua empezó a correr hacia las semillas.",
     "Hera se tumbó para frenar el agua con su cuerpo grande y tranquilo. Raspi, tan pequeño y tan listo, cavó una zanja por donde escapó el charco. ¡Su manía de cavar salvó el jardín!",
     "Neu contó chistes a Pipa y a los pajarillos asustados hasta que se rieron a carcajadas. Y Lúa, saltando más rápido que el viento, cubrió las semillas con una lona.",
     "Al amanecer salió el sol y la tierra se llenó de puntitos verdes. Algunas semillas ya asomaban. Otras, todavía no. «Cada una a su tiempo», dijo Hera.",
-    "Pasaron las semanas. El solar se llenó de girasoles de Raspi, margaritas de Neu y lavanda de Lúa. En un rincón creció el manzano de Hera, todavía pequeñito.",
+    "Pasaron las semanas. El solar se llenó de girasoles de Raspi, margaritas de Neu y lavanda de Lúa. Como no usaron venenos, llegaron las abejas y las mariposas. En un rincón creció el manzano de Hera, todavía pequeñito.",
     "Abrieron la puerta y llegaron todos: Nuez, Trébol, Mora, Mari, Pipa y su mamá. Ninguno era igual a otro. En el jardín de todos cabía todo el mundo.",
     "Esa noche, bajo el manzano, cada uno contó lo que había aprendido. Lúa, a pedir ayuda. Raspi, a esperar. Neu, que reír también es un trabajo importante. Y Hera: «Nunca es tarde para plantar algo bonito». Cada uno es distinto. Por eso el jardín es tan bonito.",
 ]
