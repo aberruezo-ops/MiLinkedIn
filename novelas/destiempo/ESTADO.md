@@ -9,7 +9,7 @@ Trilogía juvenil de Alex Berr (firma de la saga; los libros de Lúa van como Al
 - `identidad-grafica/libro-de-estilo.md`, `identidad-grafica/codigo-kairos.md`, `identidad-grafica/registro-generaciones.md` (IDs de Higgsfield).
 
 ## Estado del libro I, «El segundo de más»
-- 24 capítulos en primer borrador (`01-el-segundo-de-mas/capitulos-*.md`), unas 39.500 palabras. Objetivo: 65.000. Ampliados ya los caps. 7 a 10 (nov. 2026). Siguiente: 11 y 12, luego 1-6. Interludios documentales sin escribir.
+- 24 capítulos en primer borrador (`01-el-segundo-de-mas/capitulos-*.md`), unas 41.500 palabras. Objetivo: 65.000. Ampliada la parte II entera, caps. 7 a 12 (nov. 2026). Siguiente: caps. 1 a 6. Interludios documentales sin escribir.
 - Nuevas indicaciones del autor: más magia y sobrenatural (biblia, sec. 9) y jerga, música y actitudes de adolescentes de hoy. Criterio en `biblia-de-serie.md`, sec. 8, tras la tabla de referencias.
 - Hechos clave ya escritos: familia de Edu (Raúl gay, Marta y él «mi persona», Íñigo), acoso escolar por su padre (Dani), la K grabada en el reloj (cap. 4), Cronos IA (cap. 22), muerte de Tomás (cap. 22), funeral con los siete y Pilar/Ernesto/Rosa con sus letras griegas (cap. 23), «Hola, papá» y la herencia (cap. 24). Caps. 18-19 en el Salar de los Canos con flamencos. Cap. 16 en el autobús de Garrucha.
 - Datos de Vera escritos de memoria, pendientes de comprobar: ver lista en la biblia.

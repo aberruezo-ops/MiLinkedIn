@@ -828,11 +828,41 @@ No por Marcos, ni por el pelo blanco, ni por la doctora. Me empujaba otra cosa. 
 
 Mi padre se llamaba Raúl. Mi padre había tenido un taller en el patio de abajo, junto a la relojería, un cuartucho con una mesa de trabajo y un montón de cacharros: sensores, cables, un osciloscopio viejo, una pizarra con fórmulas. Cuando se fue, mi abuelo cerró la puerta con llave. Yo no había vuelto a entrar. Nunca me atreví a pedirle la llave.
 
+Estuve hasta las dos y pico con el móvil en la cara, pasando vídeos sin verlos, con el brillo al mínimo para que no se viera la luz por debajo de la puerta. El grupo de clase estaba muerto. Arriba del todo de mis chats, Nora, con su cuadrado gris y mis dos vistos que pesaban como piedras. Más abajo, Bruno. *En línea.* A las dos y cuarenta y siete de la madrugada, Bruno estaba en línea, igual que yo, cada uno en su cama, a cuatrocientos metros, mirando la misma pantalla en blanco.
+
+Escribí *ey*. Lo borré. Escribí *tío, tengo que contarte una cosa*. Lo borré. Escribí *perdona*. Me quedé mirando la palabra un rato largo, con el pulgar encima de enviar.
+
+Bruno se desconectó.
+
+Borré *perdona*. Me levanté.
+
 A las tres de la mañana bajé de puntillas por la escalera, en calcetines, con el móvil de linterna y la llave de la relojería en el bolsillo.
 
 La tienda a oscuras es otro lugar. Los relojes, en vez de sonar, susurran. Desde cada rincón, desde el techo, desde las vitrinas, un tic tac muy bajito y muy cerca. Segundero estaba en su dintel, despierto, con los ojos redondos brillando en la penumbra. No se movió cuando pasé. Tampoco hizo ruido.
 
+Barrí las paredes con la linterna. Cada reloj marcaba una hora distinta. Eso era normal: en una relojería ningún reloj está en hora, porque todos están esperando a que los arreglen. Lo que no era normal fue lo que pasó cuando di el primer paso. Los tic tac, que antes iban cada uno a su aire, como una clase antes de que entre el profesor, se fueron juntando. Primero dos. Luego cinco. Luego todos. Hasta que la tienda entera latía con un solo tic tac, grande y lento, que caía exactamente cada vez que yo apoyaba un pie en el suelo.
+
+Me paré. Los relojes se pararon conmigo, a mitad de compás, esperando.
+
+Di otro paso. Tac.
+
+Otro. Tac.
+
+Me entró una risa nerviosa que tuve que tragarme. Era como andar por dentro de un corazón. Como si la tienda me hubiera reconocido y me estuviera acompañando por el pasillo, de puntillas, para no despertar a nadie.
+
 Crucé la tienda sin respirar. La puerta del cuartucho de mi padre tenía una cerradura vieja. Probé la llave de la tienda y no giraba. Probé la del portal. Tampoco.
+
+Me agaché y miré por el ojo de la cerradura.
+
+Dentro estaba oscuro, pero la ventanita alta que da al patio dejaba entrar la luz naranja de la farola. Vi la mesa de trabajo, con una sábana por encima, como se tapan los muebles de las casas cerradas. Vi la silla de mi padre, la de ruedas, girada hacia la puerta, como si alguien acabara de levantarse. Y vi la pizarra.
+
+La recordaba llena de fórmulas. Ahora estaba borrada, gris de polvo de tiza, con la marca de un borrador pasado deprisa. Toda menos una esquina. Abajo a la derecha, con tiza blanca, en una letra pequeña y recta que habría reconocido en cualquier parte, había escrito:
+
+*4:18*
+
+La tiza brillaba. No tenía polvo encima. El resto de la pizarra llevaba tres años sin que nadie la tocara, y aquel número parecía escrito esa misma noche.
+
+Me aparté de la cerradura con el corazón en la garganta. La puerta estaba cerrada. La llave la tenía mi abuelo. Y mi abuelo no escribe en las pizarras: dice que la tiza le da dentera.
 
 «Detrás del grande», dijo una voz muy bajita. Pero no era voz, era un pensamiento que no era mío.
 
@@ -864,6 +894,18 @@ Y al lado:
 
 *«Tomás no debe saberlo. Todavía no».*
 
+El cuaderno olía a él. No sé explicarlo mejor. A la colonia barata de bote grande que se echaba por las mañanas, a café, a la goma del borrador. Tres años en el hueco de un reloj y seguía oliendo a mi padre. Tuve que apoyar la frente en la pared un momento.
+
+Entre dos páginas había una foto. Una de esas de fotomatón, en tira, de cuatro. Mi padre, Íñigo y yo con seis o siete años, apretujados en la cabina de la feria de Mojácar, haciendo muecas. En la primera, los tres serios, como en un carné. En la segunda, Íñigo sacando la lengua. En la tercera, mi padre haciéndome cosquillas y yo con la boca abierta de reírme. En la cuarta, mi padre mirándome a mí, no a la cámara. Solo a mí. Con una cara que yo no recordaba que se le pusiera.
+
+Me guardé la foto en el bolsillo del pijama y seguí.
+
+Había una página entera titulada *LEVANTE*, con una tabla. Fechas, horas, objetos. *14 de marzo, 4:17 a. m., balcón de la señora Encarna: llave de buzón (perdida en 1994). 2 de abril, 4:18 a. m., terraza del bar de la plaza: un zapato de bebé. 30 de abril, 4:17 a. m., maceta de casa: el anillo de la abuela Julia.* Y así, dos páginas. Todo llegaba a la misma hora. A las cuatro y diecisiete, o un minuto después. Abajo, en rojo, mi padre había escrito:
+
+*«El aire no trae las cosas. Las devuelve. ¿Quién?».*
+
+Me acordé de él en el balcón, las noches de levante, con la libreta, apuntando. Y de mi madre diciéndole que se metiera, que iba a coger frío, y él diciendo «ahora voy, ahora voy», y no yendo nunca.
+
 Pasé páginas con los dedos pegajosos. Había nombres. Cuatro, cinco, seis. Y al lado, una columna de fechas. Entre ellos, *Marcos I.*, y una fecha de hacía cuatro años. Y debajo, otra anotación, en rojo, subrayada:
 
 *«La hora que nadie mira».*
@@ -873,6 +915,8 @@ Y entonces, desde el pasillo, oí el crujido de la escalera.
 Cerré el cuaderno. Me lo metí en la sudadera. Apagué la linterna y me quedé de pie sobre la silla, sin aire.
 
 Una luz amarilla subió por el pasillo. La luz de una lámpara de queroseno, de esas viejas, que mi abuelo todavía conserva para los cortes de luz. La puerta de la tienda se abrió despacio.
+
+Los relojes se callaron todos a la vez, como niños pillados.
 
 Mi abuelo estaba en el umbral, en pijama, con la lámpara en una mano y el bastón en la otra. Sin gafas. Sin lupa. Con el pelo blanco de punta. Parecía mucho más viejo y mucho más pequeño que a las cinco de la tarde.
 
@@ -887,6 +931,20 @@ Miró la silla, el reloj de estación con la esfera torcida, mi sudadera abultad
 «Porque no era mío».
 
 Se acercó con el bastón y la lámpara. Se le notaba el esfuerzo en la respiración, un silbido pequeño, de fuelle viejo. Se paró delante de la silla. Levantó una mano llena de callos y la puso en mi tobillo, por encima del calcetín, un segundo, como quien comprueba que algo sigue siendo de verdad.
+
+Durante ese segundo, la llama de la lámpara se quedó quieta. No temblaba. No subía ni bajaba. Era una lágrima amarilla pintada dentro del cristal. Y el humo que salía por arriba se quedó colgado en un rizo, sin deshacerse. Mi abuelo apartó la mano y la llama volvió a bailar, y yo me dije que había sido una corriente de aire, que en esa tienda hay muchas.
+
+«Abuelo», dije. «¿Tú sabes dónde está?».
+
+Tardó en contestar. Miró el reloj de estación otra vez.
+
+«Sé dónde no está», dijo. «No está muerto. Eso lo sé».
+
+«¿Cómo lo sabes?».
+
+«Porque los relojes de esta tienda se habrían parado todos. Y no se han parado». Se pasó la mano por la cara, despacio. «Son cosas de viejo, Edu. No me hagas caso».
+
+Aquel otoño yo hacía caso, sobre todo, a lo que la gente me pedía que no le hiciera caso.
 
 «Vuelve a la cama», dijo. «Es tarde».
 
@@ -916,6 +974,18 @@ Me quedé mirando aquella firma, con los dedos fríos, mientras en el patio de l
 
 Lo recuerdo todo. Esa es la mala noticia.
 
+La noche antes fue una noche normal. Eso es lo que más rabia me da. Que no hubo aviso. Que nadie tocó un violín de fondo para que yo supiera que tenía que fijarme bien.
+
+Mi padre subió a cenar a casa con Íñigo, como casi todos los lunes, con una bandeja de berenjenas con miel que había hecho Íñigo y que olían desde la escalera. Mi madre libraba. Pusieron Mecano en el altavoz de la cocina, muy alto, y los tres cantaron *Hijo de la luna* a gritos, con los brazos abiertos, desafinando cada uno por un lado, mientras yo me tapaba los oídos y me moría de vergüenza y de felicidad a la vez, que es una mezcla que solo se tiene a los nueve años. Íñigo hacía la voz de Ana Torroja poniendo morritos. Mi madre se reía tanto que se tuvo que sentar en el suelo.
+
+Después del postre, mi padre sacó el cronómetro. Lo hacía siempre. Era su juego. Medíamos cosas absurdas y las apuntábamos en la puerta de la nevera, en una hoja que ya tenía tres años de récords: cuánto tardaba una gota de miel en caer de la cuchara al plato (cuatro segundos y treinta y una centésimas), cuánto aguantaba Íñigo sin parpadear (cuarenta y ocho segundos, récord absoluto), cuánto tardaba mi madre en decir «Raúl, ya» (nunca más de un minuto).
+
+Esa noche medimos cuánto tardaba yo en quedarme dormido en el sofá con la cabeza en sus piernas.
+
+No lo sé. Me quedé dormido. Me acuerdo de su mano en mi pelo y del clic del cronómetro, y de su voz diciéndole a alguien, muy bajito, «mira qué tranquilo». Me acuerdo de que pensé que tenía que mirar el resultado por la mañana para apuntarlo en la nevera.
+
+Nunca lo apuntó. La hoja de récords sigue en la nevera, con la última casilla en blanco.
+
 Hace tres años y un día era un martes de octubre, y llovía, que aquí es noticia. Yo tenía nueve años y volvía del cole con un paraguas verde que me había prestado una niña que se llamaba Sofía. Mi madre estaba de guardia. Mi padre me esperaba en la puerta del portal con la chaqueta empapada y un cuaderno de pastas negras en el bolsillo.
 
 No me dijo nada. Me cogió de la mano y subimos las escaleras muy despacio, de dos en dos escalones, contando. Él contaba bajito. Yo lo copiaba. «Uno. Dos. Tres». En el tercer piso se paró y se arrodilló delante de mí, con las rodillas mojadas, y me miró como nunca me había mirado nadie.
@@ -924,7 +994,11 @@ No me dijo nada. Me cogió de la mano y subimos las escaleras muy despacio, de d
 
 «¿Qué?».
 
-«No me busques. Cierra los ojos. Cuenta hasta cien. No los abras hasta el final». «Esta noche el abuelo te dará un reloj. Guárdalo y cuídalo. Va a ser lo más importante que tengas».
+«No me busques. Cierra los ojos. Cuenta hasta cien. No los abras hasta el final».
+
+Me apretó los hombros con las dos manos.
+
+«Esta noche el abuelo te dará un reloj. Guárdalo y cuídalo. Va a ser lo más importante que tengas».
 
 «Papá, me das miedo».
 
@@ -942,15 +1016,35 @@ Abrí los ojos antes de acabar.
 
 El rellano estaba vacío. En la pared del portal había un reloj de esos de los vecinos, de plástico, con pilas. Marcaba las 4:17. Y se había parado.
 
+Bajé corriendo los tres pisos, gritando «¡papá!», con el paraguas verde todavía en la mano. Abajo, la puerta del portal estaba abierta de par en par. Y fuera, en la calle, la lluvia no caía.
+
+Estaba quieta. Cada gota en su sitio, colgada en el aire, miles y miles de gotas, de la acera hasta los tejados, como una cortina de cuentas de cristal. Brillaban con la luz gris de la tarde. Una vecina que venía corriendo con una bolsa en la cabeza se había quedado a mitad de zancada, con un pie en el aire. Un coche, con los limpiaparabrisas levantados. Un perro sacudiéndose, con el agua saliéndole del lomo en abanico, parado.
+
+Saqué la mano. Una gota se me quedó en la punta del dedo, fría, redonda, sin romperse.
+
+Y entonces el mundo soltó el aire. La lluvia cayó toda de golpe, con un ruido enorme, como si alguien hubiera vaciado un cubo desde el cielo. La vecina terminó su zancada. El perro se sacudió. El coche siguió.
+
+Me quedé en el portal, empapado, con el paraguas cerrado en la mano. Me pasé años diciéndome que aquello lo soñé, que un niño de nueve años asustado ve cosas. Hasta aquel otoño. Hasta el balón.
+
 Mi madre llegó una hora más tarde, empapada, con el móvil en la mano y la cara de alguien que ha visto algo sin nombre. Me abrazó fuerte, tanto que me hizo daño. No me preguntó nada. Dijo que papá había tenido que irse. Que no sabía cuándo volvía. Que no era culpa mía.
 
 No me lo creí ni un día.
 
-El pueblo sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Valdés se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana.
+El pueblo sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Valdés se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana. Primero en voz baja, en corrillos que se callaban cuando yo pasaba. Después en voz alta. Después escrita con rotulador en la puerta del baño de chicos, con mi apellido y una palabra al lado que no voy a poner aquí. Tenía nueve años. Aprendí a contar las baldosas del patio ese mismo mes. Eran trescientas doce. Las sigo sabiendo.
 
 Yo sabía que era mentira por una razón muy sencilla. A los quince días, Íñigo llamó a nuestra puerta. No traía postre. Traía la cara de no haber dormido y un juego de llaves de mi padre que no sabía a quién devolver. Mi madre lo hizo pasar, cerró la cocina y estuvieron dentro dos horas. Cuando salió, me revolvió el pelo sin mirarme y bajó las escaleras como un señor mayor. No se había ido con nadie. Nos había dejado a los tres en el mismo rellano.
 
 ---
+
+No volví a dormir esa noche. Leí el cuaderno entero, de la primera página a la última, sin entender casi nada y entendiéndolo todo. Las ecuaciones no las entendía. La letra sí. Los márgenes estaban llenos de cosas que no eran de ingeniero: *comprar leche*, *Edu, zapatillas del 34*, *llamar a M. que hoy está de noche*, *Í. dice que soy un pesado (tiene razón)*. Mi padre estaba ahí, entre las fórmulas, haciendo la lista de la compra mientras intentaba entender el tiempo.
+
+A las seis y media empezó a clarear. Me acerqué a la ventana. El cielo, sobre el cerro, se ponía de un color melocotón muy flojo, y la estatua del Sagrado Corazón se recortaba negra contra él. Abajo, los primeros coches iban hacia la autovía con los faros encendidos.
+
+Y entonces me acordé de la fecha.
+
+Miré el móvil para asegurarme. Ayer. Ayer había hecho tres años. Tres años exactos desde el martes de la lluvia. Y nadie había dicho nada. Mi madre tenía guardia, mi abuelo había estado en la tienda como siempre, en el grupo de clase hablaban de un examen de Inglés. Yo mismo me había pasado el día pensando en Marcos y en el gorro y en Bruno en línea, y no me había acordado.
+
+Me sentí el peor hijo del mundo. Después pensé que a lo mejor era eso lo que hacía mi abuelo cada año: no decir nada para que no doliera. Y que a lo mejor por eso el reloj de estación, que llevaba tres años en las cuatro y diecisiete, se había adelantado un minuto justo estos días. Como si alguien, desde algún sitio, quisiera que nos acordáramos.
 
 Esperé a mi madre sentado en la cocina, con el cuaderno de mi padre y el papel doblado sobre la mesa.
 
@@ -975,6 +1069,28 @@ Se sentó. Despacio, como si se le hubieran roto los huesos por dentro. Se llev�
 «Dame un minuto».
 
 Le di un minuto. Le di muchos. El reloj de la cocina, uno de plástico blanco que marca los segundos con un tictac insoportable, marcaba las 7:52. Los dos nos quedamos mirando cómo se movía.
+
+Saqué del bolsillo del pijama la tira del fotomatón y la dejé encima del cuaderno, con la cara de mi padre hacia ella.
+
+Mi madre la miró. Y algo se le soltó en la cara, como un nudo que no aguanta más. Cogió la foto con dos dedos, con mucho cuidado, por el borde, como se cogen las cosas que se pueden romper.
+
+«La feria de Mojácar», dijo. «Tú querías montar en la noria y te dio miedo arriba y lloraste todo el rato. Íñigo te compró un algodón de azúcar más grande que tu cabeza para que te callaras».
+
+«No me acuerdo».
+
+«Yo sí». Pasó el dedo por la cuarta foto, la de mi padre mirándome. «Me acuerdo de todo, Edu. Ese es el problema».
+
+Era mi frase. La que yo me decía. No sabía que la tuviéramos los dos.
+
+«¿Íñigo sabe algo?», pregunté.
+
+Negó con la cabeza.
+
+«Íñigo sabe lo mismo que tú. Que tu padre no se fue con nadie». Dejó la foto en la mesa. «Te manda un mensaje cada cumpleaños, ¿sabes? A mi móvil. Cada año. "Dile a Edu que le quiero y que el récord de no parpadear sigue siendo mío". No te los he enseñado nunca».
+
+«¿Por qué?».
+
+«Porque cada vez que alguien te nombraba a tu padre te quedabas una semana sin hablar». Se le rompió la voz. «Y porque yo tampoco podía».
 
 «Me dijeron que tu padre estaba enfermo», dijo por fin, sin quitarse las manos de la cara. «Que lo que tenía no era normal. Que había un grupo de médicos, una especie de programa, que lo podía ayudar. Y que si yo firmaba, lo iban a cuidar mejor».
 
