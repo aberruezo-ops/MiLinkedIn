@@ -3,9 +3,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 F='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
 AMB=(255,176,0)
 # letra, hora, x, y, giro  (lienzo 1360x2048) semiescondidas
-L={1:[('Ρ','4:15',700,1150,-8),('Κ','4:12',330,1830,8)],
+L={1:[('Ρ','4:15',1215,830,-8),('Κ','4:12',640,1880,8)],
    2:[('Σ','4:17',1030,690,-10),('Α','4:13',230,1590,20)],
-   3:[('Ο','4:16',113,1290,10),('Ι','4:14',700,850,-18)]}
+   3:[('Ο','4:16',150,1060,10),('Ι','4:14',1060,890,-18)]}
 def letras(im,n,debug=False):
     im=im.convert('RGBA'); g=np.asarray(im.convert('L')).astype(float)
     f=ImageFont.truetype(F,36); fs=ImageFont.truetype(F,13)

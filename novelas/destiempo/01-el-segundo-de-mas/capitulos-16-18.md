@@ -458,11 +458,11 @@ Me di la vuelta.
 
 «A donde no se imagine nadie».
 
-Bajé por el otro lado del cerro, hacia la plaza de toros, sin mirar atrás. No me siguió. Lo sé porque miré una vez, desde lejos, y seguía en el banco, pequeña, doblada, con las manos en las orejas.
+Bajé por el otro lado del cerro y seguí andando, sin mirar atrás. Crucé la autovía por el puente, dejé a un lado los invernaderos, que de noche zumban como neveras, y anduve hacia el mar. No me siguió. Lo sé porque miré una vez, desde lejos, y seguía en el banco, pequeña, doblada, con las manos en las orejas.
 
 En una noche me había quedado sin madre, sin abuelo, sin Nora, sin teléfono y sin casa. A Bruno lo tenía, pero lo había puesto en peligro. Y a mi padre lo tenía en algún sitio, vivo, detrás de un código de cuatro cifras que no quería entender.
 
-La plaza de toros de Vera es vieja, pequeña, y tiene una puerta lateral que no cierra bien desde que yo tengo memoria. Me colé y me senté en las gradas, con la espalda en un muro de piedra. La humedad se metía por las mangas. Saqué el reloj de bolsillo. Andaba. Tic, tic, tic, tan tranquilo. Lo abrí por detrás con la uña, como le había visto hacer a mi abuelo, y miré la K pequeña grabada en la tapa.
+Tardé casi dos horas en llegar al salar. Es una laguna salada que hay detrás de la playa de Vera, entre la arena y los primeros chalés, donde de noche no va nadie. El agua no cubre ni un palmo. Alrededor, la orilla es una costra blanca que cruje al pisarla, como pisar galletas. Hay una pasarela de madera que lleva a una caseta para mirar pájaros. Me senté al final de la pasarela, con la espalda en la barandilla. Olía a sal y a algas, y la humedad se metía por las mangas. Saqué el reloj de bolsillo. Andaba. Tic, tic, tic, tan tranquilo. Lo abrí por detrás con la uña, como le había visto hacer a mi abuelo, y miré la K pequeña grabada en la tapa.
 
 Tenía el picaporte a un palmo. Lo notaba mejor que nunca, tibio, casi amable. Pensé: *si giro y no cierro. Si giro y me quedo. Allí al menos hay alguien que levanta la mano.*
 
@@ -472,4 +472,4 @@ No fue por valentía. Fue por una frase escrita con la letra de otro al final de
 
 *NO MÁS.*
 
-Me abracé las rodillas y me puse a contar piedras. Llegué a mil cuatrocientos doce antes de quedarme dormido.
+Me abracé las rodillas y me puse a contar tablones de la pasarela, luces de barcos y estrellas, por ese orden. Llegué a mil cuatrocientos doce antes de quedarme dormido.

@@ -94,6 +94,27 @@ La saga ocurre en **Vera**, en el levante de Almería, y en su comarca. Un puebl
 | **Sorbas** | Cuevas de yeso bajo el desierto | II o III |
 | **Tabernas, Cabo de Gata, Almería capital** | El desierto, la costa volcánica, la Alcazaba y el Cable Inglés | III y portadas |
 
+**Escenarios pintorescos y qué escena vive en cada uno.**
+
+| Lugar | Por qué es perfecto | Escena |
+|---|---|---|
+| **Salar de los Canos** (Vera Playa) | Laguna salada a un palmo de profundidad, costra blanca que cruje, flamencos | I, caps. 18 y 19: la noche más oscura de Edu y el amanecer con Tomás. Los flamencos se quedan quietos en el aire un instante: es Tomás, y Edu aún no lo sabe |
+| **Puerto y lonja de Garrucha** | El mar parado a media ola | I, cap. 16: primera visión del Destiempo |
+| **Cerro del Espíritu Santo** | La Vera destruida por el terremoto | I: el banco de Edu y Nora. II: bajo el cerro están las ruinas de la Vera antigua, que en el Destiempo sigue en pie |
+| **Geoda de Pulpí** | Una cueva forrada de cristales enormes, tiempo hecho piedra | II: la primera puerta física al Destiempo. Dentro, los cristales reflejan cada uno una hora distinta |
+| **Sierra Almagrera y Villaricos** | Montañas huecas de galerías mineras | II: donde el Consejo esconde a los intervalos que no despiertan. Marcos sabe el camino |
+| **Salinas de Cabo de Gata** | Agua rosa, la iglesia sola en mitad de la sal, flamencos | II: la cita con Aurelio, que llega andando por el dique, de traje, sin una mancha de sal en los zapatos |
+| **Minas de oro de Rodalquilar** | Pueblo minero abandonado, lavaderos en ruinas en la ladera | II: el archivo del Consejo de 1971. Aquí se tomó la fotografía de Tomás |
+| **Cortijo del Fraile** | Cortijo en ruinas en mitad del campo de Níjar | II: refugio de los siete durante los veintiún días |
+| **Karst en Yesos de Sorbas** | Cuevas blancas de yeso bajo el desierto | III: el laberinto donde Iván aprende a no correr |
+| **Desierto de Tabernas** | El único desierto de Europa; ramblas, cárcavas, y decorados de western abandonados | III: el viaje de Edu con su yo del futuro. Un pueblo del oeste de cartón piedra parado a las 4:17 |
+| **Observatorio de Calar Alto** (Sierra de los Filabres) | Telescopios que miran luz de hace millones de años: el pasado que sigue llegando | III: clímax. Desde aquí se emite el Gran Cobro; Bruno lo filtra desde la cúpula |
+| **Playa de los Muertos** (Carboneras) | Cala de piedras al pie de un acantilado | III: despedida de Segundero |
+| **Arrecife de las Sirenas y faro de Cabo de Gata** | Roca volcánica, la última luz de la costa | III: última escena. Nora oye el latido que viene del mar |
+| **Alcazaba y Cable Inglés** (Almería) | La ciudad congelada bajo el hielo en la portada III | III: el Destiempo de la capital |
+
+Comprobar antes de publicar: nombre y acceso real del Salar de los Canos, y que en las Salinas de Cabo de Gata la iglesia esté donde la recuerdo.
+
 Regla: cada pueblo entra por una persona o por una necesidad de la trama, nunca como postal. Palomares queda fuera a propósito: lo que pasó allí en 1966 es real y tiene afectados; no se usa como decorado.
 
 **Datos por comprobar antes de publicar** (los he escrito de memoria): población de Vera, año exacto del terremoto, línea y horario del autobús a Garrucha, y que el hospital de referencia es el de Huércal-Overa.

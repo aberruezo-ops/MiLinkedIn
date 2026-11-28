@@ -6,15 +6,15 @@ Estaba posada en mi rodilla, que es un sitio donde una paloma de plaza no se pos
 
 «Segundero», dije, con la boca dormida de frío.
 
-Echó a volar. No lejos: hasta el borde de la grada. Allí había un señor mayor sentado, con una rebeca verde debajo de un abrigo que le quedaba grande, un bastón entre las piernas y un termo de los de antes, de cuadros.
+Echó a volar. No lejos: hasta la barandilla de la pasarela. Allí había un señor mayor sentado, con una rebeca verde debajo de un abrigo que le quedaba grande, un bastón entre las piernas y un termo de los de antes, de cuadros.
 
 «Son las seis y veinte», dijo mi abuelo. «Te he dejado dormir porque roncabas con mucha convicción».
 
 «¿Cómo me has encontrado?».
 
-«Yo no. Ella». Señaló a la paloma con la barbilla. «Yo solo he venido detrás, que a mi edad es lo que se puede».
+«Yo no. Ella». Señaló a la paloma con la barbilla. «Yo solo he venido detrás. Y Ernesto, que me ha traído en el coche y está ahí arriba, en el camino, rezando por cómo conduce».
 
-Tardé en darme cuenta de lo que significaba. De casa a la plaza de toros hay un cuarto de hora cuesta arriba para alguien de doce años. Mi abuelo no andaba un cuarto de hora seguido desde hacía dos inviernos. Tenía los labios un poco azules y respiraba con ese silbido de fuelle.
+Tardé en darme cuenta de lo que significaba. Del camino a la pasarela hay quinientos metros de arena blanda y matojos de sal. Mi abuelo no andaba quinientos metros seguidos desde hacía dos inviernos. Tenía los labios un poco azules y respiraba con ese silbido de fuelle.
 
 «Abuelo, tú no puedes...».
 
@@ -22,7 +22,7 @@ Tardé en darme cuenta de lo que significaba. De casa a la plaza de toros hay un
 
 Me lo bebí. Quemaba. Era lo mejor que había probado en mi vida.
 
-Se quedó un rato mirando cómo amanecía por el lado del mar, por encima del ruedo. A esa hora la plaza es de los gorriones. Nadie nos miraba: un viejo y un niño en una grada, lo más normal del mundo.
+Se quedó un rato mirando cómo amanecía sobre el agua. La laguna se había puesto rosa y estaba tan quieta que el cielo salía dos veces. En el centro había flamencos, cien o doscientos, durmiendo de pie sobre una pata, con la cabeza escondida. A esa hora el salar es suyo. Nadie nos miraba: un viejo y un niño en una pasarela, lo más normal del mundo.
 
 «Tu madre no ha dormido», dijo. «Ha bajado a las dos a pedirme que saliera a buscarte, y luego me ha prohibido salir a buscarte, y luego ha llorado en mi cocina. Me ha contado lo del dinero. Yo no lo sabía».
 
@@ -134,15 +134,17 @@ Me puso la llave en la mano y me cerró los dedos encima, con las dos suyas.
 
 «No le digas nada. Te sientas y te comes una. Lo demás sale solo».
 
-Echamos a andar. Muy despacio, parando en cada banco. Tardamos casi una hora en hacer un camino de quince minutos. Segundero volaba delante, se posaba en una farola, esperaba.
+Echamos a andar hacia el coche. Muy despacio, parando cada veinte pasos. Cuando pasamos junto al agua, los flamencos se asustaron y levantaron el vuelo todos a la vez, con un ruido de sábanas sacudidas. Durante un instante se quedaron quietos en el aire, doscientas alas abiertas, las gotas colgando de las patas como cuentas de un collar. Luego siguieron volando. Yo no había hecho nada. Miré a mi abuelo. Él miraba los flamencos y sonreía.
 
-A la altura de la fuente de los Cuatro Caños, mi abuelo se paró a coger aire y dijo, sin venir a cuento:
+«Qué bonito», dijo. Solo eso.
+
+Don Ernesto nos llevó de vuelta a cuarenta por hora, con las dos manos en el volante y la boina puesta. A la altura de la fuente de los Cuatro Caños, mi abuelo dijo, sin venir a cuento:
 
 «Esa chica, la de los auriculares. Ha estado toda la noche en el banco del cerro. La he visto bajar cuando clareaba».
 
 No contesté.
 
-«No sé qué te habrá hecho. Algo te habrá hecho, que para eso estamos los que te queremos». Echó a andar otra vez. «Pero una persona que se queda toda la noche pasando frío en un banco por si vuelves no es una persona de la que haya que fiarse poco».
+«No sé qué te habrá hecho. Algo te habrá hecho, que para eso estamos los que te queremos». Miró por la ventanilla. «Pero una persona que se queda toda la noche pasando frío en un banco por si vuelves no es una persona de la que haya que fiarse poco».
 
 Mi madre nos esperaba en el portal. Con el abrigo encima del pijama.
 

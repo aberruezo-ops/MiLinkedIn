@@ -178,8 +178,8 @@ Añadir a los prompts: *Spanish graphic-novel ink style with a light manga influ
 ## 15. Portadas vigentes (v4, Almería)
 | Libro | Escena | Lo que es de Almería |
 |---|---|---|
-| I | Edu esquiva el balón en una pista al aire libre, seis exposiciones | Casas blancas, palmeras, chumberas y pitas, el cerro con la estatua, un Indalo pintado en el muro |
+| I | Edu corre por un salar entre flamencos congelados al despegar, seis exposiciones; un reloj de bolsillo medio hundido en el agua | El salar, los flamencos, una torre vigía en un cerro, sierras peladas |
 | II | Edu y Nora caminan por un malecón; debajo, el mismo puerto congelado y del revés | Puerto pesquero con faro, balaustrada blanca, sierra pelada con una fortaleza |
-| III | Cinco edades de Edu cruzando el desierto, con el reloj como sol poniente | Badlands, pitas en flor; bajo el hielo, la Alcazaba de Almería y el Cable Inglés |
+| III | Cinco edades de Edu por la cresta del desierto, con el reloj como sol poniente | Desierto de Tabernas, pitas en flor, cúpulas del observatorio de Calar Alto en la sierra; bajo el hielo, la Alcazaba y el Cable Inglés |
 
 Truco de composición que ha funcionado: pedir que el 35 % superior sea negro liso sin nada dibujado. Carpeta: `ilustraciones/portadas-v4-almeria/`.
