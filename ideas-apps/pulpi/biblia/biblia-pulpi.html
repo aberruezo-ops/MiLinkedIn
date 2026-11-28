@@ -1,0 +1,338 @@
+<title>Biblia de Pulpi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap">
+<style>
+/* Layout: cuaderno de producción. Portada con la escena, Pulpi a fondo, amigos en fichas con su hoja, y reglas al final. */
+:root {
+  --bg: #f1f7f7;
+  --surface: #ffffff;
+  --ink: #12324a;
+  --muted: #4c6878;
+  --line: #d2e3e7;
+  --coral: #c4473a;
+  --coral-soft: #fde6e1;
+  --sea: #0f6f78;
+  --sea-soft: #dcf1f2;
+  --kelp: #36702f;
+  --kelp-soft: #e4f1dc;
+  --warn: #8a5a00;
+  --warn-soft: #fbefd5;
+  --font-display: "Fredoka", "Nunito", ui-rounded, system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b1d29; --surface: #12293a; --ink: #e6f1f3; --muted: #9fb9c5; --line: #24445a;
+    --coral: #ff9584; --coral-soft: #3a2224; --sea: #5ccbd1; --sea-soft: #133a44;
+    --kelp: #94d088; --kelp-soft: #1d3a24; --warn: #f3c46a; --warn-soft: #3a3016;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0b1d29; --surface: #12293a; --ink: #e6f1f3; --muted: #9fb9c5; --line: #24445a;
+  --coral: #ff9584; --coral-soft: #3a2224; --sea: #5ccbd1; --sea-soft: #133a44;
+  --kelp: #94d088; --kelp-soft: #1d3a24; --warn: #f3c46a; --warn-soft: #3a3016;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font: 400 1rem/1.6 var(--font-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 3rem;
+}
+.wrap { max-width: 1080px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.15; margin: 0; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); font-weight: 700; }
+h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 600; }
+h3 { font-size: 1.35rem; font-weight: 600; }
+p { margin: 0; max-width: 68ch; }
+a { color: var(--sea); }
+a:focus-visible { outline: 2px solid var(--sea); outline-offset: 2px; border-radius: 4px; }
+.label { font: 700 .72rem/1.2 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+/* Portada */
+.cover { display: grid; gap: 1.25rem; padding-block: 2rem 1.5rem; }
+.cover-img { width: 100%; height: auto; border-radius: 18px; display: block; border: 1px solid var(--line); }
+.cover-text { display: grid; gap: .75rem; }
+.lead { font-size: 1.15rem; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+.chip { font: 600 .85rem/1 var(--font-body); padding: .45rem .75rem; border-radius: 999px; background: var(--sea-soft); color: var(--sea); }
+.notice { display: flex; gap: .75rem; align-items: flex-start; background: var(--warn-soft); color: var(--ink); border-radius: 12px; padding: .9rem 1rem; }
+.notice strong { color: var(--warn); }
+
+/* Índice de personajes */
+.cast-nav { display: flex; flex-wrap: wrap; gap: .4rem; padding-block: .5rem 0; }
+.cast-nav a { text-decoration: none; font: 600 .9rem/1 var(--font-body); padding: .5rem .8rem; border-radius: 999px; border: 1px solid var(--line); color: var(--ink); background: var(--surface); }
+.cast-nav a:hover { border-color: var(--sea); }
+
+section { padding-block: 2.5rem 0; display: grid; gap: 1.25rem; }
+.section-head { display: grid; gap: .4rem; }
+
+/* Pulpi */
+.hero-card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 1.25rem; display: grid; gap: 1.25rem; }
+.sheet { width: 100%; height: auto; display: block; border-radius: 12px; background: #fff; border: 1px solid var(--line); }
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: .6rem .7rem; border-bottom: 1px solid var(--line); }
+th { font: 700 .75rem/1.2 var(--font-body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .6rem; }
+.swatch { display: grid; grid-template-columns: 38px 1fr; gap: .6rem; align-items: center; padding: .55rem; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.dot { width: 38px; height: 38px; border-radius: 50%; border: 2px solid var(--surface); box-shadow: 0 0 0 1px var(--line); }
+.swatch b { display: block; font-family: var(--font-display); font-weight: 600; }
+.swatch span { font-size: .85rem; color: var(--muted); }
+.aside { font-size: .92rem; color: var(--muted); border-left: 3px solid var(--coral); padding-left: .8rem; }
+
+/* Amigos */
+.friends { display: grid; gap: 1.5rem; }
+.friend { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 1.25rem; display: grid; gap: 1rem; scroll-margin-top: 1rem; }
+.friend-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem; }
+.species { color: var(--muted); font-weight: 600; }
+.world { font: 700 .75rem/1 var(--font-body); padding: .4rem .65rem; border-radius: 999px; background: var(--kelp-soft); color: var(--kelp); }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .75rem 1.25rem; }
+.fact { display: grid; gap: .15rem; min-width: 0; }
+.fact p { font-size: .97rem; }
+.design-note { font-size: .9rem; background: var(--sea-soft); border-radius: 10px; padding: .6rem .8rem; color: var(--ink); }
+.design-note b { color: var(--sea); }
+
+/* Reglas */
+.rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.rule { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1rem; display: grid; gap: .4rem; align-content: start; }
+ul { margin: 0; padding-left: 1.2rem; display: grid; gap: .4rem; }
+li { max-width: 70ch; }
+.todo li::marker { color: var(--coral); }
+footer { padding-block: 2.5rem 0; color: var(--muted); font-size: .88rem; }
+
+@media (min-width: 860px) {
+  .cover { grid-template-columns: 1.35fr 1fr; align-items: center; }
+  .cover .cover-text { order: -1; }
+}
+@media (prefers-reduced-motion: no-preference) { .cast-nav a { transition: border-color .15s; } }
+</style>
+
+<div class="wrap">
+
+  <header class="cover">
+    <div class="cover-text">
+      <span class="label">Biblia de personajes · borrador del 28 de noviembre de 2026</span>
+      <h1>Pulpi y sus amigos</h1>
+      <p class="lead">Una app de pasatiempos para aprender a leer y a pensar en español, de 4 a 8 años. Cada amigo enseña algo de naturaleza, medio ambiente o diversidad mientras se juega.</p>
+      <div class="chips">
+        <span class="chip">4 a 8 años</span>
+        <span class="chip">Español de España y Latinoamérica</span>
+        <span class="chip">Sopas de letras, laberintos, crucigramas</span>
+      </div>
+    </div>
+    <img class="cover-img" src="img/escena.jpg" alt="Ilustración: Pulpi, un pulpito rosa coral, escribe una letra a con su tinta en una pradera de posidonia, rodeado de una tortuga, un caballito de mar, una estrella de mar, un cangrejo ermitaño, una ballena, una medusa y una gaviota sobre un tronco." width="1800" height="1004">
+  </header>
+
+  <div class="notice" role="note">
+    <p><strong>Material de concepto.</strong> Las imágenes están generadas con IA para enseñar la idea; el diseño definitivo debe hacerlo un ilustrador. Los datos de naturaleza están pendientes de revisión por un biólogo marino, y el planteamiento pedagógico, por una maestra de Infantil.</p>
+  </div>
+
+  <nav class="cast-nav" aria-label="Personajes">
+    <a href="#pulpi">Pulpi</a><a href="#posi">Doña Posi</a><a href="#hipo">Papá Hipo</a><a href="#carey">Abuela Carey</a><a href="#estela">Estela</a><a href="#concho">Concho</a><a href="#bruma">Bruma</a><a href="#axo">Axo</a><a href="#mangle">Mangle</a><a href="#gavi">Gavi</a><a href="#lumi">Lumi</a><a href="#reglas">Reglas</a>
+  </nav>
+
+  <section id="pulpi">
+    <div class="section-head">
+      <span class="label">El protagonista</span>
+      <h2>Pulpi</h2>
+      <p>Curioso, inquieto, un poco despistado y valiente cuando hace falta. Se equivoca y lo vuelve a intentar. Casi todo lo que tiene de pulpo real se convierte en una mecánica de juego.</p>
+    </div>
+    <div class="hero-card">
+      <img class="sheet" src="img/pulpi.jpg" alt="Hoja de personaje de Pulpi: vistas de frente, tres cuartos, perfil y espalda, y seis expresiones con colores distintos." width="1600" height="903" loading="lazy">
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Dato real</th><th>Qué hace en el juego</th><th>Qué enseña</th></tr></thead>
+          <tbody>
+            <tr><td>Tiene ocho brazos</td><td>Cada brazo sostiene un pasatiempo; el menú principal son sus brazos</td><td>Contar hasta 8, elegir</td></tr>
+            <tr><td>Cambia de color y de textura</td><td>Su color cambia con lo que siente</td><td>Nombrar emociones</td></tr>
+            <tr><td>Se camufla con el fondo</td><td>Pasatiempos de busca y encuentra y de encontrar las diferencias</td><td>Atención, observación</td></tr>
+            <tr><td>Lanza tinta para escapar</td><td>Su tinta traza letras y sílabas</td><td>Escribir</td></tr>
+            <tr><td>Gran parte de sus neuronas está en los brazos, que actúan con cierta independencia</td><td>"Cada brazo piensa a su manera"</td><td>Que cada cabeza funciona distinto, y está bien</td></tr>
+            <tr><td>Tiene tres corazones y sangre azul</td><td>Dato sorpresa al desbloquear un nivel</td><td>Curiosidad científica</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="section-head">
+        <h3>Paleta de emociones</h3>
+      </div>
+      <div class="swatches">
+        <div class="swatch"><span class="dot" style="background:#ef7f6e"></span><div><b>Alegre</b><span>rosa coral, su color base</span></div></div>
+        <div class="swatch"><span class="dot" style="background:#f5cd3c"></span><div><b>Sorprendido</b><span>amarillo sol, brazos arriba</span></div></div>
+        <div class="swatch"><span class="dot" style="background:#6fc9c0"></span><div><b>Tranquilo</b><span>turquesa, ojos cerrados</span></div></div>
+        <div class="swatch"><span class="dot" style="background:#b8a6dc"></span><div><b>Triste</b><span>lavanda, brazos caídos</span></div></div>
+        <div class="swatch"><span class="dot" style="background:#d33b2c"></span><div><b>Enfadado</b><span>rojo, brazos cruzados</span></div></div>
+        <div class="swatch"><span class="dot" style="background:#f3b79a"></span><div><b>Tímido</b><span>melocotón, se tapa</span></div></div>
+      </div>
+      <p class="aside">Licencia artística: los pulpos de verdad cambian de color para camuflarse y comunicarse, no exactamente por lo que sienten. La app lo usa para nombrar emociones y lo cuenta tal cual en un "¿sabías que?".</p>
+    </div>
+  </section>
+
+  <section id="amigos">
+    <div class="section-head">
+      <span class="label">Los amigos</span>
+      <h2>Diez amigos, diez rincones del agua</h2>
+      <p>Especies del Mediterráneo, el Caribe, el Pacífico y los lagos de México, para que se reconozcan niños de los dos lados del océano. Idea de voz: cada personaje habla con el acento de la región de su especie.</p>
+    </div>
+
+    <div class="friends">
+
+      <article class="friend" id="posi">
+        <div class="friend-head"><div><h3>Doña Posi</h3><span class="species">Posidonia, Mediterráneo</span></div><span class="world">Mundo 1</span></div>
+        <img class="sheet" src="img/posi.jpg" alt="Hoja de personaje de Doña Posi, una mata de posidonia con cara amable: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Serena, maternal, habla despacio.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Sopas de letras en su pradera.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>La posidonia es una planta, no un alga; da oxígeno y protege la costa.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>No todos los seres vivos se mueven, y todos importan.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> planta enraizada en la arena, sin brazos ni pies. No cambia de color: se expresa con la cara y el movimiento de las hojas. Lleva olivas de mar, sus frutos, como adorno.</p>
+      </article>
+
+      <article class="friend" id="hipo">
+        <div class="friend-head"><div><h3>Papá Hipo</h3><span class="species">Caballito de mar</span></div><span class="world">Mundo 1</span></div>
+        <img class="sheet" src="img/hipo.jpg" alt="Hoja de personaje de Papá Hipo, un caballito de mar turquesa con la bolsa ventral: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Tranquilo, cariñoso, un poco presumido.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Une los puntos.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>En los caballitos de mar, es el macho quien lleva los huevos en su bolsa hasta que nacen.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>Familias distintas.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> sin brazos. Sujeta las cosas con la cola enrollada, como hacen los de verdad.</p>
+      </article>
+
+      <article class="friend" id="carey">
+        <div class="friend-head"><div><h3>Abuela Carey</h3><span class="species">Tortuga carey, Caribe</span></div><span class="world">Laberintos</span></div>
+        <img class="sheet" src="img/carey.jpg" alt="Hoja de personaje de Abuela Carey, una tortuga marina de caparazón ámbar: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Sabia, lenta, llena de historias.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Laberintos: rutas por el mar.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Las tortugas marinas vuelven a desovar a las playas donde nacieron; el plástico en el mar las daña.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>Las personas mayores y lo que saben.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> aletas delante y detrás, nunca patas con dedos: es tortuga de mar, no de tierra.</p>
+      </article>
+
+      <article class="friend" id="estela">
+        <div class="friend-head"><div><h3>Estela</h3><span class="species">Estrella de mar</span></div><span class="world">Puzles</span></div>
+        <img class="sheet" src="img/estela.jpg" alt="Hoja de personaje de Estela, una estrella de mar naranja de cinco brazos: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Resuelta y alegre.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Puzles de piezas.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Muchas estrellas de mar pueden regenerar un brazo y tienen ojos sencillos en la punta de los brazos.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>Percibir el mundo de otra manera.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> exactamente cinco brazos, con un punto rojo en cada punta (sus ojos). Por debajo, filas de pies ambulacrales.</p>
+      </article>
+
+      <article class="friend" id="concho">
+        <div class="friend-head"><div><h3>Concho</h3><span class="species">Cangrejo ermitaño</span></div><span class="world">Busca y encuentra</span></div>
+        <img class="sheet" src="img/concho.jpg" alt="Hoja de personaje de Concho, un cangrejo ermitaño rojo en una concha espiral: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Tímido, ordenado, coleccionista.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Busca y encuentra objetos.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Cambia de concha cuando crece.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>Reutilizar en vez de tirar; la timidez también vale.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> siempre dentro de su concha, salvo en el momento de mudarse. Una pinza más grande que la otra.</p>
+      </article>
+
+      <article class="friend" id="bruma">
+        <div class="friend-head"><div><h3>Bruma</h3><span class="species">Ballena jorobada</span></div><span class="world">Palmadas de sílabas</span></div>
+        <img class="sheet" src="img/bruma.jpg" alt="Hoja de personaje de Bruma, una ballena jorobada gris azulada con aletas largas: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Grande, gentil, cantarina.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Ritmo de sílabas: palmadas y canciones.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Los machos de ballena jorobada cantan canciones largas y complejas.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>El arte y la música.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> aletas pectorales muy largas con borde blanco, surcos en la garganta y bultitos en la cabeza.</p>
+      </article>
+
+      <article class="friend" id="axo">
+        <div class="friend-head"><div><h3>Axo</h3><span class="species">Ajolote, lagos de México</span></div><span class="world">Adivinanzas</span></div>
+        <img class="sheet" src="img/axo.jpg" alt="Hoja de personaje de Axo, un ajolote oscuro con motas doradas y branquias rosadas: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Bromista y optimista.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Adivinanzas.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Vive solo en lagos de México, puede regenerar partes de su cuerpo y está en peligro de extinción.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>El agua dulce y las especies que hay que proteger.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> color salvaje, oscuro con motas doradas. El rosa es el de los ajolotes de acuario; se puede contar como dato.</p>
+      </article>
+
+      <article class="friend" id="mangle">
+        <div class="friend-head"><div><h3>Mangle</h3><span class="species">Manglar, costas de Latinoamérica</span></div><span class="world">Crucigramas</span></div>
+        <img class="sheet" src="img/mangle.jpg" alt="Hoja de personaje de Mangle, un árbol de manglar con raíces en zancos sobre el agua: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Protector, un poco gruñón.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Crucigramas con dibujos.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Los manglares son bosques que crecen en agua salada y son refugio de crías de peces.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>Ecosistemas distintos al mar abierto.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> raíces en zancos dentro del agua y plántulas largas colgando de las ramas. Sin brazos ni piernas.</p>
+      </article>
+
+      <article class="friend" id="gavi">
+        <div class="friend-head"><div><h3>Gavi</h3><span class="species">Gaviota patiamarilla, la playa</span></div><span class="world">Encuentra las diferencias</span></div>
+        <img class="sheet" src="img/gavi.jpg" alt="Hoja de personaje de Gavi, una gaviota blanca de alas grises con puntas negras y patas amarillas: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Parlanchina y viajera.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Encuentra las diferencias en la orilla.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Une el mar con la tierra: lo que se deja en la playa acaba en el mar.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>Puente entre mundos.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> la gaviota más común de las costas españolas. Siempre sobre el agua o en tierra, nunca debajo del agua.</p>
+      </article>
+
+      <article class="friend" id="lumi">
+        <div class="friend-head"><div><h3>Lumi</h3><span class="species">Medusa luminosa, Mediterráneo</span></div><span class="world">Sopas de letras de noche</span></div>
+        <img class="sheet" src="img/lumi.jpg" alt="Hoja de personaje de Lumi, una medusa rosa malva que brilla: cuatro vistas y seis expresiones." width="1600" height="903" loading="lazy">
+        <div class="facts">
+          <div class="fact"><span class="label">Personalidad</span><p>Soñadora y nocturna.</p></div>
+          <div class="fact"><span class="label">Pasatiempo</span><p>Sopas de letras de noche.</p></div>
+          <div class="fact"><span class="label">Dato real</span><p>Algunas medusas producen su propia luz.</p></div>
+          <div class="fact"><span class="label">Diversidad</span><p>La noche y el miedo a la oscuridad.</p></div>
+        </div>
+        <p class="design-note"><b>Diseño:</b> inspirada en la medusa luminosa del Mediterráneo, que pica. Lumi enseña a mirar sin tocar.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="reglas">
+    <div class="section-head">
+      <span class="label">Cómo se cuenta</span>
+      <h2>Reglas de la biblia</h2>
+    </div>
+    <div class="rules">
+      <div class="rule"><h3>Medio ambiente con acción</h3><p>Nada de catástrofes para niños de 4 a 8 años. Cada misión termina con algo que el niño arregla: recoger plástico, ayudar a las crías de tortuga a llegar al mar. El mensaje es "podemos ayudar".</p></div>
+      <div class="rule"><h3>Diversidad sin etiquetas</h3><p>Se muestra, no se explica: un papá que lleva los huevos, una estrella que ve con los brazos, una abuela que lo sabe todo. Ningún personaje se define por una diferencia.</p></div>
+      <div class="rule"><h3>Datos ciertos siempre</h3><p>Cada "¿sabías que?" pasa por un biólogo antes de publicarse. Mejor pocos datos y verdaderos que muchos y dudosos.</p></div>
+      <div class="rule"><h3>Anatomía real</h3><p>Ningún animal ni planta tiene manos humanas. Pulpi tiene ocho brazos, Papá Hipo usa la cola, Abuela Carey nada con aletas, Concho no sale de la concha y Gavi no se mete bajo el agua.</p></div>
+      <div class="rule"><h3>Siluetas legibles</h3><p>Formas redondas, ojos grandes, nada de colmillos. Cada personaje se reconoce a contraluz y a tamaño de icono.</p></div>
+      <div class="rule"><h3>Paleta del mundo</h3><p>Azules y turquesas del mar, verdes de la posidonia y el manglar, arena. Buen contraste para leer.</p></div>
+    </div>
+  </section>
+
+  <section id="pendiente">
+    <div class="section-head">
+      <span class="label">Antes de producir</span>
+      <h2>Pendiente de validar</h2>
+    </div>
+    <ul class="todo">
+      <li>Revisión de todos los datos de naturaleza por un biólogo marino, incluidas las olivas de mar de Doña Posi y las burbujas de oxígeno.</li>
+      <li>Revisión pedagógica del mundo 1 y del orden de letras por una maestra de Infantil.</li>
+      <li>Búsqueda de marca para "Pulpi" en la OEPM y la EUIPO, con abogado. Pulpí también es un municipio de Almería.</li>
+      <li>Comprobar que ningún diseño se parece a personajes existentes; por ejemplo, en Los Octonautas hay un profesor pulpo.</li>
+      <li>Diseño definitivo con ilustrador: fijar los ocho brazos de Pulpi en todas las vistas y la anatomía de cada amigo.</li>
+      <li>Vocabulario de los pasatiempos que funcione igual en España y Latinoamérica.</li>
+    </ul>
+  </section>
+
+  <footer>Biblia de Pulpi. Imágenes de concepto generadas con IA (Higgsfield), no definitivas. Texto y personajes originales del proyecto.</footer>
+</div>

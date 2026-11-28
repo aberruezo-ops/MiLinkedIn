@@ -87,3 +87,19 @@ Diseño fiel a la planta real: mata de hojas largas en forma de cinta, enraizada
 | dormida | hojas plegadas, ojos cerrados |
 
 Revisión: se corrigió una hoja que terminaba en mano con dedo. Pendiente de validar con el biólogo: el aspecto de las olivas de mar y la idea de mostrar burbujas de oxígeno.
+
+## Hojas de los amigos (2026-11-28)
+
+Las diez hojas están en `biblia/img/` y en la página `biblia/biblia-pulpi.html`. Revisadas una a una contra la anatomía real; correcciones hechas:
+
+| personaje | error de la primera versión | corrección |
+| --- | --- | --- |
+| Papá Hipo | le salieron bracitos | sin brazos; sujeta la hoja con la cola |
+| Abuela Carey | de pie sobre patas con dedos (tortuga de tierra) | apoyada en el vientre con aletas delante y detrás (dos intentos); el perfil sigue algo erguido, a fijar con el ilustrador |
+| Concho | aparecía fuera de la concha al reír | ríe dentro de su concha |
+| Doña Posi | una hoja terminaba en mano con dedo | punta de hoja redondeada |
+| Pulpi (escena) | un brazo terminaba en mano | tentáculo con ventosas |
+
+Sin correcciones: Estela, Bruma, Axo, Mangle, Gavi, Lumi.
+
+Reglas de anatomía para cualquier imagen futura: ningún animal ni planta con manos humanas; Pulpi ocho brazos; Papá Hipo sin brazos; Abuela Carey con cuatro aletas; Estela cinco brazos con ojos en las puntas; Concho siempre en su concha salvo al mudarse; Gavi nunca bajo el agua; Doña Posi y Mangle sin brazos ni piernas.
