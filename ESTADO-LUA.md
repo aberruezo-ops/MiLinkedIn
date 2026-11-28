@@ -14,9 +14,9 @@ Cuentos para colorear de 4 a 8 años, firmados como Alex Berruezo. Descripción 
 - Pendiente de decisión del autor: cambiar «Texto e ilustraciones: Alex Berruezo» de la portadilla, porque las ilustraciones son de IA.
 
 ## Volumen III · «Lúa y el vecino nuevo» (`libro-lua3/`)
-- Escrito y maquetado. Interior listo: `interior-KDP.pdf` (80 páginas, 8,5 x 11 in). Cubierta provisional dibujada con código y aplanada: `cubierta-KDP.pdf` (17,43 x 11,25 in, papel blanco).
+- Escrito y maquetado. Interior listo: `interior-KDP.pdf` (80 páginas, 8,5 x 11 in). Cubierta en acuarela (Higgsfield) aplanada a 300 ppp: `cubierta-KDP-papel-blanco.pdf` (17,43 x 11,25 in) y `cubierta-KDP-papel-crema.pdf` (17,45 x 11,25 in). Arte en `libro-lua3/arte/`.
 - Personaje nuevo: Tilo, el erizo (`erizo.py`). Bicho escondido: Chispa, la luciérnaga. Texto completo en `contenido-libro.md`, ficha en `ficha-amazon.md`.
-- Pendiente: que el autor lea y apruebe el cuento; cubierta en acuarela con Higgsfield para igualar la serie (cuesta créditos, preguntar antes); decidir el crédito de la portadilla (ahora solo pone «Alex Berruezo»).
+- Pendiente: que el autor lea y apruebe el cuento; decidir el crédito de la portadilla (ahora solo pone «Alex Berruezo»).
 - Regenerar: `python3 libro.py && node render.js && node aplanar_cubierta.js && python3 aplanar_cubierta.py`.
 
 ## Preferencias del autor

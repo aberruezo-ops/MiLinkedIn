@@ -17,7 +17,7 @@
 | Páginas | 80 |
 | Lomo | 0,180 in, liso como el volumen II |
 | ISBN | El gratuito de KDP, o uno propio de la Agencia del ISBN |
-| Contenido generado con IA | Sí. Texto: asistido por IA. Ilustraciones: generadas con IA (interior dibujado con código; cubierta provisional también con código, o con Higgsfield si se hace la acuarela). KDP lo pregunta y no se muestra al comprador |
+| Contenido generado con IA | Sí. Texto: asistido por IA. Ilustraciones: generadas con IA (interior dibujado con código, cubierta en acuarela con Higgsfield). KDP lo pregunta y no se muestra al comprador |
 
 ## Subtítulo, alternativas
 1. **Cuento para colorear sobre el miedo a lo diferente, los rumores y la amistad. Con pasatiempos y guía para familias. De 4 a 8 años** (recomendado)

@@ -308,9 +308,9 @@ def cubierta_acuarela():
     s += f'<text x="{cx0}" y="374" font-family="Fraunces" font-weight="600" font-size="23" text-anchor="middle" fill="{tinta}">Para colorear · 4 a 8 años · Con guía para familias</text>'
     s += f'<rect x="{cx0 - 170}" y="968" width="340" height="56" rx="28" fill="{crema}" fill-opacity=".88"/>'
     s += f'<text x="{cx0}" y="1006" font-family="Fraunces" font-weight="700" font-size="32" text-anchor="middle" fill="{tinta}">{AUTOR}</text>'
-    s += f'<rect x="{bx0 - 350}" y="55" width="700" height="400" rx="26" fill="{crema}" fill-opacity=".92"/>'
+    s += f'<rect x="{bx0 - 350}" y="165" width="700" height="400" rx="26" fill="{crema}" fill-opacity=".92"/>'
     for i, l in enumerate(CONTRA):
-        s += f'<text x="{bx0}" y="{100 + i * 39 + (8 if i else 0)}" font-family="Fraunces" font-weight="{700 if i in (0, 8) else 600}" font-size="{27 if i == 0 else 24}" text-anchor="middle" fill="{tinta}">{l}</text>'
+        s += f'<text x="{bx0}" y="{210 + i * 39 + (8 if i else 0)}" font-family="Fraunces" font-weight="{700 if i in (0, 8) else 600}" font-size="{27 if i == 0 else 24}" text-anchor="middle" fill="{tinta}">{l}</text>'
     s += f'<rect x="{round((0.125 + 8.5 - 0.25 - 2) * u)}" y="{round((0.125 + 11 - 0.25 - 1.2) * u)}" width="200" height="120" fill="#fff"/>'
     return _html(s, Wi, Hi, Wu, Hu)
 
