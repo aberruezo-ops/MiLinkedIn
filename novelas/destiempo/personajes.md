@@ -7,7 +7,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 ## El grupo
 
 ### EDU (Eduardo Valdés) · 12 años
-- **Dónde está:** barrio de Usera, Madrid. Vive con su madre. Su abuelo está en el piso de abajo.
+- **Dónde está:** Vera (Almería). Vive con su madre. Su abuelo está en el piso de abajo.
 - **Quiere:** que nadie le mire, y a la vez que alguien le vea de verdad.
 - **Necesita:** estar presente, aprender que querer a alguien cuesta tiempo y que a veces hay que soltar.
 - **Herida:** su padre desapareció cuando tenía 9 años. Edu cree que fue por algo que hizo o dejó de hacer.
@@ -20,7 +20,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Su familia:** su padre es gay y se lo contaron a los seis años, sin drama. Sus padres dejaron de ser pareja y no dejaron de ser familia. Edu no lo vive como algo que explicar ni que defender: se siente especial por ello. Cree que en su casa la gente se quiere mejor que en las demás, porque ha visto quererse a dos personas que ya no tenían ninguna obligación de hacerlo.
 - **La ironía que le duele:** en su casa se podía hablar de todo. Por eso tardó tanto en ver de qué no se hablaba.
 - **Lo que no soporta:** que en el barrio den por hecho que su padre «se fue con otro». Es la explicación fácil y es mentira. Eso nunca fue el problema.
-- **En el colegio no le dan tregua.** Cuando Edu tenía ocho años, unos compañeros vieron a su padre por Madrid Río de la mano de otro hombre. Desde entonces lo lleva colgado: motes, imitaciones, pintadas en la mesa, el «¿y tu padre con quién se fue?» cada vez que hay público. Pasó con él del colegio al instituto porque los mismos chicos pasaron con él. En casa se siente especial; en clase aprendió a hacerse pequeño. Las dos cosas son verdad a la vez, y esa distancia entre su casa y el pasillo es de donde sale su deseo de que nadie le mire.
+- **En el colegio no le dan tregua.** Cuando Edu tenía ocho años, unos compañeros vieron a su padre por el paseo marítimo de Garrucha de la mano de otro hombre. Desde entonces lo lleva colgado: motes, imitaciones, pintadas en la mesa, el «¿y tu padre con quién se fue?» cada vez que hay público. Pasó con él del colegio al instituto porque los mismos chicos pasaron con él. En casa se siente especial; en clase aprendió a hacerse pequeño. Las dos cosas son verdad a la vez, y esa distancia entre su casa y el pasillo es de donde sale su deseo de que nadie le mire.
 - **Lo que nunca hace:** avergonzarse de su padre. Se avergüenza de no contestar.
 
 ### BRUNO FERRER · 12 años

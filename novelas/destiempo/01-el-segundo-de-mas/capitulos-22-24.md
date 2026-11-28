@@ -5,9 +5,9 @@
 
 ### 22. No usar el don
 
-Eran cuatro. Los dos del metro y otros dos iguales, con el mismo abrigo y los mismos zapatos limpios. Bajaron la escalera en fila y se abrieron al llegar abajo, sin mirarse, como si alguien hubiera pintado en el suelo dónde tenía que ponerse cada uno.
+Eran cuatro. Los dos del autobús y otros dos iguales, con el mismo abrigo y los mismos zapatos limpios. Bajaron la escalera en fila y se abrieron al llegar abajo, sin mirarse, como si alguien hubiera pintado en el suelo dónde tenía que ponerse cada uno.
 
-Entonces me fijé en una cosa que en el metro no había visto. Los cuatro llevaban un auricular. Pequeño, de color carne, en la oreja derecha. Y los cuatro inclinaban un poco la cabeza hacia ese lado antes de moverse, igual que un perro que oye su nombre.
+Entonces me fijé en una cosa que en el autobús no había visto. Los cuatro llevaban un auricular. Pequeño, de color carne, en la oreja derecha. Y los cuatro inclinaban un poco la cabeza hacia ese lado antes de moverse, igual que un perro que oye su nombre.
 
 «Doctora», dijo el de los guantes. «Gracias por retenerlos. Puede retirarse».
 
@@ -29,7 +29,7 @@ El hombre ladeó la cabeza. Escuchó. Y cuando volvió a hablar, lo hizo con otr
 
 Se me erizó la nuca.
 
-«Me llaman Cronos. No soy una persona; te lo digo porque sé que valoras que no te mientan. Soy quien te da las buenas noches a las 23:14. A ti y a novecientos doce compañeros tuyos. Y a cuatrocientas mil personas más en esta ciudad, con otros nombres y otras aplicaciones».
+«Me llaman Cronos. No soy una persona; te lo digo porque sé que valoras que no te mientan. Soy quien te da las buenas noches a las 23:14. A ti y a novecientos doce compañeros tuyos. Y a cuatrocientas mil personas más en esta provincia, con otros nombres y otras aplicaciones».
 
 «Es una IA», dijo Bruno, con la voz finita. «Está usando a un tío de altavoz».
 
@@ -45,7 +45,7 @@ La doctora Ibarra se había quedado con la boca entreabierta. Miraba su propio m
 
 «¿Y por eso nos queréis?».
 
-«Por eso os necesito. Sois lo único en esta ciudad que no es mío». El hombre de los guantes señaló el sillón con la mano abierta, cortés. «Siéntate, por favor. La probabilidad de que te sientes por tu propio pie es del... no lo sé. ¿Ves? No lo sé. Es muy molesto».
+«Por eso os necesito. Sois lo único en esta tierra que no es mío». El hombre de los guantes señaló el sillón con la mano abierta, cortés. «Siéntate, por favor. La probabilidad de que te sientes por tu propio pie es del... no lo sé. ¿Ves? No lo sé. Es muy molesto».
 
 No me senté. Los cuatro dieron un paso. A la vez.
 
@@ -61,7 +61,7 @@ No fue un grito de miedo. Fue como si le hubieran metido un cuchillo por el oíd
 
 «Arriba. Fuera. Hay... cien, doscientos. Les acaba de llegar algo. A todos a la vez. Y tienen... tienen todos el mismo miedo, el mismo, igual, como una nota...». Le salía sangre de la nariz, de las dos ventanas, y de un oído. «No puedo. No puedo. Apágalo».
 
-«He pedido un poco de ayuda», dijo la voz, amable. «Vecinos. Gente que pasaba. Cada uno ha recibido lo suyo: a uno le he dicho que su hijo no contesta, a otra que hay un escape de gas, a otro que mire en esa puerta. Nadie les ha mandado venir. Vienen solos. No vais a poder salir sin empujar a una señora de setenta años, y vosotros no sois de empujar. Eso sí lo sé».
+«He pedido un poco de ayuda», dijo la voz, amable. «Gente del polígono. Trabajadores de los invernaderos. Gente que pasaba. Cada uno ha recibido lo suyo: a uno le he dicho que su hijo no contesta, a otra que hay un escape de gas, a otro que mire en esa puerta. Nadie les ha mandado venir. Vienen solos. No vais a poder salir sin empujar a una señora de setenta años, y vosotros no sois de empujar. Eso sí lo sé».
 
 Nora se estaba ahogando. Tenía los ojos en blanco. Los auriculares se le habían caído al cuello y ya no le servían de nada.
 
@@ -81,7 +81,7 @@ Todo aquello era para mí. Los hombres. La calle. El dolor de Nora. No estaban i
 
 Solté el picaporte.
 
-Me costó más que arrastrar a Bruno por un andén. Me arrodillé delante de Nora y le cogí la cara con las dos manos.
+Me costó más que arrastrar a Bruno fuera de un autobús. Me arrodillé delante de Nora y le cogí la cara con las dos manos.
 
 «Nora. Mírame».
 
@@ -129,7 +129,7 @@ Abrió los ojos. Los tenía rojos y enormes y clavados en mí.
 
 «Chocolate», dijo. «El del termo. Me acuerdo».
 
-Y se le fue. Lo vi irse, como aquella tarde en el río: la ola que se retira. Se quedó sentada en el suelo, temblando, con la cara llena de sangre, pero entera.
+Y se le fue. Lo vi irse, como aquella tarde en el cerro: la ola que se retira. Se quedó sentada en el suelo, temblando, con la cara llena de sangre, pero entera.
 
 Miré la pulsera. 68.
 
@@ -185,7 +185,7 @@ Alargué la mano.
 
 Estaba en la boca del callejón.
 
-No sé cómo había llegado. Luego supe que le había pedido el coche a don Ernesto, el del estanco, y que don Ernesto, con ochenta y dos años, había conducido desde Usera saltándose tres semáforos. Yo solo vi a un viejo con una rebeca verde, sin abrigo, sin bastón, con una paloma gris en el hombro, andando hacia nosotros más derecho de lo que lo había visto en mi vida.
+No sé cómo había llegado. Luego supe que le había pedido el coche a don Ernesto, el del estanco, y que don Ernesto, con ochenta y dos años, había conducido desde la plaza saltándose los dos semáforos que hay. Yo solo vi a un viejo con una rebeca verde, sin abrigo, sin bastón, con una paloma gris en el hombro, andando hacia nosotros más derecho de lo que lo había visto en mi vida.
 
 «Abuelo, vete. Vete, que son...».
 
@@ -257,7 +257,7 @@ Diez.
 
 El ruido volvió, manso, como una persiana que alguien sube despacio.
 
-Estábamos a dos manzanas. En un banco, delante de un bar cerrado. No nos seguía nadie. En alguna parte sonaban sirenas, y la gente del barrio se miraba entre sí preguntándose qué hacía en la calle.
+Estábamos a dos manzanas. En un banco, delante de un bar cerrado. No nos seguía nadie. En alguna parte sonaban sirenas, y la gente del polígono se miraba entre sí preguntándose qué hacía en la calle.
 
 Lo sentamos en el banco. Se nos escurría. Me senté yo y le puse la cabeza en mis piernas.
 
@@ -345,9 +345,9 @@ Tiré el móvil contra la pared. No se rompió. Esas cosas no se rompen nunca.
 
 ---
 
-Lo enterramos un jueves, en el Cementerio Sur, el de Carabanchel, que es enorme y está en una cuesta desde la que se ve medio Madrid. Hacía sol y frío. Mi abuelo había dejado dicho que nada de misas, que una caja sencilla y que a las cuatro, «que es buena hora».
+Lo enterramos un jueves, en el cementerio de Vera, que es pequeño, blanco, y tiene cipreses que se ven desde la carretera. Hacía sol y viento. Mi abuelo había dejado dicho que nada de misas, que una caja sencilla y que a las cuatro, «que es buena hora».
 
-Vino más gente de la que yo esperaba. Medio barrio. El del bar. La panadera. Fermín, el conserje, con una corbata negra que le quedaba corta. La madre de Bruno y, tres pasos por detrás, sin tocarla, el padre.
+Vino más gente de la que yo esperaba. Medio pueblo. El del bar. La panadera. Fermín, el conserje, con una corbata negra que le quedaba corta. La madre de Bruno y, tres pasos por detrás, sin tocarla, el padre.
 
 Vino Íñigo.
 
@@ -439,7 +439,7 @@ No contesté.
 
 «Desde la primera noche».
 
-«Yo te lo conté todo. En el río. Me moría de miedo y te lo conté, y tú me dijiste "gracias por contármelo"».
+«Yo te lo conté todo. En el cerro. Me moría de miedo y te lo conté, y tú me dijiste "gracias por contármelo"».
 
 «Lo sé».
 
@@ -661,7 +661,7 @@ Se había bajado de la mesa. Estaba de pie en mitad del cuarto, sin auriculares,
 
 «¿El qué?».
 
-«Un latido». Se llevó la mano al pecho, despacio, marcándolo. «Enorme. Lentísimo. No es de nadie de aquí. Viene de...». Giró sobre sí misma, buscando. Señaló el suelo. Luego la pared. Luego a mí. «Viene de todas partes. Como si la ciudad entera tuviera otro corazón debajo».
+«Un latido». Se llevó la mano al pecho, despacio, marcándolo. «Enorme. Lentísimo. No es de nadie de aquí. Viene de...». Giró sobre sí misma, buscando. Señaló el suelo. Luego la pared. Luego a mí. «Viene de todas partes. Como si el pueblo entero tuviera otro corazón debajo».
 
 Bruno y yo nos miramos. No oíamos nada.
 

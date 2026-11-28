@@ -117,11 +117,11 @@ El primer mensaje me llegó en medio de una clase de Lengua, con el móvil bocab
 
 **Número desconocido:** *no respondas en voz alta*
 **Número desconocido:** *ni con la cara*
-**Número desconocido:** *banco de madrid río, bajo el puente de toledo, a las cinco. ve solo*
+**Número desconocido:** *banco del mirador, en el cerro, debajo de la estatua, a las cinco. ve solo*
 
 Levanté la vista. Dos filas más atrás, con los auriculares colgados del cuello y la cabeza inclinada sobre un cuaderno, Nora escribía algo con un lápiz muy fino, sin mirarme. Ni un gesto. Si yo hubiera sido espía, habría dicho que era mejor que yo.
 
-A las cinco menos diez bajaba por la rampa del paseo de Madrid Río con la mochila al hombro. Es un parque largo y estrecho que corre junto al Manzanares, y en octubre, a esa hora, tiene todo lo que tiene Madrid: ciclistas furiosos, viejos con dominó, gente corriendo con cara de arrepentimiento y un olor a pan, a río y a otoño de ciudad. Las hojas de los plátanos caían despacio. Un niño le tiraba migas a unas palomas, y una de ellas, gris, con la pata torcida, me miró.
+A las cinco menos diez subía la cuesta del cerro del Espíritu Santo con la mochila al hombro. Es el monte pelado que hay pegado al pueblo, con una estatua blanca del Sagrado Corazón arriba del todo. Dicen que ahí estuvo la Vera antigua, hasta que un terremoto la tiró entera hace quinientos años y la gente bajó a hacerla otra vez en el llano. Desde arriba se ve todo: los tejados, la torre de la iglesia, que parece más un castillo que una iglesia, los invernaderos brillando como un lago de leche y, al fondo, la raya del mar. En octubre, a esa hora, huele a tomillo y a tierra caliente. Un niño le tiraba migas a unas palomas junto al mirador, y una de ellas, gris, con la pata torcida, me miró.
 
 Me paré en seco.
 
@@ -129,11 +129,11 @@ Era Segundero. O una paloma igual, pero no creí que hubiera dos.
 
 Pasó rozándome el zapato y siguió andando con la cabeza adelantada, sin prisa, y yo, que ya había visto cosas bastante más raras ese mes, no dije ni pío.
 
-Nora me esperaba debajo del puente, sentada en el respaldo de un banco con los pies en el asiento. Tenía una libreta en las rodillas y un termo.
+Nora me esperaba debajo de la estatua, sentada en el respaldo de un banco con los pies en el asiento. Tenía una libreta en las rodillas y un termo.
 
 «Llegas pronto», dijo. Me sorprendió oírla: tenía la voz ronca, de no usarla. «Siéntate. Hablo poco. Si me callo, no es que me haya enfadado».
 
-Me senté. Se quedó mirando el río un rato largo. Entendí que no era una pausa dramática: le costaba empezar. Y a mí también. Porque yo llevaba una semana con una cosa dentro que ya no me cabía, y de pronto, con aquella chica callada, el agua del río y el olor a chocolate del termo, noté que iba a reventar.
+Me senté. Se quedó mirando el mar un rato largo. Entendí que no era una pausa dramática: le costaba empezar. Y a mí también. Porque yo llevaba una semana con una cosa dentro que ya no me cabía, y de pronto, con aquella chica callada, la raya del mar y el olor a chocolate del termo, noté que iba a reventar.
 
 «Tengo que contarte una cosa», dije. «Y vas a pensar que estoy loco».
 
@@ -161,7 +161,7 @@ Se me paró la respiración.
 
 «Doce minutos. Como si me hubiera dormido, pero sin dormir». Tragué saliva. «¿Cómo sabías que pierdo algo?».
 
-«No lo sabía. Me lo imagino». Miró el río. «Todo cuesta algo».
+«No lo sabía. Me lo imagino». Miró el mar. «Todo cuesta algo».
 
 No me quedé tranquilo. Era una respuesta que se parecía mucho a una excusa. Pero Nora ya estaba hablando de otra cosa, del termo, de si quería chocolate, de que en la ciudad de la que venía las palomas eran más grandes. Y lo dejé estar. Porque estaba tan aliviado de que no se hubiera reído que no quise darle más vueltas.
 
@@ -173,7 +173,7 @@ Fue un segundo. Nora se quedó muy quieta, con la tapa del termo a medio camino 
 
 «No… espera…». Jadeaba. «Allí. En aquel banco. Una señora…».
 
-Miré. A unos cien metros, más allá del puente, una mujer mayor con un abrigo oscuro lloraba sin hacer ruido, con un pañuelo en la boca. Nada raro. Gente que llora en un parque hay siempre.
+Miré. A unos cien metros, en el otro banco del mirador, una mujer mayor con un abrigo oscuro lloraba sin hacer ruido, con un pañuelo en la boca. Nada raro. Gente que sube a llorar a un cerro hay siempre.
 
 «Me pasa a veces con la gente», dijo Nora, y tenía los ojos llenos de lágrimas y un hilo de sangre en la nariz. «Cuando hay mucho… mucho de algo… me duele aquí». Se tocó la frente. «Es como estar en un sitio donde todos gritan y nadie se entera».
 
@@ -193,7 +193,7 @@ No me miró.
 
 «No… no puedo…».
 
-«Un banco», dije yo en su lugar, bajito. «Una hoja amarilla. Un termo. Tu libreta. Un río».
+«Un banco», dije yo en su lugar, bajito. «Una pita. Un termo. Tu libreta. El mar».
 
 Me miró. Con los ojos llenos de lágrimas y la nariz sangrando, me miró.
 
@@ -203,11 +203,11 @@ Le había cogido la mano sin darme cuenta. Estaba helada.
 
 «Tres que oigas».
 
-«El río. Una bici. Tú».
+«El viento. Una moto, abajo. Tú».
 
 «Dos que huelas».
 
-«Pan. Y chocolate».
+«Tomillo. Y chocolate».
 
 «Una que saborees».
 
@@ -221,7 +221,7 @@ Respiró. Un aire muy hondo, tembloroso, de esos que parecen venir de muy lejos.
 
 Me ardían las orejas. Para disimular, serví chocolate en la tapa del termo, espeso y casi demasiado dulce, y se lo di. Bebió con las dos manos.
 
-Estuvimos un rato así, mirando cómo se oscurecía el río. Y entonces, sin soltar la tapa, Nora dijo en voz muy baja, sin mirarme:
+Estuvimos un rato así, mirando cómo se encendían las luces del pueblo. Y entonces, sin soltar la tapa, Nora dijo en voz muy baja, sin mirarme:
 
 «Tengo que decirte una cosa de tu abuelo».
 
@@ -229,7 +229,7 @@ Se me paró el estómago.
 
 «¿Qué pasa con mi abuelo?».
 
-«Lo vi esta mañana, cuando me dejaron en el barrio. Estaba en la puerta de la tienda, tosiendo». Hizo una pausa muy larga. «Me da una pena que no sé explicar. Como cuando una vela se está acabando y todavía alumbra mucho».
+«Lo vi esta mañana, cuando me dejaron en el pueblo. Estaba en la puerta de la tienda, tosiendo». Hizo una pausa muy larga. «Me da una pena que no sé explicar. Como cuando una vela se está acabando y todavía alumbra mucho».
 
 «¿Cómo sabes tú eso?».
 
@@ -353,7 +353,7 @@ Blanco como el de una persona de setenta años.
 
 ### 10. El chico de la escalera
 
-Estuve dos días sin ir. Mi madre pidió cita con el médico y yo dije que sí a todo, con cara de pan. El tercer día volví al instituto con un gorro de lana hasta las cejas, que no tuve que justificar porque estábamos en octubre y a todo el mundo le daba igual.
+Estuve dos días sin ir. Mi madre pidió cita con el médico y yo dije que sí a todo, con cara de pan. El tercer día volví al instituto con un gorro de lana hasta las cejas, que a veinticinco grados no tenía justificación ninguna. No tuve que darla. En un instituto nadie pregunta por un gorro.
 
 Bruno y yo no nos hablábamos.
 
@@ -521,7 +521,7 @@ Me quedé mirando aquella firma, con los dedos fríos, mientras en el patio de l
 
 Lo recuerdo todo. Esa es la mala noticia.
 
-Hace tres años y un día era un martes de octubre, y llovía. Yo tenía nueve años y volvía del cole con un paraguas verde que me había prestado una niña que se llamaba Sofía. Mi madre estaba de guardia. Mi padre me esperaba en la puerta del portal con la chaqueta empapada y un cuaderno de pastas negras en el bolsillo.
+Hace tres años y un día era un martes de octubre, y llovía, que aquí es noticia. Yo tenía nueve años y volvía del cole con un paraguas verde que me había prestado una niña que se llamaba Sofía. Mi madre estaba de guardia. Mi padre me esperaba en la puerta del portal con la chaqueta empapada y un cuaderno de pastas negras en el bolsillo.
 
 No me dijo nada. Me cogió de la mano y subimos las escaleras muy despacio, de dos en dos escalones, contando. Él contaba bajito. Yo lo copiaba. «Uno. Dos. Tres». En el tercer piso se paró y se arrodilló delante de mí, con las rodillas mojadas, y me miró como nunca me había mirado nadie.
 
@@ -551,7 +551,7 @@ Mi madre llegó una hora más tarde, empapada, con el móvil en la mano y la car
 
 No me lo creí ni un día.
 
-El barrio sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Valdés se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana.
+El pueblo sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Valdés se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana.
 
 Yo sabía que era mentira por una razón muy sencilla. A los quince días, Íñigo llamó a nuestra puerta. No traía postre. Traía la cara de no haber dormido y un juego de llaves de mi padre que no sabía a quién devolver. Mi madre lo hizo pasar, cerró la cocina y estuvieron dentro dos horas. Cuando salió, me revolvió el pelo sin mirarme y bajó las escaleras como un señor mayor. No se había ido con nadie. Nos había dejado a los tres en el mismo rellano.
 

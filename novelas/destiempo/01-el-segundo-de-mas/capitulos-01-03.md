@@ -21,7 +21,7 @@ Bruno me eligió el quinto. No porque fuera bueno, sino porque era mi mejor amig
 
 Esa era mi táctica desde primero de ESO. Quedarme atrás, hacer como que corría y contar. Contaba las baldosas del suelo del gimnasio, que son trescientas doce en la mitad en que jugábamos. Contaba los pasos hasta la pared, que son nueve. Contaba cualquier cosa. Contar me tranquilizaba, igual que a mi abuelo le tranquiliza limpiar un reloj, y por motivos parecidos: si hay números, nada puede salir demasiado mal.
 
-Lo de quedarme atrás no empezó en el instituto. Empezó en tercero de primaria, un domingo, cuando Dani Roca y otros dos me vieron en Madrid Río con mi padre. Mi padre iba de la mano de Íñigo. Yo iba delante, en patinete, y ni me enteré de que nos habían visto. Me enteré el lunes. Me lo llevan recordando desde entonces: cuatro años, dos colegios y un mote que no pienso escribir aquí. Cuando mi padre desapareció le añadieron la pregunta. «Oye, Valdés, ¿y tu padre con quién se fue?». Siempre cuando hay gente.
+Lo de quedarme atrás no empezó en el instituto. Empezó en tercero de primaria, un domingo, cuando Dani Roca y otros dos me vieron en el paseo marítimo de Garrucha con mi padre. Mi padre iba de la mano de Íñigo. Yo iba delante, en patinete, contando los balaustres blancos del malecón, y ni me enteré de que nos habían visto. Me enteré el lunes. Me lo llevan recordando desde entonces: cuatro años, un colegio, un instituto y un mote que no pienso escribir aquí. Cuando mi padre desapareció le añadieron la pregunta. «Oye, Valdés, ¿y tu padre con quién se fue?». Siempre cuando hay gente.
 
 En mi casa aquello nunca fue un problema. Era lo mejor que teníamos, y ya lo contaré. Pero el pasillo de un instituto no es mi casa, y allí aprendí pronto la única defensa que conozco: hacerme pequeño y contar baldosas.
 
@@ -117,7 +117,7 @@ Pero la fina, la del segundero, esa que llevaba tres años clavada junto al diec
 
 Una sola vez. Después se detuvo.
 
-Bruno me miraba. Yo miraba el reloj. En el vestuario olía a calcetines y a desinfectante, y fuera el aire frío de la sierra golpeaba las ventanas como si quisiera entrar.
+Bruno me miraba. Yo miraba el reloj. En el vestuario olía a calcetines y a desinfectante, y fuera el levante golpeaba las ventanas como si quisiera entrar.
 
 «Edu», dijo Bruno, muy bajito. «¿Qué es eso?».
 
@@ -131,7 +131,7 @@ Lo intenté esa misma noche.
 
 Mi madre trabajaba de enfermera en el turno de noche del Doce de Octubre, así que a las nueve y media ya se había ido, dejándome una cena en el microondas, una nota con tres corazones y la orden de siempre: «Si te asustas, llama al abuelo». El abuelo vive en el piso de abajo y nunca ha oído un teléfono desde su sillón, pero la intención era buena.
 
-Cené de pie, mirando el patio de luces. En Madrid muchas casas se construyeron alrededor de un patio así, un pozo cuadrado de ventanas donde ves las vidas de los vecinos en pequeño: una televisión azul, una señora, la señora Pilar, que riega geranios a las diez de la noche (florecen de noche, y en el barrio nadie lo comenta), un hombre que discute con alguien que no está. Esa noche el viento silbaba por el pozo igual que por el cuello de una botella.
+Cené de pie, mirando el patio de luces. Nuestro bloque es de los pocos de Vera construidos alrededor de un patio así, un pozo cuadrado de ventanas donde ves las vidas de los vecinos en pequeño: una televisión azul, una señora, la señora Pilar, que riega geranios a las diez de la noche (florecen de noche, y en el pueblo nadie lo comenta), un hombre que discute con alguien que no está. Esa noche el viento silbaba por el pozo igual que por el cuello de una botella.
 
 Fui a mi cuarto y me planté en medio.
 

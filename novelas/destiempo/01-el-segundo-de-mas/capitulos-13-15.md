@@ -139,7 +139,7 @@ Tenía tres caritas para elegir. No elegí ninguna.
 
 «Es una trampa», dijo Nora.
 
-Estábamos bajo el puente de Toledo, en el banco de siempre, que ya era «el de siempre» a la tercera vez. Ella en el respaldo, yo en el asiento, el termo en medio.
+Estábamos en el cerro, en el banco de siempre, que ya era «el de siempre» a la tercera vez. Ella en el respaldo, yo en el asiento, el termo en medio.
 
 «Ya sé que es una trampa. Pero sabe dónde está mi padre».
 
@@ -284,7 +284,7 @@ Nora la había leído como quien ya se sabe el final.
 
 A Bruno lo perdí por una mentira y lo recuperé por una pelea. Si lo pienso, es bastante nuestro.
 
-Fue el viernes, a la salida, en el pasillo de las taquillas. Yo iba con el gorro calado y las fotos del expediente quemándome en el bolsillo, y no vi a Dani hasta que lo tuve delante. Venía con Hugo y con Lucas, los dos de siempre, los dos de Madrid Río.
+Fue el viernes, a la salida, en el pasillo de las taquillas. Yo iba con el gorro calado y las fotos del expediente quemándome en el bolsillo, y no vi a Dani hasta que lo tuve delante. Venía con Hugo y con Lucas, los dos de siempre, los dos del paseo de Garrucha.
 
 «Hombre, Valdés. El mago».
 

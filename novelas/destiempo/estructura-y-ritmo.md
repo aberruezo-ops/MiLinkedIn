@@ -34,7 +34,7 @@ Establecer el mundo normal de Edu, su herida y la primera chispa. Termina con tr
 Edu aprende las reglas y el coste. **Punto medio (cap. 12): su madre le mintió sobre su padre.** El libro cambia de pregunta: de «¿qué me pasa?» a «¿qué le pasó a mi padre?».
 
 ### Parte III. La doctora (cap. 13 a 19) · Presión
-Los adultos aprietan. Se rompe la amistad con Bruno (cap. 15). Persecución en el Metro (cap. 16). Mecanismo de la deuda (cap. 17). **Noche oscura (cap. 18): lo pierde casi todo.** Cap. 19: el abuelo enseña su don.
+Los adultos aprietan. Se rompe la amistad con Bruno (cap. 15). Persecución en el autobús de Garrucha (cap. 16). Mecanismo de la deuda (cap. 17). **Noche oscura (cap. 18): lo pierde casi todo.** Cap. 19: el abuelo enseña su don.
 
 ### Parte IV. Todo a su hora (cap. 20 a 24) · Clímax
 Cap. 21: giro sobre la doctora y su hijo. **Cap. 22: muere Tomás.** Cap. 23: duelo. Cap. 24: revelación final («Hola, papá») y gancho al libro 2.

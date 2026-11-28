@@ -3,7 +3,7 @@
 
 **Regla de oro del libro I: Edu cree que es el único.** No conoce a nadie con un don como el suyo. Se lo cuestiona todo: ¿estoy enfermo, estoy loco? Esa soledad es el motor emocional. **Solo en el final descubre que hay más, y ese descubrimiento desencadena el golpe que abre el libro II.**
 
-Narrador: Edu Valdés, 12 años. Lugar: barrio de Usera, Madrid, con el aire de la sierra de fondo. Extensión prevista: 65.000 palabras.
+Narrador: Edu Valdés, 12 años. Lugar: Vera (Almería), con Garrucha, el mar y los invernaderos de fondo. Extensión prevista: 65.000 palabras.
 
 ## Parte I. El segundo de más (cap. 1 a 6)
 
@@ -28,7 +28,7 @@ Narrador: Edu Valdés, 12 años. Lugar: barrio de Usera, Madrid, con el aire de 
 13. **Preguntas buenas.** Segunda sesión. Ibarra deja caer la palabra «Cronos» y le ofrece ayuda para encontrar a su padre.
 14. **El expediente.** Edu y Nora se cuelan en el despacho. La carpeta lleva fecha de hace tres años: llevan tres años esperando a Edu. Nora no se sorprende. Edu lo nota.
 15. **Bruno.** Bruno ve desaparecer a Edu, discuten, y Bruno decide creerle: «Tío, lo sabía». Entra al equipo como técnico.
-16. **Persecución en el Metro.** Dos hombres de gris los siguen. Edu usa el don y paga caro. Antes de desmayarse, un vistazo a un Madrid congelado. Nora lo saca.
+16. **El autobús de Garrucha.** Dos hombres de gris los siguen. Edu usa el don y paga caro. Antes de desmayarse, un vistazo a un puerto de Garrucha congelado. Nora lo saca.
 17. **El segundo que sobraba.** Con el cuaderno de Raúl y el código de Bienestar+, Bruno y Edu descubren que los segundos prestados se cobran. *Gancho:* Cronos le manda una notificación: «Sabemos que lo sabes».
 18. **Lo que no se dice en casa.** Su madre confiesa que cobra una «ayuda» mensual. Edu se va de casa. Es su noche más oscura.
 19. **La ayuda de Tomás.** El abuelo lo encuentra y le habla de Julia, su mujer. No le revela ningún don. Le da la llave del taller de su padre y le dice: «Si me pasa algo, ve a ver a Pilar».

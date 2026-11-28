@@ -1,8 +1,8 @@
-### 16. Persecución en el Metro
+### 16. El autobús de Garrucha
 
-Los vi por primera vez el lunes, en la boca del metro de Usera, y pensé que eran dos señores esperando a un tercero.
+Los vi por primera vez el lunes, en la parada del autobús de la plaza, y pensé que eran dos señores esperando a un tercero.
 
-Llevaban abrigos grises, de los buenos, largos hasta la rodilla. Zapatos limpios. Ni mochila, ni bolsa, ni móvil en la mano. Eso fue lo que me hizo mirar dos veces: en Madrid nadie espera sin mirar el móvil. Ellos esperaban mirando la calle, con la paciencia de un semáforo.
+Llevaban abrigos grises, de los buenos, largos hasta la rodilla. Zapatos limpios. Ni mochila, ni bolsa, ni móvil en la mano. Eso fue lo que me hizo mirar dos veces. Lo primero, que en Vera, en octubre, a mediodía hace veinticinco grados y nadie lleva abrigo. Lo segundo, que aquí nadie espera sin mirar el móvil, y ellos esperaban mirando la calle, con la paciencia de un semáforo.
 
 El martes estaban frente al instituto, en un coche parado. El miércoles, en el banco de enfrente de la relojería, y Segundero, desde el dintel, no les quitó el ojo en toda la tarde.
 
@@ -14,7 +14,7 @@ El martes estaban frente al instituto, en un coche parado. El miércoles, en el 
 
 *porque no sienten nada. pasas a su lado y es como pasar junto a una nevera*
 
-El jueves quedamos los tres por primera vez: Bruno, Nora y yo. Bruno había pedido «un sitio con wifi que no sea de nadie», así que fuimos a la biblioteca de la calle Amparo Usera, y fue raro verlos juntos. Bruno hablaba por los dos. Nora lo miraba como quien mira un fuego artificial: con interés y a cierta distancia.
+El jueves quedamos los tres por primera vez: Bruno, Nora y yo. Bruno había pedido «un sitio con wifi que no sea de nadie», así que fuimos a la biblioteca municipal, y fue raro verlos juntos. Bruno hablaba por los dos. Nora lo miraba como quien mira un fuego artificial: con interés y a cierta distancia.
 
 «Necesito el cuaderno de tu padre», dijo Bruno. «El de verdad, no fotos. Hay páginas con hexadecimal».
 
@@ -28,33 +28,33 @@ Tenía una mano en el auricular izquierdo y miraba la cristalera. Fuera, en la a
 
 «Vale», dijo Bruno, tragando. «Esos no son padres recogiendo a nadie».
 
-«Por la puerta de atrás», dije. «Sale a la calle del mercado. De ahí al metro hay cuatro minutos».
+«Por la puerta de atrás», dije. «Sale a la calle del mercado. De ahí a la parada hay cuatro minutos, y el de Garrucha pasa a y media».
 
-«¿Y luego?».
+«¿Y qué hacemos en Garrucha?».
 
-«Luego ya veremos».
+«No estar aquí».
 
-Era otro plan de los míos.
+Era otro plan de los míos. En un pueblo de este tamaño no hay dónde perderse: te conoce hasta el del quiosco. Garrucha está a diez kilómetros, tiene puerto, tiene paseo y los jueves por la tarde tiene gente.
 
-Salimos por atrás, entre cajas de fruta. Bajamos a Usera por las escaleras, saltándonos los últimos escalones. Línea 6, la circular, que es la mejor línea del mundo para que no te encuentren y la peor para llegar a ningún sitio. El panel decía *Próximo tren: 2 min*.
+Salimos por atrás, entre cajas de fruta. Corrimos hasta la marquesina. El autobús llegó con sus cinco minutos de retraso reglamentarios y subimos los últimos, detrás de una señora con un carrito y de un chaval con un patinete. Nos fuimos al fondo. Conté los asientos hasta la puerta de delante. Cuarenta y cuatro.
 
-En el andén había una señora con un carrito, un chaval con un patinete, un hombre dormido. Conté las baldosas amarillas del borde hasta la boca del túnel. Cuarenta y cuatro.
+«Arranca», murmuraba Bruno. «Arranca, arranca, arranca».
 
-«Un minuto», dijo Bruno, mirando el panel. «Un minuto y nos...».
+El conductor cerró las puertas. Las volvió a abrir.
 
-Bajaron por las escaleras mecánicas sin correr. Eso era lo peor: no corrían. Uno era alto, con el pelo muy corto. El otro, más bajo, llevaba guantes. Se pararon al pie de la escalera, nos miraron y empezaron a andar hacia nosotros por el andén, uno pegado a la pared y otro al borde, como quien cierra una cremallera.
+Subieron sin correr. Eso era lo peor: no corrían. Uno era alto, con el pelo muy corto. El otro, más bajo, llevaba guantes. Pagaron con monedas justas. El alto se quedó de pie junto al conductor. El de los guantes se sentó tres filas por delante de nosotros, de lado, y no nos miró.
 
 «Nora», susurré.
 
 «Nada», dijo ella, con la cara blanca. «No oigo nada. Están vacíos».
 
-El tren entró con su viento caliente. Las puertas se abrieron. Subimos al último vagón y yo me quedé mirando por el cristal: ellos subieron al de al lado. Sin prisa.
+El autobús salió del pueblo. Pasó El Palmeral, la rotonda de la autovía, el primer invernadero, el segundo, los cuatrocientos siguientes: un mar de plástico blanco a los dos lados de la carretera, brillando tanto que hacía daño. Al fondo, la raya azul del mar de verdad.
 
-«En la siguiente bajamos y cambiamos de sentido», dije.
+«En la primera parada bajamos y cogemos el de vuelta», dije.
 
 «Eso lo han visto en las mismas películas que tú», dijo Bruno.
 
-Plaza Elíptica. No bajamos. Opañel. La puerta que comunicaba los vagones se abrió y entró el de los guantes. Se agarró a la barra, a tres metros. Me miró. No a los tres: a mí. Y sonrió con muchísima educación, como un camarero que viene a decirte que la cocina ya ha cerrado.
+Vera Playa. No bajamos. A la altura de las primeras casas de Garrucha, el de los guantes se levantó, vino por el pasillo agarrándose a las barras y se quedó a tres metros. Me miró. No a los tres: a mí. Y sonrió con muchísima educación, como un camarero que viene a decirte que la cocina ya ha cerrado.
 
 «Eduardo», dijo. Tenía la voz suave. «No pasa nada. Solo queremos que vengas a hablar con una persona. Tus amigos pueden irse a casa».
 
@@ -64,7 +64,7 @@ Plaza Elíptica. No bajamos. Opañel. La puerta que comunicaba los vagones se ab
 
 Lo dijo así, *por tu madre*, en el mismo tono con que se dice «por favor».
 
-El tren frenaba. Oporto. Por el cristal vi al alto esperando ya en la puerta de su vagón, para salir al andén y cortarnos.
+El autobús frenaba. La parada del puerto. Por el parabrisas vi el paseo, las palmeras, la baranda blanca del malecón. El alto esperaba ya junto a la puerta de delante, para bajar el primero y cortarnos.
 
 Bruno respiraba mal. Lo oía silbar. Nora me agarró la manga.
 
@@ -80,7 +80,7 @@ Les cogí la mano a los dos. No sabía si iba a funcionar. Nunca había probado 
 
 Giré.
 
-El silencio cayó sobre el andén como una manta. El pitido de las puertas se quedó estirado en una sola nota grave. El de los guantes tenía un pie en el aire.
+El silencio cayó sobre el autobús como una manta. El pitido de las puertas se quedó estirado en una sola nota grave. El de los guantes tenía un pie en el aire.
 
 Y Bruno y Nora también estaban quietos.
 
@@ -88,19 +88,19 @@ No había funcionado. Tenía en cada mano una mano tibia y parada. Estaba solo, 
 
 *Un segundo.*
 
-Hice lo único que se me ocurrió. Solté a Bruno, lo cogí por debajo de los brazos y lo saqué a rastras al andén. Pesaba como un armario, porque lo que yo movía no era su cuerpo, era su cuerpo y todo el aire espeso que tenía alrededor.
+Hice lo único que se me ocurrió. Solté a Bruno, lo cogí por debajo de los brazos y lo saqué a rastras por la puerta de atrás. Pesaba como un armario, porque lo que yo movía no era su cuerpo, era su cuerpo y todo el aire espeso que tenía alrededor.
 
 *Dos. Tres.*
 
-Volví a por Nora. La arrastré de los codos. Sus zapatillas iban dibujando dos rayas en el suelo.
+Volví a por Nora. La arrastré de los codos. Sus zapatillas iban dibujando dos rayas en el suelo del autobús.
 
 *Cuatro.*
 
-El alto estaba ya en el andén, de perfil, con la mano yendo hacia el bolsillo del abrigo. Pasé por detrás de él tirando de Nora. Lo vi de cerca. Tenía una oreja muy roja y un pelo en la solapa. Era una persona. Eso me asustó más que si no lo hubiera sido.
+El alto estaba ya en la acera, de perfil, con la mano yendo hacia el bolsillo del abrigo. Pasé por detrás de él tirando de Nora. Lo vi de cerca. Tenía una oreja muy roja y un pelo en la solapa. Era una persona. Eso me asustó más que si no lo hubiera sido.
 
 *Cinco. Seis.*
 
-Los dejé a los dos detrás de la máquina de bebidas, sentados contra la pared, uno encima del otro, de cualquier manera. Me quedaba meter al de los guantes dentro del vagón, pero no podía con él. Así que hice una cosa más sencilla: le desaté un zapato y le até el cordón a la barra.
+Los dejé a los dos detrás de un quiosco de helados cerrado, sentados contra la chapa, uno encima del otro, de cualquier manera. Me quedaba el de los guantes, que seguía dentro, pero no podía con él. Así que hice una cosa más sencilla: le desaté un zapato y le até el cordón a la barra del autobús.
 
 *Siete.*
 
@@ -114,9 +114,9 @@ Cerré.
 
 Clic.
 
-El ruido entró como un camión. Oí el pitido, las puertas, un grito, un golpe de alguien que se cae de boca dentro de un vagón que arranca. Oí a Bruno decir «¿qué?, ¿qué?, ¿cómo...?» y a Nora decir mi nombre.
+El ruido entró como un camión. Oí el pitido, las puertas, un grito, un golpe de alguien que se cae de boca dentro de un autobús que arranca. Oí a Bruno decir «¿qué?, ¿qué?, ¿cómo...?» y a Nora decir mi nombre.
 
-Y después no oí nada más, porque el suelo del andén se abrió.
+Y después no oí nada más, porque el suelo del paseo se abrió.
 
 ---
 
@@ -124,17 +124,19 @@ Esto es lo que no le he contado a nadie hasta ahora.
 
 No fue como las otras veces. Las otras veces era un corte: estoy, no estoy, estoy. Esta vez, entre el no estoy y el estoy, hubo algo. Un parpadeo. Una rendija.
 
-Estaba de pie en el andén de Oporto.
+Estaba de pie en el paseo de Garrucha.
 
-Era el mismo y no lo era. La luz era azulada, de pecera. No había ruido. Ninguno: ni el zumbido de los fluorescentes. El aire estaba tibio, como en una habitación que lleva mucho tiempo con las ventanas cerradas.
+Era el mismo y no lo era. La luz era azulada, de pecera. No había ruido. Ninguno: ni el viento en las palmeras. El aire estaba tibio, como en una habitación que lleva mucho tiempo con las ventanas cerradas.
 
-En la vía había un tren parado, con medio cuerpo dentro del túnel. Dentro del tren, gente. Una mujer con la boca abierta en un bostezo. Un niño con un dedo en el cristal. Quietos. No quietos como Bruno un momento antes, que estaba caliente. Quietos como los muebles de una casa donde ya no vive nadie.
+El mar estaba parado.
 
-El reloj del andén marcaba las 4:17.
+No en calma. Parado. Las olas se habían quedado a medio hacer, duras, brillantes, como vidrio de botella. Contra el espigón había una rompiendo, con la espuma colgada en el aire en mil gotas quietas. Un barco de pesca entraba en el puerto y no entraba, con la estela dibujada detrás y dos gaviotas clavadas encima, las alas abiertas. En las terrazas del paseo había gente. Un hombre con el vaso a un dedo de la boca. Una niña con un helado. Quietos. No quietos como Bruno un momento antes, que estaba caliente. Quietos como los muebles de una casa donde ya no vive nadie.
 
-Miré el panel. *Próximo tren:* y nada. Miré mi reloj de bolsillo, que tenía en la mano sin saber cuándo lo había sacado. Las agujas, que llevaban tres semanas andando, estaban clavadas en las 4:17.
+El reloj de la lonja marcaba las 4:17.
 
-Y en el otro extremo del andén, lejos, junto a la boca del túnel, había alguien de pie.
+Miré mi reloj de bolsillo, que tenía en la mano sin saber cuándo lo había sacado. Las agujas, que llevaban tres semanas andando, estaban clavadas en las 4:17.
+
+Y al final del espigón, lejos, junto al faro, había alguien de pie.
 
 Alguien que se movía.
 
@@ -144,23 +146,23 @@ No le vi la cara. Estaba a contraluz, con algo blanco puesto, una bata o un abri
 
 *Aquí no. Vuelve.*
 
-Quise gritar. Quise correr hacia él. Di un paso y las baldosas amarillas empezaron a alargarse bajo mis pies, cuarenta y cuatro, ochenta y ocho, mil.
+Quise gritar. Quise correr hacia él. Di un paso y los balaustres blancos del malecón empezaron a multiplicarse a mi lado, cuarenta y cuatro, ochenta y ocho, mil.
 
 ---
 
 «...du. Edu. Edu, por favor. Edu».
 
-Olía a pis y a lejía. Tenía la cabeza sobre algo blando, que resultó ser la mochila de Bruno, y encima de mí había un techo bajo con una tubería.
+Olía a pescado y a gasoil. Tenía la cabeza sobre algo blando, que resultó ser la mochila de Bruno, y encima de mí había un techo bajo del que colgaban redes.
 
 «¿Dónde...?».
 
-«En el cuarto de limpieza de Oporto», dijo la voz de Nora, muy cerca. «No te muevas. Llevas cuarenta y siete minutos así».
+«En un cuarto de la lonja», dijo la voz de Nora, muy cerca. «Donde guardan las redes. No te muevas. Llevas cuarenta y siete minutos así».
 
 «Cuarenta y nueve», dije.
 
 «Te faltan dos». Se le rompió la voz. «No vuelvas a hacerme esto nunca».
 
-Tenía la nariz llena de sangre seca y no era la mía: era la suya. Nora había tirado de mí, me contó Bruno después, ella sola, mientras él vigilaba. Me había metido en el cuartucho, había atrancado la puerta con el carro de la fregona y se había sentado en el suelo con mi cabeza en las rodillas. Los de gris habían vuelto a la estación a los diez minutos. Habían pasado dos veces por delante de la puerta. Nora los había oído, o más bien había oído el hueco que dejaban.
+Tenía la nariz llena de sangre seca y no era la mía: era la suya. Nora había tirado de mí, me contó Bruno después, ella sola, mientras él vigilaba. Me había metido en el cuartucho, había atrancado la puerta con dos cajas de pescado y se había sentado en el suelo con mi cabeza en las rodillas. Los de gris habían vuelto al puerto a los diez minutos. Habían pasado dos veces por delante de la puerta. Nora los había oído, o más bien había oído el hueco que dejaban.
 
 «Y no han entrado», dijo Bruno, que estaba sentado en un cubo dado la vuelta, pálido como una pared. «Porque ella ha hecho una cosa».
 
@@ -170,7 +172,7 @@ Tenía la nariz llena de sangre seca y no era la mía: era la suya. Nora había 
 
 «Bruno, cállate».
 
-«¡Que me calle! ¡Mi amigo me ha teletransportado a una máquina de Coca-Cola y tú has hipnotizado a dos sicarios desde un cuarto de fregonas, y que me calle!».
+«¡Que me calle! ¡Mi amigo me ha teletransportado a un quiosco de helados y tú has hipnotizado a dos sicarios desde un cuarto de redes, y que me calle!».
 
 Nora no contestó. Me estaba mirando. Tenía las pestañas mojadas.
 
@@ -178,7 +180,7 @@ Nora no contestó. Me estaba mirando. Tenía las pestañas mojadas.
 
 «No hables».
 
-«Había un andén. El mismo. Pero parado. Y un reloj que marcaba...».
+«Estaba el paseo. El mismo. Pero parado. El mar parado. Y un reloj que marcaba...».
 
 Me puso los dedos en la boca. Los tenía helados y le temblaban.
 
@@ -200,7 +202,7 @@ Ya no era un mechoncito. Era un mechón entero, ancho como un dedo, blanco de ar
 
 ### 17. El segundo que sobraba
 
-Bruno vive en un tercero sin ascensor de la calle Marcelo Usera, y su habitación es exactamente lo que uno espera, hasta que abre el armario.
+Bruno vive en un tercero sin ascensor de la calle del Mar, y su habitación es exactamente lo que uno espera, hasta que abre el armario.
 
 Fuera: un aro de luz para el canal, una silla de gamer que le queda grande, un póster de Ibai y otro de Rosalía que él jura que es de su hermana. Bruno no tiene hermana. Dentro del armario, donde otros tienen abrigos: un portátil viejo con la tapa llena de pegatinas, una Raspberry con los cables fuera, un router que no era el de su casa y un cartel escrito a mano que decía NO TOCAR, MAMÁ, ES PARA CLASE.
 
@@ -234,7 +236,7 @@ Había líneas y líneas de letras pequeñas. Reconocí pocas palabras. *device_
 
 Mi nombre no salía. Salía un número: *sujeto_0412*. Y debajo, una tabla.
 
-Tenía fechas. La primera, el jueves del balón, 11:52. La segunda, esa misma noche, 23:02. Luego el sábado de la libreta roja, seis filas seguidas. El viernes de las taquillas. El jueves del metro.
+Tenía fechas. La primera, el jueves del balón, 11:52. La segunda, esa misma noche, 23:02. Luego el sábado de la libreta roja, seis filas seguidas. El viernes de las taquillas. El jueves del autobús.
 
 Cada fila tenía tres columnas. La primera se llamaba *apertura_s*. La segunda, *cargo_min*. La tercera, *cuenta_destino*.
 
@@ -252,7 +254,7 @@ Me acordé de la voz de la doctora en la puerta. *Cada vez que lo haces, alguien
 
 RV.
 
-Saqué el cuaderno de mi padre de la mochila. Lo llevaba encima desde el metro, envuelto en una bolsa del súper. Busqué la página del rotulador rojo.
+Saqué el cuaderno de mi padre de la mochila. Lo llevaba encima desde lo de Garrucha, envuelto en una bolsa del súper. Busqué la página del rotulador rojo.
 
 *«El segundo no se pide. Se presta. Hay que saber a quién».*
 
@@ -398,7 +400,7 @@ Cogí la mochila. Ella dijo mi nombre, una vez, sin fuerza. No se movió de dond
 
 Bajé las escaleras de dos en dos, contando, y me di cuenta en el segundo piso de que estaba contando como me enseñó mi padre. Paré de contar. No pasé por la relojería. Había luz debajo de la puerta de mi abuelo y me dio igual. Él también lo sabía todo y también llevaba tres años diciendo *mañana*.
 
-En la calle hacía ese frío de noviembre que en Madrid llega de golpe, una noche, sin avisar.
+En la calle soplaba levante, que aquí no es frío pero se te mete en los huesos igual, con esa humedad que huele a mar aunque el mar esté a nueve kilómetros.
 
 ---
 
@@ -406,7 +408,7 @@ No tenía adónde ir. Eso se piensa poco cuando uno da un portazo.
 
 A casa de Bruno, no: le había metido en un lío que tenía su nombre escrito en una pantalla. Le mandé un mensaje desde una cabina mental, o sea, no le mandé nada, porque el móvil estaba en una bolsa de patatas.
 
-Fui a Madrid Río. Al banco de debajo del puente. Y allí estaba Nora, a las diez de la noche, sentada en el respaldo con la capucha puesta, como si me hubiera oído venir desde su casa. A lo mejor me había oído.
+Subí al cerro. Al banco del mirador. Y allí estaba Nora, a las diez de la noche, sentada en el respaldo con la capucha puesta, como si me hubiera oído venir desde su casa. A lo mejor me había oído.
 
 «Estás fatal», dijo.
 
@@ -440,7 +442,7 @@ Le cambió la cara. Fue como ver romperse algo detrás de un cristal: sin ruido.
 
 «Entonces dime qué eres».
 
-Abrió la boca. La vi querer. La vi con toda la frase ahí, lista, y vi cómo miraba el mechón blanco, y el río, y otra vez a mí, y cómo algo más viejo y más asustado que ella le ganaba.
+Abrió la boca. La vi querer. La vi con toda la frase ahí, lista, y vi cómo miraba el mechón blanco, y las luces del pueblo, y otra vez a mí, y cómo algo más viejo y más asustado que ella le ganaba.
 
 «No puedo», dijo.
 
@@ -456,11 +458,11 @@ Me di la vuelta.
 
 «A donde no se imagine nadie».
 
-Anduve río abajo, hacia Legazpi, sin mirar atrás. No me siguió. Lo sé porque miré una vez, desde lejos, y seguía en el banco, pequeña, doblada, con las manos en las orejas.
+Bajé por el otro lado del cerro, hacia la plaza de toros, sin mirar atrás. No me siguió. Lo sé porque miré una vez, desde lejos, y seguía en el banco, pequeña, doblada, con las manos en las orejas.
 
 En una noche me había quedado sin madre, sin abuelo, sin Nora, sin teléfono y sin casa. A Bruno lo tenía, pero lo había puesto en peligro. Y a mi padre lo tenía en algún sitio, vivo, detrás de un código de cuatro cifras que no quería entender.
 
-Me senté en las gradas del Matadero, con la espalda en un muro de ladrillo. Hacía un frío que se metía por las mangas. Saqué el reloj de bolsillo. Andaba. Tic, tic, tic, tan tranquilo. Lo abrí por detrás con la uña, como le había visto hacer a mi abuelo, y miré la K pequeña grabada en la tapa.
+La plaza de toros de Vera es vieja, pequeña, y tiene una puerta lateral que no cierra bien desde que yo tengo memoria. Me colé y me senté en las gradas, con la espalda en un muro de piedra. La humedad se metía por las mangas. Saqué el reloj de bolsillo. Andaba. Tic, tic, tic, tan tranquilo. Lo abrí por detrás con la uña, como le había visto hacer a mi abuelo, y miré la K pequeña grabada en la tapa.
 
 Tenía el picaporte a un palmo. Lo notaba mejor que nunca, tibio, casi amable. Pensé: *si giro y no cierro. Si giro y me quedo. Allí al menos hay alguien que levanta la mano.*
 
@@ -470,4 +472,4 @@ No fue por valentía. Fue por una frase escrita con la letra de otro al final de
 
 *NO MÁS.*
 
-Me abracé las rodillas y me puse a contar ladrillos. Llegué a mil cuatrocientos doce antes de quedarme dormido.
+Me abracé las rodillas y me puse a contar piedras. Llegué a mil cuatrocientos doce antes de quedarme dormido.

@@ -49,11 +49,13 @@ Archivos: `logo-destiempo.png` (fondo oscuro) y `logo-destiempo-transparente.png
 - **Encuadre manga:** planos con perspectiva forzada, primeros planos de ojos y manos, viñetas rotas por grietas.
 - **Expresión:** ojos grandes pero cansados, con ojeras. Emociones contenidas, no exageradas. Manos y objetos siempre con detalle.
 
-## 6. Madrid y el Destiempo
+## 6. Almería y el Destiempo
 
-**Madrid.** Ladrillo rojo de Usera, patios de luces, geranios rosa fosforito de noche, neones de bazares, azulejos del Metro, el puente de Toledo, Madrid Río. En blanco y negro con trama y un detalle de color.
+**Vera y su comarca.** Casas blancas y bajas, la iglesia fortaleza de la Encarnación, el cerro pelado con la estatua blanca, palmeras, pitas y chumberas, ramblas secas, el mar de plástico de los invernaderos, el puerto de Garrucha con su malecón de balaustres blancos. Luz dura de mediodía y sombras muy negras. El Indalo como marca discreta en muros y objetos.
 
-**El Destiempo.** El mismo Madrid reflejado y **congelado a las 4:17**. Cian, silencio, personas quietas a medio gesto, partículas suspendidas, el Metro parado entre estaciones, cada reloj marcando la misma hora. Sin sol: un ocaso ámbar fijo.
+**El Destiempo.** La misma comarca reflejada y **congelada a las 4:17**. Cian, silencio, el mar parado a media ola con la espuma colgada en el aire, gaviotas clavadas, personas quietas a medio gesto, cada reloj en la misma hora. Sin sol: un ocaso ámbar fijo.
+
+En cada portada debe verse algo reconocible de la provincia de Almería.
 
 ## 7. Diseño de personajes
 
@@ -87,7 +89,7 @@ Estructura fija: logotipo arriba, subtítulo del libro en ámbar, ilustración c
 | Libro | Imagen | Idea |
 |---|---|---|
 | **I. El segundo de más** | Edu de espaldas frente a un gran reloj agrietado, con un balón congelado y su eco, y una gota ámbar suspendida | El instante en que el tiempo se estira |
-| **II. La hora que nadie mira** | Edu y Nora sobre una línea ámbar que separa Madrid de su reflejo congelado en cian | La puerta entre los dos mundos |
+| **II. La hora que nadie mira** | Edu y Nora sobre una línea ámbar que separa Vera de su reflejo congelado en cian | La puerta entre los dos mundos |
 | **III. A tiempo** | Dos Edus a cada lado de una grieta de luz ámbar: uno joven con mochila y uno adulto con abrigo largo | El enemigo es uno mismo |
 
 ---

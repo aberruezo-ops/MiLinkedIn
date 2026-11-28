@@ -8,7 +8,7 @@ Doscientos relojes. Quizá trescientos: nunca los he contado, y eso que contarlo
 
 En el dintel de la puerta interior estaba Segundero.
 
-Segundero es una paloma. Gris, con el cuello de ese verde aceitoso que solo tienen las palomas de ciudad y una pata torcida de nacimiento. Aparece todos los días a las cinco menos diez, ni uno antes ni uno después, aunque el reloj de la tienda marque las tres o las nueve. Mi abuelo dice que no es suya. Le deja migas de todas formas. En el barrio nadie le ha dado importancia: en Usera, si una paloma sabe la hora, se da por hecho que es un asunto entre ella y la hora.
+Segundero es una paloma. Gris, con el cuello de ese verde aceitoso que solo tienen las palomas de plaza y una pata torcida de nacimiento. Aparece todos los días a las cinco menos diez, ni uno antes ni uno después, aunque el reloj de la tienda marque las tres o las nueve. Mi abuelo dice que no es suya. Le deja migas de todas formas. En el pueblo nadie le ha dado importancia: en Vera, si una paloma sabe la hora, se da por hecho que es un asunto entre ella y la hora.
 
 «Hoy llegas pronto», dijo mi abuelo desde el fondo.
 

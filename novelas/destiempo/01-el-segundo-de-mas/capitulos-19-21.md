@@ -2,7 +2,7 @@
 
 Me despertó una paloma.
 
-Estaba posada en mi rodilla, que es un sitio donde una paloma de ciudad no se posa jamás, y me miraba con un ojo redondo que tenía un cerco anaranjado alrededor. Tenía una pata torcida.
+Estaba posada en mi rodilla, que es un sitio donde una paloma de plaza no se posa jamás, y me miraba con un ojo redondo que tenía un cerco anaranjado alrededor. Tenía una pata torcida.
 
 «Segundero», dije, con la boca dormida de frío.
 
@@ -14,7 +14,7 @@ Echó a volar. No lejos: hasta el borde de la grada. Allí había un señor mayo
 
 «Yo no. Ella». Señaló a la paloma con la barbilla. «Yo solo he venido detrás, que a mi edad es lo que se puede».
 
-Tardé en darme cuenta de lo que significaba. Usera está a media hora andando del Matadero para alguien de doce años. Mi abuelo no andaba media hora desde hacía dos inviernos. Tenía los labios un poco azules y respiraba con ese silbido de fuelle.
+Tardé en darme cuenta de lo que significaba. De casa a la plaza de toros hay un cuarto de hora cuesta arriba para alguien de doce años. Mi abuelo no andaba un cuarto de hora seguido desde hacía dos inviernos. Tenía los labios un poco azules y respiraba con ese silbido de fuelle.
 
 «Abuelo, tú no puedes...».
 
@@ -22,7 +22,7 @@ Tardé en darme cuenta de lo que significaba. Usera está a media hora andando d
 
 Me lo bebí. Quemaba. Era lo mejor que había probado en mi vida.
 
-Se quedó un rato mirando cómo amanecía detrás de las naves de ladrillo. A esa hora el Matadero es de los barrenderos y de los que corren. Nadie nos miraba: un viejo y un niño en una grada, lo más normal del mundo.
+Se quedó un rato mirando cómo amanecía por el lado del mar, por encima del ruedo. A esa hora la plaza es de los gorriones. Nadie nos miraba: un viejo y un niño en una grada, lo más normal del mundo.
 
 «Tu madre no ha dormido», dijo. «Ha bajado a las dos a pedirme que saliera a buscarte, y luego me ha prohibido salir a buscarte, y luego ha llorado en mi cocina. Me ha contado lo del dinero. Yo no lo sabía».
 
@@ -134,11 +134,11 @@ Me puso la llave en la mano y me cerró los dedos encima, con las dos suyas.
 
 «No le digas nada. Te sientas y te comes una. Lo demás sale solo».
 
-Echamos a andar. Muy despacio, parando en cada banco. Tardamos una hora y cuarto en hacer el camino. Segundero volaba delante, se posaba en una farola, esperaba.
+Echamos a andar. Muy despacio, parando en cada banco. Tardamos casi una hora en hacer un camino de quince minutos. Segundero volaba delante, se posaba en una farola, esperaba.
 
-A la altura del puente de Toledo, mi abuelo se paró a coger aire y dijo, sin venir a cuento:
+A la altura de la fuente de los Cuatro Caños, mi abuelo se paró a coger aire y dijo, sin venir a cuento:
 
-«Esa chica, la de los auriculares. Ha estado toda la noche en el banco de ahí abajo. La he visto al pasar».
+«Esa chica, la de los auriculares. Ha estado toda la noche en el banco del cerro. La he visto bajar cuando clareaba».
 
 No contesté.
 
@@ -188,9 +188,9 @@ Bruno nos miró a uno y a otra y levantó las cejas hasta los rizos. No dijo nad
 
 ---
 
-La seguimos en autobús, que es la forma menos heroica que existe de seguir a alguien. El coche de la doctora, un Seat gris con un abollón en la puerta, cruzó el río, cogió Delicias y se metió por una calle de naves detrás de la estación de Méndez Álvaro, donde Madrid deja de tener escaparates y se llena de vías, de almacenes y de camiones aparcados.
+La seguimos en bici, que es la forma menos heroica que existe de seguir a alguien. El coche de la doctora, un Seat gris con un abollón en la puerta, salió por la carretera de Garrucha, pasó la rotonda de la autovía y se metió en el polígono, que es donde Vera deja de tener escaparates y se llena de naves, de palés y de camiones aparcados. Detrás de la última calle ya no hay pueblo: empiezan los invernaderos y no se acaban hasta el mar.
 
-Se paró delante de un edificio de ladrillo de cuatro plantas.
+Se paró delante de una nave blanca de dos plantas.
 
 No tenía cartel. No tenía número. Tenía las ventanas con ese cristal que es espejo por fuera y una puerta de metal sin pomo. En la acera, ni una colilla. Eso fue lo que me puso los pelos de punta: en una calle así siempre hay colillas.
 
@@ -210,7 +210,7 @@ Nora se miró la muñeca como si llevara una araña.
 
 «¿Que es?».
 
-«El McDonald's de Atocha. He dejado allí un cacharro repitiendo nuestros latidos de ayer. Somos tres chavales con el pulso de comerse un McFlurry».
+«La hamburguesería de la rotonda. He dejado allí un cacharro repitiendo nuestros latidos de ayer. Somos tres chavales con el pulso de comerse un helado».
 
 «¿Cuándo has hecho todo eso?».
 
@@ -306,7 +306,7 @@ Nos quedamos. Claro que nos quedamos. La gente como la doctora Ibarra nunca te c
 
 No se acercó. Se sentó en el último escalón, con los codos en las rodillas, y así, pequeña, debajo de trescientos relojes atascados, parecía la madre de alguien esperando en un ambulatorio.
 
-«Primero lo que os debo», dijo. «Los hombres de gris no son míos. Son de la gente que paga este edificio. A mí me dieron hasta Navidad para traerte por las buenas, Edu. Lo del metro fue alguien que se cansó de esperar. Lo siento. Me enteré después».
+«Primero lo que os debo», dijo. «Los hombres de gris no son míos. Son de la gente que paga este edificio. A mí me dieron hasta Navidad para traerte por las buenas, Edu. Lo del autobús fue alguien que se cansó de esperar. Lo siento. Me enteré después».
 
 «¿Quién paga este edificio?».
 

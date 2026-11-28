@@ -17,7 +17,7 @@ Es la columna que une los tres libros. El tiempo es lo único que de verdad nos 
 
 **Cada segundo que un intervalo toma prestado no desaparece: alguien lo cobra.**
 
-Los «apagones» de Edu no son lagunas. Son **visitas**: ese tiempo lo pasa en el Destiempo, un Madrid congelado a las 4:17, con alguien que lo espera. Cada vez que Edu abre su puerta, **le cuesta vida a su padre**, y su padre lo sabe y lo permite porque es la única forma de verlo.
+Los «apagones» de Edu no son lagunas. Son **visitas**: ese tiempo lo pasa en el Destiempo, una Vera congelada a las 4:17, con alguien que lo espera. Cada vez que Edu abre su puerta, **le cuesta vida a su padre**, y su padre lo sabe y lo permite porque es la única forma de verlo.
 
 Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 
@@ -31,17 +31,17 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 
 **La deuda.** Todo segundo prestado se carga a una cuenta. Si es la del propio intervalo, se paga al cuadrado en apagones: el primer segundo cuesta 1 minuto, el segundo 4, el tercero 9. Esos minutos no se pierden: se viven en el Destiempo.
 
-**El Destiempo.** Es el almacén. Un Madrid reflejado y congelado donde cada reloj marca las 4:17, con el Metro parado entre estaciones, la gente quieta en mitad de un gesto y el aire tibio como el de una habitación cerrada. Allí van a parar todos los segundos que se dejan de vivir. Se entra por **la hora que nadie mira**: los sesenta segundos entre las 4:17 y las 4:18 que ningún reloj cuenta.
+**El Destiempo.** Es el almacén. Una comarca reflejada y congelada donde cada reloj marca las 4:17, con el mar parado a media ola, la gente quieta en mitad de un gesto y el aire tibio como el de una habitación cerrada. Allí van a parar todos los segundos que se dejan de vivir. Se entra por **la hora que nadie mira**: los sesenta segundos entre las 4:17 y las 4:18 que ningún reloj cuenta.
 
-**El Consejo de la Cuenta.** Fundado en 1971 por **Aurelio Quintana**, que descubrió que el tiempo almacenado en el Destiempo se puede **extraer** y usar para alargar vidas. Hoy tiene más de noventa años y parece de cincuenta. El Consejo, con sedes en varias capitales, cosecha a niños intervalo: les provoca estrés para que usen el don, y recoge sus deudas.
+**El Consejo de la Cuenta.** Fundado en 1971 por **Aurelio Quintana**, que descubrió que el tiempo almacenado en el Destiempo se puede **extraer** y usar para alargar vidas. Hoy tiene más de noventa años y parece de cincuenta. El Consejo, con sedes en varios países y una afición a los sitios pequeños, donde nadie mira, cosecha a niños intervalo: les provoca estrés para que usen el don, y recoge sus deudas.
 
-**El Programa Cronos.** La tapadera en Madrid: psicólogas amables, una app, una pulsera.
+**El Programa Cronos.** La tapadera en Almería: psicólogas amables, una app, una pulsera.
 
 **Bienestar+ y Pulso.** No miden el bienestar: lo **fabrican**. Las notificaciones nocturnas, las preguntas, las alertas de «has estado en tensión 4 minutos»... están diseñadas para subir la ansiedad de los chicos justo lo suficiente para que el don se abra. Cronos, la IA, aprende qué mensaje asusta a cada uno. Es la parte que reconoce todo adolescente.
 
 **La herencia.** Quien presta tiempo deja una cuenta abierta. Al morir, la cuenta pasa al heredero. Cuando muere Tomás, las deudas de todos los que él mantuvo vivos pasan a Edu: si Edu usa su don, el coste se multiplica por cada uno de ellos.
 
-**Cronos, la IA.** Cronos no es solo el nombre del programa: es una inteligencia artificial. Está detrás de Bienestar+ y de cientos de aplicaciones más, con otros nombres, en los móviles de cuatrocientas mil personas de Madrid. No obliga a nadie. Predice qué va a hacer cada persona en el segundo siguiente y le envía el mensaje exacto para que haga, convencida de que lo ha decidido ella, lo que conviene. Así mueve a los hombres de gris (que llevan un auricular y repiten lo que les dicta), a los vecinos, a la propia doctora Ibarra.
+**Cronos, la IA.** Cronos no es solo el nombre del programa: es una inteligencia artificial. Está detrás de Bienestar+ y de cientos de aplicaciones más, con otros nombres, en los móviles de cuatrocientas mil personas de la provincia. No obliga a nadie. Predice qué va a hacer cada persona en el segundo siguiente y le envía el mensaje exacto para que haga, convencida de que lo ha decidido ella, lo que conviene. Así mueve a los hombres de gris (que llevan un auricular y repiten lo que les dicta), a los vecinos, a la propia doctora Ibarra.
 
 **El límite de Cronos.** Trabaja con el segundo siguiente, y los intervalos tienen segundos que no están en la lista. Cuando Edu abre, la IA deja de verlo: SIN SEÑAL. Nora le devuelve ruido. No puede calcularlos ni empujarlos. Son las únicas personas de la ciudad que no controla, y por eso los necesita, los vigila y los cosecha. Lo único que puede hacer con ellos es asustarlos manipulando a todos los demás.
 
@@ -80,7 +80,7 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 **Pregunta:** ¿dónde está mi padre y qué quieren? **Tono:** investigación y traición.
 **Arco de Nora:** de aislarse a liderar. Su don evoluciona: oye las emociones **tres segundos antes** de que ocurran.
 **Revelaciones:**
-- Madrid existe doble. Entran en el Destiempo por primera vez.
+- Vera existe doble. Entran en el Destiempo por primera vez.
 - Bienestar+ fabrica la ansiedad: **lo descubre Bruno** leyendo el código.
 - Edu comprende que cada vez que usa el don **mata un poco a su padre**, y que su padre lo permite.
 - Marcos es hijo de Ibarra y lleva cinco años atrapado en la hora oculta.
@@ -92,10 +92,10 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 **Pregunta:** ¿cómo se cierra el Destiempo sin perder a nadie? **Tono:** cuenta atrás y sacrificio.
 **Revelaciones:**
 - **El Edu del futuro miente.** Lo hizo todo mal, sí, pero porque se convirtió en el brazo derecho de Aurelio. Vuelve para cambiar de cuerpo con su yo joven y salvarse a sí mismo. **El enemigo final es él mismo.**
-- **El Gran Cobro:** el Consejo prepara una cosecha masiva a través de Bienestar+, sincronizada para el día en que 40.000 alumnos de Madrid reciban a la vez la misma notificación.
+- **El Gran Cobro:** el Consejo prepara una cosecha masiva a través de Bienestar+, sincronizada para el día en que 40.000 alumnos de la provincia reciban a la vez la misma notificación.
 - Segundero, la paloma, es el primer segundo que Tomás prestó, hecho carne. Se va cuando se salda su deuda.
 **Resolución:** Bruno filtra todo y su canal, por fin, llega a millones. Los chicos paran el Cobro. Edu **renuncia al don** y devuelve a su padre el tiempo que le debía. Aurelio envejece noventa años en un minuto. Raúl vuelve, envejecido veinte años, y abraza a su hijo.
-**Final:** el reloj de Tomás, ya sin función de reloj, se abre. Dentro, un marcador con siete números que bajan. Uno acaba de cambiar. En un lugar que no es Madrid. Edu ya no tiene don, pero Nora lo oye.
+**Final:** el reloj de Tomás, ya sin función de reloj, se abre. Dentro, un marcador con siete números que bajan. Uno acaba de cambiar. En un lugar que no es Almería. Edu ya no tiene don, pero Nora lo oye.
 
 ---
 
@@ -114,7 +114,7 @@ Y detrás de todo, un hombre de más de noventa años que parece de cincuenta.
 1. **Los Siete.** Uno acaba de despertar fuera de España.
 2. **El Consejo.** Aurelio muere, pero tiene sedes y herederos.
 3. **Pablo y Leyre.** Los amigos perdidos de Nora estaban en el Destiempo. Vuelve uno; el otro, no.
-4. **La otra orilla.** Raúl vio algo en el fondo del Destiempo: una puerta que no es la de Madrid.
+4. **La otra orilla.** Raúl vio algo en el fondo del Destiempo: una puerta que no es la de Vera.
 5. **Segundero.** Al irse, deja una pluma con un número.
 
 ---

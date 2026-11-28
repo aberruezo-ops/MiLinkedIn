@@ -1,7 +1,7 @@
 # DESTIEMPO
 ### Biblia de la serie
 
-> **Documentos vigentes.** Para estructura, mitología, revelaciones y reparto, mandan `trilogia.md` y `personajes.md` (versión 2). Esta biblia sigue vigente para **tono y voz, escenario de Madrid, tecnología, realismo mágico, fundamento psicológico y formato**. Las secciones 5 (libros), 7 (personajes), 10 (hilo de misterio) y 12 (finales) están sustituidas por los dos documentos anteriores.
+> **Documentos vigentes.** Para estructura, mitología, revelaciones y reparto, mandan `trilogia.md` y `personajes.md` (versión 2). Esta biblia sigue vigente para **tono y voz, escenario de Vera (Almería), tecnología, realismo mágico, fundamento psicológico y formato**. Las secciones 5 (libros), 7 (personajes), 10 (hilo de misterio) y 12 (finales) están sustituidas por los dos documentos anteriores.
 
 *Lema: «Hay personas que viven a otra hora.»*
 
@@ -61,11 +61,26 @@ El plan vigente es una **trilogía** que se publica entera (ver `trilogia.md`). 
 
 El juego del título: la saga empieza **a destiempo** y termina **a tiempo**. Los poderes que antes iban en libros separados (la memoria de Lía y la aceleración de Iván) se incorporan como nuevos personajes al grupo en los libros II y III.
 
-## 6. Escenario: Madrid, hoy
+## 6. Escenario: Vera (Almería), hoy
 
-La saga ocurre en el Madrid de ahora, en el barrio de **Usera**, al sur de la ciudad: bloques de ladrillo con patio de luces, bazares abiertos hasta tarde, olor a pan de varias cocinas, el Metro a cinco minutos y el hospital Doce de Octubre al fondo, donde trabaja la madre de Edu. El aire frío que baja de la sierra entra por las ventanas en otoño y es el viento de fondo de la saga. Madrid Río, el Matadero y el Metro (sobre todo la línea 6, la circular) sirven de escenarios clave.
+La saga ocurre en **Vera**, en el levante de Almería, y en su comarca. Un pueblo de unos dieciocho mil habitantes donde todo el mundo se conoce, a nueve kilómetros del mar.
 
-Madrid permite lo que la saga necesita: una ciudad enorme donde un chico puede perderse, donde convive todo el mundo y donde nadie se sorprende de nada. Eso encaja con el realismo mágico.
+**Por qué funciona mejor que una gran ciudad.**
+- En un pueblo no hay dónde esconderse. El acoso a Edu por lo de su padre dura años porque los mismos chicos pasan con él del colegio al instituto, y «se fue con otro» es una frase que repite la panadería entera.
+- Una IA que mueve a la gente con el mensaje justo da más miedo cuando la gente tiene nombre: el del estanco, la de la mercería.
+- El paisaje ya parece el Destiempo: luz dura, ramblas secas, un mar de plástico blanco y un desierto a media hora.
+
+**Lugares reales que usa la saga.**
+- **El cerro del Espíritu Santo**, con la estatua del Sagrado Corazón y el mirador. Es el banco de Edu y Nora. Allí estuvo la Vera antigua, destruida por el terremoto de 1518; el pueblo se rehízo en el llano. Es la semilla del Destiempo: aquí ya hubo una vez un pueblo que se quedó parado en una hora.
+- **La Plaza Mayor y la iglesia de la Encarnación**, una iglesia fortaleza con torres en las esquinas.
+- **La fuente de los Cuatro Caños** y la **plaza de toros**, donde Edu pasa su peor noche.
+- **Garrucha**: el puerto pesquero, la lonja y el malecón de balaustres blancos. Es donde vieron a Raúl con Íñigo y donde Edu ve el Destiempo por primera vez (cap. 16).
+- **Los invernaderos**, el mar de plástico, y **el polígono**, donde está el edificio sin cartel de Cronos.
+- Para los libros II y III: Mojácar, las minas de Sierra Almagrera, el desierto de Tabernas, Cabo de Gata, la Alcazaba y el Cable Inglés de Almería, y el Indalo como símbolo.
+
+**Datos por comprobar antes de publicar** (los he escrito de memoria): población de Vera, año exacto del terremoto, línea y horario del autobús a Garrucha, y que el hospital de referencia es el de Huércal-Overa.
+
+**Clima.** Casi no llueve y casi no hace frío. El viento es el levante. El gorro de lana de Edu no tiene excusa, y los abrigos grises cantan a la legua.
 
 ## 7. Personajes con profundidad
 
@@ -177,7 +192,7 @@ Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin qu
 
 - La señora Pilar, la vecina del patio, riega unos geranios que solo florecen de noche. Nadie lo comenta.
 - El aire de la sierra «trae lo que el tiempo pierde»: aparecen en los balcones cosas olvidadas (una llave, un guante, un cumpleaños que nadie recordaba).
-- El **tren de las 4:17.** El Metro de Madrid cierra a la 1:30 y abre a las 6:00. Pero en la línea 6, cada madrugada a las 4:17, pasa un tren que no aparece en ningún plano. Los que lo conocen no hablan de él.
+- **El autobús de las 4:17.** A esa hora de la madrugada no pasa ninguno. Pero hay quien ha visto parar uno en la marquesina de la plaza, con las luces encendidas y sin conductor.
 - El reloj de la iglesia da trece campanadas los viernes. Los vecinos hacen una pausa y siguen con lo suyo.
 - En la tienda del abuelo hay una paloma, *Segundero*, que llega cada día a la misma hora aunque el reloj de la tienda no funcione.
 
