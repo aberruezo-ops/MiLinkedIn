@@ -264,6 +264,11 @@ Ya escrito en el libro I:
 - Cap. 16: el reloj digital del autobús marca 4:17 un segundo cuando suben los de gris.
 - Cap. 17: la tabla de Cronos cobra un minuto por el vaso de leche, pero Edu perdió doce: «los otros once los has pasado en algún sitio donde ellos no miran» (paga en el cap. 24). La cuenta destino es RM-0001 (Raúl Moral). Nevera de pósits en casa de Bruno: sus padres se escriben a través de él.
 - Cap. 18: a las 4:17 de la madrugada, en el Salar, el levante deja junto a Edu el cronómetro de Raúl, con la cifra 8:43: lo que tardó Edu en dormirse en sus piernas la noche antes de la lluvia, el récord que faltaba en la nevera (cap. 12). En el cap. 19 Tomás debería verlo o preguntar por él.
+- Cap. 19: Tomás ve el cronómetro: Raúl bajó a enseñárselo esa noche («Mañana lo apunto», lo último que le oyó). «Las cosas vuelven, no siempre a quien las perdió: a quien le hacen falta». Los flamencos quietos en el aire (Tomás).
+- Cap. 20: el «4:18» de la pizarra sigue con tiza fresca. Nora le da a Edu una página de su libreta: «tienes que perdonarme algo que todavía no te he dicho».
+- Cap. 21: en el clavo del despacho hubo primero un reloj (quitado el día que se borró Marcos) y después la foto.
+- Cap. 24: la noche del funeral, con Marta e Íñigo, Edu escribe 8:43 en la última casilla de la hoja de récords. En el instituto, gestos pequeños de Lucía, Sergio y Dani.
+- Interludios II (tras el cap. 12) y III (tras el cap. 19): grupo de clase, notificaciones de Bienestar+ (la de Bruno usa su herida familiar), hoja suelta del cuaderno de R. M., libreta de Nora (Tomás «dorado, cada día un poco menos»; Pablo y Leyre), pósit de Marta, audios de Bruno, registro interno: sujeto_0412 (Edu), sujeto_0388 rechaza ser recurso de proximidad (Nora; refuerza su «no soy eso» del cap. 18), T. M. sin lecturas desde 1971.
 
 **Reglas.** Lo mágico nunca se explica del todo. Nadie dice «¡es magia!». Los adultos lo tratan como normal. Y siempre tiene relación con el tiempo.
 

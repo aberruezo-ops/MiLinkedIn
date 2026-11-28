@@ -118,7 +118,7 @@ Y se fue. La campanilla sonó. Segundero lo siguió con la cabeza hasta que dobl
 
 «Abuelo».
 
-«Un cliente muy antiguo». Volvió a bajarse la lupa. «Viene de Bédar, se baja en el autobús de las tres y se sube en el de las seis. Siempre ha sido un poco teatrero». Pero tenía las manos quietas sobre el banco, sin coger ninguna herramienta, y mi abuelo no tiene nunca las manos quietas.
+«Un cliente muy antiguo». Volvió a bajarse la lupa. «Baja de Bédar en un coche más viejo que él, a cuarenta por hora, y sube igual. Siempre ha sido un poco teatrero». Pero tenía las manos quietas sobre el banco, sin coger ninguna herramienta, y mi abuelo no tiene nunca las manos quietas.
 
 Quise preguntarle por mi padre. Me subió a la garganta como un hipo. «Abuelo, papá…». Pero él ya había vuelto a bajar la lupa, ya estaba moviendo con la uña un tornillo, y dijo sin levantar la vista:
 

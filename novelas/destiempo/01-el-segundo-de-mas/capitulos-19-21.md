@@ -22,6 +22,24 @@ Tardé en darme cuenta de lo que significaba. Del camino a la pasarela hay quini
 
 Me lo bebí. Quemaba. Era lo mejor que había probado en mi vida.
 
+Al inclinarme para devolverle el termo, el cordón negro del cronómetro se me salió por el cuello de la sudadera. Mi abuelo lo vio. Se le quedaron los ojos clavados en él, y la mano que iba a coger el termo se quedó a medio camino.
+
+Lo saqué. Se lo di.
+
+Lo sostuvo en la palma abierta, sin cerrar los dedos, como se sostiene un pájaro que no sabes si está vivo. Miró la pantallita. 8:43.
+
+«Esa noche bajó a mi casa con esto», dijo. Le salió la voz rara, de otro sitio. «A las once y pico. Tú ya dormías arriba. Entró en la cocina contento como un crío, en calcetines, y me lo puso delante de la cara: "Papá, ocho cuarenta y tres. Se ha quedado frito en mis piernas en ocho cuarenta y tres. Mañana lo apunto en la nevera"».
+
+Se calló. En el agua, un flamenco cambió de pata.
+
+«Mañana lo apunto», repitió. «Esa fue la última cosa que le oí decir».
+
+«¿Dónde estaba?», pregunté. «Esta noche, aquí al lado, a las cuatro y diecisiete. Nadie lo ha traído, abuelo. Apareció».
+
+Mi abuelo me devolvió el cronómetro. Me cerró los dedos encima, con cuidado.
+
+«Las cosas vuelven, Edu», dijo. «No siempre a quien las perdió. A quien le hacen falta».
+
 Se quedó un rato mirando cómo amanecía sobre el agua. La laguna se había puesto rosa y estaba tan quieta que el cielo salía dos veces. En el centro había flamencos, cien o doscientos, durmiendo de pie sobre una pata, con la cabeza escondida. A esa hora el salar es suyo. Nadie nos miraba: un viejo y un niño en una pasarela, lo más normal del mundo.
 
 «Tu madre no ha dormido», dijo. «Ha bajado a las dos a pedirme que saliera a buscarte, y luego me ha prohibido salir a buscarte, y luego ha llorado en mi cocina. Me ha contado lo del dinero. Yo no lo sabía».
@@ -154,6 +172,80 @@ Las torrijas estaban quemadas por un lado. Me comí cuatro.
 
 ---
 
+*(Fin de la Parte III)*
+
+---
+
+## INTERLUDIO III
+### Documentos
+
+**NOTA EN LA NEVERA DE CASA DE EDU**
+*(pósit amarillo, letra redonda, boli azul)*
+
+Edu: las torrijas están en el horno. No te las comas todas.
+(Cómetelas todas.)
+Me voy a dormir un rato. Si necesitas algo, despiértame. Si no necesitas nada, despiértame también.
+Te quiero. Aunque estés enfadado. Sobre todo aunque estés enfadado.
+Mamá
+
+---
+
+**MENSAJES DE VOZ DE BRUNO A EDU** *(transcripción automática)*
+**Domingo, 19:48**
+
+> tío vale te cuento rápido porque mi madre está aquí al lado haciendo como que no escucha. he estado mirando lo de las pulseras. no te asustes. bueno sí asústate un poco. es que no miden. o sea miden pero no es lo importante. lo importante es que mandan. te lo explico mañana en persona porque por aquí no me fío. y. nada. que me alegro de que estés en casa. ya está. no me contestes con un pulgar que te mato
+
+**Domingo, 19:50**
+
+> otra cosa. tu abuelo me ha dado rosquillas por la ventana del taller cuando he pasado. me ha dicho que cuide de ti. tío tu abuelo da un poco de miedo. buen miedo eh. pero miedo
+
+---
+
+**BIENESTAR+ · Notificación** *(captura enviada por Bruno al grupo de tres, sin comentario)*
+**Domingo, 23:14**
+
+> Hola, Bruno. Hemos notado que esta semana duermes menos de cinco horas.
+> A veces, cuando en casa las cosas están difíciles, nos cuesta descansar.
+> ¿Quieres hablar de lo que pasa en casa?
+> ○ Sí
+> ○ No
+> ○ Mis padres no se hablan
+>
+> *Recuerda: tú no tienes la culpa de lo que pasa entre los adultos.*
+
+**Nora (23:15):** no contestes
+**Nora (23:15):** esa tercera opción no se la ofrece a nadie más. la han escrito para ti
+**Bruno (23:17):** ya lo sé
+**Bruno (23:17):** lo peor es que me ha sentado bien leerlo
+
+---
+
+**REGISTRO INTERNO** *(fragmento capturado por Bruno desde el router del armario; formato original)*
+
+```
+sujeto_0412  · último evento: apertura 7,0 s · cargo 49 min
+              · estado: INESTABLE · claridad: ALTA
+              · recomendación: aumentar presión ambiental
+              · no aplicar contacto físico antes de 25/12
+
+sujeto_0388  · estado: activo (receptor)
+              · asignación como recurso de proximidad de 0412: RECHAZADA
+              · nota: el sujeto declina sin dar motivos. No insistir.
+                Reevaluar tras el evento.
+
+sujeto_0027  · T. M. · sin lecturas desde 1971
+              · nota: no calculable. No intervenir.
+```
+
+*(A mano, en el margen de la impresión, con la letra de Bruno:)* 0388 = ¿quién? Preguntar a Edu. NO. Preguntar a Nora.
+
+---
+
+## PARTE IV
+## Todo a su hora
+
+---
+
 ### 20. El Instituto
 
 La doctora Ibarra salía todos los martes a las tres y diez, sacaba el coche del aparcamiento de profesores y no volvía hasta el jueves. Los miércoles pasaba consulta en el instituto de Cuevas del Almanzora y los viernes en el de Garrucha. El Programa de Bienestar no era cosa nuestra: estaba en toda la comarca. Bruno lo había averiguado sin hackear nada, con el método tradicional de preguntárselo a Fermín mientras le alababa el periódico.
@@ -162,7 +254,7 @@ La doctora Ibarra salía todos los martes a las tres y diez, sacaba el coche del
 
 «A casa, supongo», dijo Bruno. «O a donde le pagan».
 
-Nos habíamos reunido en el cuarto de mi padre. Olía a cerrado y a estaño. La pizarra seguía llena de fórmulas con su letra, y en una esquina, con otra tiza, había un monigote con el pelo de punta y una flecha: *EDU, 7 AÑOS, ME HA GANADO AL AJEDREZ (LE HE DEJADO)*. Me tuve que dar la vuelta un momento.
+Nos habíamos reunido en el cuarto de mi padre. Olía a cerrado y a estaño. La pizarra seguía borrada, gris de polvo de tiza, y el *4:18* seguía en su esquina, blanco y brillante. Bruno pasó la yema del dedo por encima y se la miró: tiza fresca, como recién puesta. No dijo nada. Se limpió el dedo en el pantalón, despacio, como quien no quiere saber. En la otra esquina, la de arriba, donde el borrador no había llegado, había un monigote con el pelo de punta y una flecha: *EDU, 7 AÑOS, ME HA GANADO AL AJEDREZ (LE HE DEJADO)*. Me tuve que dar la vuelta un momento.
 
 En la mesa, debajo de una sábana, estaba el aparato. Una caja de latón del tamaño de una tostadora, con un cristal redondo en el centro y, dentro del cristal, un mecanismo de relojería de verdad, con sus ruedas, soldado a una placa verde llena de chips. El CRONÓGRAFO.
 
@@ -171,6 +263,20 @@ Bruno le había dado vueltas una hora sin tocarlo, con las manos a la espalda.
 «Esto es una locura preciosa», decía. «Tu padre y tu abuelo eran unos enfermos. En el buen sentido».
 
 Nora había venido. La había llamado yo, desde el fijo de mi abuelo, porque no sabía hacerlo mejor. Dije: «Soy yo. Lo del otro día». Ella dijo: «Ya». Dije: «¿Vienes mañana?». Dijo: «Sí». Y ya estaba hecho. Con Nora las paces eran así, un apretón de manos a oscuras. Sabía que seguía callándose algo. Ella sabía que yo lo sabía. Lo habíamos dejado en un cajón, cerrado con una llave pequeña debajo de una mandarina.
+
+Cuando llegó al taller, antes de saludar, me dio un papel doblado. Una página arrancada de su libreta. Ponía, con su letra pequeña de lápiz:
+
+*Edu, jueves: naranja con borde azul, muy roto.*
+*Edu, viernes: igual, pero con una raya blanca en el medio. No sé qué es. Me da miedo.*
+*Edu, hoy: tienes que perdonarme algo que todavía no te he dicho.*
+
+La miré. Ella miraba la pizarra.
+
+«Lo de "todavía"», dije. «¿Cuándo?».
+
+«Cuando sepa decirlo sin que te pase nada». Se encogió de hombros. «Lo he apuntado para que no se me olvide que te lo debo».
+
+Me guardé el papel en el bolsillo, al lado del cronómetro.
 
 «Si la seguimos», dijo ahora, «necesito saber cómo de cerca vamos a estar».
 
@@ -190,7 +296,7 @@ Bruno nos miró a uno y a otra y levantó las cejas hasta los rizos. No dijo nad
 
 ---
 
-La seguimos en bici, que es la forma menos heroica que existe de seguir a alguien. El coche de la doctora, un Seat gris con un abollón en la puerta, salió por la carretera de Garrucha, pasó la rotonda de la autovía y se metió en el polígono, que es donde Vera deja de tener escaparates y se llena de naves, de palés y de camiones aparcados. Detrás de la última calle ya no hay pueblo: empiezan los invernaderos y no se acaban hasta el mar.
+La seguimos en bici, que es la forma menos heroica que existe de seguir a alguien. El coche de la doctora, un utilitario gris con un abollón en la puerta, salió por la carretera de Garrucha, pasó la rotonda de la autovía y se metió en el polígono, que es donde Vera deja de tener escaparates y se llena de naves, de palés y de camiones aparcados. Detrás de la última calle ya no hay pueblo: empiezan los invernaderos y no se acaban hasta el mar.
 
 Se paró delante de una nave blanca de dos plantas.
 
@@ -354,7 +460,9 @@ Se levantó. Fue hasta la plataforma, hasta la mesita, y cogió algo que había 
 
 Un chico de once o doce años, con el pelo oscuro, un poco largo, sentado en un escalón con una sudadera gris. Sonreía a medias. Tenía una de esas caras que parecen de otra persona cada vez que las miras.
 
-«Ese clavo vacío de mi despacho», dijo. «Ahí estaba esta foto. La tuve que quitar porque los alumnos me preguntaban quién era, y a los cinco minutos se les había olvidado que habían preguntado. Y volvían a preguntar».
+«Ese clavo vacío de mi despacho», dijo. «Primero hubo un reloj. Lo quité el día que Marcos se borró, porque no soportaba oírlo. Luego colgué esta foto. También la tuve que quitar, porque los alumnos me preguntaban quién era, y a los cinco minutos se les había olvidado que habían preguntado. Y volvían a preguntar».
+
+Me acordé del reloj que vi en ese clavo la primera mañana, un segundo, con su mancha de humedad en forma de nube. No se lo dije. Era lo único que tenía que ella no sabía.
 
 «Marcos».
 

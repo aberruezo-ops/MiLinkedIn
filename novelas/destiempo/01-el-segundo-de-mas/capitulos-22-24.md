@@ -1,8 +1,3 @@
-## PARTE IV
-## Todo a su hora
-
----
-
 ### 22. No usar el don
 
 Eran cuatro. Los dos del autobús y otros dos iguales, con el mismo abrigo y los mismos zapatos limpios. Bajaron la escalera en fila y se abrieron al llegar abajo, sin mirarse, como si alguien hubiera pintado en el suelo dónde tenía que ponerse cada uno.
@@ -185,7 +180,7 @@ Alargué la mano.
 
 Estaba en la boca del callejón.
 
-No sé cómo había llegado. Luego supe que le había pedido el coche a don Ernesto, el del estanco, y que don Ernesto, con ochenta y dos años, había conducido desde la plaza saltándose los dos semáforos que hay. Yo solo vi a un viejo con una rebeca verde, sin abrigo, sin bastón, con una paloma gris en el hombro, andando hacia nosotros más derecho de lo que lo había visto en mi vida.
+No sé cómo había llegado. Luego supe que había llamado a don Ernesto, el de Bédar, y que don Ernesto, con ochenta y dos años, había conducido desde la plaza saltándose los dos semáforos que hay. Yo solo vi a un viejo con una rebeca verde, sin abrigo, sin bastón, con una paloma gris en el hombro, andando hacia nosotros más derecho de lo que lo había visto en mi vida.
 
 «Abuelo, vete. Vete, que son...».
 
@@ -315,7 +310,7 @@ No fue de golpe. Fue como un reloj al que se le acaba la cuerda: cada vez más d
 
 Segundero se posó en el respaldo del banco. No hizo ni un ruido.
 
-En mi bolsillo, algo dejó de latir. Saqué el reloj. Las agujas, que llevaban un mes andando, se habían parado.
+En mi bolsillo, algo dejó de latir. Saqué el reloj. Las agujas, que aquel otoño habían vuelto a andar, se habían parado.
 
 En las 4:17.
 
@@ -397,9 +392,9 @@ La señora Pilar, la de los geranios, estaba sonándose la nariz con un pañuelo
 
 «No pongas esa cara, criatura. Que parece que has visto un muerto».
 
-Detrás de ella, don Ernesto, el del estanco, se quitaba la boina y se rascaba la calva. Se movía. Y Rosa, la de la mercería, que tiene la edad de mi madre, lloraba a moco tendido, hipando. Se movía.
+Detrás de ella, don Ernesto, el señor de Bédar, el del despertador, se quitaba la boina y se rascaba la calva. Se movía. Y Rosa, la de la mercería, que tiene la edad de mi madre, lloraba a moco tendido, hipando. Se movía.
 
-Tres personas. Tres vecinos de toda la vida, de los que te dan un caramelo y te preguntan por las notas.
+Tres personas. Dos vecinas de toda la vida, de las que te dan un caramelo y te preguntan por las notas, y un señor de Bédar con un despertador que no tiene arreglo.
 
 «¿Qué...?», dije. No me salía más.
 
@@ -515,7 +510,33 @@ Eché el mío. Sonó en la madera.
 
 ---
 
-Fui a merendar el sábado. Esa merienda da para un libro entero, y lo tendrá.
+Esa noche Íñigo se quedó a cenar.
+
+No lo había hecho en tres años. Mi madre puso la mesa para tres sin preguntar, y cuando fue a sacar la cuarta silla, la de mi padre, de debajo de la mesa, se quedó con la mano en el respaldo un momento y la volvió a meter. Nadie dijo nada. Íñigo había traído berenjenas con miel en un táper, porque Íñigo no sabe ir a una casa sin llevar algo, ni siquiera a la casa de un muerto.
+
+Cenamos casi sin hablar. Luego mi madre fregó y Íñigo secó, y yo me quedé en la mesa mirando la nevera. La hoja de récords seguía allí, con sus columnas de bolígrafo azul, con la gota de miel y los cuarenta y ocho segundos sin parpadear de Íñigo, amarilla en las esquinas, sujeta con un imán de Mojácar.
+
+Me levanté. Saqué el cronómetro del bolsillo. Cogí el boli del bote de la encimera.
+
+Mi madre dejó de fregar. Íñigo se quedó con el trapo en la mano.
+
+En la última casilla, la que llevaba tres años en blanco, escribí: *Edu, dormirse en el sofá: 8:43.* Con mi letra, que no es recta ni de ingeniero, pero es la que tengo.
+
+Mi madre se secó las manos en el pantalón. Se acercó. Leyó. Miró el cronómetro en mi mano y no preguntó de dónde lo había sacado. Creo que ya no le hacía falta preguntar las cosas raras. Le había llegado el cupo.
+
+«Es buen tiempo», dijo Íñigo, con la voz rota, por decir algo.
+
+«Es malísimo», dijo mi madre. «Tu padre se dormía en tres».
+
+Y se rio. Y luego lloró, con la cara contra el hombro de Íñigo, y yo con ellos, los tres de pie delante de una nevera, en una cocina que olía a miel y a lavavajillas. Fue la primera vez en tres años que lloramos todos a la vez en vez de por turnos. No lo arregló nada. Pero lo puso en su sitio.
+
+El lunes volví al instituto. En el grupo de clase alguien había puesto *te acompañamos en el sentimiento edu*, y debajo había veintitrés corazones negros y un sticker de una vela que alguien había mandado sin pensar mucho. Lucía me dejó en la mesa una chocolatina sin decir nada. Sergio me dibujó unas zapatillas en el margen del libro de Geografía. Dani, en el pasillo de las taquillas, me vio venir, se apartó un paso para dejarme sitio y no dijo nada, y Hugo, a su lado, abrió la boca, y Dani le dio un codazo sin mirarlo.
+
+No era mucho. En un pueblo, a veces, eso es todo lo que hay. Y a veces llega.
+
+---
+
+Entre medias, el sábado, había ido a merendar a casa de la señora Pilar. Esa merienda da para un libro entero, y lo tendrá.
 
 Lo que cuenta aquí pasó dos semanas después, un martes por la noche, en el cuarto de mi padre.
 
@@ -579,7 +600,7 @@ Bruno la paró.
 
 Nadie dijo nada. En la tienda, al otro lado de la puerta, uno de los últimos relojes hizo tic.
 
-Yo me había quedado de pie, con las manos abiertas. Era su voz. Tres años intentando acordarme de cómo sonaba, y sonaba exactamente así, un poco ronca al final de las frases.
+Yo me había quedado de pie, con las manos abiertas y el cronómetro apretado en una de ellas sin saber cuándo lo había sacado. Era su voz. Tres años intentando acordarme de cómo sonaba, y sonaba exactamente así, un poco ronca al final de las frases.
 
 No me había olvidado de él. Lo veía. Cada vez. Cada apagón que yo había contado como una multa era una visita. Doce minutos, uno, cuatro, nueve, dieciséis. Me sentaba con mi padre y le contaba cosas, y luego volvía y no me acordaba de nada, y me limpiaba la sangre de la nariz pensando que estaba enfermo.
 

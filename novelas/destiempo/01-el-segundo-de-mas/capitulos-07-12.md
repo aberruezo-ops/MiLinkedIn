@@ -1127,3 +1127,81 @@ Se tapó la boca.
 El reloj de la cocina hizo tic. Y tic. Y tic.
 
 «No se fue», dijo mi madre, en un susurro tan pequeño que casi no lo oí. «No se fue nunca, Edu».
+
+---
+
+*(Fin de la Parte II)*
+
+---
+
+## INTERLUDIO II
+### Documentos
+
+**GRUPO DE CLASE «1ºB LOS SUPERVIVIENTES» (31 participantes)**
+**Miércoles, 22:31**
+
+**Lucía:** os ha llamado ya la psicóloga??
+**Sergio:** a mí el lunes
+**Lucía:** a mí hoy. me preguntó por mi abuela y me puse a llorar como una tonta
+**Lucía:** pero bien eh. es muy maja
+**Dani:** a mí no me ha llamado
+**Dani:** normal, yo estoy bien
+**Hugo:** jajajaja
+**Dani:** de q te ries
+**Hugo:** de nada bro
+**Lucía:** el moral va todos los jueves
+**Lucía:** lo sé pq lo veo salir con cara de muerto
+**Bruno:** dejadlo ya
+**Lucía:** ??? solo lo digo
+**Bruno:** ya. pues no lo digas
+*Bruno ha salido del grupo.*
+*Lucía ha añadido a Bruno.*
+**Lucía:** perdón vale. no era con maldad
+
+---
+
+**BIENESTAR+ · Notificación**
+**Jueves, 07:12**
+
+> Buenos días, Edu. Esta noche has dormido 0 horas y 0 minutos.
+> Hemos detectado actividad a las 03:04 en una ubicación distinta de tu domicilio habitual.
+> Dormir es importante para tu bienestar. ¿Quieres que te recordemos a qué hora acostarte?
+> ○ Sí, recuérdamelo
+> ○ No, gracias
+>
+> *Tu próxima sesión con la doctora Ibarra es hoy a las 10:00.*
+
+---
+
+**CUADERNO DE R. M. · Hoja suelta, sin fecha**
+*(letra pequeña y recta, con bolígrafo negro; en el margen, a lápiz)*
+
+Cronógrafo, prueba 14. Oscilación estable durante 3,2 s. A los 3,3 s la rueda de escape se queda temblando en el sitio, como si no supiera hacia qué lado tiene que caer. Repetido cuatro veces. Siempre a los 3,3. Siempre la misma rueda.
+
+Hipótesis: no es el aparato. Es el sitio. Hay un punto en el que el tiempo no sabe si seguir.
+
+*(Margen, a lápiz:)* Edu ha perdido hoy un diente. Lo ha metido en una caja de cerillas. Dice que es para el ratón Pérez, pero lo ha puesto en la báscula de cocina y ha apuntado el peso. Este niño va a ser peor que yo.
+
+*(Más abajo, con otra tinta:)* T. me ha visto con el aparato. No ha preguntado. Ha dicho: «Las ruedas que tiemblan no están rotas, Raúl. Están esperando». Me da miedo lo que sabe mi padre. Me da más miedo lo que no dice.
+
+---
+
+**LIBRETA DE NORA · Página 44**
+*(lápiz; algunas palabras borradas y vueltas a escribir)*
+
+**Edu:** naranja con borde azul. Desde el sábado, una raya blanca en el medio, fina. No sé qué es. No quiero saberlo. Hoy no me ha contestado. Dos vistos.
+
+**Bruno:** plata con estática. Pero cuando habla de Edu, la estática se va y queda algo amarillo. Lo echa de menos y no lo dice. Como todos aquí.
+
+**Señora Pilar (patio):** no tiene un color. Tiene muchos. Como un cajón de lápices que lleva cien años abierto. Me mira cuando riego. Sabe que la miro.
+
+**El abuelo de Edu:** dorado. Muy bonito. Cada día un poco menos. Como una vela que alumbra mucho.
+
+**Doctora Ibarra:** *(sin color)*. Pero hoy, en el pasillo, un segundo, rojo. Rojo muy fuerte, de miedo de madre. Lo ha escondido enseguida. Así que puede.
+
+Subrayado tres veces:
+
+No lo vuelvas a hacer. Prometiste que no lo volverías a hacer. Pablo. Leyre.
+
+*(Debajo, más pequeño:)* No se lo digas. Todavía no.
+

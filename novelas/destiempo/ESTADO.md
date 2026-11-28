@@ -9,7 +9,7 @@ Trilogía juvenil de Alex Berr (firma de la saga; los libros de Lúa van como Al
 - `identidad-grafica/libro-de-estilo.md`, `identidad-grafica/codigo-kairos.md`, `identidad-grafica/registro-generaciones.md` (IDs de Higgsfield).
 
 ## Estado del libro I, «El segundo de más»
-- 24 capítulos en primer borrador (`01-el-segundo-de-mas/capitulos-*.md`), unas 47.400 palabras. Objetivo: 65.000. Ampliada la parte II entera, caps. 7 a 12 (nov. 2026). Ampliadas las partes I y II enteras (caps. 1 a 12). Ampliados también los caps. 13 a 18. Siguiente: 19 a 21, luego 22 a 24 e interludios. Interludios documentales sin escribir.
+- 24 capítulos y tres interludios en segundo borrador (`01-el-segundo-de-mas/capitulos-*.md`), unas 49.300 palabras. Objetivo: 65.000. Ampliada la parte II entera, caps. 7 a 12 (nov. 2026). Ampliadas las partes I y II enteras (caps. 1 a 12). Pasada de ampliación completa (nov. 2026): los 24 capítulos con más realismo mágico y adolescentes de hoy, e interludios II y III escritos. Para llegar a 65.000 harían falta capítulos nuevos (propuesta pendiente de aprobar). 
 - Nuevas indicaciones del autor: más magia y sobrenatural (biblia, sec. 9) y jerga, música y actitudes de adolescentes de hoy. Criterio en `biblia-de-serie.md`, sec. 8, tras la tabla de referencias.
 - Hechos clave ya escritos: familia de Edu (Raúl gay, Marta y él «mi persona», Íñigo), acoso escolar por su padre (Dani), la K grabada en el reloj (cap. 4), Cronos IA (cap. 22), muerte de Tomás (cap. 22), funeral con los siete y Pilar/Ernesto/Rosa con sus letras griegas (cap. 23), «Hola, papá» y la herencia (cap. 24). Caps. 18-19 en el Salar de los Canos con flamencos. Cap. 16 en el autobús de Garrucha.
 - Datos de Vera escritos de memoria, pendientes de comprobar: ver lista en la biblia.
@@ -18,11 +18,13 @@ Trilogía juvenil de Alex Berr (firma de la saga; los libros de Lúa van como Al
 - Restos de Madrid: el hospital de Marta era el Doce de Octubre en caps. 2 y 5; ahora es el de Huércal-Overa.
 - Cap. 2: el móvil estaba en la encimera, pero el cap. 24 dice que la grabación salió del bolsillo del pijama. Ya está en el bolsillo.
 - Cronología de la semana del balón: jueves balón y vaso (caps. 1-2), viernes Nora, asamblea y tienda (caps. 3-4), lunes vídeo viral (cap. 6), martes primera sesión (cap. 7). El cap. 4 pasaba «el jueves» y no cuadraba.
+- Don Ernesto era «el del estanco» en caps. 22-23 y «el de Bédar» en el 4; queda como el de Bédar, con coche.
+- La Parte IV empezaba en el cap. 22; según el esquema empieza en el 20. Movida.
 - Caps. 17 y 18: la cuenta destino era RV-0001 (Raúl Valdés); ahora RM-0001.
 - Cap. 1: «tres años exactos» chocaba con el aniversario del cap. 12; ahora es «casi tres años».
 
 ## Pendiente
-1. Ampliar el libro I a ~65.000 palabras y escribir los interludios.
+1. Decidir si se añaden capítulos nuevos para acercarse a 65.000 (ahora ~49.300).
 2. Pasada de revisión y continuidad del libro I.
 3. Libros II y III completos.
 4. Decidir el habla (castellano neutro o con sabor almeriense).
