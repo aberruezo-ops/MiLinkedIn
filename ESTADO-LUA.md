@@ -3,8 +3,8 @@
 Cuentos para colorear de 4 a 8 años, firmados como Alex Berruezo. Descripción de la serie en `serie-lua.md`.
 
 ## Volumen I · «Lúa, la gatita gris» (`libro-lua/`)
-- Interior 56 páginas y cubierta dibujada con código. Ficha en `libro-lua/ficha-amazon.md`.
-- Pendiente: marcarlo como «Volumen I», añadir las 20 páginas de pasatiempos (módulo listo en `libro-lua2/pasatiempos.py`, función `build(cfg, tit)`) y hacerle cubierta en acuarela como el II para que la serie se vea igual.
+- Unificado con el formato del volumen II: tipografía, maquetación, «Volumen I» en portadilla y créditos, 20 páginas de pasatiempos (76 páginas en total) y cubierta en acuarela de Higgsfield con la misma Lúa que el II.
+- Listo para KDP: `interior-KDP.pdf`, `cubierta-KDP-papel-blanco.pdf` y `-papel-crema.pdf`. Ficha completa en `libro-lua/ficha-amazon.md`.
 
 ## Volumen II · «Lúa y el jardín de todos» (`libro-lua2/`)
 - Listo para KDP: `interior-KDP.pdf` (80 páginas, 8,5 x 11 in, sin sangrado) y cubierta en acuarela aplanada a 300 ppp: `cubierta-KDP-papel-blanco.pdf` (17,43 x 11,25 in) y `cubierta-KDP-papel-crema.pdf` (17,45 x 11,25 in). Arte en `libro-lua2/arte/`.

@@ -15,7 +15,7 @@ Cada volumen incluye escenas grandes para colorear, un bicho escondido en cada p
 
 **Volumen I. Lúa, la gatita gris**
 A Lúa no la dejan jugar porque no tiene colores vivos. Una noche, cuando todos se pierden en la oscuridad, descubre que su gris, su agilidad y sus garras valen mucho. Y que ya valían antes de que nadie se diera cuenta.
-Trata: aceptar a los demás y aceptarse a uno mismo. 20 escenas, páginas de emociones, de respiración y de superpoderes, una mariquita escondida en cada escena. 56 páginas.
+Trata: aceptar a los demás y aceptarse a uno mismo. 20 escenas, páginas de emociones, de respiración y de superpoderes, una mariquita escondida en cada escena y 20 páginas de pasatiempos al final. 76 páginas.
 
 **Volumen II. Lúa y el jardín de todos**
 Lúa y sus amigos convierten un solar lleno de latas en un jardín. Hera, la labradora color chocolate, es paciente como una santa. Raspi, la gata parda, no para quieta ni dormida. Neu, la gata blanca, es la payasa del grupo. Lúa quiere hacerlo todo sola y perfecto, Raspi desentierra las semillas porque no sabe esperar, y llega una tormenta que solo pueden parar entre todos.

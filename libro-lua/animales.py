@@ -9,6 +9,10 @@ def fc(n, d='#fff'):
     return COLORS.get(n, d)
 
 
+def kc(kind, name):
+    return COLORS.get(f'{kind}_{name}', COLORS.get(f'cat_{name}', '#fff'))
+
+
 def L(s, k=1.0):
     return f'stroke="{INK}" stroke-width="{4.2 * k / s:.2f}" stroke-linejoin="round" stroke-linecap="round"'
 
@@ -23,20 +27,31 @@ def grp(cx, cy, s, flip=1):
 
 
 # ------------------------------------------------------------------ gata
-def cat_head(s=1.0, mood='happy', look=0, tear=False):
+def cat_head(s=1.0, mood='happy', look=0, tear=False, kind='lua'):
     """Cabeza centrada en 0,0 (ancho ~200)."""
-    body, inner, belly, nose = fc('cat_body'), fc('cat_inner'), fc('cat_belly'), fc('nose')
+    body, inner, belly, nose = kc(kind, 'body'), kc(kind, 'inner'), kc(kind, 'belly'), fc('nose')
     o = ''
     for sd in (-1, 1):
         o += f'<path d="M{sd * 92},-18 L{sd * 84},-130 L{sd * 20},-78 Z" fill="{body}" {L(s)}/>'
         o += f'<path d="M{sd * 78},-44 L{sd * 74},-103 L{sd * 38},-76 Z" fill="{inner}" {L(s, .75)}/>'
+    if kind == 'neu':
+        for sd in (-1, 1):
+            o += (f'<path d="M{sd * 96},4 L{sd * 118},16 L{sd * 100},26 L{sd * 120},40 L{sd * 98},50 L{sd * 112},64 L{sd * 86},62 Z" '
+                  f'fill="{body}" {L(s, .9)}/>')
     o += f'<ellipse cx="0" cy="0" rx="100" ry="84" fill="{body}" {L(s)}/>'
-    for dx, dy in ((-20, -70), (0, -74), (20, -70)):
-        o += f'<path d="M{dx},{dy} L{dx * .6:.0f},{dy + 26}" fill="none" {L(s)}/>'
+    if kind == 'raspi':
+        o += f'<path d="M-30,-46 L-30,-76 L-15,-58 L0,-80 L15,-58 L30,-76 L30,-46" fill="none" {L(s)}/>'
+        for sd in (-1, 1):
+            o += f'<path d="M{sd * 98},-14 L{sd * 74},-10 M{sd * 99},8 L{sd * 76},10" fill="none" {L(s, .9)}/>'
+    elif kind == 'neu':
+        o += f'<path d="M-14,-80 q8,-24 18,-6 q6,-20 14,0" fill="{body}" {L(s, .9)}/>'
+    else:
+        for dx, dy in ((-20, -70), (0, -74), (20, -70)):
+            o += f'<path d="M{dx},{dy} L{dx * .6:.0f},{dy + 26}" fill="none" {L(s)}/>'
     o += f'<ellipse cx="0" cy="40" rx="54" ry="34" fill="{belly}" {L(s, .75)}/>'
     for sd in (-1, 1):
         ex = sd * 38
-        if mood == 'joy':
+        if mood == 'joy' or (mood == 'silly' and sd == 1):
             o += f'<path d="M{ex - 18},0 Q{ex},-26 {ex + 18},0" fill="none" {L(s, 1.2)}/>'
         else:
             o += f'<ellipse cx="{ex}" cy="-8" rx="20" ry="27" fill="#fff" {L(s, .9)}/>'
@@ -44,6 +59,9 @@ def cat_head(s=1.0, mood='happy', look=0, tear=False):
                 o += f'<ellipse cx="{ex + look * 5}" cy="-4" rx="14" ry="21" fill="{fc("eye")}" {L(s, .6)}/>'
             o += f'<ellipse cx="{ex + look * 5}" cy="-4" rx="9" ry="16" fill="#111"/>'
             o += f'<circle cx="{ex + look * 5 + 4}" cy="-12" r="5" fill="#fff"/>'
+            if mood == 'mischief':
+                y1, y2 = (-20, -9) if sd == -1 else (-9, -20)
+                o += f'<path d="M{ex - 21},-40 L{ex + 21},-40 L{ex + 21},{y2} L{ex - 21},{y1} Z" fill="{body}" {L(s, .9)}/>'
     if mood in ('sad', 'worried'):
         for sd in (-1, 1):
             o += f'<path d="M{sd * 62},-30 L{sd * 28},-47" fill="none" {L(s)}/>'
@@ -51,7 +69,13 @@ def cat_head(s=1.0, mood='happy', look=0, tear=False):
         for sd in (-1, 1):
             o += f'<path d="M{sd * 64},-52 L{sd * 24},-34" fill="none" {L(s, 1.2)}/>'
     o += f'<path d="M-10,16 L10,16 L0,29 Z" fill="{nose}" {L(s, .85)}/>'
-    if mood in ('happy', 'joy'):
+    if mood == 'silly':
+        o += f'<path d="M-25,38 Q0,82 25,38 Z" fill="{fc("mouth")}" {L(s, .85)}/>'
+        o += f'<ellipse cx="8" cy="62" rx="12" ry="15" fill="{fc("tongue", "#fff")}" {L(s, .8)}/><path d="M8,50 L8,68" fill="none" {L(s, .6)}/>'
+        o += f'<path d="M0,29 L0,38" fill="none" {L(s, .85)}/>'
+    elif mood == 'mischief':
+        o += f'<path d="M0,29 L0,38 M-26,46 Q-6,56 6,40 Q18,58 32,34" fill="none" {L(s, .9)}/>'
+    elif mood in ('happy', 'joy'):
         o += f'<path d="M-25,38 Q0,82 25,38 Z" fill="{fc("mouth")}" {L(s, .85)}/>'
         o += f'<path d="M0,29 L0,38" fill="none" {L(s, .85)}/>'
     elif mood == 'smile':
@@ -73,9 +97,9 @@ def cat_head(s=1.0, mood='happy', look=0, tear=False):
     return o
 
 
-def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False, claws=False):
+def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False, claws=False, kind='lua'):
     """Gata sentada de frente. (cx,cy) = centro de la cabeza; los pies quedan en cy+272*s."""
-    body, belly = fc('cat_body'), fc('cat_belly')
+    body, belly = kc(kind, 'body'), kc(kind, 'belly')
     o = grp(cx, cy, s, flip)
     if tail == 'curl':
         d = 'M70,240 Q175,262 168,160 Q165,105 196,92'
@@ -83,8 +107,10 @@ def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False
         d = 'M70,245 Q165,272 186,250'
     else:
         d = 'M70,240 Q150,250 152,180 Q152,135 130,112'
-    o += tube2(d, 34, body, s)
-    if tail == 'curl':
+    o += tube2(d, 48 if kind == 'neu' else 34, body, s)
+    if kind == 'raspi':
+        o += f'<path d="M152,205 L188,200 M152,150 L184,145 M160,120 L192,108" fill="none" {L(s, .9)}/>'
+    if tail == 'curl' and kind != 'raspi':
         o += f'<path d="M153,205 L186,200 M152,150 L183,145" fill="none" {L(s, .8)}/>'
     for sd in (-1, 1):
         o += f'<ellipse cx="{sd * 84}" cy="205" rx="36" ry="52" fill="{body}" {L(s)}/>'
@@ -92,6 +118,13 @@ def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False
     o += (f'<path d="M-85,130 Q-112,262 -60,264 L60,264 Q112,262 85,130 Q60,68 0,68 Q-60,68 -85,130 Z" '
           f'fill="{body}" {L(s)}/>')
     o += f'<ellipse cx="0" cy="182" rx="44" ry="70" fill="{belly}" {L(s, .75)}/>'
+    if kind == 'raspi':
+        for sd in (-1, 1):
+            for y in (118, 146, 174, 202, 230):
+                o += f'<path d="M{sd * 90},{y} L{sd * 66},{y + 5}" fill="none" {L(s, .9)}/>'
+            o += f'<path d="M{sd * 62},196 L{sd * 108},206 M{sd * 62},222 L{sd * 108},232" fill="none" {L(s, .8)}/>'
+    elif kind == 'neu':
+        o += f'<path d="M-34,96 L-22,116 L-10,96 L2,116 L14,96 L26,116 L36,96" fill="none" {L(s, .9)}/>'
     for sd in (-1, 1):
         x = sd * 38
         if claws:
@@ -105,13 +138,13 @@ def cat_sit(cx, cy, s=1.0, mood='happy', flip=1, tail='curl', look=0, tear=False
             o += tube2(f'M{x},205 L{x},248', 34, body, s)
             o += f'<ellipse cx="{x + sd * 2}" cy="257" rx="30" ry="16" fill="{body}" {L(s)}/>'
             o += f'<path d="M{x - 6},250 L{x - 6},262 M{x + 8},250 L{x + 8},262" fill="none" {L(s, .6)}/>'
-    o += cat_head(s, mood, look, tear)
+    o += cat_head(s, mood, look, tear, kind)
     return o + '</g>'
 
 
-def cat_side(cx, g, s=1.0, mood='smile', flip=1, tail='up', look=0, tear=False, head_down=False):
+def cat_side(cx, g, s=1.0, mood='smile', flip=1, tail='up', look=0, tear=False, head_down=False, kind='lua'):
     """Gata caminando de perfil con la cara de frente. (cx,g)=centro del cuerpo a nivel del suelo."""
-    body = fc('cat_body')
+    body = kc(kind, 'body')
     o = grp(cx, g, s, flip)
     for x in (-46, 90):
         o += tube2(f'M{x},-70 L{x},-16', 28, body, s)
@@ -119,13 +152,13 @@ def cat_side(cx, g, s=1.0, mood='smile', flip=1, tail='up', look=0, tear=False, 
     d = {'up': 'M-100,-115 Q-190,-125 -172,-225', 'down': 'M-100,-100 Q-185,-95 -194,-28'}[tail]
     o += tube2(d, 28, body, s)
     o += f'<ellipse cx="0" cy="-102" rx="112" ry="60" fill="{body}" {L(s)}/>'
-    for x in (-50, -20, 10):
+    for x in ((-50, -20, 10) if kind == 'lua' else (-80, -60, -40, -20, 0, 20, 40, 60) if kind == 'raspi' else ()):
         o += f'<path d="M{x},-158 q8,22 2,44" fill="none" {L(s)}/>'
     for x in (-82, 58):
         o += tube2(f'M{x},-70 L{x},-16', 30, body, s)
         o += f'<ellipse cx="{x + 6}" cy="-9" rx="25" ry="12" fill="{body}" {L(s)}/>'
     hy = -100 if head_down else -138
-    o += f'<g transform="translate(128,{hy}) scale(0.62)">' + cat_head(s * 0.62, mood, look, tear) + '</g>'
+    o += f'<g transform="translate(128,{hy}) scale(0.62)">' + cat_head(s * 0.62, mood, look, tear, kind) + '</g>'
     return o + '</g>'
 
 
@@ -381,9 +414,9 @@ def bush(x, g, w=220):
     return s
 
 
-def cat_action(cx, g, s=1.0, pose='leap', mood='happy', flip=1, look=0):
+def cat_action(cx, g, s=1.0, pose='leap', mood='happy', flip=1, look=0, kind='lua'):
     """Gata saltando o corriendo, de perfil con la cara de frente."""
-    body = fc('cat_body')
+    body = kc(kind, 'body')
     if pose == 'leap':
         far = [((95, -75), (188, -108)), ((-52, -82), (-168, -48))]
         near = [((70, -82), (172, -128)), ((-82, -88), (-178, -70))]
@@ -401,11 +434,11 @@ def cat_action(cx, g, s=1.0, pose='leap', mood='happy', flip=1, look=0):
         o += limb(p, q)
     o += tube2(tail, 28, body, s)
     o += f'<ellipse cx="0" cy="-102" rx="112" ry="60" fill="{body}" {L(s)}/>'
-    for x in (-50, -20, 10):
+    for x in ((-50, -20, 10) if kind == 'lua' else (-80, -60, -40, -20, 0, 20, 40, 60) if kind == 'raspi' else ()):
         o += f'<path d="M{x},-158 q8,22 2,44" fill="none" {L(s)}/>'
     for p, q in near:
         o += limb(p, q)
-    o += f'<g transform="translate(128,-138) scale(0.62)">' + cat_head(s * 0.62, mood, look) + '</g>'
+    o += f'<g transform="translate(128,-138) scale(0.62)">' + cat_head(s * 0.62, mood, look, False, kind) + '</g>'
     return o + '</g></g>'
 
 

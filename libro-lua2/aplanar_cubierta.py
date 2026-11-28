@@ -1,12 +1,20 @@
-# Convierte cubierta-300ppp.png (de aplanar_cubierta.js) en cubierta-KDP.pdf de una sola imagen a 300 ppp.
+# Convierte cubierta-300ppp.png (de aplanar_cubierta.js) en PDFs de cubierta KDP de una sola imagen a 300 ppp,
+# uno para papel blanco y otro para papel crema (lomo distinto), y en portada-frontal.jpg.
 from PIL import Image
-from libro import PAGINAS_TOTAL, GROSOR_PAPEL
+from libro import PAGINAS_TOTAL
 Image.MAX_IMAGE_PIXELS = None
-spine = PAGINAS_TOTAL * GROSOR_PAPEL
-W, H = round((2 * 8.5 + spine + 0.25) * 300), round(11.25 * 300)
-im = Image.open('cubierta-300ppp.png').convert('RGB')
-if im.size != (W, H):
-    im = im.resize((W, H), Image.LANCZOS)
-im.save('cubierta-KDP.pdf', 'PDF', resolution=300.0)
-im.crop((round((0.125 + 8.5 + spine) * 300), 0, W, H)).save('portada-frontal.jpg', quality=92)
-print('ok', W, H)
+H = round(11.25 * 300)
+src = Image.open('cubierta-300ppp.png').convert('RGB')
+sp0 = PAGINAS_TOTAL * 0.002252
+src = src.resize((round((17.25 + sp0) * 300), H), Image.LANCZOS) if src.size[1] != H else src
+back = src.crop((0, 0, round(8.625 * 300), H))
+front = src.crop((round((8.625 + sp0) * 300), 0, src.size[0], H))
+front.save('portada-frontal.jpg', quality=92)
+for nombre, grosor in (('blanco', 0.002252), ('crema', 0.0025)):
+    W = round((17.25 + PAGINAS_TOTAL * grosor) * 300)
+    im = Image.new('RGB', (W, H), (233, 196, 106))
+    im.paste(back, (0, 0)); im.paste(front, (W - front.size[0], 0))
+    im.save(f'cubierta-KDP-papel-{nombre}.pdf', 'PDF', resolution=300.0)
+    if nombre == 'blanco':
+        im.save('cubierta-KDP.pdf', 'PDF', resolution=300.0)
+    print(nombre, round(W / 300, 3), 'x 11.25 in')

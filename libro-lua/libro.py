@@ -3,36 +3,42 @@ import os
 from lib import *
 import animales as A
 from animales import *
+from jardin import bee, snail, tin_can, rocks, sprout, leaf
 from escenas import SCENES, TEXTOS, HIDDEN
+from pasatiempos import build as build_pasatiempos
 
 # ---- datos editables ---------------------------------------------------
 TITULO = 'Lúa, la gatita gris'
 SUBTITULO = 'Un cuento para colorear sobre ser como eres'
+VOLUMEN = 'Volumen I'
 AUTOR = 'Alex Berruezo'
 ANIO = '2026'
-PAGINAS_TOTAL = 56            # debe coincidir con el interior generado
+PAGINAS_TOTAL = 76            # debe coincidir con el interior generado
 GROSOR_PAPEL = 0.002252       # pulgadas por pagina, papel blanco KDP (verificar con la calculadora de KDP)
 # -------------------------------------------------------------------------
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 
 CSS = """
+@font-face{font-family:'Fraunces';font-weight:400;src:url('fonts/fraunces-latin-400-normal.woff2')}
+@font-face{font-family:'Fraunces';font-weight:600;src:url('fonts/fraunces-latin-600-normal.woff2')}
+@font-face{font-family:'Fraunces';font-weight:700;src:url('fonts/fraunces-latin-700-normal.woff2')}
+@font-face{font-family:'Fraunces';font-weight:600;font-style:italic;src:url('fonts/fraunces-latin-600-italic.woff2')}
 @font-face{font-family:'Fredoka';font-weight:600;src:url('fonts/fredoka-latin-600-normal.woff2')}
 @font-face{font-family:'Fredoka';font-weight:700;src:url('fonts/fredoka-latin-700-normal.woff2')}
 @font-face{font-family:'Nunito';font-weight:400;src:url('fonts/nunito-latin-400-normal.woff2')}
 @font-face{font-family:'Nunito';font-weight:700;src:url('fonts/nunito-latin-700-normal.woff2')}
-@font-face{font-family:'Nunito';font-weight:800;src:url('fonts/nunito-latin-800-normal.woff2')}
 @page{size:8.5in 11in;margin:0}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#fff;color:#111;font-family:'Nunito',sans-serif}
 .page{width:8.5in;height:11in;padding:.4in;position:relative;overflow:hidden;page-break-after:always;break-after:page}
-.art svg{width:7.7in;display:block;margin:0 auto}
-.txt{margin-top:.12in;text-align:center}
-.txt p{margin:0;font-family:'Fredoka';font-weight:600;font-size:27pt;line-height:1.25}
-h1,h2,h3{font-family:'Fredoka';font-weight:700;margin:0}
-.note h2{font-size:26pt;margin-bottom:.2in}
-.note h3{font-size:17pt;margin:.2in 0 .05in}
-.note p,.note li{font-size:14pt;line-height:1.45;margin:.06in 0}
+.art svg{display:block;margin:0 auto}
+.txt{margin-top:.08in;text-align:center;padding:0 .15in}
+.txt p{margin:0;font-family:'Fraunces',serif;font-weight:600;font-size:16.5pt;line-height:1.38}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:700;margin:0}
+.note h2{font-size:27pt;margin-bottom:.18in}
+.note h3{font-size:17pt;margin:.18in 0 .05in}
+.note p,.note li{font-size:13.5pt;line-height:1.42;margin:.05in 0}
 .note ul,.note ol{margin:.04in 0;padding-left:.28in}
 .note .legal{position:absolute;left:.5in;right:.5in;bottom:.5in;font-size:9.5pt;line-height:1.4;border-top:2px solid #111;padding-top:.1in}
 .center{text-align:center}
@@ -40,8 +46,12 @@ h1,h2,h3{font-family:'Fredoka';font-weight:700;margin:0}
 """
 
 
-def svg(inner, vb, marco=False):
+SVGW = 7.1
+
+
+def svg(inner, vb, marco=False, wi=None):
     w, h = [float(v) for v in vb.split()[2:]]
+    ww = wi or SVGW
     if marco:
         r = f'x="8" y="8" width="{w - 16:.0f}" height="{h - 16:.0f}" rx="28"'
         inner = (f'<defs><clipPath id="c"><rect {r}/></clipPath>'
@@ -49,7 +59,7 @@ def svg(inner, vb, marco=False):
                  f'<feDisplacementMap in="SourceGraphic" in2="n" scale="3.2"/></filter></defs>'
                  f'<g clip-path="url(#c)"><g filter="url(#w)">{inner}</g></g>'
                  f'<rect {r} fill="none" stroke="#111" stroke-width="4.2"/>')
-    return f'<svg viewBox="{vb}" xmlns="http://www.w3.org/2000/svg" style="height:{7.7 * h / w:.3f}in">{inner}</svg>'
+    return f'<svg viewBox="{vb}" xmlns="http://www.w3.org/2000/svg" style="width:{ww}in;height:{ww * h / w:.3f}in">{inner}</svg>'
 
 
 def pag(html, cls=''):
@@ -57,7 +67,7 @@ def pag(html, cls=''):
 
 
 BLANCO = pag('')
-PAW = ('<svg viewBox="0 0 60 50" style="height:.3in;display:block;margin:0 auto .03in"><g fill="#fff" stroke="#111" stroke-width="3">'
+PAW = ('<svg viewBox="0 0 60 50" style="height:.28in;display:block;margin:0 auto .02in"><g fill="#fff" stroke="#111" stroke-width="3">'
        '<ellipse cx="30" cy="34" rx="14" ry="11"/><ellipse cx="12" cy="20" rx="6" ry="8"/><ellipse cx="25" cy="10" rx="6" ry="8"/>'
        '<ellipse cx="38" cy="10" rx="6" ry="8"/><ellipse cx="50" cy="20" rx="6" ry="8"/></g></svg>')
 
@@ -68,12 +78,13 @@ def pagina_titulo():
     s += butterfly(580, 400, 0.6) + butterfly(160, 470, 0.5, flip=-1)
     s += flower(90, 650, 1.0) + flower(190, 680, 0.9) + flower(560, 665, 1.0) + flower(660, 640, 0.9) + grass(300, 700) + grass(470, 705)
     return pag(f'''
-<div class="center" style="margin-top:.1in">
-  <h1 style="font-size:60pt;line-height:1.05;-webkit-text-stroke:2px #111;color:#fff">{TITULO}</h1>
-  <p style="font-family:Fredoka;font-weight:600;font-size:16pt;margin:.14in 0 0">{SUBTITULO}</p>
+<div class="center" style="margin-top:.05in">
+  <p style="margin:0 0 .04in;font-family:Fraunces;font-weight:700;font-size:15pt;letter-spacing:.18em;text-transform:uppercase">{VOLUMEN} de la serie Lúa</p>
+  <h1 style="font-size:55pt;line-height:1.05;-webkit-text-stroke:2px #111;color:#fff">Lúa,<br>la gatita gris</h1>
+  <p style="font-family:Fraunces;font-weight:600;font-style:italic;font-size:16pt;margin:.14in 0 0">{SUBTITULO}</p>
 </div>
-<div class="art" style="margin-top:.15in">{svg(s, '0 0 750 720')}</div>
-<p class="center" style="position:absolute;bottom:.5in;left:0;right:0;font-family:Fredoka;font-weight:600;font-size:15pt">Texto e ilustraciones: {AUTOR}</p>''')
+<div class="art" style="margin-top:.1in">{svg(s, '0 0 750 720')}</div>
+<p class="center" style="position:absolute;bottom:.45in;left:0;right:0;font-family:Fraunces;font-weight:600;font-size:14pt">Texto e ilustraciones: {AUTOR}</p>''')
 
 
 def pagina_guia1():
@@ -94,7 +105,7 @@ def pagina_guia1():
 <li>Dejad que coloreen como quieran. Lúa puede ser gris, rosa o de rayas.</li>
 <li>Terminad con la página "Respira con Lúa". Cerrar en calma ayuda a irse a dormir mejor.</li>
 </ol>
-<p>En cada escena se esconde Mora, la mariquita. Buscarla invita a mirar con atención y a releer.</p>
+<p>En cada escena se esconde Mora, la mariquita. Buscarla invita a mirar con atención y a releer. Al final hay 20 páginas de pasatiempos para hacer solos o en familia. Van impresas por las dos caras: usad lápices o rotuladores finos.</p>
 </div>''')
 
 
@@ -120,7 +131,7 @@ def pagina_guia2():
 </ul>
 <h3>Cuándo buscar ayuda</h3>
 <p>Este libro es un apoyo para conversar en casa, no un tratamiento. Si tu hijo lleva semanas triste o muy retraído, no quiere ir al colegio, o sufre burlas o agresiones repetidas, habla con su tutor o tutora y con su pediatra o un psicólogo infantil.</p>
-<div class="legal">© {ANIO} {AUTOR}. Todos los derechos reservados. Prohibida la reproducción total o parcial de esta obra sin permiso del autor. Primera edición.</div>
+<div class="legal">© {ANIO} {AUTOR}. Todos los derechos reservados. Prohibida la reproducción total o parcial de esta obra sin permiso del autor. Primera edición. {VOLUMEN} de la serie «Lúa».</div>
 </div>''')
 
 
@@ -206,12 +217,29 @@ def pagina_diploma():
     return pag(f'<div style="margin-top:.35in">{svg(s, "0 0 750 700")}</div>')
 
 
+def pasatiempos():
+    cast = [dict(name='Lúa', fig=lambda cx, g, s: cat_sit(cx, g - 272 * s, s, 'happy'), h=402, like='pez'),
+            dict(name='Nuez', fig=lambda cx, g, s: squirrel(cx, g, s, 'happy'), h=300, like='bellota'),
+            dict(name='Trébol', fig=lambda cx, g, s: rabbit(cx, g, s, 'happy'), h=325, like='zanahoria'),
+            dict(name='Pipa', fig=lambda cx, g, s: bird(cx, g, s, 'happy'), h=150, like='nido')]
+    cfg = dict(cast=cast, sombra_cast=cast, hat_name='Lúa', words=['LUA', 'NUEZ', 'TREBOL', 'PIPA', 'MORA', 'MARI', 'LUNA', 'AMIGOS'],
+               head_main=lambda cx, cy, s, mood: f'<g transform="translate({cx},{cy}) scale({s})">{cat_head(s, mood)}</g>',
+               head_hat=lambda cx, cy, s: f'<g transform="translate({cx},{cy}) scale({s})">{cat_head(s, "happy")}</g>',
+               hero_sit=lambda cx, g, s, mood: cat_sit(cx, g - 272 * s, s, mood),
+               story=[SCENES[0], SCENES[4], SCENES[12], SCENES[17]],
+               retos_titulo='Diez retos de amistad',
+               retos=['Invita a jugar a alguien que esté solo.', 'Di algo bonito a un compañero nuevo.', 'Aprende el nombre de alguien de otra clase.', 'Pregunta a un amigo cómo se siente hoy.', 'Comparte tu merienda o tus colores.', 'Pide perdón si te has equivocado.', 'Juega a un juego que elija otro.', 'Mira la luna con alguien que te quiere.', 'Dibuja a tu familia tal como es.', 'Da las gracias a alguien, mirándole a los ojos.'],
+               extra=dict(bee=bee, snail=snail, tin_can=tin_can, rocks=rocks, sprout=sprout, leaf=leaf))
+    return build_pasatiempos(cfg, TITULO)
+
+
 def interior():
     p = [pagina_titulo(), BLANCO, pagina_guia1(), pagina_guia2(), pagina_personajes(), BLANCO]
     for i in range(len(SCENES)):
         p += [pagina_escena(i), BLANCO]
     p += [pagina_emociones(), BLANCO, pagina_respira(), BLANCO, pagina_superpoder(), BLANCO,
           pagina_amigo(), BLANCO, pagina_diploma(), BLANCO]
+    p += pasatiempos()
     assert len(p) == PAGINAS_TOTAL, len(p)
     return f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>{TITULO}</title><style>{CSS}</style></head><body>{"".join(p)}</body></html>'
 
@@ -272,7 +300,42 @@ def cubierta():
             f'<svg viewBox="0 0 {Wu} {Hu}" xmlns="http://www.w3.org/2000/svg">{s}</svg></body></html>')
 
 
+
+def cubierta_acuarela():
+    """Cubierta con ilustraciones en acuarela (arte/). Misma geometría KDP que cubierta()."""
+    spine = PAGINAS_TOTAL * GROSOR_PAPEL
+    Wi, Hi = 2 * 8.5 + spine + 0.25, 11.25
+    u = 100
+    Wu, Hu = round(Wi * u), round(Hi * u)
+    sx, sw = round((0.125 + 8.5) * u), round(spine * u)
+    fx = sx + sw
+    cx0 = fx + 425
+    bx0 = 12 + 425
+    tinta, crema = '#3a2a1e', '#fffaf0'
+    s = f'<image href="arte/contraportada-acuarela.jpg" x="0" y="0" width="{sx}" height="{Hu}" preserveAspectRatio="xMidYMid slice"/>'
+    s += f'<image href="arte/portada-acuarela.jpg" x="{fx}" y="0" width="{Wu - fx}" height="{Hu}" preserveAspectRatio="xMidYMid slice"/>'
+    s += f'<rect x="{sx}" y="0" width="{sw}" height="{Hu}" fill="#e9c46a"/>'
+    halo = f'stroke="{crema}" stroke-width="10" stroke-opacity=".85" paint-order="stroke" stroke-linejoin="round"'
+    s += f'<text x="{cx0}" y="120" font-family="Fraunces" font-weight="700" font-size="30" fill="{tinta}" {halo} text-anchor="middle" letter-spacing="9">VOLUMEN I</text>'
+    s += f'<text x="{cx0}" y="222" font-family="Fraunces" font-weight="700" font-size="96" fill="{tinta}" {halo} text-anchor="middle">Lúa,</text>'
+    s += f'<text x="{cx0}" y="318" font-family="Fraunces" font-weight="700" font-size="88" fill="#b5562b" {halo} text-anchor="middle">la gatita gris</text>'
+    s += f'<rect x="{cx0 - 285}" y="342" width="570" height="48" rx="24" fill="{crema}" fill-opacity=".9"/>'
+    s += f'<text x="{cx0}" y="374" font-family="Fraunces" font-weight="600" font-size="23" text-anchor="middle" fill="{tinta}">Para colorear · 4 a 8 años · Con guía para familias</text>'
+    s += f'<rect x="{cx0 - 170}" y="968" width="340" height="56" rx="28" fill="{crema}" fill-opacity=".88"/>'
+    s += f'<text x="{cx0}" y="1006" font-family="Fraunces" font-weight="700" font-size="32" text-anchor="middle" fill="{tinta}">{AUTOR}</text>'
+    s += f'<rect x="{bx0 - 350}" y="55" width="700" height="300" rx="26" fill="{crema}" fill-opacity=".92"/>'
+    lineas = ['Volumen I de la serie Lúa', 'A Lúa no la dejan jugar porque no tiene', 'colores vivos. Hasta que una noche, ágil,', 'veloz y valiente, ayuda a Pipa a volver', 'a casa y descubre todo lo que vale.', 'Y lo que ya valía antes.', 'Con 20 pasatiempos y guía para familias.']
+    for i, l in enumerate(lineas):
+        s += f'<text x="{bx0}" y="{100 + i * 37 + (8 if i else 0)}" font-family="Fraunces" font-weight="{700 if i in (0, 6) else 600}" font-size="{27 if i == 0 else 24}" text-anchor="middle" fill="{tinta}">{l}</text>'
+    s += f'<rect x="{round((0.125 + 8.5 - 0.25 - 2) * u)}" y="{round((0.125 + 11 - 0.25 - 1.2) * u)}" width="200" height="120" fill="#fff"/>'
+    css = CSS.replace('@page{size:8.5in 11in;margin:0}', '@page{size:%.4fin %.4fin;margin:0}' % (Wi, Hi))
+    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css}body{{margin:0}} '
+            f'svg{{width:{Wi:.4f}in;height:{Hi:.4f}in;display:block}}</style></head><body>'
+            f'<svg viewBox="0 0 {Wu} {Hu}" xmlns="http://www.w3.org/2000/svg">{s}</svg></body></html>')
+
+
 if __name__ == '__main__':
     open(os.path.join(AQUI, 'interior.html'), 'w').write(interior())
-    open(os.path.join(AQUI, 'portada.html'), 'w').write(cubierta())
+    acu = os.path.exists(os.path.join(AQUI, 'arte', 'portada-acuarela.jpg'))
+    open(os.path.join(AQUI, 'portada.html'), 'w').write(cubierta_acuarela() if acu else cubierta())
     print('ok', PAGINAS_TOTAL, 'paginas; lomo %.3f in' % (PAGINAS_TOTAL * GROSOR_PAPEL))
