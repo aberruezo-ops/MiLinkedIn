@@ -223,6 +223,8 @@ Regla: cada libro cierra su propio misterio y abre uno mayor. El último capítu
 
 ## 14. Formato previsto
 
+- **Firma de la saga: Alex Berr.** Es el nombre de autor para Destiempo en cubiertas, portadilla, ficha de Amazon y redes. Los libros de Lúa siguen firmados como Alex Berruezo.
+
 - Novelas de 60.000 a 75.000 palabras. En KDP, tapa blanda de 5,5 x 8,5 pulgadas o 6 x 9.
 - Cubierta ilustrada e interior con una ilustración por parte, a generar después con Higgsfield (ver guía visual en `guia-visual.md`).
 

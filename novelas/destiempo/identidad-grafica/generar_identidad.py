@@ -241,7 +241,7 @@ def cover(n, uid):
     t, rn = titles[n]
     s += wordmark(f'{uid}w', 200, 118, 84)
     s += f'<text x="200" y="168" text-anchor="middle" font-family="Space Grotesk" font-weight="700" font-size="{19 if n == 2 else 22}" letter-spacing="6" fill="{AMBER}">{t}</text>'
-    s += f'<text x="30" y="572" font-family="Space Grotesk" font-weight="500" font-size="12" letter-spacing="7" fill="{PAPER}" opacity=".9">ALEX BERRUEZO</text>'
+    s += f'<text x="30" y="572" font-family="Space Grotesk" font-weight="500" font-size="12" letter-spacing="7" fill="{PAPER}" opacity=".9">ALEX BERR</text>'
     s += f'<circle cx="362" cy="562" r="20" fill="none" stroke="{AMBER}" stroke-width="2"/><text x="362" y="571" text-anchor="middle" font-family="Bebas Neue" font-size="26" fill="{AMBER}">{rn}</text>'
     return s
 
