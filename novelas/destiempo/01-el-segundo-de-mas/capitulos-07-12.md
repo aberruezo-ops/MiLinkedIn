@@ -33,6 +33,12 @@ Asintió. Se sentó enfrente de mí con las manos alrededor de un vaso de leche 
 
 Se quedó callada un momento. Fuera empezaba a clarear y los tejados de enfrente se ponían de color carne. Abajo, en la calle, alguien subía la persiana de la panadería con ese estruendo que en Vera hace las veces de despertador.
 
+En el balcón de enfrente, la señora Encarna salió en bata a recoger algo que se había quedado enganchado en los geranios. Era un sobre. Un sobre antiguo, de esos con el borde de rayas rojas y azules, amarillo de viejo. Lo abrió allí mismo, se puso las gafas que llevaba colgadas del cuello, leyó, y se llevó la mano al pecho. Después se rio sola, bajito, y se metió en casa con el sobre apretado contra la bata.
+
+«El levante», dijo mi madre, sin girarse, como quien dice que ha refrescado. «Esta noche ha soplado fuerte. Trae de todo».
+
+En Vera se dice así. Que el aire que baja de la sierra trae lo que el tiempo pierde. Una llave que buscabas hace años aparece una mañana en la maceta. Un guante de niño, de un niño que ya tiene bigote. Una carta que nunca llegó. Nadie le da más vueltas. Se recoge, se guarda, y a desayunar. Yo de pequeño pensaba que pasaba en todos los pueblos. Mi padre, que era ingeniero y lo medía todo, era el único al que eso le quitaba el sueño. Se pasaba las noches de levante en el balcón con una libreta, apuntando la hora a la que llegaban las cosas.
+
 «No es que tengas que mentir», dijo. «Es que no hace falta que lo cuentes todo. Hay cosas que son nuestras».
 
 Me pareció una frase preparada. Me pareció que la había dicho en voz alta en el coche, varias veces, para ver cómo sonaba. No se lo dije. Le di un beso en la mejilla, que olía a hospital y a gel de manos, y ella me agarró la muñeca, la del Pulso, y me la apretó un poco más de la cuenta.
@@ -139,6 +145,18 @@ Me dio un vuelco el estómago.
 
 Miré el suelo. En el parquet, el cuadrado claro de la pared de enfrente se reflejaba como un rectángulo de luz. Me dolía la garganta. No sé por qué. Creo que nadie me había dicho antes algo tan cierto, y menos una desconocida.
 
+Entonces levanté los ojos hacia la pared, y el reloj estaba allí.
+
+Un reloj redondo, de esfera blanca y marco de madera, colgado del clavo vacío. Lo vi como se ve una cosa normal, sin sorpresa, con su segundero dando la vuelta y su tic tac llenando el despacho. Marcaba las diez y veintitrés. Estaba un poco torcido. Tenía una mancha de humedad en la esquina de la esfera, con forma de nube.
+
+Parpadeé.
+
+El clavo vacío. El cuadrado claro. Ni reloj, ni tic tac, ni mancha.
+
+Miré a la doctora. Ella estaba escribiendo algo en la tableta y no había levantado la vista. Miré el Pulso: las diez y veintitrés. Exactas.
+
+No dije nada. ¿Qué iba a decir? «Perdone, doctora, acabo de ver un reloj que usted quitó de la pared hace años». Me habrían mandado a otro despacho, uno con barrotes. Me metí la mano en el bolsillo y apreté el reloj de mi abuelo hasta que me dolieron los dedos.
+
 El resto de la hora la pasamos así. Hablábamos de nada, ella dejaba huecos, y yo los llenaba con trozos pequeños que no eran del todo mentira.
 
 Me preguntó por mi madre y le dije que era enfermera. Asintió como si ya lo supiera, y a lo mejor lo sabía, porque en Vera todo el mundo sabe a qué se dedica todo el mundo. Me preguntó si dormía bien y le dije que sí. Me preguntó si había contestado la pregunta de Bienestar+ de la noche anterior, la de los ciento cuarenta pulsos, y le dije que no.
@@ -185,7 +203,7 @@ Se rio. «Todavía no la he hecho». Y entonces, con una voz que no cambió ni u
 
 «¿Sigues contando los segundos en voz baja cuando te asustas? Tu padre lo hacía. Raúl contaba segundos».
 
-Se me paró el pulso. Lo noté de verdad. En la muñeca, el Pulso parpadeó, marcó 0 y, debajo, apareció una sola palabra, pequeña, de pantalla barata:
+Se me paró el pulso. Lo noté de verdad. En el bolsillo, contra mi muslo, el reloj de mi abuelo, que seguía parado salvo cuando le daba la gana, dio un tic. Uno solo, seco, como un nudillo llamando a una puerta. En la muñeca, el Pulso parpadeó, marcó 0 y, debajo, apareció una sola palabra, pequeña, de pantalla barata:
 
 SIN SEÑAL.
 
@@ -367,7 +385,19 @@ Le había cogido la mano sin darme cuenta. Estaba helada.
 
 «Una que saborees».
 
-Respiró. Un aire muy hondo, tembloroso, de esos que parecen venir de muy lejos. Y se le fue quitando, poco a poco, como una ola que se retira. Se sentó recta. Se limpió la sangre con la manga, con cara de cabreo, y me dijo, con la voz todavía rota:
+Respiró. Un aire muy hondo, tembloroso, de esos que parecen venir de muy lejos.
+
+Y en ese segundo, con su mano helada en la mía, el cerro cambió.
+
+No duró nada. Lo que tarda una respiración. Donde había tomillo y piedras sueltas vi una calle empedrada que subía hacia la estatua, con casas bajas a los lados, encaladas, con las puertas abiertas. Olía a leña y a pan. Había humo saliendo de las chimeneas, recto, porque no soplaba nada. Una mujer con un pañuelo en la cabeza sacudía una manta en una ventana. Y arriba, donde ahora está el Sagrado Corazón, había una iglesia de piedra con una campana que empezó a sonar, una, dos, tres veces, grave, tan cerca que la noté en los dientes.
+
+Después, el viento. El tomillo. La estatua blanca. Las luces del pueblo de abajo, del pueblo de verdad.
+
+Me había quedado con la boca abierta. Nora tenía los ojos cerrados y no sé si lo vio. No le pregunté. Me daba miedo que me dijera que no, y me daba más miedo que me dijera que sí.
+
+Lo del terremoto lo sabe cualquiera en Vera, viene en los folletos del ayuntamiento. Lo que no viene en los folletos es que a veces, si estás muy quieto, todavía se oye la campana.
+
+A Nora se le fue quitando, poco a poco, como una ola que se retira. Se sentó recta. Se limpió la sangre con la manga, con cara de cabreo, y me dijo, con la voz todavía rota:
 
 «Eso no es justo».
 
@@ -431,7 +461,17 @@ Crucé. Puse la mano en la persiana. Estaba fría.
 
 No llamé. No sé por qué. Supongo que porque si llamaba él me abriría con su cara de siempre, y diría que era el polvo de la tienda, y me daría una mandarina o un caramelo de los del frasco, y yo haría como que me lo creía. Y no tenía fuerzas para hacer como que me lo creía.
 
-Me quedé allí, con la mano en la persiana, contando las toses. Siete. Después, nada. Después, la radio sola.
+Me quedé allí, con la mano en la persiana, contando las toses. Siete.
+
+Con la séptima, los relojes se pararon.
+
+Todos a la vez. Los treinta o cuarenta relojes de la tienda, los de pared, los de cuco, los de las vitrinas, el de pie que tiene un péndulo como un plato de sopa. Un silencio tan de golpe que me hizo daño en los oídos. Solo quedó la radio, cantando una copla para nadie.
+
+Conté. Uno. Dos. Tres. Cuatro. Cinco.
+
+Y arrancaron otra vez, todos juntos, como una orquesta que se ha perdido y vuelve a entrar en el mismo compás. Tic tac, tic tac, cuarenta veces tic tac.
+
+Dentro, mi abuelo carraspeó y subió el volumen de la radio, como si no hubiera pasado nada. A lo mejor para él no había pasado nada. A lo mejor le pasaba todas las noches.
 
 Subí a casa. Mi madre se había ido a la guardia y me había dejado una tortilla en el microondas y un pósit en la nevera con un corazón mal dibujado. Me comí la tortilla fría, de pie, mirando el móvil sin ver nada. En el grupo de clase seguían pasándose el vídeo del pasillo con nuevos stickers encima. Bruno no había reaccionado. Lo comprobé tres veces.
 

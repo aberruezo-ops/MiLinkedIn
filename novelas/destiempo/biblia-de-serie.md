@@ -242,6 +242,12 @@ Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin qu
 - El reloj de la iglesia da trece campanadas los viernes. Los vecinos hacen una pausa y siguen con lo suyo.
 - En la tienda del abuelo hay una paloma, *Segundero*, que llega cada día a la misma hora aunque el reloj de la tienda no funcione.
 
+**Indicación del autor (noviembre de 2026): más magia, más sobrenatural.** Que lo extraño aparezca en casi todos los capítulos, no solo en los momentos del don. Sin romper la regla de oro del libro I: lo sobrenatural es del lugar y de los objetos, nunca otra persona con don a la vista de Edu antes del cap. 22.
+
+Ya escrito en el libro I:
+- Cap. 7: el levante trae un sobre antiguo al balcón de la señora Encarna. Raúl apuntaba en una libreta la hora a la que llegaban las cosas (semilla para el cuaderno del cap. 11). Edu ve durante un instante el reloj que Ibarra quitó de la pared, a las 10:23, con una mancha de humedad en forma de nube. El reloj de Tomás da un tic cuando Ibarra dice «Raúl».
+- Cap. 8: en el cerro, con la mano de Nora, Edu ve la Vera antigua en pie y oye su campana. Nora tiene los ojos cerrados: no se sabe si lo ve (no delata su secreto). Con la séptima tos de Tomás, todos los relojes de la tienda se paran cinco segundos.
+
 **Reglas.** Lo mágico nunca se explica del todo. Nadie dice «¡es magia!». Los adultos lo tratan como normal. Y siempre tiene relación con el tiempo.
 
 ## 10. Hilo de misterio de la serie
