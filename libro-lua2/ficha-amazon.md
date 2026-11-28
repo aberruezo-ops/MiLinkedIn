@@ -46,13 +46,15 @@ Un libro para hablar de la paciencia, de pedir ayuda, de no poner etiquetas y de
 Volumen II de la serie Lúa. Se puede leer sin haber leído el primero.
 
 ## 7 palabras clave
-1. libro para colorear niños 4 a 8 años
-2. cuento infantil medio ambiente reciclaje
-3. cuento para colorear trabajo en equipo
-4. libro pasatiempos niños 5 6 7 años
-5. cuentos con valores paciencia amistad
-6. regalo niño niña 6 años libro
-7. gatos perro cuento infantil colorear
+No repiten palabras del título ni del subtítulo, que Amazon ya indexa. Máximo 50 caracteres por casilla.
+
+1. libro infantil reciclaje ecología naturaleza (44)
+2. cuentos con valores amistad respeto diversidad (46)
+3. actividades niños laberintos sopa de letras (43)
+4. regalo niño niña 5 6 7 años cumpleaños (38)
+5. educación emocional infantil emociones (38)
+6. cuento de gatos y perros para niños pequeños (44)
+7. libro huerto jardín plantas semillas niños (42)
 
 Revisar cada una en el buscador de amazon.es antes de guardarlas: si Amazon la autocompleta, es que la gente la busca.
 
