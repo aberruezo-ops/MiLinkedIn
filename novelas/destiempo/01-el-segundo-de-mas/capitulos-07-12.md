@@ -87,7 +87,7 @@ Ella se sentó enfrente, en una butaca más baja que el sofá, y esa fue la prim
 
 Sonrió. Tenía una sonrisa que se le ponía primero en los ojos. «Entonces habremos hablado del tiempo. Que, por cierto, hoy sopla levante y me tiene la cabeza como un bombo».
 
-Reí, un poco. Me odié por reír. En el bolsillo de la sudadera noté el reloj de mi abuelo, frío y callado, y repasé las órdenes del lunes: de mi abuelo, *no se lo enseñes a nadie*; de mi madre, *no contestes si te preguntan por tu padre*; de Nora, *no le cuentes nada*. Tres personas que me querían me habían dado la misma instrucción. Eso, por sí solo, ya era sospechoso.
+Reí, un poco. Me odié por reír. En el bolsillo de la sudadera noté el reloj de mi abuelo, frío y callado, y repasé las órdenes de los últimos días: de mi abuelo, *no se lo enseñes a nadie*; de mi madre, *no contestes si te preguntan por tu padre*; de Nora, *no le cuentes nada*. Tres personas que me querían me habían dado la misma instrucción. Eso, por sí solo, ya era sospechoso.
 
 Empezó por lo fácil. ¿Qué tal el instituto? ¿Qué asignaturas se me daban bien? ¿Con quién me juntaba? Contesté con frases de dos palabras, y ella no se dio por vencida ni se desesperó. Hacía algo que descubrí después que se llama *escucha reflexiva*: repetía lo que yo decía, un poco cambiado, para que lo oyera de fuera.
 

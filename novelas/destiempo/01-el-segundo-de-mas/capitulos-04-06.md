@@ -2,7 +2,9 @@
 
 La relojería de mi abuelo no tiene cartel. Tiene una persiana verde con una mancha de óxido en forma de Sudamérica y una puerta de cristal donde, con letras doradas medio comidas, pone MORAL E HIJO. El hijo hace tres años que no pasa por allí. Mi abuelo no ha cambiado el cristal. Es la única relojería que queda en la comarca: le traen relojes de Antas, de Turre, de Los Gallardos, y una vez al año baja un señor de Bédar con un despertador que no tiene arreglo, solo para que mi abuelo le diga que no tiene arreglo.
 
-Entré con mi llave a las cinco menos diez del jueves, que es la hora a la que entro siempre, y lo primero que me recibió fue el ruido.
+Entré con mi llave a las cinco menos diez del viernes, que es la hora a la que entro siempre, y lo primero que me recibió fue el ruido.
+
+Venía de la asamblea con el Pulso en la muñeca y la voz de la doctora Ibarra todavía metida en la cabeza, diciendo mi nombre. Había tardado un día entero en atreverme a ir a la tienda. El jueves pasé por delante sin entrar. El viernes, después de oír mi nombre en un micrófono que no debía saberlo, necesitaba un sitio donde todo hiciera tic y nada hiciera preguntas.
 
 Doscientos relojes. Quizá trescientos: nunca los he contado, y eso que contarlos habría sido lo más natural del mundo para mí. Péndulos, cucos, despertadores de latón, relojes de pared con la esfera pintada de flores, uno de estación enorme que mi abuelo salvó de un derribo. Todos marcaban una hora distinta y todos hacían tic a su aire. Aquello no sonaba como un reloj. Sonaba como un campo de grillos de metal, y era lo mejor que me había pasado en todo el día.
 
@@ -77,6 +79,46 @@ Me mordí una uña. Me salió sangre. Él me tendió un pañuelo sin mirarme.
 «No te sigo».
 
 «Mejor». Casi sonrió. «Mejor que no me sigas todavía».
+
+Sonó la campanilla de la puerta.
+
+Entró un señor muy mayor, más que mi abuelo, con un traje marrón de los de domingo aunque era viernes, una boina y un bastón de madera con el puño gastado. Traía algo envuelto en un pañuelo de cuadros, apretado contra el pecho con las dos manos. Lo reconocí enseguida, aunque solo lo había visto un par de veces en mi vida: era el señor de Bédar. El del despertador.
+
+«Ernesto», dijo mi abuelo, sin levantarse.
+
+«Tomás».
+
+No se dieron la mano. Se miraron un momento, como se miran los que se conocen desde hace tanto que ya no necesitan decirse buenas tardes. Y entonces don Ernesto me vio a mí. Se le cambió la cara. No a mal. Se le cambió como cuando alguien ve una foto antigua y reconoce a quien sale en ella.
+
+«Este es el nieto», dijo. No preguntó.
+
+«Este es el nieto», contestó mi abuelo.
+
+Don Ernesto desenvolvió el pañuelo encima del mostrador con mucho cuidado. Dentro había un despertador redondo, de latón, con dos campanas arriba y una esfera amarilla de viejo. Mi abuelo me había contado que el señor de Bédar lo traía una vez al año, siempre el mismo, y que una vez al año él lo abría, lo miraba y le decía que no tenía arreglo. Que era una costumbre. Como felicitarse la Navidad.
+
+«No es la fecha», dijo mi abuelo.
+
+«Ya lo sé». Don Ernesto se apoyó en el bastón. «Pero esta mañana se ha puesto a andar. Él solo. Después de cuarenta años. Ha dado once tics y se ha parado otra vez». Me miró de nuevo, de reojo. «Y he pensado que a lo mejor querrías saberlo».
+
+Mi abuelo no dijo nada durante un rato. Los relojes de la tienda seguían con su campo de grillos. En la mano de don Ernesto, que temblaba un poco encima del mostrador, el despertador dio un tic. Uno. Seco. Igual que el mío en el vestuario.
+
+Don Ernesto apartó la mano como si quemara.
+
+«Hoy no, Ernesto», dijo mi abuelo muy bajo. «Hoy no».
+
+El señor de Bédar asintió despacio. Volvió a envolver el despertador en el pañuelo, con los mismos dobleces, y se lo apretó contra el pecho. En la puerta se giró hacia mí.
+
+«Tienes los ojos de tu padre», me dijo. «Ten cuidado con lo que miras».
+
+Y se fue. La campanilla sonó. Segundero lo siguió con la cabeza hasta que dobló la esquina.
+
+«¿Quién es?», pregunté.
+
+«Un cliente».
+
+«Abuelo».
+
+«Un cliente muy antiguo». Volvió a bajarse la lupa. «Viene de Bédar, se baja en el autobús de las tres y se sube en el de las seis. Siempre ha sido un poco teatrero». Pero tenía las manos quietas sobre el banco, sin coger ninguna herramienta, y mi abuelo no tiene nunca las manos quietas.
 
 Quise preguntarle por mi padre. Me subió a la garganta como un hipo. «Abuelo, papá…». Pero él ya había vuelto a bajar la lupa, ya estaba moviendo con la uña un tornillo, y dijo sin levantar la vista:
 

@@ -149,7 +149,7 @@ Corté por detrás de la plaza de toros, como siempre. Pasé por delante de la t
 
 Desde la acera de enfrente lo vi a través del cristal, inclinado sobre el mostrador con la lupa en el ojo. Y en el dintel de la puerta, por dentro, como cada tarde, estaba Segundero.
 
-Segundero llega a la tienda cada día a las cinco en punto. Mi abuelo dice que lleva así desde antes de que yo naciera, y que no sabe de dónde viene ni a dónde va por las noches. Lo curioso es que en la tienda no hay un solo reloj en hora, porque son todos relojes por arreglar, y sin embargo Segundero no falla nunca. Las cinco. Ni un minuto antes.
+Segundero llega a la tienda cada día a las cinco menos diez. Mi abuelo dice que lleva así desde antes de que yo naciera, y que no sabe de dónde viene ni a dónde va por las noches. Lo curioso es que en la tienda no hay un solo reloj en hora, porque son todos relojes por arreglar, y sin embargo Segundero no falla nunca. Las cinco menos diez. Ni un minuto antes.
 
 Ese jueves Segundero estaba en su dintel con las plumas un poco revueltas, como si viniera de lejos. Y tenía la pata torcida recogida bajo el cuerpo.
 
@@ -253,9 +253,17 @@ Y yo, que me muero de vergüenza ante cualquier persona que no sea Bruno, mi mad
 
 ### 3. La chica de los auriculares
 
-Se llamaba Nora Ibáñez y apareció en clase al día siguiente, a las nueve y cuarto, con el mismo aire de quien lleva años llegando tarde a todas partes.
+Esa noche dormí tres horas, y las tres soñé con una silla.
+
+Por la mañana, de camino al instituto, la farmacia de la calle Mayor tenía en el escaparate su reloj digital de siempre, el de los números rojos que dan la hora y la temperatura. Al pasar por delante marcó 4:17. Lo vi clarísimo: 4:17, en rojo, parpadeando. Me paré en seco. Un señor con un perro casi se me echa encima. Volví a mirar y ponía 8:09 y 19 °C, como tenía que poner. Me dije que había leído mal. Me lo dije todo el camino.
+
+En la puerta del instituto, el grupo de clase ya echaba humo. Bruno no había subido el vídeo, eso lo comprobé lo primero, en su canal y en todas partes. Pero no hacía falta vídeo. Alguien había hecho un montaje con una foto mía de la orla de primaria, recortada, con unas líneas de velocidad detrás, y debajo había escrito *el moral cuando suena el timbre*. Tenía veintitrés reacciones. Dani había puesto la de llorar de risa. Bruno, ninguna. No sé si eso era bueno o malo.
+
+Se llamaba Nora Ibáñez y apareció en clase esa misma mañana, a las nueve y cuarto, con el mismo aire de quien lleva años llegando tarde a todas partes.
 
 «Chicos, os presento a una compañera nueva», dijo la tutora, la señora Prieto, con su sonrisa de ser humano que ha decidido ser amable aunque nadie se lo haya pedido. «Viene de otra ciudad, así que os pido que seáis majos. Nora, siéntate donde quieras».
+
+Nora cruzó la clase por el pasillo de en medio. Al pasar por debajo del reloj de pared, el que hay encima de la pizarra, el segundero se quedó temblando en el sitio, como un perro que no se atreve a cruzar una puerta. Tres segundos. Cuatro. Cuando ella se sentó, siguió andando. Nadie más lo vio. En mi clase nadie mira ese reloj porque todo el mundo mira la hora en el móvil.
 
 Nora se sentó justo detrás de mí.
 
@@ -269,7 +277,7 @@ No lo hizo adrede, me dije. Era el único sitio libre. Pero llevaba los auricula
 
 No quería mirarla. Pero la miré, de reojo, y comprendí que Bruno tenía razón a su manera: Nora nos miraba a todos con la cara muy quieta y el ceño apenas fruncido, como quien oye un ruido que no puede apagar.
 
-Aguanté tres horas. En el recreo intenté perderme entre los de primero, que son muchos y no te miran, y me fui al fondo de la pista, junto a la valla, donde nadie va porque está llena de chicles pegados. Estaba contando las rejillas cuando una sombra se puso a mi lado.
+Aguanté tres horas. Detrás de mí oía el lápiz de Nora rasgando una libreta, todo el rato, muy fino, como si fuera tomando apuntes de algo que no era la clase. Una vez me giré con la excusa de pasar unas fotocopias y la pillé dibujando círculos de colores, uno al lado de otro, con nombres debajo. Tapó la página con el brazo. No disimuló. Solo la tapó, y me miró como diciendo: tú también tienes cosas que tapar. En el recreo intenté perderme entre los de primero, que son muchos y no te miran, y me fui al fondo de la pista, junto a la valla, donde nadie va porque está llena de chicles pegados. Estaba contando las rejillas cuando una sombra se puso a mi lado.
 
 «No te asustes», dijo una voz. «A mí me pasa cuando alguien se me acerca por la espalda. Perdona».
 
@@ -297,6 +305,14 @@ Tardé un segundo en entender que no hablaba de ruido.
 
 «Pues eso». Se encogió de hombros. «Si alguna vez quieres hablar de algo raro, yo no me río. Lo digo por si acaso».
 
+«¿De dónde vienes?».
+
+«De muchos sitios». Miró la valla, los chicles, el campo de detrás con sus invernaderos brillando. «Ahora de aquí. Hasta que deje de ser de aquí».
+
+«Eso es muy triste».
+
+«Es muy práctico». Y luego, con la misma cara seria: «Lo triste es que en este instituto el wifi va peor que en el anterior, y en el anterior había cabras».
+
 Sonó la sirena del fin del recreo. Los chicos corrían hacia las puertas. A lo lejos, Bruno me buscaba con la mano levantada, riendo de algo que acababa de decir Dani Roca.
 
 «Una cosa más», dijo Nora, y su voz se hizo más baja y más rápida. «Esta tarde hay asamblea. Han venido de la Consejería. Hay una psicóloga, la doctora Ibarra».
@@ -313,13 +329,29 @@ Se fue sin esperar respuesta. La vi alejarse hacia las puertas, pequeña, con la
 
 ---
 
+Bruno me alcanzó en el pasillo, de camino al salón de actos, y se me pegó al hombro como hacía antes de todo, como si no me hubiera dejado en visto la noche anterior.
+
+«¿Qué te ha dicho la espía?».
+
+«Nada. Que no le pareció gracioso lo del gimnasio».
+
+«Ya, claro. Lo que te digo: CNI». Me dio un codazo flojo. Después bajó la voz y miró al suelo. «Oye. No lo he subido».
+
+«Ya lo he visto».
+
+«Pero lo he pensado mucho, ¿eh? Mucho». Se rascó los rizos. «Tío, es que es el mejor vídeo que voy a grabar en mi vida. Y no puedo subirlo porque sale mi mejor amigo haciendo algo que no existe. ¿Tú sabes lo injusto que es eso?».
+
+Se rio. Yo también, un poco. Era la primera vez que nos reíamos desde el vestuario, y me dio tanto alivio que se me olvidó contestarle a lo importante. Él tampoco insistió. A veces la amistad es eso: dos personas que se ponen de acuerdo en no hablar de una cosa durante el rato justo para seguir siendo amigos.
+
+No duró mucho. Pero eso es del lunes.
+
 La asamblea fue en el salón de actos, un cuarto con olor a polvo y sillas de plástico que se pegaban a los muslos.
 
 Allí estaba el director, que parecía un globo con corbata. Estaban dos señores con traje gris, sentados al fondo, que no sonreían. Y en el centro, de pie junto al micrófono, estaba una mujer de unos cuarenta años, con el pelo rizado recogido, un jersey verde y unas gafas pequeñas que se colocaba sobre la cabeza cuando hablaba.
 
 «Hola a todos. Me llamo Elena Ibarra», dijo. «Soy psicóloga y vengo a quedarme unas semanas con vosotros. Lo que hago no da miedo: charlamos, jugamos, os escucho. Eso es todo».
 
-Mientras hablaba, los dos señores del traje gris recorrieron las filas repartiendo pulseras negras, finas como una goma de pelo, con una pantalla del tamaño de una uña. «Pulso», decían. «Para que veáis cómo estáis. Se sincroniza con la aplicación Bienestar+ y ya está». Todos las probaron entre risas. Dani se puso tres.
+Mientras hablaba, los dos señores del traje gris recorrieron las filas repartiendo pulseras negras, finas como una goma de pelo, con una pantalla del tamaño de una uña. «Pulso», decían. «Para que veáis cómo estáis. Se sincroniza con la aplicación Bienestar+ y ya está». Todos las probaron entre risas. En dos minutos el salón de actos era una competición. Dani se puso tres y gritó que tenía ciento cuarenta, que era una máquina. Lucía y sus amigas se hicieron una foto juntando las muñecas para subirla con un corazón. Uno de cuarto le preguntó a otro si la pulsera sabía cuándo te gustaba alguien y el otro le dijo que sí, que pitaba, y medio salón se rio y el otro medio se puso rojo. Bruno ya estaba intentando abrir la suya con la uña, con la lengua fuera, para ver qué llevaba dentro.
 
 Yo me abroché la mía. La pantalla marcó 78. Después 0. Después una palabra que no entendí: SIN SEÑAL.
 
@@ -345,6 +377,3 @@ Detrás de mí, muy baja, tan baja que casi no la oí, Nora susurró:
 
 «Te lo he dicho».
 
----
-
-*(Continuará en el capítulo 4: «El reloj de Tomás».)*
