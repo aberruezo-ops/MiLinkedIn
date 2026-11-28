@@ -40,6 +40,12 @@ Salimos por atrás, entre cajas de fruta. Corrimos hasta la marquesina. El autob
 
 «Arranca», murmuraba Bruno. «Arranca, arranca, arranca».
 
+Tenía el móvil en la mano, en vertical, con la cámara apuntando a la puerta. No creo que se diera cuenta de que lo había sacado. Le salía solo, como a otros morderse las uñas. Nora le puso un dedo encima de la pantalla y la bajó despacio, sin decir nada. Bruno la miró, se miró la mano, y guardó el móvil con cara de que le hubieran pillado robando.
+
+«Perdón», dijo. «Es que si no lo grabo no me creo que esté pasando».
+
+Encima del conductor, el reloj digital del autobús marcaba las 16:28. Parpadeó. Marcó 4:17, en verde, un segundo. Volvió a las 16:28. Nora lo vio también. Lo sé porque se apretó el auricular.
+
 El conductor cerró las puertas. Las volvió a abrir.
 
 Subieron sin correr. Eso era lo peor: no corrían. Uno era alto, con el pelo muy corto. El otro, más bajo, llevaba guantes. Pagaron con monedas justas. El alto se quedó de pie junto al conductor. El de los guantes se sentó tres filas por delante de nosotros, de lado, y no nos miró.
@@ -134,7 +140,7 @@ No en calma. Parado. Las olas se habían quedado a medio hacer, duras, brillante
 
 El reloj de la lonja marcaba las 4:17.
 
-Miré mi reloj de bolsillo, que tenía en la mano sin saber cuándo lo había sacado. Las agujas, que llevaban tres semanas andando, estaban clavadas en las 4:17.
+Miré mi reloj de bolsillo, que tenía en la mano sin saber cuándo lo había sacado. Las agujas, que aquel otoño andaban y se paraban cuando les daba la gana, estaban clavadas en las 4:17.
 
 Y al final del espigón, lejos, junto al faro, había alguien de pie.
 
@@ -204,6 +210,12 @@ Ya no era un mechoncito. Era un mechón entero, ancho como un dedo, blanco de ar
 
 Bruno vive en un tercero sin ascensor de la calle del Mar, y su habitación es exactamente lo que uno espera, hasta que abre el armario.
 
+Antes de la habitación está la cocina, y en la cocina está la nevera, y la nevera de casa de Bruno es lo más triste que he visto en mi vida. No porque esté vacía. Porque está llena de notas. Pósits amarillos, uno encima de otro, con dos letras distintas. *Bruno tiene dentista el martes. M.* *El martes no puedo, que lo lleve ella. P.* *Hay lentejas. M.* *Dile a tu madre que la caldera hace un ruido. P.* *Dile a tu padre que lo llame él.*
+
+«Se escriben a través de mí», dijo Bruno, viendo que lo miraba. Abrió la nevera, sacó dos zumos y la cerró, y los pósits temblaron. «Llevan así desde verano. Yo soy el grupo de mensajes».
+
+Lo dijo con su voz de chiste, pero no se rio. Yo pensé en mi cocina, en la hoja de récords con la casilla en blanco, en mi madre y mi padre llamándose «mi persona». Y me dio una vergüenza rara, por haber tenido tanta suerte sin darme cuenta.
+
 Fuera: un aro de luz para el canal, una silla de gamer que le queda grande, un póster de Ibai y otro de Rosalía que él jura que es de su hermana. Bruno no tiene hermana. Dentro del armario, donde otros tienen abrigos: un portátil viejo con la tapa llena de pegatinas, una Raspberry con los cables fuera, un router que no era el de su casa y un cartel escrito a mano que decía NO TOCAR, MAMÁ, ES PARA CLASE.
 
 «No es para clase», aclaró.
@@ -211,6 +223,20 @@ Fuera: un aro de luz para el canal, una silla de gamer que le queda grande, un p
 «Ya».
 
 Era sábado. Yo llevaba dos días con un dolor de cabeza que no se iba y un mechón blanco que ya no cabía debajo de ninguna mentira. A mi madre le había dicho que eran mechas, una apuesta con Bruno. Se había quedado mirándome diez segundos, había dicho «ya hablaremos» y se había ido al turno con la mandíbula apretada. Últimamente en mi casa lo dejábamos todo para luego.
+
+«Antes de nada», dijo Bruno, «cuéntame lo del puerto. Lo que viste. Nora no me deja preguntarte, dice que te cansa, pero Nora no está».
+
+Se lo conté. El paseo azul de pecera. El mar duro como vidrio de botella. La ola colgada contra el espigón. La niña con el helado, quieta como un mueble. El reloj de la lonja en las 4:17. Y la figura al final del espigón, con la mano levantada.
+
+Bruno escuchó sin moverse. Cuando terminé, se quedó mirando el suelo un rato.
+
+«O sea, que hay otro sitio», dijo. «Como el nuestro, pero parado. Un nivel oculto».
+
+«No es un videojuego, Bruno».
+
+«Ya lo sé. Por eso da más miedo». Se rascó los rizos. «En los videojuegos, cuando encuentras un nivel oculto, es porque alguien lo ha puesto ahí para que lo encuentres».
+
+Lo dijo sin darle importancia, y se puso a enchufar cables. Yo me quedé con la frase. Me ha acompañado mucho tiempo desde entonces.
 
 «A ver, te lo explico para tontos», dijo Bruno, sentándose en el suelo con el portátil en las piernas.
 
@@ -236,7 +262,7 @@ Había líneas y líneas de letras pequeñas. Reconocí pocas palabras. *device_
 
 Mi nombre no salía. Salía un número: *sujeto_0412*. Y debajo, una tabla.
 
-Tenía fechas. La primera, el jueves del balón, 11:52. La segunda, esa misma noche, 23:02. Luego el sábado de la libreta roja, seis filas seguidas. El viernes de las taquillas. El jueves del autobús.
+Tenía fechas. La primera, el jueves del balón, 11:52. La segunda, esa misma noche, 23:14. Luego el sábado de la libreta roja, seis filas seguidas. El viernes de las taquillas. El jueves del autobús.
 
 Cada fila tenía tres columnas. La primera se llamaba *apertura_s*. La segunda, *cargo_min*. La tercera, *cuenta_destino*.
 
@@ -246,13 +272,25 @@ Cada fila tenía tres columnas. La primera se llamaba *apertura_s*. La segunda, 
 
 «Uno, uno, cuatro, nueve, dieciséis...». Me miró. «Tío, esto es tu libreta. Es tu libreta roja, pero la han escrito ellos. Con decimales».
 
+«El segundo está mal», dije.
+
+«¿Cuál?».
+
+«El del vaso de leche. Ahí pone un minuto. Fueron doce. Me acuerdo perfectamente: las 23:14 y las 23:26».
+
+Bruno volvió a mirar la fila. Hizo zoom con dos dedos, como si los números pudieran cambiar de cerca.
+
+«Pues aquí pone uno», dijo despacio. «Un segundo de apertura, un minuto de cargo. Lo que ellos cobran». Se quedó callado. «Entonces los otros once minutos no te los ha cobrado nadie. O los has pasado en algún sitio donde ellos no miran».
+
+No dije nada. Me acordé de la silla de mi padre, separada de la mesa, tibia. Y lo aparté de la cabeza, rápido, como se aparta la mano de un fuego.
+
 Me acordé de la voz de la doctora en la puerta. *Cada vez que lo haces, alguien lo anota.*
 
 «¿Y la tercera columna?».
 
-«Ahí es donde me pierdo». Se rascó los rizos. «"Cuenta destino". En todas pone el mismo código. RV-0001. Yo pensaba que el destino serías tú, que los minutos te los cobran a ti, que para eso te desmayas. Pero tú eres el 0412. Ese RV es otra cosa. Otro... no sé. Otro cliente».
+«Ahí es donde me pierdo». Se rascó los rizos. «"Cuenta destino". En todas pone el mismo código. RM-0001. Yo pensaba que el destino serías tú, que los minutos te los cobran a ti, que para eso te desmayas. Pero tú eres el 0412. Ese RM es otra cosa. Otro... no sé. Otro cliente».
 
-RV.
+RM.
 
 Saqué el cuaderno de mi padre de la mochila. Lo llevaba encima desde lo de Garrucha, envuelto en una bolsa del súper. Busqué la página del rotulador rojo.
 
@@ -278,11 +316,11 @@ La frase se acababa ahí. Había una mancha, como de café, y luego, más abajo,
 
 «Que los segundos que tú usas de más no son tuyos. Que se los estás quitando a alguien. Que el desmayo es solo la comisión».
 
-Me quedé mirando el código. RV-0001.
+Me quedé mirando el código. RM-0001.
 
 Hay cosas que uno sabe antes de querer saberlas. Las iniciales estaban ahí, del tamaño de una hormiga, y mi cabeza daba vueltas alrededor sin posarse, igual que hacía con Marcos en la escalera: mirando de lado, para no ver.
 
-«Puede ser cualquier cosa», dije. «Una referencia. Registro de Valores. Reserva... lo que sea».
+«Puede ser cualquier cosa», dije. «Una referencia. Registro Mercantil. Reserva de memoria... lo que sea».
 
 «Puede», dijo Bruno. No me miraba.
 
@@ -332,7 +370,7 @@ Me senté. No me quité el gorro. Ella no me lo pidió.
 
 Comimos un rato en silencio. La tortilla estaba buena. Eso lo hacía todo más difícil.
 
-«Mamá. ¿Quién es RV?».
+«Mamá. ¿Quién es RM?».
 
 No dejó caer el tenedor ni nada de eso. Mi madre lleva catorce años en Urgencias, en el hospital de Huércal-Overa, con media hora de autovía a la ida y media a la vuelta; no se le caen las cosas. Lo dejó en el plato con mucho cuidado, alineado con el cuchillo.
 
@@ -473,3 +511,27 @@ No fue por valentía. Fue por una frase escrita con la letra de otro al final de
 *NO MÁS.*
 
 Me abracé las rodillas y me puse a contar tablones de la pasarela, luces de barcos y estrellas, por ese orden. Llegué a mil cuatrocientos doce antes de quedarme dormido.
+
+Me desperté una vez, de madrugada, con frío.
+
+El levante había parado. El salar estaba liso como un espejo, con todas las estrellas dentro, y no se oía nada. Miré el reloj de bolsillo, que tenía en la mano. Las cuatro y diecisiete de la mañana. Andaba.
+
+A mi lado, en la madera de la pasarela, a un palmo de mi zapatilla, había algo que antes no estaba.
+
+Un cronómetro. Plateado, redondo, con una correa de cordón negro y el botón de arriba gastado de tanto apretarlo. Lo conocí antes de cogerlo. Lo conocí como se conoce una voz por teléfono. Era el de mi padre. El de medir cuánto tarda una gota de miel en caer. El de los récords de la nevera.
+
+Lo cogí con las dos manos. Estaba frío y mojado de relente, como si llevara toda la noche ahí.
+
+En la pantallita, parada, había una cifra.
+
+*8:43.*
+
+Ocho minutos y cuarenta y tres segundos.
+
+No tuve que pensarlo. Lo supe con todo el cuerpo a la vez. Lo que tardé en quedarme dormido con la cabeza en sus piernas la noche antes de la lluvia. El último récord. El que él no llegó a apuntar en la hoja de la nevera, porque al día siguiente ya no estaba.
+
+Alguien lo había medido. Alguien había guardado ese número tres años. Y el levante, que no trae las cosas sino que las devuelve, me lo había dejado al lado mientras dormía, a las cuatro y diecisiete, en el sitio más solo del mundo.
+
+Me lo apreté contra el pecho, por dentro de la sudadera, al lado del reloj de mi abuelo. Los dos fríos. Los dos haciendo, cada uno a su manera, tic.
+
+Me volví a dormir. Esta vez no conté nada.

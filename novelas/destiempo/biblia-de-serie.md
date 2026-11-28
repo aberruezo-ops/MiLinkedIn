@@ -261,6 +261,9 @@ Ya escrito en el libro I:
 - Cap. 13: Marta recuerda la mañana en que el anillo de Julia apareció en la maceta; Raúl: «que algo pase siempre no quiere decir que sea normal». Ibarra saca el reloj de pulsera de Marcos (plástico azul, parado en las 11:15) y delante de Edu da un tic, el primero en cuatro años.
 - Cap. 14: Nora cuenta que perdió a dos amigos después de contarles «una cosa que sabía de ellos» (su herida, sin desvelar que eran intervalos). Durante el registro, unos zapatos grises se paran ante la puerta del despacho en el minuto ocho; a Nora le sangra la nariz.
 - Cap. 15: en el apagón, Edu recuerda un pasillo con luz de las cuatro y una voz: «Otra vez por un gorro, campeón». Dani le devuelve el reloj de bolsillo, caliente, con una huella de pulgar: «Yo no he visto nada, ¿vale?» (primer paso de su arco).
+- Cap. 16: el reloj digital del autobús marca 4:17 un segundo cuando suben los de gris.
+- Cap. 17: la tabla de Cronos cobra un minuto por el vaso de leche, pero Edu perdió doce: «los otros once los has pasado en algún sitio donde ellos no miran» (paga en el cap. 24). La cuenta destino es RM-0001 (Raúl Moral). Nevera de pósits en casa de Bruno: sus padres se escriben a través de él.
+- Cap. 18: a las 4:17 de la madrugada, en el Salar, el levante deja junto a Edu el cronómetro de Raúl, con la cifra 8:43: lo que tardó Edu en dormirse en sus piernas la noche antes de la lluvia, el récord que faltaba en la nevera (cap. 12). En el cap. 19 Tomás debería verlo o preguntar por él.
 
 **Reglas.** Lo mágico nunca se explica del todo. Nadie dice «¡es magia!». Los adultos lo tratan como normal. Y siempre tiene relación con el tiempo.
 
