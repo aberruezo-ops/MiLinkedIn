@@ -125,7 +125,7 @@ Regla: cada pueblo entra por una persona o por una necesidad de la trama, nunca 
 
 Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sabe que necesita. Los adolescentes se reconocen en lo que sienten, no en el poder.
 
-### Edu (Eduardo) Valdés, 12 años
+### Edu (Eduardo) Moral, 12 años
 - **Quiere:** que nadie le mire, y a la vez que alguien le vea de verdad.
 - **Necesita:** estar presente, dejar de controlarlo todo con números.
 - **Herida:** su padre se fue sin explicación cuando él tenía 9 años. Edu cree que fue por algo que hizo o dejó de hacer.
@@ -156,12 +156,13 @@ Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sa
 - **Arco:** de protegerse con muros a dejarse acompañar.
 
 ### Marta Valdés, 38 años, madre de Edu
+- Apellidos (nov. 2026): la familia paterna se apellida **Moral** (Tomás Moral, Raúl Moral, Edu Moral). Marta conserva el suyo, Valdés. Edu es Eduardo Moral Valdés.
 - Enfermera de urgencias en turno de noche. Divertida cuando duerme, agotada cuando no.
 - **Su mentira:** sabe que Raúl no se fue. Firmó un papel hace tres años con una promesa: «os lo devolveremos». Cree que ocultárselo a Edu lo protege.
 - **Lo que revela:** una madre que quiere ser perfecta y no puede. Edu aprende a verla como persona.
 - **Raúl y ella:** dejaron de ser pareja cuando él le contó que era gay, y no dejaron de ser familia. Siguen casados y se llaman «mi persona». Ver `personajes.md`.
 
-### Tomás Valdés, 74 años, abuelo
+### Tomás Moral, 74 años, abuelo
 - Relojero jubilado, viudo, con las manos llenas de callos. Habla poco y se refugia en arreglar relojes. Tose por las mañanas y dice que es el polvo de la tienda.
 - **Su don:** presta tiempo. Puede regalar segundos propios a otra persona, y esos segundos se le restan de la vida. Fue el primer intervalo que existió y lleva cincuenta años usándolo en secreto, de uno en uno, con mucho cuidado.
 - **Su culpa:** años atrás ayudó sin saberlo a quien después se llevó a su hijo Raúl.
@@ -169,7 +170,7 @@ Cada personaje tiene una herida, una mentira que se cuenta y algo que aún no sa
 - **Frase suya:** «Las cosas que llegan a destiempo no llegan mal, llegan cuando les toca». Es lo último que le dice a Edu, junto a otra: «No uses el segundo de más. No es tuyo».
 - **Después de su muerte:** su tienda, su paloma *Segundero* y sus relojes quedan como herencia y como mapa. Su secreto (que fue el primero y dónde está su foto de 1971) se revela en el libro 3.
 
-### Raúl Valdés, 41 años, padre
+### Raúl Moral, 41 años, padre
 - Ingeniero. Brillante, cariñoso, torpe en lo cotidiano. Hacía reír a Edu midiendo cosas absurdas con un cronómetro.
 - Es gay, lo vive en paz y su familia lo aceptó sin drama, Tomás incluido. Vivía en el piso de abajo, con su padre, y cenaba arriba cada noche. No es un conflicto de la trama ni explica su desaparición.
 - Desapareció hace tres años, un día a las 4:17 de la tarde. No «se fue»: se ofreció a entrar en el Destiempo a cambio de algo que protegía a su hijo (se revela en el libro 4).

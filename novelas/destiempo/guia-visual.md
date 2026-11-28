@@ -12,13 +12,13 @@ Ilustración editorial para novela juvenil: trazo limpio con textura de tinta, p
 
 ## Personajes (descripciones fijas)
 
-**Edu Valdés.** Chico de 12 años, delgado, pelo castaño oscuro algo despeinado, ojos grandes y atentos, uñas mordidas, sudadera gris con capucha y mochila desgastada. Sostiene un reloj de bolsillo de latón con una flor grabada.
+**Edu Moral.** Chico de 12 años, delgado, pelo castaño oscuro algo despeinado, ojos grandes y atentos, uñas mordidas, sudadera gris con capucha y mochila desgastada. Sostiene un reloj de bolsillo de latón con una flor grabada.
 
 **Nora Ibáñez.** Chica de 12 o 13 años, pelo negro liso hasta los hombros, mirada seria y cansada, auriculares grandes de diadema colgados al cuello, camiseta enorme de color mostaza.
 
 **Bruno Ferrer.** Chico de 12 años, ancho de hombros, rizos rubios, sonrisa fácil, un inhalador azul que asoma del bolsillo.
 
-**Tomás Valdés.** Abuelo de unos 75 años, relojero, manos grandes con callos, gafas de lupa sobre la frente, rebeca de lana verde.
+**Tomás Moral.** Abuelo de unos 75 años, relojero, manos grandes con callos, gafas de lupa sobre la frente, rebeca de lana verde.
 
 **Doctora Elena Ibarra.** Mujer de unos 40 años, pelo rizado recogido, gafas pequeñas sobre la cabeza, jersey verde, sonrisa cálida que no llega del todo a los ojos.
 

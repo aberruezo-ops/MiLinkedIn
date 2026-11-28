@@ -1,6 +1,6 @@
 # DESTIEMPO · Estado del proyecto (traspaso)
 
-Trilogía juvenil de Alex Berr (firma de la saga; los libros de Lúa van como Alex Berruezo). Narrador en primera persona, Edu, 12 años. Ambientada en **Vera (Almería)** y su comarca (antes era Madrid; ya está todo trasladado).
+Trilogía juvenil de Alex Berr (firma de la saga; los libros de Lúa van como Alex Berruezo). Narrador en primera persona, Edu Moral, 12 años (antes Valdés; cambiado en nov. 2026, Marta conserva Valdés). Ambientada en **Vera (Almería)** y su comarca (antes era Madrid; ya está todo trasladado).
 
 ## Documentos que mandan
 - `trilogia.md` y `personajes.md`: estructura, mitología, reparto (versión vigente).

@@ -189,11 +189,11 @@ Sin la doctora dentro, el despacho era una habitación cualquiera con una planta
 
 «Porque en el ocho siempre pasa algo».
 
-Se quedó junto a la puerta, con los auriculares puestos. Yo fui al archivador metálico que había detrás de la butaca. Tenía tres cajones. El de arriba, folletos del Programa de Bienestar con adolescentes sonrientes que no se parecían a ninguno que yo conociera. El del medio, fichas de alumnos por orden alfabético, finas, de una hoja o dos: nombre, curso, una gráfica del Pulso, una nota a boli. *Ansiedad ante exámenes. Duelo reciente. Sin incidencias.* Busqué la V.
+Se quedó junto a la puerta, con los auriculares puestos. Yo fui al archivador metálico que había detrás de la butaca. Tenía tres cajones. El de arriba, folletos del Programa de Bienestar con adolescentes sonrientes que no se parecían a ninguno que yo conociera. El del medio, fichas de alumnos por orden alfabético, finas, de una hoja o dos: nombre, curso, una gráfica del Pulso, una nota a boli. *Ansiedad ante exámenes. Duelo reciente. Sin incidencias.* Busqué la M.
 
-Vázquez. Vega. Vicente.
+Márquez. Medina. Molina.
 
-No había Valdés.
+No había Moral.
 
 «Nora, no estoy».
 
@@ -211,7 +211,7 @@ El cajón de abajo estaba cerrado con una llave pequeña, de las de diario. Nora
 
 Abrió. Dentro había pocas carpetas, puede que diez o doce, gruesas, de cartón azul con un reloj de arena dentro de un círculo. La mía estaba la tercera.
 
-VALDÉS, EDUARDO.
+MORAL, EDUARDO.
 
 Pesaba. La abrí encima de la moqueta, de rodillas.
 
@@ -286,7 +286,7 @@ A Bruno lo perdí por una mentira y lo recuperé por una pelea. Si lo pienso, es
 
 Fue el viernes, a la salida, en el pasillo de las taquillas. Yo iba con el gorro calado y las fotos del expediente quemándome en el bolsillo, y no vi a Dani hasta que lo tuve delante. Venía con Hugo y con Lucas, los dos de siempre, los dos del paseo de Garrucha.
 
-«Hombre, Valdés. El mago».
+«Hombre, Moral. El mago».
 
 «Déjame pasar, Dani».
 

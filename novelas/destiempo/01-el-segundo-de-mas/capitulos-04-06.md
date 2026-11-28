@@ -1,6 +1,6 @@
 ### 4. El reloj de Tomás
 
-La relojería de mi abuelo no tiene cartel. Tiene una persiana verde con una mancha de óxido en forma de Sudamérica y una puerta de cristal donde, con letras doradas medio comidas, pone VALDÉS E HIJO. El hijo hace tres años que no pasa por allí. Mi abuelo no ha cambiado el cristal. Es la única relojería que queda en la comarca: le traen relojes de Antas, de Turre, de Los Gallardos, y una vez al año baja un señor de Bédar con un despertador que no tiene arreglo, solo para que mi abuelo le diga que no tiene arreglo.
+La relojería de mi abuelo no tiene cartel. Tiene una persiana verde con una mancha de óxido en forma de Sudamérica y una puerta de cristal donde, con letras doradas medio comidas, pone MORAL E HIJO. El hijo hace tres años que no pasa por allí. Mi abuelo no ha cambiado el cristal. Es la única relojería que queda en la comarca: le traen relojes de Antas, de Turre, de Los Gallardos, y una vez al año baja un señor de Bédar con un despertador que no tiene arreglo, solo para que mi abuelo le diga que no tiene arreglo.
 
 Entré con mi llave a las cinco menos diez del jueves, que es la hora a la que entro siempre, y lo primero que me recibió fue el ruido.
 
@@ -186,7 +186,7 @@ En el instituto, a segunda hora, Dani Roca me arrinconó junto a las taquillas.
 
 No fue una paliza ni nada parecido. Dani no pega. Se acerca demasiado, que es peor, y te habla con una sonrisa que no sabe lo que hace.
 
-«Valdés. Enséñame el truco».
+«Moral. Enséñame el truco».
 
 «No hay truco».
 
@@ -300,7 +300,7 @@ El vídeo duraba seis segundos y tenía once mil cuatrocientas vistas.
 
 *es CGI jajaja*
 *eso es un fallo de compresión, no flipéis*
-*mi primo estudia ahí, es el Valdés ese*
+*mi primo estudia ahí, es el Moral ese*
 *alguien sabe cómo se llama el chaval?*
 *alguien sabe dónde es esto?? (cuenta nueva, sin foto)*
 
@@ -334,7 +334,7 @@ En el patio me acorralaron como pájaros.
 
 Eran quince o veinte, con Dani delante, con el móvil en la mano. Las caras brillaban de esa curiosidad que da miedo porque no es mala: solo quiere saber.
 
-«Valdés. ¿Eso es verdad?».
+«Moral. ¿Eso es verdad?».
 
 «¿Cómo lo has hecho?».
 

@@ -25,7 +25,7 @@ Bruno me eligió el quinto. No porque fuera bueno, sino porque era mi mejor amig
 
 Esa era mi táctica desde primero de ESO. Quedarme atrás, hacer como que corría y contar. Contaba las baldosas del suelo del gimnasio, que son trescientas doce en la mitad en que jugábamos. Contaba los pasos hasta la pared, que son nueve. Contaba cualquier cosa. Contar me tranquilizaba, igual que a mi abuelo le tranquiliza limpiar un reloj, y por motivos parecidos: si hay números, nada puede salir demasiado mal.
 
-Lo de quedarme atrás no empezó en el instituto. Empezó en tercero de primaria, un domingo, cuando Dani Roca y otros dos me vieron en el paseo marítimo de Garrucha con mi padre. Mi padre iba de la mano de Íñigo. Yo iba delante, en patinete, contando los balaustres blancos del malecón, y ni me enteré de que nos habían visto. Me enteré el lunes. Me lo llevan recordando desde entonces: cuatro años, un colegio, un instituto y un mote que no pienso escribir aquí. Cuando mi padre desapareció le añadieron la pregunta. «Oye, Valdés, ¿y tu padre con quién se fue?». Siempre cuando hay gente.
+Lo de quedarme atrás no empezó en el instituto. Empezó en tercero de primaria, un domingo, cuando Dani Roca y otros dos me vieron en el paseo marítimo de Garrucha con mi padre. Mi padre iba de la mano de Íñigo. Yo iba delante, en patinete, contando los balaustres blancos del malecón, y ni me enteré de que nos habían visto. Me enteré el lunes. Me lo llevan recordando desde entonces: cuatro años, un colegio, un instituto y un mote que no pienso escribir aquí. Cuando mi padre desapareció le añadieron la pregunta. «Oye, Moral, ¿y tu padre con quién se fue?». Siempre cuando hay gente.
 
 En mi casa aquello nunca fue un problema. Era lo mejor que teníamos, y ya lo contaré. Pero el pasillo de un instituto no es mi casa, y allí aprendí pronto la única defensa que conozco: hacerme pequeño y contar baldosas.
 
@@ -81,13 +81,13 @@ Yo seguía de pie. Pero ya no estaba donde había estado. Había tres metros de 
 
 El profesor Salcedo se acercó con el ceño fruncido.
 
-«Valdés. ¿Qué ha sido eso?».
+«Moral. ¿Qué ha sido eso?».
 
 «Me he apartado», dije, y me salió una voz que no reconocí, ronca y pequeña.
 
 «Nadie se aparta así».
 
-«Buenos reflejos», dijo Dani, que tenía la cara de quien acaba de ver pasar un tren por su salón. Después se rio, alto, demasiado alto, y le dio un codazo a otro. «¡Buenos reflejos, Valdés!».
+«Buenos reflejos», dijo Dani, que tenía la cara de quien acaba de ver pasar un tren por su salón. Después se rio, alto, demasiado alto, y le dio un codazo a otro. «¡Buenos reflejos, Moral!».
 
 Todos se rieron, y la clase continuó. En la esquina, Lucía miraba su móvil con la frente arrugada: el vídeo de su baile tenía un salto en medio, decía, como si la hubieran cortado, y en el corte se la veía a ella en el aire durante un fotograma muy largo, con la boca abierta. Lo borró. Lo volvió a grabar. A la media hora nadie hablaba de ello porque los chicos tienen una capacidad enorme para dejar de hablar de lo que no entienden. Y porque en el grupo ya estaban con otra encuesta. Pero Bruno no se rio. Bruno me cogió del brazo, con fuerza, en el vestuario, mientras yo intentaba que las manos dejaran de temblarme y me mordía las uñas, que es lo que hago cuando no puedo contar.
 
@@ -335,7 +335,7 @@ No fue una mirada larga. Ni rara. Fue una mirada de las que se quedan un segundo
 
 Sonrió. Se colocó las gafas sobre la cabeza.
 
-«Y ahora», dijo con una calidez enorme, sin dejar de mirarme, «sé que muchos tenéis nervios, así que empezaré por quien tenga más. ¿Eduardo Valdés está por aquí?».
+«Y ahora», dijo con una calidez enorme, sin dejar de mirarme, «sé que muchos tenéis nervios, así que empezaré por quien tenga más. ¿Eduardo Moral está por aquí?».
 
 Alguien me dio un codazo.
 

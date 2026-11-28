@@ -55,7 +55,7 @@ En la puerta del instituto había el atasco de siempre: coches en doble fila, ma
 
 Dani me alcanzó en el pasillo de primero, al lado de las taquillas.
 
-«Eh, Valdés». Venía con dos de su equipo, los tres oliendo a desodorante de bote. «Dicen que hoy vas al loquero».
+«Eh, Moral». Venía con dos de su equipo, los tres oliendo a desodorante de bote. «Dicen que hoy vas al loquero».
 
 No contesté. Seguí andando. Ciento dos baldosas desde la puerta hasta las escaleras, ya contadas.
 
@@ -429,7 +429,7 @@ No entendí la frase. La entendí meses después, en un cementerio, y entonces m
 
 Nora se rio. Una risa corta, por la nariz, que le salió sin permiso.
 
-«Qué cringe eres, Valdés».
+«Qué cringe eres, Moral».
 
 «Ya».
 
@@ -1030,7 +1030,7 @@ Mi madre llegó una hora más tarde, empapada, con el móvil en la mano y la car
 
 No me lo creí ni un día.
 
-El pueblo sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Valdés se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana. Primero en voz baja, en corrillos que se callaban cuando yo pasaba. Después en voz alta. Después escrita con rotulador en la puerta del baño de chicos, con mi apellido y una palabra al lado que no voy a poner aquí. Tenía nueve años. Ese mes empecé a contar baldosas también fuera de casa. Las del patio del colegio eran doscientas cuarenta. Las sigo sabiendo.
+El pueblo sí se lo creyó, y enseguida le puso final. En la panadería, en el portal, en la grada del polideportivo: Raúl Moral se había ido con otro. Era una historia cómoda, cabía en una frase y no obligaba a nadie a preguntarse nada. A mí me la devolvieron en el patio antes de que acabara la semana. Primero en voz baja, en corrillos que se callaban cuando yo pasaba. Después en voz alta. Después escrita con rotulador en la puerta del baño de chicos, con mi apellido y una palabra al lado que no voy a poner aquí. Tenía nueve años. Ese mes empecé a contar baldosas también fuera de casa. Las del patio del colegio eran doscientas cuarenta. Las sigo sabiendo.
 
 Yo sabía que era mentira por una razón muy sencilla. A los quince días, Íñigo llamó a nuestra puerta. No traía postre. Traía la cara de no haber dormido y un juego de llaves de mi padre que no sabía a quién devolver. Mi madre lo hizo pasar, cerró la cocina y estuvieron dentro dos horas. Cuando salió, me revolvió el pelo sin mirarme y bajó las escaleras como un señor mayor. No se había ido con nadie. Nos había dejado a los tres en el mismo rellano.
 

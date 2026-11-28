@@ -3,7 +3,7 @@
 
 **Regla de oro del libro I: Edu cree que es el único.** No conoce a nadie con un don como el suyo. Se lo cuestiona todo: ¿estoy enfermo, estoy loco? Esa soledad es el motor emocional. **Solo en el final descubre que hay más, y ese descubrimiento desencadena el golpe que abre el libro II.**
 
-Narrador: Edu Valdés, 12 años. Lugar: Vera (Almería), con Garrucha, el mar y los invernaderos de fondo. Extensión prevista: 65.000 palabras.
+Narrador: Edu Moral, 12 años. Lugar: Vera (Almería), con Garrucha, el mar y los invernaderos de fondo. Extensión prevista: 65.000 palabras.
 
 ## Parte I. El segundo de más (cap. 1 a 6)
 
@@ -39,7 +39,7 @@ Narrador: Edu Valdés, 12 años. Lugar: Vera (Almería), con Garrucha, el mar y 
 21. **Lo que Ibarra quería.** Marcos es su hijo. Le ofrece un trato: «Tu padre y mi hijo, a cambio de ti».
 22. **No usar el don.** Edu no gira el picaporte: se calma y salva a Nora. Los hombres de gris los acorralan. Aparece Tomás, les presta diez segundos a cada uno y su cuerpo envejece cuarenta años. **Es la primera vez que Edu ve a otra persona con un don.** Muere en sus brazos a las 4:17. Última frase: «No uses el segundo de más. No es tuyo».
 23. **El funeral.** Dos días después, en el cementerio. Cuando bajan el ataúd, a las 16:17, el mundo se para. Edu no ha hecho nada. Y se mueven siete personas: **la señora Pilar, don Ernesto, Rosa, Nora, Marcos, Lía e Iván.** Nora se quita los auriculares: «Soy como tú. Llevo meses queriendo decírtelo». Pilar: «Tu abuelo nos mantuvo vivos cincuenta años. Prestándonos tiempo». Edu comprende que no estaba solo. Nunca lo estuvo.
-24. **4:18.** El mundo reanuda su marcha. Dos semanas después, Bruno le enseña la grabación de la cocina del capítulo 2. Una voz de hombre dice: «Hola, papá». La letra de «NO MÁS» es la de su padre. Y justo entonces, **en el móvil de Edu y en el de los siete, llega la misma notificación de Cronos: «CUENTA DE TOMÁS VALDÉS CERRADA. TRANSFERENCIA PENDIENTE A: EDUARDO VALDÉS».** El reloj de bolsillo marca las 4:18 y Nora oye un latido lejano. Edu acaba de heredar el tiempo prestado de ocho personas, y le quedan veintiún días.
+24. **4:18.** El mundo reanuda su marcha. Dos semanas después, Bruno le enseña la grabación de la cocina del capítulo 2. Una voz de hombre dice: «Hola, papá». La letra de «NO MÁS» es la de su padre. Y justo entonces, **en el móvil de Edu y en el de los siete, llega la misma notificación de Cronos: «CUENTA DE TOMÁS MORAL CERRADA. TRANSFERENCIA PENDIENTE A: EDUARDO MORAL».** El reloj de bolsillo marca las 4:18 y Nora oye un latido lejano. Edu acaba de heredar el tiempo prestado de ocho personas, y le quedan veintiún días.
 
 ## Cabos para el libro II
 

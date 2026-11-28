@@ -6,7 +6,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 
 ## El grupo
 
-### EDU (Eduardo Valdés) · 12 años
+### EDU (Eduardo Moral Moral) · 12 años
 - **Dónde está:** Vera (Almería). Vive con su madre. Su abuelo está en el piso de abajo.
 - **Quiere:** que nadie le mire, y a la vez que alguien le vea de verdad.
 - **Necesita:** estar presente, aprender que querer a alguien cuesta tiempo y que a veces hay que soltar.
@@ -80,7 +80,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 
 ## Los adultos
 
-### TOMÁS VALDÉS · 74 años · abuelo
+### TOMÁS MORAL · 74 años · abuelo
 - **Quiere:** proteger a su nieto sin tener que contárselo todo.
 - **Herida:** su esposa, Julia, murió joven. Le prestó todos los segundos que tenía y no fueron suficientes.
 - **Secreto:** fue el primer intervalo (1971). Ayudó sin saberlo a Aurelio a descubrir el Destiempo.
@@ -98,7 +98,7 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Arco:** de la mentira piadosa a la alianza. En el libro II descubre que ha estado cobrando por el tiempo de su hijo y se rompe.
 - **Escena que no se olvida:** en el libro III se planta delante de Aurelio con su uniforme de enfermera y dice: «Yo cuido gente. Usted la gasta».
 
-### RAÚL VALDÉS · 41 años · padre
+### RAÚL MORAL · 41 años · padre
 - **Quiere:** estar con su hijo.
 - **Herida:** trabajó para el Consejo sin saber lo que cosechaba. Cuando lo supo, ya era tarde.
 - **Quién es:** gay, y en paz con ello. Lo dijo tarde, a los treinta y uno, y lo dijo primero a Marta, después a su padre y después a su hijo. Tomás tardó una tarde entera en contestar y contestó arreglándole un reloj: «A mí me da igual la hora que marques, con tal de que andes». La relación con Marta se convirtió en algo distinto y más fuerte. Su orientación no es un conflicto de la trama ni la causa de nada: es parte de quién es, igual que ser ingeniero o contar segundos.

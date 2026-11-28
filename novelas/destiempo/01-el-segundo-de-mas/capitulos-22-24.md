@@ -195,7 +195,7 @@ Pasó a mi lado. Me puso una mano en la cabeza, encima del mechón blanco, sin p
 
 Los cuatro hombres se detuvieron. Inclinaron la cabeza. Escucharon.
 
-«Tomás Valdés», dijo la voz, por las cuatro bocas a la vez. «Setenta y cuatro años. Tú tampoco me sales en las cuentas. Nunca me has salido. Hay una ficha tuya de 1971 escrita a máquina».
+«Tomás Moral», dijo la voz, por las cuatro bocas a la vez. «Setenta y cuatro años. Tú tampoco me sales en las cuentas. Nunca me has salido. Hay una ficha tuya de 1971 escrita a máquina».
 
 «Y tú hablas mucho para ser un despertador», dijo mi abuelo.
 
@@ -487,7 +487,7 @@ Saqué el mío. Le di la vuelta. La K.
 
 Miró el reloj de la torre, clavado en las 16:17. Miró a los seis, uno por uno, y luego a mí, y por primera vez le vi a aquella mujer la edad que tenía de verdad, toda, detrás de los ojos.
 
-«Esto que estás notando, este rato que nos ha dejado, es lo último que le quedaba. Se lo guardó para hoy. Un minuto para que nos viéramos las caras sin que nos viera nadie más». Se ajustó el pañuelo. «Así que mírame bien, Eduardo Valdés, y que se te quite ya esa cara de huérfano. Tú no has estado solo ni un día de tu vida. Has estado vigilado, que es distinto y cansa más. Pero solo, nunca».
+«Esto que estás notando, este rato que nos ha dejado, es lo último que le quedaba. Se lo guardó para hoy. Un minuto para que nos viéramos las caras sin que nos viera nadie más». Se ajustó el pañuelo. «Así que mírame bien, Eduardo Moral, y que se te quite ya esa cara de huérfano. Tú no has estado solo ni un día de tu vida. Has estado vigilado, que es distinto y cansa más. Pero solo, nunca».
 
 Miré a la chica de la trenza. Al rapado. A Marcos. A los tres viejos. A Nora, a mi lado, con los auriculares colgando.
 
@@ -622,9 +622,9 @@ Bruno miró el suyo y se quedó blanco. Nora miró el suyo. Yo abrí el cajón.
 
 Pantalla blanca. El reloj de arena dentro del círculo. Y debajo, en letras limpias:
 
-**CUENTA DE TOMÁS VALDÉS: CERRADA.**
+**CUENTA DE TOMÁS MORAL: CERRADA.**
 **SALDO PENDIENTE: 7 TITULARES.**
-**TRANSFERENCIA DE OBLIGACIONES A HEREDERO: EDUARDO VALDÉS.**
+**TRANSFERENCIA DE OBLIGACIONES A HEREDERO: EDUARDO MORAL.**
 **PLAZO DE REGULARIZACIÓN: 21 DÍAS.**
 
 Y más abajo, más pequeño, con su puntito de escribiendo:

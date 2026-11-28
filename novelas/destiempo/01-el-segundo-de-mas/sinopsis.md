@@ -5,7 +5,7 @@ Un chico que puede estirar el tiempo descubre que cada segundo de más lo paga a
 
 ## Contraportada
 
-En Vera, un pueblo de Almería donde todo el mundo se conoce, Edu Valdés tiene doce años y una sola estrategia: que nadie lo mire. Cuenta baldosas para calmarse y aguanta callado lo que en el instituto dicen de su padre. Su padre desapareció hace tres años, un martes de lluvia, a las 4:17 de la tarde. El reloj de bolsillo que le dio su abuelo lleva parado en esa hora desde entonces.
+En Vera, un pueblo de Almería donde todo el mundo se conoce, Edu Moral tiene doce años y una sola estrategia: que nadie lo mire. Cuenta baldosas para calmarse y aguanta callado lo que en el instituto dicen de su padre. Su padre desapareció hace tres años, un martes de lluvia, a las 4:17 de la tarde. El reloj de bolsillo que le dio su abuelo lleva parado en esa hora desde entonces.
 
 Hasta que un balón vuela hacia su cara y el mundo se detiene. Medio segundo. Lo justo para apartarse.
 
