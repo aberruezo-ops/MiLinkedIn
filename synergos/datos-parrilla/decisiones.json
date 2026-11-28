@@ -1,38 +1,42 @@
 [
  {
   "n": 1,
-  "decision": "Post del jueves 26 (escala de autonomía): aprobado. Sin cupo en Publora, lo pegas tú a mano el jueves con el vídeo y el primer comentario (texto en posts/2026-11-26-B21-para-pegar.md)"
+  "decision": "Post del jueves 26 (escala de autonomía): confirma si lo pegaste a mano y salió. Si no salió, dime y lo pasamos a otra fecha"
  },
  {
   "n": 2,
-  "decision": "Cupo de Publora: 15 de 15 en noviembre (el post de hoy es el último). Faltan el jueves 26 y el cierre del viernes 27. Opciones: a mano, saltarlos o subir de plan. El cupo de diciembre se repone el 1"
+  "decision": "Estrategia de alcance (A24, 27 nov): desde el lunes 30 hay artículo quincenal (7 dic, 21 dic), dos posts a la semana (martes y jueves), sin miércoles de pregunta ni cierre de viernes. El 17 dic se evalúa. Nada que decidir salvo que quieras cambiar algo antes"
  },
  {
   "n": 3,
-  "decision": "Comentarios en posts ajenos: del 19 al 24 nov se han publicado veintiuno con tus recomendaciones (el 24: Fairen, Zurek, Tayar y Moya). El de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano"
+  "decision": "Cupo de Publora: 15 de 15 en noviembre y 0 programados. El cupo se repone el 1 dic (el horizonte de programación llega hasta el 5 dic). Los posts del 1 y 3 dic se programan tras tu aprobación"
  },
  {
   "n": 4,
-  "decision": "Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras"
+  "decision": "Comentarios en posts ajenos: del 19 al 24 nov se han publicado veintiuno con tus recomendaciones (el 24: Fairen, Zurek, Tayar y Moya). El de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano"
  },
  {
   "n": 5,
-  "decision": "Método 2.1: 229 páginas. El consejo de seis perspectivas (25 nov) dice que no se lleva tal cual a un primer programa: núcleo corto, un ámbito, cliente real, fecha y horquilla de esfuerzo. Pregunta clave: ¿hay ya un cliente real dispuesto? Decide si empiezo por la versión de una página con la horquilla (synergos/consejo/2026-11-25-metodo-2.1.md)"
+  "decision": "Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras"
  },
  {
   "n": 6,
-  "decision": "Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta"
+  "decision": "Método 2.1: 229 páginas. El consejo de seis perspectivas (25 nov) dice que no se lleva tal cual a un primer programa: núcleo corto, un ámbito, cliente real, fecha y horquilla de esfuerzo. Pregunta clave: ¿hay ya un cliente real dispuesto? Decide si empiezo por la versión de una página con la horquilla (synergos/consejo/2026-11-25-metodo-2.1.md)"
  },
  {
   "n": 7,
-  "decision": "Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)"
+  "decision": "Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta"
  },
  {
   "n": 8,
-  "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar"
+  "decision": "Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)"
  },
  {
   "n": 9,
+  "decision": "Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar"
+ },
+ {
+  "n": 10,
   "decision": "Paneles del método: la ronda 1 (cuatro roles) y la 2 (seis empresas) están en panel/. Decide cuatro cosas de la ronda 1 (piezas no retirables, dos deltas con regla del mínimo o media, declaración de plantilla, 2.2 con las propuestas 1 a 8) y si preparo un borrador de la versión de una página con una horquilla de esfuerzo, que piden tres empresas de las seis"
  }
 ]

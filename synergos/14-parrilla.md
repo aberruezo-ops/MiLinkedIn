@@ -1,6 +1,6 @@
 # Parrilla LinkedIn
 
-Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 25 nov 2026, 8:45. La columna Material enlaza el texto, el vídeo, la portada y la publicación en LinkedIn de cada pieza; los mismos enlaces están en la página (datos-parrilla/gen-enlaces.py los genera). Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
+Qué sale cada día en Synergós y en Hestía, el estado del perfil y las ofertas de empleo. La página tiene una pestaña para cada línea; los datos de Hestía, perfil y empleos están en datos-parrilla/ (hestia.json, perfil.json, empleos.json) y salen de Publora, 07-perfil.md y 13-empleo.md. La actualiza cada mañana la rutina "Parte de la mañana" a partir de Publora (list_posts), de 03-backlog-posts.md y de la bitácora. Última actualización: 28 nov 2026, 8:55. La columna Material enlaza el texto, el vídeo, la portada y la publicación en LinkedIn de cada pieza; los mismos enlaces están en la página (datos-parrilla/gen-enlaces.py los genera). Vista en página: https://claude.ai/artifact/DSuA3NPAqej4y4RrD6ki7V (privada).
 
 Cómo se llama cada pieza (regla del 15 nov 2026): tipo, un punto y el título tal como lo leerá la gente, por ejemplo «Artículo · La bola negra: quién decide quién cabe». La fecha va en su columna. Los códigos internos del cuaderno (AR3, B11, C4...) no se usan en esta página; la equivalencia está en la tabla de abajo.
 
@@ -8,32 +8,28 @@ Estados: **publicado**, **programado** (en Publora, sale solo), **aprobado** (te
 
 ## Hoy y lo que viene
 
-Hoy es miércoles 25 nov. Sale hoy a las 8:30 el post de comunidad sobre liderazgo (programado, con vídeo). Ayer salieron tu artículo «Diagnóstico antes que solución» y el post de quién enseña lo que la tarea enseñaba. Con el post de hoy el cupo de noviembre queda agotado: el jueves 26 y el cierre del viernes 27 no caben en Publora.
+Hoy es sábado 28 nov. Publora confirma que todo hasta el miércoles 25 está publicado y que no hay nada programado. Desde el lunes 30 rige la estrategia de alcance: artículo quincenal (el siguiente, el lunes 7 dic), dos posts a la semana (martes y jueves) y sin cierre de viernes. La semana del 30 nov no lleva artículo.
 
 | Día | Pieza | Pilar | Estado | Qué falta y quién | Material |
 |---|---|---|---|---|---|
-| Mié 25 nov | Post comunidad · El liderazgo empieza donde termina el ego | Personas | programado | Sale hoy a las 8:30 con vídeo y primer comentario con el enlace al artículo | [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C11.md) · [Tarjeta](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/tarjeta-comunidad-C11.png) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-comunidad-C11b.mp4) |
-| Jue 26 nov | Post · La escala de autonomía: antes de actuar sola, la IA tiene que ganárselo | Tecnología | aprobado | Aprobado el 25 nov. Sin cupo en Publora: lo pegas tú a mano el jueves con el vídeo y el primer comentario | [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-26-B21.md) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B21.mp4) |
-| Vie 27 nov | Cierre semanal · El orden | Cierre | por redactar | Sin cupo en Publora: se publica a mano o se salta. Se redacta el jueves 26 si lo quieres | [Regla del cierre semanal](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/README.md) · [Plantilla de vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.html) |
-| Lun 30 nov | Artículo · El conocimiento que vive en los equipos | Conocimiento | idea | Por concretar (Trist y Bamforth). Lo pegas tú a mano | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Mar 1 dic | Post · Tema de personas por concretar | Personas | idea | Vuelta 2 del calendario; por concretar. Cae en el cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Mié 2 dic | Post comunidad · ¿Cuántos pilotos has visto escalar? | Tecnología | idea | Por redactar. Cae en el cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Jue 3 dic | Post · El ángulo áureo | El orden | idea | Por redactar; cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Vie 4 dic | Cierre semanal · Conocimiento | Cierre | por redactar | Rutina del jueves 3 dic | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Lun 7 dic | Artículo · Lo que preguntasteis | Todos | idea | Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Mar 8 dic | Post · Minas de carbón y pilotos de IA | Conocimiento | idea | Por redactar; cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Mié 9 dic | Post comunidad · Por concretar (tecnología) | Tecnología (comunidad) | idea | Por concretar | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Jue 10 dic | Post · Por concretar (el orden) | El orden | idea | Por concretar | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
-| Vie 11 dic | Cierre semanal · Personas | Cierre | por redactar | Rutina del jueves 10 dic | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Jue 26 nov | Post · La escala de autonomía: antes de actuar sola, la IA tiene que ganárselo | Tecnología | por confirmar | Lo pegabas tú a mano el jueves (no sale en Publora). Confirma si salió | [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-26-B21.md) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-infografia-B21.mp4) |
+| Mar 1 dic | Post · ¿Cuántos pilotos has visto escalar? | Tecnología | por redactar | La rutina del lunes 30 a las 8:47 te presenta el borrador. Sin artículo esta semana. Sale con el cupo de diciembre | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Jue 3 dic | Post · El ángulo áureo | El orden | idea | La rutina del miércoles 2 a las 8:47 te presenta el borrador | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Lun 7 dic | Artículo · El conocimiento que vive en los equipos | Conocimiento | por redactar | La rutina del jueves 3 dic lo redacta. Lo pegas tú a mano | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mar 8 dic | Post · Personas (por concretar) | Personas | idea | Por concretar el lunes 7 | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Jue 10 dic | Post · El orden (por concretar) | El orden | idea | Por concretar el miércoles 9 | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Mar 15 dic | Post · Minas de carbón y pilotos de IA | Conocimiento | idea | Semana sin artículo | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Jue 17 dic | Post · El orden (por concretar) | El orden | idea | Ese día, a las 17:41, balance de tres semanas de la estrategia de alcance | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
+| Lun 21 dic | Artículo · Lo que preguntasteis | Personas | idea | Por concretar con las preguntas reales de las semanas anteriores | [Banco y calendario de posts](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md) |
 
-## Semanas siguientes (vuelta 2, por concretar)
+## Semanas siguientes (vuelta 2, artículo quincenal)
 
-| Semana | Artículo del lunes | Hijos previstos |
+| Semana | Artículo del lunes | Posts previstos |
 |---|---|---|
-| 30 nov | AR6 El conocimiento que vive en los equipos (Trist y Bamforth) | personas / C16 ¿cuántos pilotos has visto escalar? / B10 ángulo áureo |
-| 7 dic | AR7 Lo que preguntasteis | B2 minas de carbón y pilotos de IA / tecnología / el orden |
-| 14 dic | AR8 De la demo al uso | C14 / C9 / el orden |
-| 21 dic | AR9 El orden importa: 137,5 grados | B10 / C17 cierre de año / B17 el método en una página |
+| 30 nov | Sin artículo | Mar 1 dic ¿cuántos pilotos has visto escalar? / Jue 3 dic el ángulo áureo |
+| 7 dic | AR6 El conocimiento que vive en los equipos (Trist y Bamforth) | personas / el orden |
+| 14 dic | Sin artículo | conocimiento (minas de carbón y pilotos de IA) / el orden (17 dic, balance de la estrategia de alcance) |
+| 21 dic | AR7 Lo que preguntasteis | tecnología / el orden (el 24 es Nochebuena: decidir si se mueve o se omite) |
 
 En el banco, sin fecha: B19 (volumen o conversión), B20 (el marco al que le falta una columna), B21 (infografía de las puertas de autonomía), B22 (aprendizaje en público sobre gobierno de IA), las dos vías de PwC como idea de post, y la serie de ocho infografías (la primera, "acelera, automatiza, aumenta", hecha y sin publicar).
 
@@ -61,6 +57,7 @@ En el banco, sin fecha: B19 (volumen o conversión), B20 (el marco al que le fal
 | Vie 20 nov | Cierre semanal · Quién cabe | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7529451636377903104) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-20-V3.md) · [Vídeo](https://media.publora.com/videos/1794988836237-anim-resumen-semana-V3.mp4) · [Carpeta preparada](https://github.com/aberruezo-ops/MiLinkedIn/tree/claude/linkedin-skills-guide-o8dp6v/synergos/listos-para-publicar/2026-11-20-viernes) |
 | Lun 23 nov | Artículo · Diagnóstico antes que solución | [Artículo en LinkedIn](https://www.linkedin.com/pulse/diagn%C3%B3stico-antes-que-soluci%C3%B3n-la-puerta-por-pasa-berruezo-m%C3%A1rquez-qdige/) · [Texto del artículo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion-para-pegar.md) · [Notas del borrador](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/articulos/05-diagnostico-antes-que-solucion.md) · [Post de presentación](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-23-AR5-post.md) · [Portada](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/portada-articulo-05.png) · [Vídeo](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-articulo-05.mp4) |
 | Mar 24 nov | Post · Quién enseña lo que la tarea enseñaba | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7530906818252836864) · [Texto del post](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-24-B24.md) · [Vídeo](https://media.publora.com/videos/1795506300223-anim-infografia-B24.mp4) |
+| Mié 25 nov | Post comunidad · El liderazgo empieza donde termina el ego | [En LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7531257886098980864) · [Texto](https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C11.md) · [Vídeo](https://media.publora.com/videos/1795506570030-anim-comunidad-C11b.mp4) |
 
 Las métricas por pieza están en 12-metricas.md (las actualiza la rutina del jueves).
 
@@ -68,21 +65,22 @@ Hestía (página de empresa, también por Publora): 28 oct, 2 nov y 9 nov, con s
 
 ## Cupo de Publora
 
-Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto. Horizonte de programación: hasta el 30 nov.
+Plan Starter: 15 posts al mes, 3 programados a la vez, 5 comentarios y 5 reacciones al día, 6 acciones por minuto. Horizonte de programación: hasta el 5 dic.
 
-**Noviembre se queda 2 posts corto.** A 25 nov, Publora cuenta 15 posts usados de 15; queda 1 programado (el de hoy, que sale a las 8:30). Para el resto del mes el calendario pide 2 más (el post del jueves 26 y el cierre del viernes 27), sin contar Hestía. Faltan 2. El cupo de diciembre se repone el 1, y el horizonte de programación llega hasta el 2 dic. Opciones: publicar a mano esos dos, saltarlos o subir de plan.
+A 28 nov, Publora cuenta 15 posts usados de 15 y 0 programados. El cupo se repone el 1 dic. Con dos posts a la semana, diciembre queda holgado: del 1 al 21 dic caben 7 posts y artículos a mano. Previstos sin programar: los de los días 1 y 3 dic. Faltan: 0.
 
 ## Decisiones pendientes de Alejandro
 
-1. Post del jueves 26 (escala de autonomía): aprobado. Sin cupo en Publora, lo pegas tú a mano el jueves con el vídeo y el primer comentario (texto en posts/2026-11-26-B21-para-pegar.md)
-2. Cupo de Publora: 15 de 15 en noviembre (el post de hoy es el último). Faltan el jueves 26 y el cierre del viernes 27. Opciones: a mano, saltarlos o subir de plan. El cupo de diciembre se repone el 1
-3. Comentarios en posts ajenos: del 19 al 24 nov se han publicado veintiuno con tus recomendaciones (el 24: Fairen, Zurek, Tayar y Moya). El de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano
-4. Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras
-5. Método 2.1: 229 páginas. El consejo de seis perspectivas (25 nov) dice que no se lleva tal cual a un primer programa: núcleo corto, un ámbito, cliente real, fecha y horquilla de esfuerzo. Pregunta clave: ¿hay ya un cliente real dispuesto? Decide si empiezo por la versión de una página con la horquilla (synergos/consejo/2026-11-25-metodo-2.1.md)
-6. Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta
-7. Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)
-8. Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar
-9. Paneles del método: la ronda 1 (cuatro roles) y la 2 (seis empresas) están en panel/. Decide cuatro cosas de la ronda 1 (piezas no retirables, dos deltas con regla del mínimo o media, declaración de plantilla, 2.2 con las propuestas 1 a 8) y si preparo un borrador de la versión de una página con una horquilla de esfuerzo, que piden tres empresas de las seis
+1. Post del jueves 26 (escala de autonomía): confirma si lo pegaste a mano y salió. Si no salió, dime y lo pasamos a otra fecha
+2. Estrategia de alcance (A24, 27 nov): desde el lunes 30 hay artículo quincenal (7 dic, 21 dic), dos posts a la semana (martes y jueves), sin miércoles de pregunta ni cierre de viernes. El 17 dic se evalúa. Nada que decidir salvo que quieras cambiar algo antes
+3. Cupo de Publora: 15 de 15 en noviembre y 0 programados. El cupo se repone el 1 dic (el horizonte de programación llega hasta el 5 dic). Los posts del 1 y 3 dic se programan tras tu aprobación
+4. Comentarios en posts ajenos: del 19 al 24 nov se han publicado veintiuno con tus recomendaciones (el 24: Fairen, Zurek, Tayar y Moya). El de Jorge García lo publicaste tú a mano. Mira si responden y decide si contestas a mano
+5. Parrilla: confirma si ya se ven los enlaces de Material en la página tras la corrección del 19 nov. Si no, dime qué pestaña miras
+6. Método 2.1: 229 páginas. El consejo de seis perspectivas (25 nov) dice que no se lleva tal cual a un primer programa: núcleo corto, un ámbito, cliente real, fecha y horquilla de esfuerzo. Pregunta clave: ¿hay ya un cliente real dispuesto? Decide si empiezo por la versión de una página con la horquilla (synergos/consejo/2026-11-25-metodo-2.1.md)
+7. Gestor Synergós y manual Synergós Champion: al día con el método 2.1 desde el 21 nov (objetivo de negocio, valor y dueño del beneficio, dos deltas, alertas nuevas). Revísalos y dime qué sobra. Decide también si se lo enseñas a alguien: hoy solo lo ves tú. Remotion para los vídeos sigue sin instalar; propuesta pendiente de tu respuesta
+8. Réplicas a mano: Jorge García (artículo «¿Acelera, automatiza o aumenta?»), Rafael Gonzalez, Ana López Ranz y las respuestas a tus comentarios en los hilos de Alex Lopez y Rocio Tallarico. Infografía de los tres verbos: decidir fecha (recomendado: publicarla a mano)
+9. Candidaturas: enviar Wolters Kluwer (lista) y decidir Santander y Capgemini Invent. El curso de gobierno de IA: AEC (27 nov), Chief AI Officer de UNIR y ISO 42001 de PECB (1 a 4 dic). Plugins Website Design, Codesign y Humanizer: instalar desde el ordenador si los quieres usar
+10. Paneles del método: la ronda 1 (cuatro roles) y la 2 (seis empresas) están en panel/. Decide cuatro cosas de la ronda 1 (piezas no retirables, dos deltas con regla del mínimo o media, declaración de plantilla, 2.2 con las propuestas 1 a 8) y si preparo un borrador de la versión de una página con una horquilla de esfuerzo, que piden tres empresas de las seis
 
 ## Equivalencia con los códigos internos
 

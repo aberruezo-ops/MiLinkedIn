@@ -492,9 +492,13 @@
   "tipo": "Post",
   "pieza": "mié 25 nov · Post comunidad · El liderazgo empieza donde termina el ego",
   "pilar": "Personas",
-  "estado": "programado",
-  "falta": "Sale hoy a las 8:30 con vídeo y primer comentario con el enlace al artículo",
+  "estado": "publicado",
+  "falta": "",
   "enlaces": [
+   {
+    "t": "En LinkedIn",
+    "u": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7531257886098980864"
+   },
    {
     "t": "Texto",
     "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/posts/2026-11-11-C11.md"
@@ -514,8 +518,8 @@
   "tipo": "Post",
   "pieza": "jue 26 nov · Post · La escala de autonomía: antes de actuar sola, la IA tiene que ganárselo",
   "pilar": "Tecnología",
-  "estado": "aprobado",
-  "falta": "Aprobado el 25 nov. Sin cupo en Publora: lo pegas tú a mano el jueves con el vídeo y el primer comentario",
+  "estado": "por confirmar",
+  "falta": "Lo pegabas tú a mano el jueves (no sale en Publora). Confirma si salió",
   "enlaces": [
    {
     "t": "Texto",
@@ -528,58 +532,12 @@
   ]
  },
  {
-  "fecha": "2026-11-27",
-  "tipo": "Cierre",
-  "pieza": "vie 27 nov · Cierre semanal · El orden",
-  "pilar": "Cierre",
-  "estado": "por redactar",
-  "falta": "Sin cupo en Publora: se publica a mano o se salta. Se redacta el jueves 26 si lo quieres",
-  "enlaces": [
-   {
-    "t": "Regla del cierre semanal",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/README.md"
-   },
-   {
-    "t": "Plantilla de vídeo",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/imagenes/anim-resumen-semana-V3.html"
-   }
-  ]
- },
- {
-  "fecha": "2026-11-30",
-  "tipo": "Artículo",
-  "pieza": "lun 30 nov · Artículo · El conocimiento que vive en los equipos",
-  "pilar": "Conocimiento",
-  "estado": "idea",
-  "falta": "Por concretar (Trist y Bamforth). Lo pegas tú a mano",
-  "enlaces": [
-   {
-    "t": "Banco y calendario de posts",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
-   }
-  ]
- },
- {
   "fecha": "2026-12-01",
   "tipo": "Post",
-  "pieza": "mar 1 dic · Post · Tema de personas por concretar",
-  "pilar": "Personas",
-  "estado": "idea",
-  "falta": "Vuelta 2 del calendario; por concretar. Cae en el cupo de diciembre",
-  "enlaces": [
-   {
-    "t": "Banco y calendario de posts",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
-   }
-  ]
- },
- {
-  "fecha": "2026-12-02",
-  "tipo": "Post",
-  "pieza": "mié 2 dic · Post comunidad · ¿Cuántos pilotos has visto escalar?",
+  "pieza": "mar 1 dic · Post · ¿Cuántos pilotos has visto escalar?",
   "pilar": "Tecnología",
-  "estado": "idea",
-  "falta": "Por redactar. Cae en el cupo de diciembre",
+  "estado": "por redactar",
+  "falta": "La rutina del lunes 30 a las 8:47 te presenta el borrador. Sin artículo esta semana. Sale con el cupo de diciembre",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -593,21 +551,7 @@
   "pieza": "jue 3 dic · Post · El ángulo áureo",
   "pilar": "El orden",
   "estado": "idea",
-  "falta": "Por redactar; cupo de diciembre",
-  "enlaces": [
-   {
-    "t": "Banco y calendario de posts",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
-   }
-  ]
- },
- {
-  "fecha": "2026-12-04",
-  "tipo": "Cierre",
-  "pieza": "vie 4 dic · Cierre semanal · Conocimiento",
-  "pilar": "Cierre",
-  "estado": "por redactar",
-  "falta": "Rutina del jueves 3 dic",
+  "falta": "La rutina del miércoles 2 a las 8:47 te presenta el borrador",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -618,10 +562,10 @@
  {
   "fecha": "2026-12-07",
   "tipo": "Artículo",
-  "pieza": "lun 7 dic · Artículo · Lo que preguntasteis",
-  "pilar": "Todos",
-  "estado": "idea",
-  "falta": "Por concretar con las preguntas reales de las semanas anteriores. Lo pegas tú a mano",
+  "pieza": "lun 7 dic · Artículo · El conocimiento que vive en los equipos",
+  "pilar": "Conocimiento",
+  "estado": "por redactar",
+  "falta": "La rutina del jueves 3 dic lo redacta. Lo pegas tú a mano",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -632,24 +576,10 @@
  {
   "fecha": "2026-12-08",
   "tipo": "Post",
-  "pieza": "mar 8 dic · Post · Minas de carbón y pilotos de IA",
-  "pilar": "Conocimiento",
+  "pieza": "mar 8 dic · Post · Personas (por concretar)",
+  "pilar": "Personas",
   "estado": "idea",
-  "falta": "Por redactar; cupo de diciembre",
-  "enlaces": [
-   {
-    "t": "Banco y calendario de posts",
-    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
-   }
-  ]
- },
- {
-  "fecha": "2026-12-09",
-  "tipo": "Post",
-  "pieza": "mié 9 dic · Post comunidad · Por concretar (tecnología)",
-  "pilar": "Tecnología (comunidad)",
-  "estado": "idea",
-  "falta": "Por concretar",
+  "falta": "Por concretar el lunes 7",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -660,10 +590,10 @@
  {
   "fecha": "2026-12-10",
   "tipo": "Post",
-  "pieza": "jue 10 dic · Post · Por concretar (el orden)",
+  "pieza": "jue 10 dic · Post · El orden (por concretar)",
   "pilar": "El orden",
   "estado": "idea",
-  "falta": "Por concretar",
+  "falta": "Por concretar el miércoles 9",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
@@ -672,12 +602,40 @@
   ]
  },
  {
-  "fecha": "2026-12-11",
-  "tipo": "Cierre semanal",
-  "pieza": "vie 11 dic · Cierre semanal · Personas",
-  "pilar": "Cierre",
-  "estado": "por redactar",
-  "falta": "Rutina del jueves 10 dic",
+  "fecha": "2026-12-15",
+  "tipo": "Post",
+  "pieza": "mar 15 dic · Post · Minas de carbón y pilotos de IA",
+  "pilar": "Conocimiento",
+  "estado": "idea",
+  "falta": "Semana sin artículo",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-17",
+  "tipo": "Post",
+  "pieza": "jue 17 dic · Post · El orden (por concretar)",
+  "pilar": "El orden",
+  "estado": "idea",
+  "falta": "Ese día, a las 17:41, balance de tres semanas de la estrategia de alcance",
+  "enlaces": [
+   {
+    "t": "Banco y calendario de posts",
+    "u": "https://github.com/aberruezo-ops/MiLinkedIn/blob/claude/linkedin-skills-guide-o8dp6v/synergos/03-backlog-posts.md"
+   }
+  ]
+ },
+ {
+  "fecha": "2026-12-21",
+  "tipo": "Artículo",
+  "pieza": "lun 21 dic · Artículo · Lo que preguntasteis",
+  "pilar": "Personas",
+  "estado": "idea",
+  "falta": "Por concretar con las preguntas reales de las semanas anteriores",
   "enlaces": [
    {
     "t": "Banco y calendario de posts",
