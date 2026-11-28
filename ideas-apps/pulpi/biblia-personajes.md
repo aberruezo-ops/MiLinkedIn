@@ -72,3 +72,18 @@ Cada amigo vive en un rincón del mundo submarino o de la costa, enseña una cos
 Licencia artística a explicar en la app: los pulpos de verdad cambian de color y textura para camuflarse y para comunicarse, no exactamente por "emociones". En el juego se usa como recurso para nombrar emociones; un "sabías que" puede contar cómo lo hacen en la realidad (sin afirmar nada que no revise el biólogo).
 
 Pendiente para el diseño definitivo: fijar con un ilustrador el número exacto de brazos visibles en cada vista (en la hoja generada no se cuentan ocho con claridad en todas).
+
+## Hoja de Doña Posi (2026-11-28, imagenes/posi-hoja-personaje.png)
+
+Diseño fiel a la planta real: mata de hojas largas en forma de cinta, enraizada en un montoncito de arena; sin brazos, manos ni pies. Lleva un racimo de "olivas de mar" (sus frutos, que flotan) como adorno. Mismo verde en todas las emociones: a diferencia de Pulpi, no cambia de color; se expresa con la cara y el movimiento de las hojas.
+
+| expresión | gesto |
+| --- | --- |
+| serena | hojas que se mecen suaves |
+| riendo | hojas que botan hacia arriba |
+| contando una historia | una hoja larga se curva como señalando |
+| preocupada | hojas caídas y un plástico enredado (enlaza con la misión del mundo 1) |
+| orgullosa | hojas abiertas y burbujas de oxígeno subiendo |
+| dormida | hojas plegadas, ojos cerrados |
+
+Revisión: se corrigió una hoja que terminaba en mano con dedo. Pendiente de validar con el biólogo: el aspecto de las olivas de mar y la idea de mostrar burbujas de oxígeno.
