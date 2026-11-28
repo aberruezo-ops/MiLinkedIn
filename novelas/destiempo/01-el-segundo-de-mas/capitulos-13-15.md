@@ -15,9 +15,33 @@ Que mi padre llevaba meses durmiendo mal y apuntando cosas. Que una tarde vino a
 
 Le pregunté si había algo más. Tardó un segundo de más en decir que no. Ya sé lo que vale un segundo de más. Me lo guardé.
 
+Después abrió el cuaderno de mi padre. No lo leyó. Lo hojeó despacio, con la yema del dedo, como quien acaricia a un perro dormido, hasta que llegó a la página del LEVANTE. Ahí se paró.
+
+«El anillo de la abuela Julia», dijo, poniendo el dedo en una línea. «Me acuerdo de esa mañana. Apareció en la maceta de la entrada, entre los geranios. Tu abuelo lo había buscado veinte años. Lo cogió, se lo guardó en el bolsillo del chaleco y no dijo nada en todo el día. Por la noche lo oí llorar desde la escalera».
+
+«¿Y papá?».
+
+«Tu padre se pasó la semana apuntando la hora en todas partes. Decía que había un patrón. Que las cosas no se perdían, que se quedaban esperando en algún sitio y que alguien las devolvía». Cerró el cuaderno. «Yo le decía que era el viento. Que en Vera las cosas aparecen y ya está, que mi madre ya lo decía. Y él me decía: "Marta, que algo pase siempre no quiere decir que sea normal"».
+
+Se rio por la nariz, con los ojos mojados.
+
+«Tenía razón. El muy pesado. Siempre tenía razón en las cosas que no servían para nada».
+
+Luego me miró la cabeza. El gorro. Alargó la mano y me lo quitó, igual que había hecho el abuelo, y me miró el pelo blanco un rato largo sin decir nada. Me pareció que contaba. Le conocía esa cara. Era la de contar pastillas, o gotas de un suero.
+
+«¿Cuántos hay?», preguntó.
+
+«Uno».
+
+«Mentira».
+
+«Tres».
+
+Me puso el gorro otra vez. Ella no lo ajustó por encima de las orejas como mi abuelo. Lo dejó un poco torcido, y se le quedó la mano encima un momento, como si quisiera sujetarme la cabeza en el sitio.
+
 Lo que sí hizo, antes de irse a dormir, fue cogerme la cara con las dos manos.
 
-«El jueves tienes sesión con esa mujer. No vayas».
+«Hoy tienes sesión con esa mujer. No vayas».
 
 «Si no voy, sabrán que sé algo».
 
@@ -97,6 +121,22 @@ Ella miró la tableta y luego me miró a mí. Lo supo. Supo que yo ya había vis
 
 «Esa sí que es una pregunta buena». Se frotó los ojos por debajo de las gafas, que seguían en el pelo. «No lo sé explicar, Edu. Hay un sitio. No está lejos. Está tan cerca que da rabia. Tu padre está ahí, y está vivo, y no es el único».
 
+Abrió el cajón de su mesa. Sacó una cajita de cartón, de las de bombones, y de dentro un reloj de pulsera de niño. Era de plástico azul, con la correa de velcro gastada y la esfera empañada por dentro, como un cristal en invierno. Lo dejó en la mesa baja, entre los dos, al lado del cuenco de mandarinas.
+
+«El de la tienda de tu abuelo», dije. «El que no tenía arreglo».
+
+«Ese».
+
+Lo miré. Estaba parado en las once y cuarto. Y entonces, sin que nadie lo tocara, hizo tic.
+
+Uno solo. Tan bajito que, si no llega a ser porque en el despacho no había más relojes, no lo habría oído nadie.
+
+La doctora Ibarra se quedó blanca. Blanca de verdad, como el papel. Miró el reloj, luego a mí, luego otra vez el reloj, y vi cómo se le abría la boca y cómo la cerraba. Le temblaba la barbilla. Por un momento pensé que iba a cogerme las manos, o a echarse a llorar, o a gritar. No hizo ninguna de las tres cosas. Cogió el reloj con dos dedos, como se coge algo que quema, y lo volvió a meter en su cajita. Cerró el cajón.
+
+«Cuatro años», dijo, muy bajo, para ella. «Cuatro años sin un tic».
+
+Después se arregló las gafas en el pelo y volvió a ser la doctora Ibarra, entera, con su voz de sillón calentito. Pero ya no me engañaba. Había visto la otra, la de debajo. Y la de debajo tenía muchísima más prisa.
+
 *Marcos*, pensé. No lo dije. Vi el nombre pasarle a ella por la cara al mismo tiempo que a mí por la cabeza.
 
 «Yo puedo ayudarte a encontrarlo», dijo. «Tengo los medios, tengo los datos y tengo, créeme, más motivos que nadie en esa lista de gente que estudia. Pero no puedo hacerlo sin ti. Nadie puede. Hace falta alguien como tú».
@@ -157,11 +197,33 @@ Abrió la libreta, la cerró.
 
 «He tenido muchas psicólogas», dijo. Y era una respuesta tan razonable que no se me ocurrió seguir preguntando.
 
+Abajo, en el pueblo, empezaban a encenderse las farolas de la carretera de Garrucha, en fila. Un grupo de chavales de nuestro curso subía por la cuesta con un altavoz, a grabarse en el mirador con la puesta de sol detrás, y Nora se encogió un poco en el respaldo, como si le hubieran subido el volumen del mundo. Los chavales se hicieron la foto, gritaron algo, bajaron. El cerro volvió a quedarse en silencio.
+
+«En el otro instituto tenía dos amigos», dijo Nora de pronto, sin mirarme. «Un chico y una chica. Hacíamos todo juntos. Éramos un poco como Bruno y tú antes de que dejarais de hablaros».
+
+Me sorprendió que supiera eso. No le había contado nada de Bruno.
+
+«¿Y qué pasó?».
+
+«Que les conté una cosa». Le dio vueltas al lápiz entre los dedos. «Una cosa que sabía de ellos y que ellos no sabían. Pensé que les ayudaba. Y a la semana fueron a una psicóloga muy amable, que les ofreció ayuda, y dijeron que sí».
+
+«¿Y dónde están?».
+
+Tardó mucho en contestar. El levante movía el tomillo con un ruido de papel.
+
+«No lo sé», dijo. «Un día dejaron de venir. Sus padres dijeron que se habían mudado. En el grupo de clase pusieron un mensaje y luego nadie se acordó de ponerles otro. A las dos semanas era como si no hubieran existido». Me miró por fin. «Por eso ya no le cuento a nadie lo que sé de él. Pero lo de la psicóloga sí te lo digo. Eso no me lo vuelvo a callar».
+
+«¿Qué cosa les contaste?».
+
+«Paso», dijo. Y me sonrió un poco, triste.
+
+No supe qué contestar. Le cogí el termo y le serví chocolate, que era lo único que sabía hacer en ese banco.
+
 Le conté el plan. Lo llamo plan por educación. Los jueves a quinta hora la doctora daba una charla a los de tercero en el salón de actos: cincuenta minutos. Su despacho estaba en el pasillo de administración, al lado del cuarto de la fotocopiadora. Si en algún sitio había un papel con mi nombre, estaba allí.
 
 «¿Y la cerradura?».
 
-«La puerta no cierra bien. Lo vi el martes. Hay que tirar hacia arriba del pomo».
+«La puerta no cierra bien. Lo he visto hoy, al salir. Hay que tirar hacia arriba del pomo».
 
 «Te fijas en unas cosas muy raras».
 
@@ -182,6 +244,8 @@ El jueves, a las 12:35, el pasillo de administración estaba vacío salvo por Fe
 Tiré del pomo hacia arriba. Clic.
 
 Sin la doctora dentro, el despacho era una habitación cualquiera con una planta demasiado grande. Las mandarinas seguían en su cuenco. Me dio por pensar que era un decorado y que alguien cambiaba las mandarinas cada mañana, como las flores de un hotel.
+
+Me fijé en la pared. El clavo vacío, el cuadrado claro. Esta vez no apareció ningún reloj. Pero me pareció que el cuadrado claro estaba más claro que la última vez, como si el reloj que no estaba se estuviera acercando.
 
 «Siete minutos», susurró Nora. «Más no».
 
@@ -221,7 +285,7 @@ Se me cerró la garganta.
 
 Debajo, un formulario. Leí a saltos, porque los ojos no me obedecían.
 
-*Sujeto: E. V. · Parentesco con colaborador R. V.: hijo.*
+*Sujeto: E. M. · Parentesco con colaborador R. M.: hijo.*
 *Fecha de apertura de expediente: 14 de octubre.* De hacía tres años. Cuatro días antes del martes de la lluvia.
 *Estado: latente.*
 *Ventana de apertura estimada: 11 a 14 años.*
@@ -260,7 +324,23 @@ IB
 
 «Las fotos», dijo Nora. «Hazle fotos y vámonos».
 
-Fotografié el formulario, la foto del paraguas, la gráfica. Me temblaba tanto el móvil que tuve que repetir dos. Devolvimos la carpeta, la llave bajo la mandarina, el pomo hacia arriba.
+Fotografié el formulario, la foto del paraguas, la gráfica. Me temblaba tanto el móvil que tuve que repetir dos.
+
+Entonces se oyeron pasos en el pasillo.
+
+Unos zapatos de suela dura, sin prisa. Nora se llevó las manos a los auriculares y se los apretó contra las orejas, con la cara torcida de dolor, como si los pasos no sonaran en el suelo sino dentro de su cabeza. Yo me quedé de rodillas con la carpeta abierta, sin respirar. Los pasos llegaron a la puerta. Se pararon.
+
+Por la rendija de abajo se veía una sombra. Dos zapatos grises.
+
+Pasó un segundo. Dos. Cinco. Noté el picaporte, ahí, tibio, ofreciéndose. No lo toqué.
+
+Los zapatos siguieron andando. Hacia la fotocopiadora. Se oyó la máquina arrancar con su zumbido de nevera vieja.
+
+Nora tenía una gota de sangre en la nariz. Se la limpió con el dorso de la mano antes de que yo pudiera decir nada.
+
+«Ocho», dijo, sin voz. «Te lo he dicho».
+
+Devolvimos la carpeta, la llave bajo la mandarina, el pomo hacia arriba. Salimos por el otro lado del pasillo, sin mirar hacia la fotocopiadora. No sé quién estaba allí. Sé que en el instituto nadie lleva zapatos grises.
 
 En el pasillo, Fermín pasó la página del periódico sin vernos.
 
@@ -321,6 +401,8 @@ Cogí el gorro. Me lo puse. Pasé entre los tres, de lado, sin tocarlos. Anduve 
 Clic.
 
 Había sido un segundo y medio, calculé. Dos minutos y pico de factura. Me metí en el baño de profesores, que estaba al lado, eché el pestillo y me senté en el suelo a esperar.
+
+Mientras duró el apagón no estuve en ninguna parte. O eso creía entonces. Me queda una cosa, solo una, como cuando te despiertas y de un sueño entero te queda un color: un pasillo muy largo con la luz de las cuatro de la tarde, y alguien al fondo, de espaldas, silbando una canción de Mecano. Y una voz que decía, sin enfadarse, como se riñe a un crío por mojarse los zapatos: «Otra vez por un gorro, campeón. Ya te vale».
 
 Cuando volví del apagón tenía sangre en el labio y a alguien aporreando la puerta.
 
@@ -419,3 +501,27 @@ Miré las letras verdes. Miré a mi amigo, con su inhalador y sus chapas.
 Se levantó, me tendió la mano y tiró de mí hacia arriba.
 
 «Y la próxima vez que desaparezcas», añadió, abriendo el pestillo, «avisa. Que casi me da algo, y el que tiene asma soy yo».
+
+Salimos juntos. El pasillo de las taquillas ya estaba vacío, con ese silencio de instituto a las tres de la tarde que parece de otro edificio. En la puerta de la calle, apoyado en la verja, estaba Dani. Solo. Sin Hugo ni Lucas. Con la mochila del fútbol a los pies y el móvil apagado en la mano.
+
+Bruno se puso delante de mí sin pensarlo, medio palmo más bajo que Dani y con el inhalador en el puño, como quien empuña una navaja.
+
+Dani no se movió. Me miró a mí, por encima del hombro de Bruno. Me miró el gorro. Tenía la cara de cuando alguien ha visto un accidente y todavía no ha decidido si lo ha visto.
+
+«Se te ha caído esto», dijo.
+
+Me tendió algo. Era el reloj de mi abuelo. Se me había salido del bolsillo en el empujón, contra las taquillas, y no me había dado ni cuenta. Lo cogí. Estaba caliente, como si lo hubiera tenido mucho rato en la mano.
+
+«Gracias».
+
+Dani se encogió de hombros. Cogió la mochila. Antes de irse, sin mirarme, dijo muy bajo, más para él que para mí:
+
+«Yo no he visto nada, ¿vale?».
+
+Y se fue calle abajo, hacia el campo de fútbol, donde su padre ya estaría gritando desde la grada.
+
+«¿Qué ha sido eso?», susurró Bruno.
+
+«No lo sé».
+
+Abrí el reloj. Seguía parado en las cuatro y diecisiete. Pero en el cristal había una huella. Pequeña, de un pulgar. Como si alguien lo hubiera abierto para mirarlo y lo hubiera cerrado con mucho cuidado.
