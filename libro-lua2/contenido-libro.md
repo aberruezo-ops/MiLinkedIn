@@ -13,7 +13,7 @@ Este cuento habla de algo que se ve en todos los patios: niños con ritmos y for
 *Lo que trabaja cada personaje*
 
 - **Lúa** es buena en casi todo y cree que debe hacerlo todo sola. Aprende que pedir ayuda no es fracasar.
-- **Raspi** es impaciente y curioso. Su travesura estropea algo y le cae un «siempre igual». La historia enseña a separar lo que alguien hace de lo que alguien es.
+- **Raspi** es impaciente y curiosa. Su travesura estropea algo y le cae un «siempre igual». La historia enseña a separar lo que alguien hace de lo que alguien es.
 - **Neu** es la graciosa. Su humor no es una tontería: calma a quien tiene miedo y une al grupo.
 - **Hera** es la mayor. Ser mayor no es ser inútil, es ser raíz: enseña, calma y planta para los que vendrán.
 
@@ -79,13 +79,13 @@ En cada escena vuela Zum, la abeja. ¡Buscadla!
 
 **12.** «¡Raspi, siempre igual!», gritó Lúa. Raspi agachó las orejas. «Siempre me echáis la culpa de todo», murmuró. Y en el jardín se hizo un silencio muy largo.
 
-**13.** Hera se sentó entre las dos. «Raspi, eso no estuvo bien, pero tú no eres «el travieso». Eres Raspi. Y tú, Lúa, sabes cuánto pinchan las etiquetas». Se pidieron perdón y volvieron a plantar juntas.
+**13.** Hera se sentó entre las dos. «Raspi, eso no estuvo bien, pero tú no eres “la traviesa”. Eres Raspi. Y tú, Lúa, sabes cuánto pinchan las etiquetas». Se pidieron perdón y volvieron a plantar juntas.
 
 **14.** Hera les enseñó otro secreto: «Las cáscaras y las hojas secas no son basura, son comida para la tierra». Hicieron un montón de compost y las lombrices se pusieron a trabajar.
 
 **15.** Esa noche el cielo se puso negro. Llegaron el viento y la lluvia, y el agua empezó a correr hacia las semillas.
 
-**16.** Hera se tumbó para frenar el agua con su cuerpo grande y tranquilo. Raspi, tan pequeño y tan listo, cavó una zanja por donde escapó el charco. ¡Su manía de cavar salvó el jardín!
+**16.** Hera se tumbó para frenar el agua con su cuerpo grande y tranquilo. Raspi, tan pequeña y tan lista, cavó una zanja por donde escapó el charco. ¡Su manía de cavar salvó el jardín!
 
 **17.** Neu contó chistes a Pipa y a los pajarillos asustados hasta que se rieron a carcajadas. Y Lúa, saltando más rápido que el viento, cubrió las semillas con una lona.
 
@@ -95,7 +95,7 @@ En cada escena vuela Zum, la abeja. ¡Buscadla!
 
 **20.** Abrieron la puerta y llegaron todos: Nuez, Trébol, Mora, Mari, Pipa y su mamá. Ninguno era igual a otro. En el jardín de todos cabía todo el mundo.
 
-**21.** Esa noche, bajo el manzano, cada uno contó lo que había aprendido. Lúa, a pedir ayuda. Raspi, a esperar. Neu, que reír también es un trabajo importante. Y Hera: «Nunca es tarde para plantar algo bonito». Cada uno es distinto. Por eso el jardín es tan bonito.
+**21.** Esa noche, bajo el manzano, cada uno contó lo que había aprendido. Lúa, a pedir ayuda. Raspi, a esperar. Neu, que reír también es un trabajo importante. Y Hera: «Nunca es tarde para plantar algo bonito». Cada uno es distinto. Por eso el jardín es tan especial.
 
 ## Páginas 49 a 59 · Actividades
 

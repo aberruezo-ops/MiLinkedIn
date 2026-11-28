@@ -92,7 +92,7 @@ def pagina_guia1():
 <h3>Lo que trabaja cada personaje</h3>
 <ul>
 <li><b>Lúa</b> es buena en casi todo y cree que debe hacerlo todo sola. Aprende que pedir ayuda no es fracasar.</li>
-<li><b>Raspi</b> es impaciente y curioso. Su travesura estropea algo y le cae un «siempre igual». La historia enseña a separar lo que alguien hace de lo que alguien es.</li>
+<li><b>Raspi</b> es impaciente y curiosa. Su travesura estropea algo y le cae un «siempre igual». La historia enseña a separar lo que alguien hace de lo que alguien es.</li>
 <li><b>Neu</b> es la graciosa. Su humor no es una tontería: calma a quien tiene miedo y une al grupo.</li>
 <li><b>Hera</b> es la mayor. Ser mayor no es ser inútil, es ser raíz: enseña, calma y planta para los que vendrán.</li>
 </ul>
