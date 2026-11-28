@@ -220,7 +220,17 @@ Y era verdad. No sabía cómo, pero estaba más aquí. El latido que me iba por 
 
 «Se llama anclarse», dijo mi madre. «Cuando la cabeza corre, el cuerpo la frena. No sirve para todo, pero sirve para casi todo». Me besó en la frente. «Y ahora duermo, que si no me da algo».
 
-Se quedó dormida en mitad de la frase siguiente. La tapé con la manta del sofá y me quedé mirándola un rato, con la sensación de haber estado a punto de hablar con ella de verdad.
+Se quedó dormida en mitad de la frase siguiente, con mi mano todavía cogida. La tapé con la manta del sofá como pude, con la mano libre, y me quedé mirándola un rato, con la sensación de haber estado a punto de hablar con ella de verdad.
+
+Llevaba prendido en el uniforme su reloj de enfermera, uno de esos pequeños que se cuelgan del bolsillo del pecho bocabajo, para mirarlos sin soltar lo que tienes en las manos. Me fijé en él porque no hacía ruido. El segundero estaba quieto en el siete. El minutero, en las ocho menos ocho. Pensé que se le habría acabado la pila.
+
+Le solté la mano despacio, para no despertarla.
+
+El segundero echó a andar.
+
+Me quedé de pie junto al sofá, mirando aquel reloj diminuto dar vueltas como si nada. Volví a cogerle la mano, solo con dos dedos, como un experimento. El segundero se paró. La solté. Siguió.
+
+No lo hice una tercera vez. Me fui a buscar el otro calcetín con el corazón golpeándome las costillas, y me dije que era una casualidad, que los relojes baratos hacen cosas raras, que en casa de un relojero los relojes siempre están a punto de romperse. Me lo creí bastante. No del todo.
 
 ---
 
@@ -276,7 +286,15 @@ No porque fuera valiente. Porque ya sabía lo que costaba, y con Dani delante me
 
 «Sí».
 
-«Pues…». Se le había apagado la voz. Miró el móvil, que vibraba en su mano. En la pantalla ponía PAPÁ. Y vi cómo la cara de Dani se cerraba como una persiana. «Tengo que irme».
+«Pues…». Se le había apagado la voz. Miró el móvil, que vibraba en su mano. En la pantalla ponía PAPÁ. Y vi cómo la cara de Dani se cerraba como una persiana.
+
+Contestó. No se apartó, no le dio tiempo. Desde donde yo estaba se oía la voz del otro lado, metálica, alta, de alguien acostumbrado a gritar desde una grada: que dónde estaba, que el entrenamiento de la tarde se adelantaba, que como volviera a llegar tarde se iba a enterar, que si se creía que él estaba para perder el tiempo con un vago.
+
+«Sí, papá. Sí. Que sí. Vale. Perdón».
+
+Dani colgó. Se quedó mirando la pantalla negra un segundo, con la mandíbula apretada. Luego me miró a mí, y supo que lo había oído todo.
+
+«Tengo que irme».
 
 «Vale».
 
@@ -328,15 +346,39 @@ Cuando se cerró la puerta me quedé un buen rato en el pasillo, mirando el cuen
 
 Eran muy pocas. Por eso supe que acababa de ser una.
 
+Cené solo, mirando el patio de luces. La señora Pilar regaba sus geranios, que a esa hora empezaban a abrirse, despacio, como si alguien los desplegara desde dentro. Tres pisos más arriba, en la ventana de enfrente, había luz. Nora estaba sentada en el alféizar, con las piernas recogidas y la libreta en las rodillas, escribiendo.
+
+Levantó la vista. Me vio.
+
+No saludó esta vez. Se quedó mirándome un momento, muy seria, y luego hizo algo con la mano que tardé en entender. Se la puso en el pecho, abierta, y respiró hondo, exagerando, para que yo lo viera. Una vez. Dos. Tres.
+
+Lo hice con ella. Desde mi cocina, con el tenedor en la otra mano, respiré tres veces a la vez que una chica a la que conocía desde hacía doce horas.
+
+Después ella asintió, como un médico que da el visto bueno, y volvió a su libreta. Yo me quedé con la mano en el pecho un rato más. No sabía que una persona podía calmarte desde tres pisos de distancia sin decir una palabra. Ni que eso pudiera dar tanta vergüenza y tanto alivio a la vez.
+
 ---
 
 ### 6. Lo que Bruno vio
+
+El fin de semana no pasó nada, y luego pasó todo de golpe.
+
+El sábado fui con mi madre al mercadillo de Garrucha y le llevé las bolsas sin quejarme, que es lo que hago cuando me siento culpable de algo que ella no sabe. El domingo por la tarde estuve en la tienda con mi abuelo pasándole pinzas, sin hablar de relojes que se mueven ni de señores de Bédar. Bruno no escribió. Yo tampoco. Nora estuvo dos noches sin encender la luz de su ventana.
+
+El domingo a las once y media de la noche, el móvil se me volvió loco.
+
+Primero una notificación. Luego diez. Luego el móvil vibrando sin parar encima de la mesilla, arrastrándose solo hacia el borde como un bicho que intenta escaparse. Solicitudes de seguimiento de cuentas que no conocía. Mensajes de números sin nombre. *eres tú el del vídeo??* *cómo lo haces bro* *pásame la app*. Un audio de alguien que solo se reía. Una cuenta sin foto que me escribió cuatro veces seguidas, a la misma hora exacta, la misma frase: *¿dónde es esto?*
+
+No sabía de qué vídeo hablaban. Bueno, sí lo sabía. Pero no quería saberlo.
+
+Apagué el móvil. Lo metí en el cajón, debajo de los calcetines desparejados, al lado del globo azul. Me tapé hasta la cabeza. En la oscuridad, debajo de la sábana, el Pulso de mi muñeca brillaba con su lucecita verde, latiendo a mi ritmo, y no se apagaba aunque le diera al botón.
+
+Dormí fatal. Soñé con miles de ojos mirando una pantalla.
 
 El lunes a las ocho y cuarto, el instituto entero había visto cómo me teletransportaba.
 
 Lo supe antes de cruzar la puerta. Había grupos de chicos agachados sobre un solo móvil, como cuando alguien enseña un bicho muerto, y todos levantaban la cabeza al verme llegar. Una chica de tercero me señaló con la barbilla. Un crío de primero, que no me conocía de nada, me dijo «¡flipante!» y salió corriendo.
 
-El vídeo duraba seis segundos y tenía once mil cuatrocientas vistas.
+El vídeo duraba seis segundos y tenía once mil cuatrocientas vistas. A media mañana tenía ochenta mil. Alguien le había puesto música épica por encima. Alguien lo había puesto a cámara lenta con un zoom a mi cara y un círculo rojo. Un streamer de Madrid con un millón de seguidores lo había enseñado en un directo de madrugada, entre un juego y otro, y había dicho «esto es fake cien por cien, pero me encanta», y su chat había llenado la pantalla de emojis de calavera.
 
 *Chico se teletransporta en clase de EF #glitch #real #nofake.* Mi espalda ocupaba media pantalla. Dani, con el balón. Un fotograma después estaba tres metros más allá. Entre los dos, un mosaico de cuadraditos. Debajo, los comentarios, que me enseñó una chica sin que se lo pidiera, con una sonrisa cruel de las que no saben que lo son:
 
@@ -400,7 +442,17 @@ Después sonrió. Le salió una sonrisa enorme, como la de un payaso al que le h
 
 «Sí», dijo. «Un montaje. ¿A que quedó guay?».
 
-Todos se rieron. Dani soltó un «¡qué cabrón!» con admiración. Alguien le dio una palmada en la espalda. La masa se deshizo, decepcionada y contenta a la vez, igual que se deshace una cola cuando se cierra la taquilla.
+Todos se rieron. Dani soltó un «¡qué cabrón!» con admiración. Alguien le dio una palmada en la espalda.
+
+Y en ese mismo momento, todos a la vez, vibraron los Pulsos.
+
+Veinte muñecas. Un zumbido corto, sincronizado, como una colmena que cambia de idea. Veinte cabezas bajando a mirar la pantallita. Desde donde estaba pude leer la de Lucía, que tenía delante:
+
+*¿Necesitas un respiro? Hoy es un buen día para dejar el móvil un rato.*
+
+Nadie lo comentó. Nadie dijo «qué raro, nos ha llegado a todos». La masa se deshizo, decepcionada y contenta a la vez, igual que se deshace una cola cuando se cierra la taquilla. Cada uno se fue por su lado, guardándose el móvil, como si de verdad hubieran decidido solos dejarlo un rato.
+
+Yo me miré mi Pulso. No me había llegado nada. La pantalla decía, solo, SIN SEÑAL.
 
 Y yo me quedé allí, con mi mentira, con el reloj, con las manos heladas.
 
@@ -420,7 +472,15 @@ No me miró cuando me senté.
 
 «No pasa nada, Edu». Se encogió de hombros. «Se me da bien hacer reír. Ya lo sabías».
 
-Se quedó callado un rato. En la valla de enfrente alguien había escrito con rotulador *4:17*, y no supe por qué me dio un escalofrío.
+Se quedó callado un rato. Con el pulgar iba pasando las notificaciones de su canal sin abrirlas. Tenía novecientos suscriptores nuevos desde la noche anterior. Lo vi en la pantalla. Novecientos. Llevaba dos años intentando llegar a cien.
+
+«Mañana se van a ir todos», dijo, viendo que lo miraba. «Cuando vean que no subo nada más. Así funciona esto. Te miran un día y al siguiente miran a otro».
+
+«Lo siento, Bruno».
+
+«Ya lo has dicho». Bloqueó el móvil. «Para de decirlo, que me pongo triste».
+
+En la valla de enfrente alguien había escrito con rotulador *4:17*, y no supe por qué me dio un escalofrío. La pintada no estaba el viernes. Lo sé porque el viernes conté los barrotes de esa valla, ciento ocho, y no había nada escrito. La tinta estaba fresca, brillante, como recién puesta. Y no había nadie cerca.
 
 «Tengo que enseñarte una cosa», dijo Bruno de pronto, y esa vez me miró. «Antes de borrarlo del todo. Por si acaso».
 
@@ -444,7 +504,7 @@ La puerta, vacía.
 
 «¿Quién es?».
 
-«No lo sé». Me miró con los ojos enormes. «Pero llevo dos días mirándolo, Edu, y no hay manera de dejar de verlo. Es como si… como si estuviera ahí desde siempre y no lo hubiera visto nadie».
+«No lo sé». Me miró con los ojos enormes. «Pero llevo todo el fin de semana mirándolo, Edu, y no hay manera de dejar de verlo. Es como si… como si estuviera ahí desde siempre y no lo hubiera visto nadie».
 
 Volví a mirar la pantalla. El chico de la puerta, con las manos en los bolsillos, el pelo oscuro, la sudadera gris, el gesto quieto.
 
@@ -465,10 +525,10 @@ Como quien lleva mucho tiempo esperando a que alguien llegue.
 ## INTERLUDIO I
 ### Documentos
 
-**GRUPO DE WHATSAPP «1ºB LOS SUPERVIVIENTES» (31 participantes)**
+**GRUPO DE CLASE «1ºB LOS SUPERVIVIENTES» (31 participantes)**
 **Lunes, 21:47**
 
-**Dani:** jajaja el vídeo del valdés
+**Dani:** jajaja el vídeo del moral
 **Lucía:** pero es falso no?? dijo bruno q era una app
 **Bruno:** era un montaje!! 3 euros la app 😎
 **Dani:** ya clarooo

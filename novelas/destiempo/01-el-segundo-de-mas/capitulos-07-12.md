@@ -5,7 +5,7 @@
 
 ### 7. El Programa de Bienestar
 
-Mi madre llegó de la guardia a las siete y veinte, que es la hora a la que llega cuando la noche ha ido mal. Si ha ido bien, llega a las siete y diez. Si ha ido muy mal, no llega, y me manda un audio desde el coche, parada en el arcén de la autovía, diciendo que está bien y que me tome la leche.
+Mi madre llegó de la guardia a las ocho y diez, que es la hora a la que llega cuando la noche ha ido mal. Si ha ido bien, llega a las ocho menos cuarto. Si ha ido muy mal, no llega, y me manda un audio desde el coche, parada en el arcén de la autovía, diciendo que está bien y que me tome la leche.
 
 La oí dejar las llaves en el platito de la entrada. Después, nada. Después, el grifo.
 
@@ -696,7 +696,7 @@ Marqué «Estoy bien». Me quedé con la sensación de haberle mentido a alguien
 
 Nora me había escrito dos veces esos días, desde su cuadrado gris. *estás bien?* el lunes. *edu* el martes, solo eso, mi nombre en minúsculas. Lo dejé en visto las dos veces. No sabía qué contarle sin contárselo todo, y no podía contarle todo, porque todo incluía un pelo blanco, un hombre en mi ventana y un reloj que andaba cuando mi abuelo se sentaba en mi cama. Así que no le conté nada, que es lo que hago yo cuando no sé qué hacer, y me sentí fatal, que es lo que me pasa después.
 
-El miércoles volví al instituto con el gorro de lana hasta las cejas, que a veinticinco grados no tenía justificación ninguna. No tuve que darla. En un instituto nadie pregunta por un gorro. Lo más que pasó fue que alguien subió una foto mía al grupo con la frase «el valdés en su era rapero», y tuvo tres reacciones, y a la hora del recreo ya iban por otra cosa.
+El miércoles volví al instituto con el gorro de lana hasta las cejas, que a veinticinco grados no tenía justificación ninguna. No tuve que darla. En un instituto nadie pregunta por un gorro. Lo más que pasó fue que alguien subió una foto mía al grupo con la frase «el moral en su era rapero», y tuvo tres reacciones, y a la hora del recreo ya iban por otra cosa.
 
 Bruno y yo no nos hablábamos.
 
