@@ -10,3 +10,13 @@ Cómo abrirlo: abre `pradera.html` desde un servidor local (por ejemplo `python3
 Probado en un iPhone simulado: las dos partidas se completan sin errores. Pendiente: probarlo con niños de verdad y anotar dónde se atascan.
 
 Límites del prototipo: la voz es la sintética del dispositivo (la definitiva sería grabada, con acento de España y de Latinoamérica); los personajes son recortes de las hojas de concepto generadas con IA; no guarda progreso.
+
+## Versión 2 (2026-11-28)
+
+- Fondo ilustrado de la pradera de posidonia, en el estilo de los personajes; algunas letras quedan sobre la posidonia de los lados, camufladas.
+- Plásticos ilustrados (bolsa, botella, red) que suben y desaparecen al encontrar cada «a».
+- Música de ambiente submarina con botón para quitarla; baja de volumen cuando habla un personaje.
+- Efectos propios: acierto, «prueba otra vez», plástico que se va flotando y celebración final.
+- Las frases siguen con la voz del navegador hasta elegir las voces grabadas de Pulpi y Doña Posi.
+
+Imágenes y sonidos generados con Higgsfield (Nano Banana 2, Seedream 5.5, ElevenLabs Music, Mirelo). Antes de publicar la app, comprobar las condiciones de uso comercial de cada uno.

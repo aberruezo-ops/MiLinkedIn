@@ -33,7 +33,7 @@ button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 
 /* Barra superior */
 .bar {
-  display: flex; align-items: center; gap: .6rem; min-height: 64px;
+  display: flex; flex-wrap: wrap; align-items: center; gap: .5rem .6rem; min-height: 64px;
   padding-block: .5rem; padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px));
   background: var(--glass); backdrop-filter: blur(6px); position: relative; z-index: 5;
 }
@@ -41,15 +41,14 @@ button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
 .round-btn svg { width: 26px; height: 26px; }
 .target { flex: 1; min-width: 0; display: flex; align-items: center; gap: .7rem; }
 .target-letter { width: 60px; height: 60px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; font: 700 2.4rem/1 var(--font-display); color: var(--coral); box-shadow: 0 2px 6px rgba(15,51,72,.18); flex: none; }
-.caption { font-size: .9rem; line-height: 1.25; min-width: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.caption { flex-basis: 100%; font-size: .9rem; line-height: 1.25; min-width: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.caption:empty { display: none; }
 .progress { display: flex; gap: 6px; flex: none; }
 .progress i { width: 14px; height: 14px; border-radius: 50%; background: rgba(15,51,72,.2); }
 .progress i.on { background: var(--ok); }
 
 /* Escenario */
-.stage { position: relative; flex: 1; min-height: 0; overflow: hidden; background: linear-gradient(var(--sea-top), var(--sea-mid) 45%, var(--sea-deep)); }
-.stage::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 13%; background: radial-gradient(120% 100% at 50% 100%, var(--sand) 60%, transparent 61%); pointer-events: none; }
-canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
+.stage { position: relative; flex: 1; min-height: 0; overflow: hidden; background: url(img/fondo.jpg) center bottom / cover no-repeat, var(--sea-mid); }
 
 /* Portada */
 .home { position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 1.2rem; padding: 1rem max(16px, env(safe-area-inset-right, 0px)) 1rem max(16px, env(safe-area-inset-left, 0px)); text-align: center; z-index: 3; }
@@ -72,9 +71,8 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
 .letter.nope { animation: shake .35s ease-in-out; }
 @keyframes pop { 40% { transform: scale(1.5); } 100% { transform: scale(0); opacity: 0; } }
 @keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
-.trash { position: absolute; width: 46px; height: 34px; margin: -17px 0 0 -23px; border-radius: 10px 10px 14px 14px; background: rgba(255,255,255,.55); border: 2px solid rgba(255,255,255,.9); z-index: 1; transition: opacity .6s, transform .6s; pointer-events: none; }
-.trash::before { content: ""; position: absolute; top: -9px; left: 12px; width: 18px; height: 10px; border: 2px solid rgba(255,255,255,.9); border-bottom: 0; border-radius: 10px 10px 0 0; }
-.trash.gone { opacity: 0; transform: translateY(-80px) scale(.5); }
+.trash { position: absolute; width: clamp(48px, 13vw, 72px); height: auto; transform: translate(-50%, -50%) rotate(var(--r, 0deg)); z-index: 1; transition: opacity .9s, transform .9s; pointer-events: none; filter: drop-shadow(0 3px 4px rgba(15,51,72,.25)); }
+.trash.gone { opacity: 0; transform: translate(-50%, -260%) scale(.5) rotate(var(--r, 0deg)); }
 
 /* Juego 2: sopa de vocales */
 .board { position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: min(88vw, 52vh, 380px); aspect-ratio: 1; max-width: 100%; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 10px; border-radius: 22px; background: var(--glass); z-index: 2; }
@@ -105,13 +103,14 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
 <div class="app">
   <div class="bar" id="bar" hidden>
     <button class="round-btn" id="homeBtn" aria-label="Volver al inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
-    <div class="target"><div class="target-letter" id="targetLetter">a</div><div class="caption" id="caption"></div></div>
+    <div class="target"><div class="target-letter" id="targetLetter">a</div></div>
     <div class="progress" id="progress" aria-hidden="true"></div>
+    <button class="round-btn" id="musicBtn" aria-label="Quitar la música" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V6l10-2v12"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16" r="2.5"/><path class="slash" d="M3 3l18 18" opacity="0"/></svg></button>
     <button class="round-btn" id="sayBtn" aria-label="Oír otra vez"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/></svg></button>
+    <div class="caption" id="caption" aria-live="polite"></div>
   </div>
 
   <div class="stage" id="stage">
-    <canvas class="grass" id="grass" aria-hidden="true"></canvas>
 
     <div class="home" id="home">
       <h1>La pradera de Doña Posi</h1>
@@ -162,57 +161,31 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
       const u = new SpeechSynthesisUtterance(text);
       u.lang = voice ? voice.lang : 'es-ES'; if (voice) u.voice = voice;
       u.rate = 0.88; u.pitch = 1.1;
+      u.onstart = () => duck(true); u.onend = u.onerror = () => duck(false);
       speechSynthesis.speak(u);
     } catch (e) {}
   }
   $('sayBtn').onclick = () => say(lastSaid, $('caption').textContent);
 
-  /* Sonidos cortos con WebAudio, solo tras tocar. */
-  let ac = null;
-  function tone(freqs, dur = .12, type = 'sine', vol = .18) {
-    try {
-      ac = ac || new (window.AudioContext || window.webkitAudioContext)();
-      let t = ac.currentTime;
-      freqs.forEach(f => {
-        const o = ac.createOscillator(), g = ac.createGain();
-        o.type = type; o.frequency.value = f; o.connect(g); g.connect(ac.destination);
-        g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(.001, t + dur);
-        o.start(t); o.stop(t + dur); t += dur * .8;
-      });
-    } catch (e) {}
-  }
-  const good = () => tone([660, 880], .12), soft = () => tone([300, 240], .14, 'triangle', .12), fanfare = () => tone([523, 659, 784, 1046], .16);
+  /* Música de fondo y efectos grabados. La música baja mientras habla un personaje. */
+  const MUSIC_VOL = .28, DUCK_VOL = .1;
+  const music = new Audio('audio/musica.mp3'); music.loop = true; music.volume = MUSIC_VOL; music.preload = 'auto';
+  let musicOn = true;
+  const SFX = {};
+  ['bien', 'otra', 'fiesta', 'flota'].forEach(k => { const a = new Audio('audio/sfx-' + k + '.mp3'); a.preload = 'auto'; SFX[k] = a; });
+  function sfx(k, vol = .8) { try { const a = SFX[k].cloneNode(); a.volume = vol; a.play().catch(() => {}); } catch (e) {} }
+  function startMusic() { if (musicOn) music.play().catch(() => {}); }
+  function duck(on) { music.volume = on ? DUCK_VOL : MUSIC_VOL; }
+  $('musicBtn').onclick = () => {
+    musicOn = !musicOn;
+    $('musicBtn').setAttribute('aria-pressed', String(musicOn));
+    $('musicBtn').setAttribute('aria-label', musicOn ? 'Quitar la música' : 'Poner la música');
+    $('musicBtn').querySelector('.slash').setAttribute('opacity', musicOn ? '0' : '1');
+    musicOn ? startMusic() : music.pause();
+  };
+  const good = () => sfx('bien'), soft = () => sfx('otra', .6), fanfare = () => sfx('fiesta'), floaty = () => sfx('flota', .6);
 
-  /* Pradera de posidonia dibujada en canvas: cintas verdes que se mecen. */
-  const cv = $('grass'), cx = cv.getContext('2d');
-  let blades = [];
-  function makeBlades() {
-    const w = stage.clientWidth, h = stage.clientHeight, n = Math.round(w / 14);
-    blades = Array.from({ length: n }, (_, i) => ({
-      x: (i + Math.random()) * (w / n), len: h * (.35 + Math.random() * .45), wid: 8 + Math.random() * 7,
-      ph: Math.random() * 6.28, hue: 95 + Math.random() * 30, light: 30 + Math.random() * 18
-    }));
-  }
-  function resize() {
-    const dpr = Math.min(2, window.devicePixelRatio || 1);
-    cv.width = stage.clientWidth * dpr; cv.height = stage.clientHeight * dpr; cx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    makeBlades(); draw(0);
-  }
-  function draw(t) {
-    const w = stage.clientWidth, h = stage.clientHeight, base = h * .93;
-    cx.clearRect(0, 0, w, h);
-    for (const b of blades) {
-      const sway = Math.sin(t / 1400 + b.ph) * 14;
-      cx.strokeStyle = `hsl(${b.hue} 55% ${b.light}%)`; cx.lineWidth = b.wid; cx.lineCap = 'round';
-      cx.beginPath(); cx.moveTo(b.x, base);
-      cx.quadraticCurveTo(b.x + sway * .4, base - b.len * .5, b.x + sway, base - b.len); cx.stroke();
-    }
-  }
-  let raf = 0;
-  function loop(t) { draw(t); raf = requestAnimationFrame(loop); }
-  addEventListener('resize', resize);
-  resize();
-  if (!reduced) raf = requestAnimationFrame(loop);
+  function resize() {}
 
   function bubbles(n = 10) {
     const box = $('bubbles');
@@ -243,7 +216,7 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
     const greens = ['#3f7d34', '#56923f', '#2f6a3a'], brights = ['#e2604f', '#f2a93b', '#ffffff', '#7b5cc4'];
     letters.forEach((ch, i) => {
       const c = i % cols, r = Math.floor(i / cols);
-      const x = 12 + (c + .5) * (76 / cols) + (Math.random() - .5) * 8;
+      const x = 7 + (c + .5) * (86 / cols) + (Math.random() - .5) * 8;
       const y = 10 + (r + .5) * (64 / rows) + (Math.random() - .5) * 6;
       const b = document.createElement('button');
       b.className = 'letter'; b.textContent = ch; b.setAttribute('aria-label', 'letra ' + ch);
@@ -253,7 +226,7 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
       b.onclick = () => {
         if (ch === 'a') {
           b.classList.add('found'); found++; progress(TOTAL, found); good(); bubbles(5);
-          const t = play.querySelector('.trash:not(.gone)'); if (t) t.classList.add('gone');
+          const t = play.querySelector('.trash:not(.gone)'); if (t) { t.classList.add('gone'); setTimeout(floaty, 150); }
           setBuddy(found % 2 ? 'img/pulpi-alegre.png' : 'img/pulpi-sorpresa.png', true);
           if (found === TOTAL) setTimeout(finish1, 700);
           else say(pick(['¡Muy bien! Es la a.', '¡Otra a! Sigue buscando.', '¡Esa sí! a de agua.']));
@@ -267,8 +240,9 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
       play.appendChild(b);
     });
     for (let i = 0; i < TOTAL; i++) {
-      const t = document.createElement('div'); t.className = 'trash';
-      t.style.left = (10 + Math.random() * 70) + '%'; t.style.top = (72 + Math.random() * 12) + '%';
+      const t = document.createElement('img'); t.className = 'trash'; t.alt = ''; t.src = 'img/plastico-' + (i % 3 + 1) + '.png';
+      t.style.left = (12 + i * (60 / TOTAL) + Math.random() * 8) + '%'; t.style.top = (80 + Math.random() * 8) + '%';
+      t.style.setProperty('--r', ((Math.random() - .5) * 40) + 'deg');
       play.appendChild(t);
     }
     setBuddy('img/pulpi-base.png');
@@ -333,8 +307,8 @@ canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
     if ('speechSynthesis' in window) try { speechSynthesis.cancel(); } catch (e) {}
     play.innerHTML = ''; buddy.hidden = true; $('bar').hidden = true; $('done').hidden = true; $('home').hidden = false; resize();
   }
-  $('go1').onclick = () => start(1);
-  $('go2').onclick = () => start(2);
+  $('go1').onclick = () => { startMusic(); start(1); };
+  $('go2').onclick = () => { startMusic(); start(2); };
   $('homeBtn').onclick = home;
   $('againBtn').onclick = () => start(current);
 })();
