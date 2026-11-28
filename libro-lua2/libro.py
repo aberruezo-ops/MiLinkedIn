@@ -340,7 +340,42 @@ def cubierta():
             f'<svg viewBox="0 0 {Wu} {Hu}" xmlns="http://www.w3.org/2000/svg">{s}</svg></body></html>')
 
 
+def cubierta_acuarela():
+    """Cubierta con ilustraciones en acuarela (arte/). Misma geometría KDP que cubierta()."""
+    spine = PAGINAS_TOTAL * GROSOR_PAPEL
+    Wi, Hi = 2 * 8.5 + spine + 0.25, 11.25
+    u = 100
+    Wu, Hu = round(Wi * u), round(Hi * u)
+    sx, sw = round((0.125 + 8.5) * u), round(spine * u)
+    fx = sx + sw
+    cx0 = fx + 425
+    bx0 = 12 + 425
+    tinta, crema = '#3a2a1e', '#fffaf0'
+    s = f'<image href="arte/contraportada-acuarela.jpg" x="0" y="0" width="{sx}" height="{Hu}" preserveAspectRatio="xMidYMid slice"/>'
+    s += f'<image href="arte/portada-acuarela.jpg" x="{fx}" y="0" width="{Wu - fx}" height="{Hu}" preserveAspectRatio="xMidYMid slice"/>'
+    s += f'<rect x="{sx}" y="0" width="{sw}" height="{Hu}" fill="#e9c46a"/>'
+    halo = f'stroke="{crema}" stroke-width="10" stroke-opacity=".85" paint-order="stroke" stroke-linejoin="round"'
+    s += f'<text x="{cx0}" y="120" font-family="Fraunces" font-weight="700" font-size="30" fill="{tinta}" {halo} text-anchor="middle" letter-spacing="9">VOLUMEN II</text>'
+    s += f'<text x="{cx0}" y="222" font-family="Fraunces" font-weight="700" font-size="96" fill="{tinta}" {halo} text-anchor="middle">Lúa y el</text>'
+    s += f'<text x="{cx0}" y="318" font-family="Fraunces" font-weight="700" font-size="88" fill="#b5562b" {halo} text-anchor="middle">jardín de todos</text>'
+    s += f'<rect x="{cx0 - 285}" y="342" width="570" height="48" rx="24" fill="{crema}" fill-opacity=".9"/>'
+    s += f'<text x="{cx0}" y="374" font-family="Fraunces" font-weight="600" font-size="23" text-anchor="middle" fill="{tinta}">Para colorear · 4 a 8 años · Con guía para familias</text>'
+    s += f'<rect x="{cx0 - 170}" y="1052" width="340" height="56" rx="28" fill="{crema}" fill-opacity=".88"/>'
+    s += f'<text x="{cx0}" y="1090" font-family="Fraunces" font-weight="700" font-size="32" text-anchor="middle" fill="{tinta}">{AUTOR}</text>'
+    s += f'<rect x="{bx0 - 350}" y="55" width="700" height="300" rx="26" fill="{crema}" fill-opacity=".92"/>'
+    lineas = ['Volumen II de la serie Lúa', 'Un solar abandonado, cuatro amigos muy distintos', 'y un montón de semillas. Lúa, Hera, Raspi y Neu',
+              'descubren que cada uno crece a su tiempo, que en', 'el jardín cabe todo el mundo y que cuidar', 'el planeta empieza en un solar.', 'Con guía para familias.']
+    for i, l in enumerate(lineas):
+        s += f'<text x="{bx0}" y="{100 + i * 37 + (8 if i else 0)}" font-family="Fraunces" font-weight="{700 if i in (0, 6) else 600}" font-size="{27 if i == 0 else 24}" text-anchor="middle" fill="{tinta}">{l}</text>'
+    s += f'<rect x="{round((0.125 + 8.5 - 0.25 - 2) * u)}" y="{round((0.125 + 11 - 0.25 - 1.2) * u)}" width="200" height="120" fill="#fff"/>'
+    css = CSS.replace('@page{size:8.5in 11in;margin:0}', '@page{size:%.4fin %.4fin;margin:0}' % (Wi, Hi))
+    return (f'<!doctype html><html><head><meta charset="utf-8"><style>{css}body{{margin:0}} '
+            f'svg{{width:{Wi:.4f}in;height:{Hi:.4f}in;display:block}}</style></head><body>'
+            f'<svg viewBox="0 0 {Wu} {Hu}" xmlns="http://www.w3.org/2000/svg">{s}</svg></body></html>')
+
+
 if __name__ == '__main__':
     open(os.path.join(AQUI, 'interior.html'), 'w').write(interior())
-    open(os.path.join(AQUI, 'portada.html'), 'w').write(cubierta())
+    acu = os.path.exists(os.path.join(AQUI, 'arte', 'portada-acuarela.jpg'))
+    open(os.path.join(AQUI, 'portada.html'), 'w').write(cubierta_acuarela() if acu else cubierta())
     print('ok', PAGINAS_TOTAL, 'paginas; lomo %.3f in' % (PAGINAS_TOTAL * GROSOR_PAPEL))
