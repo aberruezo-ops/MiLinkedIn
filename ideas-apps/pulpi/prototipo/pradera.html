@@ -1,0 +1,341 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La pradera de Doña Posi</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700&display=swap">
+<style>
+/* Layout: una sola pantalla que llena el móvil; arriba la consigna, en medio el juego, abajo el personaje. Mundo visual único: el mar. */
+:root {
+  --sea-top: #7fd6dc;
+  --sea-mid: #3fb1bd;
+  --sea-deep: #1d7d93;
+  --sand: #ecd9a8;
+  --ink: #0f3348;
+  --paper: #ffffff;
+  --coral: #e2604f;
+  --ok: #2e8b3a;
+  --glass: rgba(255,255,255,.78);
+  --font-display: "Fredoka", "Nunito", ui-rounded, system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, sans-serif;
+  color-scheme: light;
+}
+html, body { height: 100%; }
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body {
+  margin: 0; background: var(--sea-mid); color: var(--ink); font: 700 1rem/1.4 var(--font-body);
+  overflow: hidden; touch-action: manipulation; user-select: none; -webkit-user-select: none;
+}
+.app { height: 100%; display: flex; flex-direction: column; }
+button { font: inherit; color: inherit; border: 0; cursor: pointer; touch-action: manipulation; }
+button:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+/* Barra superior */
+.bar {
+  display: flex; align-items: center; gap: .6rem; min-height: 64px;
+  padding-block: .5rem; padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px));
+  background: var(--glass); backdrop-filter: blur(6px); position: relative; z-index: 5;
+}
+.round-btn { width: 52px; height: 52px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; box-shadow: 0 2px 6px rgba(15,51,72,.18); flex: none; }
+.round-btn svg { width: 26px; height: 26px; }
+.target { flex: 1; min-width: 0; display: flex; align-items: center; gap: .7rem; }
+.target-letter { width: 60px; height: 60px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; font: 700 2.4rem/1 var(--font-display); color: var(--coral); box-shadow: 0 2px 6px rgba(15,51,72,.18); flex: none; }
+.caption { font-size: .9rem; line-height: 1.25; min-width: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.progress { display: flex; gap: 6px; flex: none; }
+.progress i { width: 14px; height: 14px; border-radius: 50%; background: rgba(15,51,72,.2); }
+.progress i.on { background: var(--ok); }
+
+/* Escenario */
+.stage { position: relative; flex: 1; min-height: 0; overflow: hidden; background: linear-gradient(var(--sea-top), var(--sea-mid) 45%, var(--sea-deep)); }
+.stage::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 13%; background: radial-gradient(120% 100% at 50% 100%, var(--sand) 60%, transparent 61%); pointer-events: none; }
+canvas.grass { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* Portada */
+.home { position: absolute; inset: 0; display: grid; align-content: center; justify-items: center; gap: 1.2rem; padding: 1rem max(16px, env(safe-area-inset-right, 0px)) 1rem max(16px, env(safe-area-inset-left, 0px)); text-align: center; z-index: 3; }
+.home h1 { font: 700 clamp(1.8rem, 7vw, 2.8rem)/1.1 var(--font-display); margin: 0; color: var(--paper); text-shadow: 0 2px 0 rgba(15,51,72,.35); text-wrap: balance; }
+.home p { margin: 0; color: var(--paper); max-width: 34ch; }
+.cards { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+.card { width: min(44vw, 210px); background: var(--glass); border-radius: 24px; padding: .8rem .6rem 1rem; display: grid; justify-items: center; gap: .3rem; box-shadow: 0 4px 12px rgba(15,51,72,.2); }
+.card img { height: 120px; width: auto; max-width: 100%; }
+.card b { font: 600 1.2rem/1.1 var(--font-display); }
+.card span { font-size: .85rem; color: #34586b; }
+.note { font-size: .8rem; color: var(--paper); opacity: .95; max-width: 40ch; }
+
+/* Juego 1: letras escondidas */
+.letter {
+  position: absolute; width: 64px; height: 64px; margin: -32px 0 0 -32px; border-radius: 50%;
+  display: grid; place-items: center; font: 700 2.6rem/1 var(--font-display); background: transparent; z-index: 2;
+  text-shadow: 0 0 6px rgba(255,255,255,.55), 0 0 2px rgba(255,255,255,.6);
+}
+.letter.found { animation: pop .45s ease-out forwards; pointer-events: none; }
+.letter.nope { animation: shake .35s ease-in-out; }
+@keyframes pop { 40% { transform: scale(1.5); } 100% { transform: scale(0); opacity: 0; } }
+@keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.trash { position: absolute; width: 46px; height: 34px; margin: -17px 0 0 -23px; border-radius: 10px 10px 14px 14px; background: rgba(255,255,255,.55); border: 2px solid rgba(255,255,255,.9); z-index: 1; transition: opacity .6s, transform .6s; pointer-events: none; }
+.trash::before { content: ""; position: absolute; top: -9px; left: 12px; width: 18px; height: 10px; border: 2px solid rgba(255,255,255,.9); border-bottom: 0; border-radius: 10px 10px 0 0; }
+.trash.gone { opacity: 0; transform: translateY(-80px) scale(.5); }
+
+/* Juego 2: sopa de vocales */
+.board { position: absolute; left: 50%; top: 46%; transform: translate(-50%, -50%); width: min(88vw, 52vh, 380px); aspect-ratio: 1; max-width: 100%; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; padding: 10px; border-radius: 22px; background: var(--glass); z-index: 2; }
+.cell { border-radius: 14px; background: var(--paper); font: 700 clamp(1.8rem, 8vw, 2.6rem)/1 var(--font-display); color: var(--ink); box-shadow: 0 2px 0 rgba(15,51,72,.15); }
+.cell.ok { background: #d7f1d9; color: var(--ok); }
+.cell.nope { animation: shake .35s ease-in-out; }
+
+/* Personaje */
+.buddy { position: absolute; right: max(6px, env(safe-area-inset-right, 0px)); bottom: 2%; height: clamp(110px, 22vh, 190px); z-index: 3; pointer-events: none; transition: transform .25s; }
+.buddy.bounce { animation: bounce .5s; }
+@keyframes bounce { 40% { transform: translateY(-14px); } }
+.bubbles { position: absolute; inset: 0; pointer-events: none; z-index: 4; overflow: hidden; }
+.bubbles i { position: absolute; bottom: -20px; width: 14px; height: 14px; border-radius: 50%; border: 2px solid rgba(255,255,255,.85); animation: rise 2.4s ease-in forwards; }
+@keyframes rise { to { transform: translateY(-110vh); opacity: .2; } }
+
+/* Final */
+.done { position: absolute; inset: 0; display: grid; place-items: center; z-index: 6; background: rgba(15,51,72,.35); padding: 1rem max(16px, env(safe-area-inset-right, 0px)) 1rem max(16px, env(safe-area-inset-left, 0px)); }
+.done-card { background: var(--paper); border-radius: 26px; padding: 1.2rem 1.2rem 1.4rem; display: grid; justify-items: center; gap: .6rem; text-align: center; max-width: 360px; width: 100%; }
+.done-card img { height: 140px; width: auto; }
+.done-card h2 { font: 700 1.6rem/1.1 var(--font-display); margin: 0; }
+.done-card p { margin: 0; }
+.fact { background: #e8f6f7; border-radius: 14px; padding: .6rem .8rem; font-size: .95rem; }
+.big-btn { background: var(--coral); color: var(--paper); border-radius: 999px; padding: .9rem 1.6rem; font: 600 1.15rem/1 var(--font-display); min-height: 52px; }
+[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) { .letter.found, .letter.nope, .cell.nope, .buddy.bounce, .bubbles i { animation-duration: .01s; } }
+</style>
+
+<div class="app">
+  <div class="bar" id="bar" hidden>
+    <button class="round-btn" id="homeBtn" aria-label="Volver al inicio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="target"><div class="target-letter" id="targetLetter">a</div><div class="caption" id="caption"></div></div>
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <button class="round-btn" id="sayBtn" aria-label="Oír otra vez"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7"/><path d="M19 6a8.5 8.5 0 0 1 0 12"/></svg></button>
+  </div>
+
+  <div class="stage" id="stage">
+    <canvas class="grass" id="grass" aria-hidden="true"></canvas>
+
+    <div class="home" id="home">
+      <h1>La pradera de Doña Posi</h1>
+      <p>La tormenta ha dejado plásticos en la pradera. ¿Nos ayudas a limpiarla?</p>
+      <div class="cards">
+        <button class="card" id="go1"><img src="img/pulpi-base.png" alt=""><b>Busca las a</b><span>con Pulpi</span></button>
+        <button class="card" id="go2"><img src="img/posi-base.png" alt=""><b>Sopa de vocales</b><span>con Doña Posi</span></button>
+      </div>
+      <p class="note">Prototipo para probar con niños de 4 a 6 años. Sube el volumen: las instrucciones se oyen.</p>
+    </div>
+
+    <div id="play"></div>
+    <img class="buddy" id="buddy" alt="" hidden>
+    <div class="bubbles" id="bubbles"></div>
+
+    <div class="done" id="done" hidden>
+      <div class="done-card">
+        <img id="doneImg" alt="">
+        <h2 id="doneTitle">¡Pradera limpia!</h2>
+        <p class="fact" id="doneFact"></p>
+        <button class="big-btn" id="againBtn">Volver a jugar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const stage = $('stage'), play = $('play'), buddy = $('buddy');
+  const VOWELS = ['a', 'e', 'i', 'o', 'u'];
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Voz: síntesis del navegador en español. Si no hay voz, queda el texto en pantalla. */
+  let voice = null, lastSaid = '';
+  function pickVoice() {
+    if (!('speechSynthesis' in window)) return;
+    const vs = speechSynthesis.getVoices();
+    voice = vs.find(v => /^es(-|_)ES/i.test(v.lang)) || vs.find(v => /^es/i.test(v.lang)) || null;
+  }
+  if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+  function say(text, caption) {
+    lastSaid = text;
+    $('caption').textContent = caption || text;
+    if (!('speechSynthesis' in window)) return;
+    try {
+      speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = voice ? voice.lang : 'es-ES'; if (voice) u.voice = voice;
+      u.rate = 0.88; u.pitch = 1.1;
+      speechSynthesis.speak(u);
+    } catch (e) {}
+  }
+  $('sayBtn').onclick = () => say(lastSaid, $('caption').textContent);
+
+  /* Sonidos cortos con WebAudio, solo tras tocar. */
+  let ac = null;
+  function tone(freqs, dur = .12, type = 'sine', vol = .18) {
+    try {
+      ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+      let t = ac.currentTime;
+      freqs.forEach(f => {
+        const o = ac.createOscillator(), g = ac.createGain();
+        o.type = type; o.frequency.value = f; o.connect(g); g.connect(ac.destination);
+        g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(.001, t + dur);
+        o.start(t); o.stop(t + dur); t += dur * .8;
+      });
+    } catch (e) {}
+  }
+  const good = () => tone([660, 880], .12), soft = () => tone([300, 240], .14, 'triangle', .12), fanfare = () => tone([523, 659, 784, 1046], .16);
+
+  /* Pradera de posidonia dibujada en canvas: cintas verdes que se mecen. */
+  const cv = $('grass'), cx = cv.getContext('2d');
+  let blades = [];
+  function makeBlades() {
+    const w = stage.clientWidth, h = stage.clientHeight, n = Math.round(w / 14);
+    blades = Array.from({ length: n }, (_, i) => ({
+      x: (i + Math.random()) * (w / n), len: h * (.35 + Math.random() * .45), wid: 8 + Math.random() * 7,
+      ph: Math.random() * 6.28, hue: 95 + Math.random() * 30, light: 30 + Math.random() * 18
+    }));
+  }
+  function resize() {
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    cv.width = stage.clientWidth * dpr; cv.height = stage.clientHeight * dpr; cx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    makeBlades(); draw(0);
+  }
+  function draw(t) {
+    const w = stage.clientWidth, h = stage.clientHeight, base = h * .93;
+    cx.clearRect(0, 0, w, h);
+    for (const b of blades) {
+      const sway = Math.sin(t / 1400 + b.ph) * 14;
+      cx.strokeStyle = `hsl(${b.hue} 55% ${b.light}%)`; cx.lineWidth = b.wid; cx.lineCap = 'round';
+      cx.beginPath(); cx.moveTo(b.x, base);
+      cx.quadraticCurveTo(b.x + sway * .4, base - b.len * .5, b.x + sway, base - b.len); cx.stroke();
+    }
+  }
+  let raf = 0;
+  function loop(t) { draw(t); raf = requestAnimationFrame(loop); }
+  addEventListener('resize', resize);
+  resize();
+  if (!reduced) raf = requestAnimationFrame(loop);
+
+  function bubbles(n = 10) {
+    const box = $('bubbles');
+    for (let i = 0; i < n; i++) {
+      const b = document.createElement('i');
+      b.style.left = (10 + Math.random() * 80) + '%'; b.style.animationDelay = (Math.random() * .8) + 's';
+      const s = 8 + Math.random() * 14; b.style.width = b.style.height = s + 'px';
+      box.appendChild(b); setTimeout(() => b.remove(), 3400);
+    }
+  }
+  function setBuddy(src, bounce) {
+    buddy.hidden = false; buddy.src = src;
+    if (bounce) { buddy.classList.remove('bounce'); void buddy.offsetWidth; buddy.classList.add('bounce'); }
+  }
+  function progress(total, done) {
+    $('progress').innerHTML = Array.from({ length: total }, (_, i) => `<i class="${i < done ? 'on' : ''}"></i>`).join('');
+  }
+  function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+  const pick = a => a[Math.floor(Math.random() * a.length)];
+
+  /* Juego 1: Busca las a. Cinco "a" escondidas entre otras vocales; algunas con el color de la pradera, como Pulpi cuando se camufla. */
+  function game1() {
+    play.innerHTML = ''; $('targetLetter').textContent = 'a';
+    const TOTAL = 5; let found = 0;
+    progress(TOTAL, 0);
+    const letters = shuffle([...Array(TOTAL).fill('a'), ...shuffle(['e', 'i', 'o', 'u', 'e', 'o', 'i', 'u', 'o'])]);
+    const cols = 4, rows = Math.ceil(letters.length / cols);
+    const greens = ['#3f7d34', '#56923f', '#2f6a3a'], brights = ['#e2604f', '#f2a93b', '#ffffff', '#7b5cc4'];
+    letters.forEach((ch, i) => {
+      const c = i % cols, r = Math.floor(i / cols);
+      const x = 12 + (c + .5) * (76 / cols) + (Math.random() - .5) * 8;
+      const y = 10 + (r + .5) * (64 / rows) + (Math.random() - .5) * 6;
+      const b = document.createElement('button');
+      b.className = 'letter'; b.textContent = ch; b.setAttribute('aria-label', 'letra ' + ch);
+      b.style.left = x + '%'; b.style.top = y + '%';
+      b.style.color = Math.random() < .45 ? pick(greens) : pick(brights);
+      b.style.transform = `rotate(${(Math.random() - .5) * 30}deg)`;
+      b.onclick = () => {
+        if (ch === 'a') {
+          b.classList.add('found'); found++; progress(TOTAL, found); good(); bubbles(5);
+          const t = play.querySelector('.trash:not(.gone)'); if (t) t.classList.add('gone');
+          setBuddy(found % 2 ? 'img/pulpi-alegre.png' : 'img/pulpi-sorpresa.png', true);
+          if (found === TOTAL) setTimeout(finish1, 700);
+          else say(pick(['¡Muy bien! Es la a.', '¡Otra a! Sigue buscando.', '¡Esa sí! a de agua.']));
+        } else {
+          b.classList.remove('nope'); void b.offsetWidth; b.classList.add('nope'); soft();
+          setBuddy('img/pulpi-timido.png');
+          say(`Esa es la ${ch}. Busca la a.`);
+          setTimeout(() => setBuddy('img/pulpi-base.png'), 1200);
+        }
+      };
+      play.appendChild(b);
+    });
+    for (let i = 0; i < TOTAL; i++) {
+      const t = document.createElement('div'); t.className = 'trash';
+      t.style.left = (10 + Math.random() * 70) + '%'; t.style.top = (72 + Math.random() * 12) + '%';
+      play.appendChild(t);
+    }
+    setBuddy('img/pulpi-base.png');
+    say('¡Hola! Soy Pulpi. La tormenta ha dejado plásticos en la pradera. Cada vez que encuentres una a, quitamos uno. Busca todas las a.', 'Busca todas las «a». Cada «a» quita un plástico.');
+  }
+  function finish1() {
+    fanfare(); bubbles(18); setBuddy('img/pulpi-alegre.png', true);
+    show('img/pulpi-sorpresa.png', '¡Pradera limpia!', '¿Sabías que? El pulpo cambia de color para esconderse. Por eso algunas «a» estaban camufladas.');
+    say('¡Lo has conseguido! La pradera está limpia. ¿Sabías que el pulpo cambia de color para esconderse?', '¡Pradera limpia!');
+  }
+
+  /* Juego 2: Sopa de vocales. Cinco rondas; en cada una hay que tocar las tres casillas de la vocal que se oye. */
+  function game2() {
+    const order = ['a', 'e', 'i', 'o', 'u']; let round = 0;
+    progress(order.length, 0);
+    setBuddy('img/posi-base.png');
+    const next = () => {
+      if (round === order.length) return finish2();
+      const v = order[round]; let hits = 0;
+      $('targetLetter').textContent = v;
+      const others = VOWELS.filter(x => x !== v);
+      const cells = shuffle([v, v, v, ...Array.from({ length: 13 }, () => pick(others))]);
+      play.innerHTML = '<div class="board" id="board"></div>';
+      const board = $('board');
+      cells.forEach(ch => {
+        const c = document.createElement('button'); c.className = 'cell'; c.textContent = ch; c.setAttribute('aria-label', 'letra ' + ch);
+        c.onclick = () => {
+          if (c.classList.contains('ok')) return;
+          if (ch === v) {
+            c.classList.add('ok'); hits++; good(); bubbles(3);
+            if (hits === 3) {
+              round++; progress(order.length, round); setBuddy('img/posi-riendo.png', true); bubbles(12);
+              say(pick(['¡Las tres! Muy bien.', '¡Estupendo! Las encontraste todas.', '¡Qué bien buscas!']));
+              setTimeout(() => { setBuddy('img/posi-cuenta.png'); next(); }, 1600);
+            }
+          } else {
+            c.classList.remove('nope'); void c.offsetWidth; c.classList.add('nope'); soft();
+            say(`Esa es la ${ch}. Busca la ${v}.`, `Esa es la «${ch}». Busca la «${v}».`);
+          }
+        };
+        board.appendChild(c);
+      });
+      const intro = round === 0 ? 'Hola, soy Doña Posi. Mis hojas dan oxígeno al mar. ' : '';
+      say(`${intro}Busca las tres ${v}.`, `Busca las tres «${v}».`);
+    };
+    next();
+  }
+  function finish2() {
+    fanfare(); bubbles(20); setBuddy('img/posi-orgullosa.png', true);
+    show('img/posi-orgullosa.png', '¡Todas las vocales!', '¿Sabías que? La posidonia es una planta, no un alga. Da oxígeno al mar y protege las playas.');
+    say('¡Has encontrado todas las vocales! ¿Sabías que la posidonia es una planta, no un alga? Da oxígeno al mar.', '¡Todas las vocales!');
+  }
+
+  /* Navegación */
+  let current = null;
+  function show(img, title, fact) { $('doneImg').src = img; $('doneTitle').textContent = title; $('doneFact').textContent = fact; $('done').hidden = false; }
+  function start(g) {
+    current = g; $('home').hidden = true; $('bar').hidden = false; $('done').hidden = true;
+    g === 1 ? game1() : game2(); resize();
+  }
+  function home() {
+    if ('speechSynthesis' in window) try { speechSynthesis.cancel(); } catch (e) {}
+    play.innerHTML = ''; buddy.hidden = true; $('bar').hidden = true; $('done').hidden = true; $('home').hidden = false; resize();
+  }
+  $('go1').onclick = () => start(1);
+  $('go2').onclick = () => start(2);
+  $('homeBtn').onclick = home;
+  $('againBtn').onclick = () => start(current);
+})();
+</script>
