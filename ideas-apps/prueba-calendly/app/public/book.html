@@ -1,0 +1,71 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reservar · Citaclara</title><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/app.css">
+<main>
+<div id="top"></div>
+<div id="banner" role="alert"></div>
+<div class="grid">
+  <section class="card" aria-label="Resumen"><h1 id="evname" class="long">Cargando…</h1><p class="muted" id="evinfo"></p>
+    <div class="field"><label for="tz">Tu zona horaria</label><select id="tz"></select></div></section>
+  <section class="card" aria-label="Elige un día"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--space-3)">
+    <button class="btn" id="prev" aria-label="Mes anterior">‹</button><strong id="month"></strong><button class="btn" id="next" aria-label="Mes siguiente">›</button></div>
+    <div class="cal" id="cal" role="group" aria-label="Días del mes"></div></section>
+  <section class="card" aria-label="Elige una hora"><h2 style="margin-top:0" id="dayh">Elige un día</h2><div id="slots" aria-live="polite"></div>
+    <form id="form" hidden novalidate><div class="field"><label for="nm">Tu nombre</label><input id="nm" maxlength="120" autocomplete="name"><div class="err" id="enm"></div></div>
+    <div class="field"><label for="em">Tu correo</label><input id="em" type="email" autocomplete="email"><div class="err" id="eem"></div></div>
+    <button class="btn primary lg" id="go" type="submit">Confirmar reserva</button></form></section>
+</div></main>
+<script>
+const $=s=>document.querySelector(s), slug=location.pathname.split('/').pop();
+const state={slots:[],day:null,pick:null,month:null,busy:false};
+const tzs=(Intl.supportedValuesOf?Intl.supportedValuesOf('timeZone'):['UTC']);
+const mine=Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC';
+$('#tz').innerHTML=(tzs.includes(mine)?tzs:[mine,...tzs]).map(z=>`<option ${z===mine?'selected':''}>${z}</option>`).join('');
+const tz=()=>$('#tz').value;
+const dkey=ms=>new Intl.DateTimeFormat('en-CA',{timeZone:tz()}).format(ms);
+const hour=ms=>new Intl.DateTimeFormat('es',{timeZone:tz(),hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).format(ms);
+const err=t=>{$('#banner').innerHTML=t?`<div class="banner">${t}</div>`:''};
+async function load(keepBanner){
+ $('#slots').innerHTML='<div class="skeleton"></div><div class="skeleton"></div>';
+ try{const from=Date.now(),to=from+60*86400000;
+  const r=await fetch(`/api/slots?event=${slug}&from=${from}&to=${to}`);
+  if(r.status===404){$('#evname').textContent='Esta página no existe';$('#slots').innerHTML='<p class="muted">El enlace no es válido o el evento está desactivado.</p>';$('#cal').innerHTML='';return}
+  if(!r.ok)throw 0;const d=await r.json();state.slots=d.slots;
+  $('#evname').textContent=d.event.name;$('#evinfo').textContent=`${d.event.duration_min} min con ${d.host.name}`;
+  if(!state.month)initMonth();
+  if(!keepBanner)err('');render();
+ }catch{$('#slots').innerHTML='';err('No pudimos cargar los horarios. <button class="btn" onclick="load()">Reintentar</button>')}}
+function initMonth(){const k=state.slots[0]?dkey(state.slots[0]):dkey(Date.now());const[y,m]=k.split('-').map(Number);state.month=new Date(Date.UTC(y,m-1,1))}
+function byDay(){const m={};for(const s of state.slots)(m[dkey(s)]??=[]).push(s);return m}
+function render(){
+ const days=byDay(),y=state.month.getUTCFullYear(),mo=state.month.getUTCMonth();
+ $('#month').textContent=new Intl.DateTimeFormat('es',{month:'long',year:'numeric',timeZone:'UTC'}).format(state.month);
+ const first=new Date(Date.UTC(y,mo,1)),lead=(first.getUTCDay()+6)%7,n=new Date(Date.UTC(y,mo+1,0)).getUTCDate();
+ let h=['L','M','X','J','V','S','D'].map(d=>`<div class="dow">${d}</div>`).join('')+'<span></span>'.repeat(lead);
+ for(let i=1;i<=n;i++){const k=`${y}-${String(mo+1).padStart(2,'0')}-${String(i).padStart(2,'0')}`,ok=!!days[k];
+  h+=`<button class="day ${ok?'free':''} ${state.day===k?'sel':''}" ${ok?'':'disabled'} data-k="${k}" ${ok?'':'aria-label="'+i+', sin huecos"'}>${i}</button>`}
+ $('#cal').innerHTML=h;
+ $('#cal').querySelectorAll('.free').forEach(b=>b.onclick=()=>{state.day=b.dataset.k;state.pick=null;render()});
+ const list=days[state.day]||[];
+ if(!state.slots.length){$('#dayh').textContent='Sin disponibilidad';$('#slots').innerHTML='<p class="muted">No quedan huecos en los próximos 60 días. Vuelve a mirar pronto.</p>';$('#form').hidden=true;return}
+ $('#dayh').textContent=state.day?new Intl.DateTimeFormat('es',{dateStyle:'full',timeZone:'UTC'}).format(new Date(state.day+'T12:00:00Z')):'Elige un día';
+ $('#slots').innerHTML=list.map(s=>`<button class="slot ${state.pick===s?'sel':''}" data-s="${s}" aria-pressed="${state.pick===s}">${hour(s)}</button>`).join('');
+ $('#slots').querySelectorAll('.slot').forEach(b=>b.onclick=()=>{state.pick=+b.dataset.s;render()});
+ $('#form').hidden=!state.pick}
+$('#prev').onclick=()=>{state.month=new Date(Date.UTC(state.month.getUTCFullYear(),state.month.getUTCMonth()-1,1));render()};
+$('#next').onclick=()=>{state.month=new Date(Date.UTC(state.month.getUTCFullYear(),state.month.getUTCMonth()+1,1));render()};
+$('#tz').onchange=()=>{state.day=null;state.pick=null;initMonth();render()};
+$('#nm').oninput=()=>{$('#enm').textContent='';$('#nm').removeAttribute('aria-invalid')};
+$('#em').oninput=()=>{$('#eem').textContent='';$('#em').removeAttribute('aria-invalid')};
+$('#form').onsubmit=async ev=>{ev.preventDefault();if(state.busy)return;
+ const name=$('#nm').value.trim(),email=$('#em').value.trim();let bad=false;
+ $('#enm').textContent=name?'':'Escribe tu nombre.';$('#eem').textContent=/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)?'':'Escribe un correo válido.';
+ $('#nm').setAttribute('aria-invalid',!name);$('#em').setAttribute('aria-invalid',!!$('#eem').textContent);
+ if(!name||$('#eem').textContent)return;
+ state.busy=true;$('#go').disabled=true;$('#go').textContent='Reservando…';err('');
+ try{const r=await fetch('/api/book',{method:'POST',body:JSON.stringify({event:slug,start:state.pick,name,email,tz:tz()})});
+  if(r.status===409){err('Ese horario acaba de ocuparse. Elige otro, ya hemos actualizado la lista.');state.pick=null;await load(true);return}
+  if(!r.ok)throw 0;const d=await r.json();location.href='/confirmacion?t='+d.token+'&tz='+encodeURIComponent(tz());
+ }catch{err('No se pudo completar la reserva. Inténtalo de nuevo.')}
+ finally{state.busy=false;$('#go').disabled=false;$('#go').textContent='Confirmar reserva'}};
+load();
+</script></html>

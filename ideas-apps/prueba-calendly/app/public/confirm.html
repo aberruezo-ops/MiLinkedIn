@@ -1,0 +1,14 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reserva confirmada · Citaclara</title><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/app.css">
+<main><div class="card" style="max-width:560px;margin:var(--space-6) auto"><div id="out" role="status"><p class="muted">Cargando…</p></div></div></main>
+<script>
+const q=new URLSearchParams(location.search),tz=q.get('tz')||'UTC',$=s=>document.querySelector(s);
+const fmt=ms=>new Intl.DateTimeFormat('es',{dateStyle:'full',timeStyle:'short',timeZone:tz}).format(ms);
+(async()=>{try{const r=await fetch('/api/bookings/'+encodeURIComponent(q.get('t')||'x'));
+ if(!r.ok){$('#out').innerHTML='<h1>No encontramos esta reserva</h1><p class="muted">El enlace puede ser incorrecto.</p>';return}
+ const b=await r.json();
+ if(b.status==='cancelled'){$('#out').innerHTML='<h1>Reserva cancelada</h1><p class="muted">Este horario ya no está reservado.</p>';return}
+ $('#out').innerHTML=`<h1 class="long">Reserva confirmada</h1><p class="long"><strong>${b.event.replace(/</g,'&lt;')}</strong> con ${b.host.replace(/</g,'&lt;')}</p><p>${fmt(b.start_at)} (${tz})</p><p class="muted">Gracias, ${b.guest_name.replace(/</g,'&lt;')}.</p><p class="muted">¿Cambio de planes? Cancela aquí, sin escribir a nadie.</p><button class="btn" id="c">Cancelar reserva</button>`;
+ $('#c').onclick=async()=>{if(!confirm('¿Cancelar esta reserva?'))return;await fetch('/api/bookings/'+q.get('t')+'/cancel',{method:'POST'});location.reload()};
+}catch{$('#out').innerHTML='<h1>No se pudo cargar</h1>'}})();
+</script></html>

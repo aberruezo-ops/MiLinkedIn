@@ -1,0 +1,23 @@
+feature,area,priority,original,clone,notes
+Cuenta del adulto con alta y acceso,onboarding,must,yes,no,
+Hasta 3 perfiles de niño por suscripcion,onboarding,should,yes,no,descripcion App Store
+Suscripcion familiar con control parental,billing,must,yes,no,precio por verificar
+Mapa de progreso por lecciones,lessons,must,yes,no,captura 2
+Leccion guiada con guion para el adulto (tu dices / el niño hace),lessons,must,yes,no,nucleo del producto
+Marcas visuales de sonido y silaba sobre las letras,lessons,must,yes,no,adaptar a silabas
+Audio de cada sonido y silaba,lessons,must,yes,no,dos variantes de voz
+Secuencia de actividades por leccion (repaso letra nueva unir rimas escribir leer comprension),lessons,must,yes,no,informe de eficacia
+Cuentos descodificables que se desbloquean con las lecciones,books,must,yes,no,84 en el original
+Lector de cuento con resaltado palabra a palabra,books,must,yes,no,captura 4
+Videos de letras con cancion,media,should,yes,no,42 en el original
+Juego de trazar letras y palabras,games,should,yes,no,captura 6
+Juego de palabras frecuentes,games,could,yes,no,en español pesa menos: ortografia transparente
+Juego de formar palabras con letras o silabas,games,should,yes,no,captura 6
+Fichas imprimibles,extras,could,yes,no,captura 8
+Uso sin conexion de lecciones descargadas,platform,should,unknown,no,no verificado en el original
+Sin anuncios,platform,must,yes,no,obligatorio en categoria Niños
+Borrado de cuenta,account,must,yes,no,obligatorio en Apple
+Portal web para profesores,schools,could,yes,no,fuera del alcance inicial
+Integraciones escolares de EE. UU. (Clever ClassLink),schools,could,yes,skip,no aplica en España
+Contenido marca y personajes de Reading.com,content,could,yes,skip,con derechos: crear propio
+Certificacion kidSAFE e informe de eficacia,trust,could,yes,skip,son suyos; habria que conseguir los propios

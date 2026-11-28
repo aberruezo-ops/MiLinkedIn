@@ -1,0 +1,46 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tu agenda · Citaclara</title><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/app.css">
+<main>
+<h1>Tu agenda</h1><p class="muted">Dinos cuándo estás libre y qué se puede reservar.</p>
+<div id="msg" role="status" aria-live="polite"></div>
+<h2>Tipo de evento</h2>
+<form id="et" class="card" novalidate>
+  <div class="field"><label for="name">Nombre</label><input id="name" required maxlength="120"></div>
+  <div class="field"><label for="dur">Duración en minutos</label><input id="dur" type="number" min="5" max="720"></div>
+  <div class="field"><label for="bb">Margen antes (min)</label><input id="bb" type="number" min="0"></div>
+  <div class="field"><label for="ba">Margen después (min)</label><input id="ba" type="number" min="0"></div>
+  <button class="btn primary" type="submit">Guardar evento</button>
+  <p class="muted">Enlace para compartir: <a id="link" href="/book/llamada-30">/book/llamada-30</a></p>
+</form>
+<h2>Disponibilidad semanal</h2>
+<form id="av" class="card" novalidate>
+  <p class="muted" id="tz"></p>
+  <div id="rules"></div>
+  <p><button class="btn" type="button" id="add">Añadir tramo</button> <button class="btn primary" type="submit">Guardar horarios</button></p>
+</form>
+</main>
+<script>
+const DAYS=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+const $=s=>document.querySelector(s);
+const say=(t,bad)=>{$('#msg').innerHTML=t?`<div class="${bad?'banner':'ok'}">${t}</div>`:''};
+function ruleRow(r){const d=document.createElement('div');d.className='rule';
+ d.innerHTML=`<select aria-label="Día">${DAYS.map((n,i)=>`<option value="${i}" ${i===r.weekday?'selected':''}>${n}</option>`).join('')}</select>
+ <input type="time" aria-label="Desde" value="${r.start_local}"> <span>a</span> <input type="time" aria-label="Hasta" value="${r.end_local}">
+ <button class="btn" type="button" aria-label="Quitar tramo">Quitar</button>`;
+ d.querySelector('button').onclick=()=>d.remove();$('#rules').append(d)}
+async function load(){
+ const [a,e]=await Promise.all([fetch('/api/admin/availability').then(r=>r.json()),fetch('/api/admin/event-type').then(r=>r.json())]);
+ $('#tz').textContent='Zona horaria del anfitrión: '+a.timezone;
+ $('#rules').innerHTML='';if(!a.rules.length)$('#rules').innerHTML='<p class="muted">Aún no tienes horarios. Nadie podrá reservar.</p>';
+ a.rules.forEach(ruleRow);
+ $('#name').value=e.name;$('#dur').value=e.duration_min;$('#bb').value=e.buffer_before_min;$('#ba').value=e.buffer_after_min}
+$('#add').onclick=()=>{const p=$('#rules p');if(p)p.remove();ruleRow({weekday:1,start_local:'09:00',end_local:'13:00'})};
+$('#av').onsubmit=async ev=>{ev.preventDefault();
+ const rules=[...document.querySelectorAll('.rule')].map(d=>{const [s,,e]=d.querySelectorAll('select,input');const i=d.querySelectorAll('input');return{weekday:+d.querySelector('select').value,start_local:i[0].value,end_local:i[1].value}});
+ const r=await fetch('/api/admin/availability',{method:'PUT',body:JSON.stringify({rules})});
+ say(r.ok?'Horarios guardados.':'Hay un tramo en el que la hora de fin no es posterior a la de inicio.',!r.ok)};
+$('#et').onsubmit=async ev=>{ev.preventDefault();
+ const r=await fetch('/api/admin/event-type',{method:'PUT',body:JSON.stringify({name:$('#name').value,duration_min:$('#dur').value,buffer_before_min:$('#bb').value,buffer_after_min:$('#ba').value})});
+ say(r.ok?'Evento guardado.':'Revisa el nombre y la duración (entre 5 y 720 minutos).',!r.ok)};
+load().catch(()=>say('No se pudo cargar. Recarga la página.',true));
+</script></html>

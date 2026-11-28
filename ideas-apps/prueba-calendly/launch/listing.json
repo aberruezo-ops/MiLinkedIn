@@ -1,0 +1,16 @@
+{
+  "avoid": ["Calendly", "Calendly, LLC"],
+  "app_store": {
+    "name": "Citaclara: reservas claras",
+    "subtitle": "Reservas sin letra pequeña",
+    "promotional_text": "Comparte un enlace y que te reserven. Cancelar es cosa de un clic.",
+    "description": "Citaclara convierte tu disponibilidad en un enlace de reservas.\n\nComparte el enlace. La gente ve solo los huecos libres, elige uno en su zona horaria y la reserva queda confirmada.\n\nLo que ya funciona:\n- Un enlace para cada tipo de reunión\n- Horas en la zona horaria de cada persona, también en los cambios de hora\n- Nunca dos reservas en el mismo hueco\n- Quien reserva puede cancelar sin escribir a nadie\n\nNota: esta ficha es un borrador. Hoy Citaclara es una aplicación web en pruebas, sin app móvil publicada.",
+    "keywords": "citas,cita previa,agenda,enlace,horarios,disponibilidad,clientes,reuniones",
+    "whats_new": "Primera versión de pruebas."
+  },
+  "google_play": {
+    "title": "Citaclara: reservas claras",
+    "short_description": "Comparte un enlace y que la gente reserve en un hueco libre.",
+    "full_description": "Citaclara convierte tu disponibilidad en un enlace de reservas.\n\nComparte el enlace. La gente ve solo los huecos libres, elige uno en su zona horaria y la reserva queda confirmada. Quien reserva puede cancelar sin escribir a nadie.\n\nNota: esta ficha es un borrador. Hoy Citaclara es una aplicación web en pruebas, sin app móvil publicada."
+  }
+}

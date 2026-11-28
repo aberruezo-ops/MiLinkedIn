@@ -1,0 +1,5 @@
+{
+  "avoid": ["Calendly", "Calendly, LLC"],
+  "domains": ["calendly.com"],
+  "colors": ["#fcfbf8", "#071a31", "#006bff"]
+}

@@ -1,0 +1,27 @@
+feature,area,priority,original,clone,notes
+Conectar calendario (Google/Outlook) para leer ocupado,onboarding,must,yes,no,fuente ayuda
+Disponibilidad semanal,availability,must,yes,yes,
+Buffers y limites diarios,availability,should,yes,partial,"features page; buffers si; limite diario solo en el modelo, sin interfaz"
+Tipos de evento (nombre duracion ubicacion),event types,must,yes,partial,"Free limita a 1; un solo tipo editable (nombre, duracion, margenes); sin ubicacion ni varios tipos"
+Pagina de reserva publica con huecos,booking page,must,yes,yes,
+Reserva sin cuenta ni asiento del invitado,booking page,must,yes,yes,pricing
+Aviso de zona horaria,booking page,must,yes,yes,"inferido; selector, detecta la del navegador"
+Evitar doble reserva,booking page,must,yes,yes,probado con 5 reservas simultaneas contra Postgres (exclusion constraint)
+Email de confirmacion a ambos,notifications,must,yes,partial,"cola con reintentos y dead letter; proveedor simulado, sin envio real"
+Reprogramar y cancelar,bookings,must,yes,partial,por verificar; cancelar si; reprogramar no
+Politica de cancelacion,bookings,could,yes,no,pricing
+Recordatorios automaticos,notifications,should,yes,no,plan Standard
+Cobros (Stripe/PayPal),payments,could,yes,no,plan Standard
+Round robin y reuniones de equipo,teams,should,yes,no,plan Teams
+Routing forms,teams,could,yes,no,plan Teams
+Embed en web,sharing,should,yes,no,ayuda
+App movil y extension de navegador,platform,could,yes,no,
+Notetaker,ai,could,yes,skip,producto aparte
+Callie asistente IA,ai,could,yes,skip,beta producto aparte
+Integracion Salesforce/Marketo/Pardot,integrations,could,yes,skip,acuerdos de socio
+SSO SAML SCIM auditoria,admin,could,yes,skip,solo Enterprise
+Cancelar suscripcion y cobro en un clic,billing,should,no,no,"fix; evidencia: cancelar y cobros (20 resenas, 1 fuente verificada)"
+Estado de sincronizacion del calendario visible con reintento,integrations,should,no,no,"fix; 18+ resenas de sincronizacion, 1 fuente"
+Excepciones de disponibilidad por fecha (bloquear un dia),availability,should,no,no,fix; 2 resenas
+Aprobar reservas manualmente antes de confirmar,bookings,could,no,no,"fix; 1 resena, senal debil"
+Citas recurrentes,bookings,could,no,no,"fix; 1 resena, senal debil"
