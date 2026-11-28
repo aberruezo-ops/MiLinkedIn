@@ -360,8 +360,8 @@ def cubierta_acuarela():
     s += f'<text x="{cx0}" y="318" font-family="Fraunces" font-weight="700" font-size="88" fill="#b5562b" {halo} text-anchor="middle">jardín de todos</text>'
     s += f'<rect x="{cx0 - 285}" y="342" width="570" height="48" rx="24" fill="{crema}" fill-opacity=".9"/>'
     s += f'<text x="{cx0}" y="374" font-family="Fraunces" font-weight="600" font-size="23" text-anchor="middle" fill="{tinta}">Para colorear · 4 a 8 años · Con guía para familias</text>'
-    s += f'<rect x="{cx0 - 170}" y="1052" width="340" height="56" rx="28" fill="{crema}" fill-opacity=".88"/>'
-    s += f'<text x="{cx0}" y="1090" font-family="Fraunces" font-weight="700" font-size="32" text-anchor="middle" fill="{tinta}">{AUTOR}</text>'
+    s += f'<rect x="{cx0 - 170}" y="968" width="340" height="56" rx="28" fill="{crema}" fill-opacity=".88"/>'
+    s += f'<text x="{cx0}" y="1006" font-family="Fraunces" font-weight="700" font-size="32" text-anchor="middle" fill="{tinta}">{AUTOR}</text>'
     s += f'<rect x="{bx0 - 350}" y="55" width="700" height="300" rx="26" fill="{crema}" fill-opacity=".92"/>'
     lineas = ['Volumen II de la serie Lúa', 'Un solar abandonado, cuatro amigos muy distintos', 'y un montón de semillas. Lúa, Hera, Raspi y Neu',
               'descubren que cada uno crece a su tiempo, que en', 'el jardín cabe todo el mundo y que cuidar', 'el planeta empieza en un solar.', 'Con guía para familias.']
