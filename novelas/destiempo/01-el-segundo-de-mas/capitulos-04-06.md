@@ -124,7 +124,7 @@ Le oí toser una vez más, bajito, contra la manga.
 
 Mi madre vuelve del turno de noche con la cara de quien ha ganado una pelea sin querer.
 
-Llega a las ocho menos cuarto, justo cuando yo termino de buscar un calcetín (siempre falta uno, es una ley física), y deja las llaves en el cuenco, la bolsa en la silla y el cuerpo en el sofá, en ese orden. Marta Valdés mide un metro sesenta, lleva el pelo recogido con un lápiz y tiene una risa que parece una tos con suerte. Es enfermera de urgencias en el Doce de Octubre. Sabe coser una herida con la mano izquierda mientras habla por teléfono con la derecha. Y desde hace tres años no sabe qué hacer conmigo.
+Llega a las ocho menos cuarto, justo cuando yo termino de buscar un calcetín (siempre falta uno, es una ley física), y deja las llaves en el cuenco, la bolsa en la silla y el cuerpo en el sofá, en ese orden. Marta Valdés mide un metro sesenta, lleva el pelo recogido con un lápiz y tiene una risa que parece una tos con suerte. Es enfermera de urgencias en el hospital de Huércal-Overa. Sabe coser una herida con la mano izquierda mientras habla por teléfono con la derecha. Y desde hace tres años no sabe qué hacer conmigo.
 
 «Buenos días, cariño», dijo sin abrir los ojos. «¿Has desayunado?».
 

@@ -247,6 +247,8 @@ Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin qu
 Ya escrito en el libro I:
 - Cap. 7: el levante trae un sobre antiguo al balcón de la señora Encarna. Raúl apuntaba en una libreta la hora a la que llegaban las cosas (semilla para el cuaderno del cap. 11). Edu ve durante un instante el reloj que Ibarra quitó de la pared, a las 10:23, con una mancha de humedad en forma de nube. El reloj de Tomás da un tic cuando Ibarra dice «Raúl».
 - Cap. 8: en el cerro, con la mano de Nora, Edu ve la Vera antigua en pie y oye su campana. Nora tiene los ojos cerrados: no se sabe si lo ve (no delata su secreto). Con la séptima tos de Tomás, todos los relojes de la tienda se paran cinco segundos.
+- Cap. 9: las trece campanadas de los viernes y la pausa del pueblo; Edu nota el picaporte en la decimotercera. En la prueba 3 ve en el cristal de la ventana a un hombre alto detrás de él con la mano levantada, como diciendo «para» (es Raúl desde el Destiempo; enlaza con el «NO MÁS» de letra ajena y con «Hola, papá» del cap. 24).
+- Cap. 10: el reloj de bolsillo anda mientras Tomás está sentado en la cama de Edu y se para cuando sale (los relojes fallan cerca de un intervalo; Edu se lo explica con un muelle). Marcos no se refleja en el charco y alrededor de él el tiempo va más espeso (una mosca quieta en el aire). El hermano de Sergio recuerda a Marcos un día y lo olvida al siguiente.
 
 **Reglas.** Lo mágico nunca se explica del todo. Nadie dice «¡es magia!». Los adultos lo tratan como normal. Y siempre tiene relación con el tiempo.
 

@@ -129,7 +129,7 @@ No supe contestarle.
 
 Lo intenté esa misma noche.
 
-Mi madre trabajaba de enfermera en el turno de noche del Doce de Octubre, así que a las nueve y media ya se había ido, dejándome una cena en el microondas, una nota con tres corazones y la orden de siempre: «Si te asustas, llama al abuelo». El abuelo vive en el piso de abajo y nunca ha oído un teléfono desde su sillón, pero la intención era buena.
+Mi madre trabajaba de enfermera en el turno de noche del hospital de Huércal-Overa, así que a las nueve y media ya se había ido, dejándome una cena en el microondas, una nota con tres corazones y la orden de siempre: «Si te asustas, llama al abuelo». El abuelo vive en el piso de abajo y nunca ha oído un teléfono desde su sillón, pero la intención era buena.
 
 Cené de pie, mirando el patio de luces. Nuestro bloque es de los pocos de Vera construidos alrededor de un patio así, un pozo cuadrado de ventanas donde ves las vidas de los vecinos en pequeño: una televisión azul, una señora, la señora Pilar, que riega geranios a las diez de la noche (florecen de noche, y en el pueblo nadie lo comenta), un hombre que discute con alguien que no está. Esa noche el viento silbaba por el pozo igual que por el cuello de una botella.
 

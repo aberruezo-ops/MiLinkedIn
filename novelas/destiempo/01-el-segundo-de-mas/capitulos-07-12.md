@@ -9,7 +9,7 @@ Mi madre llegó de la guardia a las siete y veinte, que es la hora a la que lleg
 
 La oí dejar las llaves en el platito de la entrada. Después, nada. Después, el grifo.
 
-Salí de mi cuarto. Estaba en la cocina con el uniforme verde todavía puesto debajo del abrigo, bebiendo agua a morro, y tenía esa cara que se le pone cuando ha visto algo que no me va a contar. En Urgencias de Huércal-Overa, de noche, entra de todo: accidentes en la autovía, abuelos que se caen, gente de los invernaderos con las manos cortadas. Ella dice que lo peor no es la sangre. Lo peor es la sala de espera.
+Salí de mi cuarto. Estaba en la cocina con el uniforme azul todavía puesto debajo del abrigo, bebiendo agua a morro, y tenía esa cara que se le pone cuando ha visto algo que no me va a contar. En Urgencias de Huércal-Overa, de noche, entra de todo: accidentes en la autovía, abuelos que se caen, gente de los invernaderos con las manos cortadas. Ella dice que lo peor no es la sangre. Lo peor es la sala de espera.
 
 «Buenos días, cariño».
 
@@ -487,6 +487,38 @@ Mi libreta se llamaba CUADERNO DE LABORATORIO (nº 1), con letras de rotulador, 
 
 La tercera no tenía respuesta. Era la que más me dolía. En todo el mundo, hasta donde yo sabía, no había una sola persona a la que le pasara lo mismo que a mí.
 
+Y lo había buscado. Toda la tarde.
+
+Empecé por lo fácil, escribiendo en el buscador cosas que me daba vergüenza escribir incluso a solas: «el tiempo se para cuando me asusto», «veo todo a cámara lenta y luego me desmayo», «perder minutos de memoria con 12 años». Salieron páginas de medicina con palabras como *síncope* y *ataque de pánico* y *consulte a su médico*. Salieron foros de padres preocupados. Salió un hilo de 2011 de un señor de Albacete que decía que le pasaba desde la mili y que tenía pruebas, y cuando entré a ver las pruebas el enlace estaba muerto y el señor no había vuelto a escribir.
+
+Después me metí en los vídeos cortos. Ahí había de todo. Chavales «parando el tiempo» con un truco de edición que se veía a la legua: la gente congelada en un pasillo, uno que camina entre ellos, y en los comentarios mil personas diciendo «fake» y otras mil diciendo «yo también puedo, mándame privado». Uno de Texas que decía que el tiempo era una simulación y que él había encontrado el fallo. Una chica coreana que bailaba muy despacio con una canción muy rápida y tenía cuarenta millones de visitas. Me tragué una hora entera. El algoritmo entendió enseguida lo que buscaba y me lo fue sirviendo, vídeo tras vídeo, cada vez más raro, cada vez más falso, hasta que me encontré viendo a un señor con gorro de papel de aluminio explicar que los relojes de las estaciones nos roban segundos.
+
+Al final hice lo que hace todo el mundo cuando ya no sabe a quién preguntar: se lo pregunté a la inteligencia artificial del móvil. Le escribí, con los pulgares sudados: *¿Hay más gente a la que el tiempo se le pare de verdad?*
+
+La respuesta llegó en un segundo, larguísima, amable. Me explicaba que la percepción del tiempo podía alterarse con el estrés, con la adrenalina, con algunas condiciones neurológicas. Que era muy común sentir que «todo va más lento» en situaciones de peligro. Que si me estaba pasando a menudo podía ser buena idea hablar con un adulto de confianza o con un profesional de la salud. Y al final, en una línea aparte: *¿Quieres que te ayude a encontrar un psicólogo cerca de ti?*
+
+No contesté. Borré la conversación. Era la respuesta correcta, y era la respuesta de alguien que no te ha creído ni un momento.
+
+A nadie, pensé. No le pasa a nadie.
+
+Lo que me decidió a probar fueron las campanas.
+
+La noche anterior, el viernes, yo estaba en la plaza con una bolsa de pipas, haciendo tiempo para no llegar a casa, cuando el reloj de la iglesia empezó a dar las doce. En Vera los viernes pasa una cosa que a los de fuera les cuesta creer, y que a los de dentro ni se nos ocurre contar porque nos parece de lo más normal: el reloj de la Encarnación da trece campanadas. No a las doce. Trece. Siempre ha sido así, dice mi abuelo, desde antes de que él naciera. Los del ayuntamiento lo han mandado arreglar cuatro veces y las cuatro veces el relojero ha bajado de la torre diciendo que la máquina está perfecta.
+
+Lo bonito no son las campanadas. Lo bonito es lo que hace la gente.
+
+A la duodécima, todo el mundo se calla. Los de las terrazas dejan el vaso en la mesa. La pareja que discute en la esquina deja de discutir. El de los kebabs apaga la plancha. Los chavales de los patinetes paran con un pie en el suelo. Y se quedan así, quietos, mirando a ninguna parte, esperando la que sobra.
+
+Esa noche, mientras esperaba con todos, noté el picaporte.
+
+Ahí, a un palmo de la mano, sin miedo, sin nada. Como si la decimotercera campanada fuera una puerta que el pueblo entero abría una vez por semana sin saberlo, y yo fuera el único que se daba cuenta de que estaba abierta.
+
+¡Dong!, sonó la trece, grave, muy larga.
+
+Y la plaza siguió. Los vasos, la discusión, la plancha del kebab chisporroteando. Nadie comentó nada. Una señora le dijo a otra «hija, qué frío ha hecho hoy», que en Vera es una frase que se dice a dieciocho grados, y ya.
+
+Yo me quedé con la mano abierta y el corazón a mil. Esa noche, en la cama, escribí en la primera página de la libreta: *Hipótesis: la puerta se puede abrir sin miedo.*
+
 Mi madre estaba de guardia. Mi abuelo, abajo, con la radio puesta. En el patio de luces, la señora Pilar regaba sus geranios, que florecían a la luz de la farola con ese rosa fosforito que tienen solo por la noche. Cerré la ventana.
 
 Me senté en el suelo, con la espalda contra la cama y el reloj de bolsillo sobre las rodillas. Respiré como me había enseñado mi madre. Cinco cosas, cuatro, tres, dos, una. Y cuando llegué al final, entre un latido y otro, noté el picaporte.
@@ -533,7 +565,23 @@ Tuve una idea muy clara y muy mala: podía comprobar la hipótesis. Si salía 3 
 
 Pero la libreta estaba abierta, la hipótesis necesitaba datos, y a mí me pica no saber.
 
-*Prueba 3. Tres segundos. 00:05.* Apagón. Desperté a las 00:14. Nueve minutos, justo. Me sangraba la nariz en dos hilos y me temblaban las piernas.
+*Prueba 3. Tres segundos. 00:05.*
+
+Giré. Esta vez, dentro del silencio, me fijé en las cosas. En lo que hace el mundo cuando yo me salgo de él. El polvo de la lámpara se había quedado colgado en el aire, cada mota en su sitio, como estrellas en un planetario. La cortina estaba a medio ondear, con una curva que no se deshacía. En el patio, el chorro de la regadera de la señora Pilar era un hilo de cristal tieso entre el pico y los geranios.
+
+Y en el cristal de la ventana, que de noche hace de espejo, me vi a mí, sentado en el suelo con el móvil.
+
+Y detrás de mí, de pie, había alguien.
+
+No lo vi bien. Era una forma alta, más alta que yo, de hombre, con la cara cortada por el reflejo de la farola. Tenía una mano levantada. No como quien va a pegar. Como quien dice *para*. Como quien quiere agarrarte del brazo antes de que cruces la calle.
+
+Me giré.
+
+La habitación estaba vacía. Mi cama, mi silla, mi mochila tirada.
+
+«Uno… dos… tres…», conté, con la voz de disco lento, mirando el sitio vacío donde no había nadie. Y cerré la puerta.
+
+Apagón. Desperté a las 00:14. Nueve minutos, justo. Me sangraba la nariz en dos hilos y me temblaban las piernas. En el cristal de la ventana solo estaba yo, con cara de muerto. Me dije que había sido el reflejo de la puerta del armario. Me lo dije varias veces. La puerta del armario estaba cerrada.
 
 *Prueba 4. Cuatro segundos. 00:20.* Apagón. A las 00:36. Dieciséis minutos. Vomité en la papelera.
 
@@ -593,7 +641,62 @@ Blanco como el de una persona de setenta años.
 
 ### 10. El chico de la escalera
 
-Estuve dos días sin ir. Mi madre pidió cita con el médico y yo dije que sí a todo, con cara de pan. El tercer día volví al instituto con un gorro de lana hasta las cejas, que a veinticinco grados no tenía justificación ninguna. No tuve que darla. En un instituto nadie pregunta por un gorro.
+Estuve dos días sin ir.
+
+El lunes mi madre me llevó al centro de salud. La médica de cabecera era una mujer joven, de Granada, que hablaba muy rápido y escribía en el ordenador sin mirar el teclado. Me auscultó, me miró la garganta, me hizo seguir con los ojos un bolígrafo. Me tomó el pulso: sesenta y ocho. Normal. Mi madre dijo «el sábado tenía cuarenta y dos» y la médica la miró por encima de las gafas, con esa cara que se ponen entre ellos los sanitarios cuando uno de los dos está exagerando.
+
+«Lo habrá cogido mal, con los nervios».
+
+«Soy enfermera de urgencias», dijo mi madre. «No lo cogí mal».
+
+Hubo un silencio pequeño, de esos que solo se notan si eres hijo de alguien.
+
+La médica pidió una analítica, por si acaso. Dijo «crecimiento», «estrés», «a esta edad pasan cosas». Cuando le enseñé el pelo blanco, porque mi madre me obligó, se rio con cariño y me dijo que a ella le salió la primera cana a los catorce, en plena selectividad de su hermana, y que no me preocupara, que con doce años no se envejece. Lo dijo como una broma. Mi madre no se rio.
+
+Al salir, en el coche, mi madre puso la radio. Sonaba Estopa, y ella, que siempre canta Estopa a voces, aunque sea en un semáforo con las ventanillas bajadas, no cantó. Apagó la radio antes del estribillo.
+
+El martes por la tarde subió mi abuelo con un táper de caldo.
+
+Mi abuelo no sube nunca a casa. Vive en el piso de abajo, en el que vivía con mi padre, y desde que mi padre no está pasa allí las tardes con la radio y baja a la tienda por las mañanas, y la escalera que nos separa la sube solo en Nochebuena y en mi cumpleaños. Así que cuando le vi en la puerta de mi cuarto, con el táper envuelto en un paño de cocina y la boina en la otra mano, supe que mi madre se lo había contado.
+
+«Caldo de gallina», dijo. «Lo ha hecho la señora Pilar. Yo solo lo he subido».
+
+Se sentó en el borde de mi cama. Pesaba tan poco que el colchón casi no se hundió.
+
+Y entonces pasó una cosa que me tuvo despierto esa noche más que todo lo demás.
+
+El reloj de bolsillo estaba en mi mesilla, al lado del vaso de agua. Callado, como siempre. En cuanto mi abuelo se sentó, empezó a andar. Tic, tac, tic, tac, tranquilo, regular, como si nunca hubiera estado parado. Mi abuelo no lo miró. Yo no podía mirar otra cosa.
+
+«¿Te duele la cabeza?».
+
+«Un poco».
+
+«Ese gorro», dijo, señalando con la barbilla el gorro de lana que llevaba puesto dentro de casa, en la cama, a veinticinco grados. «Con este levante te vas a cocer».
+
+Alargó la mano. Me lo quitó, despacio, como quien levanta la tapa de una caja que no sabe qué tiene dentro. Miró el pelo blanco. No dijo nada. Le temblaron un poco los dedos, pero a mi abuelo le tiemblan siempre los dedos cuando no está arreglando un reloj.
+
+Me volvió a poner el gorro. Lo ajustó bien, por encima de las orejas.
+
+«Mejor así», dijo. «Hay cosas que no hace falta que vea todo el mundo».
+
+Se levantó. Fue hacia la puerta. Y en cuanto cruzó el umbral, el reloj de mi mesilla se calló. A media vuelta. Tic. Silencio.
+
+Me quedé mirando la puerta vacía mucho rato. Me dije que sería el peso, que al sentarse en la cama habría movido la mesilla y se habría soltado algún muelle. Me dije muchas cosas. Ese era mi plan con todo lo raro de aquel otoño: decirme cosas hasta que una sonara normal.
+
+Esa noche, a las once y cuarto, llegó la pregunta de Bienestar+.
+
+> Hola, Edu. ¿Has descansado mejor hoy? El sábado tu actividad nocturna fue inusual: estuviste despierto hasta las 3:12 y tu frecuencia cardíaca bajó a niveles poco habituales. Queremos asegurarnos de que estás bien.
+> ○ Estoy bien
+> ○ No estoy seguro
+> ○ Prefiero hablar con alguien
+
+Yo no le había contado a nadie a qué hora me había dormido. Ni lo sabía yo. Me miré la muñeca. El Pulso, que no me había quitado ni para ducharme, brillaba en la oscuridad con su lucecita verde, como un ojo que no parpadea.
+
+Marqué «Estoy bien». Me quedé con la sensación de haberle mentido a alguien que ya sabía la verdad.
+
+Nora me había escrito dos veces esos días, desde su cuadrado gris. *estás bien?* el lunes. *edu* el martes, solo eso, mi nombre en minúsculas. Lo dejé en visto las dos veces. No sabía qué contarle sin contárselo todo, y no podía contarle todo, porque todo incluía un pelo blanco, un hombre en mi ventana y un reloj que andaba cuando mi abuelo se sentaba en mi cama. Así que no le conté nada, que es lo que hago yo cuando no sé qué hacer, y me sentí fatal, que es lo que me pasa después.
+
+El miércoles volví al instituto con el gorro de lana hasta las cejas, que a veinticinco grados no tenía justificación ninguna. No tuve que darla. En un instituto nadie pregunta por un gorro. Lo más que pasó fue que alguien subió una foto mía al grupo con la frase «el valdés en su era rapero», y tuvo tres reacciones, y a la hora del recreo ya iban por otra cosa.
 
 Bruno y yo no nos hablábamos.
 
@@ -602,6 +705,54 @@ Es un tipo de silencio muy especial: no es de pelea, es de dos personas que se q
 Pero tenía otro problema, más grande, que no le había contado a nadie ni siquiera a Nora: llevaba dos semanas con la sospecha de que se me estaba yendo la cabeza.
 
 Porque yo había visto a ese chico en el vídeo. Y Bruno también lo había visto. Pero nadie más. Y a las cosas que ven dos personas y no ve nadie más, los médicos les tienen un nombre. Pensé en pedir cita con la doctora Ibarra y se me hizo un nudo en el estómago. Pensé en contárselo a mi madre y me di cuenta de que prefería comerme el gorro.
+
+Bueno. Nadie más no. Estaba Sergio.
+
+Sergio se sienta delante de mí en Geografía, y es de esos que no se meten con nadie porque están demasiado ocupados dibujando zapatillas en los márgenes del libro. Tiene un hermano mayor, Álex, que está en primero de Bachillerato y que hace los mejores vídeos de motos del pueblo. Fue Sergio quien escribió en el grupo, la noche del vídeo, que su hermano decía que salía alguien más. Y fue Sergio quien lo borró dos veces.
+
+A mitad de clase, mientras la profesora explicaba los ríos de Andalucía y nadie escuchaba, le di un toque en el hombro.
+
+«Oye. Lo que dijo tu hermano. Lo del vídeo».
+
+Sergio se giró a medias. Tenía el lápiz en la boca.
+
+«¿Qué vídeo?».
+
+«El mío. El del balón. Escribiste que tu hermano veía a alguien más».
+
+Se quitó el lápiz de la boca. Arrugó la frente, como quien intenta acordarse de un sueño.
+
+«Ah, sí. Qué random». Se rascó la cabeza. «Mi hermano dijo que había un chaval detrás de ti, en el fondo, apoyado en la pared. Que le sonaba muchísimo. Que juraba que había ido a su clase. Pero luego fue a buscarlo en las fotos de grupo de la ESO, y no salía en ninguna. Y se puso de un humor rarísimo. Le dio dolor de cabeza y se fue a dormir a las nueve, que no lo hace ni con fiebre».
+
+«¿Y qué dijo después?».
+
+«Nada. Al día siguiente le pregunté y no sabía de qué le hablaba». Sergio se encogió de hombros y volvió a girarse hacia la pizarra. Y luego, sin mirarme, en voz baja: «Por eso lo borré, ¿vale? Me dio mal rollo. No le des más vueltas».
+
+Le di más vueltas. Le di vueltas toda la clase de Geografía, y la siguiente de Inglés, y todo el camino hasta el recreo.
+
+En el pasillo, al bajar, me crucé con Nora.
+
+Venía en dirección contraria, pegada a la pared como siempre, con los auriculares puestos. Pensé que iba a pasar de largo. Me lo merecía. Pero se paró delante de mí, tan cerca que tuve que parar yo también, y se quitó un auricular.
+
+Me miró el gorro. Luego me miró a la cara. Luego otra vez el gorro. Tenía la arruga entre las cejas más honda que nunca.
+
+«Te has hecho algo», dijo.
+
+No era una pregunta.
+
+«Estuve malo. Un virus».
+
+«Ya». Se quedó un momento callada, con los ojos un poco desenfocados, como cuando alguien escucha una canción que suena muy lejos. «Estás de otro color, Edu. Más gris. Como una foto que se ha quedado al sol».
+
+«Gracias, eh. Muy amable».
+
+No se rio. Alargó la mano, como si fuera a tocarme el gorro, y a medio camino se arrepintió y la bajó.
+
+«No lo vuelvas a hacer», dijo, muy bajo.
+
+«¿El qué?».
+
+Pero ya se estaba poniendo otra vez el auricular. Se fue pasillo arriba, con la cabeza gacha, esquivando mochilas, y yo me quedé allí parado con la sensación de que me había leído entero, y de que no me iba a contar lo que había leído.
 
 Así que en el recreo me fui al rincón de la escalera de atrás, junto a la puerta del gimnasio. Me quedé quieto con el bocadillo en la mano, mirando el suelo. Mirando un charco. Mirando una hormiga que cargaba una miga como una mudanza.
 
@@ -616,6 +767,10 @@ Giré la cabeza de golpe para verlo de frente.
 Se había ido. El escalón estaba vacío.
 
 Volví a mirar de lado, hacia el charco, hacia la hormiga. Y allí estaba otra vez, con el mismo gesto tranquilo. Como si lo único que hiciera falta para verlo fuera no querer verlo.
+
+Entonces me fijé en el charco. El agua reflejaba la escalera entera: los peldaños, la barandilla verde, el trozo de cielo del ventanal. Y el último escalón, vacío. En el agua no había nadie sentado. Solo en el aire, de reojo, estaba él.
+
+La hormiga se había parado en el borde del charco, con su miga a cuestas. No se movía. Una mosca, a un palmo de mi bocadillo, tampoco. Estaba quieta en el aire, con las alas abiertas, como clavada en un corcho. No era como cuando yo giraba el picaporte: el ruido del patio seguía, los gritos, el balón contra la valla. Era solo aquel rincón. Como si alrededor del chico el tiempo fuera más espeso, igual que el aire alrededor de una estufa.
 
 No me atreví a hablar. No creo que hubiera podido. Me quedé con el bocadillo a medio camino y el corazón haciendo ruido en el pecho. El chico giró la cabeza, muy despacio, y me miró.
 
