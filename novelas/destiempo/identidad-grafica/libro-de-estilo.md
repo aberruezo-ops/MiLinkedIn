@@ -174,3 +174,12 @@ Pruebas: `ilustraciones/caras/`. Jobs: 34fa3734-77a7-4623-9fda-5904d275da80 (Edu
 ## 14. Personajes españoles (rige sobre la sección 7 en lo que choque)
 Estilo de novela gráfica española con un punto de manga, no manga puro. Proporciones europeas, ojos de tamaño real pero algo grandes para que se lea el iris. Rasgos mediterráneos: piel morena sugerida con rayado cálido, cejas oscuras marcadas, nariz con carácter, pecas. Ropa y detalles de barrio de Madrid: chándal, sudadera, cadenita, aros pequeños, camisa de cuadros abotonada, rebeca. Sin bufandas ni escudos de ningún equipo.
 Añadir a los prompts: *Spanish graphic-novel ink style with a light manga influence, natural European proportions, unmistakably Spanish, Mediterranean features, olive skin suggested with warm hatching, thick dark eyebrows.*
+
+## 15. Portadas vigentes (v4, Almería)
+| Libro | Escena | Lo que es de Almería |
+|---|---|---|
+| I | Edu esquiva el balón en una pista al aire libre, seis exposiciones | Casas blancas, palmeras, chumberas y pitas, el cerro con la estatua, un Indalo pintado en el muro |
+| II | Edu y Nora caminan por un malecón; debajo, el mismo puerto congelado y del revés | Puerto pesquero con faro, balaustrada blanca, sierra pelada con una fortaleza |
+| III | Cinco edades de Edu cruzando el desierto, con el reloj como sol poniente | Badlands, pitas en flor; bajo el hielo, la Alcazaba de Almería y el Cable Inglés |
+
+Truco de composición que ha funcionado: pedir que el 35 % superior sea negro liso sin nada dibujado. Carpeta: `ilustraciones/portadas-v4-almeria/`.

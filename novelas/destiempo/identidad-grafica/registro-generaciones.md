@@ -17,3 +17,6 @@ Se mantienen de tandas anteriores: Íñigo f1679947…, Pilar, Ernesto, Rosa, L�
 
 ## Portadas v3 españolizadas (2k)
 I 36d61b3f-b390-45a8-be6d-4eaeb7e56271 · II b6917552-fb3c-4171-9a35-7106082c0d61 · III 0a9b52fe-5ecb-4d3c-b054-01fe0a2d447c
+
+## Portadas v4 Almería (2k, vigentes)
+I 4c99133e-d5f7-43a7-a97a-0be8d2d97b30 · II 8c627c9f-5709-4c74-bff6-7ec9aed25d30 · III f92d8b60-57fe-42fc-b0ce-383dc0ac8d1c
