@@ -225,6 +225,13 @@ El libro tiene que oler a hoy sin quedarse viejo en tres años. Cómo se consigu
 
 Hecho en el libro I: Mecano (cap. 5), Ibai y Rosalía (cap. 17), Estopa (cap. 18), Penélope Cruz (cap. 19), la Piquer (cap. 23).
 
+**Indicación del autor (noviembre de 2026): que los chavales se reconozcan.** Más jerga actual, música actual y, sobre todo, comportamientos y actitudes de adolescentes de hoy. Cómo se combina con la regla de no caducar:
+
+- **Comportamiento primero.** Es lo que más identifica y lo que menos envejece: el grupo de clase que vibra cuando han subido algo de ti, grabar en vertical por si pasa algo, dejar en visto, el baile de «hago como que no te he visto», reírse para no ser el siguiente, los directos con un auricular, los perfiles sin foto.
+- **Jerga en boca de los personajes, no del narrador.** Edu narra en un castellano limpio; los chavales hablan como hablan («no te rayes», «literal», «NPC», «qué cringe»). Preferir palabras que ya llevan años en uso. Una o dos por escena.
+- **Música actual con carrera larga.** Bad Bunny entra en el cap. 7 (el altavoz del autobús de Antas). Rosalía, Ibai y similares siguen valiendo. Evitar el éxito de un verano.
+- **Pendiente:** si se quiere sabor almeriense en el habla de los chavales (ver punto 4 del ESTADO), decidirlo antes de seguir ampliando, porque afecta a todos los diálogos.
+
 ## 9. Realismo mágico
 
 Lo extraordinario ocurre en el barrio con naturalidad, sin explicación y sin que nadie se asombre. Solo Edu empieza a fijarse.

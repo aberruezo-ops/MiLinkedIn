@@ -5,6 +5,62 @@
 
 ### 7. El Programa de Bienestar
 
+Mi madre llegó de la guardia a las siete y veinte, que es la hora a la que llega cuando la noche ha ido mal. Si ha ido bien, llega a las siete y diez. Si ha ido muy mal, no llega, y me manda un audio desde el coche, parada en el arcén de la autovía, diciendo que está bien y que me tome la leche.
+
+La oí dejar las llaves en el platito de la entrada. Después, nada. Después, el grifo.
+
+Salí de mi cuarto. Estaba en la cocina con el uniforme verde todavía puesto debajo del abrigo, bebiendo agua a morro, y tenía esa cara que se le pone cuando ha visto algo que no me va a contar. En Urgencias de Huércal-Overa, de noche, entra de todo: accidentes en la autovía, abuelos que se caen, gente de los invernaderos con las manos cortadas. Ella dice que lo peor no es la sangre. Lo peor es la sala de espera.
+
+«Buenos días, cariño».
+
+«Buenos días».
+
+Me hizo una tostada con tomate y aceite sin quitarse el abrigo. Cortó el pan torcido, como siempre, y le echó demasiada sal, como siempre, y yo me la comí entera porque era la primera cosa normal en una semana.
+
+«¿A qué hora es?», preguntó sin mirarme.
+
+«A las diez».
+
+Asintió. Se sentó enfrente de mí con las manos alrededor de un vaso de leche que no iba a beberse. Le vi las ojeras, moradas, y una tirita en el dedo gordo.
+
+«Es una psicóloga, Edu. Hablas con ella, le cuentas lo que te apetezca, y ya está. No es un examen».
+
+«Ya».
+
+«Y si te pregunta por papá…».
+
+«Que no conteste. Ya me lo dijiste».
+
+Se quedó callada un momento. Fuera empezaba a clarear y los tejados de enfrente se ponían de color carne. Abajo, en la calle, alguien subía la persiana de la panadería con ese estruendo que en Vera hace las veces de despertador.
+
+«No es que tengas que mentir», dijo. «Es que no hace falta que lo cuentes todo. Hay cosas que son nuestras».
+
+Me pareció una frase preparada. Me pareció que la había dicho en voz alta en el coche, varias veces, para ver cómo sonaba. No se lo dije. Le di un beso en la mejilla, que olía a hospital y a gel de manos, y ella me agarró la muñeca, la del Pulso, y me la apretó un poco más de la cuenta.
+
+«Llámame cuando salgas».
+
+«Vas a estar dormida».
+
+«Llámame igual».
+
+El instituto está a doce minutos andando de casa si vas por la calle Mayor y a once si cortas por detrás de la plaza de toros. Yo corto siempre. Son setecientos cuarenta pasos, o eran setecientos cuarenta cuando tenía piernas de once años; ahora son seiscientos noventa y algo, y cada mañana me prometo contarlos bien y cada mañana me pierdo cuando paso por delante de la tienda de mi abuelo. Ese martes la persiana estaba a medio subir. Dentro se veía una bombilla encendida y una espalda encorvada sobre el mostrador. No me paré. Oí la tos desde la acera de enfrente.
+
+En la puerta del instituto había el atasco de siempre: coches en doble fila, madres con el motor en marcha, un autobús de Antas soltando chavales con sueño. Uno de ellos llevaba un altavoz enganchado a la mochila con Bad Bunny a todo volumen, a las ocho y cuarto de la mañana, y nadie le decía nada porque en mi instituto el que pone la música es el que manda. Bruno estaba en el muro, con los de su clase de Tecnología, todos con la cabeza metida en el móvil, pasando vídeos cortos con el pulgar como quien reza un rosario. Me vio. Hizo como que no me había visto. Yo hice como que no había visto que hacía como que no me había visto, que es un baile que en mi instituto se aprende antes que las tablas de multiplicar.
+
+Dani me alcanzó en el pasillo de primero, al lado de las taquillas.
+
+«Eh, Valdés». Venía con dos de su equipo, los tres oliendo a desodorante de bote. «Dicen que hoy vas al loquero».
+
+No contesté. Seguí andando. Ciento dos baldosas desde la puerta hasta las escaleras, ya contadas.
+
+«Que es broma, tío, no te rayes». Me pasó un brazo por los hombros, pesado como un saco de cemento. «Con un padre así, yo también iría, literal. ¿Te va a preguntar si te gustan los tíos? Porque eso se hereda, ¿eh? Lo dice mi padre».
+
+Los otros dos se rieron. Uno ya tenía el móvil fuera, en vertical, grabando por si yo hacía algo que mereciera subirse al grupo. Una chica de segundo que estaba abriendo su taquilla se rio también, sin mucha gana, porque reírse es más barato que no reírse.
+
+Me quité su brazo de encima. No le miré. Ciento tres, ciento cuatro. Lo había hecho tantas veces que ya no me dolía en el pecho, me dolía más abajo, en un sitio sin nombre que solo se despertaba en ese pasillo. Detrás oí a Dani decir algo más, algo con la palabra «maricón» dentro, y oí una risa que se cortó, y una puerta.
+
+No me giré. Llegué a las escaleras. El Pulso marcaba 104. En el bolsillo, el móvil vibró dos veces seguidas, que es como vibra el grupo de clase cuando alguien ha subido algo de ti. No lo miré. Ya sabía lo que era: yo, de espaldas, andando por un pasillo, con un audio de risas encima y tres emojis de llorar de risa. A la hora de comer ya no se acordaría nadie. A mí se me iba a quedar hasta la noche.
+
 El despacho de la doctora Ibarra no tenía ningún reloj.
 
 Lo noté al segundo, claro, porque soy de los que miran dónde está la hora igual que otros miran dónde está la salida. Había un sofá de pana verde, una planta enorme con hojas como orejas, un cuenco de mandarinas y estanterías con libros de lomo gastado. En la pared del fondo, un clavo vacío. Debajo, en el parquet, un cuadrado más claro, que es lo que queda donde hubo algo mucho tiempo.
@@ -23,7 +79,7 @@ Ella se sentó enfrente, en una butaca más baja que el sofá, y esa fue la prim
 
 «¿Y si digo "paso" a todo?».
 
-Sonrió. Tenía una sonrisa que se le ponía primero en los ojos. «Entonces habremos hablado del tiempo. Que, por cierto, está feo».
+Sonrió. Tenía una sonrisa que se le ponía primero en los ojos. «Entonces habremos hablado del tiempo. Que, por cierto, hoy sopla levante y me tiene la cabeza como un bombo».
 
 Reí, un poco. Me odié por reír. En el bolsillo de la sudadera noté el reloj de mi abuelo, frío y callado, y repasé las órdenes del lunes: de mi abuelo, *no se lo enseñes a nadie*; de mi madre, *no contestes si te preguntan por tu padre*; de Nora, *no le cuentes nada*. Tres personas que me querían me habían dado la misma instrucción. Eso, por sí solo, ya era sospechoso.
 
@@ -83,7 +139,41 @@ Me dio un vuelco el estómago.
 
 Miré el suelo. En el parquet, el cuadrado claro de la pared de enfrente se reflejaba como un rectángulo de luz. Me dolía la garganta. No sé por qué. Creo que nadie me había dicho antes algo tan cierto, y menos una desconocida.
 
-El resto de la hora la pasamos así. Hablábamos de nada, ella dejaba huecos, y yo los llenaba con trozos pequeños que no eran del todo mentira. Al final tenía la sensación de haberle dado mucho y de no haberle dado nada, y no sabía cuál de las dos era peor.
+El resto de la hora la pasamos así. Hablábamos de nada, ella dejaba huecos, y yo los llenaba con trozos pequeños que no eran del todo mentira.
+
+Me preguntó por mi madre y le dije que era enfermera. Asintió como si ya lo supiera, y a lo mejor lo sabía, porque en Vera todo el mundo sabe a qué se dedica todo el mundo. Me preguntó si dormía bien y le dije que sí. Me preguntó si había contestado la pregunta de Bienestar+ de la noche anterior, la de los ciento cuarenta pulsos, y le dije que no.
+
+«¿Por qué no?».
+
+«Porque ninguna de las tres respuestas era la buena».
+
+Se le iluminó la cara, de verdad, como cuando un profesor oye la respuesta que no esperaba.
+
+«Eso es lo más inteligente que me han dicho este mes», dijo. «Y te voy a contar un secreto: la app la hizo gente que no ha tenido doce años nunca. Si alguna vez quieres contestar algo que no está en la lista, me lo cuentas a mí. Yo no tengo casillas».
+
+Después me preguntó por mi abuelo.
+
+No me lo esperaba. Fue tan de pasada, entre la pregunta de si tenía mascotas y la de si me gustaba leer, que tardé un segundo en notar que había cambiado algo en la habitación.
+
+«Tienes un abuelo relojero, ¿verdad? La tienda de al lado del mercado».
+
+«Sí».
+
+«Una vez le llevé un reloj a arreglar. Uno de pulsera, de mi hijo. Se le había mojado». Miró por la ventana. «Tu abuelo lo abrió delante de mí, le echó un vistazo con la lupa en el ojo y me dijo que no tenía arreglo. No me cobró nada. Le insistí y me dijo: "Señora, lo que no se puede arreglar no se cobra"».
+
+Era una frase de mi abuelo. La había oído cien veces. Y me dio una rabia muy rara oírla en boca de ella, como cuando alguien se pone tu chaqueta sin pedírtela.
+
+«¿Y qué hizo con el reloj?», pregunté.
+
+«Lo guardé. Todavía lo tengo». Volvió a mirarme y sonrió. «Bueno. Hablábamos de libros».
+
+Le dije que no leía mucho, que era mentira, y ella no insistió, y cuando por fin me preguntó si echaba de menos a alguien, así, en general, sin nombre, dije:
+
+«Paso».
+
+Era la primera vez que lo usaba. Ella hizo un gesto con la mano, como quien abre una ventana para que salga una mosca, y pasamos. Ni un suspiro, ni una nota en la tableta. Pasamos.
+
+Al final tenía la sensación de haberle dado mucho y de no haberle dado nada, y no sabía cuál de las dos era peor.
 
 Al terminar me acompañó hasta la puerta. Con la mano en el pomo, como quien se acuerda de algo menor, dijo:
 
@@ -113,13 +203,47 @@ No se lo había contado a nadie. Nunca.
 
 ### 8. Nora no habla
 
-El primer mensaje me llegó en medio de una clase de Lengua, con el móvil bocabajo sobre las rodillas y el corazón de un delincuente.
+El miércoles intenté hablar con Bruno.
+
+Lo pillé en el recreo, detrás de las pistas, donde se juntan los que no juegan al fútbol a hacer como que no les importa no jugar al fútbol. Estaba sentado en el bordillo con el móvil en horizontal, viendo un directo de Ibai con un solo auricular puesto, y comiéndose un bocadillo de chopped que olía desde la canasta.
+
+«Bruno».
+
+«Ey». No levantó la vista.
+
+«¿Podemos hablar?».
+
+«Estamos hablando, ¿no?».
+
+Me senté a su lado. Él se movió dos dedos hacia la izquierda, que en idioma Bruno es un portazo. En el directo alguien gritaba y miles de mensajes subían por la pantalla como burbujas en un refresco.
+
+«Lo del vídeo», dije. «Gracias por decir que era una app».
+
+«Ya». Le dio un bocado al bocadillo. «Decir que era una app me ha costado la mitad de los suscriptores, que lo sepas. La otra mitad son mis primos, que no se dan de baja ni aunque los mate».
+
+«Lo siento».
+
+«No, si da igual». Por fin me miró. Tenía la cara de cuando juega a algo online y le matan con trampas. «Lo que me raya no es eso, tío. Lo que me raya es que tú sabes lo que pasó y yo sé lo que pasó, y tú me miras a la cara y me dices que no pasó nada. Como si fuera tonto. Como si fuera un NPC».
+
+Abrí la boca. La cerré. Detrás de nosotros sonó un balón contra la valla y alguien gritó «¡Dani, pásala, que no es tuya!».
+
+«No puedo, Bruno».
+
+«Vale». Se puso el otro auricular. «Pues cuando puedas, me escribes».
+
+Me quedé ahí sentado un minuto más, porque levantarme enseguida habría sido admitir que me había echado. Él siguió viendo el directo. Se reía en los mismos sitios que los miles de mensajes. Yo le conocía desde los cuatro años y nunca le había visto reírse de algo que no le hacía gracia.
+
+El primer mensaje me llegó al día siguiente, en medio de una clase de Lengua, con el móvil bocabajo sobre las rodillas y el corazón de un delincuente.
 
 **Número desconocido:** *no respondas en voz alta*
 **Número desconocido:** *ni con la cara*
 **Número desconocido:** *banco del mirador, en el cerro, debajo de la estatua, a las cinco. ve solo*
 
 Levanté la vista. Dos filas más atrás, con los auriculares colgados del cuello y la cabeza inclinada sobre un cuaderno, Nora escribía algo con un lápiz muy fino, sin mirarme. Ni un gesto. Si yo hubiera sido espía, habría dicho que era mejor que yo.
+
+Mi número lo había sacado del grupo de clase, claro, como todo el mundo saca todo. Lo que me descolocó fue que no me hubiera escrito por privado con su nombre, con su foto, como una persona normal. Su perfil no tenía foto. Tenía un cuadrado gris. Y el estado decía, en minúsculas: *no estoy*.
+
+Le contesté con un pulgar. Me pareció lo más discreto. Ella lo dejó en visto en menos de un segundo y no volvió a escribir.
 
 A las cinco menos diez subía la cuesta del cerro del Espíritu Santo con la mochila al hombro. Es el monte pelado que hay pegado al pueblo, con una estatua blanca del Sagrado Corazón arriba del todo. Dicen que ahí estuvo la Vera antigua, hasta que un terremoto la tiró entera hace quinientos años y la gente bajó a hacerla otra vez en el llano. Desde arriba se ve todo: los tejados, la torre de la iglesia, que parece más un castillo que una iglesia, los invernaderos brillando como un lago de leche y, al fondo, la raya del mar. A la derecha, Mojácar, blanca, colgada de su monte como ropa tendida. A la izquierda, lejos, el castillo de Cuevas y las montañas peladas de Almagrera, que están huecas de tanta mina. En octubre, a esa hora, huele a tomillo y a tierra caliente. Un niño le tiraba migas a unas palomas junto al mirador, y una de ellas, gris, con la pata torcida, me miró.
 
@@ -163,7 +287,39 @@ Se me paró la respiración.
 
 «No lo sabía. Me lo imagino». Miró el mar. «Todo cuesta algo».
 
-No me quedé tranquilo. Era una respuesta que se parecía mucho a una excusa. Pero Nora ya estaba hablando de otra cosa, del termo, de si quería chocolate, de que en la ciudad de la que venía las palomas eran más grandes. Y lo dejé estar. Porque estaba tan aliviado de que no se hubiera reído que no quise darle más vueltas.
+No me quedé tranquilo. Era una respuesta que se parecía mucho a una excusa. Así que le conté lo último, lo que no le había contado a nadie porque no sabía ni cómo empezar a contarlo.
+
+«Ayer la psicóloga me dijo el nombre de mi padre».
+
+Nora no se movió. Pero algo cambió en ella, como cuando en una foto alguien ha pestañeado justo en el disparo.
+
+«En el instituto nadie sabe cómo se llama», seguí. «Ni los profes. En la ficha pone "padre: ausente", lo vi una vez en secretaría. Y ella me dijo "Raúl". Y me dijo que contaba segundos. Que es una cosa que hacía él. Conmigo. Cuando yo era pequeño».
+
+«¿Qué más te dijo?».
+
+«Nada. "Hasta el jueves"». Me miré las uñas, mordidas hasta la carne. «¿Tú crees que es normal? Que una psicóloga sepa cosas de ti antes de que se las digas».
+
+Nora abrió la libreta. Escribió algo rápido, con el lápiz muy apretado, y la cerró antes de que me diera tiempo a leerlo. Pero lo vi del revés, de reojo, porque leer del revés es una de las pocas cosas que se me dan bien. Eran dos palabras, subrayadas dos veces.
+
+*SIN COLOR.*
+
+«¿Qué es eso?».
+
+«Nada. Apuntes». Se metió la libreta debajo del muslo, como quien se sienta encima de una carta. «Las psicólogas leen informes, Edu. Tu madre habrá rellenado algo. O el colegio de antes. No es tan raro».
+
+Lo dijo muy deprisa para alguien que hablaba tan despacio.
+
+«Has dicho "no es tan raro"», dije. «No has dicho "no es raro"».
+
+Se me quedó mirando. Por primera vez me pareció que me veía de verdad, no como se mira a un compañero de clase, sino como se mira algo que no esperabas encontrar en un cajón.
+
+«Eres más listo de lo que parece», dijo.
+
+«Gracias. Creo».
+
+«No era un piropo. Es un problema». Desenroscó el termo. «¿Quieres chocolate? Lo hace mi tía. Lleva canela y algo más que no me quiere decir. Creo que es pimienta. Mi tía es un poco psicópata con las especias».
+
+Y ya estaba hablando de otra cosa, del termo, de su tía, de que en la ciudad de la que venía las palomas eran más grandes y más chulas, que te miraban mal si no les dabas pan. Me hizo reír sin querer. Tenía un humor raro, seco, que te pillaba de lado. Y lo dejé estar. Porque estaba tan aliviado de que no se hubiera reído de mí que no quise darle más vueltas a lo que acababa de esconder debajo de la pierna.
 
 Entonces cambió el aire.
 
@@ -221,7 +377,35 @@ Respiró. Un aire muy hondo, tembloroso, de esos que parecen venir de muy lejos.
 
 Me ardían las orejas. Para disimular, serví chocolate en la tapa del termo, espeso y casi demasiado dulce, y se lo di. Bebió con las dos manos.
 
-Estuvimos un rato así, mirando cómo se encendían las luces del pueblo. Y entonces, sin soltar la tapa, Nora dijo en voz muy baja, sin mirarme:
+Estuvimos un rato así, mirando cómo se encendían las luces del pueblo. Primero las farolas de la carretera de Garrucha, en fila, como alguien que sube una cremallera. Después las de la plaza. Después, a lo lejos, los invernaderos, que de noche se iluminan por dentro y parecen naves espaciales aparcadas en el campo.
+
+«¿Cuántas veces te has mudado?», le pregunté.
+
+Ella tardó en contestar. Contó con los dedos, sin prisa, como si tuviera que acordarse.
+
+«Cuatro. En tres años».
+
+«Jo».
+
+«Sí». Bebió. «Cuatro institutos. Cuatro grupos de clase de los que me sacaron a la semana de irme. En uno me echaron antes de irme, que tiene su mérito».
+
+«¿Por qué os mudáis tanto?».
+
+«Por trabajo», dijo. Y luego, después de un silencio tan largo que pensé que ya no iba a decir nada más: «Y porque a veces es mejor irse antes de que te echen de menos».
+
+No entendí la frase. La entendí meses después, en un cementerio, y entonces me dolió entera.
+
+«Pues aquí no te vayas», le dije. Me salió así, sin pensar, y me puse rojo hasta el cuello.
+
+Nora se rio. Una risa corta, por la nariz, que le salió sin permiso.
+
+«Qué cringe eres, Valdés».
+
+«Ya».
+
+«No lo digo mal».
+
+Y entonces, sin soltar la tapa, Nora dijo en voz muy baja, sin mirarme:
 
 «Tengo que decirte una cosa de tu abuelo».
 
@@ -229,13 +413,29 @@ Se me paró el estómago.
 
 «¿Qué pasa con mi abuelo?».
 
-«Lo vi esta mañana, cuando me dejaron en el pueblo. Estaba en la puerta de la tienda, tosiendo». Hizo una pausa muy larga. «Me da una pena que no sé explicar. Como cuando una vela se está acabando y todavía alumbra mucho».
+«Lo vi esta mañana, cuando pasé por la calle de la tienda. Estaba en la puerta, tosiendo». Hizo una pausa muy larga. «Me da una pena que no sé explicar. Como cuando una vela se está acabando y todavía alumbra mucho».
 
 «¿Cómo sabes tú eso?».
 
 «No lo sé». Dejó la tapa sobre el banco con mucho cuidado. «A veces me pasa. No me hagas caso».
 
-Pero se lo hice. Esa noche me quedé despierto pensando en la vela.
+Pero se lo hice.
+
+Bajamos juntos hasta la primera curva, sin hablar, y allí ella tiró hacia la carretera y yo hacia el centro. No se despidió. Levantó la mano sin girarse, como en las películas, y se puso los auriculares, que no tenían música.
+
+Volví por la plaza. A esa hora la iglesia ya tenía los focos encendidos y las torres parecían más altas, más de castillo que nunca. En los bancos de la fuente había chavales de cuarto con patinetes eléctricos y una bolsa de pipas, grabándose bailes para subirlos, repitiendo el mismo paso veinte veces hasta que salía. Una de ellas me reconoció del vídeo y le dio un codazo a la de al lado. No me dijeron nada. Me hicieron una foto. Seguí andando.
+
+La persiana de la tienda estaba bajada, pero por la rendija de abajo salía una raya de luz amarilla. Me paré en la acera de enfrente. Dentro se oía la radio, una copla vieja que mi abuelo pone siempre que está solo, y por encima de la copla, cada poco, la tos. Una tos honda, de esas que parece que suben desde los zapatos.
+
+Crucé. Puse la mano en la persiana. Estaba fría.
+
+No llamé. No sé por qué. Supongo que porque si llamaba él me abriría con su cara de siempre, y diría que era el polvo de la tienda, y me daría una mandarina o un caramelo de los del frasco, y yo haría como que me lo creía. Y no tenía fuerzas para hacer como que me lo creía.
+
+Me quedé allí, con la mano en la persiana, contando las toses. Siete. Después, nada. Después, la radio sola.
+
+Subí a casa. Mi madre se había ido a la guardia y me había dejado una tortilla en el microondas y un pósit en la nevera con un corazón mal dibujado. Me comí la tortilla fría, de pie, mirando el móvil sin ver nada. En el grupo de clase seguían pasándose el vídeo del pasillo con nuevos stickers encima. Bruno no había reaccionado. Lo comprobé tres veces.
+
+Esa noche me quedé despierto pensando en la vela.
 
 ---
 
