@@ -154,7 +154,7 @@ Las torrijas estaban quemadas por un lado. Me comí cuatro.
 
 ### 20. El Instituto
 
-La doctora Ibarra salía todos los martes a las tres y diez, sacaba el coche del aparcamiento de profesores y no volvía hasta el jueves. Bruno lo había averiguado sin hackear nada, con el método tradicional de preguntárselo a Fermín mientras le alababa el periódico.
+La doctora Ibarra salía todos los martes a las tres y diez, sacaba el coche del aparcamiento de profesores y no volvía hasta el jueves. Los miércoles pasaba consulta en el instituto de Cuevas del Almanzora y los viernes en el de Garrucha. El Programa de Bienestar no era cosa nuestra: estaba en toda la comarca. Bruno lo había averiguado sin hackear nada, con el método tradicional de preguntárselo a Fermín mientras le alababa el periódico.
 
 «¿Y adónde va los martes?», pregunté.
 

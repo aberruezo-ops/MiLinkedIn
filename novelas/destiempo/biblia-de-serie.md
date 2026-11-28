@@ -78,6 +78,24 @@ La saga ocurre en **Vera**, en el levante de Almería, y en su comarca. Un puebl
 - **Los invernaderos**, el mar de plástico, y **el polígono**, donde está el edificio sin cartel de Cronos.
 - Para los libros II y III: Mojácar, las minas de Sierra Almagrera, el desierto de Tabernas, Cabo de Gata, la Alcazaba y el Cable Inglés de Almería, y el Indalo como símbolo.
 
+**La comarca, pueblo a pueblo.**
+
+| Pueblo | Qué aporta | Dónde aparece |
+|---|---|---|
+| **Vera** | El centro de todo: la relojería, el instituto, el cerro | Libro I |
+| **Garrucha** | El puerto, la lonja, el malecón. Primera visión del Destiempo. De aquí es Iván | I (cap. 1, 15, 16) y III |
+| **Mojácar** | El pueblo blanco en el monte y el Indalo. Aquí vive y da clase Íñigo | I (mención), II |
+| **Cuevas del Almanzora** | El castillo y las casas cueva. Aquí nació la señora Pilar. Ibarra pasa consulta en su instituto | I (mención), II |
+| **Antas** | El Argar, un poblado de hace cuatro mil años. De aquí es Lía | I (mención), II |
+| **Turre, Los Gallardos, Bédar** | Clientes de la relojería. De Bédar bajó don Ernesto | I (mención) |
+| **Huércal-Overa** | El hospital donde trabaja Marta | I (mención), II |
+| **Sierra Almagrera y Villaricos** | Minas abandonadas y galerías: montañas huecas. Buen sitio para esconder algo, o a alguien | II |
+| **Pulpí** | La geoda gigante: una cueva forrada de cristales. Candidata natural a ser una puerta al Destiempo, porque ya parece tiempo congelado | II |
+| **Sorbas** | Cuevas de yeso bajo el desierto | II o III |
+| **Tabernas, Cabo de Gata, Almería capital** | El desierto, la costa volcánica, la Alcazaba y el Cable Inglés | III y portadas |
+
+Regla: cada pueblo entra por una persona o por una necesidad de la trama, nunca como postal. Palomares queda fuera a propósito: lo que pasó allí en 1966 es real y tiene afectados; no se usa como decorado.
+
 **Datos por comprobar antes de publicar** (los he escrito de memoria): población de Vera, año exacto del terremoto, línea y horario del autobús a Garrucha, y que el hospital de referencia es el de Huércal-Overa.
 
 **Clima.** Casi no llueve y casi no hace frío. El viento es el levante. El gorro de lana de Edu no tiene excusa, y los abrigos grises cantan a la legua.

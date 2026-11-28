@@ -55,14 +55,14 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 - **Arco:** de la invisibilidad a decir su nombre en voz alta. **Su madre muere para que él pueda hacerlo.**
 - **Escena que no se olvida:** en el libro II, la última frase de su madre es su nombre. Él lo repite.
 
-### LÍA NAVARRO · 14 años · *aparece en el libro II*
+### LÍA NAVARRO · 14 años · de Antas · *aparece en el libro II*
 - **Quiere:** que alguien cuide de ella, aunque nunca lo ha pedido.
 - **Herida:** cuida sola a su madre con alzhéimer desde los 11 años.
 - **Don:** recuerda lo que los demás olvidan. Puede ver los minutos perdidos de otro.
 - **Papel:** es quien le muestra a Edu lo que vivió en sus apagones.
 - **Detalle:** lleva una libreta con los recuerdos que su madre ya no tiene.
 
-### IVÁN CASTRO · 13 años · *aparece en el libro III*
+### IVÁN CASTRO · 13 años · de Garrucha, familia de pescadores · *aparece en el libro III*
 - **Quiere:** que nadie le diga que se calme.
 - **Herida:** su hermano pequeño murió en un accidente al que llegó tarde. Cree que si hubiera sido más rápido...
 - **Don:** acelera todo lo que toca.
@@ -132,14 +132,14 @@ Cada personaje tiene **lo que quiere, lo que necesita, su herida, su secreto, su
 
 ---
 
-### LA SEÑORA PILAR (112 años, aparenta 70) · *aparece desde el capítulo 2*
+### LA SEÑORA PILAR (112 años, aparenta 70) · nacida en una casa cueva de Cuevas del Almanzora · *aparece desde el capítulo 2*
 - La vecina de los geranios que florecen de noche. Tomás le prestó tiempo durante cincuenta años. Es la guardiana de los secretos de Tomás y la que reúne a los demás en el funeral.
 - **Frase:** «Tu abuelo me debía una merienda. Ahora me la debes tú».
 
 ### DON ERNESTO (82) y ROSA (45)
 - Otros dos que viven de segundos prestados por Tomás. Aparecen en el funeral.
 
-### ÍÑIGO (39 años)
+### ÍÑIGO (39 años) · vive y da clase en Mojácar
 - El hombre al que vieron de la mano de Raúl. Su pareja durante dos años. Profesor de dibujo técnico. A él también le dijeron que Raúl se había ido, y se lo creyó porque era lo más fácil de creer.
 - Marta y él se cayeron bien desde el primer día, cosa que nadie del barrio entendió.
 - **Uso posible:** aparece en el funeral de Tomás, al fondo. En el libro II es un adulto más buscando a Raúl, y la prueba para Edu de que su padre no dejó a nadie por nadie.

@@ -29,7 +29,7 @@ El hombre ladeó la cabeza. Escuchó. Y cuando volvió a hablar, lo hizo con otr
 
 Se me erizó la nuca.
 
-«Me llaman Cronos. No soy una persona; te lo digo porque sé que valoras que no te mientan. Soy quien te da las buenas noches a las 23:14. A ti y a novecientos doce compañeros tuyos. Y a cuatrocientas mil personas más en esta provincia, con otros nombres y otras aplicaciones».
+«Me llaman Cronos. No soy una persona; te lo digo porque sé que valoras que no te mientan. Soy quien te da las buenas noches a las 23:14. A ti y a novecientos doce compañeros tuyos. A los de Cuevas, a los de Garrucha, a los de Mojácar, a los de Antas. Y a cuatrocientas mil personas más en esta provincia, con otros nombres y otras aplicaciones».
 
 «Es una IA», dijo Bruno, con la voz finita. «Está usando a un tío de altavoz».
 
@@ -349,7 +349,7 @@ Lo enterramos un jueves, en el cementerio de Vera, que es pequeño, blanco, y ti
 
 Vino más gente de la que yo esperaba. Medio pueblo. El del bar. La panadera. Fermín, el conserje, con una corbata negra que le quedaba corta. La madre de Bruno y, tres pasos por detrás, sin tocarla, el padre.
 
-Vino Íñigo.
+Vino Íñigo, desde Mojácar, donde sigue dando clase.
 
 Lo vi al fondo, junto a un ciprés, con un abrigo oscuro y las gafas en la mano. Más canoso. No se acercó. Mi madre lo vio también, dejó la fila, cruzó entre las tumbas y lo trajo del brazo hasta ponerlo a nuestro lado, donde va la familia. Él me miró el mechón blanco y no dijo nada. Me puso la mano en la nuca, como hacía mi padre.
 
@@ -405,9 +405,9 @@ Tres personas. Tres vecinos de toda la vida, de los que te dan un caramelo y te 
 
 «Espera», dijo don Ernesto. «Que faltan los chicos».
 
-Entre las tumbas de la izquierda había alguien andando. Una chica alta, de catorce o quince años, con una trenza y una libreta apretada contra el pecho. No la había visto en mi vida. Venía mirándolo todo con unos ojos muy atentos, como quien hace inventario.
+Entre las tumbas de la izquierda había alguien andando. Una chica alta, de catorce o quince años, con una trenza y una libreta apretada contra el pecho. No la había visto en mi vida. Luego supe que había venido andando desde Antas. Venía mirándolo todo con unos ojos muy atentos, como quien hace inventario.
 
-Por la derecha, saltando una lápida como si fuera una valla, un chaval rapado, con una cazadora roja, que no sabía estarse quieto ni en un mundo parado. Se plantó a tres metros, me miró de arriba abajo y dijo:
+Por la derecha, saltando una lápida como si fuera una valla, un chaval rapado, con una cazadora roja y las manos de quien ha descargado cajas en la lonja de Garrucha, que no sabía estarse quieto ni en un mundo parado. Se plantó a tres metros, me miró de arriba abajo y dijo:
 
 «¿Este es? Qué canijo».
 
@@ -463,7 +463,7 @@ Soltó el aire. Asintió muchas veces, muy rápido.
 
 La señora Pilar se había acercado al borde de la tumba. Se asomó. Chascó la lengua.
 
-«Cincuenta y cuatro años me ha tenido viva este hombre», dijo. «Yo tengo ciento doce, hijo. Yo he visto cantar a la Piquer en un teatro, para que te hagas una idea. No me mires así, que ya sé que no los aparento: aparento setenta, que tampoco es para tirar cohetes. Tu abuelo me daba un segundo cada mañana, al pasar por mi puerta. Uno. "Para los geranios, Pilar". Y a Ernesto, cuando lo del pulmón. Y a Rosa, que tenía que haberse ido de cría».
+«Cincuenta y cuatro años me ha tenido viva este hombre», dijo. «Yo tengo ciento doce, hijo. Yo nací en una casa cueva de Cuevas del Almanzora, cuando en las cuevas se vivía y no se hacían fotos. Yo he visto cantar a la Piquer en un teatro, para que te hagas una idea. No me mires así, que ya sé que no los aparento: aparento setenta, que tampoco es para tirar cohetes. Tu abuelo me daba un segundo cada mañana, al pasar por mi puerta. Uno. "Para los geranios, Pilar". Y a Ernesto, cuando lo del pulmón. Y a Rosa, que tenía que haberse ido de cría».
 
 «Nos prestaba tiempo», dijo Rosa, entre hipos. «A los tres. Y a otros que ya no están».
 

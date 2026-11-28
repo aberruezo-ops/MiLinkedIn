@@ -334,7 +334,7 @@ Comimos un rato en silencio. La tortilla estaba buena. Eso lo hacía todo más d
 
 «Mamá. ¿Quién es RV?».
 
-No dejó caer el tenedor ni nada de eso. Mi madre lleva catorce años en Urgencias; no se le caen las cosas. Lo dejó en el plato con mucho cuidado, alineado con el cuchillo.
+No dejó caer el tenedor ni nada de eso. Mi madre lleva catorce años en Urgencias, en el hospital de Huércal-Overa, con media hora de autovía a la ida y media a la vuelta; no se le caen las cosas. Lo dejó en el plato con mucho cuidado, alineado con el cuchillo.
 
 «¿De dónde has sacado eso?».
 
