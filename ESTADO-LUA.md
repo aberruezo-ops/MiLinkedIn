@@ -11,6 +11,7 @@ Cuentos para colorear de 4 a 8 años, firmados como Alex Berruezo. Descripción 
 - Ficha completa en `libro-lua2/ficha-amazon.md` (subtítulo, descripción, 7 palabras clave, categorías, precio 8,99 €, declaración de IA). Contenido completo en `libro-lua2/contenido-libro.md` y `.pdf`.
 - Raspi es gata (unificado). Regenerar: `python3 libro.py && node render.js && node aplanar_cubierta.js && python3 aplanar_cubierta.py`.
 - Última incidencia en KDP: la miniatura de la cubierta salía recortada porque el tamaño de impresión seguía en 6 x 9. Solución indicada: elegir 8,5 x 11, papel blanco, volver a subir interior y cubierta de papel blanco.
+- Ojo: en la portada en acuarela del II, Neu sale de pelo largo, y es de pelo corto. Sin corregir; corregirla costaría unos 2,75 créditos.
 - Pendiente de decisión del autor: cambiar «Texto e ilustraciones: Alex Berruezo» de la portadilla, porque las ilustraciones son de IA.
 
 ## Volumen III · «Lúa y el vecino nuevo» (`libro-lua3/`)
@@ -18,6 +19,9 @@ Cuentos para colorear de 4 a 8 años, firmados como Alex Berruezo. Descripción 
 - Personaje nuevo: Tilo, el erizo (`erizo.py`). Bicho escondido: Chispa, la luciérnaga. Texto completo en `contenido-libro.md`, ficha en `ficha-amazon.md`.
 - Pendiente: que el autor lea y apruebe el cuento; decidir el crédito de la portadilla (ahora solo pone «Alex Berruezo»).
 - Regenerar: `python3 libro.py && node render.js && node aplanar_cubierta.js && python3 aplanar_cubierta.py`.
+
+## Personajes
+Lúa, gatita gris. Raspi, gata parda atigrada. Neu, gata blanca de pelo corto. Hera, labradora color chocolate con el hocico canoso y collar rojo. Tilo, erizo (volumen III).
 
 ## Preferencias del autor
 Español, tono conversacional y directo, sin rayas «—» ni iconos. Decir siempre la verdad y avisar del coste en créditos. No afirmar que lo hecho con IA es humano.
